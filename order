@@ -1,0 +1,6 @@
+blfs libevdev
+blfs xorg-evdev-driver
+blfs libinput
+blfs xorg-libinput-driver
+blfs xorg-synaptics-driver
+blfs xorg-wacom-driver
