@@ -1,0 +1,25 @@
+{
+  "name": "UPower",
+  "version": "1.91.3",
+  "title": "UPower-1.91.3",
+  "anchor": "upower",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The UPower package provides an interface for enumerating power devices, listening to device events, and querying history and statistics. Any application or service on the system can access the org.freedesktop.UPower service via the system message bus.",
+  "download": "https://gitlab.freedesktop.org/upower/upower/-/archive/v1.91.3/upower-v1.91.3.tar.bz2",
+  "archive": "upower-v1.91.3.tar.bz2",
+  "md5": "bf09da2eb695224e249e38077460414c",
+  "size": "168 KB",
+  "disk_space": "12 MB (with tests)",
+  "build_time": "less than 0.1 SBU (add 0.8 SBU for tests)",
+  "dependencies": [
+    "libgudev",
+    "libusb",
+    "polkit"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 257,
+  "group_order": 0
+}

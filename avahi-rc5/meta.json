@@ -1,0 +1,25 @@
+{
+  "name": "Avahi-0.9-rc5",
+  "version": "",
+  "title": "Avahi-0.9-rc5",
+  "anchor": "avahi",
+  "page_type": "single",
+  "group": "networking-utilities",
+  "chapter": "Chapter 16. Networking Utilities",
+  "summary": "The Avahi package is a system which facilitates service discovery on a local network.",
+  "download": "https://github.com/lathiat/avahi/archive/v0.9-rc5/avahi-0.9-rc5.tar.gz",
+  "archive": "avahi-0.9-rc5.tar.gz",
+  "md5": "d2b4bd13a4dba40a7b56c3da8bf50fd2",
+  "size": "1.1 MB",
+  "disk_space": "30 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "glib",
+    "gtk3",
+    "libdaemon"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 539,
+  "group_order": 0
+}

@@ -1,0 +1,23 @@
+{
+  "name": "DateTime::Calendar::Julian",
+  "version": "0.108",
+  "title": "DateTime::Calendar::Julian-0.108",
+  "anchor": "perl-datetime-calendar-julian",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "DateTime::Calendar::Julian implements the Julian Calendar.",
+  "download": "https://www.cpan.org/authors/id/W/WY/WYANT/DateTime-Calendar-Julian-0.108.tar.gz",
+  "archive": "DateTime-Calendar-Julian-0.108.tar.gz",
+  "md5": "e68a782ba204b3935a1cfec81408f6fd",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "datetime"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 293,
+  "group_order": 10
+}

@@ -1,0 +1,24 @@
+{
+  "name": "openbox",
+  "version": "3.6.1",
+  "title": "openbox-3.6.1",
+  "anchor": "openbox",
+  "page_type": "single",
+  "group": "window-managers",
+  "chapter": "Chapter 27. Window Managers",
+  "summary": "Openbox is a highly configurable desktop window manager with extensive standards support. It allows you to control almost every aspect of how you interact with your desktop.",
+  "download": "http://openbox.org/dist/openbox/openbox-3.6.1.tar.gz",
+  "archive": "openbox-3.6.1.tar.gz",
+  "md5": "b72794996c6a3ad94634727b95f9d204",
+  "size": "944 KB",
+  "disk_space": "19 MB",
+  "build_time": "0.3 SBU",
+  "dependencies": [
+    "chapter-24-graphical-environments",
+    "pango"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 750,
+  "group_order": 0
+}

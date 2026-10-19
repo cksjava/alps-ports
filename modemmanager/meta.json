@@ -1,0 +1,29 @@
+{
+  "name": "ModemManager",
+  "version": "1.24.2",
+  "title": "ModemManager-1.24.2",
+  "anchor": "ModemManager",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "ModemManager provides a unified high level API for communicating with mobile broadband modems, regardless of the protocol used to communicate with the actual device.",
+  "download": "https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/archive/1.24.2/ModemManager-1.24.2.tar.gz",
+  "archive": "ModemManager-1.24.2.tar.gz",
+  "md5": "b72860c54670f362e947edba160fa98e",
+  "size": "2.0 MB",
+  "disk_space": "59 MB (with tests)",
+  "build_time": "0.3 SBU (Using parallelism=4; with tests)",
+  "dependencies": [
+    "libgudev",
+    "libxslt",
+    "glib",
+    "libmbim",
+    "libqmi",
+    "polkit",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 244,
+  "group_order": 0
+}

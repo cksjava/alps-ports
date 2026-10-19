@@ -1,0 +1,26 @@
+{
+  "name": "B::Hooks::EndOfScope",
+  "version": "0.28",
+  "title": "B::Hooks::EndOfScope-0.28",
+  "anchor": "perl-b-hooks-endofscope",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "B::Hooks::EndOfScope allows you to execute code when Perl finishes compiling the surrounding scope.",
+  "download": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/B-Hooks-EndOfScope-0.28.tar.gz",
+  "archive": "B-Hooks-EndOfScope-0.28.tar.gz",
+  "md5": "d738ba65539d4acd601d47cc3e2cbb3a",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "module-implementation",
+    "sub-exporter-progressive",
+    "variable-magic",
+    "try-tiny"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 338,
+  "group_order": 6
+}

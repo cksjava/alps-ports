@@ -1,0 +1,21 @@
+{
+  "name": "mtdev",
+  "version": "1.1.7",
+  "title": "mtdev-1.1.7",
+  "anchor": "mtdev",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The mtdev package contains Multitouch Protocol Translation Library which is used to transform all variants of kernel MT (Multitouch) events to the slotted type B protocol.",
+  "download": "https://bitmath.org/code/mtdev/mtdev-1.1.7.tar.bz2",
+  "archive": "mtdev-1.1.7.tar.bz2",
+  "md5": "483ed7fdf7c1e7b7375c05a62848cce7",
+  "size": "296 KB",
+  "disk_space": "2.5 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 133,
+  "group_order": 0
+}

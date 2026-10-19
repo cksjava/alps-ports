@@ -1,0 +1,26 @@
+{
+  "name": "cargo-c",
+  "version": "0.10.24",
+  "title": "cargo-c-0.10.24",
+  "anchor": "cargo-c",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The cargo-c package creates a cargo subcommand to build and install C-ABI compatible dynamic and static libraries.",
+  "download": "https://github.com/lu-zero/cargo-c/archive/v0.10.24/cargo-c-0.10.24.tar.gz",
+  "archive": "cargo-c-0.10.24.tar.gz",
+  "md5": "b6247bf8f5eac962f001ee8a37f1c25f",
+  "size": "38 KB",
+  "disk_space": "1.4 GB (with tests)",
+  "build_time": "0.7 SBU (add 5.2 SBU for tests)",
+  "dependencies": [
+    "rustc",
+    "libssh2"
+  ],
+  "build_before": [
+    "make-ca"
+  ],
+  "build_after": [],
+  "order": 268,
+  "group_order": 0
+}

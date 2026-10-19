@@ -1,0 +1,21 @@
+{
+  "name": "duktape",
+  "version": "2.7.0",
+  "title": "duktape-2.7.0",
+  "anchor": "duktape",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "duktape is an embeddable Javascript engine, with a focus on portability and compact footprint.",
+  "download": "https://duktape.org/duktape-2.7.0.tar.xz",
+  "archive": "duktape-2.7.0.tar.xz",
+  "md5": "b3200b02ab80125b694bae887d7c1ca6",
+  "size": "1003 KB",
+  "disk_space": "25 MB",
+  "build_time": "0.3 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 62,
+  "group_order": 0
+}

@@ -1,0 +1,23 @@
+{
+  "name": "lsof",
+  "version": "4.99.7",
+  "title": "lsof-4.99.7",
+  "anchor": "lsof",
+  "page_type": "single",
+  "group": "general-utilities",
+  "chapter": "Chapter 11. General Utilities",
+  "summary": "The lsof package is useful to LiSt Open Files for a given running application or process.",
+  "download": "https://github.com/lsof-org/lsof/releases/download/4.99.7/lsof-4.99.7.tar.gz",
+  "archive": "lsof-4.99.7.tar.gz",
+  "md5": "46647a774bb8ba630eb738c3aa1b5275",
+  "size": "1.2 MB",
+  "disk_space": "14 MB (with tests)",
+  "build_time": "0.6 SBU (with tests)",
+  "dependencies": [
+    "libtirpc"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 216,
+  "group_order": 0
+}

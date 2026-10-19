@@ -1,0 +1,24 @@
+{
+  "name": "MariaDB",
+  "version": "12.3.3",
+  "title": "MariaDB-12.3.3",
+  "anchor": "mariadb",
+  "page_type": "single",
+  "group": "databases",
+  "chapter": "Chapter 22. Databases",
+  "summary": "MariaDB is a community-developed fork and a drop-in replacement for the MySQL relational database management system.",
+  "download": "https://downloads.mariadb.org/interstitial/mariadb-12.3.3/source/mariadb-12.3.3.tar.gz",
+  "archive": "mariadb-12.3.3.tar.gz",
+  "md5": "83d962d0f5917a0445786cc31337b118",
+  "size": "213 MB",
+  "disk_space": "3.6 GB (906 MB installed)",
+  "build_time": "6.4 SBU (with parallelism=8, add 2.6 SBU for tests)",
+  "dependencies": [
+    "cmake",
+    "libevent"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 582,
+  "group_order": 0
+}

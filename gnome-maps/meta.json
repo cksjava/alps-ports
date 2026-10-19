@@ -1,0 +1,32 @@
+{
+  "name": "gnome-maps",
+  "version": "50.4",
+  "title": "gnome-maps-50.4",
+  "anchor": "gnome-maps",
+  "page_type": "single",
+  "group": "gnome-applications",
+  "chapter": "Chapter 34. GNOME Applications",
+  "summary": "GNOME Maps is a map application for GNOME.",
+  "download": "https://download.gnome.org/sources/gnome-maps/50/gnome-maps-50.4.tar.xz",
+  "archive": "gnome-maps-50.4.tar.xz",
+  "md5": "57dc52bcfae11390d364979f7713b58e",
+  "size": "1.2 MB",
+  "disk_space": "18 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "blueprint-compiler",
+    "desktop-file-utils",
+    "geoclue",
+    "geocode-glib",
+    "gjs",
+    "libadwaita",
+    "libgweather",
+    "libportal",
+    "librest",
+    "libshumate"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 966,
+  "group_order": 0
+}

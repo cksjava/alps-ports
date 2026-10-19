@@ -1,0 +1,24 @@
+{
+  "name": "Protobuf",
+  "version": "35.1",
+  "title": "Protobuf-35.1",
+  "anchor": "protobuf",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The Protobuf package contains utilities and libraries for using data in Google's data interchange format.",
+  "download": "https://github.com/protocolbuffers/protobuf/releases/download/v35.1/protobuf-35.1.tar.gz",
+  "archive": "protobuf-35.1.tar.gz",
+  "md5": "8d1f93c3aa115cd14ab4dc00a93567c5",
+  "size": "6.9 MB",
+  "disk_space": "116 MB",
+  "build_time": "1.2 SBU (with parallelism=4)",
+  "dependencies": [
+    "abseil-cpp",
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 139,
+  "group_order": 0
+}

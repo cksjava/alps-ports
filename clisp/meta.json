@@ -1,0 +1,23 @@
+{
+  "name": "Clisp",
+  "version": "2.49.95",
+  "title": "Clisp-2.49.95",
+  "anchor": "clisp",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "GNU Clisp is a Common Lisp implementation which includes an interpreter, compiler, debugger, and many extensions.",
+  "download": "https://anduin.linuxfromscratch.org/BLFS/clisp/clisp-2.49.95.tar.xz",
+  "archive": "clisp-2.49.95.tar.xz",
+  "md5": "e3b3ba6b3432280e4d4a766404f02d6f",
+  "size": "7.1 MB",
+  "disk_space": "146 MB (with tests; 34 MB installed)",
+  "build_time": "0.6 SBU (Using parallelism=4; add 0.3 SBU for tests)",
+  "dependencies": [
+    "libsigsegv"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 270,
+  "group_order": 0
+}

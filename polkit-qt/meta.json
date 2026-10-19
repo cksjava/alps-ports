@@ -1,0 +1,25 @@
+{
+  "name": "Polkit-Qt",
+  "version": "0.201.1",
+  "title": "Polkit-Qt-0.201.1",
+  "anchor": "polkit-qt",
+  "page_type": "single",
+  "group": "introduction-to-kde",
+  "chapter": "Chapter 29. Introduction to KDE",
+  "summary": "Polkit-Qt provides an API to PolicyKit in the Qt environment.",
+  "download": "https://download.kde.org/stable/polkit-qt-1/polkit-qt-1-0.201.1.tar.xz",
+  "archive": "polkit-qt-1-0.201.1.tar.xz",
+  "md5": "0b255fb033de543c3010ebec33f4d233",
+  "size": "58 KB",
+  "disk_space": "5.2 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "cmake",
+    "polkit",
+    "qt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 764,
+  "group_order": 0
+}

@@ -1,0 +1,23 @@
+{
+  "name": "lxqt-sudo",
+  "version": "2.4.0",
+  "title": "lxqt-sudo-2.4.0",
+  "anchor": "lxqt-sudo",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "The lxqt-sudo package is a graphical front end to sudo and su respectively.",
+  "download": "https://github.com/lxqt/lxqt-sudo/releases/download/2.4.0/lxqt-sudo-2.4.0.tar.xz",
+  "archive": "lxqt-sudo-2.4.0.tar.xz",
+  "md5": "03a9150184475ed85fe41124a81a0223",
+  "size": "44 KB",
+  "disk_space": "3.2 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "liblxqt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1030,
+  "group_order": 0
+}

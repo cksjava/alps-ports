@@ -1,0 +1,27 @@
+{
+  "name": "libgusb",
+  "version": "0.4.9",
+  "title": "libgusb-0.4.9",
+  "anchor": "libgusb",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The libgusb package contains the GObject wrappers for libusb-1.0 that makes it easy to do asynchronous control, bulk and interrupt transfers with proper cancellation and integration into a mainloop.",
+  "download": "https://github.com/hughsie/libgusb/releases/download/0.4.9/libgusb-0.4.9.tar.xz",
+  "archive": "libgusb-0.4.9.tar.xz",
+  "md5": "354a3227334991ea4e924843c144bd82",
+  "size": "52 KB",
+  "disk_space": "5.0 MB (with tests and docs)",
+  "build_time": "0.1 SBU (with tests and docs)",
+  "dependencies": [
+    "json-glib",
+    "libusb",
+    "glib",
+    "hwdata",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 98,
+  "group_order": 0
+}

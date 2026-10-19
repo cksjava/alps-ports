@@ -1,0 +1,30 @@
+{
+  "name": "GDM",
+  "version": "50.2",
+  "title": "GDM-50.2",
+  "anchor": "gdm",
+  "page_type": "single",
+  "group": "display-managers",
+  "chapter": "Chapter 26. Display Managers",
+  "summary": "GDM is a system service that is responsible for providing graphical logins and managing local and remote displays.",
+  "download": "https://download.gnome.org/sources/gdm/50/gdm-50.2.tar.xz",
+  "archive": "gdm-50.2.tar.xz",
+  "md5": "b6cc3ad55bf918bc3c32e647ce35a531",
+  "size": "984 KB",
+  "disk_space": "28 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "accountsservice",
+    "dconf-dconf-editor",
+    "libcanberra",
+    "gtk3",
+    "linux-pam",
+    "gnome-session",
+    "gnome-shell",
+    "systemd"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 745,
+  "group_order": 0
+}

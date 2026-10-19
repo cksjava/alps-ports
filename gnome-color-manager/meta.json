@@ -1,0 +1,27 @@
+{
+  "name": "gnome-color-manager",
+  "version": "3.36.2",
+  "title": "gnome-color-manager-3.36.2",
+  "anchor": "gnome-color-manager",
+  "page_type": "single",
+  "group": "gnome-applications",
+  "chapter": "Chapter 34. GNOME Applications",
+  "summary": "GNOME Color Manager is a session framework for the GNOME desktop environment that makes it easy to manage, install and generate color profiles.",
+  "download": "https://download.gnome.org/sources/gnome-color-manager/3.36/gnome-color-manager-3.36.2.tar.xz",
+  "archive": "gnome-color-manager-3.36.2.tar.xz",
+  "md5": "b23a411d3ab754da6ebc967716a971dc",
+  "size": "2.1 MB",
+  "disk_space": "17 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "colord",
+    "gtk3",
+    "itstool",
+    "little-cms",
+    "desktop-file-utils"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 962,
+  "group_order": 0
+}

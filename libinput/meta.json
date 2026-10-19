@@ -17,6 +17,8 @@
     "libevdev",
     "mtdev"
   ],
+  "build_before": [],
+  "build_after": [],
   "order": 682,
   "group_order": 3
 }

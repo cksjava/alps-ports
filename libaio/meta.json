@@ -1,0 +1,21 @@
+{
+  "name": "libaio",
+  "version": "0.3.113",
+  "title": "libaio-0.3.113",
+  "anchor": "libaio",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The libaio package is an asynchronous I/O facility (\"async I/O\", or \"aio\") that has a richer API and capability set than the simple POSIX async I/O facility. This library, libaio, provides the Linux-native API for async I/O. The POSIX async I/O facility requires this library in order to provide kernel-accelerated async I/O capabilities, as do applications which require the Linux-native async I/O API.",
+  "download": "https://releases.pagure.org/libaio/libaio-0.3.113.tar.gz",
+  "archive": "libaio-0.3.113.tar.gz",
+  "md5": "7d5be185f20eeaae15e267419950aaf7",
+  "size": "52 KB",
+  "disk_space": "1.1 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 83,
+  "group_order": 0
+}

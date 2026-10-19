@@ -1,0 +1,21 @@
+{
+  "name": "sassc",
+  "version": "3.6.2",
+  "title": "sassc-3.6.2",
+  "anchor": "sassc",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "SassC is a wrapper around libsass, a CSS pre-processor language.",
+  "download": "https://github.com/sass/libsass/archive/3.6.6/libsass-3.6.6.tar.gz",
+  "archive": "libsass-3.6.6.tar.gz",
+  "md5": "afda97284d75a030cabadf5b9f998a3b",
+  "size": "336 KB",
+  "disk_space": "135 MB",
+  "build_time": "0.4 SBU (Using parallelism=4)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 198,
+  "group_order": 0
+}

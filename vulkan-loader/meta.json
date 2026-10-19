@@ -1,0 +1,29 @@
+{
+  "name": "Vulkan-Loader",
+  "version": "1.4.357.0",
+  "title": "Vulkan-Loader-1.4.357.0",
+  "anchor": "vulkan-loader",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "The Vulkan-Loader package contains a library which provides the Vulkan API and provides core support for graphics drivers for Vulkan.",
+  "download": "https://github.com/KhronosGroup/Vulkan-Loader/archive/vulkan-sdk-1.4.357.0/Vulkan-Loader-vulkan-sdk-1.4.357.0.tar.gz",
+  "archive": "Vulkan-Loader-vulkan-sdk-1.4.357.0.tar.gz",
+  "md5": "ce35f16bee47e9faf0a50d682a2db77d",
+  "size": "1.8 MB",
+  "disk_space": "146 MB (with tests)",
+  "build_time": "0.4 SBU (with tests)",
+  "dependencies": [
+    "cmake",
+    "vulkan-headers",
+    "xorg-libraries",
+    "wayland",
+    "mesa"
+  ],
+  "build_before": [],
+  "build_after": [
+    "mesa"
+  ],
+  "order": 739,
+  "group_order": 0
+}

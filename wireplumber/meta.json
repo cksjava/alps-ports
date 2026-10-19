@@ -1,0 +1,27 @@
+{
+  "name": "Wireplumber",
+  "version": "0.5.15",
+  "title": "Wireplumber-0.5.15",
+  "anchor": "wireplumber",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "The Wireplumber package contains a session and policy manager for Pipewire.",
+  "download": "https://gitlab.freedesktop.org/pipewire/wireplumber/-/archive/0.5.15/wireplumber-0.5.15.tar.bz2",
+  "archive": "wireplumber-0.5.15.tar.bz2",
+  "md5": "dba978afa67ba317d99ef03285ad4733",
+  "size": "464 KB",
+  "disk_space": "100 MB (with tests)",
+  "build_time": "0.3 SBU (with tests)",
+  "dependencies": [
+    "glib",
+    "pipewire",
+    "systemd",
+    "linux-pam",
+    "lua"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1122,
+  "group_order": 0
+}

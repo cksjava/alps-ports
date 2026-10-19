@@ -1,0 +1,25 @@
+{
+  "name": "Freeglut",
+  "version": "3.8.0",
+  "title": "Freeglut-3.8.0",
+  "anchor": "freeglut",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "Freeglut is intended to be a 100% compatible, completely opensourced clone of the GLUT library. GLUT is a window system independent toolkit for writing OpenGL programs, implementing a simple windowing API, which makes learning about and exploring OpenGL programming very easy.",
+  "download": "https://downloads.sourceforge.net/freeglut/freeglut-3.8.0.tar.gz",
+  "archive": "freeglut-3.8.0.tar.gz",
+  "md5": "ca8361b5b6a64b07795b41bd24f6a23e",
+  "size": "528 KB",
+  "disk_space": "6.5 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "cmake",
+    "mesa",
+    "glu"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 706,
+  "group_order": 0
+}

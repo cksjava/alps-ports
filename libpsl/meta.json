@@ -1,0 +1,24 @@
+{
+  "name": "libpsl",
+  "version": "0.23.3",
+  "title": "libpsl-0.23.3",
+  "anchor": "libpsl",
+  "page_type": "single",
+  "group": "networking-libraries",
+  "chapter": "Chapter 17. Networking Libraries",
+  "summary": "The libpsl package provides a library for accessing and resolving information from the Public Suffix List (PSL). The PSL is a set of domain names beyond the standard suffixes, such as .com.",
+  "download": "https://github.com/rockdaboot/libpsl/releases/download/0.23.3/libpsl-0.23.3.tar.gz",
+  "archive": "libpsl-0.23.3.tar.gz",
+  "md5": "596df43f3c2a8f1d4a677b032ccbc820",
+  "size": "7.5 MB",
+  "disk_space": "51 MB",
+  "build_time": "less than 0.1 SBU (including tests)",
+  "dependencies": [
+    "libidn2",
+    "libunistring"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 561,
+  "group_order": 0
+}

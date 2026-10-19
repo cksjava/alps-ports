@@ -1,0 +1,24 @@
+{
+  "name": "Dovecot",
+  "version": "2.4.4",
+  "title": "Dovecot-2.4.4",
+  "anchor": "dovecot",
+  "page_type": "single",
+  "group": "mail-server-software",
+  "chapter": "Chapter 21. Mail Server Software",
+  "summary": "Dovecot is an Internet Message Access Protocol (IMAP) and Post Office Protocol (POP) server, written primarily with security in mind. Dovecot aims to be lightweight, fast and easy to set up as well as highly configurable and easily extensible with plugins.",
+  "download": "https://www.dovecot.org/releases/2.4/dovecot-2.4.4.tar.gz",
+  "archive": "dovecot-2.4.4.tar.gz",
+  "md5": "1cfdb796f726dff687b6431a3b6012c3",
+  "size": "7.9 MB",
+  "disk_space": "858 MB (53 MB installed; add 212 MB for tests)",
+  "build_time": "0.8 SBU (Using parallelism=4; add 11 SBU for tests)",
+  "dependencies": [
+    "libtirpc",
+    "linux-pam"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 578,
+  "group_order": 0
+}

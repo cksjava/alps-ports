@@ -1,0 +1,23 @@
+{
+  "name": "highway",
+  "version": "1.4.0",
+  "title": "highway-1.4.0",
+  "anchor": "highway",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The highway package contains a C++ library that provides portable SIMD/vector intrinsics.",
+  "download": "https://github.com/google/highway/archive/1.4.0/highway-1.4.0.tar.gz",
+  "archive": "highway-1.4.0.tar.gz",
+  "md5": "9d335797777e17f827c7980b8313a34b",
+  "size": "3.6 MB",
+  "disk_space": "41 MB",
+  "build_time": "0.6 SBU (with parallelism=4)",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 75,
+  "group_order": 0
+}

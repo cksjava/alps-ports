@@ -1,0 +1,25 @@
+{
+  "name": "Cbindgen",
+  "version": "0.29.4",
+  "title": "Cbindgen-0.29.4",
+  "anchor": "cbindgen",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Cbindgen can be used to generate C bindings for Rust code.",
+  "download": "https://github.com/mozilla/cbindgen/archive/v0.29.4/cbindgen-0.29.4.tar.gz",
+  "archive": "cbindgen-0.29.4.tar.gz",
+  "md5": "7e790e024bc678ad1b4431b0350679e9",
+  "size": "248 KB",
+  "disk_space": "255 MB (with tests)",
+  "build_time": "0.4 SBU (add 0.2 SBU for tests), both on a 4-core machine",
+  "dependencies": [
+    "rustc"
+  ],
+  "build_before": [
+    "make-ca"
+  ],
+  "build_after": [],
+  "order": 269,
+  "group_order": 0
+}

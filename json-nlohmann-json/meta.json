@@ -1,0 +1,23 @@
+{
+  "name": "json-3.12.0 (nlohmann-json)",
+  "version": "",
+  "title": "json-3.12.0 (nlohmann-json)",
+  "anchor": "nlohmann-json",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The nlohmann-json package provides a header-only in-memory JSON and interface library for C++. The package is simply called “json”, but most refer to it as “nlohmann json” to reduce ambiguity, and is done so here.",
+  "download": "https://github.com/nlohmann/json/archive/v3.12.0/json-3.12.0.tar.gz",
+  "archive": "json-3.12.0.tar.gz",
+  "md5": "c2528c3e04faccaaee44f1f8f3d30d99",
+  "size": "9.3 MB",
+  "disk_space": "21 MB (add 477 MB for tests)",
+  "build_time": "less than 0.1 SBU (add 5.8 SBU for tests)",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 79,
+  "group_order": 0
+}

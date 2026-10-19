@@ -1,0 +1,25 @@
+{
+  "name": "gnome-nettool",
+  "version": "42.0",
+  "title": "gnome-nettool-42.0",
+  "anchor": "gnome-nettool",
+  "page_type": "single",
+  "group": "gnome-applications",
+  "chapter": "Chapter 34. GNOME Applications",
+  "summary": "The GNOME Nettool package is a network information tool which provides GUI interface for some of the most common command line network tools.",
+  "download": "https://download.gnome.org/sources/gnome-nettool/42/gnome-nettool-42.0.tar.xz",
+  "archive": "gnome-nettool-42.0.tar.xz",
+  "md5": "ba99489e9e3a1af03e9f2719acac7beb",
+  "size": "413 KB",
+  "disk_space": "12 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "gtk3",
+    "itstool",
+    "libgtop"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 967,
+  "group_order": 0
+}

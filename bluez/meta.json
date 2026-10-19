@@ -1,0 +1,26 @@
+{
+  "name": "BlueZ",
+  "version": "5.87",
+  "title": "BlueZ-5.87",
+  "anchor": "bluez",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The BlueZ package contains the Bluetooth protocol stack for Linux.",
+  "download": "https://www.kernel.org/pub/linux/bluetooth/bluez-5.87.tar.xz",
+  "archive": "bluez-5.87.tar.xz",
+  "md5": "6c6f8445ec3d2fa3cc570a671ccea9fa",
+  "size": "2.3 MB",
+  "disk_space": "146 MB (with tests)",
+  "build_time": "0.8 SBU (using parallelism=4; with tests)",
+  "dependencies": [
+    "dbus",
+    "glib",
+    "libical",
+    "docutils"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 232,
+  "group_order": 0
+}

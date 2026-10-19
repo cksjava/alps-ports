@@ -1,0 +1,23 @@
+{
+  "name": "GLEW",
+  "version": "2.3.1",
+  "title": "GLEW-2.3.1",
+  "anchor": "glew",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "GLEW is the OpenGL Extension Wrangler Library.",
+  "download": "https://downloads.sourceforge.net/glew/glew-2.3.1.tgz",
+  "archive": "glew-2.3.1.tgz",
+  "md5": "923ac4437518cc7cd323adde8a4091ae",
+  "size": "848 KB",
+  "disk_space": "18 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "mesa"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 708,
+  "group_order": 0
+}

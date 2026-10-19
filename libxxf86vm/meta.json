@@ -1,0 +1,25 @@
+{
+  "name": "libXxf86vm",
+  "version": "1.1.7",
+  "title": "libXxf86vm-1.1.7",
+  "anchor": "libxxf86vm",
+  "page_type": "compound",
+  "group": "xorg-libraries",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg libraries provide library routines that are used within all X Window applications.",
+  "download": "https://www.x.org/pub/individual/lib/",
+  "archive": "libXxf86vm-1.1.7.tar.xz",
+  "md5": "bea9e3707fae6c3275769e771006fa0f",
+  "size": "12 MB",
+  "disk_space": "274 MB (47 MB installed) - if source directories not deleted",
+  "build_time": "1.8 SBU",
+  "dependencies": [
+    "fontconfig",
+    "libxcb",
+    "dbus"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 618,
+  "group_order": 28
+}

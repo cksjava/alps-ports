@@ -1,0 +1,23 @@
+{
+  "name": "xcursor-themes",
+  "version": "1.0.7",
+  "title": "xcursor-themes-1.0.7",
+  "anchor": "xcursor-themes",
+  "page_type": "single",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The xcursor-themes package contains the redglass and whiteglass animated cursor themes.",
+  "download": "https://www.x.org/pub/individual/data/xcursor-themes-1.0.7.tar.xz",
+  "archive": "xcursor-themes-1.0.7.tar.xz",
+  "md5": "070993be1f010b09447ea24bab2c9846",
+  "size": "1.4 MB",
+  "disk_space": "15 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "xorg-applications"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 667,
+  "group_order": 0
+}

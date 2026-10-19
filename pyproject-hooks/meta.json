@@ -1,0 +1,21 @@
+{
+  "name": "Pyproject_Hooks",
+  "version": "1.2.0",
+  "title": "Pyproject_Hooks-1.2.0",
+  "anchor": "pyproject-hooks",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Pyproject_Hooks is a low-level library for calling build-backends in pyproject.toml-based projects.",
+  "download": "https://files.pythonhosted.org/packages/source/p/pyproject-hooks/pyproject_hooks-1.2.0.tar.gz",
+  "archive": "pyproject_hooks-1.2.0.tar.gz",
+  "md5": "ed3dd1b984339e83e35f676d7169c192",
+  "size": "19 KB",
+  "disk_space": "520 KB (14 MB with tests)",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 489,
+  "group_order": 20
+}

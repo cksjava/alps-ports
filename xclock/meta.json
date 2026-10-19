@@ -1,0 +1,23 @@
+{
+  "name": "xclock",
+  "version": "1.2.1",
+  "title": "xclock-1.2.1",
+  "anchor": "xclock",
+  "page_type": "single",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The xclock package contains a simple clock application which is used in the default xinit configuration.",
+  "download": "https://www.x.org/pub/individual/app/xclock-1.2.1.tar.xz",
+  "archive": "xclock-1.2.1.tar.xz",
+  "md5": "73ae5b4b4b839e13891f9c7d6970b150",
+  "size": "176 KB",
+  "disk_space": "2.0 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "xorg-libraries"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 688,
+  "group_order": 0
+}

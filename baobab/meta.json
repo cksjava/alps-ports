@@ -1,0 +1,27 @@
+{
+  "name": "Baobab",
+  "version": "50.0",
+  "title": "Baobab-50.0",
+  "anchor": "baobab",
+  "page_type": "single",
+  "group": "gnome-applications",
+  "chapter": "Chapter 34. GNOME Applications",
+  "summary": "The Baobab package contains a graphical directory tree analyzer.",
+  "download": "https://download.gnome.org/sources/baobab/50/baobab-50.0.tar.xz",
+  "archive": "baobab-50.0.tar.xz",
+  "md5": "f6f4649a945ca419d8261236fa2c7de2",
+  "size": "604 KB",
+  "disk_space": "10 MB",
+  "build_time": "less than 0.1 SBU (Using parallelism=4)",
+  "dependencies": [
+    "adwaita-icon-theme",
+    "gtk4",
+    "itstool",
+    "libadwaita",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 956,
+  "group_order": 0
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Gcr",
+  "version": "3.41.2",
+  "title": "Gcr-3.41.2",
+  "anchor": "gcr",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "The Gcr package contains libraries used for displaying certificates and accessing key stores. It also provides the viewer for crypto files on the GNOME Desktop.",
+  "download": "https://download.gnome.org/sources/gcr/3.41/gcr-3.41.2.tar.xz",
+  "archive": "gcr-3.41.2.tar.xz",
+  "md5": "40a754ba44d5e95e4d07656d6302900c",
+  "size": "1012 KB",
+  "disk_space": "33 MB (with tests)",
+  "build_time": "0.2 SBU (with tests; both using parallelism=4)",
+  "dependencies": [
+    "glib",
+    "libgcrypt",
+    "p11-kit",
+    "gnupg",
+    "gtk3",
+    "libsecret",
+    "libxslt",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 914,
+  "group_order": 0
+}

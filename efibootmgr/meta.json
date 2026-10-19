@@ -1,0 +1,24 @@
+{
+  "name": "efibootmgr",
+  "version": "18",
+  "title": "efibootmgr-18",
+  "anchor": "efibootmgr",
+  "page_type": "single",
+  "group": "file-systems-and-disk-management",
+  "chapter": "Chapter 5. File Systems and Disk Management",
+  "summary": "The efibootmgr package provides tools and libraries to manipulate EFI variables.",
+  "download": "https://github.com/rhboot/efibootmgr/archive/18/efibootmgr-18.tar.gz",
+  "archive": "efibootmgr-18.tar.gz",
+  "md5": "e170147da25e1d5f72721ffc46fe4e06",
+  "size": "48 KB",
+  "disk_space": "1.1 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "efivar",
+    "popt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 38,
+  "group_order": 0
+}

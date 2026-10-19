@@ -1,0 +1,26 @@
+{
+  "name": "lxqt-config",
+  "version": "2.4.0",
+  "title": "lxqt-config-2.4.0",
+  "anchor": "lxqt-config",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "The lxqt-config package provides the LXQt Configuration Center.",
+  "download": "https://github.com/lxqt/lxqt-config/releases/download/2.4.0/lxqt-config-2.4.0.tar.xz",
+  "archive": "lxqt-config-2.4.0.tar.xz",
+  "md5": "7bb4cc66ce5fc8cd5bc53127643888a1",
+  "size": "408 KB",
+  "disk_space": "27 MB",
+  "build_time": "0.4 SBU (Using parallelism=4)",
+  "dependencies": [
+    "liblxqt",
+    "kconfig-for-lxqt",
+    "libkscreen-for-lxqt",
+    "xorg-libinput-driver"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1028,
+  "group_order": 0
+}

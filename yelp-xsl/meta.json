@@ -1,0 +1,24 @@
+{
+  "name": "yelp-xsl",
+  "version": "49.0",
+  "title": "yelp-xsl-49.0",
+  "anchor": "yelp-xsl",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "The Yelp XSL package contains XSL stylesheets that are used by the Yelp help browser to format Docbook and Mallard documents.",
+  "download": "https://download.gnome.org/sources/yelp-xsl/49/yelp-xsl-49.0.tar.xz",
+  "archive": "yelp-xsl-49.0.tar.xz",
+  "md5": "78a347ceef497c9e83abf7f644a753b0",
+  "size": "388 KB",
+  "disk_space": "8.0 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "libxslt",
+    "itstool"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 921,
+  "group_order": 0
+}

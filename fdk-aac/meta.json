@@ -1,0 +1,21 @@
+{
+  "name": "fdk-aac",
+  "version": "2.0.3",
+  "title": "fdk-aac-2.0.3",
+  "anchor": "fdk-aac",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "The fdk-aac package provides the Fraunhofer FDK AAC library, which is purported to be a high quality Advanced Audio Coding implementation.",
+  "download": "https://downloads.sourceforge.net/opencore-amr/fdk-aac-2.0.3.tar.gz",
+  "archive": "fdk-aac-2.0.3.tar.gz",
+  "md5": "f43e593991caefdce509ad837d3301bd",
+  "size": "2.8 MB",
+  "disk_space": "39 MB",
+  "build_time": "0.6 SBU (Using parallelism=4)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 1073,
+  "group_order": 0
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Tomlkit",
+  "version": "0.15.1",
+  "title": "Tomlkit-0.15.1",
+  "anchor": "tomlkit",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Tomlkit is an extensible, standards compliant build backend for python modules.",
+  "download": "https://files.pythonhosted.org/packages/source/t/tomlkit/tomlkit-0.15.1.tar.gz",
+  "archive": "tomlkit-0.15.1.tar.gz",
+  "md5": "8e5245fd4099c9a6f99774b24a4591ae",
+  "size": "176 KB",
+  "disk_space": "5.7 MB (add 17 MB for tests)",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [
+    "poetry-core"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 505,
+  "group_order": 36
+}

@@ -1,0 +1,30 @@
+{
+  "name": "librsvg",
+  "version": "2.62.3",
+  "title": "librsvg-2.62.3",
+  "anchor": "librsvg",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The librsvg package contains a library and tools used to manipulate, convert and view Scalable Vector Graphic (SVG) images.",
+  "download": "https://download.gnome.org/sources/librsvg/2.62/librsvg-2.62.3.tar.xz",
+  "archive": "librsvg-2.62.3.tar.xz",
+  "md5": "bf6d56ffe4cfa5426cf1a67bcabdf5ce",
+  "size": "6.5 MB",
+  "disk_space": "2.0 GB (with tests; 18 MB installed)",
+  "build_time": "0.6 SBU (add 0.3 SBU for tests; both using parallelism=4)",
+  "dependencies": [
+    "cairo",
+    "cargo-c",
+    "pango",
+    "gdk-pixbuf",
+    "glib",
+    "vala"
+  ],
+  "build_before": [
+    "make-ca"
+  ],
+  "build_after": [],
+  "order": 186,
+  "group_order": 0
+}

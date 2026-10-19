@@ -1,0 +1,25 @@
+{
+  "name": "cups-browsed",
+  "version": "2.1.1",
+  "title": "cups-browsed-2.1.1",
+  "anchor": "cups-browsed",
+  "page_type": "single",
+  "group": "printing",
+  "chapter": "Chapter 46. Printing",
+  "summary": "The cups-browsed daemon is used to browse the network for remote CUPS queues and IPP network printers and automatically create local queues pointing to them.",
+  "download": "https://github.com/OpenPrinting/cups-browsed/releases/download/2.1.1/cups-browsed-2.1.1.tar.xz",
+  "archive": "cups-browsed-2.1.1.tar.xz",
+  "md5": "293948973ebfc7ef4d5d8242d5733181",
+  "size": "412 KB",
+  "disk_space": "5.3 MB",
+  "build_time": "less than 0.1 SBU (Using parallelism=4)",
+  "dependencies": [
+    "avahi-rc5",
+    "libcupsfilters",
+    "libppd"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1146,
+  "group_order": 0
+}

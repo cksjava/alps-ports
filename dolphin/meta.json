@@ -1,0 +1,24 @@
+{
+  "name": "dolphin",
+  "version": "26.04.3",
+  "title": "dolphin-26.04.3",
+  "anchor": "dolphin",
+  "page_type": "single",
+  "group": "kde-frameworks-based-applications",
+  "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
+  "summary": "The dolphin package is a KDE Frameworks-based file manager.",
+  "download": "https://download.kde.org/stable/release-service/26.04.3/src/dolphin-26.04.3.tar.xz",
+  "archive": "dolphin-26.04.3.tar.xz",
+  "md5": "d16879ed6c66dbaff6e9123916c781c0",
+  "size": "5.6 MB",
+  "disk_space": "99 MB",
+  "build_time": "0.9 SBU (using parallelism=4)",
+  "dependencies": [
+    "building-kde-frameworks",
+    "phonon"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 835,
+  "group_order": 0
+}

@@ -1,0 +1,23 @@
+{
+  "name": "font-bh-ttf",
+  "version": "1.0.4",
+  "title": "font-bh-ttf-1.0.4",
+  "anchor": "font-bh-ttf",
+  "page_type": "compound",
+  "group": "xorg-fonts",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg font packages provide some scalable fonts and supporting packages for Xorg applications. Many people will want to install other TTF or OTF fonts in addition to, or instead of, these. Some are listed at the section called “TTF and OTF fonts”.",
+  "download": "https://www.x.org/pub/individual/font/",
+  "archive": "font-bh-ttf-1.0.4.tar.xz",
+  "md5": "063bfa1456c8a68208bf96a33f472bb1",
+  "size": "3.0 MB",
+  "disk_space": "8.8 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "xcursor-themes"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 672,
+  "group_order": 5
+}

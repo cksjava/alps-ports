@@ -1,0 +1,21 @@
+{
+  "name": "Data::Dump",
+  "version": "1.25",
+  "title": "Data::Dump-1.25",
+  "anchor": "perl-data-dump",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Data::Dump provides pretty printing of data structures.",
+  "download": "https://www.cpan.org/authors/id/G/GA/GARU/Data-Dump-1.25.tar.gz",
+  "archive": "Data-Dump-1.25.tar.gz",
+  "md5": "9bd7131ef0441e1e0e001bf85e9fae31",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 291,
+  "group_order": 8
+}

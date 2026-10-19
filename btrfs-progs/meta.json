@@ -1,0 +1,23 @@
+{
+  "name": "btrfs-progs",
+  "version": "7.1",
+  "title": "btrfs-progs-7.1",
+  "anchor": "btrfs-progs",
+  "page_type": "single",
+  "group": "file-systems-and-disk-management",
+  "chapter": "Chapter 5. File Systems and Disk Management",
+  "summary": "The btrfs-progs package contains administration and debugging tools for the B-tree file system (btrfs).",
+  "download": "https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v7.1.tar.xz",
+  "archive": "btrfs-progs-v7.1.tar.xz",
+  "md5": "5dbaaf17567022405d6fc9d0d185e812",
+  "size": "4.8 MB",
+  "disk_space": "70 MB (transient files created during tests need up to 10 GB)",
+  "build_time": "0.3 SBU (with parallelism=4; add 5.0 SBU for tests, up to 14 SBU on slow disks)",
+  "dependencies": [
+    "lzo"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 25,
+  "group_order": 0
+}

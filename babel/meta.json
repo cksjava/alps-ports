@@ -1,0 +1,23 @@
+{
+  "name": "babel",
+  "version": "2.18.0",
+  "title": "babel-2.18.0",
+  "anchor": "babel",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Babel package is an integrated collection of utilities that assist in internationalizing and localizing Python applications, with an emphasis on web-based applications.",
+  "download": "https://files.pythonhosted.org/packages/source/B/Babel/babel-2.18.0.tar.gz",
+  "archive": "babel-2.18.0.tar.gz",
+  "md5": "b5ea9705c2ad6f8c630e4a66d3dd2cfa",
+  "size": "9.5 MB",
+  "disk_space": "129 MB (with tests)",
+  "build_time": "0.1 SBU (with tests)",
+  "dependencies": [
+    "pytz"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 471,
+  "group_order": 2
+}

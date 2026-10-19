@@ -1,0 +1,21 @@
+{
+  "name": "MIT Kerberos V5",
+  "version": "1.22.2",
+  "title": "MIT Kerberos V5-1.22.2",
+  "anchor": "mitkrb",
+  "page_type": "single",
+  "group": "security",
+  "chapter": "Chapter 4. Security",
+  "summary": "MIT Kerberos V5 is a free implementation of Kerberos 5. Kerberos is a network authentication protocol. It centralizes the authentication database and uses kerberized applications to work with servers or services that support Kerberos allowing single logins and encrypted communication over internal networks or the Internet.",
+  "download": "https://kerberos.org/dist/krb5/1.22/krb5-1.22.2.tar.gz",
+  "archive": "krb5-1.22.2.tar.gz",
+  "md5": "42472b11771d074329e0cc776d2eb5fd",
+  "size": "8.4 MB",
+  "disk_space": "149 MB (with tests)",
+  "build_time": "0.4 SBU (Using parallelism=4; add 3.8 SBU for tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 14,
+  "group_order": 0
+}

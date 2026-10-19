@@ -1,0 +1,27 @@
+{
+  "name": "Phonon",
+  "version": "4.12.0",
+  "title": "Phonon-4.12.0",
+  "anchor": "phonon",
+  "page_type": "single",
+  "group": "introduction-to-kde",
+  "chapter": "Chapter 29. Introduction to KDE",
+  "summary": "Phonon is the multimedia API for KDE. It replaces the old aRts package. Phonon needs the VLC backend.",
+  "download": "https://download.kde.org/stable/phonon/4.12.0/phonon-4.12.0.tar.xz",
+  "archive": "phonon-4.12.0.tar.xz",
+  "md5": "e80e9c73967080016bdb3c0ee514ceab",
+  "size": "400 KB",
+  "disk_space": "23 MB",
+  "build_time": "0.2 SBU (Using parallelism=4)",
+  "dependencies": [
+    "cmake",
+    "extra-cmake-modules",
+    "glib",
+    "qt",
+    "phonon-backend-vlc"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 762,
+  "group_order": 0
+}

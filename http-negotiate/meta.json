@@ -1,0 +1,23 @@
+{
+  "name": "HTTP::Negotiate",
+  "version": "6.01",
+  "title": "HTTP::Negotiate-6.01",
+  "anchor": "perl-http-negotiate",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "HTTP::Negotiate provides a complete implementation of the HTTP content negotiation algorithm.",
+  "download": "https://cpan.metacpan.org/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz",
+  "archive": "HTTP-Negotiate-6.01.tar.gz",
+  "md5": "1236195250e264d7436e7bb02031671b",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "http-message"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 375,
+  "group_order": 43
+}

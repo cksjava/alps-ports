@@ -1,0 +1,23 @@
+{
+  "name": "luit",
+  "version": "20250912",
+  "title": "luit-20250912",
+  "anchor": "luit",
+  "page_type": "single",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The luit package is a filter that can be run between an arbitrary application and a UTF-8 terminal emulator. It will convert application output from the locale’s encoding into UTF‐8, and convert terminal input from UTF‐8 into the locale’s encoding.",
+  "download": "https://invisible-mirror.net/archives/luit/luit-20250912.tgz",
+  "archive": "luit-20250912.tgz",
+  "md5": "d03e636d2f919bb21e77aec16a53247d",
+  "size": "212 KB",
+  "disk_space": "1.8 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "xorg-applications"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 666,
+  "group_order": 0
+}

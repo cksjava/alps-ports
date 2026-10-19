@@ -1,0 +1,28 @@
+{
+  "name": "Simple-scan",
+  "version": "50.0",
+  "title": "Simple-scan-50.0",
+  "anchor": "simple-scan",
+  "page_type": "single",
+  "group": "scanning",
+  "chapter": "Chapter 47. Scanning",
+  "summary": "The Simple-scan package contains a modern document scanning application. It captures images using SANE, and supports the latest color management and graphics standards.",
+  "download": "https://download.gnome.org/sources/simple-scan/50/simple-scan-50.0.tar.xz",
+  "archive": "simple-scan-50.0.tar.xz",
+  "md5": "fa447328d9e91e5624be2511f626ce06",
+  "size": "1.2 MB",
+  "disk_space": "19 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "colord",
+    "itstool",
+    "libgusb",
+    "libadwaita",
+    "libwebp",
+    "sane"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1153,
+  "group_order": 0
+}

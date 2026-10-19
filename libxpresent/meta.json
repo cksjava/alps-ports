@@ -1,0 +1,25 @@
+{
+  "name": "libXpresent",
+  "version": "1.0.2",
+  "title": "libXpresent-1.0.2",
+  "anchor": "libxpresent",
+  "page_type": "compound",
+  "group": "xorg-libraries",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg libraries provide library routines that are used within all X Window applications.",
+  "download": "https://www.x.org/pub/individual/lib/",
+  "archive": "libXpresent-1.0.2.tar.xz",
+  "md5": "53b72ce969745f8d3e41175d6549ce0b",
+  "size": "12 MB",
+  "disk_space": "274 MB (47 MB installed) - if source directories not deleted",
+  "build_time": "1.8 SBU",
+  "dependencies": [
+    "fontconfig",
+    "libxcb",
+    "dbus"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 622,
+  "group_order": 32
+}

@@ -1,0 +1,28 @@
+{
+  "name": "xine-lib",
+  "version": "1.2.13",
+  "title": "xine-lib-1.2.13",
+  "anchor": "xine-lib",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "The Xine Libraries package contains xine libraries. These are useful for interfacing with external plug-ins that allow the flow of information from the source to the audio and video hardware.",
+  "download": "https://downloads.sourceforge.net/xine/xine-lib-1.2.13.tar.xz",
+  "archive": "xine-lib-1.2.13.tar.xz",
+  "md5": "9e1be39857b7a3cd7cc0f2b96331ff22",
+  "size": "4.8 MB",
+  "disk_space": "98 MB (with API documentation)",
+  "build_time": "0.5 SBU (Using parallelism=4; with API documentation)",
+  "dependencies": [
+    "chapter-24-graphical-environments",
+    "ffmpeg",
+    "alsa-lib",
+    "pulseaudio",
+    "jack",
+    "libdvdnav"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1125,
+  "group_order": 0
+}

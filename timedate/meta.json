@@ -1,0 +1,21 @@
+{
+  "name": "TimeDate",
+  "version": "2.35",
+  "title": "TimeDate-2.35",
+  "anchor": "perl-timedate",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "TimeDate provides miscellaneous timezone manipulation routines.",
+  "download": "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/TimeDate-2.35.tar.gz",
+  "archive": "TimeDate-2.35.tar.gz",
+  "md5": "a06d7f6ec7b24581f0564f0f70da1a86",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 424,
+  "group_order": 92
+}

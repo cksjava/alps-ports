@@ -1,0 +1,21 @@
+{
+  "name": "libpaper",
+  "version": "2.2.8",
+  "title": "libpaper-2.2.8",
+  "anchor": "libpaper",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "This package is intended to provide a simple way for applications to take actions based on a system or user-specified paper size.",
+  "download": "https://github.com/rrthomas/libpaper/releases/download/v2.2.8/libpaper-2.2.8.tar.gz",
+  "archive": "libpaper-2.2.8.tar.gz",
+  "md5": "6ec14207927c291631062338e148bf27",
+  "size": "1.3 MB",
+  "disk_space": "12 MB (with tests)",
+  "build_time": "0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 106,
+  "group_order": 0
+}

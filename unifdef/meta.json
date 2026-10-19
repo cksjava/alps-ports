@@ -1,0 +1,21 @@
+{
+  "name": "unifdef",
+  "version": "2.12",
+  "title": "unifdef-2.12",
+  "anchor": "unifdef",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The unifdef package contains a utility that is useful for removing preprocessor conditionals from code.",
+  "download": "https://dotat.at/prog/unifdef/unifdef-2.12.tar.gz",
+  "archive": "unifdef-2.12.tar.gz",
+  "md5": "b225312c110cd2600ca7166bd0419751",
+  "size": "88 KB",
+  "disk_space": "1.9 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 520,
+  "group_order": 0
+}

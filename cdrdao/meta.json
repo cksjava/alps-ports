@@ -1,0 +1,27 @@
+{
+  "name": "Cdrdao",
+  "version": "1.2.6",
+  "title": "Cdrdao-1.2.6",
+  "anchor": "cdrdao",
+  "page_type": "single",
+  "group": "cd-dvd-writing-utilities",
+  "chapter": "Chapter 45. CD/DVD-Writing Utilities",
+  "summary": "The Cdrdao package contains CD recording utilities. These are useful for burning a CD in disk-at-once mode.",
+  "download": "https://downloads.sourceforge.net/cdrdao/cdrdao-1.2.6.tar.bz2",
+  "archive": "cdrdao-1.2.6.tar.bz2",
+  "md5": "f59689d847d56647187d4de487e3487d",
+  "size": "832 KB",
+  "disk_space": "88 MB",
+  "build_time": "0.3 SBU (Using parallelism-4)",
+  "dependencies": [
+    "gtkmm3",
+    "libao",
+    "libvorbis",
+    "libmad-b",
+    "lame"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1139,
+  "group_order": 0
+}

@@ -1,0 +1,21 @@
+{
+  "name": "libpng",
+  "version": "1.6.58",
+  "title": "libpng-1.6.58",
+  "anchor": "libpng",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The libpng package contains libraries used by other programs for reading and writing PNG files. The PNG format was designed as a replacement for GIF and, to a lesser extent, TIFF, with many improvements and extensions and lack of patent problems.",
+  "download": "https://downloads.sourceforge.net/libpng/libpng-1.6.58.tar.xz",
+  "archive": "libpng-1.6.58.tar.xz",
+  "md5": "c6c372a9d7754c66e0b77a8d34987a3b",
+  "size": "1.1 MB",
+  "disk_space": "17 MB (with tests)",
+  "build_time": "0.4 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 183,
+  "group_order": 0
+}

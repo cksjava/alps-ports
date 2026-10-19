@@ -1,0 +1,23 @@
+{
+  "name": "File::Slurper",
+  "version": "0.014",
+  "title": "File::Slurper-0.014",
+  "anchor": "perl-file-slurper",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "File::Slurper is a simple, sane and efficient module to slurp a file.",
+  "download": "https://www.cpan.org/authors/id/L/LE/LEONT/File-Slurper-0.014.tar.gz",
+  "archive": "File-Slurper-0.014.tar.gz",
+  "md5": "d43bc5f069035eff3b6b7c418b4cedc4",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "test-warnings"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 299,
+  "group_order": 16
+}

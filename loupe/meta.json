@@ -1,0 +1,28 @@
+{
+  "name": "Loupe",
+  "version": "49.2",
+  "title": "Loupe-49.2",
+  "anchor": "loupe",
+  "page_type": "single",
+  "group": "gnome-applications",
+  "chapter": "Chapter 34. GNOME Applications",
+  "summary": "Loupe is an application used for viewing image files on the GNOME Desktop.",
+  "download": "https://download.gnome.org/sources/loupe/49/loupe-49.2.tar.xz",
+  "archive": "loupe-49.2.tar.xz",
+  "md5": "fbfd6f3e60b342094dd67932f3818eb0",
+  "size": "372 KB",
+  "disk_space": "1.0 GB (11 MB installed, add 2 MB for tests)",
+  "build_time": "1.4 SBU (with 4 jobs, add 2.6 SBU for tests)",
+  "dependencies": [
+    "glycin",
+    "little-cms",
+    "libadwaita",
+    "libgweather",
+    "libseccomp",
+    "rustc"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 973,
+  "group_order": 0
+}

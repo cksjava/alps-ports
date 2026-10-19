@@ -1,0 +1,23 @@
+{
+  "name": "Xfconf",
+  "version": "4.20.0",
+  "title": "Xfconf-4.20.0",
+  "anchor": "xfconf",
+  "page_type": "single",
+  "group": "xfce-desktop",
+  "chapter": "Chapter 35. Xfce Desktop",
+  "summary": "Xfconf is the configuration storage system for Xfce.",
+  "download": "https://archive.xfce.org/src/xfce/xfconf/4.20/xfconf-4.20.0.tar.bz2",
+  "archive": "xfconf-4.20.0.tar.bz2",
+  "md5": "ca596ff0a9be7fa655bb09cb05458644",
+  "size": "748 KB",
+  "disk_space": "10 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "libxfce4util"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 978,
+  "group_order": 0
+}

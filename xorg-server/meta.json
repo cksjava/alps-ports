@@ -1,0 +1,30 @@
+{
+  "name": "Xorg-Server",
+  "version": "21.1.24",
+  "title": "Xorg-Server-21.1.24",
+  "anchor": "xorg-server",
+  "page_type": "single",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg Server is the core of the X Window system.",
+  "download": "https://www.x.org/pub/individual/xserver/xorg-server-21.1.24.tar.xz",
+  "archive": "xorg-server-21.1.24.tar.xz",
+  "md5": "19c2d104a6c9ba85b4896ef75b2d1084",
+  "size": "4.9 MB",
+  "disk_space": "199 MB (with tests)",
+  "build_time": "0.3 SBU (using parallelism=4; with tests)",
+  "dependencies": [
+    "libxcvt",
+    "pixman",
+    "xorg-fonts",
+    "xkeyboardconfig",
+    "libepoxy",
+    "libtirpc",
+    "systemd",
+    "xorg-libinput-driver"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 679,
+  "group_order": 0
+}

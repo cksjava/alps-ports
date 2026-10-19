@@ -1,0 +1,21 @@
+{
+  "name": "Glad",
+  "version": "2.0.8",
+  "title": "Glad-2.0.8",
+  "anchor": "glad",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The Glad package contains a generator for loading Vulkan, OpenGL, EGL, GLES, and GLX contexts.",
+  "download": "https://github.com/Dav1dde/glad/archive/v2.0.8/glad-2.0.8.tar.gz",
+  "archive": "glad-2.0.8.tar.gz",
+  "md5": "028c39d581e6b53e53871f1dc21cf442",
+  "size": "632 KB",
+  "disk_space": "14 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 166,
+  "group_order": 0
+}

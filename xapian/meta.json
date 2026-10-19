@@ -1,0 +1,21 @@
+{
+  "name": "Xapian",
+  "version": "2.0.0",
+  "title": "Xapian-2.0.0",
+  "anchor": "xapian",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "Xapian is an open source search engine library.",
+  "download": "https://oligarchy.co.uk/xapian/2.0.0/xapian-core-2.0.0.tar.xz",
+  "archive": "xapian-core-2.0.0.tar.xz",
+  "md5": "8105ac73b1a6510501ecea8f0e78b9b3",
+  "size": "3.3 MB",
+  "disk_space": "174 MB (add 157 MB for tests)",
+  "build_time": "0.6 SBU (add 7.0 SBU for tests; both using parallelism=4)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 156,
+  "group_order": 0
+}

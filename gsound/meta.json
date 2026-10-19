@@ -1,0 +1,25 @@
+{
+  "name": "GSound",
+  "version": "1.0.3",
+  "title": "GSound-1.0.3",
+  "anchor": "gsound",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "The gsound package contains a small library for playing system sounds.",
+  "download": "https://download.gnome.org/sources/gsound/1.0/gsound-1.0.3.tar.xz",
+  "archive": "gsound-1.0.3.tar.xz",
+  "md5": "7338c295034432a6e782fd20b3d04b68",
+  "size": "24 KB",
+  "disk_space": "864 KB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "libcanberra",
+    "glib",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 937,
+  "group_order": 0
+}

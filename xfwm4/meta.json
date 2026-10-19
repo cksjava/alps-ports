@@ -1,0 +1,25 @@
+{
+  "name": "Xfwm4",
+  "version": "4.20.0",
+  "title": "Xfwm4-4.20.0",
+  "anchor": "xfwm4",
+  "page_type": "single",
+  "group": "xfce-desktop",
+  "chapter": "Chapter 35. Xfce Desktop",
+  "summary": "This package is known to build and work properly using an LFS 13.1 platform.",
+  "download": "https://archive.xfce.org/src/xfce/xfwm4/4.20/xfwm4-4.20.0.tar.bz2",
+  "archive": "xfwm4-4.20.0.tar.bz2",
+  "md5": "e74cfb30b6e9ebf9cbaac0827dd534e3",
+  "size": "1.4 MB",
+  "disk_space": "26 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "libwnck",
+    "libxfce4ui",
+    "startup-notification"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 993,
+  "group_order": 0
+}

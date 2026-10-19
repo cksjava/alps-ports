@@ -1,0 +1,21 @@
+{
+  "name": "Role::Tiny",
+  "version": "2.002005",
+  "title": "Role::Tiny-2.002005",
+  "anchor": "perl-role-tiny",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Role::Tiny is a minimalist role composition tool.",
+  "download": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Role-Tiny-2.002005.tar.gz",
+  "archive": "Role-Tiny-2.002005.tar.gz",
+  "md5": "b3d6525e0c802aeff6b26ef5a928a6b1",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 399,
+  "group_order": 67
+}

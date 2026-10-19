@@ -1,0 +1,25 @@
+{
+  "name": "XML::SAX",
+  "version": "1.02",
+  "title": "XML::SAX-1.02",
+  "anchor": "perl-xml-sax",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "XML::SAX is a SAX parser access API for Perl. It includes classes and APIs required for implementing SAX drivers, along with a factory class for returning any SAX parser installed on the user's system.",
+  "download": "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-1.02.tar.gz",
+  "archive": "XML-SAX-1.02.tar.gz",
+  "md5": "b62e3754523695c7f5bbcafa3676a38d",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "libxml2",
+    "xml-namespacesupport",
+    "xml-sax-base"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 430,
+  "group_order": 98
+}

@@ -1,0 +1,26 @@
+{
+  "name": "at-spi2-core",
+  "version": "2.60.6",
+  "title": "at-spi2-core-2.60.6",
+  "anchor": "at-spi2-core",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "The At-Spi2 Core package contains a comprehensive accessibility framework for the Assistive Technologies available on the GNOME platform. This includes a set of interfaces which are implemented by other toolkits and applications.",
+  "download": "https://download.gnome.org/sources/at-spi2-core/2.60/at-spi2-core-2.60.6.tar.xz",
+  "archive": "at-spi2-core-2.60.6.tar.xz",
+  "md5": "1082626c9a82694b7900f8283b20dfac",
+  "size": "588 KB",
+  "disk_space": "22 MB (with tests)",
+  "build_time": "0.2 SBU (with tests)",
+  "dependencies": [
+    "dbus",
+    "glib",
+    "gsettings-desktop-schemas",
+    "xorg-libraries"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 700,
+  "group_order": 0
+}

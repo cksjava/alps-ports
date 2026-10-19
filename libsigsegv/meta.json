@@ -1,0 +1,21 @@
+{
+  "name": "libsigsegv",
+  "version": "2.15",
+  "title": "libsigsegv-2.15",
+  "anchor": "libsigsegv",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "libsigsegv is a library for handling page faults in user mode. A page fault occurs when a program tries to access to a region of memory that is currently not available. Catching and handling a page fault is a useful technique for implementing pageable virtual memory, memory-mapped access to persistent databases, generational garbage collectors, stack overflow handlers, and distributed shared memory.",
+  "download": "https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.15.tar.gz",
+  "archive": "libsigsegv-2.15.tar.gz",
+  "md5": "c2885785b3e5d1c94b1adb22b3002ccc",
+  "size": "484 KB",
+  "disk_space": "3.7 MB (with tests)",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 115,
+  "group_order": 0
+}

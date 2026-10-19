@@ -1,0 +1,24 @@
+{
+  "name": "libkcddb",
+  "version": "26.04.3",
+  "title": "libkcddb-26.04.3",
+  "anchor": "libkcddb",
+  "page_type": "single",
+  "group": "kde-frameworks-based-applications",
+  "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
+  "summary": "The libkcddb package contains a library used to retrieve audio CD meta data from the internet.",
+  "download": "https://download.kde.org/stable/release-service/26.04.3/src/libkcddb-26.04.3.tar.xz",
+  "archive": "libkcddb-26.04.3.tar.xz",
+  "md5": "595da17572f9767def2d41b983148cda",
+  "size": "440 KB",
+  "disk_space": "12 MB",
+  "build_time": "0.3 SBU",
+  "dependencies": [
+    "building-kde-frameworks",
+    "libmusicbrainz"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 850,
+  "group_order": 0
+}

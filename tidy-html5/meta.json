@@ -1,0 +1,24 @@
+{
+  "name": "tidy-html5",
+  "version": "5.8.0",
+  "title": "tidy-html5-5.8.0",
+  "anchor": "tidy-html5",
+  "page_type": "single",
+  "group": "general-utilities",
+  "chapter": "Chapter 11. General Utilities",
+  "summary": "The Tidy HTML5 package contains a command line tool and libraries used to read HTML, XHTML and XML files and write cleaned up markup. It detects and corrects many common coding errors and strives to produce visually equivalent markup that is both W3C compliant and compatible with most browsers.",
+  "download": "https://github.com/htacg/tidy-html5/archive/5.8.0/tidy-html5-5.8.0.tar.gz",
+  "archive": "tidy-html5-5.8.0.tar.gz",
+  "md5": "0f6c55ef651e258adbe5750f555af50f",
+  "size": "992 KB",
+  "disk_space": "11 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "cmake",
+    "libxslt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 221,
+  "group_order": 0
+}

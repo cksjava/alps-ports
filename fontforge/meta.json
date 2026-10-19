@@ -1,0 +1,25 @@
+{
+  "name": "FontForge",
+  "version": "20251009",
+  "title": "FontForge-20251009",
+  "anchor": "fontforge",
+  "page_type": "single",
+  "group": "other-x-based-programs",
+  "chapter": "Chapter 41. Other X-based Programs",
+  "summary": "The FontForge package contains an outline font editor that lets you create your own postscript, truetype, opentype, cid-keyed, multi-master, cff, svg and bitmap (bdf, FON, NFNT) fonts, or edit existing ones.",
+  "download": "https://github.com/fontforge/fontforge/releases/download/20251009/fontforge-20251009.tar.xz",
+  "archive": "fontforge-20251009.tar.xz",
+  "md5": "9407db5126f937618f1f5f1f9ee8aab2",
+  "size": "13 MB",
+  "disk_space": "170 MB (add 51 MB for the tests)",
+  "build_time": "0.4 SBU (with parallelism=4, add 0.1 SBU for the tests)",
+  "dependencies": [
+    "gtkmm3",
+    "libspiro",
+    "libxml2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1052,
+  "group_order": 0
+}

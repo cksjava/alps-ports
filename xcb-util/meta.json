@@ -1,0 +1,23 @@
+{
+  "name": "xcb-util",
+  "version": "0.4.1",
+  "title": "xcb-util-0.4.1",
+  "anchor": "xcb-util",
+  "page_type": "single",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The xcb-util package provides additional extensions to the XCB library, many that were previously found in Xlib, but are not part of core X protocol.",
+  "download": "https://xcb.freedesktop.org/dist/xcb-util-0.4.1.tar.xz",
+  "archive": "xcb-util-0.4.1.tar.xz",
+  "md5": "34d749eab0fd0ffd519ac64798d79847",
+  "size": "261 KB",
+  "disk_space": "2.6 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "libxcb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 624,
+  "group_order": 0
+}

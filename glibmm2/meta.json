@@ -1,0 +1,24 @@
+{
+  "name": "GLibmm",
+  "version": "2.88.1",
+  "title": "GLibmm-2.88.1",
+  "anchor": "glibmm2",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The GLibmm package is a set of C++ bindings for GLib. This version is part of a new API for supporting gtkmm-4.",
+  "download": "https://download.gnome.org/sources/glibmm/2.88/glibmm-2.88.1.tar.xz",
+  "archive": "glibmm-2.88.1.tar.xz",
+  "md5": "6111fd5a4a2fdd9d613d73b714369494",
+  "size": "9.9 MB",
+  "disk_space": "98 MB (with tests)",
+  "build_time": "0.4 SBU (Using parallelism=4; with tests)",
+  "dependencies": [
+    "glib",
+    "libsigc3"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 70,
+  "group_order": 0
+}

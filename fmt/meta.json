@@ -1,0 +1,23 @@
+{
+  "name": "fmt",
+  "version": "12.2.0",
+  "title": "fmt-12.2.0",
+  "anchor": "fmt",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The fmt package is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.",
+  "download": "https://github.com/fmtlib/fmt/archive/12.2.0/fmt-12.2.0.tar.gz",
+  "archive": "fmt-12.2.0.tar.gz",
+  "md5": "7be257d8bfad55bc9eabb1288ad895be",
+  "size": "724 KB",
+  "disk_space": "48 MB (with tests)",
+  "build_time": "0.4 SBU (using parallelism=4; with tests)",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 67,
+  "group_order": 0
+}

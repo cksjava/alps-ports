@@ -1,0 +1,21 @@
+#!/bin/bash
+# AryaLinux post-install
+# gdm — GDM-50.2
+# Run after the package is installed. The build directory is already gone.
+set -euo pipefail
+
+if [[ -r /etc/aryalinux-build.conf ]]; then
+    # shellcheck disable=SC1091
+    source /etc/aryalinux-build.conf
+elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
+    # shellcheck disable=SC1091
+    source "$ARYA_CONFIG"
+fi
+
+ln -s /dev/null /etc/udev/rules.d/61-gdm.rules
+systemctl enable gdm
+su gdm -s /bin/bash                                                \
+       -c "dbus-run-session                                        \
+             gsettings set org.gnome.settings-daemon.plugins.power \
+                           sleep-inactive-ac-type                  \
+                           nothing"

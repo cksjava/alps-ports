@@ -1,0 +1,21 @@
+{
+  "name": "OpenSSH",
+  "version": "10.5p1",
+  "title": "OpenSSH-10.5p1",
+  "anchor": "openssh",
+  "page_type": "single",
+  "group": "security",
+  "chapter": "Chapter 4. Security",
+  "summary": "The OpenSSH package contains ssh clients and the sshd daemon. This is useful for encrypting authentication and subsequent traffic over a network. The ssh and scp commands are secure implementations of telnet and rcp.",
+  "download": "https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-10.5p1.tar.gz",
+  "archive": "openssh-10.5p1.tar.gz",
+  "md5": "a95119f402dfa0166c9dd1237239085c",
+  "size": "2.3 MB",
+  "disk_space": "103 MB (with tests)",
+  "build_time": "0.3 SBU (Using parallelism=4; running the tests takes about 11 minutes, irrespective of processor speed)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 17,
+  "group_order": 0
+}

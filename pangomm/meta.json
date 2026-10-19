@@ -1,0 +1,25 @@
+{
+  "name": "Pangomm",
+  "version": "2.46.5",
+  "title": "Pangomm-2.46.5",
+  "anchor": "pangomm",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "The Pangomm package provides a C++ interface to Pango.",
+  "download": "https://download.gnome.org/sources/pangomm/2.46/pangomm-2.46.5.tar.xz",
+  "archive": "pangomm-2.46.5.tar.xz",
+  "md5": "4fc19301ccc94e4fb72f1ed54bc65d4d",
+  "size": "620 KB",
+  "disk_space": "12 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "cairomm-1-0",
+    "glibmm",
+    "pango"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 733,
+  "group_order": 0
+}

@@ -17,6 +17,8 @@
     "libinput",
     "xorg-server"
   ],
+  "build_before": [],
+  "build_after": [],
   "order": 683,
   "group_order": 4
 }

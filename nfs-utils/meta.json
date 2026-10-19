@@ -1,0 +1,28 @@
+{
+  "name": "NFS-Utils",
+  "version": "2.9.2",
+  "title": "NFS-Utils-2.9.2",
+  "anchor": "nfs-utils",
+  "page_type": "single",
+  "group": "networking-programs",
+  "chapter": "Chapter 15. Networking Programs",
+  "summary": "The NFS Utilities package contains the userspace server and client tools necessary to use the kernel's NFS abilities. NFS is a protocol that allows sharing file systems over the network.",
+  "download": "https://www.kernel.org/pub/linux/utils/nfs-utils/2.9.2/nfs-utils-2.9.2.tar.xz",
+  "archive": "nfs-utils-2.9.2.tar.xz",
+  "md5": "c398aeaa53ee5bc9ded8bc11752347e9",
+  "size": "748 KB",
+  "disk_space": "25 MB (with tests)",
+  "build_time": "0.2 SBU (with tests)",
+  "dependencies": [
+    "libevent",
+    "libnl",
+    "libtirpc",
+    "libxml2",
+    "rpcsvc-proto",
+    "rpcbind"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 530,
+  "group_order": 0
+}

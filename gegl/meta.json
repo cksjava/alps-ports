@@ -1,0 +1,28 @@
+{
+  "name": "gegl",
+  "version": "0.4.70",
+  "title": "gegl-0.4.70",
+  "anchor": "gegl",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "This package provides the GEneric Graphics Library, which is a graph based image processing format.",
+  "download": "https://download.gimp.org/pub/gegl/0.4/gegl-0.4.70.tar.xz",
+  "archive": "gegl-0.4.70.tar.xz",
+  "md5": "2442d5f0cb97bcc1b50d2082e29c9375",
+  "size": "5.9 MB",
+  "disk_space": "159 MB (With tests)",
+  "build_time": "0.9 SBU (with tests, both with parallelism=4)",
+  "dependencies": [
+    "babl",
+    "json-glib",
+    "glib",
+    "graphviz",
+    "pygments",
+    "pygobject"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 164,
+  "group_order": 0
+}

@@ -1,0 +1,25 @@
+{
+  "name": "libX11",
+  "version": "1.8.13",
+  "title": "libX11-1.8.13",
+  "anchor": "libx11",
+  "page_type": "compound",
+  "group": "xorg-libraries",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg libraries provide library routines that are used within all X Window applications.",
+  "download": "https://www.x.org/pub/individual/lib/",
+  "archive": "libX11-1.8.13.tar.xz",
+  "md5": "b617a053d2003cc81309f4e13d01379c",
+  "size": "12 MB",
+  "disk_space": "274 MB (47 MB installed) - if source directories not deleted",
+  "build_time": "1.8 SBU",
+  "dependencies": [
+    "fontconfig",
+    "libxcb",
+    "dbus"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 592,
+  "group_order": 2
+}

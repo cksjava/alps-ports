@@ -1,0 +1,27 @@
+{
+  "name": "apache-ant",
+  "version": "1.10.17",
+  "title": "apache-ant-1.10.17",
+  "anchor": "apache-ant",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Apache Ant package is a Java-based build tool. In theory, it is like the make command, but without make's wrinkles. Ant is different. Instead of a model that is extended with shell-based commands, Ant is extended using Java classes. Instead of writing shell commands, the configuration files are XML-based, calling out a target tree that executes various tasks. Each task is run by an object that implements a particular task interface.",
+  "download": "https://archive.apache.org/dist/ant/source/apache-ant-1.10.17-src.tar.xz",
+  "archive": "apache-ant-1.10.17-src.tar.xz",
+  "md5": "218213b1db69824923c2439461213527",
+  "size": "3.7 MB",
+  "disk_space": "328 MB",
+  "build_time": "0.2 SBU (excluding download time)",
+  "dependencies": [
+    "binary-jdk-information",
+    "openjdk",
+    "glib"
+  ],
+  "build_before": [
+    "make-ca"
+  ],
+  "build_after": [],
+  "order": 526,
+  "group_order": 0
+}

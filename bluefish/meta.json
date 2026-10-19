@@ -1,0 +1,24 @@
+{
+  "name": "Bluefish",
+  "version": "2.4.2",
+  "title": "Bluefish-2.4.2",
+  "anchor": "bluefish",
+  "page_type": "single",
+  "group": "text-editors",
+  "chapter": "Chapter 6. Text Editors",
+  "summary": "Bluefish is a GTK+ text editor targeted towards programmers and web designers, with many options to write websites, scripts and programming code. Bluefish supports many programming and markup languages, and it focuses on editing dynamic and interactive websites.",
+  "download": "https://www.bennewitz.com/bluefish/stable/source/bluefish-2.4.2.tar.bz2",
+  "archive": "bluefish-2.4.2.tar.bz2",
+  "md5": "ec35f4c1d11f91e30caea0b940d455f4",
+  "size": "5.0 MB",
+  "disk_space": "75 MB",
+  "build_time": "0.3 SBU",
+  "dependencies": [
+    "gtk3",
+    "desktop-file-utils"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 39,
+  "group_order": 0
+}

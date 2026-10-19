@@ -1,0 +1,24 @@
+{
+  "name": "Doxypypy",
+  "version": "0.8.8.7",
+  "title": "Doxypypy-0.8.8.7",
+  "anchor": "doxypypy",
+  "page_type": "nested",
+  "group": "python-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Doxypypy package is a doxygen filter for python.",
+  "download": "https://files.pythonhosted.org/packages/source/d/doxypypy/doxypypy-0.8.8.7.tar.gz",
+  "archive": "doxypypy-0.8.8.7.tar.gz",
+  "md5": "5773d0a7882df900cbda8ee5107e1ced",
+  "size": "45 KB",
+  "disk_space": "2.1 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "chardet",
+    "doxygen"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 444,
+  "group_order": 10
+}

@@ -1,0 +1,29 @@
+{
+  "name": "libjxl",
+  "version": "0.12.0",
+  "title": "libjxl-0.12.0",
+  "anchor": "libjxl",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The libjxl package contains the reference implementation of the JPEG XL image format.",
+  "download": "https://github.com/libjxl/libjxl/archive/v0.12.0/libjxl-0.12.0.tar.gz",
+  "archive": "libjxl-0.12.0.tar.gz",
+  "md5": "a0fd3ac7b474525dadb99bbcb5d814f9",
+  "size": "1.7 MB",
+  "disk_space": "67 MB",
+  "build_time": "1.0 SBU (with parallelism=4)",
+  "dependencies": [
+    "brotli",
+    "cmake",
+    "giflib",
+    "highway",
+    "little-cms",
+    "libjpeg-turbo",
+    "libpng"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 179,
+  "group_order": 0
+}

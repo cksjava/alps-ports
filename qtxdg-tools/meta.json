@@ -1,0 +1,23 @@
+{
+  "name": "qtxdg-tools",
+  "version": "4.4.0",
+  "title": "qtxdg-tools-4.4.0",
+  "anchor": "qtxdg-tools",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "The qtxdg-tools contains a CLI MIME tool for handling file associations and opening files with their default applications.",
+  "download": "https://github.com/lxqt/qtxdg-tools/releases/download/4.4.0/qtxdg-tools-4.4.0.tar.xz",
+  "archive": "qtxdg-tools-4.4.0.tar.xz",
+  "md5": "e5d4680526ed7751eb2ee8068c14cf50",
+  "size": "20 KB",
+  "disk_space": "2.1 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "libqtxdg"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1015,
+  "group_order": 0
+}

@@ -1,0 +1,21 @@
+{
+  "name": "libtirpc",
+  "version": "1.3.7",
+  "title": "libtirpc-1.3.7",
+  "anchor": "libtirpc",
+  "page_type": "single",
+  "group": "networking-libraries",
+  "chapter": "Chapter 17. Networking Libraries",
+  "summary": "The libtirpc package contains libraries that support programs that use the Remote Procedure Call (RPC) API. It replaces the RPC, but not the NIS library entries that used to be in glibc.",
+  "download": "https://downloads.sourceforge.net/libtirpc/libtirpc-1.3.7.tar.bz2",
+  "archive": "libtirpc-1.3.7.tar.bz2",
+  "md5": "74f97df306b8d6149d3d9898a1d44c6e",
+  "size": "560 KB",
+  "disk_space": "6.8 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 564,
+  "group_order": 0
+}

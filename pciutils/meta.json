@@ -1,0 +1,23 @@
+{
+  "name": "pciutils",
+  "version": "3.15.0",
+  "title": "pciutils-3.15.0",
+  "anchor": "pciutils",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The PCI Utils package contains a set of programs for listing PCI devices, inspecting their status and setting their configuration registers.",
+  "download": "https://mj.ucw.cz/download/linux/pci/pciutils-3.15.0.tar.gz",
+  "archive": "pciutils-3.15.0.tar.gz",
+  "md5": "20b8e936cce9784444961088c8801f68",
+  "size": "724 KB",
+  "disk_space": "5.4 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "hwdata"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 263,
+  "group_order": 0
+}

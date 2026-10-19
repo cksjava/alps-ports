@@ -1,0 +1,23 @@
+{
+  "name": "libksba",
+  "version": "1.8.0",
+  "title": "libksba-1.8.0",
+  "anchor": "libksba",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The Libksba package contains a library used to make X.509 certificates as well as making the CMS (Cryptographic Message Syntax) easily accessible by other applications. Both specifications are building blocks of S/MIME and TLS. The library does not rely on another cryptographic library but provides hooks for easy integration with Libgcrypt.",
+  "download": "https://www.gnupg.org/ftp/gcrypt/libksba/libksba-1.8.0.tar.bz2",
+  "archive": "libksba-1.8.0.tar.bz2",
+  "md5": "182951961170c12f6569454717a1383a",
+  "size": "708 KB",
+  "disk_space": "12 MB (with tests)",
+  "build_time": "0.1 SBU (with tests)",
+  "dependencies": [
+    "libgpg-error"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 102,
+  "group_order": 0
+}

@@ -1,0 +1,26 @@
+{
+  "name": "xmessage",
+  "version": "1.0.7",
+  "title": "xmessage-1.0.7",
+  "anchor": "xmessage",
+  "page_type": "compound",
+  "group": "xorg-applications",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg applications provide the expected applications available in previous X Window implementations.",
+  "download": "https://www.x.org/pub/individual/app/",
+  "archive": "xmessage-1.0.7.tar.xz",
+  "md5": "ba2dd3db3361e374fefe2b1c797c46eb",
+  "size": "4.9 MB",
+  "disk_space": "48 MB",
+  "build_time": "1.5 SBU (ignoring the time to download)",
+  "dependencies": [
+    "libpng",
+    "mesa",
+    "xbitmaps",
+    "xcb-util"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 653,
+  "group_order": 21
+}

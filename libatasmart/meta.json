@@ -1,0 +1,21 @@
+{
+  "name": "libatasmart",
+  "version": "0.19",
+  "title": "libatasmart-0.19",
+  "anchor": "libatasmart",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The libatasmart package is a disk reporting library. It only supports a subset of the ATA S.M.A.R.T. functionality.",
+  "download": "https://0pointer.de/public/libatasmart-0.19.tar.xz",
+  "archive": "libatasmart-0.19.tar.xz",
+  "md5": "53afe2b155c36f658e121fe6def33e77",
+  "size": "248 KB",
+  "disk_space": "3 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 86,
+  "group_order": 0
+}

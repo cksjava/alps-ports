@@ -1,0 +1,29 @@
+{
+  "name": "Cups",
+  "version": "2.4.19",
+  "title": "Cups-2.4.19",
+  "anchor": "cups",
+  "page_type": "single",
+  "group": "printing",
+  "chapter": "Chapter 46. Printing",
+  "summary": "The Common Unix Printing System (CUPS) is a print spooler and associated utilities. It is based on the \"Internet Printing Protocol\" and provides printing services to most PostScript and raster printers.",
+  "download": "https://github.com/OpenPrinting/cups/releases/download/v2.4.19/cups-2.4.19-source.tar.gz",
+  "archive": "cups-2.4.19-source.tar.gz",
+  "md5": "06b7a3921812988cdb3198ff74ae381d",
+  "size": "7.6 MB",
+  "disk_space": "134 MB (with tests)",
+  "build_time": "0.4 SBU (Add 1.4 SBU for tests)",
+  "dependencies": [
+    "gnutls",
+    "cups-filters",
+    "colord",
+    "dbus",
+    "libusb",
+    "linux-pam",
+    "xdg-utils"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1145,
+  "group_order": 0
+}

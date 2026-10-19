@@ -1,0 +1,23 @@
+{
+  "name": "rsync",
+  "version": "3.5.0",
+  "title": "rsync-3.5.0",
+  "anchor": "rsync",
+  "page_type": "single",
+  "group": "networking-programs",
+  "chapter": "Chapter 15. Networking Programs",
+  "summary": "The rsync package contains the rsync utility. This is useful for synchronizing large file archives over a network.",
+  "download": "https://www.samba.org/ftp/rsync/src/rsync-3.5.0.tar.gz",
+  "archive": "rsync-3.5.0.tar.gz",
+  "md5": "418db7651d1acf55364b0834234dbbfb",
+  "size": "1.9 MB",
+  "disk_space": "80 MB (with tests and documentation)",
+  "build_time": "0.6 SBU (with tests)",
+  "dependencies": [
+    "popt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 533,
+  "group_order": 0
+}

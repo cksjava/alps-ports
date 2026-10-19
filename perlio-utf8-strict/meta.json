@@ -1,0 +1,23 @@
+{
+  "name": "PerlIO::utf8_strict",
+  "version": "0.010",
+  "title": "PerlIO::utf8_strict-0.010",
+  "anchor": "perl-perlio-utf8_strict",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "PerlIO::utf8_strict provides a fast and correct UTF-8 PerlIO layer. Unlike Perl's default :utf8 layer it checks the input for correctness.",
+  "download": "https://www.cpan.org/authors/id/L/LE/LEONT/PerlIO-utf8_strict-0.010.tar.gz",
+  "archive": "PerlIO-utf8_strict-0.010.tar.gz",
+  "md5": "d90ca967f66e05ad9221c79060868346",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "test-exception"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 316,
+  "group_order": 33
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Module::Implementation",
+  "version": "0.09",
+  "title": "Module::Implementation-0.09",
+  "anchor": "perl-module-implementation",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Module::Implementation loads one of several alternate underlying implementations of a module (e.g. eXternal Subroutine or pure Perl, or an implementation for a given OS).",
+  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Module-Implementation-0.09.tar.gz",
+  "archive": "Module-Implementation-0.09.tar.gz",
+  "md5": "52e3fe0ca6b1eff0488d59b7aacc0667",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "module-runtime",
+    "try-tiny",
+    "test-fatal",
+    "test-requires"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 386,
+  "group_order": 54
+}

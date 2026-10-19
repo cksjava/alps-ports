@@ -1,0 +1,24 @@
+{
+  "name": "Dist::CheckConflicts",
+  "version": "0.11",
+  "title": "Dist::CheckConflicts-0.11",
+  "anchor": "perl-dist-checkconflicts",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Dist::CheckConflicts declares version conflicts for a distribution, to support post-install updates of dependent distributions.",
+  "download": "https://cpan.metacpan.org/authors/id/D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz",
+  "archive": "Dist-CheckConflicts-0.11.tar.gz",
+  "md5": "c8725a92b9169708b0f63036812070f2",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "module-runtime",
+    "test-fatal"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 354,
+  "group_order": 22
+}

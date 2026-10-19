@@ -1,0 +1,28 @@
+{
+  "name": "tinysparql",
+  "version": "3.11.1",
+  "title": "tinysparql-3.11.1",
+  "anchor": "tinysparql",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "Tinysparql is a low-footprint RDF triple store with a SPARQL 1.1 interface.",
+  "download": "https://download.gnome.org/sources/tinysparql/3.11/tinysparql-3.11.1.tar.xz",
+  "archive": "tinysparql-3.11.1.tar.xz",
+  "md5": "aa793424c64c06b50248969f3e9d553d",
+  "size": "2.3 MB",
+  "disk_space": "61 MB (with tests)",
+  "build_time": "0.4 SBU (with tests)",
+  "dependencies": [
+    "json-glib",
+    "vala",
+    "glib",
+    "icu",
+    "libsoup",
+    "localsearch"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 935,
+  "group_order": 0
+}

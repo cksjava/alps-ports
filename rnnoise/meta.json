@@ -1,0 +1,21 @@
+{
+  "name": "rnnoise",
+  "version": "0.2",
+  "title": "rnnoise-0.2",
+  "anchor": "rnnoise",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "rnnoise is a noise suppression library based on a recurrent neural network.",
+  "download": "https://github.com/xiph/rnnoise/releases/download/v0.2/rnnoise-0.2.tar.gz",
+  "archive": "rnnoise-0.2.tar.gz",
+  "md5": "0e795b2d2b4730fc5ee6e38b77699e91",
+  "size": "2.2 MB",
+  "disk_space": "16 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 143,
+  "group_order": 0
+}

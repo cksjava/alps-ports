@@ -1,0 +1,21 @@
+{
+  "name": "libexif",
+  "version": "0.6.26",
+  "title": "libexif-0.6.26",
+  "anchor": "libexif",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The libexif package contains a library for parsing, editing, and saving EXIF data. Most digital cameras produce EXIF files, which are JPEG files with extra tags that contain information about the image. All EXIF tags described in EXIF standard 2.1 are supported.",
+  "download": "https://github.com/libexif/libexif/releases/download/v0.6.26/libexif-0.6.26.tar.bz2",
+  "archive": "libexif-0.6.26.tar.bz2",
+  "md5": "d659a750d1be6330105de54eb3bf627a",
+  "size": "2.0 MB",
+  "disk_space": "24 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 175,
+  "group_order": 0
+}

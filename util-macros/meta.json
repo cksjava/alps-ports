@@ -1,0 +1,23 @@
+{
+  "name": "util-macros",
+  "version": "1.20.2",
+  "title": "util-macros-1.20.2",
+  "anchor": "util-macros",
+  "page_type": "single",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The util-macros package contains the m4 macros used by all of the Xorg packages.",
+  "download": "https://www.x.org/pub/individual/util/util-macros-1.20.2.tar.xz",
+  "archive": "util-macros-1.20.2.tar.xz",
+  "md5": "5f683a1966834b0a6ae07b3680bcb863",
+  "size": "84 KB",
+  "disk_space": "524 KB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "setting-up-the-xorg-build-environment"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 585,
+  "group_order": 0
+}

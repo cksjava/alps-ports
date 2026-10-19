@@ -1,0 +1,21 @@
+{
+  "name": "Pytz",
+  "version": "2026.2",
+  "title": "Pytz-2026.2",
+  "anchor": "pytz",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Pytz library brings the IANA tz database into Python. It allows accurate and cross-platform timezone calculations.",
+  "download": "https://files.pythonhosted.org/packages/source/p/pytz/pytz-2026.2.tar.gz",
+  "archive": "pytz-2026.2.tar.gz",
+  "md5": "ac9ab5e07d91fea1f15cbf50c18f29d9",
+  "size": "316 KB",
+  "disk_space": "6.3 MB (with tests)",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 491,
+  "group_order": 22
+}

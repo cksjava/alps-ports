@@ -1,0 +1,21 @@
+{
+  "name": "LSB-Tools",
+  "version": "0.12",
+  "title": "LSB-Tools-0.12",
+  "anchor": "lsb-tools",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The LSB-Tools package includes tools for Linux Standards Base (LSB) conformance.",
+  "download": "https://github.com/lfs-book/LSB-Tools/releases/download/v0.12/LSB-Tools-0.12.tar.gz",
+  "archive": "LSB-Tools-0.12.tar.gz",
+  "md5": "1e6ef8cdfddb55035a6c36757e6313f9",
+  "size": "20 KB",
+  "disk_space": "412 KB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 241,
+  "group_order": 0
+}

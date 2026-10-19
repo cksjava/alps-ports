@@ -1,0 +1,25 @@
+{
+  "name": "newt",
+  "version": "0.52.25",
+  "title": "newt-0.52.25",
+  "anchor": "newt",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "Newt is a programming library for color text mode, widget based user interfaces. It can be used to add stacked windows, entry widgets, checkboxes, radio buttons, labels, plain text fields, scrollbars, etc., to text mode user interfaces. Newt is based on the S-Lang library.",
+  "download": "https://releases.pagure.org/newt/newt-0.52.25.tar.gz",
+  "archive": "newt-0.52.25.tar.gz",
+  "md5": "cca66ed1d8774fb9e3f6a33525de416d",
+  "size": "176 KB",
+  "disk_space": "3.0 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "popt",
+    "slang",
+    "gpm"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 190,
+  "group_order": 0
+}

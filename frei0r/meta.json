@@ -1,0 +1,24 @@
+{
+  "name": "frei0r",
+  "version": "3.4.0",
+  "title": "frei0r-3.4.0",
+  "anchor": "frei0r",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "Frei0r is a minimalistic plugin API for video effects. Note that the 0 in the name is a zero, not a capital letter o.",
+  "download": "https://github.com/dyne/frei0r/archive/v3.4.0/frei0r-3.4.0.tar.gz",
+  "archive": "frei0r-3.4.0.tar.gz",
+  "md5": "2f88c0e4b5da87ca5d2c81967294d605",
+  "size": "4.0 MB",
+  "disk_space": "53 MB",
+  "build_time": "0.5 SBU",
+  "dependencies": [
+    "gavl",
+    "opencv"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1075,
+  "group_order": 0
+}

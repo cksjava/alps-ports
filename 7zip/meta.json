@@ -1,0 +1,21 @@
+{
+  "name": "7zip",
+  "version": "26.02",
+  "title": "7zip-26.02",
+  "anchor": "seven-zip",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "7zip is a file archiver that archives with high compression ratios. It handles 7z, ZIP, GZIP, Brotli, BZIP2, XZ, TAR, APM, ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT, HFS, ISO, Lizard, LZ5, LZFSE, LZH, LZMA, LZMA2, MBR, MSI, MSLZ, NSIS, NTFS, RAR, RPM, SquashFS, UDF, VHD, WIM, XAR, Z, and Zstd formats.",
+  "download": "https://github.com/ip7z/7zip/archive/26.02/7zip-26.02.tar.gz",
+  "archive": "7zip-26.02.tar.gz",
+  "md5": "29f692dc18d150acbbd31a86e3ffe610",
+  "size": "2.2 MB",
+  "disk_space": "47 MB",
+  "build_time": "1.4 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 227,
+  "group_order": 0
+}

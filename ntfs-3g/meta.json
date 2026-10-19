@@ -1,0 +1,21 @@
+{
+  "name": "ntfs-3g",
+  "version": "2026.7.7",
+  "title": "ntfs-3g-2026.7.7",
+  "anchor": "ntfs-3g",
+  "page_type": "single",
+  "group": "file-systems-and-disk-management",
+  "chapter": "Chapter 5. File Systems and Disk Management",
+  "summary": "A new read-write driver for NTFS, called NTFS3, has been added into the Linux kernel since the 5.15 release. The performance of NTFS3 is much better than ntfs-3g. To enable NTFS3, enable the following options in the kernel configuration and recompile the kernel if necessary:",
+  "download": "https://github.com/tuxera/ntfs-3g/archive/2026.7.7/ntfs-3g-2026.7.7.tar.gz",
+  "archive": "ntfs-3g-2026.7.7.tar.gz",
+  "md5": "254f0eae638ae2f1f0e24f0b76dd1dfc",
+  "size": "884 KB",
+  "disk_space": "26 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 31,
+  "group_order": 0
+}

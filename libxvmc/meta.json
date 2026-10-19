@@ -1,0 +1,25 @@
+{
+  "name": "libXvMC",
+  "version": "1.0.15",
+  "title": "libXvMC-1.0.15",
+  "anchor": "libxvmc",
+  "page_type": "compound",
+  "group": "xorg-libraries",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg libraries provide library routines that are used within all X Window applications.",
+  "download": "https://www.x.org/pub/individual/lib/",
+  "archive": "libXvMC-1.0.15.tar.xz",
+  "md5": "de4227c5722a8f5ca5748f3ef524aeee",
+  "size": "12 MB",
+  "disk_space": "274 MB (47 MB installed) - if source directories not deleted",
+  "build_time": "1.8 SBU",
+  "dependencies": [
+    "fontconfig",
+    "libxcb",
+    "dbus"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 616,
+  "group_order": 26
+}

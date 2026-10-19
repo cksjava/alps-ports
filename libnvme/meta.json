@@ -1,0 +1,21 @@
+{
+  "name": "libnvme",
+  "version": "1.16.2",
+  "title": "libnvme-1.16.2",
+  "anchor": "libnvme",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The libnvme package is a library which provides type definitions for NVMe specification structures, enumerations, and bit fields, helper functions to construct, dispatch, and decode commands and payloads, and utilities to connect, scan, and manage NVMe devices on a Linux system.",
+  "download": "https://github.com/linux-nvme/libnvme/archive/v1.16.2/libnvme-1.16.2.tar.gz",
+  "archive": "libnvme-1.16.2.tar.gz",
+  "md5": "a6554fb50022d762021fc1e949e01520",
+  "size": "820 KB",
+  "disk_space": "34 MB",
+  "build_time": "0.1 SBU (including tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 105,
+  "group_order": 0
+}

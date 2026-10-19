@@ -1,0 +1,21 @@
+{
+  "name": "Libspiro",
+  "version": "20220722",
+  "title": "Libspiro-20220722",
+  "anchor": "libspiro",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "Libspiro will take an array of spiro control points and convert them into a series of bezier splines which can then be used in the myriad of ways the world has come to use beziers.",
+  "download": "https://github.com/fontforge/libspiro/releases/download/20220722/libspiro-dist-20220722.tar.gz",
+  "archive": "libspiro-dist-20220722.tar.gz",
+  "md5": "c21f86e6c1ad65ed4cb1f754f6d7563c",
+  "size": "428 KB",
+  "disk_space": "5.1 MB (add 1.3 MB if running the tests)",
+  "build_time": "0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 187,
+  "group_order": 0
+}

@@ -1,0 +1,26 @@
+{
+  "name": "xwd",
+  "version": "1.0.10",
+  "title": "xwd-1.0.10",
+  "anchor": "xwd",
+  "page_type": "compound",
+  "group": "xorg-applications",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg applications provide the expected applications available in previous X Window implementations.",
+  "download": "https://www.x.org/pub/individual/app/",
+  "archive": "xwd-1.0.10.tar.xz",
+  "md5": "ee94a7722c8b9e37a28f1ac0fc371454",
+  "size": "4.9 MB",
+  "disk_space": "48 MB",
+  "build_time": "1.5 SBU (ignoring the time to download)",
+  "dependencies": [
+    "libpng",
+    "mesa",
+    "xbitmaps",
+    "xcb-util"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 663,
+  "group_order": 31
+}

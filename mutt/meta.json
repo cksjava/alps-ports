@@ -1,0 +1,26 @@
+{
+  "name": "Mutt",
+  "version": "2.4.2",
+  "title": "Mutt-2.4.2",
+  "anchor": "mutt",
+  "page_type": "single",
+  "group": "mail-news-clients",
+  "chapter": "Chapter 19. Mail/News Clients",
+  "summary": "The Mutt package contains a Mail User Agent. This is useful for reading, writing, replying to, saving, and deleting your email.",
+  "download": "http://ftp.mutt.org/pub/mutt/mutt-2.4.2.tar.gz",
+  "archive": "mutt-2.4.2.tar.gz",
+  "md5": "ea5ba85672579c5e9241cd31c7f7d05b",
+  "size": "5.4 MB",
+  "disk_space": "49 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "lynx",
+    "links",
+    "w3m",
+    "elinks"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 573,
+  "group_order": 0
+}

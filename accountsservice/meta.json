@@ -1,0 +1,26 @@
+{
+  "name": "AccountsService",
+  "version": "26.27.3",
+  "title": "AccountsService-26.27.3",
+  "anchor": "accountsservice",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The AccountsService package provides a set of D-Bus interfaces for querying and manipulating user account information and an implementation of those interfaces based on the usermod(8), useradd(8), and userdel(8) commands.",
+  "download": "https://gitlab.freedesktop.org/accountsservice/accountsservice/-/archive/26.27.3/accountsservice-26.27.3.tar.bz2",
+  "archive": "accountsservice-26.27.3.tar.bz2",
+  "md5": "61f56055b9d4564ad29bab799222e386",
+  "size": "660 KB",
+  "disk_space": "11 MB (with tests)",
+  "build_time": "0.4 SBU (with tests)",
+  "dependencies": [
+    "polkit",
+    "glib",
+    "systemd",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 228,
+  "group_order": 0
+}

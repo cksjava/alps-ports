@@ -1,0 +1,30 @@
+{
+  "name": "ghostscript",
+  "version": "10.07.1",
+  "title": "ghostscript-10.07.1",
+  "anchor": "gs",
+  "page_type": "single",
+  "group": "printing",
+  "chapter": "Chapter 46. Printing",
+  "summary": "Ghostscript is a versatile processor for PostScript data with the ability to render PostScript to different targets. It is a mandatory part of the cups printing stack.",
+  "download": "https://downloads.sourceforge.net/gs-fonts/gnu-gs-fonts-other-6.0.tar.gz",
+  "archive": "gnu-gs-fonts-other-6.0.tar.gz",
+  "md5": "33457d3f37de7ef03d2eea05a9e6aa4f",
+  "size": "796 KB",
+  "disk_space": "1.1 GB (with fonts and libgs.so)",
+  "build_time": "1.9 SBU (Using parallelism=4; with libgs.so)",
+  "dependencies": [
+    "cups",
+    "fontconfig",
+    "freetype",
+    "little-cms",
+    "libjpeg-turbo",
+    "libpng",
+    "tiff",
+    "openjpeg"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1148,
+  "group_order": 0
+}

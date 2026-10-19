@@ -1,0 +1,23 @@
+{
+  "name": "json-c",
+  "version": "0.19",
+  "title": "json-c-0.19",
+  "anchor": "json-c",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The json-c implements a reference counting object model that allows you to easily construct JSON objects in C, output them as JSON formatted strings and parse JSON formatted strings back into the C representation of JSON objects.",
+  "download": "https://s3.amazonaws.com/json-c_releases/releases/json-c-0.19.tar.gz",
+  "archive": "json-c-0.19.tar.gz",
+  "md5": "5678f1373ba51e0041b574c0411c696b",
+  "size": "452 KB",
+  "disk_space": "12 MB",
+  "build_time": "0.2 SBU (with tests)",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 80,
+  "group_order": 0
+}

@@ -1,0 +1,21 @@
+{
+  "name": "jfsutils",
+  "version": "1.1.15",
+  "title": "jfsutils-1.1.15",
+  "anchor": "jfsutils",
+  "page_type": "single",
+  "group": "file-systems-and-disk-management",
+  "chapter": "Chapter 5. File Systems and Disk Management",
+  "summary": "The jfsutils package contains administration and debugging tools for the jfs file system.",
+  "download": "https://jfs.sourceforge.net/project/pub/jfsutils-1.1.15.tar.gz",
+  "archive": "jfsutils-1.1.15.tar.gz",
+  "md5": "8809465cd48a202895bc2a12e1923b5d",
+  "size": "532 KB",
+  "disk_space": "8.9 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 28,
+  "group_order": 0
+}

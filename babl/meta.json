@@ -1,0 +1,25 @@
+{
+  "name": "babl",
+  "version": "0.1.128",
+  "title": "babl-0.1.128",
+  "anchor": "babl",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The Babl package is a dynamic, any to any, pixel format translation library.",
+  "download": "https://download.gimp.org/pub/babl/0.1/babl-0.1.128.tar.xz",
+  "archive": "babl-0.1.128.tar.xz",
+  "md5": "47bc0674961d219710a96e03d9e839ad",
+  "size": "328 KB",
+  "disk_space": "21 MB (with tests)",
+  "build_time": "0.1 SBU (Using parallelism=4; with tests)",
+  "dependencies": [
+    "glib",
+    "librsvg",
+    "little-cms"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 159,
+  "group_order": 0
+}

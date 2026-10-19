@@ -1,0 +1,24 @@
+{
+  "name": "glslang",
+  "version": "16.5.0",
+  "title": "glslang-16.5.0",
+  "anchor": "glslang",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "The Glslang package contains an frontend and validator for OpenGL, OpenGL ES, and Vulkan shaders.",
+  "download": "https://github.com/KhronosGroup/glslang/archive/16.5.0/glslang-16.5.0.tar.gz",
+  "archive": "glslang-16.5.0.tar.gz",
+  "md5": "79e949d6d50cc167e7d5307afb04c41a",
+  "size": "4.4 MB",
+  "disk_space": "191 MB (with tests)",
+  "build_time": "0.4 SBU (with parallelism=4; with tests)",
+  "dependencies": [
+    "cmake",
+    "spirv-tools"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 709,
+  "group_order": 0
+}

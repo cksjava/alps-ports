@@ -1,0 +1,25 @@
+{
+  "name": "libxfce4ui",
+  "version": "4.20.2",
+  "title": "libxfce4ui-4.20.2",
+  "anchor": "libxfce4ui",
+  "page_type": "single",
+  "group": "xfce-desktop",
+  "chapter": "Chapter 35. Xfce Desktop",
+  "summary": "The libxfce4ui package contains GTK+ 3 widgets that are used by other Xfce applications.",
+  "download": "https://archive.xfce.org/src/xfce/libxfce4ui/4.20/libxfce4ui-4.20.2.tar.bz2",
+  "archive": "libxfce4ui-4.20.2.tar.bz2",
+  "md5": "ce54074a9ed7964b4a3274e8ac74d949",
+  "size": "1.1 MB",
+  "disk_space": "14 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "gtk3",
+    "xfconf",
+    "startup-notification"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 979,
+  "group_order": 0
+}

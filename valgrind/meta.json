@@ -1,0 +1,21 @@
+{
+  "name": "Valgrind",
+  "version": "3.27.1",
+  "title": "Valgrind-3.27.1",
+  "anchor": "valgrind",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Valgrind is an instrumentation framework for building dynamic analysis tools. There are Valgrind tools that can automatically detect many memory management and threading bugs, and profile programs in detail. Valgrind can also be used to build new tools.",
+  "download": "https://sourceware.org/pub/valgrind/valgrind-3.27.1.tar.bz2",
+  "archive": "valgrind-3.27.1.tar.bz2",
+  "md5": "9b819b1aa88fc5936373fc624aa75723",
+  "size": "17 MB",
+  "disk_space": "421 MB (add 107 MB for tests)",
+  "build_time": "0.5 SBU (add 7.6 SBU for tests; both using parallelism=4)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 522,
+  "group_order": 0
+}

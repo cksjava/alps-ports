@@ -1,0 +1,23 @@
+{
+  "name": "brotli",
+  "version": "1.2.0",
+  "title": "brotli-1.2.0",
+  "anchor": "brotli",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "Brotli provides a general-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling. Its libraries are particularly used for WOFF2 fonts on webpages.",
+  "download": "https://github.com/google/brotli/archive/v1.2.0/brotli-1.2.0.tar.gz",
+  "archive": "brotli-1.2.0.tar.gz",
+  "md5": "8fbfae9a5ecbc278ae7f761ecb6d1285",
+  "size": "632 KB",
+  "disk_space": "33 MB (with python3 bindings)",
+  "build_time": "0.3 SBU (with python3 bindings; parallelism=4)",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 58,
+  "group_order": 0
+}

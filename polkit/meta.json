@@ -1,0 +1,27 @@
+{
+  "name": "Polkit",
+  "version": "127",
+  "title": "Polkit-127",
+  "anchor": "polkit",
+  "page_type": "single",
+  "group": "security",
+  "chapter": "Chapter 4. Security",
+  "summary": "Polkit is a toolkit for defining and handling authorizations. It is used for allowing unprivileged processes to communicate with privileged processes.",
+  "download": "https://github.com/polkit-org/polkit/archive/127/polkit-127.tar.gz",
+  "archive": "polkit-127.tar.gz",
+  "md5": "2cc95f1b02fc1de6c9e52db986642ec4",
+  "size": "484 KB",
+  "disk_space": "7.8 MB (with tests)",
+  "build_time": "0.3 SBU (with tests; using parallelism=4)",
+  "dependencies": [
+    "duktape",
+    "glib",
+    "systemd",
+    "libxslt",
+    "linux-pam"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 19,
+  "group_order": 0
+}

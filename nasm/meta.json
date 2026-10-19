@@ -1,0 +1,21 @@
+{
+  "name": "NASM",
+  "version": "3.02",
+  "title": "NASM-3.02",
+  "anchor": "nasm",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "NASM (Netwide Assembler) is an 80x86 assembler designed for portability and modularity. It includes a disassembler as well.",
+  "download": "https://www.nasm.us/pub/nasm/releasebuilds/3.02/nasm-3.02.tar.xz",
+  "archive": "nasm-3.02.tar.xz",
+  "md5": "31ba022fff8de3065b5bc5ad5559188c",
+  "size": "1.5 MB",
+  "disk_space": "72 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 282,
+  "group_order": 0
+}

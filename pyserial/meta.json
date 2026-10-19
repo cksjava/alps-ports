@@ -1,0 +1,23 @@
+{
+  "name": "pySerial",
+  "version": "3.5",
+  "title": "pySerial-3.5",
+  "anchor": "pyserial",
+  "page_type": "nested",
+  "group": "python-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The pySerial module encapsulates access to the serial port.",
+  "download": "https://files.pythonhosted.org/packages/source/p/pyserial/pyserial-3.5.tar.gz",
+  "archive": "pyserial-3.5.tar.gz",
+  "md5": "1cf25a76da59b530dbfc2cf99392dc83",
+  "size": "156 KB",
+  "disk_space": "2.1 MB (add 0.2 MB for tests)",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "setuptools-scm"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 459,
+  "group_order": 25
+}

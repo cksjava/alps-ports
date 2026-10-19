@@ -1,0 +1,24 @@
+{
+  "name": "p11-kit",
+  "version": "0.26.5",
+  "title": "p11-kit-0.26.5",
+  "anchor": "p11-kit",
+  "page_type": "single",
+  "group": "security",
+  "chapter": "Chapter 4. Security",
+  "summary": "The p11-kit package provides a way to load and enumerate PKCS #11 (a Cryptographic Token Interface Standard) modules.",
+  "download": "https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz",
+  "archive": "p11-kit-0.26.5.tar.xz",
+  "md5": "308306e889850bff08fae74ae7897a21",
+  "size": "1.1 MB",
+  "disk_space": "117 MB (with tests)",
+  "build_time": "0.5 SBU (with tests)",
+  "dependencies": [
+    "libtasn1",
+    "make-ca"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 18,
+  "group_order": 0
+}

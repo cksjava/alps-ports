@@ -1,0 +1,23 @@
+{
+  "name": "kate",
+  "version": "26.04.3",
+  "title": "kate-26.04.3",
+  "anchor": "kate",
+  "page_type": "single",
+  "group": "text-editors",
+  "chapter": "Chapter 6. Text Editors",
+  "summary": "The Kate package contains an advanced KDE Frameworks-based graphical text editor.",
+  "download": "https://download.kde.org/stable/release-service/26.04.3/src/kate-26.04.3.tar.xz",
+  "archive": "kate-26.04.3.tar.xz",
+  "md5": "2b5b0f7071088586f4424d53b5148a6d",
+  "size": "8.2 MB",
+  "disk_space": "555 MB",
+  "build_time": "0.9 SBU (using parallelism=4)",
+  "dependencies": [
+    "building-kde-frameworks"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 43,
+  "group_order": 0
+}

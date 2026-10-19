@@ -1,0 +1,33 @@
+{
+  "name": "Gvfs",
+  "version": "1.60.2",
+  "title": "Gvfs-1.60.2",
+  "anchor": "gvfs",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "The Gvfs package is a userspace virtual filesystem designed to work with the I/O abstractions of GLib's GIO library.",
+  "download": "https://download.gnome.org/sources/gvfs/1.60/gvfs-1.60.2.tar.xz",
+  "archive": "gvfs-1.60.2.tar.xz",
+  "md5": "467f7d017234e5aab24d8e0a4e09deff",
+  "size": "1.3 MB",
+  "disk_space": "36 MB",
+  "build_time": "0.1 SBU (using parallelism=4)",
+  "dependencies": [
+    "dbus",
+    "glib",
+    "gcr4",
+    "libusb",
+    "libsecret",
+    "gtk3",
+    "libcdio",
+    "libgudev",
+    "libsoup",
+    "systemd",
+    "udisks"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 941,
+  "group_order": 0
+}

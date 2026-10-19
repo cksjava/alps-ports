@@ -1,0 +1,24 @@
+{
+  "name": "usbutils",
+  "version": "019",
+  "title": "usbutils-019",
+  "anchor": "usbutils",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The USB Utils package contains utilities used to display information about USB buses in the system and the devices connected to them.",
+  "download": "https://kernel.org/pub/linux/utils/usb/usbutils/usbutils-019.tar.xz",
+  "archive": "usbutils-019.tar.xz",
+  "md5": "67a8eb4782540058d0648f83ecabdf6c",
+  "size": "120 KB",
+  "disk_space": "1.9 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "libusb",
+    "hwdata"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 267,
+  "group_order": 0
+}

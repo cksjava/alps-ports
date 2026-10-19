@@ -1,0 +1,30 @@
+{
+  "name": "harfBuzz",
+  "version": "14.3.1",
+  "title": "harfBuzz-14.3.1",
+  "anchor": "harfbuzz",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The HarfBuzz package contains an OpenType text shaping engine.",
+  "download": "https://github.com/harfbuzz/harfbuzz/releases/download/14.3.1/harfbuzz-14.3.1.tar.xz",
+  "archive": "harfbuzz-14.3.1.tar.xz",
+  "md5": "4baccda978c92e5f27702ed8b3ceefa7",
+  "size": "19 MB",
+  "disk_space": "179 MB (with tests)",
+  "build_time": "0.9 SBU (with tests; both using parallelism=4)",
+  "dependencies": [
+    "freetype",
+    "glib",
+    "graphite2",
+    "texlive-source",
+    "libreoffice",
+    "icu"
+  ],
+  "build_before": [
+    "cairo"
+  ],
+  "build_after": [],
+  "order": 170,
+  "group_order": 0
+}

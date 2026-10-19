@@ -1,0 +1,24 @@
+{
+  "name": "Tecla",
+  "version": "50.0",
+  "title": "Tecla-50.0",
+  "anchor": "tecla",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "The Tecla package contains a keyboard layout viewer.",
+  "download": "https://download.gnome.org/sources/tecla/50/tecla-50.0.tar.xz",
+  "archive": "tecla-50.0.tar.xz",
+  "md5": "cc5ae49bae10abcb02040a20e63ef26b",
+  "size": "84 KB",
+  "disk_space": "2.1 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "libadwaita",
+    "libxkbcommon"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 947,
+  "group_order": 0
+}

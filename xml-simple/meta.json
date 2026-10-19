@@ -1,0 +1,23 @@
+{
+  "name": "XML::Simple",
+  "version": "2.25",
+  "title": "XML::Simple-2.25",
+  "anchor": "perl-xml-simple",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "XML::Simple provides an easy API to read and write XML (especially config files). It is deprecated and its use is discouraged.",
+  "download": "https://www.cpan.org/authors/id/G/GR/GRANTM/XML-Simple-2.25.tar.gz",
+  "archive": "XML-Simple-2.25.tar.gz",
+  "md5": "bb841dce889a26c89a1c2739970e9fbc",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "xml-parser"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 331,
+  "group_order": 48
+}

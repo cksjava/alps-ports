@@ -1,0 +1,21 @@
+{
+  "name": "Jansson",
+  "version": "2.15.1",
+  "title": "Jansson-2.15.1",
+  "anchor": "jansson",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The Jansson package contains a library used to encode, decode, and manipulate JSON data.",
+  "download": "https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.bz2",
+  "archive": "jansson-2.15.1.tar.bz2",
+  "md5": "d78dc70210ed2052fe1f97cf3fd3ed72",
+  "size": "480 KB",
+  "disk_space": "8.6 MB (with tests)",
+  "build_time": "0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 78,
+  "group_order": 0
+}

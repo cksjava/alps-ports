@@ -1,0 +1,21 @@
+{
+  "name": "Sphinxcontrib-jsmath",
+  "version": "1.0.1",
+  "title": "Sphinxcontrib-jsmath-1.0.1",
+  "anchor": "sc-jsmath",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Sphinxcontrib-jsmath package is a Sphinx extension which renders display math in HTML via JavaScript.",
+  "download": "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-jsmath/sphinxcontrib-jsmath-1.0.1.tar.gz",
+  "archive": "sphinxcontrib-jsmath-1.0.1.tar.gz",
+  "md5": "e45179f0a3608b6766862e0f34c23b62",
+  "size": "5.7 KB",
+  "disk_space": "324 KB (with tests)",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 502,
+  "group_order": 33
+}

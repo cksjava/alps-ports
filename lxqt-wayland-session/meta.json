@@ -1,0 +1,26 @@
+{
+  "name": "lxqt-wayland-session",
+  "version": "0.4.1",
+  "title": "lxqt-wayland-session-0.4.1",
+  "anchor": "lxqt-wayland-session",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "The lxqt-wayland-session package contains a helper script for LXQt that starts a Wayland compositor from a given list, then the main LXQt Wayland session. This package also provides compositor-specific configuration files to help with a smooth LXQt experience.",
+  "download": "https://github.com/lxqt/lxqt-wayland-session/releases/download/0.4.1/lxqt-wayland-session-0.4.1.tar.xz",
+  "archive": "lxqt-wayland-session-0.4.1.tar.xz",
+  "md5": "677cb8d34f2c2b7e16d5c7c62e0cea37",
+  "size": "360 KB",
+  "disk_space": "2.1 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "lxqt-session",
+    "layer-shell-qt-for-lxqt",
+    "qtxdg-tools",
+    "wayfire"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1033,
+  "group_order": 0
+}

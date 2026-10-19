@@ -1,0 +1,21 @@
+{
+  "name": "ISO Codes",
+  "version": "4.20.1",
+  "title": "ISO Codes-4.20.1",
+  "anchor": "iso-codes",
+  "page_type": "single",
+  "group": "general-utilities",
+  "chapter": "Chapter 11. General Utilities",
+  "summary": "The ISO Codes package contains a list of country, language and currency names and it is used as a central database for accessing this data.",
+  "download": "https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v4.20.1/iso-codes-v4.20.1.tar.gz",
+  "archive": "iso-codes-v4.20.1.tar.gz",
+  "md5": "a8f16a62662ec13e55ca255a7c036ee3",
+  "size": "16 MB",
+  "disk_space": "114 MB",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 215,
+  "group_order": 0
+}

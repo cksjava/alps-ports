@@ -1,0 +1,24 @@
+{
+  "name": "Wget",
+  "version": "1.25.0",
+  "title": "Wget-1.25.0",
+  "anchor": "wget",
+  "page_type": "single",
+  "group": "networking-programs",
+  "chapter": "Chapter 15. Networking Programs",
+  "summary": "The Wget package contains a utility useful for non-interactive downloading of files from the Web.",
+  "download": "https://ftpmirror.gnu.org/wget/wget-1.25.0.tar.gz",
+  "archive": "wget-1.25.0.tar.gz",
+  "md5": "c70ba58b36f944e8ba1d655ace552881",
+  "size": "5.0 MB",
+  "disk_space": "38 MB (add 27 MB for tests)",
+  "build_time": "0.3 SBU (add 0.4 SBU for tests)",
+  "dependencies": [
+    "libpsl",
+    "make-ca"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 535,
+  "group_order": 0
+}

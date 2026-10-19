@@ -1,0 +1,24 @@
+{
+  "name": "Vala",
+  "version": "0.56.19",
+  "title": "Vala-0.56.19",
+  "anchor": "vala",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Vala is a new programming language that aims to bring modern programming language features to GNOME developers without imposing any additional runtime requirements and without using a different ABI compared to applications and libraries written in C.",
+  "download": "https://download.gnome.org/sources/vala/0.56/vala-0.56.19.tar.xz",
+  "archive": "vala-0.56.19.tar.xz",
+  "md5": "a2dc825de503fad703584cfb0ed50302",
+  "size": "3.8 MB",
+  "disk_space": "160 MB (add 16 MB for tests)",
+  "build_time": "0.4 SBU (add 0.9 SBU for tests; both using parallelism=4)",
+  "dependencies": [
+    "glib",
+    "graphviz"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 521,
+  "group_order": 0
+}

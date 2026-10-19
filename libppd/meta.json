@@ -1,0 +1,23 @@
+{
+  "name": "libppd",
+  "version": "2.1.1",
+  "title": "libppd-2.1.1",
+  "anchor": "libppd",
+  "page_type": "single",
+  "group": "printing",
+  "chapter": "Chapter 46. Printing",
+  "summary": "The libppd library contains functions for handling legacy printers using PPD description files.",
+  "download": "https://github.com/OpenPrinting/libppd/releases/download/2.1.1/libppd-2.1.1.tar.xz",
+  "archive": "libppd-2.1.1.tar.xz",
+  "md5": "65accc86f9956a1160937b14e0f516a6",
+  "size": "576 KB",
+  "disk_space": "13 MB (with tests)",
+  "build_time": "less than 0.1 SBU (Using parallelism=4; with tests)",
+  "dependencies": [
+    "libcupsfilters"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1151,
+  "group_order": 0
+}

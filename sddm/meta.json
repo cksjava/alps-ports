@@ -1,0 +1,28 @@
+{
+  "name": "sddm",
+  "version": "0.21.0",
+  "title": "sddm-0.21.0",
+  "anchor": "sddm",
+  "page_type": "single",
+  "group": "display-managers",
+  "chapter": "Chapter 26. Display Managers",
+  "summary": "The sddm package contains a lightweight display manager based upon Qt and QML.",
+  "download": "https://github.com/sddm/sddm/archive/v0.21.0/sddm-0.21.0.tar.gz",
+  "archive": "sddm-0.21.0.tar.gz",
+  "md5": "e32a35c282d9be3360737eefbe25b5fa",
+  "size": "3.4 MB",
+  "disk_space": "24 MB",
+  "build_time": "0.3 SBU (Using parallelism=4)",
+  "dependencies": [
+    "cmake",
+    "extra-cmake-modules",
+    "qt",
+    "docutils",
+    "linux-pam",
+    "upower"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 747,
+  "group_order": 0
+}

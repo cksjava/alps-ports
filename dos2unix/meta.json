@@ -1,0 +1,21 @@
+{
+  "name": "dos2unix",
+  "version": "7.5.7",
+  "title": "dos2unix-7.5.7",
+  "anchor": "dos2unix",
+  "page_type": "single",
+  "group": "general-utilities",
+  "chapter": "Chapter 11. General Utilities",
+  "summary": "The dos2unix package contains an any-to-any text format converter.",
+  "download": "https://downloads.sourceforge.net/dos2unix/dos2unix-7.5.7.tar.gz",
+  "archive": "dos2unix-7.5.7.tar.gz",
+  "md5": "72877deeaea114ea152b76c08b0f2e78",
+  "size": "980 KB",
+  "disk_space": "5.8 MB (with tests)",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 206,
+  "group_order": 0
+}

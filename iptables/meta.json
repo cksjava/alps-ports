@@ -1,0 +1,21 @@
+{
+  "name": "iptables",
+  "version": "1.8.13",
+  "title": "iptables-1.8.13",
+  "anchor": "iptables",
+  "page_type": "single",
+  "group": "security",
+  "chapter": "Chapter 4. Security",
+  "summary": "iptables is a userspace command line program used to configure the Linux 2.4 and later kernel packet filtering ruleset.",
+  "download": "https://www.netfilter.org/projects/iptables/files/iptables-1.8.13.tar.xz",
+  "archive": "iptables-1.8.13.tar.xz",
+  "md5": "81b5edf500e2672bfbc744581ff7dc3e",
+  "size": "640 KB",
+  "disk_space": "16 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 9,
+  "group_order": 0
+}

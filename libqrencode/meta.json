@@ -1,0 +1,23 @@
+{
+  "name": "libqrencode",
+  "version": "4.1.1",
+  "title": "libqrencode-4.1.1",
+  "anchor": "qrencode",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The libqrencode package provides a fast and compact library for encoding data in a QR Code symbol, a 2D symbology that can be scanned by handheld terminals such as a mobile phone with a CCD sensor.",
+  "download": "https://github.com/fukuchi/libqrencode/archive/v4.1.1/libqrencode-4.1.1.tar.gz",
+  "archive": "libqrencode-4.1.1.tar.gz",
+  "md5": "486f879d1638d3fb58a4a5d45a88c600",
+  "size": "188 KB",
+  "disk_space": "6.6 MB (with documentation, add 5 MB for tests)",
+  "build_time": "less than 0.1 SBU, add 0.1 SBU for tests",
+  "dependencies": [
+    "libpng"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 184,
+  "group_order": 0
+}

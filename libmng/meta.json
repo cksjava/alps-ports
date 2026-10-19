@@ -1,0 +1,24 @@
+{
+  "name": "libmng",
+  "version": "2.0.3",
+  "title": "libmng-2.0.3",
+  "anchor": "libmng",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The libmng libraries are used by programs wanting to read and write Multiple-image Network Graphics (MNG) files which are the animation equivalents to PNG files.",
+  "download": "https://downloads.sourceforge.net/libmng/libmng-2.0.3.tar.xz",
+  "archive": "libmng-2.0.3.tar.xz",
+  "md5": "e9e899adb1b681b17f14d91e261878c5",
+  "size": "932 KB",
+  "disk_space": "15 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "libjpeg-turbo",
+    "little-cms"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 181,
+  "group_order": 0
+}

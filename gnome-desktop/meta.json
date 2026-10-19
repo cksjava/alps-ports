@@ -1,0 +1,30 @@
+{
+  "name": "gnome-desktop",
+  "version": "44.5",
+  "title": "gnome-desktop-44.5",
+  "anchor": "gnome-desktop",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "The GNOME Desktop package contains a library that provides an API shared by several applications on the GNOME Desktop.",
+  "download": "https://download.gnome.org/sources/gnome-desktop/44/gnome-desktop-44.5.tar.xz",
+  "archive": "gnome-desktop-44.5.tar.xz",
+  "md5": "d99550c41db721f4a7f302bd95eef5c2",
+  "size": "748 KB",
+  "disk_space": "19 MB",
+  "build_time": "0.3 SBU",
+  "dependencies": [
+    "gsettings-desktop-schemas",
+    "iso-codes",
+    "libseccomp",
+    "xkeyboardconfig",
+    "gtk3",
+    "gtk4",
+    "bubblewrap",
+    "glib"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 925,
+  "group_order": 0
+}

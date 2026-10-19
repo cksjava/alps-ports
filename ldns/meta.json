@@ -1,0 +1,21 @@
+{
+  "name": "ldns",
+  "version": "1.9.2",
+  "title": "ldns-1.9.2",
+  "anchor": "ldns",
+  "page_type": "single",
+  "group": "networking-libraries",
+  "chapter": "Chapter 17. Networking Libraries",
+  "summary": "ldns is a fast DNS library with the goal to simplify DNS programming and to allow developers to easily create software conforming to current RFCs and Internet drafts. This packages also includes the drill tool.",
+  "download": "https://www.nlnetlabs.nl/downloads/ldns/ldns-1.9.2.tar.gz",
+  "archive": "ldns-1.9.2.tar.gz",
+  "md5": "6d17848f387d7aa2e9daf7d6ac3c1b13",
+  "size": "1.3 MB",
+  "disk_space": "55 MB (with docs)",
+  "build_time": "0.2 SBU (with docs)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 553,
+  "group_order": 0
+}

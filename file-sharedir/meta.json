@@ -1,0 +1,24 @@
+{
+  "name": "File::ShareDir",
+  "version": "1.118",
+  "title": "File::ShareDir-1.118",
+  "anchor": "perl-file-sharedir",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "File::ShareDir allows you to access data files which have been installed by File::ShareDir::Install.",
+  "download": "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-ShareDir-1.118.tar.gz",
+  "archive": "File-ShareDir-1.118.tar.gz",
+  "md5": "0084f730f4e3d4d89703d92b3ea82f54",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "class-inspector",
+    "file-sharedir-install"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 368,
+  "group_order": 36
+}

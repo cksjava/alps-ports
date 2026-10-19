@@ -1,0 +1,21 @@
+{
+  "name": "libtasn1",
+  "version": "4.21.0",
+  "title": "libtasn1-4.21.0",
+  "anchor": "libtasn1",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "libtasn1 is a highly portable C library that encodes and decodes DER/BER data following an ASN.1 schema.",
+  "download": "https://ftpmirror.gnu.org/libtasn1/libtasn1-4.21.0.tar.gz",
+  "archive": "libtasn1-4.21.0.tar.gz",
+  "md5": "2ee1d9f3aa66f1e308c46a283aa9a8c2",
+  "size": "1.7 MB",
+  "disk_space": "16 MB (with tests)",
+  "build_time": "0.5 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 118,
+  "group_order": 0
+}

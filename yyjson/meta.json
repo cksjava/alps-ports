@@ -1,0 +1,23 @@
+{
+  "name": "yyjson",
+  "version": "0.12.0",
+  "title": "yyjson-0.12.0",
+  "anchor": "yyjson",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The yyjson package contains a high performance JSON library written in C.",
+  "download": "https://github.com/ibireme/yyjson/archive/0.12.0/yyjson-0.12.0.tar.gz",
+  "archive": "yyjson-0.12.0.tar.gz",
+  "md5": "a0a4fe2ae717277125fdebc60630ddf1",
+  "size": "1.6 MB",
+  "disk_space": "22 MB (with tests)",
+  "build_time": "0.4 SBU (with tests)",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 157,
+  "group_order": 0
+}

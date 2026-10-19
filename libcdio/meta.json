@@ -1,0 +1,21 @@
+{
+  "name": "libcdio",
+  "version": "2.1.0",
+  "title": "libcdio-2.1.0",
+  "anchor": "libcdio",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "The libcdio is a library for CD-ROM and CD image access. The associated libcdio-cdparanoia library reads audio from the CD-ROM directly as data, with no analog step between, and writes the data to a file or pipe as .wav, .aifc or as raw 16 bit linear PCM.",
+  "download": "https://ftpmirror.gnu.org/libcdio/libcdio-2.1.0.tar.bz2",
+  "archive": "libcdio-2.1.0.tar.bz2",
+  "md5": "aa7629e8f73662a762f64c444b901055",
+  "size": "1.7 MB",
+  "disk_space": "53 MB (both packages, including checks)",
+  "build_time": "0.2 SBU (using parallelism=4; both packages, including checks)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 1093,
+  "group_order": 0
+}

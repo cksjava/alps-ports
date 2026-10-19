@@ -1,0 +1,24 @@
+{
+  "name": "lxqt-admin",
+  "version": "2.4.0",
+  "title": "lxqt-admin-2.4.0",
+  "anchor": "lxqt-admin",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "The lxqt-admin package provides two GUI tools to adjust settings of the operating system LXQt is running on.",
+  "download": "https://github.com/lxqt/lxqt-admin/releases/download/2.4.0/lxqt-admin-2.4.0.tar.xz",
+  "archive": "lxqt-admin-2.4.0.tar.xz",
+  "md5": "77a73ebdfad37f8d0948fe20011c24db",
+  "size": "160 KB",
+  "disk_space": "5.8 MB",
+  "build_time": "0.3 SBU",
+  "dependencies": [
+    "liblxqt",
+    "polkit"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1026,
+  "group_order": 0
+}

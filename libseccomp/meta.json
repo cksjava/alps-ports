@@ -1,0 +1,21 @@
+{
+  "name": "libseccomp",
+  "version": "2.6.1",
+  "title": "libseccomp-2.6.1",
+  "anchor": "libseccomp",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The libseccomp package provides an easy to use and platform independent interface to the Linux kernel's syscall filtering mechanism.",
+  "download": "https://github.com/seccomp/libseccomp/releases/download/v2.6.1/libseccomp-2.6.1.tar.gz",
+  "archive": "libseccomp-2.6.1.tar.gz",
+  "md5": "33a3a5d4c526a739515ff4dc53cdc192",
+  "size": "644 KB",
+  "disk_space": "13 MB (with tests)",
+  "build_time": "less than 0.1 SBU (additional 1.7 SBU for tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 112,
+  "group_order": 0
+}

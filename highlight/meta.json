@@ -1,0 +1,24 @@
+{
+  "name": "Highlight",
+  "version": "4.21",
+  "title": "Highlight-4.21",
+  "anchor": "highlight",
+  "page_type": "single",
+  "group": "general-utilities",
+  "chapter": "Chapter 11. General Utilities",
+  "summary": "Highlight is a utility that converts source code to formatted text with syntax highlighting.",
+  "download": "http://www.andre-simon.de/zip/highlight-4.21.tar.bz2",
+  "archive": "highlight-4.21.tar.bz2",
+  "md5": "7012cb264294e0895909b7a6a00601ef",
+  "size": "1.5 MB",
+  "disk_space": "34 MB (with gui)",
+  "build_time": "0.2 SBU (Using parallelism=4; with gui)",
+  "dependencies": [
+    "boost",
+    "lua"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 211,
+  "group_order": 0
+}

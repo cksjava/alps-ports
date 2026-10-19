@@ -1,0 +1,23 @@
+{
+  "name": "Cyrus SASL",
+  "version": "2.1.28",
+  "title": "Cyrus SASL-2.1.28",
+  "anchor": "cyrus-sasl",
+  "page_type": "single",
+  "group": "security",
+  "chapter": "Chapter 4. Security",
+  "summary": "The Cyrus SASL package contains a Simple Authentication and Security Layer implementation, a method for adding authentication support to connection-based protocols. To use SASL, a protocol includes a command for identifying and authenticating a user to a server and for optionally negotiating protection of subsequent protocol interactions. If its use is negotiated, a security layer is inserted between the protocol and the connection.",
+  "download": "https://github.com/cyrusimap/cyrus-sasl/releases/download/cyrus-sasl-2.1.28/cyrus-sasl-2.1.28.tar.gz",
+  "archive": "cyrus-sasl-2.1.28.tar.gz",
+  "md5": "6f228a692516f5318a64505b46966cfa",
+  "size": "3.9 MB",
+  "disk_space": "28 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "lmdb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 4,
+  "group_order": 0
+}

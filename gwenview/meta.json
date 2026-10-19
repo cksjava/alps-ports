@@ -1,0 +1,27 @@
+{
+  "name": "gwenview",
+  "version": "26.04.3",
+  "title": "gwenview-26.04.3",
+  "anchor": "gwenview",
+  "page_type": "single",
+  "group": "kde-frameworks-based-applications",
+  "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
+  "summary": "Gwenview is a fast and easy-to-use image viewer for KDE.",
+  "download": "https://download.kde.org/stable/release-service/26.04.3/src/gwenview-26.04.3.tar.xz",
+  "archive": "gwenview-26.04.3.tar.xz",
+  "md5": "e5f5de769772d49975243e24dd95f3af",
+  "size": "6.3 MB",
+  "disk_space": "71 MB",
+  "build_time": "0.6 SBU (using parallelism=4)",
+  "dependencies": [
+    "exiv2",
+    "kimageannotator",
+    "building-kde-frameworks",
+    "little-cms",
+    "libkdcraw"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 849,
+  "group_order": 0
+}

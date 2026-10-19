@@ -1,0 +1,21 @@
+{
+  "name": "Cython",
+  "version": "3.2.9",
+  "title": "Cython-3.2.9",
+  "anchor": "cython",
+  "page_type": "nested",
+  "group": "python-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Cython package provides a compiler for writing C extensions for the Python language.",
+  "download": "https://github.com/cython/cython/releases/download/3.2.9/cython-3.2.9.tar.gz",
+  "archive": "cython-3.2.9.tar.gz",
+  "md5": "775ad752cdb021193f3ef323228388d5",
+  "size": "3.2 MB",
+  "disk_space": "186 MB (add 12 MB for tests)",
+  "build_time": "1.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 440,
+  "group_order": 6
+}

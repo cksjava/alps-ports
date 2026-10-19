@@ -1,0 +1,30 @@
+{
+  "name": "Colord",
+  "version": "1.4.8",
+  "title": "Colord-1.4.8",
+  "anchor": "colord",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "Colord is a system service that makes it easy to manage, install, and generate color profiles. It is used mainly by GNOME Color Manager for system integration and use when no users are logged in.",
+  "download": "https://www.freedesktop.org/software/colord/releases/colord-1.4.8.tar.xz",
+  "archive": "colord-1.4.8.tar.xz",
+  "md5": "4d17dea7fe5460c2ea16aee64dca2ecb",
+  "size": "1.8 MB",
+  "disk_space": "22 MB (with tests)",
+  "build_time": "0.3 SBU (with tests)",
+  "dependencies": [
+    "dbus",
+    "glib",
+    "little-cms",
+    "libgudev",
+    "libgusb",
+    "polkit",
+    "systemd",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 234,
+  "group_order": 0
+}

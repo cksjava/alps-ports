@@ -1,0 +1,21 @@
+{
+  "name": "giflib",
+  "version": "6.1.3",
+  "title": "giflib-6.1.3",
+  "anchor": "giflib",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The giflib package contains libraries for reading and writing GIFs as well as programs for converting and working with GIF files.",
+  "download": "https://sourceforge.net/projects/giflib/files/giflib-6.1.3.tar.gz",
+  "archive": "giflib-6.1.3.tar.gz",
+  "md5": "a70e90ff780e9ebee9cb84b82bbd46a7",
+  "size": "460 KB",
+  "disk_space": "4.2 MB (with documentation)",
+  "build_time": "less than 0.1 SBU (with documentation)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 165,
+  "group_order": 0
+}

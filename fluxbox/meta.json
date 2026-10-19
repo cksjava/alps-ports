@@ -1,0 +1,23 @@
+{
+  "name": "Fluxbox",
+  "version": "1.3.7",
+  "title": "Fluxbox-1.3.7",
+  "anchor": "fluxbox",
+  "page_type": "single",
+  "group": "window-managers",
+  "chapter": "Chapter 27. Window Managers",
+  "summary": "The Fluxbox package contains a window manager.",
+  "download": "https://downloads.sourceforge.net/fluxbox/fluxbox-1.3.7.tar.xz",
+  "archive": "fluxbox-1.3.7.tar.xz",
+  "md5": "b44afd10ee1e64624c23115aa51dcd55",
+  "size": "772 KB",
+  "disk_space": "101 MB",
+  "build_time": "0.9 SBU",
+  "dependencies": [
+    "chapter-24-graphical-environments"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 748,
+  "group_order": 0
+}

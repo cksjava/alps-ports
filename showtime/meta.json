@@ -1,0 +1,26 @@
+{
+  "name": "Showtime",
+  "version": "49.1",
+  "title": "Showtime-49.1",
+  "anchor": "showtime",
+  "page_type": "single",
+  "group": "gnome-applications",
+  "chapter": "Chapter 34. GNOME Applications",
+  "summary": "Showtime is an application used for playing audio and video files on the GNOME desktop.",
+  "download": "https://download.gnome.org/sources/showtime/49/showtime-49.1.tar.xz",
+  "archive": "showtime-49.1.tar.xz",
+  "md5": "8646fd90b0bbfb9bda6fcb83a637c437",
+  "size": "2.8 MB",
+  "disk_space": "5.0 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "blueprint-compiler",
+    "gst-plugins-base",
+    "libadwaita",
+    "pygobject"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 975,
+  "group_order": 0
+}

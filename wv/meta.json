@@ -1,0 +1,24 @@
+{
+  "name": "wv",
+  "version": "1.2.9",
+  "title": "wv-1.2.9",
+  "anchor": "wv",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The wv package contains tools for reading information from an MS Word document.",
+  "download": "https://anduin.linuxfromscratch.org/BLFS/wv/wv-1.2.9.tar.gz",
+  "archive": "wv-1.2.9.tar.gz",
+  "md5": "dbccf2e9f747e50c913b7e3d126b73f7",
+  "size": "608 KB",
+  "disk_space": "25 MB",
+  "build_time": "0.4 SBU",
+  "dependencies": [
+    "libgsf",
+    "libpng"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 155,
+  "group_order": 0
+}

@@ -1,0 +1,27 @@
+{
+  "name": "GnuTLS",
+  "version": "3.8.13",
+  "title": "GnuTLS-3.8.13",
+  "anchor": "gnutls",
+  "page_type": "single",
+  "group": "security",
+  "chapter": "Chapter 4. Security",
+  "summary": "The GnuTLS package contains libraries and userspace tools which provide a secure layer over a reliable transport layer. Currently the GnuTLS library implements the proposed standards by the IETF's TLS working group. Quoting from the TLS 1.3 protocol specification :",
+  "download": "https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.13.tar.xz",
+  "archive": "gnutls-3.8.13.tar.xz",
+  "md5": "a97671c1839340c6b43c23ccb3237180",
+  "size": "7.0 MB",
+  "disk_space": "336 MB (with tests)",
+  "build_time": "0.6 SBU (add 1.4 SBU for tests; both using parallelism=8)",
+  "dependencies": [
+    "nettle",
+    "make-ca",
+    "libunistring",
+    "libtasn1",
+    "p11-kit"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 6,
+  "group_order": 0
+}

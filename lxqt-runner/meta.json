@@ -1,0 +1,25 @@
+{
+  "name": "lxqt-runner",
+  "version": "2.4.0",
+  "title": "lxqt-runner-2.4.0",
+  "anchor": "lxqt-runner",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "The lxqt-runner package provides a tool used to launch programs quickly by typing their names.",
+  "download": "https://github.com/lxqt/lxqt-runner/releases/download/2.4.0/lxqt-runner-2.4.0.tar.xz",
+  "archive": "lxqt-runner-2.4.0.tar.xz",
+  "md5": "9ceae166db36448dfbc5825434c2dc08",
+  "size": "232 KB",
+  "disk_space": "6.4 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "lxqt-globalkeys",
+    "kwindowsystem-for-lxqt",
+    "muparser"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1024,
+  "group_order": 0
+}

@@ -1,0 +1,23 @@
+{
+  "name": "docbook-xsl-nons",
+  "version": "1.79.2",
+  "title": "docbook-xsl-nons-1.79.2",
+  "anchor": "docbook-xsl",
+  "page_type": "single",
+  "group": "extensible-markup-language",
+  "chapter": "Chapter 49. Extensible Markup Language (XML)",
+  "summary": "The DocBook XSL Stylesheets package contains XSL stylesheets. These are useful for performing transformations on XML DocBook files.",
+  "download": "https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-doc-1.79.2.tar.bz2",
+  "archive": "docbook-xsl-doc-1.79.2.tar.bz2",
+  "md5": "62375ca864fc198cb2b17d98209d0b8c",
+  "size": "522 KB",
+  "disk_space": "58 MB (includes installing optional documentation)",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "libxml2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1163,
+  "group_order": 0
+}

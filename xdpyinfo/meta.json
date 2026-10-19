@@ -1,0 +1,26 @@
+{
+  "name": "xdpyinfo",
+  "version": "1.4.0",
+  "title": "xdpyinfo-1.4.0",
+  "anchor": "xdpyinfo",
+  "page_type": "compound",
+  "group": "xorg-applications",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg applications provide the expected applications available in previous X Window implementations.",
+  "download": "https://www.x.org/pub/individual/app/",
+  "archive": "xdpyinfo-1.4.0.tar.xz",
+  "md5": "700556957773d378fa16a65a4406be0a",
+  "size": "4.9 MB",
+  "disk_space": "48 MB",
+  "build_time": "1.5 SBU (ignoring the time to download)",
+  "dependencies": [
+    "libpng",
+    "mesa",
+    "xbitmaps",
+    "xcb-util"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 641,
+  "group_order": 9
+}

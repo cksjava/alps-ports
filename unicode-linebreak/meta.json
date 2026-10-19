@@ -1,0 +1,24 @@
+{
+  "name": "Unicode::LineBreak",
+  "version": "2019.001",
+  "title": "Unicode::LineBreak-2019.001",
+  "anchor": "perl-unicode-linebreak",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Unicode::LineBreak provides a UAX #14 Unicode Line Breaking Algorithm.",
+  "download": "https://www.cpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2019.001.tar.gz",
+  "archive": "Unicode-LineBreak-2019.001.tar.gz",
+  "md5": "003d6da7a13700e069afed9238c864b9",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "mime-charset",
+    "wget"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 326,
+  "group_order": 43
+}

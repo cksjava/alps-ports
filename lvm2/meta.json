@@ -1,0 +1,23 @@
+{
+  "name": "LVM2",
+  "version": "2.03.42",
+  "title": "LVM2-2.03.42",
+  "anchor": "lvm2",
+  "page_type": "single",
+  "group": "file-systems-and-disk-management",
+  "chapter": "Chapter 5. File Systems and Disk Management",
+  "summary": "The LVM2 package is a set of tools that manage logical partitions. It allows spanning of file systems across multiple physical disks and disk partitions and provides for dynamic growing or shrinking of logical partitions, mirroring and low storage footprint snapshots.",
+  "download": "https://sourceware.org/ftp/lvm2/LVM2.2.03.42.tgz",
+  "archive": "LVM2.2.03.42.tgz",
+  "md5": "1cfc17fcbdc5103492b4504c5ddaa274",
+  "size": "3.0 MB",
+  "disk_space": "40 MB (add up to 300 MB for transient files for tests in the /tmp directory)",
+  "build_time": "0.4 SBU (add 9 to 48 SBU for tests, depending on disk speed and options enabled in the kernel)",
+  "dependencies": [
+    "libaio"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 29,
+  "group_order": 0
+}

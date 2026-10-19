@@ -1,0 +1,23 @@
+{
+  "name": "font-misc-ethiopic",
+  "version": "1.0.5",
+  "title": "font-misc-ethiopic-1.0.5",
+  "anchor": "font-misc-ethiopic",
+  "page_type": "compound",
+  "group": "xorg-fonts",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg font packages provide some scalable fonts and supporting packages for Xorg applications. Many people will want to install other TTF or OTF fonts in addition to, or instead of, these. Some are listed at the section called “TTF and OTF fonts”.",
+  "download": "https://www.x.org/pub/individual/font/",
+  "archive": "font-misc-ethiopic-1.0.5.tar.xz",
+  "md5": "fe972eaf13176fa9aa7e74a12ecc801a",
+  "size": "3.0 MB",
+  "disk_space": "8.8 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "xcursor-themes"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 675,
+  "group_order": 8
+}

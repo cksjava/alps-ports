@@ -1,0 +1,55 @@
+#!/bin/bash
+# AryaLinux package build
+# glslc-from-shaderc — glslc from shaderc-2026.3
+# Instructions follow the book. Test-suite commands are omitted.
+set -euo pipefail
+
+if [[ -r /etc/aryalinux-build.conf ]]; then
+    # shellcheck disable=SC1091
+    source /etc/aryalinux-build.conf
+elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
+    # shellcheck disable=SC1091
+    source "$ARYA_CONFIG"
+fi
+
+: "${ARYA_SOURCES:=/sources}"
+: "${ARYA_ROOT:=/aryalinux-builder}"
+if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
+    ARYA_SOURCES="$LFS/sources"
+fi
+
+_arya_here=$(cd "$(dirname "$0")" && pwd)
+if [[ -r "$_arya_here/../../lib/idempotent.sh" ]]; then
+    # shellcheck disable=SC1091
+    source "$_arya_here/../../lib/idempotent.sh"
+fi
+
+echo "=== glslc from shaderc-2026.3 ==="
+cd "$ARYA_SOURCES"
+tarball="shaderc-2026.3.tar.gz"
+if [[ ! -f "$tarball" ]]; then
+    echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
+    exit 1
+fi
+srcdir=$(tar -tf "$tarball" | awk -F/ 'NR==1 { print $1 }')
+rm -rf "$srcdir"
+tar -xf "$tarball"
+cd "$srcdir"
+
+sed '/build-version/d'   -i glslc/CMakeLists.txt            &&
+sed '/third_party/d'     -i CMakeLists.txt                  &&
+sed 's|SPIRV|glslang/&|' -i libshaderc_util/src/compiler.cc &&
+
+echo '"2026.3"' > glslc/src/build-version.inc
+mkdir build &&
+cd    build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr \
+      -D CMAKE_BUILD_TYPE=Release  \
+      -D SHADERC_SKIP_TESTS=ON     \
+      -G Ninja ..
+ninja glslc/glslc
+install -vm755 glslc/glslc /usr/bin
+
+cd "$ARYA_SOURCES"
+rm -rf "$srcdir"

@@ -1,0 +1,23 @@
+{
+  "name": "font-util",
+  "version": "1.4.2",
+  "title": "font-util-1.4.2",
+  "anchor": "font-util",
+  "page_type": "compound",
+  "group": "xorg-fonts",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg font packages provide some scalable fonts and supporting packages for Xorg applications. Many people will want to install other TTF or OTF fonts in addition to, or instead of, these. Some are listed at the section called “TTF and OTF fonts”.",
+  "download": "https://www.x.org/pub/individual/font/",
+  "archive": "font-util-1.4.2.tar.xz",
+  "md5": "42ea8cc91549e43e9251ccbd664e7864",
+  "size": "3.0 MB",
+  "disk_space": "8.8 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "xcursor-themes"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 668,
+  "group_order": 1
+}

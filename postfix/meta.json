@@ -1,0 +1,25 @@
+{
+  "name": "Postfix",
+  "version": "3.11.6",
+  "title": "Postfix-3.11.6",
+  "anchor": "postfix",
+  "page_type": "single",
+  "group": "mail-server-software",
+  "chapter": "Chapter 21. Mail Server Software",
+  "summary": "The Postfix package contains a Mail Transport Agent (MTA). This is useful for sending email to other users of your host machine. It can also be configured to be a central mail server for your domain, a mail relay agent or simply a mail delivery agent to your local Internet Service Provider.",
+  "download": "https://ghostarchive.org/postfix/postfix-release/official/postfix-3.11.6.tar.gz",
+  "archive": "postfix-3.11.6.tar.gz",
+  "md5": "7d8b971f64d7c059dcb922e16462dcdd",
+  "size": "5.1 MB",
+  "disk_space": "245 MB (66 MB installed)",
+  "build_time": "0.2 SBU (Using parallelism=4)",
+  "dependencies": [
+    "cyrus-sasl",
+    "libnsl",
+    "lmdb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 580,
+  "group_order": 0
+}

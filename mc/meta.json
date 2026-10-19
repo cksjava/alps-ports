@@ -1,0 +1,24 @@
+{
+  "name": "MC",
+  "version": "4.8.33",
+  "title": "MC-4.8.33",
+  "anchor": "mc",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "MC (Midnight Commander) is a text-mode full-screen file manager and visual shell. It provides a clear, user-friendly, and somewhat protected interface to a Unix system while making many frequent file operations more efficient and preserving the full power of the command prompt.",
+  "download": "http://ftp.midnight-commander.org/mc-4.8.33.tar.xz",
+  "archive": "mc-4.8.33.tar.xz",
+  "md5": "b3596c1f092b9822a6cd9c9a1aef8dde",
+  "size": "2.3 MB",
+  "disk_space": "71 MB (add 97 MB for tests)",
+  "build_time": "0.3 SBU (using parallelism=4; add 0.1 SBU for tests)",
+  "dependencies": [
+    "glib",
+    "slang"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 243,
+  "group_order": 0
+}

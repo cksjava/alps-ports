@@ -1,0 +1,25 @@
+{
+  "name": "libXcursor",
+  "version": "1.2.3",
+  "title": "libXcursor-1.2.3",
+  "anchor": "libxcursor",
+  "page_type": "compound",
+  "group": "xorg-libraries",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg libraries provide library routines that are used within all X Window applications.",
+  "download": "https://www.x.org/pub/individual/lib/",
+  "archive": "libXcursor-1.2.3.tar.xz",
+  "md5": "5ce55e952ec2d84d9817169d5fdb7865",
+  "size": "12 MB",
+  "disk_space": "274 MB (47 MB installed) - if source directories not deleted",
+  "build_time": "1.8 SBU",
+  "dependencies": [
+    "fontconfig",
+    "libxcb",
+    "dbus"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 605,
+  "group_order": 15
+}

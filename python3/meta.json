@@ -1,0 +1,21 @@
+{
+  "name": "Python",
+  "version": "3.14.7",
+  "title": "Python-3.14.7",
+  "anchor": "python3",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Python 3 package contains the Python development environment. This is useful for object-oriented programming, writing scripts, prototyping large programs or developing entire applications.",
+  "download": "https://www.python.org/ftp/python/doc/3.14.7/python-3.14.7-docs-html.tar.bz2",
+  "archive": "python-3.14.7-docs-html.tar.bz2",
+  "md5": "bdf55dddc02a76961d61730f06d18849",
+  "size": "23 MB",
+  "disk_space": "348 MB (add 65 MB for tests)",
+  "build_time": "2.2 SBU (add 0.7 SBU for tests; both using parallelism=4)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 433,
+  "group_order": 0
+}

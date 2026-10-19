@@ -1,0 +1,21 @@
+{
+  "name": "Apr",
+  "version": "1.7.6",
+  "title": "Apr-1.7.6",
+  "anchor": "apr",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The Apache Portable Runtime (APR) is a supporting library for the Apache web server. It provides a set of application programming interfaces (APIs) that map to the underlying Operating System (OS). Where the OS doesn't support a particular function, APR will provide an emulation. Thus programmers can use the APR to make a program portable across different platforms.",
+  "download": "https://archive.apache.org/dist/apr/apr-1.7.6.tar.bz2",
+  "archive": "apr-1.7.6.tar.bz2",
+  "md5": "2ebb58910e426e5a83af97bc94cae66d",
+  "size": "879 KB",
+  "disk_space": "11 MB (additional 4 MB for the tests)",
+  "build_time": "0.2 SBU (add 1.7 SBU for tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 54,
+  "group_order": 0
+}

@@ -1,0 +1,24 @@
+{
+  "name": "gexiv2",
+  "version": "0.16.2",
+  "title": "gexiv2-0.16.2",
+  "anchor": "gexiv2",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "gexiv2 is a GObject-based wrapper around the Exiv2 library.",
+  "download": "https://download.gnome.org/sources/gexiv2/0.16/gexiv2-0.16.2.tar.xz",
+  "archive": "gexiv2-0.16.2.tar.xz",
+  "md5": "ed530cddf2f30e1903e983e5542262f9",
+  "size": "428 KB",
+  "disk_space": "6.7 MB (with tests)",
+  "build_time": "less than 0.1 SBU (with tests; both with parallelism=4)",
+  "dependencies": [
+    "exiv2",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 942,
+  "group_order": 0
+}

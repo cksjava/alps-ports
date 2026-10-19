@@ -1,0 +1,23 @@
+{
+  "name": "Lynx",
+  "version": "2.9.3",
+  "title": "Lynx-2.9.3",
+  "anchor": "lynx",
+  "page_type": "single",
+  "group": "text-web-browsers",
+  "chapter": "Chapter 18. Text Web Browsers",
+  "summary": "This package is known to build and work properly using an LFS 13.1 platform.",
+  "download": "https://invisible-mirror.net/archives/lynx/tarballs/lynx2.9.3.tar.bz2",
+  "archive": "lynx2.9.3.tar.bz2",
+  "md5": "faedd64b8e3cb87ae41197340cc3016a",
+  "size": "2.7 MB",
+  "disk_space": "26 MB",
+  "build_time": "0.3 SBU",
+  "dependencies": [
+    "brotli"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 570,
+  "group_order": 0
+}

@@ -1,0 +1,40 @@
+#!/bin/bash
+# AryaLinux post-install
+# qt — Qt-6.11.2
+# Run after the package is installed. The build directory is already gone.
+set -euo pipefail
+
+if [[ -r /etc/aryalinux-build.conf ]]; then
+    # shellcheck disable=SC1091
+    source /etc/aryalinux-build.conf
+elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
+    # shellcheck disable=SC1091
+    source "$ARYA_CONFIG"
+fi
+
+find $QT6PREFIX/ -name \*.prl \
+   -exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
+cat > /etc/sudoers.d/qt << "EOF"
+Defaults env_keep += QT6DIR
+EOF
+cat >> /etc/ld.so.conf << EOF
+# Begin Qt addition
+
+/opt/qt6/lib
+
+# End Qt addition
+EOF
+
+ldconfig
+cat > /etc/profile.d/qt6.sh << "EOF"
+# Begin /etc/profile.d/qt6.sh
+
+QT6DIR=/opt/qt6
+
+pathappend $QT6DIR/bin           PATH
+pathappend $QT6DIR/lib/pkgconfig PKG_CONFIG_PATH
+
+export QT6DIR
+
+# End /etc/profile.d/qt6.sh
+EOF

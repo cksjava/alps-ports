@@ -1,0 +1,23 @@
+{
+  "name": "libxmlb",
+  "version": "0.3.29",
+  "title": "libxmlb-0.3.29",
+  "anchor": "libxmlb",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The libxmlb package contains a library and a tool which help create and query binary XML blobs.",
+  "download": "https://github.com/hughsie/libxmlb/releases/download/0.3.29/libxmlb-0.3.29.tar.xz",
+  "archive": "libxmlb-0.3.29.tar.xz",
+  "md5": "83f87e2ce1fd6b34b25e7f5e1443293c",
+  "size": "108 KB",
+  "disk_space": "5.6 MB (with tests)",
+  "build_time": "0.1 SBU (With tests)",
+  "dependencies": [
+    "glib"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 126,
+  "group_order": 0
+}

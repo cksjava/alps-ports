@@ -1,0 +1,21 @@
+{
+  "name": "acpid",
+  "version": "2.0.34",
+  "title": "acpid-2.0.34",
+  "anchor": "acpid",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The acpid (Advanced Configuration and Power Interface event daemon) is a completely flexible, totally extensible daemon for delivering ACPI events. It listens on netlink interface and when an event occurs, executes programs to handle the event. The programs it executes are configured through a set of configuration files, which can be dropped into place by packages or by the user.",
+  "download": "https://downloads.sourceforge.net/acpid2/acpid-2.0.34.tar.xz",
+  "archive": "acpid-2.0.34.tar.xz",
+  "md5": "988c2e3fd5ba0ea4492d3ba7273af295",
+  "size": "160 KB",
+  "disk_space": "1.9 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 229,
+  "group_order": 0
+}

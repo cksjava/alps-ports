@@ -1,0 +1,24 @@
+{
+  "name": "cups-filters",
+  "version": "2.0.1",
+  "title": "cups-filters-2.0.1",
+  "anchor": "cups-filters",
+  "page_type": "single",
+  "group": "printing",
+  "chapter": "Chapter 46. Printing",
+  "summary": "The CUPS Filters package is only needed to adapt libcupsfilters-2.1.1 and libppd-2.1.1 filter functions for cups-2.x. It should not be needed for cups-3.x.",
+  "download": "https://github.com/OpenPrinting/cups-filters/releases/download/2.0.1/cups-filters-2.0.1.tar.xz",
+  "archive": "cups-filters-2.0.1.tar.xz",
+  "md5": "b40d0f135af414666e1c3917983a1bb3",
+  "size": "440 KB",
+  "disk_space": "9.0 MB",
+  "build_time": "less than 0.1 SBU (Using parallelism=4)",
+  "dependencies": [
+    "libcupsfilters",
+    "libppd"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1147,
+  "group_order": 0
+}

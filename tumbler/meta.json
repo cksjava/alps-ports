@@ -1,0 +1,23 @@
+{
+  "name": "tumbler",
+  "version": "4.20.2",
+  "title": "tumbler-4.20.2",
+  "anchor": "tumbler",
+  "page_type": "single",
+  "group": "xfce-desktop",
+  "chapter": "Chapter 35. Xfce Desktop",
+  "summary": "The Tumbler package contains a D-Bus thumbnailing service based on the thumbnail management D-Bus specification. This is useful for generating thumbnail images of files.",
+  "download": "https://archive.xfce.org/src/xfce/tumbler/4.20/tumbler-4.20.2.tar.bz2",
+  "archive": "tumbler-4.20.2.tar.bz2",
+  "md5": "544cd05cf6ec8d16c8c812529d09b34b",
+  "size": "696 KB",
+  "disk_space": "17 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "glib"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 988,
+  "group_order": 0
+}

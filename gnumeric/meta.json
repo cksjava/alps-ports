@@ -1,0 +1,29 @@
+{
+  "name": "Gnumeric",
+  "version": "1.12.61",
+  "title": "Gnumeric-1.12.61",
+  "anchor": "gnumeric",
+  "page_type": "single",
+  "group": "office-programs",
+  "chapter": "Chapter 39. Office Programs",
+  "summary": "The Gnumeric package contains a spreadsheet program which is useful for mathematical analysis.",
+  "download": "https://download.gnome.org/sources/gnumeric/1.12/gnumeric-1.12.61.tar.xz",
+  "archive": "gnumeric-1.12.61.tar.xz",
+  "md5": "8c6cbffb41eb2a8ffb97708e21482d7f",
+  "size": "17 MB",
+  "disk_space": "254 MB (add 7 MB for tests)",
+  "build_time": "1.9 SBU (add 2.6 SBU for tests; both using parallelism=4)",
+  "dependencies": [
+    "goffice",
+    "itstool",
+    "adwaita-icon-theme",
+    "oxygen-icons",
+    "gnome-icon-theme",
+    "chapter-24-graphical-environments",
+    "yelp"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1044,
+  "group_order": 0
+}

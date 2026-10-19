@@ -1,0 +1,23 @@
+{
+  "name": "XML::LibXML::Simple",
+  "version": "1.01",
+  "title": "XML::LibXML::Simple-1.01",
+  "anchor": "perl-xml-libxml-simple",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The XML::LibXML::Simple module is a rewrite of XML::Simple to use the XML::LibXML parser for XML structures, instead of the plain Perl or SAX parsers.",
+  "download": "https://www.cpan.org/authors/id/M/MA/MARKOV/XML-LibXML-Simple-1.01.tar.gz",
+  "archive": "XML-LibXML-Simple-1.01.tar.gz",
+  "md5": "faad5ed26cd83998f6514be199c56c38",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "xml-libxml"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 328,
+  "group_order": 45
+}

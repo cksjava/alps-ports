@@ -1,0 +1,23 @@
+{
+  "name": "Apache",
+  "version": "2.4.68",
+  "title": "Apache-2.4.68",
+  "anchor": "apache",
+  "page_type": "single",
+  "group": "major-servers",
+  "chapter": "Chapter 20. Major Servers",
+  "summary": "The Apache HTTPD package contains an open-source HTTP server. It is useful for creating local intranet web sites or running huge web serving operations.",
+  "download": "https://archive.apache.org/dist/httpd/httpd-2.4.68.tar.bz2",
+  "archive": "httpd-2.4.68.tar.bz2",
+  "md5": "f2f3121e9f1fb4838d433dbd494543f9",
+  "size": "7.4 MB",
+  "disk_space": "133 MB",
+  "build_time": "0.3 SBU (Using parallelism=4)",
+  "dependencies": [
+    "apr-util"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 575,
+  "group_order": 0
+}

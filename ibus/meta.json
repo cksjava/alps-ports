@@ -1,0 +1,29 @@
+{
+  "name": "ibus",
+  "version": "1.5.34",
+  "title": "ibus-1.5.34",
+  "anchor": "ibus",
+  "page_type": "single",
+  "group": "general-utilities",
+  "chapter": "Chapter 11. General Utilities",
+  "summary": "ibus is an Intelligent Input Bus. It is a new input framework for the Linux OS. It provides a fully featured and user friendly input method user interface.",
+  "download": "https://github.com/ibus/ibus/archive/1.5.34/ibus-1.5.34.tar.gz",
+  "archive": "ibus-1.5.34.tar.gz",
+  "md5": "7504f9c694d12e3cfe1e9e358f84c21f",
+  "size": "1.8 MB",
+  "disk_space": "116 MB (with tests)",
+  "build_time": "0.5 SBU (Using parallelism=4; add 1.4 SBU for tests)",
+  "dependencies": [
+    "iso-codes",
+    "vala",
+    "dconf-dconf-editor",
+    "glib",
+    "gtk3",
+    "gtk4",
+    "libnotify"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 212,
+  "group_order": 0
+}

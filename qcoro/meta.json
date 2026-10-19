@@ -1,0 +1,23 @@
+{
+  "name": "qcoro",
+  "version": "0.13.0",
+  "title": "qcoro-0.13.0",
+  "anchor": "qcoro",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "This package provides a set of tools to make use of C++20 coroutines with Qt.",
+  "download": "https://github.com/danvratil/qcoro/archive/v0.13.0/qcoro-0.13.0.tar.gz",
+  "archive": "qcoro-0.13.0.tar.gz",
+  "md5": "1cc2b522b90d8d0842523f751e75c99b",
+  "size": "160 KB",
+  "disk_space": "31 MB (with tests)",
+  "build_time": "0.4 SBU (Using parallelism=4; add 0.6 SBU for tests)",
+  "dependencies": [
+    "qt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 142,
+  "group_order": 0
+}

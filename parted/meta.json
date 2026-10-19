@@ -1,0 +1,23 @@
+{
+  "name": "parted",
+  "version": "3.7",
+  "title": "parted-3.7",
+  "anchor": "parted",
+  "page_type": "single",
+  "group": "file-systems-and-disk-management",
+  "chapter": "Chapter 5. File Systems and Disk Management",
+  "summary": "The Parted package is a disk partitioning and partition resizing tool.",
+  "download": "https://ftpmirror.gnu.org/parted/parted-3.7.tar.xz",
+  "archive": "parted-3.7.tar.xz",
+  "md5": "b56ec0cf7bc89d61da1585f88fc8ef5e",
+  "size": "1.9 MB",
+  "disk_space": "35 MB (additional 3 MB for the tests and additional 2 MB for optional PDF and Postscript documentation)",
+  "build_time": "0.3 SBU (additional 3.6 SBU for the tests)",
+  "dependencies": [
+    "lvm2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 33,
+  "group_order": 0
+}

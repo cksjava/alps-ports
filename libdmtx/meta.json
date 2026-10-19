@@ -1,0 +1,21 @@
+{
+  "name": "libdmtx",
+  "version": "0.7.8",
+  "title": "libdmtx-0.7.8",
+  "anchor": "libdmtx",
+  "page_type": "single",
+  "group": "introduction-to-kde",
+  "chapter": "Chapter 29. Introduction to KDE",
+  "summary": "This package is a software library that enables programs to read and write Data Matrix barcodes.",
+  "download": "https://github.com/dmtx/libdmtx/archive/v0.7.8/libdmtx-0.7.8.tar.gz",
+  "archive": "libdmtx-0.7.8.tar.gz",
+  "md5": "2b4329190b65e2f8b23e4a329ec7d792",
+  "size": "780 KB",
+  "disk_space": "2.9 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 766,
+  "group_order": 0
+}

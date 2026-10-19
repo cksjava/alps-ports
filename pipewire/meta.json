@@ -1,0 +1,31 @@
+{
+  "name": "Pipewire",
+  "version": "1.6.8",
+  "title": "Pipewire-1.6.8",
+  "anchor": "pipewire",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "The pipewire package contains a server and userspace API to handle multimedia pipelines. This includes a universal API to connect to multimedia devices, as well as sharing multimedia files between applications.",
+  "download": "https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/1.6.8/pipewire-1.6.8.tar.bz2",
+  "archive": "pipewire-1.6.8.tar.bz2",
+  "md5": "9ae75812a76951c93210a26272c90ef3",
+  "size": "2.0 MB",
+  "disk_space": "110 MB (with tests)",
+  "build_time": "0.7 SBU (with tests, both using parallelism=4)",
+  "dependencies": [
+    "bluez",
+    "gstreamer",
+    "gst-plugins-base",
+    "pulseaudio",
+    "sbc",
+    "v4l-utils",
+    "wireplumber"
+  ],
+  "build_before": [],
+  "build_after": [
+    "wireplumber"
+  ],
+  "order": 1111,
+  "group_order": 0
+}

@@ -1,0 +1,24 @@
+{
+  "name": "XML::LibXSLT",
+  "version": "2.003000",
+  "title": "XML::LibXSLT-2.003000",
+  "anchor": "perl-xml-libxslt",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "XML-LibXSLT provides an interface to libxslt-1.1.45",
+  "download": "https://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXSLT-2.003000.tar.gz",
+  "archive": "XML-LibXSLT-2.003000.tar.gz",
+  "md5": "632dce587b3c405edd4e622364750191",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "libxslt",
+    "xml-libxml"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 329,
+  "group_order": 46
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Gparted",
+  "version": "1.8.1",
+  "title": "Gparted-1.8.1",
+  "anchor": "gparted",
+  "page_type": "single",
+  "group": "other-x-based-programs",
+  "chapter": "Chapter 41. Other X-based Programs",
+  "summary": "Gparted is the Gnome Partition Editor, a Gtk 3 GUI for other command line tools that can create, reorganise or delete disk partitions.",
+  "download": "https://downloads.sourceforge.net/gparted/gparted-1.8.1.tar.gz",
+  "archive": "gparted-1.8.1.tar.gz",
+  "md5": "3805a43eafd08277f12dc6c2e0de97c2",
+  "size": "5.7 MB",
+  "disk_space": "193 MB (with tests)",
+  "build_time": "0.3 SBU (using parallelism=4; add 0.3 SBU for tests)",
+  "dependencies": [
+    "gtkmm3",
+    "parted"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1055,
+  "group_order": 0
+}

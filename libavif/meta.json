@@ -1,0 +1,25 @@
+{
+  "name": "libavif",
+  "version": "1.4.2",
+  "title": "libavif-1.4.2",
+  "anchor": "libavif",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The libavif package contains a library used for encoding and decoding AVIF files.",
+  "download": "https://github.com/AOMediaCodec/libavif/archive/v1.4.2/libavif-1.4.2.tar.gz",
+  "archive": "libavif-1.4.2.tar.gz",
+  "md5": "10007cf6a4d1cb7304146161e5ebf4da",
+  "size": "14 MB",
+  "disk_space": "144 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "dav1d",
+    "svt-av1",
+    "libaom"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 174,
+  "group_order": 0
+}

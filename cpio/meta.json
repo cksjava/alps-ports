@@ -1,0 +1,21 @@
+{
+  "name": "cpio",
+  "version": "2.15",
+  "title": "cpio-2.15",
+  "anchor": "cpio",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The cpio package contains tools for archiving.",
+  "download": "https://ftpmirror.gnu.org/cpio/cpio-2.15.tar.bz2",
+  "archive": "cpio-2.15.tar.bz2",
+  "md5": "3394d444ca1905ea56c94b628b706a0b",
+  "size": "1.6 MB",
+  "disk_space": "21 MB (with tests and docs)",
+  "build_time": "0.3 SBU (with tests and docs)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 235,
+  "group_order": 0
+}

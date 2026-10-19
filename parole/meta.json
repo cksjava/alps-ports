@@ -1,0 +1,28 @@
+{
+  "name": "Parole",
+  "version": "4.20.0",
+  "title": "Parole-4.20.0",
+  "anchor": "parole",
+  "page_type": "single",
+  "group": "xfce-applications",
+  "chapter": "Chapter 36. Xfce Applications",
+  "summary": "Parole is a DVD/CD/music player for Xfce that uses GStreamer.",
+  "download": "https://archive.xfce.org/src/apps/parole/4.20/parole-4.20.0.tar.xz",
+  "archive": "parole-4.20.0.tar.xz",
+  "md5": "388dee33b1d06ee89f007b4cb08dedaf",
+  "size": "470 KB",
+  "disk_space": "19 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "dbus-glib",
+    "gst-plugins-base",
+    "gst-plugins-good",
+    "libxfce4ui",
+    "libnotify",
+    "taglib"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 995,
+  "group_order": 0
+}

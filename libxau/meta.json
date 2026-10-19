@@ -1,0 +1,23 @@
+{
+  "name": "libXau",
+  "version": "1.0.12",
+  "title": "libXau-1.0.12",
+  "anchor": "libXau",
+  "page_type": "single",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The libXau package contains a library implementing the X11 Authorization Protocol. This is useful for restricting client access to the display.",
+  "download": "https://www.x.org/pub/individual/lib/libXau-1.0.12.tar.xz",
+  "archive": "libXau-1.0.12.tar.xz",
+  "md5": "4c9f81acf00b62e5de56a912691bd737",
+  "size": "276 KB",
+  "disk_space": "2.9 MB (with test)",
+  "build_time": "less than 0.1 SBU (with test)",
+  "dependencies": [
+    "xorgproto"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 587,
+  "group_order": 0
+}

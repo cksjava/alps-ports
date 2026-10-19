@@ -1,0 +1,28 @@
+{
+  "name": "Audacious",
+  "version": "4.6.1",
+  "title": "Audacious-4.6.1",
+  "anchor": "audacious",
+  "page_type": "single",
+  "group": "audio-utilities",
+  "chapter": "Chapter 43. Audio Utilities",
+  "summary": "This package is known to build and work properly using an LFS 13.1 platform.",
+  "download": "https://distfiles.audacious-media-player.org/audacious-plugins-4.6.1.tar.bz2",
+  "archive": "audacious-plugins-4.6.1.tar.bz2",
+  "md5": "16c899c3fb2191457749e27c88dfdf5b",
+  "size": "1.7 MB",
+  "disk_space": "41 MB (with GTK support)",
+  "build_time": "0.4 SBU (Using parallelism=4; with GTK support)",
+  "dependencies": [
+    "gtk3",
+    "qt",
+    "libarchive",
+    "mpg123",
+    "ffmpeg",
+    "neon"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1127,
+  "group_order": 0
+}

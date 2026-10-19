@@ -1,0 +1,21 @@
+{
+  "name": "libcddb",
+  "version": "1.3.2",
+  "title": "libcddb-1.3.2",
+  "anchor": "libcddb",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "The libcddb is a library that implements the different protocols (CDDBP, HTTP, SMTP) to access data on a CDDB server.",
+  "download": "https://downloads.sourceforge.net/libcddb/libcddb-1.3.2.tar.bz2",
+  "archive": "libcddb-1.3.2.tar.bz2",
+  "md5": "8bb4a6f542197e8e9648ae597cd6bc8a",
+  "size": "384 KB",
+  "disk_space": "3.9 MB (with tests)",
+  "build_time": "0.2 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 1092,
+  "group_order": 0
+}

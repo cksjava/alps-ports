@@ -1,0 +1,24 @@
+{
+  "name": "Taglib",
+  "version": "2.3.1",
+  "title": "Taglib-2.3.1",
+  "anchor": "taglib",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "Taglib is a library used for reading, writing and manipulating audio file tags and is used by applications such as VLC.",
+  "download": "https://taglib.org/releases/taglib-2.3.1.tar.gz",
+  "archive": "taglib-2.3.1.tar.gz",
+  "md5": "b189dcfcf284179c04b97a89887e0ce6",
+  "size": "1.6 MB",
+  "disk_space": "25 MB",
+  "build_time": "0.1 SBU (Using parallelism=4)",
+  "dependencies": [
+    "cmake",
+    "utfcpp"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1120,
+  "group_order": 0
+}

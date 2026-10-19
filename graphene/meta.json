@@ -1,0 +1,23 @@
+{
+  "name": "Graphene",
+  "version": "1.10.8",
+  "title": "Graphene-1.10.8",
+  "anchor": "graphene",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "The Graphene package provides a thin layer of types for graphics libraries.",
+  "download": "https://download.gnome.org/sources/graphene/1.10/graphene-1.10.8.tar.xz",
+  "archive": "graphene-1.10.8.tar.xz",
+  "md5": "169e3c507b5a5c26e9af492412070b81",
+  "size": "328 KB",
+  "disk_space": "7.6 MB",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [
+    "glib"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 712,
+  "group_order": 0
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Popt",
+  "version": "1.19",
+  "title": "Popt-1.19",
+  "anchor": "popt",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The popt package contains the popt libraries which are used by some programs to parse command-line options.",
+  "download": "https://ftp.osuosl.org/pub/rpm/popt/releases/popt-1.x/popt-1.19.tar.gz",
+  "archive": "popt-1.19.tar.gz",
+  "md5": "eaa2135fddb6eb03f2c87ee1823e5a78",
+  "size": "584 KB",
+  "disk_space": "6.9 MB (includes installing documentation and tests)",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 138,
+  "group_order": 0
+}

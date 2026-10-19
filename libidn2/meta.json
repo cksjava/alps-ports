@@ -1,0 +1,23 @@
+{
+  "name": "libidn2",
+  "version": "2.3.8",
+  "title": "libidn2-2.3.8",
+  "anchor": "libidn2",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "libidn2 is a package designed for internationalized string handling based on standards from the Internet Engineering Task Force (IETF)'s IDN working group, designed for internationalized domain names.",
+  "download": "https://ftpmirror.gnu.org/libidn/libidn2-2.3.8.tar.gz",
+  "archive": "libidn2-2.3.8.tar.gz",
+  "md5": "a8e113e040d57a523684e141970eea7a",
+  "size": "2.1 MB",
+  "disk_space": "21 MB (add 3 MB for tests)",
+  "build_time": "0.1 SBU (add 0.6 SBU for tests)",
+  "dependencies": [
+    "libunistring"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 101,
+  "group_order": 0
+}

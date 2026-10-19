@@ -1,0 +1,24 @@
+{
+  "name": "rxvt-unicode",
+  "version": "9.31",
+  "title": "rxvt-unicode-9.31",
+  "anchor": "rxvt-unicode",
+  "page_type": "single",
+  "group": "other-x-based-programs",
+  "chapter": "Chapter 41. Other X-based Programs",
+  "summary": "rxvt-unicode is a clone of the terminal emulator rxvt, an X Window System terminal emulator which includes support for XFT and Unicode.",
+  "download": "http://dist.schmorp.de/rxvt-unicode/Attic/rxvt-unicode-9.31.tar.bz2",
+  "archive": "rxvt-unicode-9.31.tar.bz2",
+  "md5": "3d0ec83705c9b9ff301a4b9965b3cd9f",
+  "size": "860 KB",
+  "disk_space": "22 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "libptytty",
+    "chapter-24-graphical-environments"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1057,
+  "group_order": 0
+}

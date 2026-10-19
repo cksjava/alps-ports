@@ -1,0 +1,25 @@
+{
+  "name": "Module::Build::Tiny",
+  "version": "0.053",
+  "title": "Module::Build::Tiny-0.053",
+  "anchor": "perl-module-build-tiny",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Module::Build::Tiny is a simplified version of Module-Build-0.4234.",
+  "download": "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-Tiny-0.053.tar.gz",
+  "archive": "Module-Build-Tiny-0.053.tar.gz",
+  "md5": "606d1f830f0475b6de53b82aa3e5d36a",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "extutils-config",
+    "extutils-helpers",
+    "extutils-installpaths"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 385,
+  "group_order": 53
+}

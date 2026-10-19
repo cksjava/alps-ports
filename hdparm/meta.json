@@ -1,0 +1,21 @@
+{
+  "name": "Hdparm",
+  "version": "9.65",
+  "title": "Hdparm-9.65",
+  "anchor": "hdparm",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The Hdparm package contains a utility that is useful for obtaining information about, and controlling ATA/IDE controllers and hard drives. It allows to increase performance and sometimes to increase stability.",
+  "download": "https://downloads.sourceforge.net/hdparm/hdparm-9.65.tar.gz",
+  "archive": "hdparm-9.65.tar.gz",
+  "md5": "6d6d039d61ec995b1ec72ddce0b1853b",
+  "size": "140 KB",
+  "disk_space": "1.0 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 261,
+  "group_order": 0
+}

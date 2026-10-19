@@ -1,0 +1,25 @@
+{
+  "name": "mousepad",
+  "version": "0.7.0",
+  "title": "mousepad-0.7.0",
+  "anchor": "mousepad",
+  "page_type": "single",
+  "group": "text-editors",
+  "chapter": "Chapter 6. Text Editors",
+  "summary": "Mousepad is a simple GTK text editor for the Xfce desktop environment.",
+  "download": "https://archive.xfce.org/src/apps/mousepad/0.7/mousepad-0.7.0.tar.xz",
+  "archive": "mousepad-0.7.0.tar.xz",
+  "md5": "96c09736fd02da599ffedf215313328f",
+  "size": "456 KB",
+  "disk_space": "9.2 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "gtksourceview4",
+    "libxfce4ui",
+    "gspell"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 44,
+  "group_order": 0
+}

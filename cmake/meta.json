@@ -1,0 +1,26 @@
+{
+  "name": "CMake",
+  "version": "4.4.2",
+  "title": "CMake-4.4.2",
+  "anchor": "cmake",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The CMake package contains a modern toolset used for generating Makefiles. It is a successor of the auto-generated configure script and aims to be platform- and compiler-independent. A significant user of CMake is KDE since version 4.",
+  "download": "https://cmake.org/files/v4.4/cmake-4.4.2.tar.gz",
+  "archive": "cmake-4.4.2.tar.gz",
+  "md5": "6911f0379d901db23619413f092b99ef",
+  "size": "13 MB",
+  "disk_space": "2.3 GB (with tests)",
+  "build_time": "2.2 SBU (add 4.3 SBU for tests, both using parallelism=4)",
+  "dependencies": [
+    "curl",
+    "libarchive",
+    "libuv",
+    "nghttp2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 271,
+  "group_order": 0
+}

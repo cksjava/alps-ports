@@ -1,0 +1,23 @@
+{
+  "name": "simdutf",
+  "version": "9.0.0",
+  "title": "simdutf-9.0.0",
+  "anchor": "simdutf",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The simdutf package contains a library used for processing Unicode characters with SIMD optimizations. This includes the SSE2 and AVX2 instruction sets and more.",
+  "download": "https://github.com/simdutf/simdutf/archive/v9.0.0/simdutf-9.0.0.tar.gz",
+  "archive": "simdutf-9.0.0.tar.gz",
+  "md5": "a20af35e2a7c9737d97b7beae96e7146",
+  "size": "2.4 MB",
+  "disk_space": "44 MB",
+  "build_time": "0.3 SBU (add 1.1 SBU for tests)",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 144,
+  "group_order": 0
+}

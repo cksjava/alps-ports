@@ -1,0 +1,21 @@
+{
+  "name": "Dash",
+  "version": "0.5.13.5",
+  "title": "Dash-0.5.13.5",
+  "anchor": "dash",
+  "page_type": "single",
+  "group": "shells",
+  "chapter": "Chapter 7. Shells",
+  "summary": "Dash is a POSIX compliant shell. It can be installed as /bin/sh or as the default shell for either root or a second user with a userid of 0. It depends on fewer libraries than the Bash shell and is therefore less likely to be affected by an upgrade problem or disk failure. Dash is also useful for checking that a script is completely compatible with POSIX syntax.",
+  "download": "http://gondor.apana.org.au/~herbert/dash/files/dash-0.5.13.5.tar.gz",
+  "archive": "dash-0.5.13.5.tar.gz",
+  "md5": "d787f34b985fca82e89b131c2e911256",
+  "size": "256 KB",
+  "disk_space": "3.7 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 47,
+  "group_order": 0
+}

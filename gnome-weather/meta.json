@@ -1,0 +1,26 @@
+{
+  "name": "gnome-weather",
+  "version": "48.0",
+  "title": "gnome-weather-48.0",
+  "anchor": "gnome-weather",
+  "page_type": "single",
+  "group": "gnome-applications",
+  "chapter": "Chapter 34. GNOME Applications",
+  "summary": "GNOME Weather is a small application that allows you to monitor the current weather conditions for your city, or anywhere in the world, and to access updated forecasts provided by various internet services.",
+  "download": "https://download.gnome.org/sources/gnome-weather/48/gnome-weather-48.0.tar.xz",
+  "archive": "gnome-weather-48.0.tar.xz",
+  "md5": "35858b4f07ede013a835033b0b258d19",
+  "size": "252 KB",
+  "disk_space": "4.7 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "geoclue",
+    "gjs",
+    "libadwaita",
+    "libgweather"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 971,
+  "group_order": 0
+}

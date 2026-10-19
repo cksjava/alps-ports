@@ -1,0 +1,29 @@
+{
+  "name": "Gjs",
+  "version": "1.88.1",
+  "title": "Gjs-1.88.1",
+  "anchor": "gjs",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "Gjs is a set of Javascript bindings for GNOME.",
+  "download": "https://download.gnome.org/sources/gjs/1.88/gjs-1.88.1.tar.xz",
+  "archive": "gjs-1.88.1.tar.xz",
+  "md5": "851963b653cbcf8534dff8b9e719592e",
+  "size": "788 KB",
+  "disk_space": "336 MB (with tests)",
+  "build_time": "0.3 SBU (with tests; with parallelism=4)",
+  "dependencies": [
+    "cairo",
+    "dbus",
+    "glib",
+    "spidermonkey-from-firefox",
+    "gtk3",
+    "gtk4",
+    "valgrind"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 923,
+  "group_order": 0
+}

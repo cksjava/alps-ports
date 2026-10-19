@@ -1,0 +1,29 @@
+{
+  "name": "Pango",
+  "version": "1.58.2",
+  "title": "Pango-1.58.2",
+  "anchor": "pango",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "Pango is a library for laying out and rendering text, with an emphasis on internationalization. It can be used anywhere that text layout is needed, though most of the work on Pango so far has been done in the context of the GTK+ widget toolkit.",
+  "download": "https://download.gnome.org/sources/pango/1.58/pango-1.58.2.tar.xz",
+  "archive": "pango-1.58.2.tar.xz",
+  "md5": "7b5640fd9adfa24554a88b2b9a6cd3f3",
+  "size": "1.9 MB",
+  "disk_space": "59 MB (with tests)",
+  "build_time": "less than 0.1 SBU (Using parallelism=4; with tests)",
+  "dependencies": [
+    "fontconfig",
+    "freetype",
+    "harfbuzz",
+    "fribidi",
+    "glib",
+    "cairo",
+    "xorg-libraries"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 732,
+  "group_order": 0
+}

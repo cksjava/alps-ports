@@ -1,0 +1,29 @@
+{
+  "name": "gnome-calculator",
+  "version": "50.0",
+  "title": "gnome-calculator-50.0",
+  "anchor": "gnome-calculator",
+  "page_type": "single",
+  "group": "gnome-applications",
+  "chapter": "Chapter 34. GNOME Applications",
+  "summary": "GNOME Calculator is a powerful graphical calculator with financial, logical and scientific modes. It uses a multiple precision package to do its arithmetic to give a high degree of accuracy.",
+  "download": "https://download.gnome.org/sources/gnome-calculator/50/gnome-calculator-50.0.tar.xz",
+  "archive": "gnome-calculator-50.0.tar.xz",
+  "md5": "db7f8f49762a51c5c658f1b4c0ed74d8",
+  "size": "1.2 MB",
+  "disk_space": "44 MB (with tests)",
+  "build_time": "0.4 SBU (with tests)",
+  "dependencies": [
+    "blueprint-compiler",
+    "gtksourceview5",
+    "itstool",
+    "libadwaita",
+    "libgee",
+    "libsoup",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 961,
+  "group_order": 0
+}

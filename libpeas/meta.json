@@ -1,0 +1,25 @@
+{
+  "name": "libpeas",
+  "version": "1.38.1",
+  "title": "libpeas-1.38.1",
+  "anchor": "libpeas",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "libpeas is a GObject based plugins engine, and is targeted at giving every application the chance to assume its own extensibility.",
+  "download": "https://download.gnome.org/sources/libpeas/1.38/libpeas-1.38.1.tar.xz",
+  "archive": "libpeas-1.38.1.tar.xz",
+  "md5": "5e2388cd39322cd121be67ef398297d6",
+  "size": "192 KB",
+  "disk_space": "13 MB (with tests)",
+  "build_time": "0.1 SBU (with tests)",
+  "dependencies": [
+    "glib",
+    "gtk3",
+    "libxml2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 932,
+  "group_order": 0
+}

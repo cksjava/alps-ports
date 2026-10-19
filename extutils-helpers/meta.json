@@ -1,0 +1,21 @@
+{
+  "name": "ExtUtils::Helpers",
+  "version": "0.028",
+  "title": "ExtUtils::Helpers-0.028",
+  "anchor": "perl-extutils-helpers",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "ExtUtils::Helpers contains various portability utilities for module builders.",
+  "download": "https://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-Helpers-0.028.tar.gz",
+  "archive": "ExtUtils-Helpers-0.028.tar.gz",
+  "md5": "0687f20ac896a7d01219646908ccdf89",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 360,
+  "group_order": 28
+}

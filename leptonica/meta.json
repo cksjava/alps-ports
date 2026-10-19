@@ -1,0 +1,27 @@
+{
+  "name": "leptonica",
+  "version": "1.87.0",
+  "title": "leptonica-1.87.0",
+  "anchor": "leptonica",
+  "page_type": "single",
+  "group": "kde-plasma",
+  "chapter": "Chapter 32. KDE Plasma",
+  "summary": "The leptonica package provides software that is broadly useful for image processing and image analysis applications.",
+  "download": "https://github.com/DanBloomberg/leptonica/releases/download/1.87.0/leptonica-1.87.0.tar.gz",
+  "archive": "leptonica-1.87.0.tar.gz",
+  "md5": "d523d2c883b71850a46af2517d8915bf",
+  "size": "14 MB",
+  "disk_space": "128 MB",
+  "build_time": "0.4 SBU (Using parallelism=4)",
+  "dependencies": [
+    "libjpeg-turbo",
+    "libpng",
+    "libwebp",
+    "tiff",
+    "openjpeg"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 858,
+  "group_order": 0
+}

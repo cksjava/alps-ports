@@ -1,0 +1,21 @@
+{
+  "name": "stunnel",
+  "version": "5.80",
+  "title": "stunnel-5.80",
+  "anchor": "stunnel",
+  "page_type": "single",
+  "group": "security",
+  "chapter": "Chapter 4. Security",
+  "summary": "The stunnel package contains a program that allows you to encrypt arbitrary TCP connections inside SSL (Secure Sockets Layer) so you can easily communicate with clients over secure channels. stunnel can also be used to tunnel PPP over network sockets without changes to the server package source code.",
+  "download": "https://www.stunnel.org/downloads/archive/5.x/stunnel-5.80.tar.gz",
+  "archive": "stunnel-5.80.tar.gz",
+  "md5": "751363a9ecc0f6bdfb1879c4d56c1567",
+  "size": "920 KB",
+  "disk_space": "12 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 22,
+  "group_order": 0
+}

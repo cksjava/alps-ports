@@ -1,0 +1,21 @@
+{
+  "name": "IO::HTML",
+  "version": "1.004",
+  "title": "IO::HTML-1.004",
+  "anchor": "perl-io-html",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "IO::HTML opens an HTML file with automatic character set detection.",
+  "download": "https://cpan.metacpan.org/authors/id/C/CJ/CJM/IO-HTML-1.004.tar.gz",
+  "archive": "IO-HTML-1.004.tar.gz",
+  "md5": "04bbe363686fd19bfb4cc0ed775e3d03",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 376,
+  "group_order": 44
+}

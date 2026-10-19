@@ -1,0 +1,23 @@
+{
+  "name": "font-misc-misc",
+  "version": "1.1.3",
+  "title": "font-misc-misc-1.1.3",
+  "anchor": "font-misc-misc",
+  "page_type": "compound",
+  "group": "xorg-legacy",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "Xorg's ancestor (X11R1, in 1987) at first only provided bitmap fonts, with a tool (bdftopcf) to assist in their installation. With the introduction of xorg-server-1.19.0 and libXfont2 many people will not need them. There are still a few old packages which might require, or benefit from, these deprecated fonts and so the following packages are shown here.",
+  "download": "https://www.x.org/pub/individual/",
+  "archive": "font-misc-misc-1.1.3.tar.xz",
+  "md5": "145128c4b5f7820c974c8c5b9f6ffe94",
+  "size": "4.2 MB",
+  "disk_space": "30 MB",
+  "build_time": "0.3 SBU",
+  "dependencies": [
+    "xorg-fonts"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 696,
+  "group_order": 7
+}

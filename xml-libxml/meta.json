@@ -1,0 +1,24 @@
+{
+  "name": "XML::LibXML",
+  "version": "2.0213",
+  "title": "XML::LibXML-2.0213",
+  "anchor": "perl-xml-libxml",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "XML::LibXML is a perl binding for libxml2-2.15.3.",
+  "download": "https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-LibXML-2.0213.tar.gz",
+  "archive": "XML-LibXML-2.0213.tar.gz",
+  "md5": "7135bdef80f72a278ca65eb8e2dc13b6",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "alien-libxml2",
+    "xml-sax"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 428,
+  "group_order": 96
+}

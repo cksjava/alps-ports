@@ -1,0 +1,23 @@
+{
+  "name": "xdotool",
+  "version": "4.20260303.1",
+  "title": "xdotool-4.20260303.1",
+  "anchor": "xdotool",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The xdotool package provides the capabilities to simulate keyboard input and mouse activity, move and resize windows, etc. It does this using X11’s XTEST extension and other Xlib functions.",
+  "download": "https://github.com/jordansissel/xdotool/archive/v4.20260303.1/xdotool-4.20260303.1.tar.gz",
+  "archive": "xdotool-4.20260303.1.tar.gz",
+  "md5": "fc6864ebb381f8b50c37e2d46dbd37b1",
+  "size": "116 KB",
+  "disk_space": "1.3 MB",
+  "build_time": "less than 0.1 SBU (add 0.5 SBU for tests)",
+  "dependencies": [
+    "xorg-libraries"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 259,
+  "group_order": 0
+}

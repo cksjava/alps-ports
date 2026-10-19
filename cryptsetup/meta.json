@@ -1,0 +1,25 @@
+{
+  "name": "cryptsetup",
+  "version": "2.8.7",
+  "title": "cryptsetup-2.8.7",
+  "anchor": "cryptsetup",
+  "page_type": "single",
+  "group": "security",
+  "chapter": "Chapter 4. Security",
+  "summary": "cryptsetup is used to set up transparent encryption of block devices using the kernel crypto API.",
+  "download": "https://www.kernel.org/pub/linux/utils/cryptsetup/v2.8/cryptsetup-2.8.7.tar.xz",
+  "archive": "cryptsetup-2.8.7.tar.xz",
+  "md5": "a9a19068e4db32f77c0ab95c378ab290",
+  "size": "11 MB",
+  "disk_space": "35 MB (add 5 MB for tests)",
+  "build_time": "0.2 SBU (add 19 SBU for tests)",
+  "dependencies": [
+    "json-c",
+    "lvm2",
+    "popt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 3,
+  "group_order": 0
+}

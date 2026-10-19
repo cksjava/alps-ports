@@ -1,0 +1,27 @@
+{
+  "name": "wlroots",
+  "version": "0.20.2",
+  "title": "wlroots-0.20.2",
+  "anchor": "wlroots",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "wlroots is a Wayland compositor library, the backbone of most Wayland compositors. Compositors that use a different base may have used this package in the beginning of the compositor's history for providing most of the work.",
+  "download": "https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/0.20.2/wlroots-0.20.2.tar.bz2",
+  "archive": "wlroots-0.20.2.tar.bz2",
+  "md5": "03634ea5be3d116490630c955355610c",
+  "size": "516 KB",
+  "disk_space": "19 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "libdrm",
+    "libxkbcommon",
+    "pixman",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 741,
+  "group_order": 0
+}

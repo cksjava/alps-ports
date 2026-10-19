@@ -1,0 +1,23 @@
+{
+  "name": "libsysstat",
+  "version": "1.1.0",
+  "title": "libsysstat-1.1.0",
+  "anchor": "libsysstat",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "The libsysstat package contains a library used to query system information and statistics.",
+  "download": "https://github.com/lxqt/libsysstat/releases/download/1.1.0/libsysstat-1.1.0.tar.xz",
+  "archive": "libsysstat-1.1.0.tar.xz",
+  "md5": "b21e0facd325c1d8e177121e2ac71e78",
+  "size": "20 KB",
+  "disk_space": "1.9 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "lxqt-build-tools"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1014,
+  "group_order": 0
+}

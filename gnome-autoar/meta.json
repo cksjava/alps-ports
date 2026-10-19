@@ -1,0 +1,25 @@
+{
+  "name": "gnome-autoar",
+  "version": "0.4.5",
+  "title": "gnome-autoar-0.4.5",
+  "anchor": "gnome-autoar",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "The gnome-autoar package provides a framework for automatic archive extraction, compression, and management.",
+  "download": "https://download.gnome.org/sources/gnome-autoar/0.4/gnome-autoar-0.4.5.tar.xz",
+  "archive": "gnome-autoar-0.4.5.tar.xz",
+  "md5": "c8028c4df62c059418d4bdcde345cbe2",
+  "size": "52 KB",
+  "disk_space": "2.8 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "libarchive",
+    "gtk3",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 924,
+  "group_order": 0
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Term::Table",
+  "version": "0.028",
+  "title": "Term::Table-0.028",
+  "anchor": "perl-term-table",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Term::Table formats a header and rows into a table. This is used by some failing tests to provide diagnostics about what has gone wrong.",
+  "download": "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Term-Table-0.028.tar.gz",
+  "archive": "Term-Table-0.028.tar.gz",
+  "md5": "28c3c03c85938a37e92d24413d0953ec",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "test-simple"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 405,
+  "group_order": 73
+}

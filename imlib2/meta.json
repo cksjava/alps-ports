@@ -1,0 +1,25 @@
+{
+  "name": "imlib2",
+  "version": "1.12.6",
+  "title": "imlib2-1.12.6",
+  "anchor": "imlib2",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "imlib2 is a graphics library for fast file loading, saving, rendering and manipulation.",
+  "download": "https://downloads.sourceforge.net/enlightenment/imlib2-1.12.6.tar.xz",
+  "archive": "imlib2-1.12.6.tar.xz",
+  "md5": "8c66b4dabc52225562324be5a994accf",
+  "size": "828 KB",
+  "disk_space": "20 MB (with docs)",
+  "build_time": "0.2 SBU (with docs)",
+  "dependencies": [
+    "xorg-libraries",
+    "giflib",
+    "librsvg"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 721,
+  "group_order": 0
+}

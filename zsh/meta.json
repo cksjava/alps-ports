@@ -1,0 +1,21 @@
+{
+  "name": "zsh",
+  "version": "5.9.2",
+  "title": "zsh-5.9.2",
+  "anchor": "zsh",
+  "page_type": "single",
+  "group": "shells",
+  "chapter": "Chapter 7. Shells",
+  "summary": "The zsh package contains a command interpreter (shell) usable as an interactive login shell and as a shell script command processor. Of the standard shells, zsh most closely resembles ksh but includes many enhancements.",
+  "download": "https://www.zsh.org/pub/zsh-5.9.2.tar.xz",
+  "archive": "zsh-5.9.2.tar.xz",
+  "md5": "5c8305ba85166838ef062c5e7b245820",
+  "size": "3.3 MB",
+  "disk_space": "66 MB (includes documentation and tests)",
+  "build_time": "1.6 SBU (Using parallelism=4; includes documentation and tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 49,
+  "group_order": 0
+}

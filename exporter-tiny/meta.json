@@ -1,0 +1,21 @@
+{
+  "name": "Exporter::Tiny",
+  "version": "1.006003",
+  "title": "Exporter::Tiny-1.006003",
+  "anchor": "perl-exporter-tiny",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Exporter::Tiny is an exporter with the features of Sub::Exporter but only core dependencies.",
+  "download": "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.006003.tar.gz",
+  "archive": "Exporter-Tiny-1.006003.tar.gz",
+  "md5": "a70bdc039b12f90191e7c5669b2b55f9",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 358,
+  "group_order": 26
+}

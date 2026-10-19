@@ -1,0 +1,26 @@
+{
+  "name": "libxklavier",
+  "version": "5.4",
+  "title": "libxklavier-5.4",
+  "anchor": "libxklavier",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "The libxklavier package contains a utility library for X keyboard.",
+  "download": "https://people.freedesktop.org/~svu/libxklavier-5.4.tar.bz2",
+  "archive": "libxklavier-5.4.tar.bz2",
+  "md5": "13af74dcb6011ecedf1e3ed122bd31fa",
+  "size": "384 KB",
+  "disk_space": "5.2 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "glib",
+    "iso-codes",
+    "libxml2",
+    "xorg-libraries"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 731,
+  "group_order": 0
+}

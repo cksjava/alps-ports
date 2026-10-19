@@ -1,0 +1,21 @@
+{
+  "name": "libstatgrab",
+  "version": "0.92.1",
+  "title": "libstatgrab-0.92.1",
+  "anchor": "libstatgrab",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "This is a library that provides cross platform access to statistics about the system on which it's run. It's written in C and presents a selection of useful interfaces which can be used to access key system statistics. The current list of statistics includes CPU usage, memory utilisation, disk usage, process counts, network traffic, disk I/O, and more.",
+  "download": "https://www.mirrorservice.org/sites/ftp.i-scream.org/pub/i-scream/libstatgrab/libstatgrab-0.92.1.tar.gz",
+  "archive": "libstatgrab-0.92.1.tar.gz",
+  "md5": "af685494e985229e0ac46365bc0cd50e",
+  "size": "800 KB",
+  "disk_space": "7.6 MB (with tests)",
+  "build_time": "0.1 SBU (add 1.5 SBU for tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 117,
+  "group_order": 0
+}

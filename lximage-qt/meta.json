@@ -1,0 +1,23 @@
+{
+  "name": "lximage-qt",
+  "version": "2.4.0",
+  "title": "lximage-qt-2.4.0",
+  "anchor": "lximage-qt",
+  "page_type": "single",
+  "group": "lxqt-applications",
+  "chapter": "Chapter 38. LXQt Applications",
+  "summary": "The lximage-qt package contains a lightweight image viewer and screenshot program.",
+  "download": "https://github.com/lxqt/lximage-qt/releases/download/2.4.0/lximage-qt-2.4.0.tar.xz",
+  "archive": "lximage-qt-2.4.0.tar.xz",
+  "md5": "3bec142eec14e1c3c40927dd9ecc36f2",
+  "size": "852 KB",
+  "disk_space": "11 MB",
+  "build_time": "0.5 SBU",
+  "dependencies": [
+    "libfm-qt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1036,
+  "group_order": 0
+}

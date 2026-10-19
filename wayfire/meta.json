@@ -1,0 +1,41 @@
+{
+  "name": "wayfire",
+  "version": "0.11.0",
+  "title": "wayfire-0.11.0",
+  "anchor": "wayfire",
+  "page_type": "single",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "Wayfire is a Wayland compositor which takes a lot of effects from the now deprecated Compiz Xorg compositor. It aims to be customizable, yet lightweight. Unlike other compositors, it is also 3D and supports multiple perspectives for seeing windows.",
+  "download": "https://github.com/WayfireWM/wayfire/releases/download/v0.11.0/wayfire-0.11.0.tar.xz",
+  "archive": "wayfire-0.11.0.tar.xz",
+  "md5": "d4c4d782464f2a3def4848d8e727c27e",
+  "size": "1 MB",
+  "disk_space": "240 MB",
+  "build_time": "0.6 SBU (with parallelism=4)",
+  "dependencies": [
+    "glm",
+    "freetype",
+    "libdrm",
+    "libevdev",
+    "libinput",
+    "libjpeg-turbo",
+    "libpng",
+    "libxkbcommon",
+    "mesa",
+    "json-nlohmann-json",
+    "pango",
+    "pixman",
+    "wayland",
+    "wayland-protocols",
+    "wlroots",
+    "xorg-libraries",
+    "yyjson"
+  ],
+  "build_before": [
+    "make-ca"
+  ],
+  "build_after": [],
+  "order": 697,
+  "group_order": 0
+}

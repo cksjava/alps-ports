@@ -1,0 +1,21 @@
+{
+  "name": "libdvdcss",
+  "version": "1.6.0",
+  "title": "libdvdcss-1.6.0",
+  "anchor": "libdvdcss",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "libdvdcss is a simple library designed for accessing DVDs as a block device without having to bother about the decryption.",
+  "download": "https://get.videolan.org/libdvdcss/1.6.0/libdvdcss-1.6.0.tar.xz",
+  "archive": "libdvdcss-1.6.0.tar.xz",
+  "md5": "5a30c01782c163e7ca29755e30de2e29",
+  "size": "84 KB",
+  "disk_space": "1.2 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 1095,
+  "group_order": 0
+}

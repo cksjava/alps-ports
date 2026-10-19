@@ -1,0 +1,36 @@
+#!/bin/bash
+# AryaLinux post-install
+# lua — Lua-5.4.8
+# Run after the package is installed. The build directory is already gone.
+set -euo pipefail
+
+if [[ -r /etc/aryalinux-build.conf ]]; then
+    # shellcheck disable=SC1091
+    source /etc/aryalinux-build.conf
+elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
+    # shellcheck disable=SC1091
+    source "$ARYA_CONFIG"
+fi
+
+cat > lua.pc << "EOF"
+V=5.4
+R=5.4.8
+
+prefix=/usr
+INSTALL_BIN=${prefix}/bin
+INSTALL_INC=${prefix}/include
+INSTALL_LIB=${prefix}/lib
+INSTALL_MAN=${prefix}/share/man/man1
+INSTALL_LMOD=${prefix}/share/lua/${V}
+INSTALL_CMOD=${prefix}/lib/lua/${V}
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Lua
+Description: An Extensible Extension Language
+Version: ${R}
+Requires:
+Libs: -L${libdir} -llua -lm -ldl
+Cflags: -I${includedir}
+EOF

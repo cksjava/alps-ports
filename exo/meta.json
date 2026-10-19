@@ -1,0 +1,25 @@
+{
+  "name": "Exo",
+  "version": "4.20.0",
+  "title": "Exo-4.20.0",
+  "anchor": "exo",
+  "page_type": "single",
+  "group": "xfce-desktop",
+  "chapter": "Chapter 35. Xfce Desktop",
+  "summary": "Exo is a support library used in the Xfce desktop. It also has some helper applications that are used throughout Xfce.",
+  "download": "https://archive.xfce.org/src/xfce/exo/4.20/exo-4.20.0.tar.bz2",
+  "archive": "exo-4.20.0.tar.bz2",
+  "md5": "f059ec3d8686d4b322c42d19ebec0366",
+  "size": "1.1 MB",
+  "disk_space": "14 MB (with tests)",
+  "build_time": "0.1 SBU (with tests)",
+  "dependencies": [
+    "gtk3",
+    "libxfce4ui",
+    "libxfce4util"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 980,
+  "group_order": 0
+}

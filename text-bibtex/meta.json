@@ -1,0 +1,24 @@
+{
+  "name": "Text::BibTeX",
+  "version": "0.91",
+  "title": "Text::BibTeX-0.91",
+  "anchor": "perl-text-bibtex",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Text::BibTeX provides an interface to read and parse BibTeX files.",
+  "download": "https://www.cpan.org/authors/id/A/AM/AMBS/Text-BibTeX-0.91.tar.gz",
+  "archive": "Text-BibTeX-0.91.tar.gz",
+  "md5": "437862f801cfb7598dff52aa4ff7d888",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "config-autoconf",
+    "extutils-libbuilder"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 322,
+  "group_order": 39
+}

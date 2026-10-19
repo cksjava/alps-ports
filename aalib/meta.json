@@ -1,0 +1,21 @@
+{
+  "name": "AAlib",
+  "version": "1.4rc5",
+  "title": "AAlib-1.4rc5",
+  "anchor": "aalib",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "AAlib is a library to render any graphic into ASCII Art.",
+  "download": "https://downloads.sourceforge.net/aa-project/aalib-1.4rc5.tar.gz",
+  "archive": "aalib-1.4rc5.tar.gz",
+  "md5": "9801095c42bba12edebd1902bcf0a990",
+  "size": "388 KB",
+  "disk_space": "6.5 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 158,
+  "group_order": 0
+}

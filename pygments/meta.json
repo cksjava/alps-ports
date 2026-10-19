@@ -1,0 +1,23 @@
+{
+  "name": "Pygments",
+  "version": "2.20.0",
+  "title": "Pygments-2.20.0",
+  "anchor": "pygments",
+  "page_type": "nested",
+  "group": "python-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Pygments is a general syntax highlighter written in Python, for more than 300 languages.",
+  "download": "https://files.pythonhosted.org/packages/source/P/Pygments/pygments-2.20.0.tar.gz",
+  "archive": "pygments-2.20.0.tar.gz",
+  "md5": "358297d0a1db8e4beff8eebc0620960e",
+  "size": "4.8 MB",
+  "disk_space": "84 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "hatchling"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 456,
+  "group_order": 22
+}

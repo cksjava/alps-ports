@@ -1,0 +1,21 @@
+{
+  "name": "pm-utils",
+  "version": "1.4.1",
+  "title": "pm-utils-1.4.1",
+  "anchor": "pm-utils",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The Power Management Utilities provide simple shell command line tools to suspend and hibernate the computer. They can be used to run user supplied scripts on suspend and resume.",
+  "download": "https://pm-utils.freedesktop.org/releases/pm-utils-1.4.1.tar.gz",
+  "archive": "pm-utils-1.4.1.tar.gz",
+  "md5": "1742a556089c36c3a89eb1b957da5a60",
+  "size": "204 KB",
+  "disk_space": "1.6 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 247,
+  "group_order": 0
+}

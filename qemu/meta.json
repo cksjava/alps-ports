@@ -1,0 +1,28 @@
+{
+  "name": "qemu",
+  "version": "11.1.1",
+  "title": "qemu-11.1.1",
+  "anchor": "qemu",
+  "page_type": "single",
+  "group": "virtualization",
+  "chapter": "Chapter 8. Virtualization",
+  "summary": "qemu is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V).",
+  "download": "https://download.qemu.org/qemu-11.1.1.tar.xz",
+  "archive": "qemu-11.1.1.tar.xz",
+  "md5": "184466ea9d0a59e0da2c9a728e91aac1",
+  "size": "135 MB",
+  "disk_space": "2.6 GB (499 MB installed)",
+  "build_time": "1.5 SBU (add 0.8 SBU for tests, both using parallelism=4)",
+  "dependencies": [
+    "glib",
+    "pixman",
+    "alsa-lib",
+    "dtc",
+    "libslirp",
+    "sdl2-compat"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 50,
+  "group_order": 0
+}

@@ -1,0 +1,21 @@
+{
+  "name": "tree",
+  "version": "2.3.2",
+  "title": "tree-2.3.2",
+  "anchor": "tree",
+  "page_type": "single",
+  "group": "general-utilities",
+  "chapter": "Chapter 11. General Utilities",
+  "summary": "The tree application is useful to display a directory tree's contents, including files, subdirectories, and links.",
+  "download": "https://gitlab.com/OldManProgrammer/unix-tree/-/archive/2.3.2/unix-tree-2.3.2.tar.bz2",
+  "archive": "unix-tree-2.3.2.tar.bz2",
+  "md5": "1f87820af612c03bfcc0fe7800ce0c71",
+  "size": "60 KB",
+  "disk_space": "832 KB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 223,
+  "group_order": 0
+}

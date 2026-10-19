@@ -1,0 +1,33 @@
+{
+  "name": "mpv",
+  "version": "0.41.0",
+  "title": "mpv-0.41.0",
+  "anchor": "mpv",
+  "page_type": "single",
+  "group": "video-utilities",
+  "chapter": "Chapter 44. Video Utilities",
+  "summary": "mpv is a free media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.",
+  "download": "https://github.com/mpv-player/mpv/archive/v0.41.0/mpv-0.41.0.tar.gz",
+  "archive": "mpv-0.41.0.tar.gz",
+  "md5": "fa40a0fedeaf0a77127e238a39b9d4c4",
+  "size": "6.9 MB",
+  "disk_space": "35 MB",
+  "build_time": "0.4 SBU",
+  "dependencies": [
+    "alsa-lib",
+    "ffmpeg",
+    "libass",
+    "libplacebo",
+    "mesa",
+    "pulseaudio",
+    "libjpeg-turbo",
+    "libva",
+    "luajit",
+    "uchardet",
+    "vulkan-loader"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1136,
+  "group_order": 0
+}

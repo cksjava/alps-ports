@@ -1,0 +1,23 @@
+{
+  "name": "pdfio",
+  "version": "1.6.4",
+  "title": "pdfio-1.6.4",
+  "anchor": "pdfio",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The pdfio package contains a simple C library for reading and writing PDF files.",
+  "download": "https://github.com/michaelrsweet/pdfio/releases/download/v1.6.4/pdfio-1.6.4.tar.gz",
+  "archive": "pdfio-1.6.4.tar.gz",
+  "md5": "21d128da7e16b8035e5eab0676c7496d",
+  "size": "6.5 MB",
+  "disk_space": "14 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "libpng"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 193,
+  "group_order": 0
+}

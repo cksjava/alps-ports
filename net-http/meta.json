@@ -1,0 +1,23 @@
+{
+  "name": "Net::HTTP",
+  "version": "6.24",
+  "title": "Net::HTTP-6.24",
+  "anchor": "perl-net-http",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Net::HTTP class is a low level HTTP client. An instance of the class represents a connection to an HTTP server.",
+  "download": "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.24.tar.gz",
+  "archive": "Net-HTTP-6.24.tar.gz",
+  "md5": "3728289552dc5031700596e0cf4092b4",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "uri"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 392,
+  "group_order": 60
+}

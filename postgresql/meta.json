@@ -1,0 +1,21 @@
+{
+  "name": "PostgreSQL",
+  "version": "18.6",
+  "title": "PostgreSQL-18.6",
+  "anchor": "postgresql",
+  "page_type": "single",
+  "group": "databases",
+  "chapter": "Chapter 22. Databases",
+  "summary": "PostgreSQL is an advanced object-relational database management system (ORDBMS), derived from the Berkeley Postgres database management system.",
+  "download": "https://ftp.postgresql.org/pub/source/v18.6/postgresql-18.6.tar.bz2",
+  "archive": "postgresql-18.6.tar.bz2",
+  "md5": "6143c18ab91bdfcaa056a61861814cde",
+  "size": "22 MB",
+  "disk_space": "349 MB (with tests)",
+  "build_time": "1.0 SBU (with parallelism=4, add 0.1 SBU for tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 583,
+  "group_order": 0
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Gucharmap",
+  "version": "17.0.2",
+  "title": "Gucharmap-17.0.2",
+  "anchor": "gucharmap",
+  "page_type": "single",
+  "group": "gnome-applications",
+  "chapter": "Chapter 34. GNOME Applications",
+  "summary": "Gucharmap is a Unicode character map and font viewer. It allows you to browse through all the available Unicode characters and categories for the installed fonts, and to examine their detailed properties. It is an easy way to find the character you might only know by its Unicode name or code point.",
+  "download": "https://gitlab.gnome.org/GNOME/gucharmap/-/archive/17.0.2/gucharmap-17.0.2.tar.bz2",
+  "archive": "gucharmap-17.0.2.tar.bz2",
+  "md5": "eb7a254cebe0650f41281a270846afb5",
+  "size": "1.4 MB",
+  "disk_space": "80 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "desktop-file-utils",
+    "gsettings-desktop-schemas",
+    "gtk3",
+    "itstool",
+    "libarchive",
+    "glib",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 972,
+  "group_order": 0
+}

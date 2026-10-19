@@ -1,0 +1,24 @@
+{
+  "name": "woff2",
+  "version": "1.0.2",
+  "title": "woff2-1.0.2",
+  "anchor": "woff2",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "WOFF2 is a library for converting fonts from the TTF format to the WOFF 2.0 format. It also allows decompression from WOFF 2.0 to TTF. The WOFF 2.0 format uses the Brotli compression algorithm to compress fonts suitable for downloading in CSS @font-face rules.",
+  "download": "https://github.com/google/woff2/archive/v1.0.2/woff2-1.0.2.tar.gz",
+  "archive": "woff2-1.0.2.tar.gz",
+  "md5": "793c8844845351cb80730a74937e411b",
+  "size": "39 KB",
+  "disk_space": "1.6 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "brotli",
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 200,
+  "group_order": 0
+}

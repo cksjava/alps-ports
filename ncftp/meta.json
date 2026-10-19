@@ -1,0 +1,21 @@
+{
+  "name": "NcFTP",
+  "version": "3.3.0",
+  "title": "NcFTP-3.3.0",
+  "anchor": "ncftp",
+  "page_type": "single",
+  "group": "networking-programs",
+  "chapter": "Chapter 15. Networking Programs",
+  "summary": "The NcFTP package contains a powerful and flexible interface to the Internet standard File Transfer Protocol. It is intended to replace or supplement the stock ftp program.",
+  "download": "https://www.ncftp.com/public_ftp/ncftp/ncftp-3.3.0-src.tar.gz",
+  "archive": "ncftp-3.3.0-src.tar.gz",
+  "md5": "43056719c50cae2ed6b614e20c86d37e",
+  "size": "628 KB",
+  "disk_space": "13 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 528,
+  "group_order": 0
+}

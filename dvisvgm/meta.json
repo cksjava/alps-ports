@@ -1,0 +1,27 @@
+{
+  "name": "dvisvgm",
+  "version": "3.6.1",
+  "title": "dvisvgm-3.6.1",
+  "anchor": "dvisvgm",
+  "page_type": "single",
+  "group": "typesetting",
+  "chapter": "Chapter 51. Typesetting",
+  "summary": "The dvisvgm package converts DVI, EPS and PDF files to SVG format.",
+  "download": "https://github.com/mgieseki/dvisvgm/releases/download/3.6.1/dvisvgm-3.6.1.tar.gz",
+  "archive": "dvisvgm-3.6.1.tar.gz",
+  "md5": "99b4db99ea05a36832730db1e6e2dd1d",
+  "size": "2.8 MB",
+  "disk_space": "364 MB (net 52 MB installed after overwriting files in $TEXLIVE_PREFIX/texmf-dist/, add 1.1 GB for the tests)",
+  "build_time": "1 SBU (add 0.6 SBU for the tests, both using parallelism=4)",
+  "dependencies": [
+    "brotli",
+    "ghostscript",
+    "potrace",
+    "texlive-source",
+    "woff2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1176,
+  "group_order": 0
+}

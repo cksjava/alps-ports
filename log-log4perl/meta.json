@@ -1,0 +1,21 @@
+{
+  "name": "Log::Log4perl",
+  "version": "1.58",
+  "title": "Log::Log4perl-1.58",
+  "anchor": "perl-log-log4perl",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Log::Log4perl provides a Log4j implementation for perl.",
+  "download": "https://www.cpan.org/authors/id/M/MS/MSCHILLI/Log-Log4perl-1.58.tar.gz",
+  "archive": "Log-Log4perl-1.58.tar.gz",
+  "md5": "2f22b55ad8d620644868231fe3430477",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 310,
+  "group_order": 27
+}

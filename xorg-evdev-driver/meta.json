@@ -18,6 +18,8 @@
     "mtdev",
     "xorg-server"
   ],
+  "build_before": [],
+  "build_after": [],
   "order": 681,
   "group_order": 2
 }

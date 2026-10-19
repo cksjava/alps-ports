@@ -17,6 +17,8 @@
     "libevdev",
     "xorg-server"
   ],
+  "build_before": [],
+  "build_after": [],
   "order": 684,
   "group_order": 5
 }

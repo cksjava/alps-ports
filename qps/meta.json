@@ -1,0 +1,23 @@
+{
+  "name": "qps",
+  "version": "2.13.0",
+  "title": "qps-2.13.0",
+  "anchor": "qps",
+  "page_type": "single",
+  "group": "lxqt-applications",
+  "chapter": "Chapter 38. LXQt Applications",
+  "summary": "The qps package contains a Qt process manager.",
+  "download": "https://github.com/lxqt/qps/releases/download/2.13.0/qps-2.13.0.tar.xz",
+  "archive": "qps-2.13.0.tar.xz",
+  "md5": "554ada593b7d19f6d3a81cc493682a14",
+  "size": "472 KB",
+  "disk_space": "11 MB",
+  "build_time": "0.5 SBU",
+  "dependencies": [
+    "liblxqt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1040,
+  "group_order": 0
+}

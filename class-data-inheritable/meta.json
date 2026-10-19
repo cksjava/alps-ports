@@ -1,0 +1,21 @@
+{
+  "name": "Class::Data::Inheritable",
+  "version": "0.10",
+  "title": "Class::Data::Inheritable-0.10",
+  "anchor": "perl-class-data-inheritable",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Class::Data::Inheritable is for creating accessor/mutators to class data. That is, if you want to store something about your class as a whole (instead of about a single object).",
+  "download": "https://cpan.metacpan.org/authors/id/R/RS/RSHERER/Class-Data-Inheritable-0.10.tar.gz",
+  "archive": "Class-Data-Inheritable-0.10.tar.gz",
+  "md5": "6bec8f4663a83972af60bd8e71a06f64",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 341,
+  "group_order": 9
+}

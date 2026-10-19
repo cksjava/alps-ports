@@ -1,0 +1,24 @@
+{
+  "name": "HTTP::Daemon",
+  "version": "6.17",
+  "title": "HTTP::Daemon-6.17",
+  "anchor": "perl-http-daemon",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Instances of the HTTP::Daemon class are HTTP/1.1 servers that listen on a socket for incoming requests. The HTTP::Daemon is a subclass of IO::Socket::INET, so you can perform socket operations directly on it too.",
+  "download": "https://www.cpan.org/authors/id/O/OA/OALDERS/HTTP-Daemon-6.17.tar.gz",
+  "archive": "HTTP-Daemon-6.17.tar.gz",
+  "md5": "14f98fd61159ec4740a21781b787944e",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "http-message",
+    "module-build-tiny"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 302,
+  "group_order": 19
+}

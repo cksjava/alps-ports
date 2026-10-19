@@ -1,0 +1,28 @@
+{
+  "name": "Transmission",
+  "version": "4.1.3",
+  "title": "Transmission-4.1.3",
+  "anchor": "transmission",
+  "page_type": "single",
+  "group": "other-x-based-programs",
+  "chapter": "Chapter 41. Other X-based Programs",
+  "summary": "Transmission is a cross-platform, open source BitTorrent client. This is useful for downloading large files (such as Linux ISOs) and reduces the need for the distributors to provide server bandwidth.",
+  "download": "https://github.com/transmission/transmission/releases/download/4.1.3/transmission-4.1.3.tar.xz",
+  "archive": "transmission-4.1.3.tar.xz",
+  "md5": "a1ad1ebfcbd124b3c81037ff6bcd7a60",
+  "size": "12 MB",
+  "disk_space": "302 MB (with both GUI interfaces)",
+  "build_time": "2.3 SBU (with both GUI interfaces; using parallelism=4)",
+  "dependencies": [
+    "curl",
+    "libevent",
+    "libpsl",
+    "librsvg",
+    "gtkmm4",
+    "qt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1060,
+  "group_order": 0
+}

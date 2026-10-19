@@ -1,0 +1,23 @@
+{
+  "name": "libXdmcp",
+  "version": "1.1.5",
+  "title": "libXdmcp-1.1.5",
+  "anchor": "libXdmcp",
+  "page_type": "single",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The libXdmcp package contains a library implementing the X Display Manager Control Protocol. This is useful for allowing clients to interact with the X Display Manager.",
+  "download": "https://www.x.org/pub/individual/lib/libXdmcp-1.1.5.tar.xz",
+  "archive": "libXdmcp-1.1.5.tar.xz",
+  "md5": "ce0af51de211e4c99a111e64ae1df290",
+  "size": "292 KB",
+  "disk_space": "3.0 MB (with test)",
+  "build_time": "less than 0.1 SBU (with test)",
+  "dependencies": [
+    "xorgproto"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 588,
+  "group_order": 0
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Py3c",
+  "version": "1.4",
+  "title": "Py3c-1.4",
+  "anchor": "py3c",
+  "page_type": "nested",
+  "group": "python-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Py3c helps you port C extensions to Python 3. It provides a detailed guide as well as a set of macros to make porting easier and reduce boilerplate.",
+  "download": "https://github.com/encukou/py3c/archive/v1.4/py3c-1.4.tar.gz",
+  "archive": "py3c-1.4.tar.gz",
+  "md5": "53029afde7e0cf8672a2d69d378a0cfc",
+  "size": "47 KB",
+  "disk_space": "608 KB (with tests)",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 452,
+  "group_order": 18
+}

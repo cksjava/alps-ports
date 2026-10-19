@@ -1,0 +1,23 @@
+{
+  "name": "libptytty",
+  "version": "2.0",
+  "title": "libptytty-2.0",
+  "anchor": "libptytty",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The libptytty package provides a library that allows for OS independent and secure pty/tty and utmp/wtmp/lastlog handling.",
+  "download": "http://dist.schmorp.de/libptytty/libptytty-2.0.tar.gz",
+  "archive": "libptytty-2.0.tar.gz",
+  "md5": "2a7f3f3c0d3ef71902da745dc7959529",
+  "size": "48 KB",
+  "disk_space": "1.4 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 109,
+  "group_order": 0
+}

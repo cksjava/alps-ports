@@ -1,0 +1,23 @@
+{
+  "name": "Asciidoctor",
+  "version": "2.0.26",
+  "title": "Asciidoctor-2.0.26",
+  "anchor": "asciidoctor",
+  "page_type": "single",
+  "group": "general-utilities",
+  "chapter": "Chapter 11. General Utilities",
+  "summary": "Asciidoctor is a fast, open source text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook, PDF, and other formats.",
+  "download": "https://github.com/asciidoctor/asciidoctor/archive/v2.0.26/asciidoctor-2.0.26.tar.gz",
+  "archive": "asciidoctor-2.0.26.tar.gz",
+  "md5": "2bfb3830092af1dc213a99e785688372",
+  "size": "1.6 MB",
+  "disk_space": "5.5 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "ruby"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 202,
+  "group_order": 0
+}

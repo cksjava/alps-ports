@@ -1,0 +1,24 @@
+{
+  "name": "HTML::Parser",
+  "version": "3.85",
+  "title": "HTML::Parser-3.85",
+  "anchor": "perl-html-parser",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The HTML::Parser distribution is a collection of modules that parse and extract information from HTML documents.",
+  "download": "https://www.cpan.org/authors/id/O/OA/OALDERS/HTML-Parser-3.85.tar.gz",
+  "archive": "HTML-Parser-3.85.tar.gz",
+  "md5": "400384681da1452493d36f036d9f387b",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "html-tagset",
+    "http-message"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 301,
+  "group_order": 18
+}

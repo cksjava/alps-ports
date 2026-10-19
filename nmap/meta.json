@@ -1,0 +1,28 @@
+{
+  "name": "Nmap",
+  "version": "7.991",
+  "title": "Nmap-7.991",
+  "anchor": "nmap",
+  "page_type": "single",
+  "group": "networking-utilities",
+  "chapter": "Chapter 16. Networking Utilities",
+  "summary": "Nmap is a utility for network exploration and security auditing. It supports ping scanning, port scanning and TCP/IP fingerprinting.",
+  "download": "https://nmap.org/dist/nmap-7.991.tar.bz2",
+  "archive": "nmap-7.991.tar.bz2",
+  "md5": "a689503c1b7851be8aba804eae414b27",
+  "size": "13 MB",
+  "disk_space": "208 MB (with tests)",
+  "build_time": "0.5 SBU (Using parallelism=4; with tests)",
+  "dependencies": [
+    "build",
+    "liblinear",
+    "libpcap",
+    "libssh2",
+    "lua",
+    "pygobject"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 543,
+  "group_order": 0
+}

@@ -1,0 +1,21 @@
+{
+  "name": "sysmond",
+  "version": "1.0.1",
+  "title": "sysmond-1.0.1",
+  "anchor": "sysmond",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The sysmond package (pronounced sys-mon-d) is the daemon portion of the sysmond/sysmon3 client/server application that monitors system values including CPU usage, memory usage, and system temperatures in a compact screen window.",
+  "download": "https://github.com/lfs-book/sysmond/releases/download/sysmond-1.0.1/sysmond-1.0.1.tar.xz",
+  "archive": "sysmond-1.0.1.tar.xz",
+  "md5": "8633f400cf9491f575fe419f1ed59d1a",
+  "size": "24 KB",
+  "disk_space": "200 KB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 265,
+  "group_order": 0
+}

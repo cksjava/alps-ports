@@ -1,0 +1,23 @@
+{
+  "name": "Apr-Util",
+  "version": "1.6.5",
+  "title": "Apr-Util-1.6.5",
+  "anchor": "apr-util",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The Apache Portable Runtime Utility Library provides a predictable and consistent interface to underlying client library interfaces. This application programming interface assures predictable if not identical behavior regardless of which libraries are available on a given platform.",
+  "download": "https://archive.apache.org/dist/apr/apr-util-1.6.5.tar.bz2",
+  "archive": "apr-util-1.6.5.tar.bz2",
+  "md5": "3897a2f32d365a8281fbb90d1c2794ac",
+  "size": "432 KB",
+  "disk_space": "9.4 MB (with tests)",
+  "build_time": "less than 0.1 SBU (add 0.3 SBU for tests)",
+  "dependencies": [
+    "apr"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 55,
+  "group_order": 0
+}

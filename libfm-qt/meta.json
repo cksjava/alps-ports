@@ -1,0 +1,26 @@
+{
+  "name": "libfm-qt",
+  "version": "2.4.0",
+  "title": "libfm-qt-2.4.0",
+  "anchor": "libfm-qt",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "libfm-qt is the Qt port of libfm, a library providing components to build desktop file managers. In LXQt, libfm-qt also handles desktop icons and backgrounds.",
+  "download": "https://github.com/lxqt/libfm-qt/releases/download/2.4.0/libfm-qt-2.4.0.tar.xz",
+  "archive": "libfm-qt-2.4.0.tar.xz",
+  "md5": "d836e9732df22a1fc8a5b3d3919f4549",
+  "size": "432 KB",
+  "disk_space": "29 MB",
+  "build_time": "0.4 SBU (Using parallelism=4)",
+  "dependencies": [
+    "cmake",
+    "libexif",
+    "menu-cache",
+    "qt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1018,
+  "group_order": 0
+}

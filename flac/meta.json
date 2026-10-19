@@ -1,0 +1,21 @@
+{
+  "name": "FLAC",
+  "version": "1.5.0",
+  "title": "FLAC-1.5.0",
+  "anchor": "flac",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "FLAC is an audio CODEC similar to MP3, but lossless, meaning that audio is compressed without losing any information.",
+  "download": "https://github.com/xiph/flac/releases/download/1.5.0/flac-1.5.0.tar.xz",
+  "archive": "flac-1.5.0.tar.xz",
+  "md5": "0bb45bcf74338b00efeec121fff27367",
+  "size": "1.1 MB",
+  "disk_space": "25 MB (additional 170 MB to run the test suite)",
+  "build_time": "0.2 SBU (additional 0.2 SBU to run the test suite)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 1074,
+  "group_order": 0
+}

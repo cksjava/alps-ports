@@ -1,0 +1,26 @@
+{
+  "name": "libshumate",
+  "version": "1.6.3",
+  "title": "libshumate-1.6.3",
+  "anchor": "libshumate",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "The libshumate package contains a GTK-4 widget to display maps.",
+  "download": "https://download.gnome.org/sources/libshumate/1.6/libshumate-1.6.3.tar.xz",
+  "archive": "libshumate-1.6.3.tar.xz",
+  "md5": "42afb4ec07d34e5158febb260b65ab76",
+  "size": "5.7 MB",
+  "disk_space": "41 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "gtk4",
+    "libsoup",
+    "protobuf-c",
+    "glib"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 933,
+  "group_order": 0
+}

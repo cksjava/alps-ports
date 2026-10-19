@@ -1,0 +1,21 @@
+{
+  "name": "Try::Tiny",
+  "version": "0.32",
+  "title": "Try::Tiny-0.32",
+  "anchor": "perl-try-tiny",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Try::Tiny provides try and catch to expect and handle exceptional conditions, avoiding quirks in Perl and common mistakes.",
+  "download": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Try-Tiny-0.32.tar.gz",
+  "archive": "Try-Tiny-0.32.tar.gz",
+  "md5": "964424fcada4654bede745a7a2fb870b",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 425,
+  "group_order": 93
+}

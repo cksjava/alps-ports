@@ -1,0 +1,24 @@
+{
+  "name": "Meson_python",
+  "version": "0.20.0",
+  "title": "Meson_python-0.20.0",
+  "anchor": "meson_python",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Meson_python module contains a Python build backend (PEP 517) for Meson projects.",
+  "download": "https://files.pythonhosted.org/packages/source/m/meson_python/meson_python-0.20.0.tar.gz",
+  "archive": "meson_python-0.20.0.tar.gz",
+  "md5": "032ed60b1d86c448331fc0a2ba81f499",
+  "size": "104 KB",
+  "disk_space": "20 MB (with tests)",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "pyproject-metadata",
+    "patchelf"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 484,
+  "group_order": 15
+}

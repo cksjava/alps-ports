@@ -1,0 +1,23 @@
+{
+  "name": "muparser",
+  "version": "2.3.5",
+  "title": "muparser-2.3.5",
+  "anchor": "muparser",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "The muparser package is a fast math parser library for C and C++.",
+  "download": "https://github.com/beltoforion/muparser/archive/v2.3.5/muparser-2.3.5.tar.gz",
+  "archive": "muparser-2.3.5.tar.gz",
+  "md5": "04d4224cb01712207b85af05a255b6fc",
+  "size": "116 KB",
+  "disk_space": "4.6 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1008,
+  "group_order": 0
+}

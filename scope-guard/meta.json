@@ -1,0 +1,21 @@
+{
+  "name": "Scope::Guard",
+  "version": "0.21",
+  "title": "Scope::Guard-0.21",
+  "anchor": "perl-scope-guard",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Scope::Guard provides a convenient way to perform cleanup or other forms of resource management at the end of a scope.",
+  "download": "https://cpan.metacpan.org/authors/id/C/CH/CHOCOLATE/Scope-Guard-0.21.tar.gz",
+  "archive": "Scope-Guard-0.21.tar.gz",
+  "md5": "be57b915d23ddac7677ef2ad9e52b92a",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 400,
+  "group_order": 68
+}

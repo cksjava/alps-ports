@@ -1,0 +1,32 @@
+{
+  "name": "VTE",
+  "version": "0.84.1",
+  "title": "VTE-0.84.1",
+  "anchor": "vte",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "The VTE package contains a virtual terminal widget for GTK applications.",
+  "download": "https://gitlab.gnome.org/GNOME/vte/-/archive/0.84.1/vte-0.84.1.tar.gz",
+  "archive": "vte-0.84.1.tar.gz",
+  "md5": "9733f0218f72051999e42725fe5fbaa8",
+  "size": "856 KB",
+  "disk_space": "70 MB (with tests)",
+  "build_time": "0.7 SBU (using parallelism=4; with tests)",
+  "dependencies": [
+    "libxml2",
+    "fast-float",
+    "fmt",
+    "icu",
+    "gnutls",
+    "glib",
+    "gtk3",
+    "gtk4",
+    "simdutf",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 920,
+  "group_order": 0
+}

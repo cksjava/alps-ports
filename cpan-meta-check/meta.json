@@ -1,0 +1,21 @@
+{
+  "name": "CPAN::Meta::Check",
+  "version": "0.018",
+  "title": "CPAN::Meta::Check-0.018",
+  "anchor": "perl-cpan-meta-check",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "CPAN::Meta::Check verifies if requirements described in a CPAN::Meta object are present.",
+  "download": "https://cpan.metacpan.org/authors/id/L/LE/LEONT/CPAN-Meta-Check-0.018.tar.gz",
+  "archive": "CPAN-Meta-Check-0.018.tar.gz",
+  "md5": "d1c2190e8bc1c176b9ee9cba3ac403ad",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 348,
+  "group_order": 16
+}

@@ -1,0 +1,24 @@
+{
+  "name": "gtksourceview",
+  "version": "3.24.11",
+  "title": "gtksourceview-3.24.11",
+  "anchor": "gtksourceview",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "The GtkSourceView package contains libraries used for extending the GTK+ text functions to include syntax highlighting.",
+  "download": "https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.11.tar.xz",
+  "archive": "gtksourceview-3.24.11.tar.xz",
+  "md5": "b748da426a7d64e1304f0c532b0f2a67",
+  "size": "1.4 MB",
+  "disk_space": "80 MB (with tests)",
+  "build_time": "0.2 SBU (using parallelism=4; with tests)",
+  "dependencies": [
+    "gtk3",
+    "glib"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 718,
+  "group_order": 0
+}

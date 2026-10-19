@@ -1,0 +1,24 @@
+{
+  "name": "maturin",
+  "version": "1.14.1",
+  "title": "maturin-1.14.1",
+  "anchor": "maturin",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The maturin module provides a build system for rust binaries and crates generated from Python packages.",
+  "download": "https://github.com/PyO3/maturin/archive/v1.14.1/maturin-1.14.1.tar.gz",
+  "archive": "maturin-1.14.1.tar.gz",
+  "md5": "ed60ce01916c36311fa8752b7af00b67",
+  "size": "759 KB",
+  "disk_space": "537 MB (add 6.1 GB for tests)",
+  "build_time": "1.3 SBU (including download time, add 2.5 SBU for tests with download time)",
+  "dependencies": [
+    "rustc",
+    "setuptools-rust"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 482,
+  "group_order": 13
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Tcsh",
+  "version": "6.24.16",
+  "title": "Tcsh-6.24.16",
+  "anchor": "tcsh",
+  "page_type": "single",
+  "group": "shells",
+  "chapter": "Chapter 7. Shells",
+  "summary": "The Tcsh package contains “an enhanced but completely compatible version of the Berkeley Unix C shell (csh).” This is useful as an alternative shell for those who prefer C syntax to that of the bash shell, and also because some programs require the C shell in order to perform installation tasks.",
+  "download": "https://astron.com/pub/tcsh/tcsh-6.24.16.tar.gz",
+  "archive": "tcsh-6.24.16.tar.gz",
+  "md5": "448f53f12544abb627c9f078373b8ff5",
+  "size": "936 KB",
+  "disk_space": "11 MB (with tests)",
+  "build_time": "0.2 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 48,
+  "group_order": 0
+}

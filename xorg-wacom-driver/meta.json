@@ -16,6 +16,8 @@
   "dependencies": [
     "xorg-server"
   ],
+  "build_before": [],
+  "build_after": [],
   "order": 685,
   "group_order": 6
 }

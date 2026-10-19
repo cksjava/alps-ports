@@ -1,0 +1,24 @@
+{
+  "name": "Atkmm",
+  "version": "2.28.5",
+  "title": "Atkmm-2.28.5",
+  "anchor": "atkmm",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "Atkmm is the official C++ interface for the ATK accessibility toolkit library.",
+  "download": "https://download.gnome.org/sources/atkmm/2.28/atkmm-2.28.5.tar.xz",
+  "archive": "atkmm-2.28.5.tar.xz",
+  "md5": "c9bdc196eed368c274177b0c1caf140c",
+  "size": "596 KB",
+  "disk_space": "11 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "at-spi2-core",
+    "glibmm"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 699,
+  "group_order": 0
+}

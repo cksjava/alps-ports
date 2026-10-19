@@ -1,0 +1,24 @@
+{
+  "name": "dbus-glib",
+  "version": "0.114",
+  "title": "dbus-glib-0.114",
+  "anchor": "dbus-glib",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The D-Bus GLib package contains GLib interfaces to the D-Bus API.",
+  "download": "https://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.114.tar.gz",
+  "archive": "dbus-glib-0.114.tar.gz",
+  "md5": "188792077e880a8c0359288d7819dab3",
+  "size": "724 KB",
+  "disk_space": "11 MB (with tests)",
+  "build_time": "0.1 SBU (with tests)",
+  "dependencies": [
+    "dbus",
+    "glib"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 60,
+  "group_order": 0
+}

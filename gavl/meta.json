@@ -1,0 +1,21 @@
+{
+  "name": "gavl",
+  "version": "1.4.0",
+  "title": "gavl-1.4.0",
+  "anchor": "gavl",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "Gavl is short for Gmerlin Audio Video Library. It is a low level library that handles the details of audio and video formats like colorspaces, samplerates, multichannel configurations etc. It provides standardized definitions for those formats as well as container structures for carrying audio samples or video images inside an application.",
+  "download": "https://downloads.sourceforge.net/gmerlin/gavl-1.4.0.tar.gz",
+  "archive": "gavl-1.4.0.tar.gz",
+  "md5": "2752013a817fbc43ddf13552215ec2c0",
+  "size": "4.4 MB",
+  "disk_space": "50 MB",
+  "build_time": "0.8 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 1076,
+  "group_order": 0
+}

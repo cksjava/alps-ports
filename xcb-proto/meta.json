@@ -1,0 +1,23 @@
+{
+  "name": "xcb-proto",
+  "version": "1.17.0",
+  "title": "xcb-proto-1.17.0",
+  "anchor": "xcb-proto",
+  "page_type": "single",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The xcb-proto package provides the XML-XCB protocol descriptions that libxcb uses to generate the majority of its code and API.",
+  "download": "https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.17.0.tar.xz",
+  "archive": "xcb-proto-1.17.0.tar.xz",
+  "md5": "c415553d2ee1a8cea43c3234a079b53f",
+  "size": "152 KB",
+  "disk_space": "1.3 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "setting-up-the-xorg-build-environment"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 589,
+  "group_order": 0
+}

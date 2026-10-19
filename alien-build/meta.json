@@ -1,0 +1,26 @@
+{
+  "name": "Alien::Build",
+  "version": "2.84",
+  "title": "Alien::Build-2.84",
+  "anchor": "perl-alien-build",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Alien::Build provides tools for building external (non-CPAN) dependencies for CPAN.",
+  "download": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.84.tar.gz",
+  "archive": "Alien-Build-2.84.tar.gz",
+  "md5": "531c4d1ea1274e2fafd7e61df60f9099",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "capture-tiny",
+    "file-which",
+    "ffi-checklib",
+    "file-chdir"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 334,
+  "group_order": 2
+}

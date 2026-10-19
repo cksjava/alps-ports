@@ -1,0 +1,23 @@
+{
+  "name": "libnsl",
+  "version": "2.0.1",
+  "title": "libnsl-2.0.1",
+  "anchor": "libnsl",
+  "page_type": "single",
+  "group": "networking-libraries",
+  "chapter": "Chapter 17. Networking Libraries",
+  "summary": "The libnsl package contains the public client interface for NIS(YP). It replaces the NIS library that used to be in glibc.",
+  "download": "https://github.com/thkukuk/libnsl/releases/download/v2.0.1/libnsl-2.0.1.tar.xz",
+  "archive": "libnsl-2.0.1.tar.xz",
+  "md5": "fb178645dfa85ebab0f1e42e219b42ae",
+  "size": "276 KB",
+  "disk_space": "3.1 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "libtirpc"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 559,
+  "group_order": 0
+}

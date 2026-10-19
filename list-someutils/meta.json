@@ -1,0 +1,24 @@
+{
+  "name": "List::SomeUtils",
+  "version": "0.59",
+  "title": "List::SomeUtils-0.59",
+  "anchor": "perl-list-someutils",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "List::SomeUtils provides the stuff missing in List::Util.",
+  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-0.59.tar.gz",
+  "archive": "List-SomeUtils-0.59.tar.gz",
+  "md5": "333b4adb2907deff2be8da5899881453",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "module-implementation",
+    "list-someutils-xs"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 379,
+  "group_order": 47
+}

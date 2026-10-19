@@ -1,0 +1,27 @@
+{
+  "name": "colord-gtk",
+  "version": "0.3.1",
+  "title": "colord-gtk-0.3.1",
+  "anchor": "colord-gtk",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "The Colord GTK package contains GTK+ bindings for Colord.",
+  "download": "https://www.freedesktop.org/software/colord/releases/colord-gtk-0.3.1.tar.xz",
+  "archive": "colord-gtk-0.3.1.tar.xz",
+  "md5": "d436740c06e42af421384f16b2a9a0a7",
+  "size": "24 KB",
+  "disk_space": "2.1 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "colord",
+    "gtk3",
+    "glib",
+    "gtk4",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 704,
+  "group_order": 0
+}

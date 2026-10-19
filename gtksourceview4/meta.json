@@ -1,0 +1,25 @@
+{
+  "name": "gtksourceview4",
+  "version": "4.8.4",
+  "title": "gtksourceview4-4.8.4",
+  "anchor": "gtksourceview4",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "The GtkSourceView package contains libraries used for extending the GTK+ text functions to include syntax highlighting.",
+  "download": "https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz",
+  "archive": "gtksourceview-4.8.4.tar.xz",
+  "md5": "2bf056caaae27654ec3a5930dd5597d3",
+  "size": "1.1 MB",
+  "disk_space": "71 MB (with tests)",
+  "build_time": "0.1 SBU (with tests; both using parallelism=4)",
+  "dependencies": [
+    "gtk3",
+    "glib",
+    "libxml2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 719,
+  "group_order": 0
+}

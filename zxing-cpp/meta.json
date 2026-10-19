@@ -1,0 +1,23 @@
+{
+  "name": "zxing-cpp",
+  "version": "3.1.1",
+  "title": "zxing-cpp-3.1.1",
+  "anchor": "zxing-cpp",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The zxing-cpp package provides an open-source, multi-format linear/matrix barcode image processing library.",
+  "download": "https://github.com/zxing-cpp/zxing-cpp/releases/download/v3.1.1/zxing-cpp-3.1.1.tar.gz",
+  "archive": "zxing-cpp-3.1.1.tar.gz",
+  "md5": "40092c87b4a87b2f46a54d1371866966",
+  "size": "1.6 MB",
+  "disk_space": "109 MB",
+  "build_time": "0.1 SBU (Using parallelism=4)",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 201,
+  "group_order": 0
+}

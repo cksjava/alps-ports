@@ -1,0 +1,21 @@
+{
+  "name": "Sub::Uplevel",
+  "version": "0.2800",
+  "title": "Sub::Uplevel-0.2800",
+  "anchor": "perl-sub-uplevel",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Sub::Uplevel allows you to fool a caller that it is running in a higher stack frame.",
+  "download": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz",
+  "archive": "Sub-Uplevel-0.2800.tar.gz",
+  "md5": "6c6a174861fd160e8d5871a86df00baf",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 404,
+  "group_order": 72
+}

@@ -1,0 +1,25 @@
+{
+  "name": "libheif",
+  "version": "1.23.1",
+  "title": "libheif-1.23.1",
+  "anchor": "libheif",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The libheif package is an HEIF and AVIF file format decoder and encoder.",
+  "download": "https://github.com/strukturag/libheif/releases/download/v1.23.1/libheif-1.23.1.tar.gz",
+  "archive": "libheif-1.23.1.tar.gz",
+  "md5": "26fd31d0591ab927ef1a638de64cb2da",
+  "size": "2.0 MB",
+  "disk_space": "49 MB (with tests)",
+  "build_time": "0.6 SBU (with tests, parallelism=4)",
+  "dependencies": [
+    "libaom",
+    "libde265",
+    "x265"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 177,
+  "group_order": 0
+}

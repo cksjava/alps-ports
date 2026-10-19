@@ -1,0 +1,27 @@
+{
+  "name": "Requests",
+  "version": "2.34.2",
+  "title": "Requests-2.34.2",
+  "anchor": "requests",
+  "page_type": "nested",
+  "group": "python-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Requests package is an elegant and simple HTTP library for Python, built for human beings. It allows sending HTTP/1.1 requests extremely easily.",
+  "download": "https://files.pythonhosted.org/packages/source/r/requests/requests-2.34.2.tar.gz",
+  "archive": "requests-2.34.2.tar.gz",
+  "md5": "611e438d0803e962500225f9807a475e",
+  "size": "140 KB",
+  "disk_space": "89 MB (with tests)",
+  "build_time": "less than 0.1 SBU (0.9 SBU for tests)",
+  "dependencies": [
+    "charset-normalizer",
+    "idna",
+    "urllib3",
+    "make-ca",
+    "p11-kit"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 464,
+  "group_order": 30
+}

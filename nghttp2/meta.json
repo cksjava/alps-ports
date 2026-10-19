@@ -1,0 +1,23 @@
+{
+  "name": "nghttp2",
+  "version": "1.70.0",
+  "title": "nghttp2-1.70.0",
+  "anchor": "nghttp2",
+  "page_type": "single",
+  "group": "networking-libraries",
+  "chapter": "Chapter 17. Networking Libraries",
+  "summary": "nghttp2 is an implementation of HTTP/2 and its header compression algorithm, HPACK.",
+  "download": "https://github.com/nghttp2/nghttp2/releases/download/v1.70.0/nghttp2-1.70.0.tar.xz",
+  "archive": "nghttp2-1.70.0.tar.xz",
+  "md5": "3df2b4b51caa13b76032bfd2d11d4ab2",
+  "size": "2.0 MB",
+  "disk_space": "29 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "libxml2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 566,
+  "group_order": 0
+}

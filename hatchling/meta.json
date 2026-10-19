@@ -1,0 +1,26 @@
+{
+  "name": "Hatchling",
+  "version": "1.32.0",
+  "title": "Hatchling-1.32.0",
+  "anchor": "hatchling",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Hatchling is an extensible, standards compliant build backend for python modules.",
+  "download": "https://files.pythonhosted.org/packages/source/h/hatchling/hatchling-1.32.0.tar.gz",
+  "archive": "hatchling-1.32.0.tar.gz",
+  "md5": "e5870c28ce4403c12b3d9a4a4f8866fe",
+  "size": "56 KB",
+  "disk_space": "1.1 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "pathspec",
+    "pluggy",
+    "tomlkit",
+    "trove-classifiers"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 476,
+  "group_order": 7
+}

@@ -1,0 +1,23 @@
+{
+  "name": "uv_build",
+  "version": "0.11.24",
+  "title": "uv_build-0.11.24",
+  "anchor": "uv_build",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The uv_build module provides the PEP 517 build backend from the 'uv' Python package management system.",
+  "download": "https://files.pythonhosted.org/packages/source/u/uv_build/uv_build-0.11.24.tar.gz",
+  "archive": "uv_build-0.11.24.tar.gz",
+  "md5": "f537ded461369ed76aec64e5d2e0269d",
+  "size": "392 KB",
+  "disk_space": "445 MB",
+  "build_time": "0.9 SBU",
+  "dependencies": [
+    "maturin"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 509,
+  "group_order": 40
+}

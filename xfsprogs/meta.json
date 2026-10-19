@@ -1,0 +1,24 @@
+{
+  "name": "xfsprogs",
+  "version": "7.1.1",
+  "title": "xfsprogs-7.1.1",
+  "anchor": "xfsprogs",
+  "page_type": "single",
+  "group": "file-systems-and-disk-management",
+  "chapter": "Chapter 5. File Systems and Disk Management",
+  "summary": "The xfsprogs package contains administration and debugging tools for the XFS file system.",
+  "download": "https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/xfsprogs-7.1.1.tar.xz",
+  "archive": "xfsprogs-7.1.1.tar.xz",
+  "md5": "befa97b62b635a1817db666806d40411",
+  "size": "1.5 MB",
+  "disk_space": "74 MB",
+  "build_time": "0.3 SBU (Using parallelism=4)",
+  "dependencies": [
+    "inih",
+    "liburcu"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 36,
+  "group_order": 0
+}

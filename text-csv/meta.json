@@ -1,0 +1,24 @@
+{
+  "name": "Text::CSV",
+  "version": "2.06",
+  "title": "Text::CSV-2.06",
+  "anchor": "perl-text-csv",
+  "page_type": "nested",
+  "group": "perl-modules",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Text::CSV is a comma-separated values manipulator, using XS (eXternal Subroutine - for subroutines written in C or C++) or pure perl.",
+  "download": "https://www.cpan.org/authors/id/I/IS/ISHIGAKI/Text-CSV-2.06.tar.gz",
+  "archive": "Text-CSV-2.06.tar.gz",
+  "md5": "620284340dfd1787c89666d22adfd463",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "text-csv-xs",
+    "biber"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 323,
+  "group_order": 40
+}

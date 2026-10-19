@@ -1,0 +1,25 @@
+{
+  "name": "liblxqt",
+  "version": "2.4.0",
+  "title": "liblxqt-2.4.0",
+  "anchor": "liblxqt",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "The liblxqt is the core utility library for all LXQt components.",
+  "download": "https://github.com/lxqt/liblxqt/releases/download/2.4.0/liblxqt-2.4.0.tar.xz",
+  "archive": "liblxqt-2.4.0.tar.xz",
+  "md5": "daa81b9deda0ac4c37ab3ec914bae82b",
+  "size": "92 KB",
+  "disk_space": "7.9 MB",
+  "build_time": "0.4 SBU",
+  "dependencies": [
+    "libqtxdg",
+    "kwindowsystem-for-lxqt",
+    "polkit-qt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1013,
+  "group_order": 0
+}

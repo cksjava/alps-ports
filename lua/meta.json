@@ -1,0 +1,21 @@
+{
+  "name": "Lua",
+  "version": "5.4.8",
+  "title": "Lua-5.4.8",
+  "anchor": "lua",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Lua is a powerful light-weight programming language designed for extending applications. It is also frequently used as a general-purpose, stand-alone language. Lua is implemented as a small library of C functions, written in ANSI C, and compiles unmodified in all known platforms. The implementation goals are simplicity, efficiency, portability, and low embedding cost. The result is a fast language engine with small footprint, making it ideal in embedded systems too.",
+  "download": "https://www.lua.org/ftp/lua-5.4.8.tar.gz",
+  "archive": "lua-5.4.8.tar.gz",
+  "md5": "81cf5265b8634967d8a7480d238168ce",
+  "size": "368 KB",
+  "disk_space": "3.7 MB (with Basic tests)",
+  "build_time": "less than 0.1 SBU (with Basic tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 279,
+  "group_order": 0
+}

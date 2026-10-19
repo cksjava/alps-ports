@@ -1,0 +1,24 @@
+{
+  "name": "xindy",
+  "version": "2.5.1",
+  "title": "xindy-2.5.1",
+  "anchor": "xindy",
+  "page_type": "single",
+  "group": "typesetting",
+  "chapter": "Chapter 51. Typesetting",
+  "summary": "Xindy is an index processor that can be used to generate book-like indexes for arbitrary document-preparation systems. This includes systems such as TeX and LaTeX, the roff-family, and SGML/XML-based systems (e.g., HTML) that process some kind of text and generate indexing information.",
+  "download": "https://ctan.org/indexing/xindy-2.5.1.tar.gz",
+  "archive": "xindy-2.5.1.tar.gz",
+  "md5": "221acfeeb0f6f8388f89a59c56491041",
+  "size": "506 KB",
+  "disk_space": "15 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "clisp",
+    "texlive-source"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1177,
+  "group_order": 0
+}

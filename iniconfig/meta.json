@@ -1,0 +1,23 @@
+{
+  "name": "Iniconfig",
+  "version": "2.3.0",
+  "title": "Iniconfig-2.3.0",
+  "anchor": "iniconfig",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Iniconfig is a small and simple INI-file parser module.",
+  "download": "https://files.pythonhosted.org/packages/source/i/iniconfig/iniconfig-2.3.0.tar.gz",
+  "archive": "iniconfig-2.3.0.tar.gz",
+  "md5": "5c1d9c21275feb3da71400bf716edd72",
+  "size": "24 KB",
+  "disk_space": "304 KB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "setuptools-scm"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 481,
+  "group_order": 12
+}

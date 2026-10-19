@@ -1,0 +1,23 @@
+{
+  "name": "gnome-icon-theme-extras",
+  "version": "3.12.0",
+  "title": "gnome-icon-theme-extras-3.12.0",
+  "anchor": "gnome-icon-theme-extras",
+  "page_type": "single",
+  "group": "icons",
+  "chapter": "Chapter 28. Icons",
+  "summary": "The GNOME Icon Theme Extras package contains extra icons for the GNOME Desktop.",
+  "download": "https://download.gnome.org/sources/gnome-icon-theme-extras/3.12/gnome-icon-theme-extras-3.12.0.tar.xz",
+  "archive": "gnome-icon-theme-extras-3.12.0.tar.xz",
+  "md5": "91f8f7e35a3d8d926716d88b8b1e9a29",
+  "size": "1.7 MB",
+  "disk_space": "12 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "gnome-icon-theme"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 754,
+  "group_order": 0
+}

@@ -1,0 +1,21 @@
+{
+  "name": "libei",
+  "version": "1.6.0",
+  "title": "libei-1.6.0",
+  "anchor": "libei",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "The libei package contains a set of libraries for handling emulated inputs. It is primarily aimed at the Wayland stack.",
+  "download": "https://gitlab.freedesktop.org/libinput/libei/-/archive/1.6.0/libei-1.6.0.tar.bz2",
+  "archive": "libei-1.6.0.tar.bz2",
+  "md5": "08186470213bdba5a4e58d322368f31d",
+  "size": "192 KB",
+  "disk_space": "7.0 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 726,
+  "group_order": 0
+}

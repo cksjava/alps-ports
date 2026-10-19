@@ -1,0 +1,21 @@
+{
+  "name": "Pathspec",
+  "version": "1.1.1",
+  "title": "Pathspec-1.1.1",
+  "anchor": "pathspec",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Pathspec is a utility library for pattern matching of file paths.",
+  "download": "https://files.pythonhosted.org/packages/source/p/pathspec/pathspec-1.1.1.tar.gz",
+  "archive": "pathspec-1.1.1.tar.gz",
+  "md5": "c762d0a00d6cfc9de003e02d5072b26a",
+  "size": "136 KB",
+  "disk_space": "1.7 MB (with tests)",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 486,
+  "group_order": 17
+}

@@ -1,0 +1,21 @@
+{
+  "name": "libdvdread",
+  "version": "7.1.1",
+  "title": "libdvdread-7.1.1",
+  "anchor": "libdvdread",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "libdvdread is a library which provides a simple foundation for reading DVDs.",
+  "download": "https://get.videolan.org/libdvdread/7.1.1/libdvdread-7.1.1.tar.xz",
+  "archive": "libdvdread-7.1.1.tar.xz",
+  "md5": "bfd662e9180dabad03bae95292b38a50",
+  "size": "104 KB",
+  "disk_space": "2.0 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 1096,
+  "group_order": 0
+}

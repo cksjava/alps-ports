@@ -1,0 +1,23 @@
+{
+  "name": "sound-theme-freedesktop",
+  "version": "0.8",
+  "title": "sound-theme-freedesktop-0.8",
+  "anchor": "sound-theme-freedesktop",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "The Sound Theme Freedesktop package contains sound themes for the desktop.",
+  "download": "https://people.freedesktop.org/~mccann/dist/sound-theme-freedesktop-0.8.tar.bz2",
+  "archive": "sound-theme-freedesktop-0.8.tar.bz2",
+  "md5": "d7387912cfd275282d1ec94483cb2f62",
+  "size": "472 KB",
+  "disk_space": "2 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "intltool"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1116,
+  "group_order": 0
+}

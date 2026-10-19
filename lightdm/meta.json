@@ -1,0 +1,31 @@
+{
+  "name": "lightdm",
+  "version": "1.33.1",
+  "title": "lightdm-1.33.1",
+  "anchor": "lightdm",
+  "page_type": "single",
+  "group": "display-managers",
+  "chapter": "Chapter 26. Display Managers",
+  "summary": "The lightdm package contains a lightweight display manager based upon GTK.",
+  "download": "https://github.com/Xubuntu/lightdm-gtk-greeter/releases/download/lightdm-gtk-greeter-2.0.9/lightdm-gtk-greeter-2.0.9.tar.gz",
+  "archive": "lightdm-gtk-greeter-2.0.9.tar.gz",
+  "md5": "35752d730f39293c2bbe884ef6963830",
+  "size": "592 KB",
+  "disk_space": "5.2 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "exo",
+    "libgcrypt",
+    "intltool",
+    "itstool",
+    "linux-pam",
+    "xorg-server",
+    "glib",
+    "libxklavier",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 746,
+  "group_order": 0
+}

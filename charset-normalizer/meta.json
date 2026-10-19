@@ -1,0 +1,21 @@
+{
+  "name": "Charset-normalizer",
+  "version": "3.4.7",
+  "title": "Charset-normalizer-3.4.7",
+  "anchor": "charset-normalizer",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The charset-normalizer library helps with reading text from an unknown character encoding.",
+  "download": "https://files.pythonhosted.org/packages/source/c/charset-normalizer/charset_normalizer-3.4.7.tar.gz",
+  "archive": "charset_normalizer-3.4.7.tar.gz",
+  "md5": "68805886064d248d2e5205fd11112d85",
+  "size": "144 KB",
+  "disk_space": "1.1 MB (add 15 MB for tests)",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 474,
+  "group_order": 5
+}

@@ -1,0 +1,23 @@
+{
+  "name": "libepoxy",
+  "version": "1.5.10",
+  "title": "libepoxy-1.5.10",
+  "anchor": "libepoxy",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "libepoxy is a library for handling OpenGL function pointer management.",
+  "download": "https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.10.tar.xz",
+  "archive": "libepoxy-1.5.10.tar.xz",
+  "md5": "10c635557904aed5239a4885a7c4efb7",
+  "size": "220 KB",
+  "disk_space": "13 MB (with tests)",
+  "build_time": "0.1 SBU (with tests)",
+  "dependencies": [
+    "mesa"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 729,
+  "group_order": 0
+}

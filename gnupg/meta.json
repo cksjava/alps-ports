@@ -1,0 +1,29 @@
+{
+  "name": "GnuPG",
+  "version": "2.5.21",
+  "title": "GnuPG-2.5.21",
+  "anchor": "gnupg2",
+  "page_type": "single",
+  "group": "security",
+  "chapter": "Chapter 4. Security",
+  "summary": "The GnuPG package is GNU's tool for secure communication and data storage. It can be used to encrypt data and to create digital signatures. It includes an advanced key management facility and is compliant with the proposed OpenPGP Internet standard as described in RFC2440 and the S/MIME standard as described by several RFCs. GnuPG 2 is the stable version of GnuPG integrating support for OpenPGP and S/MIME.",
+  "download": "https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.5.21.tar.bz2",
+  "archive": "gnupg-2.5.21.tar.bz2",
+  "md5": "39311d55044c9548b5eb8f53466a86b5",
+  "size": "8.0 MB",
+  "disk_space": "181 MB (with tests)",
+  "build_time": "0.7 SBU (with tests; both using parallelism=4)",
+  "dependencies": [
+    "libassuan",
+    "libgcrypt",
+    "libksba",
+    "npth",
+    "openldap",
+    "gnutls",
+    "pinentry"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 5,
+  "group_order": 0
+}

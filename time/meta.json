@@ -1,0 +1,21 @@
+{
+  "name": "Time",
+  "version": "1.10",
+  "title": "Time-1.10",
+  "anchor": "time",
+  "page_type": "single",
+  "group": "general-utilities",
+  "chapter": "Chapter 11. General Utilities",
+  "summary": "The time utility is a program that measures many of the CPU resources, such as time and memory, that other programs use. The GNU version can format the output in arbitrary ways by using a printf-style format string to include various resource measurements.",
+  "download": "https://ftpmirror.gnu.org/time/time-1.10.tar.gz",
+  "archive": "time-1.10.tar.gz",
+  "md5": "ded256bf7d215594fb3b51d3d9d74e15",
+  "size": "832 KB",
+  "disk_space": "6.2 MB (with tests)",
+  "build_time": "0.1 SBU (with tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 222,
+  "group_order": 0
+}

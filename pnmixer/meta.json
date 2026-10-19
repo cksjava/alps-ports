@@ -1,0 +1,25 @@
+{
+  "name": "pnmixer",
+  "version": "0.7.2",
+  "title": "pnmixer-0.7.2",
+  "anchor": "pnmixer",
+  "page_type": "single",
+  "group": "audio-utilities",
+  "chapter": "Chapter 43. Audio Utilities",
+  "summary": "The Pnmixer package provides a lightweight volume control with a tray icon.",
+  "download": "https://github.com/nicklan/pnmixer/releases/download/v0.7.2/pnmixer-v0.7.2.tar.gz",
+  "archive": "pnmixer-v0.7.2.tar.gz",
+  "md5": "e9f17f56c50de39393030a96e343427b",
+  "size": "236 KB",
+  "disk_space": "2.5 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "alsa-utils",
+    "gtk3",
+    "libnotify"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1133,
+  "group_order": 0
+}

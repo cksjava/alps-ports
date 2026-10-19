@@ -1,0 +1,29 @@
+{
+  "name": "Wireshark",
+  "version": "4.6.8",
+  "title": "Wireshark-4.6.8",
+  "anchor": "wireshark",
+  "page_type": "single",
+  "group": "networking-utilities",
+  "chapter": "Chapter 16. Networking Utilities",
+  "summary": "The Wireshark package contains a network protocol analyzer, also known as a “sniffer.” This is useful for analyzing data captured “off the wire” from a live network connection, or data read from a capture file.",
+  "download": "https://www.wireshark.org/download/src/all-versions/wireshark-4.6.8.tar.xz",
+  "archive": "wireshark-4.6.8.tar.xz",
+  "md5": "6f14969d008712771c5d3feca305b6e3",
+  "size": "54 MB",
+  "disk_space": "1.1 GB (188 MB installed)",
+  "build_time": "2.5 SBU (with parallelism=4)",
+  "dependencies": [
+    "cmake",
+    "c-ares",
+    "glib",
+    "libgcrypt",
+    "qt",
+    "speex",
+    "libpcap"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 546,
+  "group_order": 0
+}

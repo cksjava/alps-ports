@@ -1,0 +1,23 @@
+{
+  "name": "Uchardet",
+  "version": "0.0.8",
+  "title": "Uchardet-0.0.8",
+  "anchor": "uchardet",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The Uchardet package contains an encoding detector library which takes a sequence of bytes in an unknown character encoding and attempts to determine the encoding of the text.",
+  "download": "https://www.freedesktop.org/software/uchardet/releases/uchardet-0.0.8.tar.xz",
+  "archive": "uchardet-0.0.8.tar.xz",
+  "md5": "9e267be7aee81417e5875086dd9d44fd",
+  "size": "217 KB",
+  "disk_space": "4.6 MB (with test)",
+  "build_time": "less than 0.1 SBU (with test)",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 150,
+  "group_order": 0
+}

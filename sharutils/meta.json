@@ -1,0 +1,21 @@
+{
+  "name": "Sharutils",
+  "version": "4.15.2",
+  "title": "Sharutils-4.15.2",
+  "anchor": "sharutils",
+  "page_type": "single",
+  "group": "general-utilities",
+  "chapter": "Chapter 11. General Utilities",
+  "summary": "The Sharutils package contains utilities that can create 'shell' archives.",
+  "download": "https://ftpmirror.gnu.org/sharutils/sharutils-4.15.2.tar.xz",
+  "archive": "sharutils-4.15.2.tar.xz",
+  "md5": "5975ce21da36491d7aa6dc2b0d9788e0",
+  "size": "1.1 MB",
+  "disk_space": "22 MB (with the test suite)",
+  "build_time": "0.4 SBU (with the test suite)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 220,
+  "group_order": 0
+}

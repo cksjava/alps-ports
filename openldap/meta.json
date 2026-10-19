@@ -1,0 +1,23 @@
+{
+  "name": "OpenLDAP",
+  "version": "2.7.0",
+  "title": "OpenLDAP-2.7.0",
+  "anchor": "openldap",
+  "page_type": "single",
+  "group": "other-server-software",
+  "chapter": "Chapter 23. Other Server Software",
+  "summary": "The OpenLDAP package provides an open source implementation of the Lightweight Directory Access Protocol.",
+  "download": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.7.0.tgz",
+  "archive": "openldap-2.7.0.tgz",
+  "md5": "fcb40191baba83c1f237d79f85835283",
+  "size": "6.2 MB",
+  "disk_space": "108 MB (client and server)",
+  "build_time": "0.3 SBU (client), 0.8 SBU (server)",
+  "dependencies": [
+    "cyrus-sasl"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 584,
+  "group_order": 0
+}

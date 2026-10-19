@@ -1,0 +1,24 @@
+{
+  "name": "Raptor",
+  "version": "2.0.16",
+  "title": "Raptor-2.0.16",
+  "anchor": "raptor",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "Raptor is a C library that provides a set of parsers and serializers that generate Resource Description Framework (RDF) triples.",
+  "download": "https://download.librdf.org/source/raptor2-2.0.16.tar.gz",
+  "archive": "raptor2-2.0.16.tar.gz",
+  "md5": "0a71f13b6eaa0a04bf411083d89d7bc2",
+  "size": "1.7 MB",
+  "disk_space": "25 MB (additional 2 MB for the tests)",
+  "build_time": "0.1 SBU (additional 0.3 SBU for the tests)",
+  "dependencies": [
+    "curl",
+    "libxslt"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 249,
+  "group_order": 0
+}

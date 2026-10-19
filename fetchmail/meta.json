@@ -1,0 +1,23 @@
+{
+  "name": "Fetchmail",
+  "version": "6.6.7",
+  "title": "Fetchmail-6.6.7",
+  "anchor": "fetchmail",
+  "page_type": "single",
+  "group": "mail-news-clients",
+  "chapter": "Chapter 19. Mail/News Clients",
+  "summary": "The Fetchmail package contains a mail retrieval program. It retrieves mail from remote mail servers and forwards it to the local (client) machine's delivery system, so it can then be read by normal mail user agents.",
+  "download": "https://downloads.sourceforge.net/fetchmail/fetchmail-6.6.7.tar.xz",
+  "archive": "fetchmail-6.6.7.tar.xz",
+  "md5": "432c6e42f5b670ec8e79ac2414bad66e",
+  "size": "1.1 MB",
+  "disk_space": "15 MB including tests",
+  "build_time": "0.1 SBU (including tests)",
+  "dependencies": [
+    "procmail"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 571,
+  "group_order": 0
+}

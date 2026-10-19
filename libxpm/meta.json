@@ -1,0 +1,25 @@
+{
+  "name": "libXpm",
+  "version": "3.5.19",
+  "title": "libXpm-3.5.19",
+  "anchor": "libxpm",
+  "page_type": "compound",
+  "group": "xorg-libraries",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The Xorg libraries provide library routines that are used within all X Window applications.",
+  "download": "https://www.x.org/pub/individual/lib/",
+  "archive": "libXpm-3.5.19.tar.xz",
+  "md5": "cdc7a83243dba674b1ea3c365a1deab1",
+  "size": "12 MB",
+  "disk_space": "274 MB (47 MB installed) - if source directories not deleted",
+  "build_time": "1.8 SBU",
+  "dependencies": [
+    "fontconfig",
+    "libxcb",
+    "dbus"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 600,
+  "group_order": 10
+}

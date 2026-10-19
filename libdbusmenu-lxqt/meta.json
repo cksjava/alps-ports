@@ -1,0 +1,23 @@
+{
+  "name": "libdbusmenu-lxqt",
+  "version": "0.4.0",
+  "title": "libdbusmenu-lxqt-0.4.0",
+  "anchor": "libdbusmenu-lxqt",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "The libdbusmenu-lxqt package provides a Qt implementation of the DBusMenu protocol.",
+  "download": "https://github.com/lxqt/libdbusmenu-lxqt/releases/download/0.4.0/libdbusmenu-lxqt-0.4.0.tar.xz",
+  "archive": "libdbusmenu-lxqt-0.4.0.tar.xz",
+  "md5": "f2aef1535a2ed37da8e5983d001ec194",
+  "size": "40 KB",
+  "disk_space": "8.5 MB",
+  "build_time": "0.2 SBU (Using parallelism=4)",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1010,
+  "group_order": 0
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Snapshot",
+  "version": "50.0",
+  "title": "Snapshot-50.0",
+  "anchor": "snapshot",
+  "page_type": "single",
+  "group": "gnome-applications",
+  "chapter": "Chapter 34. GNOME Applications",
+  "summary": "The Snapshot package contains a program that takes pictures and videos from a Webcam.",
+  "download": "https://download.gnome.org/sources/snapshot/50/snapshot-50.0.tar.xz",
+  "archive": "snapshot-50.0.tar.xz",
+  "md5": "e3f37e058449601e2813e91b486c307f",
+  "size": "7.9 MB",
+  "disk_space": "1.0 GB (5.6 MB installed)",
+  "build_time": "1.1 SBU (Using parallelism-4)",
+  "dependencies": [
+    "libadwaita",
+    "gst-plugins-bad",
+    "rustc",
+    "gst-plugins-rs",
+    "pipewire",
+    "xdg-desktop-portal-gnome",
+    "xdg-user-dirs"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 976,
+  "group_order": 0
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Module::Pluggable",
+  "version": "6.3",
+  "title": "Module::Pluggable-6.3",
+  "anchor": "perl-module-pluggable",
+  "page_type": "nested",
+  "group": "perl-module-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Module::Pluggable provides a way of having 'plugins' for your module.",
+  "download": "https://cpan.metacpan.org/authors/id/S/SI/SIMONW/Module-Pluggable-6.3.tar.gz",
+  "archive": "Module-Pluggable-6.3.tar.gz",
+  "md5": "442bb8838a2b7053aa276a41233b0607",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 387,
+  "group_order": 55
+}

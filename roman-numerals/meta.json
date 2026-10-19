@@ -1,0 +1,21 @@
+{
+  "name": "Roman-numerals",
+  "version": "4.1.0",
+  "title": "Roman-numerals-4.1.0",
+  "anchor": "roman-numerals",
+  "page_type": "nested",
+  "group": "python-dependencies",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Roman-numerals is a python library for manipulating well-formed Roman numerals.",
+  "download": "https://files.pythonhosted.org/packages/source/r/roman-numerals/roman_numerals-4.1.0.tar.gz",
+  "archive": "roman_numerals-4.1.0.tar.gz",
+  "md5": "0154d3518651ec46fb0ad1dfbdf86348",
+  "size": "12 KB",
+  "disk_space": "320 KB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 492,
+  "group_order": 23
+}

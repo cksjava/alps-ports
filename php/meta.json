@@ -1,0 +1,24 @@
+{
+  "name": "PHP",
+  "version": "8.5.9",
+  "title": "PHP-8.5.9",
+  "anchor": "php",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "PHP is the PHP Hypertext Preprocessor. Primarily used in dynamic web sites, it allows for programming code to be directly embedded into the HTML markup. It is also useful as a general purpose scripting language.",
+  "download": "https://www.php.net/distributions/php-8.5.9.tar.xz",
+  "archive": "php-8.5.9.tar.xz",
+  "md5": "26b8387c7c772c57c1f990369530b3d5",
+  "size": "14 MB",
+  "disk_space": "651 MB (with tests)",
+  "build_time": "1.6 SBU (add 2.5 SBU for tests; both with parallelism=4)",
+  "dependencies": [
+    "apache",
+    "libxml2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 432,
+  "group_order": 0
+}
