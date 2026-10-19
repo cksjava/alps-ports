@@ -14,8 +14,7 @@
   "disk_space": "97 MB",
   "build_time": "0.3 SBU",
   "dependencies": [
-    "libva",
-    "setting-up-the-xorg-build-environment"
+    "libva"
   ],
   "build_before": [],
   "build_after": [],

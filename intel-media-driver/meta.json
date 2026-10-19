@@ -16,8 +16,7 @@
   "dependencies": [
     "cmake",
     "gmmlib",
-    "libva",
-    "setting-up-the-xorg-build-environment"
+    "libva"
   ],
   "build_before": [],
   "build_after": [],

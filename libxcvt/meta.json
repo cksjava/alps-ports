@@ -13,9 +13,7 @@
   "size": "12 KB",
   "disk_space": "440 KB",
   "build_time": "less than 0.1 SBU",
-  "dependencies": [
-    "setting-up-the-xorg-build-environment"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
   "order": 623,
