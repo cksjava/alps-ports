@@ -1,0 +1,28 @@
+{
+  "name": "xcb-utilities",
+  "version": "",
+  "title": "XCB Utilities",
+  "anchor": "xcb-utilities",
+  "page_type": "meta",
+  "group": "xcb-utilities",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "Packages from the XCB Utilities page, in the order the book builds them.",
+  "download": "",
+  "archive": "",
+  "md5": "",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "xcb-util-image",
+    "xcb-util-keysyms",
+    "xcb-util-renderutil",
+    "xcb-util-wm",
+    "xcb-util-cursor",
+    "xcb-util-errors"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 0,
+  "group_order": 0
+}

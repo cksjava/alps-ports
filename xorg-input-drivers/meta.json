@@ -1,0 +1,28 @@
+{
+  "name": "xorg-input-drivers",
+  "version": "",
+  "title": "Xorg Input Drivers",
+  "anchor": "xorg7-input-driver",
+  "page_type": "meta",
+  "group": "xorg-input-drivers",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "Packages from the Xorg Input Drivers page, in the order the book builds them.",
+  "download": "",
+  "archive": "",
+  "md5": "",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "libevdev",
+    "xorg-evdev-driver",
+    "libinput",
+    "xorg-libinput-driver",
+    "xorg-synaptics-driver",
+    "xorg-wacom-driver"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 0,
+  "group_order": 0
+}

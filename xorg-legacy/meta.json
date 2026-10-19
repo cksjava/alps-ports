@@ -1,0 +1,29 @@
+{
+  "name": "xorg-legacy",
+  "version": "",
+  "title": "Xorg Legacy",
+  "anchor": "xorg7-legacy",
+  "page_type": "meta",
+  "group": "xorg-legacy",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "Packages from the Xorg Legacy page, in the order the book builds them.",
+  "download": "",
+  "archive": "",
+  "md5": "",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "bdftopcf",
+    "font-adobe-100dpi",
+    "font-adobe-75dpi",
+    "font-jis-misc",
+    "font-daewoo-misc",
+    "font-isas-misc",
+    "font-misc-misc"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 0,
+  "group_order": 0
+}
