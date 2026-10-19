@@ -1175,3 +1175,8 @@ blfs asymptote
 blfs biber
 blfs dvisvgm
 blfs xindy
+blfs xserver
+blfs kde-desktop-environment
+blfs gnome-desktop-environment
+blfs xfce-desktop-environment
+blfs lxqt-desktop-environment
