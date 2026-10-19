@@ -18,8 +18,7 @@
     "cargo-c",
     "pango",
     "gdk-pixbuf",
-    "glib",
-    "vala"
+    "glib"
   ],
   "build_before": [
     "make-ca"

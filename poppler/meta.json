@@ -26,8 +26,7 @@
     "tiff",
     "nss",
     "openjpeg",
-    "qt",
-    "okular"
+    "qt"
   ],
   "build_before": [],
   "build_after": [],

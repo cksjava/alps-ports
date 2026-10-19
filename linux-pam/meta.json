@@ -13,11 +13,7 @@
   "size": "500 KB",
   "disk_space": "16 MB (with tests)",
   "build_time": "0.3 SBU (with tests)",
-  "dependencies": [
-    "shadow",
-    "systemd",
-    "libpwquality"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [
     "shadow",

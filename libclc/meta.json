@@ -15,8 +15,7 @@
   "build_time": "0.6 SBU (with parallelism=8)",
   "dependencies": [
     "llvm",
-    "spirv-llvm-translator",
-    "mesa"
+    "spirv-llvm-translator"
   ],
   "build_before": [],
   "build_after": [],

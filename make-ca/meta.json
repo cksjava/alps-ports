@@ -14,7 +14,6 @@
   "disk_space": "164 KB (with all runtime deps)",
   "build_time": "less than 0.1 SBU (with all runtime deps)",
   "dependencies": [
-    "p11-kit",
     "libtasn1"
   ],
   "build_before": [],

@@ -19,8 +19,7 @@
     "gst-plugins-base",
     "pulseaudio",
     "sbc",
-    "v4l-utils",
-    "wireplumber"
+    "v4l-utils"
   ],
   "build_before": [],
   "build_after": [

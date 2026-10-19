@@ -22,7 +22,6 @@
     "pdfio",
     "poppler",
     "qpdf",
-    "dejavu-fonts",
     "libexif",
     "libjpeg-turbo",
     "libpng",

@@ -17,8 +17,6 @@
     "freetype",
     "glib",
     "graphite2",
-    "texlive-source",
-    "libreoffice",
     "icu"
   ],
   "build_before": [

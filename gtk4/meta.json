@@ -23,7 +23,6 @@
     "pango",
     "pygobject",
     "wayland-protocols",
-    "adwaita-icon-theme",
     "gst-plugins-bad",
     "glslc-from-shaderc",
     "gst-plugins-good",
@@ -31,7 +30,6 @@
     "hicolor-icon-theme",
     "vulkan-loader",
     "xdg-desktop-portal",
-    "xdg-desktop-portal-gnome",
     "glib"
   ],
   "build_before": [],

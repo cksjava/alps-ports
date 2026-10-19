@@ -16,8 +16,7 @@
   "dependencies": [
     "encode-eucjpascii",
     "encode-hanextra",
-    "encode-jis2k",
-    "biber"
+    "encode-jis2k"
   ],
   "build_before": [],
   "build_after": [],

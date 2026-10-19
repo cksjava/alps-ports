@@ -14,13 +14,10 @@
   "disk_space": "51 MB (with additional documentation)",
   "build_time": "0.2 SBU (with additional documentation)",
   "dependencies": [
-    "harfbuzz",
     "libpng"
   ],
   "build_before": [],
-  "build_after": [
-    "harfbuzz"
-  ],
+  "build_after": [],
   "order": 161,
   "group_order": 0
 }

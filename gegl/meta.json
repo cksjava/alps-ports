@@ -17,7 +17,6 @@
     "babl",
     "json-glib",
     "glib",
-    "graphviz",
     "pygments",
     "pygobject"
   ],

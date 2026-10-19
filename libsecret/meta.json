@@ -15,7 +15,6 @@
   "build_time": "0.3 SBU (with tests)",
   "dependencies": [
     "glib",
-    "gnome-keyring",
     "libgcrypt",
     "gnutls",
     "vala"

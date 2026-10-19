@@ -18,8 +18,7 @@
     "vala",
     "glib",
     "icu",
-    "libsoup",
-    "localsearch"
+    "libsoup"
   ],
   "build_before": [],
   "build_after": [],

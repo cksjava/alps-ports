@@ -16,8 +16,7 @@
   "dependencies": [
     "glib",
     "shared-mime-info",
-    "docutils",
-    "glycin"
+    "docutils"
   ],
   "build_before": [],
   "build_after": [

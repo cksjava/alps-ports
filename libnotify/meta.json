@@ -16,7 +16,6 @@
   "dependencies": [
     "gdk-pixbuf",
     "notification-daemon",
-    "xfce4-notifyd",
     "lxqt-notificationd",
     "gtk4"
   ],

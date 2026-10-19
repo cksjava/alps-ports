@@ -16,8 +16,7 @@
   "dependencies": [
     "libxau",
     "xcb-proto",
-    "libxdmcp",
-    "mesa"
+    "libxdmcp"
   ],
   "build_before": [],
   "build_after": [],

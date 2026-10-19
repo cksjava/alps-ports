@@ -18,7 +18,6 @@
     "gdk-pixbuf",
     "libepoxy",
     "pango",
-    "adwaita-icon-theme",
     "docbook-xsl-nons",
     "hicolor-icon-theme",
     "iso-codes",

@@ -17,8 +17,7 @@
     "cmake",
     "vulkan-headers",
     "xorg-libraries",
-    "wayland",
-    "mesa"
+    "wayland"
   ],
   "build_before": [],
   "build_after": [

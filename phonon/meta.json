@@ -17,8 +17,7 @@
     "cmake",
     "extra-cmake-modules",
     "glib",
-    "qt",
-    "phonon-backend-vlc"
+    "qt"
   ],
   "build_before": [],
   "build_after": [],

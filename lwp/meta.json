@@ -22,7 +22,6 @@
     "html-parser",
     "net-http",
     "try-tiny",
-    "www-robotrules",
     "test-fatal",
     "test-needs",
     "test-requiresinternet"

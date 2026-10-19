@@ -14,8 +14,7 @@
   "disk_space": "",
   "build_time": "",
   "dependencies": [
-    "text-csv-xs",
-    "biber"
+    "text-csv-xs"
   ],
   "build_before": [],
   "build_after": [],

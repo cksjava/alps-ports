@@ -15,7 +15,6 @@
   "build_time": "",
   "dependencies": [
     "datetime-locale",
-    "datetime-timezone",
     "cpan-meta-check",
     "test-fatal",
     "test-warnings",

@@ -16,7 +16,6 @@
   "dependencies": [
     "duktape",
     "glib",
-    "systemd",
     "libxslt",
     "linux-pam"
   ],
