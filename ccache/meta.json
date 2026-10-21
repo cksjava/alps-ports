@@ -1,0 +1,27 @@
+{
+  "name": "ccache",
+  "version": "4.14.2",
+  "title": "ccache-4.14.2",
+  "anchor": "ccache",
+  "page_type": "static",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Ccache speeds up recompilation by reusing previous compilation results. It is not part of BLFS. Compiler links are installed in /usr/lib/ccache; put that directory ahead of /usr/bin on PATH to use them.",
+  "download": [
+    "https://github.com/ccache/ccache/releases/download/v4.14.2/ccache-4.14.2.tar.xz",
+    "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz",
+    "https://github.com/Cyan4973/xxHash/archive/refs/tags/v0.8.3.tar.gz"
+  ],
+  "archive": "ccache-4.14.2.tar.xz",
+  "md5": "eced2d4f0d00012d56499a4be104e9b8",
+  "size": "545 KB",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1202,
+  "group_order": 0
+}
