@@ -24,7 +24,15 @@
     "libei",
     "libxcvt",
     "libxkbcommon",
-    "pipewire"
+    "pipewire",
+    "desktop-file-utils",
+    "glib2",
+    "libdisplay-info",
+    "startup-notification",
+    "libinput",
+    "wayland",
+    "wayland-protocols",
+    "xwayland"
   ],
   "build_before": [],
   "build_after": [],

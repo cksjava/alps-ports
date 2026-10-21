@@ -20,7 +20,8 @@
     "gst10-plugins-base",
     "rust",
     "dav1d",
-    "gtk4"
+    "gtk4",
+    "make-ca"
   ],
   "build_before": [],
   "build_after": [],

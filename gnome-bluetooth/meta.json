@@ -19,7 +19,9 @@
     "gsound",
     "gtk4",
     "libnotify",
-    "upower"
+    "upower",
+    "glib2",
+    "libadwaita"
   ],
   "build_before": [],
   "build_after": [],

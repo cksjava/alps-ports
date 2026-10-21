@@ -19,7 +19,11 @@
     "audiofile",
     "fftw",
     "id3lib",
-    "frameworks6"
+    "frameworks6",
+    "alsa-lib",
+    "flac",
+    "libogg",
+    "pulseaudio"
   ],
   "build_before": [],
   "build_after": [],

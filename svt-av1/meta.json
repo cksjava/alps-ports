@@ -16,7 +16,8 @@
   "disk_space": "79 MB (add 668 MB for tests)",
   "build_time": "0.7 SBU (using parallelism=4; add 31 SBU for tests)",
   "dependencies": [
-    "cmake"
+    "cmake",
+    "nasm"
   ],
   "build_before": [],
   "build_after": [],

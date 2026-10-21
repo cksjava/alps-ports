@@ -18,7 +18,8 @@
   "dependencies": [
     "appstream",
     "gtk4",
-    "sassc"
+    "sassc",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

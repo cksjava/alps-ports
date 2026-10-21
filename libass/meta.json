@@ -17,7 +17,9 @@
   "build_time": "0.1 SBU",
   "dependencies": [
     "freetype2",
-    "fribidi"
+    "fribidi",
+    "fontconfig",
+    "nasm"
   ],
   "build_before": [],
   "build_after": [],

@@ -16,7 +16,9 @@
   "size": "1.1 MB",
   "disk_space": "82 MB (with tests and docs)",
   "build_time": "0.3 SBU (with tests and docs)",
-  "dependencies": [],
+  "dependencies": [
+    "systemd"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 1083,

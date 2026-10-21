@@ -20,7 +20,8 @@
     "perl-file-copy-recursive",
     "perl-file-sharedir",
     "perl-path-tiny",
-    "perl-scope-guard"
+    "perl-scope-guard",
+    "perl-test-fatal"
   ],
   "build_before": [],
   "build_after": [],

@@ -19,7 +19,8 @@
     "exiv2",
     "kimageannotator",
     "frameworks6",
-    "lcms2"
+    "lcms2",
+    "libkdcraw"
   ],
   "build_before": [],
   "build_after": [],

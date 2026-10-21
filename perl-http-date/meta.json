@@ -15,7 +15,9 @@
   "size": "",
   "disk_space": "",
   "build_time": "",
-  "dependencies": [],
+  "dependencies": [
+    "perl-timedate"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 376,

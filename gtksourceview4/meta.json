@@ -16,7 +16,9 @@
   "disk_space": "71 MB (with tests)",
   "build_time": "0.1 SBU (with tests; both using parallelism=4)",
   "dependencies": [
-    "gtk3"
+    "gtk3",
+    "glib2",
+    "libxml2"
   ],
   "build_before": [],
   "build_after": [],

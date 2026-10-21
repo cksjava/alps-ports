@@ -17,7 +17,10 @@
   "build_time": "less than 0.1 SBU (using parallelism=4)",
   "dependencies": [
     "gtk3",
-    "poppler"
+    "poppler",
+    "cups",
+    "desktop-file-utils",
+    "hicolor-icon-theme"
   ],
   "build_before": [],
   "build_after": [],

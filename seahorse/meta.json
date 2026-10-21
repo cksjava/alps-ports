@@ -24,6 +24,8 @@
     "libpwquality",
     "libsecret",
     "vala",
+    "libsoup3",
+    "openssh",
     "gnome-keyring"
   ],
   "build_before": [],

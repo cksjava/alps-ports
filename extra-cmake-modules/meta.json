@@ -16,7 +16,8 @@
   "disk_space": "11 MB",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "cmake"
+    "cmake",
+    "qt6"
   ],
   "build_before": [],
   "build_after": [],

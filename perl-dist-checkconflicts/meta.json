@@ -16,7 +16,8 @@
   "disk_space": "",
   "build_time": "",
   "dependencies": [
-    "perl-module-runtime"
+    "perl-module-runtime",
+    "perl-test-fatal"
   ],
   "build_before": [],
   "build_after": [],

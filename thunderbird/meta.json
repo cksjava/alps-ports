@@ -22,8 +22,15 @@
     "llvm",
     "nodejs",
     "pulseaudio",
-    "alsa-lib",
-    "startup-notification"
+    "startup-notification",
+    "dav1d",
+    "libaom",
+    "libevent",
+    "libvpx",
+    "libwebp",
+    "nasm",
+    "nspr",
+    "nss"
   ],
   "build_before": [],
   "build_after": [],

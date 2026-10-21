@@ -18,6 +18,8 @@
   "dependencies": [
     "duktape",
     "glib2",
+    "libxslt",
+    "linux-pam",
     "systemd"
   ],
   "build_before": [],

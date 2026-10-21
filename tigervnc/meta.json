@@ -25,10 +25,10 @@
     "libjpeg",
     "pixman",
     "systemd",
-    "linux-pam",
     "x7app",
     "xinit",
-    "x7legacy"
+    "x7legacy",
+    "imagemagick"
   ],
   "build_before": [],
   "build_after": [],

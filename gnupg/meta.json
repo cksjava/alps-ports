@@ -20,7 +20,9 @@
     "libgcrypt",
     "libksba",
     "npth",
-    "openldap"
+    "openldap",
+    "gnutls",
+    "pinentry"
   ],
   "build_before": [],
   "build_after": [],

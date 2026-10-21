@@ -23,7 +23,10 @@
     "perl-module-runtime",
     "perl-role-tiny",
     "perl-sub-quote",
-    "perl-try-tiny"
+    "perl-try-tiny",
+    "perl-mro-compat",
+    "perl-test-fatal",
+    "perl-test-needs"
   ],
   "build_before": [],
   "build_after": [],

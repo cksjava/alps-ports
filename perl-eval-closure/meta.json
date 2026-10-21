@@ -15,7 +15,10 @@
   "size": "",
   "disk_space": "",
   "build_time": "",
-  "dependencies": [],
+  "dependencies": [
+    "perl-test-fatal",
+    "perl-test-requires"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 359,

@@ -33,7 +33,9 @@
     "samba",
     "shared-mime-info",
     "tecla",
-    "udisks2"
+    "udisks2",
+    "bolt",
+    "ibus"
   ],
   "build_before": [],
   "build_after": [],

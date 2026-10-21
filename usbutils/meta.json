@@ -16,7 +16,8 @@
   "disk_space": "1.9 MB",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "libusb"
+    "libusb",
+    "hwdata"
   ],
   "build_before": [],
   "build_after": [],

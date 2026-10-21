@@ -23,7 +23,8 @@
     "pipewire",
     "wayland",
     "wayland-protocols",
-    "xdg-desktop-portal"
+    "xdg-desktop-portal",
+    "xdg-desktop-portal-gtk"
   ],
   "build_before": [],
   "build_after": [],

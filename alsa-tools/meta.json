@@ -16,7 +16,10 @@
   "disk_space": "25 MB",
   "build_time": "0.2 SBU",
   "dependencies": [
-    "alsa-lib"
+    "alsa-lib",
+    "gtk3",
+    "gtk4",
+    "fltk"
   ],
   "build_before": [],
   "build_after": [],

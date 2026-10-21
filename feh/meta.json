@@ -18,7 +18,7 @@
   "dependencies": [
     "libpng",
     "imlib2",
-    "giflib"
+    "curl"
   ],
   "build_before": [],
   "build_after": [],

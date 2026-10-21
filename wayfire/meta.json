@@ -30,7 +30,9 @@
     "pixman",
     "wayland",
     "wayland-protocols",
-    "wlroots"
+    "wlroots",
+    "x7lib",
+    "yyjson"
   ],
   "build_before": [],
   "build_after": [],

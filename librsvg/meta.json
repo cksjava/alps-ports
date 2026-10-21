@@ -18,7 +18,11 @@
   "dependencies": [
     "cairo",
     "cargo-c",
-    "pango"
+    "pango",
+    "make-ca",
+    "gdk-pixbuf",
+    "glib2",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

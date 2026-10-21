@@ -22,7 +22,8 @@
     "installing",
     "ffmpeg",
     "alsa-lib",
-    "pulseaudio"
+    "pulseaudio",
+    "libdvdnav"
   ],
   "build_before": [],
   "build_after": [],

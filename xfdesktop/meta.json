@@ -18,7 +18,10 @@
   "dependencies": [
     "exo",
     "libxfce4windowing",
-    "libwnck"
+    "libwnck",
+    "libnotify",
+    "startup-notification",
+    "thunar"
   ],
   "build_before": [],
   "build_after": [],

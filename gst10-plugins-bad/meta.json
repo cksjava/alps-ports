@@ -16,7 +16,13 @@
   "disk_space": "314 MB (with tests)",
   "build_time": "0.7 SBU (Using parallelism=4; with tests)",
   "dependencies": [
-    "gst10-plugins-base"
+    "gst10-plugins-base",
+    "libaom",
+    "libdvdread",
+    "libdvdnav",
+    "libva",
+    "svt-av1",
+    "soundtouch"
   ],
   "build_before": [],
   "build_after": [],

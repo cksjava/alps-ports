@@ -17,7 +17,16 @@
   "size": "796 KB",
   "disk_space": "1.1 GB (with fonts and libgs.so)",
   "build_time": "1.9 SBU (Using parallelism=4; with libgs.so)",
-  "dependencies": [],
+  "dependencies": [
+    "cups",
+    "fontconfig",
+    "freetype2",
+    "lcms2",
+    "libjpeg",
+    "libpng",
+    "tiff",
+    "openjpeg2"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 1167,

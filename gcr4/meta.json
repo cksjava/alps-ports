@@ -18,7 +18,12 @@
   "dependencies": [
     "glib2",
     "libgcrypt",
-    "p11-kit"
+    "p11-kit",
+    "gnupg",
+    "gtk4",
+    "libsecret",
+    "libxslt",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

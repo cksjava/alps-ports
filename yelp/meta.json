@@ -19,7 +19,8 @@
     "gsettings-desktop-schemas",
     "libadwaita",
     "webkitgtk",
-    "yelp-xsl"
+    "yelp-xsl",
+    "desktop-file-utils"
   ],
   "build_before": [],
   "build_after": [],

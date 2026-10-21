@@ -16,7 +16,8 @@
   "disk_space": "4.0 MB",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "libnl"
+    "libnl",
+    "wireless-kernel"
   ],
   "build_before": [],
   "build_after": [],

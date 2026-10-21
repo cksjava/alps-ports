@@ -16,7 +16,8 @@
   "disk_space": "20 MB (with tests)",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "pyproject-metadata"
+    "pyproject-metadata",
+    "patchelf"
   ],
   "build_before": [],
   "build_after": [],

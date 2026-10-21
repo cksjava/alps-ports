@@ -17,7 +17,11 @@
   "build_time": "",
   "dependencies": [
     "perl-datetime-locale",
-    "perl-datetime-timezone"
+    "perl-datetime-timezone",
+    "perl-cpan-meta-check",
+    "perl-test-fatal",
+    "perl-test-warnings",
+    "perl-test-without-module"
   ],
   "build_before": [],
   "build_after": [],

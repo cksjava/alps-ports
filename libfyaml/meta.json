@@ -15,7 +15,9 @@
   "size": "1.1 MB",
   "disk_space": "280 MB (with tests)",
   "build_time": "0.4 SBU (add 1.8 SBU for tests)",
-  "dependencies": [],
+  "dependencies": [
+    "libyaml"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 131,

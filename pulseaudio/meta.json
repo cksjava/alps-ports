@@ -16,7 +16,13 @@
   "disk_space": "42 MB (with tests)",
   "build_time": "0.2 SBU (Using parallelism=4; add 0.2 SBU for tests)",
   "dependencies": [
-    "libsndfile"
+    "libsndfile",
+    "alsa-lib",
+    "dbus",
+    "glib2",
+    "speex",
+    "perl-xml-parser",
+    "x7lib"
   ],
   "build_before": [],
   "build_after": [],

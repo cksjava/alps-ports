@@ -18,7 +18,8 @@
   "dependencies": [
     "lxqt-session",
     "lxqt-layer-shell-qt",
-    "qtxdg-tools"
+    "qtxdg-tools",
+    "wayfire"
   ],
   "build_before": [],
   "build_after": [],

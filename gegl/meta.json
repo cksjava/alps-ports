@@ -17,7 +17,11 @@
   "build_time": "0.9 SBU (with tests, both with parallelism=4)",
   "dependencies": [
     "babl",
-    "json-glib"
+    "json-glib",
+    "glib2",
+    "graphviz",
+    "pygments",
+    "pygobject3"
   ],
   "build_before": [],
   "build_after": [],

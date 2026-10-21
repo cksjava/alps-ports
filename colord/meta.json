@@ -21,7 +21,9 @@
     "lcms2",
     "libgudev",
     "libgusb",
-    "polkit"
+    "polkit",
+    "systemd",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

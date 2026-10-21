@@ -17,7 +17,9 @@
   "build_time": "0.2 SBU (Using parallelism=4)",
   "dependencies": [
     "exo",
-    "hicolor-icon-theme"
+    "hicolor-icon-theme",
+    "libgudev",
+    "libnotify"
   ],
   "build_before": [],
   "build_after": [],

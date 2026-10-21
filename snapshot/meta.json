@@ -19,7 +19,6 @@
     "libadwaita",
     "gst10-plugins-bad",
     "rust",
-    "gst-plugins-rs",
     "pipewire",
     "xdg-desktop-portal-gnome",
     "xdg-user-dirs"

@@ -19,7 +19,9 @@
   "dependencies": [
     "charset-normalizer",
     "idna",
-    "urllib3"
+    "urllib3",
+    "make-ca",
+    "p11-kit"
   ],
   "build_before": [],
   "build_after": [],

@@ -17,7 +17,9 @@
   "build_time": "",
   "dependencies": [
     "perl-module-build",
-    "perl-module-implementation"
+    "perl-module-implementation",
+    "perl-test-fatal",
+    "perl-test-requires"
   ],
   "build_before": [],
   "build_after": [],

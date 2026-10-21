@@ -20,7 +20,9 @@
     "libevdev",
     "wayfire",
     "wayland",
-    "wayland-protocols"
+    "wayland-protocols",
+    "boost",
+    "glibmm"
   ],
   "build_before": [],
   "build_after": [],

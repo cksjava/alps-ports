@@ -22,7 +22,10 @@
     "intltool",
     "itstool",
     "linux-pam",
-    "xorg-server"
+    "xorg-server",
+    "glib2",
+    "libxklavier",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

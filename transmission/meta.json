@@ -16,7 +16,12 @@
   "disk_space": "302 MB (with both GUI interfaces)",
   "build_time": "2.3 SBU (with both GUI interfaces; using parallelism=4)",
   "dependencies": [
-    "curl"
+    "curl",
+    "libevent",
+    "libpsl",
+    "librsvg",
+    "gtkmm4",
+    "qt6"
   ],
   "build_before": [],
   "build_after": [],

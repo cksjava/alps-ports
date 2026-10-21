@@ -16,7 +16,10 @@
   "disk_space": "",
   "build_time": "",
   "dependencies": [
-    "perl-http-date"
+    "perl-http-date",
+    "perl-test-deep",
+    "perl-test-requires",
+    "perl-uri"
   ],
   "build_before": [],
   "build_after": [],

@@ -16,7 +16,10 @@
   "disk_space": "",
   "build_time": "",
   "dependencies": [
-    "perl-mime-base32"
+    "perl-mime-base32",
+    "perl-test-fatal",
+    "perl-test-needs",
+    "perl-test-warnings"
   ],
   "build_before": [],
   "build_after": [],

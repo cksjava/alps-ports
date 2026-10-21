@@ -18,7 +18,8 @@
   "dependencies": [
     "json-glib",
     "libsoup3",
-    "make-ca"
+    "make-ca",
+    "glib2"
   ],
   "build_before": [],
   "build_after": [],

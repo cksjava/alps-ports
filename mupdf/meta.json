@@ -17,6 +17,12 @@
   "build_time": "0.2 SBU (Using parallelism=4)",
   "dependencies": [
     "x7lib",
+    "brotli",
+    "freeglut",
+    "harfbuzz",
+    "libjpeg",
+    "openjpeg2",
+    "curl",
     "installing"
   ],
   "build_before": [],

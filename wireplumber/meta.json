@@ -19,7 +19,7 @@
     "glib2",
     "pipewire",
     "systemd",
-    "linux-pam"
+    "lua"
   ],
   "build_before": [],
   "build_after": [],

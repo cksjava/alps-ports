@@ -17,7 +17,9 @@
   "build_time": "",
   "dependencies": [
     "perl-exception-class",
-    "perl-specio"
+    "perl-specio",
+    "perl-test-without-module",
+    "perl-test2-plugin-nowarnings"
   ],
   "build_before": [],
   "build_after": [],

@@ -19,7 +19,9 @@
     "gcr",
     "gtk3",
     "iso-codes",
-    "networkmanager"
+    "networkmanager",
+    "gtk4",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

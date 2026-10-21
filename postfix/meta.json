@@ -15,7 +15,11 @@
   "size": "5.1 MB",
   "disk_space": "245 MB (66 MB installed)",
   "build_time": "0.2 SBU (Using parallelism=4)",
-  "dependencies": [],
+  "dependencies": [
+    "cyrus-sasl",
+    "libnsl",
+    "lmdb"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 584,

@@ -21,7 +21,9 @@
     "perl-http-date",
     "perl-io-html",
     "perl-lwp-mediatypes",
-    "perl-uri"
+    "perl-uri",
+    "perl-test-needs",
+    "perl-try-tiny"
   ],
   "build_before": [],
   "build_after": [],

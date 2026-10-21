@@ -17,7 +17,8 @@
   "build_time": "0.1 SBU (with tests)",
   "dependencies": [
     "dbus-python",
-    "pygobject3"
+    "pygobject3",
+    "at-spi2-core"
   ],
   "build_before": [],
   "build_after": [],

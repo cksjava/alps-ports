@@ -17,7 +17,9 @@
   "build_time": "0.2 SBU (with tests)",
   "dependencies": [
     "glib2",
-    "shared-mime-info"
+    "shared-mime-info",
+    "docutils",
+    "glycin"
   ],
   "build_before": [],
   "build_after": [],

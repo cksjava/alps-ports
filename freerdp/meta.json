@@ -18,7 +18,15 @@
   "dependencies": [
     "ffmpeg",
     "icu",
-    "x7lib"
+    "x7lib",
+    "cairo",
+    "docbook-xsl",
+    "fuse",
+    "json-c",
+    "mitkrb",
+    "libusb",
+    "libxkbcommon",
+    "wayland"
   ],
   "build_before": [],
   "build_after": [],

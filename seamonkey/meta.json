@@ -21,7 +21,15 @@
     "libarchive",
     "python311",
     "nasm",
-    "zip"
+    "zip",
+    "dbus-glib",
+    "icu",
+    "libevent",
+    "libwebp",
+    "llvm",
+    "nspr",
+    "nss",
+    "pulseaudio"
   ],
   "build_before": [],
   "build_after": [],

@@ -27,7 +27,13 @@
     "libnotify",
     "libwacom",
     "pulseaudio",
-    "upower"
+    "upower",
+    "colord",
+    "cups",
+    "networkmanager",
+    "ModemManager",
+    "nss",
+    "wayland"
   ],
   "build_before": [],
   "build_after": [],

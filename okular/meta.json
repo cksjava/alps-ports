@@ -17,7 +17,11 @@
   "build_time": "0.9 SBU (using parallelism=4)",
   "dependencies": [
     "frameworks6",
-    "plasma-activities"
+    "plasma-activities",
+    "libkexiv2",
+    "tiff",
+    "phonon",
+    "poppler"
   ],
   "build_before": [],
   "build_after": [],

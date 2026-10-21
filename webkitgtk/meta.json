@@ -33,7 +33,16 @@
     "openjpeg2",
     "ruby",
     "unifdef",
-    "which"
+    "which",
+    "bubblewrap",
+    "enchant",
+    "geoclue2",
+    "glib2",
+    "hicolor-icon-theme",
+    "libavif",
+    "libjxl",
+    "libseccomp",
+    "xdg-dbus-proxy"
   ],
   "build_before": [],
   "build_after": [],

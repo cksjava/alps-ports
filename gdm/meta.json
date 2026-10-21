@@ -19,7 +19,6 @@
     "accountsservice",
     "dconf",
     "libcanberra",
-    "gtk3",
     "linux-pam",
     "gnome-session",
     "gnome-shell",

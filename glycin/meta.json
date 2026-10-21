@@ -22,7 +22,12 @@
     "glib2",
     "lcms2",
     "libseccomp",
-    "rust"
+    "rust",
+    "make-ca",
+    "libheif",
+    "libjxl",
+    "librsvg",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

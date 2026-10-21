@@ -17,7 +17,10 @@
   "size": "7.8 MB",
   "disk_space": "403 MB (with tests and downloaded documentation; add 22 MB for building docs)",
   "build_time": "0.4 SBU (add 2.0 SBU for tests (disk speed dependent) and 1.0 SBU for building docs (all with parallelism=4)",
-  "dependencies": [],
+  "dependencies": [
+    "curl",
+    "rust"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 279,

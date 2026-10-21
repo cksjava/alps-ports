@@ -19,7 +19,10 @@
   "dependencies": [
     "openjade",
     "docbook-dsssl",
-    "docbook-3.1-dtd"
+    "docbook-3.1-dtd",
+    "perl-sgmlspm",
+    "lynx",
+    "links"
   ],
   "build_before": [],
   "build_after": [],

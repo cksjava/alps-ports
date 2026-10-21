@@ -17,7 +17,8 @@
   "build_time": "",
   "dependencies": [
     "make-ca",
-    "perl-net-ssleay"
+    "perl-net-ssleay",
+    "perl-uri"
   ],
   "build_before": [],
   "build_after": [],

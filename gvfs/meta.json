@@ -20,7 +20,13 @@
     "glib2",
     "gcr4",
     "libusb",
-    "libsecret"
+    "libsecret",
+    "gtk3",
+    "libcdio",
+    "libgudev",
+    "libsoup3",
+    "systemd",
+    "udisks2"
   ],
   "build_before": [],
   "build_after": [],

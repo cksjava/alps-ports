@@ -18,7 +18,11 @@
   "build_time": "0.4 SBU (Using parallelism=4; with GTK support)",
   "dependencies": [
     "gtk3",
-    "qt6"
+    "qt6",
+    "libarchive",
+    "mpg123",
+    "ffmpeg",
+    "neon"
   ],
   "build_before": [],
   "build_after": [],

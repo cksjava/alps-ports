@@ -18,7 +18,8 @@
   "dependencies": [
     "gtk4",
     "libsoup3",
-    "protobuf-c"
+    "protobuf-c",
+    "glib2"
   ],
   "build_before": [],
   "build_after": [],

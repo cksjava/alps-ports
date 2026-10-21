@@ -16,7 +16,16 @@
   "disk_space": "130 MB (with tests)",
   "build_time": "0.6 SBU (Using parallelism=4; with tests)",
   "dependencies": [
-    "gst10-plugins-base"
+    "gst10-plugins-base",
+    "cairo",
+    "flac",
+    "gdk-pixbuf",
+    "lame",
+    "libsoup3",
+    "libvpx",
+    "mpg123",
+    "nasm",
+    "pulseaudio"
   ],
   "build_before": [],
   "build_after": [],

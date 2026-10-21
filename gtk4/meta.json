@@ -24,7 +24,15 @@
     "libxkbcommon",
     "pango",
     "pygobject3",
-    "wayland-protocols"
+    "wayland-protocols",
+    "adwaita-icon-theme",
+    "gst10-plugins-bad",
+    "glslc",
+    "gst10-plugins-good",
+    "hicolor-icon-theme",
+    "vulkan-loader",
+    "xdg-desktop-portal",
+    "glib2"
   ],
   "build_before": [],
   "build_after": [],

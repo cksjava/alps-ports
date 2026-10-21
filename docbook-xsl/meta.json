@@ -17,7 +17,9 @@
   "size": "522 KB",
   "disk_space": "58 MB (includes installing optional documentation)",
   "build_time": "less than 0.1 SBU",
-  "dependencies": [],
+  "dependencies": [
+    "libxml2"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 1182,

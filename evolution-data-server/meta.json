@@ -18,7 +18,16 @@
   "dependencies": [
     "libical",
     "libsecret",
-    "nss"
+    "nss",
+    "gnome-online-accounts",
+    "glib2",
+    "gtk3",
+    "gtk4",
+    "icu",
+    "libcanberra",
+    "libgweather",
+    "vala",
+    "webkitgtk"
   ],
   "build_before": [],
   "build_after": [],

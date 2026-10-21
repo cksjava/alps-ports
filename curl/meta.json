@@ -15,7 +15,11 @@
   "size": "2.8 MB",
   "disk_space": "51 64 MB (with tests)",
   "build_time": "0.3 SBU (add 4.1 SBU for tests (without valgrind, add 17 SBU with valgrind) all using parallelism=4)",
-  "dependencies": [],
+  "dependencies": [
+    "libpsl",
+    "nghttp2",
+    "make-ca"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 551,

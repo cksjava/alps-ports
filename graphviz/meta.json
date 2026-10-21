@@ -16,7 +16,13 @@
   "disk_space": "198 MB (6.8 MB installed)",
   "build_time": "0.3 SBU (using parallelism=4)",
   "dependencies": [
-    "cmake"
+    "cmake",
+    "pango",
+    "cairo",
+    "x7lib",
+    "fontconfig",
+    "libpng",
+    "gegl"
   ],
   "build_before": [],
   "build_after": [],

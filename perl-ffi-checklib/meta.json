@@ -15,7 +15,12 @@
   "size": "",
   "disk_space": "",
   "build_time": "",
-  "dependencies": [],
+  "dependencies": [
+    "perl-capture-tiny",
+    "perl-file-which",
+    "perl-path-tiny",
+    "perl-test-simple"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 366,

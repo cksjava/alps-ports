@@ -17,7 +17,9 @@
   "build_time": "0.3 SBU (using parallelism=4)",
   "dependencies": [
     "liburcu",
-    "libuv"
+    "libuv",
+    "json-c",
+    "nghttp2"
   ],
   "build_before": [],
   "build_after": [],

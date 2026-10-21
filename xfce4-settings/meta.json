@@ -19,7 +19,10 @@
     "exo",
     "garcon",
     "gnome-icon-theme",
-    "lxde-icon-theme"
+    "lxde-icon-theme",
+    "libcanberra",
+    "libnotify",
+    "libxklavier"
   ],
   "build_before": [],
   "build_after": [],

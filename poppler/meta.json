@@ -19,7 +19,17 @@
   "dependencies": [
     "cmake",
     "fontconfig",
-    "glib2"
+    "glib2",
+    "boost",
+    "cairo",
+    "gpgmepp",
+    "lcms2",
+    "libjpeg",
+    "libpng",
+    "tiff",
+    "nss",
+    "openjpeg2",
+    "qt6"
   ],
   "build_before": [],
   "build_after": [],

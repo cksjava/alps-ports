@@ -19,7 +19,17 @@
     "gnutls",
     "libtirpc",
     "perl-parse-yapp",
-    "rpcsvc-proto"
+    "rpcsvc-proto",
+    "fuse",
+    "gpgme",
+    "icu",
+    "jansson",
+    "libtasn1",
+    "libxslt",
+    "linux-pam",
+    "lmdb",
+    "mitkrb",
+    "openldap"
   ],
   "build_before": [],
   "build_after": [],

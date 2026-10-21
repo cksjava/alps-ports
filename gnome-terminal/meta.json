@@ -21,7 +21,8 @@
     "gsettings-desktop-schemas",
     "itstool",
     "libhandy1",
-    "vte"
+    "vte",
+    "nautilus"
   ],
   "build_before": [],
   "build_after": [],

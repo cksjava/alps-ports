@@ -17,7 +17,8 @@
   "build_time": "less than 0.1 SBU",
   "dependencies": [
     "dav1d",
-    "svt-av1"
+    "svt-av1",
+    "libaom"
   ],
   "build_before": [],
   "build_after": [],

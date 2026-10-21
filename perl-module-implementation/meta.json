@@ -17,7 +17,9 @@
   "build_time": "",
   "dependencies": [
     "perl-module-runtime",
-    "perl-try-tiny"
+    "perl-try-tiny",
+    "perl-test-fatal",
+    "perl-test-requires"
   ],
   "build_before": [],
   "build_after": [],

@@ -15,7 +15,10 @@
   "size": "128 KB",
   "disk_space": "8.6 MB",
   "build_time": "less than 0.1 SBU",
-  "dependencies": [],
+  "dependencies": [
+    "cython",
+    "libyaml"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 465,

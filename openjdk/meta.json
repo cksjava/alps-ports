@@ -17,15 +17,20 @@
   "disk_space": "5.6 GB (add ce769802 MB for tests)",
   "build_time": "4.0 SBU with 4 jobs (add 44 SBU for tests with 4 jobs)",
   "dependencies": [
-    "java",
-    "ojdk-conf",
     "alsa-lib",
     "cpio",
     "cups",
     "libarchive",
     "which",
     "x7lib",
-    "zip"
+    "zip",
+    "make-ca",
+    "giflib",
+    "harfbuzz",
+    "lcms2",
+    "libjpeg",
+    "libpng",
+    "wget"
   ],
   "build_before": [],
   "build_after": [],

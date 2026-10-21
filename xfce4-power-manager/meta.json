@@ -18,7 +18,8 @@
   "dependencies": [
     "libnotify",
     "upower",
-    "xfce4-panel"
+    "xfce4-panel",
+    "polkit"
   ],
   "build_before": [],
   "build_after": [],

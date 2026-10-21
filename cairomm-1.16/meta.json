@@ -17,7 +17,8 @@
   "build_time": "0.2 SBU (with tests)",
   "dependencies": [
     "cairo",
-    "libsigc3"
+    "libsigc3",
+    "boost"
   ],
   "build_before": [],
   "build_after": [],

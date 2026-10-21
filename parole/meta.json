@@ -19,7 +19,9 @@
     "dbus-glib",
     "gst10-plugins-base",
     "gst10-plugins-good",
-    "libxfce4ui"
+    "libxfce4ui",
+    "libnotify",
+    "taglib"
   ],
   "build_before": [],
   "build_after": [],

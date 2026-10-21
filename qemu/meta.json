@@ -17,7 +17,11 @@
   "build_time": "1.5 SBU (add 0.8 SBU for tests, both using parallelism=4)",
   "dependencies": [
     "glib2",
-    "pixman"
+    "pixman",
+    "alsa-lib",
+    "dtc",
+    "libslirp",
+    "sdl2"
   ],
   "build_before": [],
   "build_after": [],

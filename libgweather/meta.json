@@ -19,7 +19,10 @@
     "geocode-glib",
     "gweather-locations",
     "libsoup3",
-    "pygobject3"
+    "pygobject3",
+    "glib2",
+    "libxml2",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

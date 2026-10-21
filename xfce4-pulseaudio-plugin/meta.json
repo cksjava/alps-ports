@@ -18,7 +18,11 @@
   "dependencies": [
     "libnotify",
     "pulseaudio",
-    "xfce4-panel"
+    "xfce4-panel",
+    "keybinder-3",
+    "libcanberra",
+    "libxfce4windowing",
+    "pavucontrol"
   ],
   "build_before": [],
   "build_after": [],

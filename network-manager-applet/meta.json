@@ -19,6 +19,8 @@
     "gtk3",
     "libnma",
     "libsecret",
+    "glib2",
+    "ModemManager",
     "polkit"
   ],
   "build_before": [],

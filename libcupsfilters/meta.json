@@ -23,7 +23,12 @@
     "lcms2",
     "pdfio",
     "poppler",
-    "qpdf"
+    "qpdf",
+    "ttf-and-otf-fonts",
+    "libexif",
+    "libjpeg",
+    "libpng",
+    "tiff"
   ],
   "build_before": [],
   "build_after": [],

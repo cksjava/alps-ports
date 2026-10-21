@@ -16,7 +16,10 @@
   "disk_space": "73 MB",
   "build_time": "0.2 SBU (Using parallelism=4)",
   "dependencies": [
-    "x7lib"
+    "x7lib",
+    "hicolor-icon-theme",
+    "libjpeg",
+    "libpng"
   ],
   "build_before": [],
   "build_after": [],

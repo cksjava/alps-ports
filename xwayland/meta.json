@@ -20,7 +20,10 @@
     "pixman",
     "wayland-protocols",
     "x7app",
-    "x7font"
+    "x7font",
+    "libepoxy",
+    "libtirpc",
+    "mesa"
   ],
   "build_before": [],
   "build_after": [],

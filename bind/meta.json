@@ -17,7 +17,10 @@
   "build_time": "0.4 SBU (with parallelism=4; about 8 minutes somewhat processor independent, to run the complete test suite)",
   "dependencies": [
     "liburcu",
-    "libuv"
+    "libuv",
+    "json-c",
+    "libcap",
+    "nghttp2"
   ],
   "build_before": [],
   "build_after": [],

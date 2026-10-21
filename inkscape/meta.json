@@ -8,7 +8,8 @@
   "chapter": "Chapter 41. Other X-based Programs",
   "summary": "Inkscape is a what you see is what you get Scalable Vector Graphics editor. It is useful for creating, viewing and changing SVG images.",
   "download": [
-    "https://inkscape.org/gallery/item/59505/inkscape-1.4.4.tar.xz"
+    "https://inkscape.org/gallery/item/59505/inkscape-1.4.4.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/inkscape-1.4.4-poppler_fixes-3.patch"
   ],
   "archive": "inkscape-1.4.4.tar.xz",
   "md5": "60ed50c2de060307ad1a6555c7653458",
@@ -23,7 +24,17 @@
     "gtkmm3",
     "libxslt",
     "poppler",
-    "popt"
+    "popt",
+    "imagemagick",
+    "lcms2",
+    "libcanberra",
+    "potrace",
+    "cachecontrol",
+    "cssselect",
+    "lxml",
+    "numpy",
+    "pyserial",
+    "scour"
   ],
   "build_before": [],
   "build_after": [],

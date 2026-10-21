@@ -16,7 +16,12 @@
   "disk_space": "208 MB (with tests)",
   "build_time": "0.5 SBU (Using parallelism=4; with tests)",
   "dependencies": [
-    "pypa-build"
+    "pypa-build",
+    "liblinear",
+    "libpcap",
+    "libssh2",
+    "lua",
+    "pygobject3"
   ],
   "build_before": [],
   "build_after": [],

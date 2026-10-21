@@ -17,7 +17,16 @@
   "disk_space": "121 MB (add 105 MB for tests)",
   "build_time": "0.3 SBU (Using parallelism=4; add 0.3 SBU for tests)",
   "dependencies": [
-    "cmake"
+    "cmake",
+    "alsa-lib",
+    "libusb",
+    "libxkbcommon",
+    "mesa",
+    "pipewire",
+    "pulseaudio",
+    "vulkan-loader",
+    "wayland-protocols",
+    "x7lib"
   ],
   "build_before": [],
   "build_after": [],

@@ -15,7 +15,9 @@
   "size": "68 KB",
   "disk_space": "588 KB (add 18 MB for tests)",
   "build_time": "less than 0.1 SBU (with tests)",
-  "dependencies": [],
+  "dependencies": [
+    "setuptools_scm"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 490,

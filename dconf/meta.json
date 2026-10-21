@@ -21,7 +21,9 @@
     "glib2",
     "gtk3",
     "libhandy1",
-    "libxml2"
+    "libxml2",
+    "libxslt",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

@@ -15,7 +15,14 @@
   "size": "60 KB",
   "disk_space": "3.7 MB",
   "build_time": "less than 0.1 SBU (with tests)",
-  "dependencies": [],
+  "dependencies": [
+    "curl",
+    "duktape",
+    "glib2",
+    "gi-docgen",
+    "gsettings-desktop-schemas",
+    "vala"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 109,

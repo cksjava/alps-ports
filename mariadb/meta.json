@@ -17,7 +17,8 @@
   "disk_space": "3.6 GB (906 MB installed)",
   "build_time": "6.4 SBU (with parallelism=8, add 2.6 SBU for tests)",
   "dependencies": [
-    "cmake"
+    "cmake",
+    "libevent"
   ],
   "build_before": [],
   "build_after": [],

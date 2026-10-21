@@ -15,7 +15,9 @@
   "size": "",
   "disk_space": "",
   "build_time": "",
-  "dependencies": [],
+  "dependencies": [
+    "perl-test-exception"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 319,

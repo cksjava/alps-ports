@@ -21,7 +21,8 @@
     "itstool",
     "libadwaita",
     "libgee",
-    "libsoup3"
+    "libsoup3",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

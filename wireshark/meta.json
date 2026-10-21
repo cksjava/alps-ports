@@ -21,7 +21,8 @@
     "glib2",
     "libgcrypt",
     "qt6",
-    "speex"
+    "speex",
+    "libpcap"
   ],
   "build_before": [],
   "build_after": [],

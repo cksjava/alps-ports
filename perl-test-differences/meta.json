@@ -16,7 +16,8 @@
   "disk_space": "",
   "build_time": "",
   "dependencies": [
-    "perl-text-diff"
+    "perl-text-diff",
+    "perl-capture-tiny"
   ],
   "build_before": [],
   "build_after": [],

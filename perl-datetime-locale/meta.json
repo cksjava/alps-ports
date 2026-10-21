@@ -19,7 +19,10 @@
     "perl-dist-checkconflicts",
     "perl-file-sharedir",
     "perl-namespace-autoclean",
-    "perl-params-validationcompiler"
+    "perl-params-validationcompiler",
+    "perl-cpan-meta-check",
+    "perl-ipc-system-simple",
+    "perl-test-file-sharedir"
   ],
   "build_before": [],
   "build_after": [],

@@ -16,7 +16,20 @@
   "disk_space": "122 MB (with tests)",
   "build_time": "0.9 SBU (Using parallelism=4; with tests)",
   "dependencies": [
-    "gstreamer10"
+    "gstreamer10",
+    "alsa-lib",
+    "cdparanoia",
+    "glib2",
+    "iso-codes",
+    "libgudev",
+    "libjpeg",
+    "libogg",
+    "libpng",
+    "libvorbis",
+    "mesa",
+    "pango",
+    "wayland-protocols",
+    "x7lib"
   ],
   "build_before": [],
   "build_after": [],

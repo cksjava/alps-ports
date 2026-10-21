@@ -15,7 +15,9 @@
   "size": "10 MB",
   "disk_space": "179 MB, 45 MB installed (with typical dependencies; add 26 MB for checks)",
   "build_time": "1.6 SBU (with typical dependencies; add 0.5 SBU for checks, both using parallelism=4)",
-  "dependencies": [],
+  "dependencies": [
+    "x7lib"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 215,

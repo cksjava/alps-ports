@@ -24,7 +24,9 @@
     "xdg-desktop-portal-gtk",
     "xdg-desktop-portal-wlr",
     "xdg-desktop-portal-gnome",
-    "xdg-desktop-portal-lxqt"
+    "xdg-desktop-portal-lxqt",
+    "bubblewrap",
+    "docutils"
   ],
   "build_before": [],
   "build_after": [],

@@ -21,7 +21,8 @@
     "frameworks6",
     "mlt",
     "opentimelineio",
-    "v4l-utils"
+    "v4l-utils",
+    "breeze-icons"
   ],
   "build_before": [],
   "build_after": [],

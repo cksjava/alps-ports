@@ -29,7 +29,13 @@
     "libxml2",
     "lcms2",
     "mypaint-brushes",
-    "poppler"
+    "poppler",
+    "graphviz",
+    "gs",
+    "iso-codes",
+    "libgudev",
+    "pygobject3",
+    "xdg-utils"
   ],
   "build_before": [],
   "build_after": [],

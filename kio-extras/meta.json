@@ -20,7 +20,8 @@
     "kdsoap-ws-discovery-client",
     "libproxy",
     "plasma-activities-stats",
-    "qcoro"
+    "qcoro",
+    "libkexiv2"
   ],
   "build_before": [],
   "build_after": [],

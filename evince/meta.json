@@ -22,7 +22,12 @@
     "itstool",
     "libhandy1",
     "libxml2",
-    "openjpeg2"
+    "openjpeg2",
+    "gnome-keyring",
+    "glib2",
+    "libarchive",
+    "libsecret",
+    "poppler"
   ],
   "build_before": [],
   "build_after": [],

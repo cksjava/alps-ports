@@ -18,7 +18,10 @@
   "dependencies": [
     "gnutls",
     "gtk3",
-    "libgcrypt"
+    "libgcrypt",
+    "glib2",
+    "vala",
+    "pulseaudio"
   ],
   "build_before": [],
   "build_after": [],

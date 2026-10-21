@@ -20,7 +20,13 @@
     "libkcddb",
     "libsamplerate",
     "shared-mime-info",
-    "udisks2"
+    "udisks2",
+    "libburn",
+    "libdvdread",
+    "taglib",
+    "cdrtools",
+    "dvd-rw-tools",
+    "cdrdao"
   ],
   "build_before": [],
   "build_after": [],

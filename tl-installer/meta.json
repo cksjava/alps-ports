@@ -15,7 +15,17 @@
   "size": "5.5 MB",
   "disk_space": "90 MB for plain TeX, typically 323 MB for latex and later engines, 9.0 GB if everything is included",
   "build_time": "varies, depending on network speed and traffic",
-  "dependencies": [],
+  "dependencies": [
+    "gnupg",
+    "perl-libwww-perl",
+    "gs",
+    "x7lib",
+    "libxcb",
+    "installing",
+    "freeglut",
+    "ruby",
+    "tk"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 1191,

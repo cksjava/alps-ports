@@ -17,7 +17,8 @@
   "build_time": "",
   "dependencies": [
     "fontconfig",
-    "libxcb"
+    "libxcb",
+    "dbus"
   ],
   "build_before": [],
   "build_after": [],

@@ -18,7 +18,8 @@
   "dependencies": [
     "libblockdev",
     "libgudev",
-    "polkit"
+    "polkit",
+    "systemd"
   ],
   "build_before": [],
   "build_after": [],

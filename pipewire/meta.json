@@ -15,7 +15,15 @@
   "size": "2.0 MB",
   "disk_space": "110 MB (with tests)",
   "build_time": "0.7 SBU (with tests, both using parallelism=4)",
-  "dependencies": [],
+  "dependencies": [
+    "bluez",
+    "gstreamer10",
+    "gst10-plugins-base",
+    "pulseaudio",
+    "sbc",
+    "v4l-utils",
+    "wireplumber"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 1130,

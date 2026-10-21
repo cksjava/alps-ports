@@ -19,7 +19,16 @@
     "at-spi2-core",
     "gdk-pixbuf",
     "libepoxy",
-    "pango"
+    "pango",
+    "adwaita-icon-theme",
+    "docbook-xsl",
+    "hicolor-icon-theme",
+    "iso-codes",
+    "libxkbcommon",
+    "libxslt",
+    "wayland",
+    "wayland-protocols",
+    "glib2"
   ],
   "build_before": [],
   "build_after": [],

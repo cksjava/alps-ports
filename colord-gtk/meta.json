@@ -17,7 +17,10 @@
   "build_time": "less than 0.1 SBU",
   "dependencies": [
     "colord",
-    "gtk3"
+    "gtk3",
+    "glib2",
+    "gtk4",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

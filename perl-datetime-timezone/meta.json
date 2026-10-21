@@ -18,7 +18,10 @@
   "dependencies": [
     "perl-class-singleton",
     "perl-module-runtime",
-    "perl-params-validationcompiler"
+    "perl-params-validationcompiler",
+    "perl-test-fatal",
+    "perl-test-requires",
+    "perl-datetime"
   ],
   "build_before": [],
   "build_after": [],

@@ -17,7 +17,9 @@
   "disk_space": "406 MB (with tests)",
   "build_time": "0.8 SBU (with parallelism=4, add 8.4 SBU for tests)",
   "dependencies": [
-    "nspr"
+    "nspr",
+    "p11-kit",
+    "make-ca"
   ],
   "build_before": [],
   "build_after": [],

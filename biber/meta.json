@@ -50,7 +50,11 @@
     "perl-unicode-linebreak",
     "perl-xml-libxml-simple",
     "perl-xml-libxslt",
-    "perl-xml-writer"
+    "perl-xml-writer",
+    "perl-file-which",
+    "perl-test-differences",
+    "perl-test-simple",
+    "perl-auto-install"
   ],
   "build_before": [],
   "build_after": [],

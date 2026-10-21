@@ -17,7 +17,12 @@
   "disk_space": "49 MB",
   "build_time": "0.2 SBU (Using parallelism=4)",
   "dependencies": [
-    "cmake"
+    "cmake",
+    "ffmpeg",
+    "frei0r",
+    "libsamplerate",
+    "qt6",
+    "rnnoise"
   ],
   "build_before": [],
   "build_after": [],

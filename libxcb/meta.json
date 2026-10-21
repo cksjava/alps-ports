@@ -17,7 +17,8 @@
   "build_time": "0.2 SBU (with tests, add 1.4 SBU for doxygen docs)",
   "dependencies": [
     "libXau",
-    "xcb-proto"
+    "xcb-proto",
+    "libXdmcp"
   ],
   "build_before": [],
   "build_after": [],

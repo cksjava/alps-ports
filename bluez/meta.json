@@ -18,7 +18,8 @@
   "dependencies": [
     "dbus",
     "glib2",
-    "libical"
+    "libical",
+    "docutils"
   ],
   "build_before": [],
   "build_after": [],

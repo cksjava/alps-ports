@@ -17,7 +17,12 @@
   "build_time": "0.3 SBU (Using parallelism=4; with tests)",
   "dependencies": [
     "libgudev",
-    "libxslt"
+    "libxslt",
+    "glib2",
+    "libmbim",
+    "libqmi",
+    "polkit",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

@@ -21,7 +21,16 @@
     "intltool",
     "itstool",
     "libcanberra",
-    "libnotify"
+    "libnotify",
+    "glib2",
+    "libburn",
+    "libisoburn",
+    "libisofs",
+    "nautilus",
+    "tinysparql",
+    "totem-pl-parser",
+    "dvd-rw-tools",
+    "gvfs"
   ],
   "build_before": [],
   "build_after": [],

@@ -18,7 +18,8 @@
   "dependencies": [
     "gtk3",
     "intltool",
-    "x7app"
+    "x7app",
+    "glu"
   ],
   "build_before": [],
   "build_after": [],

@@ -22,7 +22,16 @@
     "nss",
     "pciutils",
     "qt6",
-    "rust-bindgen"
+    "rust-bindgen",
+    "alsa-lib",
+    "pulseaudio",
+    "ffmpeg",
+    "icu",
+    "libwebp",
+    "libxslt",
+    "openjpeg2",
+    "opus",
+    "pipewire"
   ],
   "build_before": [],
   "build_after": [],

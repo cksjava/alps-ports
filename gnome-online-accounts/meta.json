@@ -20,7 +20,8 @@
     "json-glib",
     "libadwaita",
     "librest",
-    "vala"
+    "vala",
+    "glib2"
   ],
   "build_before": [],
   "build_after": [],

@@ -15,7 +15,11 @@
   "size": "716 KB",
   "disk_space": "12 MB (add 10 MB for tests)",
   "build_time": "0.3 SBU (add 0.3 SBU for tests)",
-  "dependencies": [],
+  "dependencies": [
+    "flac",
+    "opus",
+    "libvorbis"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 1124,

@@ -24,7 +24,10 @@
     "perl-html-parser",
     "perl-net-http",
     "perl-try-tiny",
-    "perl-www-robotrules"
+    "perl-www-robotrules",
+    "perl-test-fatal",
+    "perl-test-needs",
+    "perl-test-requiresinternet"
   ],
   "build_before": [],
   "build_after": [],

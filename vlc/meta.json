@@ -15,7 +15,17 @@
   "size": "26 MB",
   "disk_space": "957 MB",
   "build_time": "1.2 SBU (using parallelism=4; with tests)",
-  "dependencies": [],
+  "dependencies": [
+    "alsa-lib",
+    "desktop-file-utils",
+    "ffmpeg",
+    "liba52",
+    "libgcrypt",
+    "libmad",
+    "lua",
+    "qt6",
+    "installing"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 1156,

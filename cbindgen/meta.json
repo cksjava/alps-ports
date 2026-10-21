@@ -16,7 +16,8 @@
   "disk_space": "255 MB (with tests)",
   "build_time": "0.4 SBU (add 0.2 SBU for tests), both on a 4-core machine",
   "dependencies": [
-    "rust"
+    "rust",
+    "make-ca"
   ],
   "build_before": [],
   "build_after": [],

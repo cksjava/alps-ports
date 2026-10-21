@@ -18,7 +18,8 @@
   "dependencies": [
     "frameworks6",
     "libxml2",
-    "xapian"
+    "xapian",
+    "qtwebengine"
   ],
   "build_before": [],
   "build_after": [],

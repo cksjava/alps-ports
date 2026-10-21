@@ -15,7 +15,10 @@
   "size": "",
   "disk_space": "",
   "build_time": "",
-  "dependencies": [],
+  "dependencies": [
+    "perl-test-leaktrace",
+    "perl-test-warnings"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 383,

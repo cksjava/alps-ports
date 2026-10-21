@@ -16,7 +16,16 @@
   "disk_space": "70 MB (with tests)",
   "build_time": "0.7 SBU (using parallelism=4; with tests)",
   "dependencies": [
-    "libxml2"
+    "libxml2",
+    "fast_float",
+    "fmt",
+    "icu",
+    "gnutls",
+    "glib2",
+    "gtk3",
+    "gtk4",
+    "simdutf",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

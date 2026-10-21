@@ -21,7 +21,12 @@
     "libass",
     "libplacebo",
     "mesa",
-    "pulseaudio"
+    "pulseaudio",
+    "libjpeg",
+    "libva",
+    "luajit",
+    "uchardet",
+    "vulkan-loader"
   ],
   "build_before": [],
   "build_after": [],

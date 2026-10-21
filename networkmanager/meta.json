@@ -16,7 +16,18 @@
   "disk_space": "327 MB (with tests and documentation)",
   "build_time": "0.7 SBU (with tests, using parallelism=4)",
   "dependencies": [
-    "libndp"
+    "libndp",
+    "curl",
+    "glib2",
+    "iptables",
+    "libpsl",
+    "newt",
+    "nss",
+    "polkit",
+    "pygobject3",
+    "systemd",
+    "vala",
+    "wpa_supplicant"
   ],
   "build_before": [],
   "build_after": [],

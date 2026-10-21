@@ -19,7 +19,9 @@
     "lxqt-layer-shell-qt",
     "liblxqt",
     "libfm-qt",
-    "lxqt-menu-data"
+    "lxqt-menu-data",
+    "gvfs",
+    "oxygen-icons"
   ],
   "build_before": [],
   "build_after": [],

@@ -17,7 +17,14 @@
   "build_time": "0.9 SBU (using parallelism=4)",
   "dependencies": [
     "gs",
-    "texlive"
+    "texlive",
+    "curl",
+    "freeglut",
+    "gc",
+    "glew",
+    "glm",
+    "libtirpc",
+    "dvisvgm"
   ],
   "build_before": [],
   "build_after": [],

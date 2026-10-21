@@ -16,7 +16,8 @@
   "disk_space": "15 MB (with tests)",
   "build_time": "0.2 SBU (with tests)",
   "dependencies": [
-    "glib2"
+    "glib2",
+    "pycairo"
   ],
   "build_before": [],
   "build_after": [],

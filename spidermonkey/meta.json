@@ -19,7 +19,8 @@
   "dependencies": [
     "cbindgen",
     "icu",
-    "which"
+    "which",
+    "llvm"
   ],
   "build_before": [],
   "build_after": [],

@@ -19,7 +19,11 @@
     "gsettings-desktop-schemas",
     "iso-codes",
     "libseccomp",
-    "xkeyboard-config"
+    "xkeyboard-config",
+    "gtk3",
+    "gtk4",
+    "bubblewrap",
+    "glib2"
   ],
   "build_before": [],
   "build_after": [],

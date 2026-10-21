@@ -19,7 +19,8 @@
     "colord",
     "gtk3",
     "itstool",
-    "lcms2"
+    "lcms2",
+    "desktop-file-utils"
   ],
   "build_before": [],
   "build_after": [],

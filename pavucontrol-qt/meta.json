@@ -17,8 +17,7 @@
   "build_time": "0.2 SBU",
   "dependencies": [
     "liblxqt",
-    "pulseaudio",
-    "glib2"
+    "pulseaudio"
   ],
   "build_before": [],
   "build_after": [],

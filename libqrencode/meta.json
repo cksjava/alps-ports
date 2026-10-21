@@ -15,7 +15,9 @@
   "size": "188 KB",
   "disk_space": "6.6 MB (with documentation, add 5 MB for tests)",
   "build_time": "less than 0.1 SBU, add 0.1 SBU for tests",
-  "dependencies": [],
+  "dependencies": [
+    "libpng"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 186,

@@ -22,7 +22,12 @@
     "lxqt-globalkeys",
     "lxqt-menu-data",
     "lxqt-solid",
-    "menu-cache"
+    "menu-cache",
+    "pulseaudio",
+    "libstatgrab",
+    "libsysstat",
+    "libxkbcommon",
+    "lm-sensors"
   ],
   "build_before": [],
   "build_after": [],

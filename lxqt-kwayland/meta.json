@@ -18,7 +18,6 @@
   "dependencies": [
     "extra-cmake-modules",
     "mesa",
-    "wayland",
     "plasma-wayland-protocols",
     "qt6"
   ],

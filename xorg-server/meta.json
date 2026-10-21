@@ -20,7 +20,11 @@
     "libxcvt",
     "pixman",
     "x7font",
-    "xkeyboard-config"
+    "xkeyboard-config",
+    "libepoxy",
+    "libtirpc",
+    "systemd",
+    "xorg-libinput-driver"
   ],
   "build_before": [],
   "build_after": [],

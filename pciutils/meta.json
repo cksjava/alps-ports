@@ -15,7 +15,9 @@
   "size": "724 KB",
   "disk_space": "5.4 MB",
   "build_time": "less than 0.1 SBU",
-  "dependencies": [],
+  "dependencies": [
+    "hwdata"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 265,

@@ -18,7 +18,8 @@
   "dependencies": [
     "iniconfig",
     "pluggy",
-    "pygments"
+    "pygments",
+    "setuptools_scm"
   ],
   "build_before": [],
   "build_after": [],

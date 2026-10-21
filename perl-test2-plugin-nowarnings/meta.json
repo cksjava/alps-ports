@@ -16,7 +16,9 @@
   "disk_space": "",
   "build_time": "",
   "dependencies": [
-    "perl-test-simple"
+    "perl-test-simple",
+    "perl-ipc-run3",
+    "perl-module-pluggable"
   ],
   "build_before": [],
   "build_after": [],

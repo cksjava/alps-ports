@@ -19,7 +19,8 @@
     "brotli",
     "gs",
     "potrace",
-    "texlive"
+    "texlive",
+    "woff2"
   ],
   "build_before": [],
   "build_after": [],

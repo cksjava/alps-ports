@@ -24,7 +24,14 @@
     "libadwaita",
     "libportal",
     "libseccomp",
-    "tinysparql"
+    "tinysparql",
+    "desktop-file-utils",
+    "glib2",
+    "gst10-plugins-base",
+    "libcloudproviders",
+    "localsearch",
+    "adwaita-icon-theme",
+    "gvfs"
   ],
   "build_before": [],
   "build_after": [],

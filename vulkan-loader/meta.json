@@ -18,7 +18,9 @@
   "dependencies": [
     "cmake",
     "vulkan-headers",
-    "x7lib"
+    "x7lib",
+    "wayland",
+    "mesa"
   ],
   "build_before": [],
   "build_after": [],

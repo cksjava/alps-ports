@@ -15,7 +15,13 @@
   "size": "",
   "disk_space": "",
   "build_time": "",
-  "dependencies": [],
+  "dependencies": [
+    "perl-path-tiny",
+    "perl-test-deep",
+    "perl-test-fatal",
+    "perl-test-file",
+    "perl-test-warnings"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 368,

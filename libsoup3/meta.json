@@ -20,7 +20,9 @@
     "glib-networking",
     "libpsl",
     "libxml2",
-    "nghttp2"
+    "nghttp2",
+    "glib2",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

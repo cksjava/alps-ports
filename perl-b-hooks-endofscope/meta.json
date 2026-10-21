@@ -18,7 +18,8 @@
   "dependencies": [
     "perl-module-implementation",
     "perl-sub-exporter-progressive",
-    "perl-variable-magic"
+    "perl-variable-magic",
+    "perl-try-tiny"
   ],
   "build_before": [],
   "build_after": [],

@@ -8,7 +8,8 @@
   "chapter": "Chapter 15. Networking Programs",
   "summary": "The ntp package contains a client and server to keep the time synchronized between various computers over a network. This package is the official reference implementation of the NTP protocol.",
   "download": [
-    "https://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-4.2/ntp-4.2.8p18.tar.gz"
+    "https://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-4.2/ntp-4.2.8p18.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/ntp-4.2.8p18-openssl_4-1.patch"
   ],
   "archive": "ntp-4.2.8p18.tar.gz",
   "md5": "516bdabd94ab7c824e9771390761a46c",

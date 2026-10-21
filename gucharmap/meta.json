@@ -22,7 +22,9 @@
     "gsettings-desktop-schemas",
     "gtk3",
     "itstool",
-    "libarchive"
+    "libarchive",
+    "glib2",
+    "vala"
   ],
   "build_before": [],
   "build_after": [],

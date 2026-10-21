@@ -15,7 +15,13 @@
   "size": "832 KB",
   "disk_space": "88 MB",
   "build_time": "0.3 SBU (Using parallelism-4)",
-  "dependencies": [],
+  "dependencies": [
+    "gtkmm3",
+    "libao",
+    "libvorbis",
+    "libmad",
+    "lame"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 1158,

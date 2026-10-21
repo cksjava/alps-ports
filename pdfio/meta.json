@@ -15,7 +15,9 @@
   "size": "6.5 MB",
   "disk_space": "14 MB",
   "build_time": "less than 0.1 SBU",
-  "dependencies": [],
+  "dependencies": [
+    "libpng"
+  ],
   "build_before": [],
   "build_after": [],
   "order": 195,
