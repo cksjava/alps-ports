@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,12 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+groupadd -g 42 dovecot &&
+useradd -c "Dovecot unprivileged user" -d /dev/null -u 42 \
+        -g dovecot -s /bin/false dovecot &&
+groupadd -g 43 dovenull &&
+useradd -c "Dovecot login user" -d /dev/null -u 43 \
+        -g dovenull -s /bin/false dovenull
 ./configure --prefix=/usr                          \
             --sysconfdir=/etc                      \
             --localstatedir=/var                   \
@@ -47,3 +56,4 @@ make install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

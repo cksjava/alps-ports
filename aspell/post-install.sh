@@ -18,3 +18,4 @@ cd aspell6-en-2020.12.07-0                &&
 ./configure &&
 make
 make install
+

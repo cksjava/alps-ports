@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -38,7 +41,9 @@ cd "$srcdir"
 
 ./configure --prefix=/usr &&
 make
-make install
+make install &&
+install -v -m644 README /usr/share/doc/libao-1.2.0
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

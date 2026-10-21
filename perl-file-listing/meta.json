@@ -1,0 +1,23 @@
+{
+  "name": "File::Listing",
+  "version": "6.16",
+  "title": "File::Listing-6.16",
+  "anchor": "perl-file-listing",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "File::Listing parses a directory listing.",
+  "download": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/File-Listing-6.16.tar.gz",
+  "archive": "File-Listing-6.16.tar.gz",
+  "md5": "d4fc8b0c86633d1fa5bf75323720eadc",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-http-date"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 341,
+  "group_order": 100
+}

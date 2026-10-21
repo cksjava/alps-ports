@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,9 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+groupadd -g 22 fcron &&
+useradd -d /dev/null -c "Fcron User" -g fcron -s /bin/false -u 22 fcron
+find doc -type f -exec sed -i 's:/usr/local::g' {} \;
 ./configure --prefix=/usr        \
             --sysconfdir=/etc    \
             --localstatedir=/var \
@@ -44,7 +50,7 @@ cd "$srcdir"
             --with-boot-install=no &&
 make
 make install
-install -vdm754 /etc/cron.{hourly,daily,weekly,monthly}
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

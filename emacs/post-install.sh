@@ -12,4 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-gtk-update-icon-cache -qtf /usr/share/icons/hicolor
+# This package has no post-install commands.
+

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -55,6 +58,7 @@ cd    build               &&
     --disable-fixincludes \
     --enable-languages=c,c++,fortran,go,objc,obj-c++,m2 &&
 make
+../contrib/test_summary
 make install &&
 
 mkdir -pv /usr/share/gdb/auto-load/usr/lib              &&
@@ -68,3 +72,4 @@ ln -sfv ../../libexec/gcc/$(gcc -dumpmachine)/16.2.0/liblto_plugin.so \
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

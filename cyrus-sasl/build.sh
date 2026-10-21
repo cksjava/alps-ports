@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -38,12 +41,20 @@ cd "$srcdir"
 
 patch -Np1 -i ../cyrus-sasl-2.1.28-gcc15_fixes-1.patch &&
 autoreconf -fiv
-sed '/saslint/a #include <time.h>'       -i lib/saslutil.c &&
-sed '/plugin_common/a #include <time.h>' -i plugins/cram.c
+./configure --prefix=/usr                       \
+            --sysconfdir=/etc                   \
+            --enable-auth-sasldb                \
+            --with-dblib=lmdb                   \
+            --with-dbpath=/var/lib/sasl/sasldb2 \
+            --with-sphinx-build=no              \
+            --with-saslauthd=/var/run/saslauthd &&
 make -j1
 make install &&
+install -v -dm755                          /usr/share/doc/cyrus-sasl-2.1.28/html &&
+install -v -m644  saslauthd/LDAP_SASLAUTHD /usr/share/doc/cyrus-sasl-2.1.28      &&
+install -v -m644  doc/legacy/*.html        /usr/share/doc/cyrus-sasl-2.1.28/html &&
 install -v -dm700 /var/lib/sasl
-make install-saslauthd
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

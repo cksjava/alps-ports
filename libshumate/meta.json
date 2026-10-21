@@ -15,12 +15,11 @@
   "build_time": "0.2 SBU",
   "dependencies": [
     "gtk4",
-    "libsoup",
-    "protobuf-c",
-    "glib"
+    "libsoup3",
+    "protobuf-c"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 933,
-  "group_order": 0
+  "order": 888,
+  "group_order": 15
 }

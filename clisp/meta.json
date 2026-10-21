@@ -13,11 +13,9 @@
   "size": "7.1 MB",
   "disk_space": "146 MB (with tests; 34 MB installed)",
   "build_time": "0.6 SBU (Using parallelism=4; add 0.3 SBU for tests)",
-  "dependencies": [
-    "libsigsegv"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 270,
-  "group_order": 0
+  "order": 243,
+  "group_order": 2
 }

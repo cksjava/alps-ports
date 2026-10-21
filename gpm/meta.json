@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
-  "summary": "The GPM (General Purpose Mouse daemon) package contains a mouse server for the console and xterm. It not only provides cut and paste support generally, but its library component is used by various software such as Links to provide mouse support to the application. It is useful on desktops, especially if following (Beyond) Linux From Scratch instructions; it's often much easier (and less error prone) to cut and paste between two console windows than to type everything by hand!",
+  "summary": "The GPM (General Purpose Mouse daemon) package contains a mouse server for the console and xterm . It not only provides cut and paste support generally, but its library component is used by various software such as Links to provide mouse support to the application. It is useful on desktops, especially if following (Beyond) Linux From Scratch instructions; it's often much easier (and less error prone) to cut and paste between two console windows than to type everything by hand!",
   "download": "https://anduin.linuxfromscratch.org/BLFS/gpm/gpm-1.20.7.tar.bz2",
   "archive": "gpm-1.20.7.tar.bz2",
   "md5": "bf84143905a6a903dbd4d4b911a2a2b8",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 239,
-  "group_order": 0
+  "order": 215,
+  "group_order": 10
 }

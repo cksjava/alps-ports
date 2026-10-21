@@ -1,0 +1,21 @@
+{
+  "name": "FFI::CheckLib",
+  "version": "0.31",
+  "title": "FFI::CheckLib-0.31",
+  "anchor": "perl-ffi-checklib",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "FFI::CheckLib checks whether a particular dynamic library is available for FFI (Foreign Function Interface) to use.",
+  "download": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/FFI-CheckLib-0.31.tar.gz",
+  "archive": "FFI-CheckLib-0.31.tar.gz",
+  "md5": "ffc8e61bb686dd631bed3ddf102af41c",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 337,
+  "group_order": 96
+}

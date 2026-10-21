@@ -15,16 +15,14 @@
   "build_time": "0.3 SBU (with tests)",
   "dependencies": [
     "dbus",
-    "glib",
-    "little-cms",
+    "glib2",
+    "lcms2",
     "libgudev",
     "libgusb",
-    "polkit",
-    "systemd",
-    "vala"
+    "polkit"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 234,
-  "group_order": 0
+  "order": 211,
+  "group_order": 6
 }

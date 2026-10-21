@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,12 +39,17 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+groupadd -g 48 rsyncd &&
+useradd -c "rsyncd Daemon" -m -d /home/rsync -g rsyncd \
+    -s /bin/false -u 48 rsyncd
 ./configure --prefix=/usr    \
             --disable-xxhash \
             --without-included-zlib &&
 make
 make install
-make install-rsyncd
+install -v -m755 -d          /usr/share/doc/rsync-3.5.0/api &&
+install -v -m644 dox/html/*  /usr/share/doc/rsync-3.5.0/api
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

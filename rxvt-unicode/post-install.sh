@@ -37,8 +37,6 @@ URxvt*matcher.button:     1
 EOF
 xrdb -query
 xrdb -merge ~/.Xresources
-# Start the urxvtd daemon
-urxvtd -q -f -o &
 cat > /usr/share/applications/urxvt.desktop << "EOF" &&
 [Desktop Entry]
 Encoding=UTF-8
@@ -55,3 +53,4 @@ Keywords=console;command line;execute;
 EOF
 
 update-desktop-database -q
+

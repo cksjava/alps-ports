@@ -21,19 +21,11 @@
     "librsvg",
     "libxkbcommon",
     "pango",
-    "pygobject",
-    "wayland-protocols",
-    "gst-plugins-bad",
-    "glslc-from-shaderc",
-    "gst-plugins-good",
-    "libvpx",
-    "hicolor-icon-theme",
-    "vulkan-loader",
-    "xdg-desktop-portal",
-    "glib"
+    "pygobject3",
+    "wayland-protocols"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 714,
-  "group_order": 0
+  "order": 685,
+  "group_order": 15
 }

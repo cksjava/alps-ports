@@ -16,11 +16,10 @@
   "dependencies": [
     "libpng",
     "imlib2",
-    "giflib",
-    "curl"
+    "giflib"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1051,
-  "group_order": 0
+  "order": 969,
+  "group_order": 1
 }

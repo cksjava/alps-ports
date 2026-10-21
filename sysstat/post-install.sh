@@ -12,4 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-sed -i "/^Also=/d" /usr/lib/systemd/system/sysstat.service
+systemctl enable sysstat
+

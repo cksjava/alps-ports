@@ -1,0 +1,24 @@
+{
+  "name": "libXvMC",
+  "version": "1.0.15",
+  "title": "libXvMC-1.0.15",
+  "anchor": "libXvMC",
+  "page_type": "batch",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "libXvMC-1.0.15 is built from the x7lib page.",
+  "download": "https://www.x.org/pub/individual/lib/libXvMC-1.0.15.tar.xz",
+  "archive": "libXvMC-1.0.15.tar.xz",
+  "md5": "de4227c5722a8f5ca5748f3ef524aeee",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "fontconfig",
+    "libxcb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 583,
+  "group_order": 31
+}

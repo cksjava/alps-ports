@@ -25,14 +25,5 @@ EOF
 mkdir -v ~/.fluxbox &&
 cp -v /usr/share/fluxbox/init ~/.fluxbox/init &&
 cp -v /usr/share/fluxbox/keys ~/.fluxbox/keys
-cd ~/.fluxbox &&
-fluxbox-generate_menu <user_options>
 cp -v /usr/share/fluxbox/menu ~/.fluxbox/menu
-cp -r /usr/share/fluxbox/styles/<theme> ~/.fluxbox/theme &&
 
-sed -i 's,\(session.styleFile:\).*,\1 ~/.fluxbox/theme,' ~/.fluxbox/init &&
-
-[ -f ~/.fluxbox/theme ] &&
-echo "background.pixmap: </path/to/nice/image.ext>" >> ~/.fluxbox/theme ||
-[ -d ~/.fluxbox/theme ] &&
-echo "background.pixmap: </path/to/nice/image.ext>" >> ~/.fluxbox/theme/theme.cfg

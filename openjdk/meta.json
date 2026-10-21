@@ -15,24 +15,17 @@
   "build_time": "4.0 SBU with 4 jobs (add 44 SBU for tests with 4 jobs)",
   "dependencies": [
     "java",
-    "configuring-the-java-environment",
+    "ojdk-conf",
     "alsa-lib",
     "cpio",
     "cups",
     "libarchive",
-    "which-and-alternatives",
-    "xorg-libraries",
-    "zip",
-    "make-ca",
-    "giflib",
-    "harfbuzz",
-    "little-cms",
-    "libjpeg-turbo",
-    "libpng",
-    "wget"
+    "which",
+    "x7lib",
+    "zip"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 525,
-  "group_order": 0
+  "order": 497,
+  "group_order": 256
 }

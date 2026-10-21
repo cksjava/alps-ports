@@ -1,0 +1,21 @@
+{
+  "name": "Class::Accessor",
+  "version": "0.51",
+  "title": "Class::Accessor-0.51",
+  "anchor": "perl-class-accessor",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Class::Accessor generates accessors/mutators for your class.",
+  "download": "https://www.cpan.org/authors/id/K/KA/KASEI/Class-Accessor-0.51.tar.gz",
+  "archive": "Class-Accessor-0.51.tar.gz",
+  "md5": "1f1e5990f87cad7659b292fed7dc0407",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 263,
+  "group_order": 22
+}

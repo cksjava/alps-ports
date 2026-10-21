@@ -1,0 +1,23 @@
+{
+  "name": "Test2::Plugin::NoWarnings",
+  "version": "0.10",
+  "title": "Test2::Plugin::NoWarnings-0.10",
+  "anchor": "perl-test2-plugin-nowarnings",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Test2::Plugin::NoWarnings causes tests to fail if there are any warnings while they run.",
+  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Test2-Plugin-NoWarnings-0.10.tar.gz",
+  "archive": "Test2-Plugin-NoWarnings-0.10.tar.gz",
+  "md5": "d50e21a76f1fef09004092a73b1c065b",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-test-simple"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 393,
+  "group_order": 152
+}

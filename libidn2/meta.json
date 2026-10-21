@@ -13,11 +13,9 @@
   "size": "2.1 MB",
   "disk_space": "21 MB (add 3 MB for tests)",
   "build_time": "0.1 SBU (add 0.6 SBU for tests)",
-  "dependencies": [
-    "libunistring"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 101,
-  "group_order": 0
+  "order": 93,
+  "group_order": 44
 }

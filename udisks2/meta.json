@@ -1,0 +1,25 @@
+{
+  "name": "UDisks",
+  "version": "2.11.2",
+  "title": "UDisks-2.11.2",
+  "anchor": "udisks2",
+  "page_type": "single",
+  "group": "system-utilities",
+  "chapter": "Chapter 12. System Utilities",
+  "summary": "The UDisks package provides a daemon, tools and libraries to access and manipulate disks and storage devices.",
+  "download": "https://github.com/storaged-project/udisks/releases/download/udisks-2.11.2/udisks-2.11.2.tar.bz2",
+  "archive": "udisks-2.11.2.tar.bz2",
+  "md5": "9e8e8c7f43257bc501b4896f43db9eb8",
+  "size": "1.9 MB",
+  "disk_space": "68 MB (with tests)",
+  "build_time": "0.2 SBU (with tests)",
+  "dependencies": [
+    "libblockdev",
+    "libgudev",
+    "polkit"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 228,
+  "group_order": 23
+}

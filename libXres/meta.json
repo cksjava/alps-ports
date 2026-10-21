@@ -1,0 +1,24 @@
+{
+  "name": "libXres",
+  "version": "1.2.3",
+  "title": "libXres-1.2.3",
+  "anchor": "libXres",
+  "page_type": "batch",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "libXres-1.2.3 is built from the x7lib page.",
+  "download": "https://www.x.org/pub/individual/lib/libXres-1.2.3.tar.xz",
+  "archive": "libXres-1.2.3.tar.xz",
+  "md5": "5014282a08b54ec0edfa73c5cf9ae2c1",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "fontconfig",
+    "libxcb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 580,
+  "group_order": 28
+}

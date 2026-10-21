@@ -13,11 +13,9 @@
   "size": "6.3 MB",
   "disk_space": "36 MB",
   "build_time": "0.2 SBU",
-  "dependencies": [
-    "libevent"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 569,
+  "order": 535,
   "group_order": 0
 }

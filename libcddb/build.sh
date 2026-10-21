@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,9 +39,16 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+sed -e '/DEFAULT_SERVER/s/freedb.org/gnudb.gnudb.org/' \
+    -e '/DEFAULT_PORT/s/888/&0/'                       \
+    -i include/cddb/cddb_ni.h                          &&
+sed '/^Genre:/s/Trip-Hop/Electronic/' -i tests/testdata/920ef00b.txt &&
+sed '/DISCID/i# Revision: 42'         -i tests/testcache/misc/12340000
+sed -i 's/size_t l;/socklen_t l;/' lib/cddb_net.c
 ./configure --prefix=/usr --disable-static &&
 make
 make install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

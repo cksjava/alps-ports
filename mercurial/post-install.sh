@@ -12,4 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-# This package has no post-install commands.
+install -v -d -m755 /etc/mercurial &&
+cat > /etc/mercurial/hgrc << "EOF"
+[web]
+cacerts = /etc/pki/tls/certs/ca-bundle.crt
+EOF
+

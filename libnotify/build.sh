@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -45,11 +48,12 @@ meson setup --prefix=/usr       \
             -D man=false        \
             ..                  &&
 ninja
-sed "/docs_dir =/s@\$@ / 'libnotify'@" \
-    -i ../docs/reference/meson.build   &&
-meson configure -D gtk_doc=true        &&
-ninja
-ninja install
+ninja install &&
+if [ -e /usr/share/doc/libnotify ]; then
+  rm -rf /usr/share/doc/libnotify-0.8.8
+  mv -v  /usr/share/doc/libnotify{,-0.8.8}
+fi
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

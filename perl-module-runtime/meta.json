@@ -1,0 +1,21 @@
+{
+  "name": "Module::Runtime",
+  "version": "0.018",
+  "title": "Module::Runtime-0.018",
+  "anchor": "perl-module-runtime",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Module::Runtime provides functions to deal with runtime handling of Perl modules.",
+  "download": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Module-Runtime-0.018.tar.gz",
+  "archive": "Module-Runtime-0.018.tar.gz",
+  "md5": "455eedb62183b9d9e437c59c375c1054",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 362,
+  "group_order": 121
+}

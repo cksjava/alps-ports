@@ -26,3 +26,5 @@ chmod +x /etc/acpi/lid.sh
 
 mkdir -pv /etc/systemd/logind.conf.d
 echo HandleLidSwitch=ignore > /etc/systemd/logind.conf.d/acpi.conf
+make install-acpid
+

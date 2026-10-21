@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "mail-news-clients",
   "chapter": "Chapter 19. Mail/News Clients",
-  "summary": "The Heirloom mailx package (formerly known as the Nail package) contains mailx, a command-line Mail User Agent derived from Berkeley Mail. It is intended to provide the functionality of the POSIX mailx command with additional support for MIME messages, IMAP (including caching), POP3, SMTP, S/MIME, message threading/sorting, scoring, and filtering. Heirloom mailx is especially useful for writing scripts and batch processing.",
+  "summary": "The Heirloom mailx package (formerly known as the Nail package) contains mailx , a command-line Mail User Agent derived from Berkeley Mail. It is intended to provide the functionality of the POSIX mailx command with additional support for MIME messages, IMAP (including caching), POP3, SMTP, S/MIME, message threading/sorting, scoring, and filtering. Heirloom mailx is especially useful for writing scripts and batch processing.",
   "download": "https://anduin.linuxfromscratch.org/BLFS/mailx/heirloom-mailx_12.5.orig.tar.gz",
   "archive": "heirloom-mailx_12.5.orig.tar.gz",
   "md5": "29a6033ef1412824d02eb9d9213cb1f2",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 572,
-  "group_order": 0
+  "order": 538,
+  "group_order": 1
 }

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,11 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+case $(uname -m) in
+   i?86)
+      sed -e "s/defined(__MINGW32__)/& || defined(__i386__)/" \
+          -i ./libs/stacktrace/src/exception_headers.h ;;
+esac
 ./bootstrap.sh --prefix=/usr --with-python=python3 &&
 ./b2 stage -j$(nproc) threading=multi link=shared
 rm -rf /usr/lib/cmake/[Bb]oost*
@@ -43,3 +51,4 @@ rm -rf /usr/lib/cmake/[Bb]oost*
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

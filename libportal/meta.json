@@ -14,16 +14,10 @@
   "disk_space": "4.0 MB (with tests; add 9 MB for docs)",
   "build_time": "less than 0.1 SBU (add 0.6 SBU for tests)",
   "dependencies": [
-    "glib",
-    "gtk3",
-    "gtk4",
-    "xdg-desktop-portal",
-    "xdg-desktop-portal-gtk",
-    "xdg-desktop-portal-gnome",
-    "xdg-desktop-portal-lxqt"
+    "glib2"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 107,
-  "group_order": 0
+  "order": 99,
+  "group_order": 50
 }

@@ -1,0 +1,21 @@
+{
+  "name": "Data::Uniqid",
+  "version": "0.12",
+  "title": "Data::Uniqid-0.12",
+  "anchor": "perl-data-uniqid",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Data::Uniqid provides three simple routines for generating unique IDs.",
+  "download": "https://www.cpan.org/authors/id/M/MW/MWX/Data-Uniqid-0.12.tar.gz",
+  "archive": "Data-Uniqid-0.12.tar.gz",
+  "md5": "6bab3b5da09fedfdf60ce2629a7367db",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 266,
+  "group_order": 25
+}

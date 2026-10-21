@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -40,7 +43,9 @@ sed -i -e '/cat./d' documentation/Makefile &&
 
 ./configure --prefix=/usr --enable-shared  &&
 make
+make docdir=/usr/share/doc/fltk-1.3.11 install &&
 rm -fv /usr/lib/libfltk*.a
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

@@ -13,11 +13,9 @@
   "size": "1.9 MB",
   "disk_space": "80 MB (with tests and documentation)",
   "build_time": "0.6 SBU (with tests)",
-  "dependencies": [
-    "popt"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 533,
-  "group_order": 0
+  "order": 505,
+  "group_order": 6
 }

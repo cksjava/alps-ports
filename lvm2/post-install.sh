@@ -14,3 +14,4 @@ fi
 
 sed -e '/locking_dir =/{s/#//;s/var/run/}' \
     -i /etc/lvm/lvm.conf
+

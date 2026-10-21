@@ -12,4 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-echo 'RPCBIND_OPTIONS=""' > /etc/rpcbind.conf
+systemctl enable rpcbind
+

@@ -1,0 +1,24 @@
+{
+  "name": "libglycin-gtk4 from glycin",
+  "version": "2.1.5",
+  "title": "libglycin-gtk4 from glycin-2.1.5",
+  "anchor": "glycin-gtk4",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The libglycin-gtk4 library provides GTK-4 integration for glycin-2.1.5 .",
+  "download": "https://download.gnome.org/sources/glycin/2.1/glycin-2.1.5.tar.xz",
+  "archive": "glycin-2.1.5.tar.xz",
+  "md5": "d9224a846ad1ed964d07e1ebb48d4458",
+  "size": "6.8 MB",
+  "disk_space": "669 MB (with documentation)",
+  "build_time": "0.4 SBU (Using parallelism=4; with documentation)",
+  "dependencies": [
+    "glycin",
+    "gtk4"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 153,
+  "group_order": 11
+}

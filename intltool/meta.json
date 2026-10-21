@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
-  "summary": "The Intltool package provides an internationalization tool used for extracting translatable strings from source files, collecting the extracted strings with messages from traditional source files (<source directory>/<package>/po) and merging the translations into .xml, .desktop and .oaf files.",
+  "summary": "The Intltool package provides an internationalization tool used for extracting translatable strings from source files, collecting the extracted strings with messages from traditional source files ( / /po ) and merging the translations into .xml , .desktop and .oaf files.",
   "download": "http://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz",
   "archive": "intltool-0.51.0.tar.gz",
   "md5": "12e517cac2b57a0121cda351570f1e63",
@@ -14,10 +14,10 @@
   "disk_space": "1.5 MB",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "xml-parser"
+    "perl-xml-parser"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 214,
-  "group_order": 0
+  "order": 195,
+  "group_order": 9
 }

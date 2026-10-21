@@ -18,3 +18,4 @@ sed -e '/#DEFAULT_ED/ a DEFAULT_EDITOR:vi'       \
     -i /etc/lynx/lynx.cfg
 sed -e '/#PERSIST/    a PERSISTENT_COOKIES:TRUE' \
     -i /etc/lynx/lynx.cfg
+

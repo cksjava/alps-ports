@@ -14,13 +14,11 @@
   "disk_space": "11 MB (with tests)",
   "build_time": "0.3 SBU (with tests)",
   "dependencies": [
-    "glib",
-    "libgcrypt",
-    "gnutls",
-    "vala"
+    "glib2",
+    "gnome-keyring"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 917,
-  "group_order": 0
+  "order": 875,
+  "group_order": 2
 }

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,10 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+rm -fv /usr/lib/systemd/user/tracker-xdg-portal-3.service
+sed -e "s/'generate'/&, '--no-namespace-dir'/"         \
+    -e "/--output-dir/s/@OUTPUT@/&\/tinysparql-3.11.1/" \
+    -i docs/reference/meson.build
 mkdir build &&
 cd    build &&
 
@@ -50,3 +57,4 @@ ninja install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

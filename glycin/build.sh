@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,8 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+cargo vendor &&
+patch -Np1 -i ../glycin-2.1.5-xorg_prefix-1.patch
 sed -e "s/get_option('libglycin-gtk4')/(& or get_option('glycin-thumbnailer'))/" \
     -i meson.build
 mkdir build &&
@@ -46,7 +51,13 @@ meson setup --prefix=/usr           \
             -D libglycin-gtk4=false \
             -D tests=false ..       &&
 ninja
+sed "/install_dir:.*doc/s|,$| / 'glycin-' + meson.project_version()&|" \
+    -i ../libglycin/meson.build &&
+
+meson configure -D capi_docs=true &&
+ninja
 ninja install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

@@ -1,0 +1,31 @@
+{
+  "name": "LWP (libwww-perl-6.83)",
+  "version": "",
+  "title": "LWP (libwww-perl-6.83)",
+  "anchor": "perl-libwww-perl",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The libwww-perl collection is a set of Perl modules which provides a simple and consistent application programming interface (API) to the World-Wide Web. The main focus of the library is to provide classes and functions that allow you to write WWW clients. The library also contains modules that are of more general use and even classes that help you implement simple HTTP servers.",
+  "download": "https://www.cpan.org/authors/id/O/OA/OALDERS/libwww-perl-6.83.tar.gz",
+  "archive": "libwww-perl-6.83.tar.gz",
+  "md5": "dfca8f917f4727ddbdf3d81d0979172f",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-file-listing",
+    "perl-http-cookiejar",
+    "perl-http-cookies",
+    "perl-http-daemon",
+    "perl-http-negotiate",
+    "perl-html-parser",
+    "perl-net-http",
+    "perl-try-tiny",
+    "perl-www-robotrules"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 281,
+  "group_order": 40
+}

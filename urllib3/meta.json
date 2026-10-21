@@ -3,8 +3,8 @@
   "version": "2.7.0",
   "title": "Urllib3-2.7.0",
   "anchor": "urllib3",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Urllib3 module is a powerful, user-friendly HTTP client for Python. It brings many critical features that are missing from the Python standard libraries.",
   "download": "https://files.pythonhosted.org/packages/source/u/urllib3/urllib3-2.7.0.tar.gz",
@@ -18,6 +18,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 508,
-  "group_order": 39
+  "order": 482,
+  "group_order": 241
 }

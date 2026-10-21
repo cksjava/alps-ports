@@ -1,0 +1,21 @@
+{
+  "name": "Variable::Magic",
+  "version": "0.64",
+  "title": "Variable::Magic-0.64",
+  "anchor": "perl-variable-magic",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Magic is Perl's way of enhancing variables. With this module, you can add your own magic to any variable.",
+  "download": "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Variable-Magic-0.64.tar.gz",
+  "archive": "Variable-Magic-0.64.tar.gz",
+  "md5": "957d53fc6614deb593aa6d7cf96d713a",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 400,
+  "group_order": 159
+}

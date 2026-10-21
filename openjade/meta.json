@@ -4,7 +4,7 @@
   "title": "OpenJade-1.3.2",
   "anchor": "openjade",
   "page_type": "single",
-  "group": "standard-generalized-markup-language",
+  "group": "standard-generalized-markup-language-sgml",
   "chapter": "Chapter 48. Standard Generalized Markup Language (SGML)",
   "summary": "The OpenJade package contains a DSSSL engine. This is useful for SGML and XML transformations into RTF, TeX, SGML and XML.",
   "download": "https://downloads.sourceforge.net/openjade/openjade-1.3.2.tar.gz",
@@ -18,6 +18,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1158,
-  "group_order": 0
+  "order": 1050,
+  "group_order": 4
 }

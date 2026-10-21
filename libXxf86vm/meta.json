@@ -1,0 +1,24 @@
+{
+  "name": "libXxf86vm",
+  "version": "1.1.7",
+  "title": "libXxf86vm-1.1.7",
+  "anchor": "libXxf86vm",
+  "page_type": "batch",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "libXxf86vm-1.1.7 is built from the x7lib page.",
+  "download": "https://www.x.org/pub/individual/lib/libXxf86vm-1.1.7.tar.xz",
+  "archive": "libXxf86vm-1.1.7.tar.xz",
+  "md5": "bea9e3707fae6c3275769e771006fa0f",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "fontconfig",
+    "libxcb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 585,
+  "group_order": 33
+}

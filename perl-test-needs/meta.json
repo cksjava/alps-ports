@@ -1,0 +1,21 @@
+{
+  "name": "Test::Needs",
+  "version": "0.002010",
+  "title": "Test::Needs-0.002010",
+  "anchor": "perl-test-needs",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Test::Needs skips tests if a requested module is not present.",
+  "download": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Test-Needs-0.002010.tar.gz",
+  "archive": "Test-Needs-0.002010.tar.gz",
+  "md5": "2b3d10946001561297624e7668f09c26",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 386,
+  "group_order": 145
+}

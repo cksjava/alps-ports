@@ -13,11 +13,9 @@
   "size": "1.9 MB",
   "disk_space": "35 MB (additional 3 MB for the tests and additional 2 MB for optional PDF and Postscript documentation)",
   "build_time": "0.3 SBU (additional 3.6 SBU for the tests)",
-  "dependencies": [
-    "lvm2"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
   "order": 33,
-  "group_order": 0
+  "group_order": 8
 }

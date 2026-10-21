@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -38,11 +41,14 @@ cd "$srcdir"
 
 sed -i "15,23 s/^/#/" setup.py
 make PREFIX=/usr install
-install -v -d -m755 /etc/mercurial &&
-cat > /etc/mercurial/hgrc << "EOF"
-[web]
-cacerts = /etc/pki/tls/certs/ca-bundle.crt
+pushd tests  &&
+  ./run-tests.py --with-hg /usr/bin/hg --retest
+popd
+cat >> ~/.hgrc << "EOF"
+[ui]
+username = <user_name> <user@mail>
 EOF
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

@@ -14,13 +14,10 @@
   "disk_space": "73 MB",
   "build_time": "0.2 SBU (Using parallelism=4)",
   "dependencies": [
-    "xorg-libraries",
-    "hicolor-icon-theme",
-    "libjpeg-turbo",
-    "libpng"
+    "x7lib"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 705,
-  "group_order": 0
+  "order": 676,
+  "group_order": 6
 }

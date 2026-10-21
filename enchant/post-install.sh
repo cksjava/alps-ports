@@ -19,3 +19,4 @@ EOF
 
 enchant-2 -d en_GB -l /tmp/test-enchant.txt &&
 enchant-2 -d en_GB -a /tmp/test-enchant.txt
+

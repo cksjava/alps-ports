@@ -12,7 +12,8 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-sed '1s@^.*$@#!/usr/bin/python3@' \
-    -i ./bin/default/source4/scripting/bin/*.inst
+install -dvm 755 /usr/lib/cups/backend &&
+ln -v -sf /usr/bin/smbspool /usr/lib/cups/backend/smb
 systemctl enable smb.service
 systemctl enable winbind.service
+

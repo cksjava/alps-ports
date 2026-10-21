@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
-  "summary": "The Garcon package contains a freedesktop.org compliant menu implementation based on GLib and GIO.",
+  "summary": "The Garcon package contains a freedesktop.org compliant menu implementation based on GLib and GIO .",
   "download": "https://archive.xfce.org/src/xfce/garcon/4.20/garcon-4.20.0.tar.bz2",
   "archive": "garcon-4.20.0.tar.bz2",
   "md5": "fe17e9cb15a62013e0086183a446e89e",
@@ -19,6 +19,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 981,
-  "group_order": 0
+  "order": 921,
+  "group_order": 4
 }

@@ -1,0 +1,21 @@
+{
+  "name": "Regexp::Common",
+  "version": "2024080801",
+  "title": "Regexp::Common-2024080801",
+  "anchor": "perl-regexp-common",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Regexp::Common provides commonly requested regular expressions.",
+  "download": "https://www.cpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2024080801.tar.gz",
+  "archive": "Regexp-Common-2024080801.tar.gz",
+  "md5": "73d4b4b2a0690f9ab573d54a69c22aee",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 291,
+  "group_order": 50
+}

@@ -14,12 +14,11 @@
   "disk_space": "30 MB (with tests, add 62 MB for doxygen docs)",
   "build_time": "0.2 SBU (with tests, add 1.4 SBU for doxygen docs)",
   "dependencies": [
-    "libxau",
-    "xcb-proto",
-    "libxdmcp"
+    "libXau",
+    "xcb-proto"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 590,
-  "group_order": 0
+  "order": 557,
+  "group_order": 5
 }

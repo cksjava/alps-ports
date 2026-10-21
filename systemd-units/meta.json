@@ -1,0 +1,21 @@
+{
+  "name": "BLFS Systemd Units",
+  "version": "",
+  "title": "BLFS Systemd Units",
+  "anchor": "systemd-units",
+  "page_type": "single",
+  "group": "important-information",
+  "chapter": "Chapter 2. Important Information",
+  "summary": "The BLFS Systemd Units package contains the systemd unit files that are used throughout the book.",
+  "download": "https://www.linuxfromscratch.org/blfs/downloads/13.1-systemd/blfs-systemd-units-20251204.tar.xz",
+  "archive": "blfs-systemd-units-20251204.tar.xz",
+  "md5": "",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 1,
+  "group_order": 0
+}

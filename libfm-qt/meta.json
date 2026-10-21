@@ -17,10 +17,10 @@
     "cmake",
     "libexif",
     "menu-cache",
-    "qt"
+    "qt6"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1018,
-  "group_order": 0
+  "order": 944,
+  "group_order": 12
 }

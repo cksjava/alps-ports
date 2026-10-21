@@ -16,14 +16,11 @@
   "dependencies": [
     "geocode-glib",
     "gweather-locations",
-    "libsoup",
-    "pygobject",
-    "glib",
-    "libxml2",
-    "vala"
+    "libsoup3",
+    "pygobject3"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 931,
-  "group_order": 0
+  "order": 886,
+  "group_order": 13
 }

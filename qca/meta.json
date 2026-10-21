@@ -16,11 +16,11 @@
   "dependencies": [
     "make-ca",
     "cmake",
-    "qt",
-    "which-and-alternatives"
+    "qt6",
+    "which"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 141,
-  "group_order": 0
+  "order": 129,
+  "group_order": 80
 }

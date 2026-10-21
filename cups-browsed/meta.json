@@ -14,12 +14,12 @@
   "disk_space": "5.3 MB",
   "build_time": "less than 0.1 SBU (Using parallelism=4)",
   "dependencies": [
-    "avahi-rc5",
+    "avahi",
     "libcupsfilters",
     "libppd"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1146,
-  "group_order": 0
+  "order": 1039,
+  "group_order": 1
 }

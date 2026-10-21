@@ -3,8 +3,8 @@
   "version": "1.10.0",
   "title": "Xorg Synaptics Driver-1.10.0",
   "anchor": "xorg-synaptics-driver",
-  "page_type": "nested",
-  "group": "xorg-input-drivers",
+  "page_type": "multi",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The Xorg Synaptics Driver package contains the X.Org Input Driver, support programs and SDK for Synaptics touchpads. Even though the evdev driver can handle touchpads very well, this driver is required if you want to use advanced features like multi tapping, scrolling with touchpad, turning the touchpad off while typing, etc.",
   "download": "https://www.x.org/pub/individual/driver/xf86-input-synaptics-1.10.0.tar.xz",
@@ -19,6 +19,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 684,
-  "group_order": 5
+  "order": 654,
+  "group_order": 102
 }

@@ -4,7 +4,7 @@
   "title": "kdenlive-26.04.3",
   "anchor": "kdenlive",
   "page_type": "single",
-  "group": "kde-frameworks-based-applications",
+  "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "The Kdenlive package is a KDE Frameworks-based video editor that can handle numerous video and audio codecs.",
   "download": "https://download.kde.org/stable/release-service/26.04.3/src/kdenlive-26.04.3.tar.xz",
@@ -16,16 +16,13 @@
   "dependencies": [
     "git",
     "kddockwidgets",
-    "building-kde-frameworks",
+    "frameworks6",
     "mlt",
     "opentimelineio",
-    "v4l-utils",
-    "breeze-icons"
+    "v4l-utils"
   ],
-  "build_before": [
-    "make-ca"
-  ],
+  "build_before": [],
   "build_after": [],
-  "order": 838,
-  "group_order": 0
+  "order": 795,
+  "group_order": 3
 }

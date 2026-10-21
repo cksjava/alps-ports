@@ -1,0 +1,23 @@
+{
+  "name": "Qt",
+  "version": "6.11.2",
+  "title": "Qt-6.11.2",
+  "anchor": "qt6",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "Qt6 is a cross-platform application framework that is widely used for developing application software with a graphical user interface (GUI) (in which cases Qt6 is classified as a widget toolkit), and also used for developing non-GUI programs such as command-line tools and consoles for servers.",
+  "download": "https://download.qt.io/archive/qt/6.11/6.11.2/single/qt-everywhere-src-6.11.2.tar.xz",
+  "archive": "qt-everywhere-src-6.11.2.tar.xz",
+  "md5": "669c1f3a41c37fdda389094882044d7a",
+  "size": "972 MB",
+  "disk_space": "48 GB (504 MB installed)",
+  "build_time": "14 SBU (using parallelism=8)",
+  "dependencies": [
+    "x7lib"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 705,
+  "group_order": 35
+}

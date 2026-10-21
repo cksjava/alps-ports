@@ -16,23 +16,16 @@
   "dependencies": [
     "blueprint-compiler",
     "gexiv2",
-    "libglycin-gtk4-from-glycin",
+    "glycin-gtk4",
     "gnome-autoar",
     "gnome-desktop",
     "libadwaita",
     "libportal",
     "libseccomp",
-    "tinysparql",
-    "desktop-file-utils",
-    "glib",
-    "gst-plugins-base",
-    "libcloudproviders",
-    "localsearch",
-    "adwaita-icon-theme",
-    "gvfs"
+    "tinysparql"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 943,
-  "group_order": 0
+  "order": 895,
+  "group_order": 22
 }

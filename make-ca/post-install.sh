@@ -12,7 +12,6 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-/usr/sbin/make-ca -g
 openssl x509 -in /etc/ssl/certs/Makebelieve_CA_Root.pem \
              -text \
              -fingerprint \
@@ -22,3 +21,13 @@ openssl x509 -in /etc/ssl/certs/Makebelieve_CA_Root.pem \
              -addreject codeSigning \
        > /etc/ssl/local/Disabled_Makebelieve_CA_Root.pem &&
 /usr/sbin/make-ca -r
+export _PIP_STANDALONE_CERT=/etc/pki/tls/certs/ca-bundle.crt
+mkdir -pv /etc/profile.d &&
+cat > /etc/profile.d/pythoncerts.sh << "EOF"
+# Begin /etc/profile.d/pythoncerts.sh
+
+export _PIP_STANDALONE_CERT=/etc/pki/tls/certs/ca-bundle.crt
+
+# End /etc/profile.d/pythoncerts.sh
+EOF
+

@@ -12,4 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-chown -Rv root:root $XORG_PREFIX/share/doc/libxcb-1.17.0
+# This package has no post-install commands.
+

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -37,6 +40,10 @@ tar -xf "$tarball"
 cd "$srcdir"
 
 make install
+ln -snfv ../vim/vim92/doc /usr/share/doc/vim-9.2.1025
+make -C src installruntime &&
+vim -c ":helptags /usr/share/doc/vim-9.2.1025" -c ":q"
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

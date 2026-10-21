@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -44,7 +47,13 @@ sed -i 's|$(PACKAGE)/doc|doc/$(PACKAGE)-$(VERSION)|' \
             --without-gimp2  \
             --without-gimp2-as-gutenprint &&
 make
-make install
+make install &&
+install -v -m755 -d /usr/share/doc/gutenprint-5.3.5/api/gutenprint{,ui2} &&
+install -v -m644    doc/gutenprint/html/* \
+                    /usr/share/doc/gutenprint-5.3.5/api/gutenprint &&
+install -v -m644    doc/gutenprintui2/html/* \
+                    /usr/share/doc/gutenprint-5.3.5/api/gutenprintui2
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

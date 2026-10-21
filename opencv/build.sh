@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,7 +29,17 @@ fi
 
 echo "=== opencv-4.13.0 ==="
 cd "$ARYA_SOURCES"
+tarball="opencv-4.13.0.tar.gz"
+if [[ ! -f "$tarball" ]]; then
+    echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
+    exit 1
+fi
+srcdir=$(tar -tf "$tarball" | awk -F/ 'NR==1 { print $1 }')
+rm -rf "$srcdir"
+tar -xf "$tarball"
+cd "$srcdir"
 
+patch -Np1 -i ../opencv-4.13.0-ffmpeg-9.0.patch
 tar -xf ../opencv_contrib-4.13.0.tar.gz
 mkdir build &&
 cd    build &&
@@ -44,3 +57,7 @@ cmake -D CMAKE_INSTALL_PREFIX=/usr      \
       -W no-author  ..                  &&
 make
 make install
+
+cd "$ARYA_SOURCES"
+rm -rf "$srcdir"
+

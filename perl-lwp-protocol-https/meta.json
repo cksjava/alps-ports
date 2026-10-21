@@ -1,0 +1,25 @@
+{
+  "name": "LWP::Protocol::https",
+  "version": "6.17",
+  "title": "LWP::Protocol::https-6.17",
+  "anchor": "perl-lwp-protocol-https",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "LWP::Protocol::https provides https support for LWP::UserAgent (i.e. libwww-perl-6.83 ). Once the module is installed LWP is able to access sites using HTTP over SSL/TLS.",
+  "download": "https://www.cpan.org/authors/id/O/OA/OALDERS/LWP-Protocol-https-6.17.tar.gz",
+  "archive": "LWP-Protocol-https-6.17.tar.gz",
+  "md5": "ec336ad8e2cd3dabf8db3d31f40beb80",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-io-socket-ssl",
+    "perl-libwww-perl",
+    "make-ca"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 285,
+  "group_order": 44
+}

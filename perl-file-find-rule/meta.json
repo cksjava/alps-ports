@@ -1,0 +1,24 @@
+{
+  "name": "File::Find::Rule",
+  "version": "0.35",
+  "title": "File::Find::Rule-0.35",
+  "anchor": "perl-file-find-rule",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "File::Find::Rule is a friendlier interface to File::Find. It allows you to build rules which specify the desired files and directories.",
+  "download": "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/File-Find-Rule-0.35.tar.gz",
+  "archive": "File-Find-Rule-0.35.tar.gz",
+  "md5": "a4820609e21b6b85dba26d9e94523d0a",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-number-compare",
+    "perl-text-glob"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 340,
+  "group_order": 99
+}

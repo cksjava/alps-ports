@@ -16,13 +16,10 @@
   "dependencies": [
     "exo",
     "libxfce4windowing",
-    "libwnck",
-    "libnotify",
-    "startup-notification",
-    "thunar"
+    "libwnck"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 992,
-  "group_order": 0
+  "order": 926,
+  "group_order": 9
 }

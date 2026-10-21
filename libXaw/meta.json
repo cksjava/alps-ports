@@ -1,0 +1,24 @@
+{
+  "name": "libXaw",
+  "version": "1.0.16",
+  "title": "libXaw-1.0.16",
+  "anchor": "libXaw",
+  "page_type": "batch",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "libXaw-1.0.16 is built from the x7lib page.",
+  "download": "https://www.x.org/pub/individual/lib/libXaw-1.0.16.tar.xz",
+  "archive": "libXaw-1.0.16.tar.xz",
+  "md5": "2a9793533224f92ddad256492265dd82",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "fontconfig",
+    "libxcb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 568,
+  "group_order": 16
+}

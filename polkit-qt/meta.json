@@ -16,10 +16,10 @@
   "dependencies": [
     "cmake",
     "polkit",
-    "qt"
+    "qt6"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 764,
-  "group_order": 0
+  "order": 718,
+  "group_order": 1
 }

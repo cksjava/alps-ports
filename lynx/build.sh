@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,7 +39,20 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+./configure --prefix=/usr           \
+            --sysconfdir=/etc/lynx  \
+            --with-zlib             \
+            --with-bzlib            \
+            --with-ssl              \
+            --with-screen=ncursesw  \
+            --enable-ipv6           \
+            --enable-locale-charset \
+            --enable-nls            \
+            --datadir=/usr/share/doc/lynx-2.9.3 &&
 make
+make install-full
+chgrp -v -R root /usr/share/doc/lynx-2.9.3/lynx_doc
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

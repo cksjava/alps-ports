@@ -15,13 +15,10 @@
   "build_time": "0.9 SBU (with tests, both with parallelism=4)",
   "dependencies": [
     "babl",
-    "json-glib",
-    "glib",
-    "pygments",
-    "pygobject"
+    "json-glib"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 164,
-  "group_order": 0
+  "order": 148,
+  "group_order": 6
 }

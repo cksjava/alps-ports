@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,7 +29,21 @@ fi
 
 echo "=== lightdm-1.33.1 ==="
 cd "$ARYA_SOURCES"
+tarball="lightdm-1.33.1.tar.gz"
+if [[ ! -f "$tarball" ]]; then
+    echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
+    exit 1
+fi
+srcdir=$(tar -tf "$tarball" | awk -F/ 'NR==1 { print $1 }')
+rm -rf "$srcdir"
+tar -xf "$tarball"
+cd "$srcdir"
 
+groupadd -g 65 lightdm       &&
+useradd  -c "Lightdm Daemon" \
+         -d /var/lib/lightdm \
+         -u 65 -g lightdm    \
+         -s /bin/false lightdm
 sed -i '/YELP_HELP/d' configure.ac help/Makefile.am    &&
 
 autoreconf -fiv                                        &&
@@ -64,6 +81,10 @@ cd lightdm-gtk-greeter-2.0.9                &&
             --disable-static              \
             --disable-maintainer-mode     &&
 make
-make install
+make install &&
+mv -v /usr/share/doc/lightdm-gtk-greeter{,-2.0.9}
 ln -sf /opt/xorg/bin/Xorg /usr/bin/X
-make install-lightdm
+
+cd "$ARYA_SOURCES"
+rm -rf "$srcdir"
+

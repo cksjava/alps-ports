@@ -3,8 +3,8 @@
   "version": "9.1.0",
   "title": "Sphinx-9.1.0",
   "anchor": "sphinx",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Sphinx package is a set of tools for translating some structured text formats into pretty documentation in various formats.",
   "download": "https://files.pythonhosted.org/packages/source/s/sphinx/sphinx-9.1.0.tar.gz",
@@ -22,15 +22,15 @@
     "requests",
     "roman-numerals",
     "snowballstemmer",
-    "sphinxcontrib-applehelp",
-    "sphinxcontrib-devhelp",
-    "sphinxcontrib-htmlhelp",
-    "sphinxcontrib-jsmath",
-    "sphinxcontrib-qthelp",
-    "sphinxcontrib-serializinghtml"
+    "sc-applehelp",
+    "sc-devhelp",
+    "sc-htmlhelp",
+    "sc-jsmath",
+    "sc-qthelp",
+    "sc-serializinghtml"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 468,
-  "group_order": 34
+  "order": 442,
+  "group_order": 201
 }

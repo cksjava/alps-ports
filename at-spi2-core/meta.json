@@ -15,12 +15,12 @@
   "build_time": "0.2 SBU (with tests)",
   "dependencies": [
     "dbus",
-    "glib",
+    "glib2",
     "gsettings-desktop-schemas",
-    "xorg-libraries"
+    "x7lib"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 700,
-  "group_order": 0
+  "order": 671,
+  "group_order": 1
 }

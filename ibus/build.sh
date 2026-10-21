@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -37,6 +40,8 @@ tar -xf "$tarball"
 cd "$srcdir"
 
 python3 -m zipfile -e ../UCD.zip /usr/share/unicode/ucd
+sed -e 's@/desktop/ibus@/org/freedesktop/ibus@g' \
+    -i data/dconf/org.freedesktop.ibus.gschema.xml
 if ! [ -e /usr/bin/gtkdocize ]; then
   sed '/docs/d;/GTK_DOC/d' -i Makefile.am configure.ac
 fi
@@ -53,3 +58,4 @@ make install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

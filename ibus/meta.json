@@ -15,15 +15,10 @@
   "build_time": "0.5 SBU (Using parallelism=4; add 1.4 SBU for tests)",
   "dependencies": [
     "iso-codes",
-    "vala",
-    "dconf-dconf-editor",
-    "glib",
-    "gtk3",
-    "gtk4",
-    "libnotify"
+    "vala"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 212,
-  "group_order": 0
+  "order": 194,
+  "group_order": 8
 }

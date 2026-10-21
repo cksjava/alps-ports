@@ -3,10 +3,10 @@
   "version": "3.1.1",
   "title": "Snowballstemmer-3.1.1",
   "anchor": "snowballstemmer",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
-  "summary": "The Snowballstemmer package is a small string processing language for creating stemming algorithms for use in Information Retrieval, plus a collection of stemming algorithms implemented using it. Stemming maps different forms of the same word to a common “stem” — for example, the English stemmer maps connection, connections, connective, connected, and connecting to connect. Running a search for connected would also find documents which only have the other forms.",
+  "summary": "The Snowballstemmer package is a small string processing language for creating stemming algorithms for use in Information Retrieval, plus a collection of stemming algorithms implemented using it. Stemming maps different forms of the same word to a common “ stem ” — for example, the English stemmer maps connection , connections , connective , connected , and connecting to connect . Running a search for connected would also find documents which only have the other forms.",
   "download": "https://files.pythonhosted.org/packages/source/s/snowballstemmer/snowballstemmer-3.1.1.tar.gz",
   "archive": "snowballstemmer-3.1.1.tar.gz",
   "md5": "6f838ab3e97baba9ed72ef64966ba4a0",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 497,
-  "group_order": 28
+  "order": 471,
+  "group_order": 230
 }

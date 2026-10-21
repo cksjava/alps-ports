@@ -1,0 +1,21 @@
+{
+  "name": "ExtUtils::InstallPaths",
+  "version": "0.015",
+  "title": "ExtUtils::InstallPaths-0.015",
+  "anchor": "perl-extutils-installpaths",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "ExtUtils::InstallPaths is a tool to resolve perl installation paths.",
+  "download": "https://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-InstallPaths-0.015.tar.gz",
+  "archive": "ExtUtils-InstallPaths-0.015.tar.gz",
+  "md5": "70f17a346e92560b5f5692119edbb161",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 335,
+  "group_order": 94
+}

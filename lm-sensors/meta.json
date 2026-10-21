@@ -1,6 +1,6 @@
 {
-  "name": "lm-sensors",
-  "version": "3-6-2",
+  "name": "lm-sensors-3-6",
+  "version": "2",
   "title": "lm-sensors-3-6-2",
   "anchor": "lm_sensors",
   "page_type": "single",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 262,
-  "group_order": 0
+  "order": 235,
+  "group_order": 30
 }

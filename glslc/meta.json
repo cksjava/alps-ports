@@ -1,0 +1,25 @@
+{
+  "name": "glslc from shaderc",
+  "version": "2026.3",
+  "title": "glslc from shaderc-2026.3",
+  "anchor": "glslc",
+  "page_type": "single",
+  "group": "general-utilities",
+  "chapter": "Chapter 11. General Utilities",
+  "summary": "The glslc program is Google's command line compiler for OpenGL Shading Language/High Level Shading Language (GLSL/HLSL) to Standard Portable Intermediate Representation (SPIR-V).",
+  "download": "https://github.com/google/shaderc/archive/v2026.3/shaderc-2026.3.tar.gz",
+  "archive": "shaderc-2026.3.tar.gz",
+  "md5": "5ce02d42b02a77e6165dbc476d1a334c",
+  "size": "228 KB",
+  "disk_space": "3.9 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "cmake",
+    "glslang",
+    "spirv-tools"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 190,
+  "group_order": 4
+}

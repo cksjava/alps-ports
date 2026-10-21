@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -50,6 +53,8 @@ install -v -m644 cron/sysstat-rotate.service  /usr/lib/systemd/system/sysstat-ro
 install -v -m644 cron/sysstat-rotate.timer    /usr/lib/systemd/system/sysstat-rotate.timer    &&
 install -v -m644 cron/sysstat-summary.service /usr/lib/systemd/system/sysstat-summary.service &&
 install -v -m644 cron/sysstat-summary.timer   /usr/lib/systemd/system/sysstat-summary.timer
+sed -i "/^Also=/d" /usr/lib/systemd/system/sysstat.service
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

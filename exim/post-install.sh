@@ -12,7 +12,6 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-chmod -v a+wt /var/mail
 cat >> /etc/aliases << "EOF"
 postmaster: root
 MAILER-DAEMON: root
@@ -27,3 +26,5 @@ session include system-session
 
 # End /etc/pam.d/exim
 EOF
+make install-exim
+

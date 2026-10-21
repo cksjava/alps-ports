@@ -15,14 +15,14 @@
   "build_time": "0.1 SBU",
   "dependencies": [
     "gtk3",
-    "little-cms",
+    "lcms2",
     "libarchive",
-    "libjpeg-turbo",
+    "libjpeg",
     "tiff",
     "libxslt"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 176,
-  "group_order": 0
+  "order": 161,
+  "group_order": 19
 }

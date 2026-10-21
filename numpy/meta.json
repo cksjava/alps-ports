@@ -3,8 +3,8 @@
   "version": "2.5.2",
   "title": "NumPy-2.5.2",
   "anchor": "numpy",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "NumPy is the fundamental package for scientific computing with Python.",
   "download": "https://files.pythonhosted.org/packages/source/n/numpy/numpy-2.5.2.tar.gz",
@@ -15,11 +15,11 @@
   "build_time": "0.8 SBU (add 0.9 SBU for tests)",
   "dependencies": [
     "cython",
-    "meson-python",
+    "meson_python",
     "pyproject-metadata"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 450,
-  "group_order": 16
+  "order": 424,
+  "group_order": 183
 }

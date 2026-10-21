@@ -1,0 +1,23 @@
+{
+  "name": "PyGObject",
+  "version": "3.56.3",
+  "title": "PyGObject-3.56.3",
+  "anchor": "pygobject3",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "PyGObject3 provides Python bindings to the GObject class from GLib .",
+  "download": "https://download.gnome.org/sources/pygobject/3.56/pygobject-3.56.3.tar.gz",
+  "archive": "pygobject-3.56.3.tar.gz",
+  "md5": "7fe8fa9ff801a010eca0f0c79f59232b",
+  "size": "1.4 MB",
+  "disk_space": "15 MB (with tests)",
+  "build_time": "0.2 SBU (with tests)",
+  "dependencies": [
+    "glib2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 431,
+  "group_order": 190
+}

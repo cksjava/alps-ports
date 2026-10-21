@@ -3,21 +3,21 @@
   "version": "1.0.4",
   "title": "font-bh-type1-1.0.4",
   "anchor": "font-bh-type1",
-  "page_type": "compound",
-  "group": "xorg-fonts",
+  "page_type": "batch",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
-  "summary": "The Xorg font packages provide some scalable fonts and supporting packages for Xorg applications. Many people will want to install other TTF or OTF fonts in addition to, or instead of, these. Some are listed at the section called “TTF and OTF fonts”.",
-  "download": "https://www.x.org/pub/individual/font/",
+  "summary": "font-bh-type1-1.0.4 is built from the x7font page.",
+  "download": "https://www.x.org/pub/individual/font/font-bh-type1-1.0.4.tar.xz",
   "archive": "font-bh-type1-1.0.4.tar.xz",
   "md5": "51a17c981275439b85e15430a3d711ee",
-  "size": "3.0 MB",
-  "disk_space": "8.8 MB",
-  "build_time": "0.1 SBU",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
   "dependencies": [
     "xcursor-themes"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 673,
-  "group_order": 6
+  "order": 643,
+  "group_order": 91
 }

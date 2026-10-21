@@ -14,11 +14,10 @@
   "disk_space": "160 MB (add 16 MB for tests)",
   "build_time": "0.4 SBU (add 0.9 SBU for tests; both using parallelism=4)",
   "dependencies": [
-    "glib",
-    "graphviz"
+    "glib2"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 521,
-  "group_order": 0
+  "order": 494,
+  "group_order": 253
 }

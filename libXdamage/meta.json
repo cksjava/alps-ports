@@ -1,0 +1,24 @@
+{
+  "name": "libXdamage",
+  "version": "1.1.7",
+  "title": "libXdamage-1.1.7",
+  "anchor": "libXdamage",
+  "page_type": "batch",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "libXdamage-1.1.7 is built from the x7lib page.",
+  "download": "https://www.x.org/pub/individual/lib/libXdamage-1.1.7.tar.xz",
+  "archive": "libXdamage-1.1.7.tar.xz",
+  "md5": "72bb73f2a07f81784ad69a39d7df1da2",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "fontconfig",
+    "libxcb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 573,
+  "group_order": 21
+}

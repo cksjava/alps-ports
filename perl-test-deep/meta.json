@@ -1,0 +1,21 @@
+{
+  "name": "Test::Deep",
+  "version": "1.205",
+  "title": "Test::Deep-1.205",
+  "anchor": "perl-test-deep",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Test::Deep gives you very flexible ways to check that the result you got is the result you were expecting.",
+  "download": "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.205.tar.gz",
+  "archive": "Test-Deep-1.205.tar.gz",
+  "md5": "02a83480ffeaf93e7498c4dbd5b507b1",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 380,
+  "group_order": 139
+}

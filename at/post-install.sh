@@ -12,4 +12,15 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-# This package has no post-install commands.
+cat > /etc/pam.d/atd << "EOF"
+# Begin /etc/pam.d/atd
+
+auth     required pam_unix.so
+account  required pam_unix.so
+password required pam_unix.so
+session  required pam_unix.so
+
+# End /etc/pam.d/atd
+EOF
+systemctl enable atd
+

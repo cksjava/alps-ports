@@ -13,11 +13,9 @@
   "size": "296 KB",
   "disk_space": "2.1 MB",
   "build_time": "less than 0.1 SBU",
-  "dependencies": [
-    "chapter-21-mail-server-software"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 574,
-  "group_order": 0
+  "order": 540,
+  "group_order": 3
 }

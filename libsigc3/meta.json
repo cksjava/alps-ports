@@ -13,12 +13,9 @@
   "size": "972 KB",
   "disk_space": "12 MB (with tests)",
   "build_time": "0.4 SBU (with tests)",
-  "dependencies": [
-    "boost",
-    "libxslt"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 114,
-  "group_order": 0
+  "order": 105,
+  "group_order": 56
 }

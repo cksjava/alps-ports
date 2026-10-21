@@ -3,10 +3,10 @@
   "version": "0.5.1",
   "title": "webencodings-0.5.1",
   "anchor": "webencodings",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
-  "summary": "The webencodings module is a Python implementation of the WHATWG Encoding standard.",
+  "summary": "The webencodings module is a Python implementation of the WHATWG Encoding standard .",
   "download": "https://files.pythonhosted.org/packages/source/w/webencodings/webencodings-0.5.1.tar.gz",
   "archive": "webencodings-0.5.1.tar.gz",
   "md5": "32f6e261d52e57bf7e1c4d41546d15b8",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 511,
-  "group_order": 42
+  "order": 485,
+  "group_order": 244
 }

@@ -13,12 +13,9 @@
   "size": "14 MB",
   "disk_space": "651 MB (with tests)",
   "build_time": "1.6 SBU (add 2.5 SBU for tests; both with parallelism=4)",
-  "dependencies": [
-    "apache",
-    "libxml2"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 432,
-  "group_order": 0
+  "order": 406,
+  "group_order": 165
 }

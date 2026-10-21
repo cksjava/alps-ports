@@ -3,8 +3,8 @@
   "version": "0.23",
   "title": "docutils-0.23",
   "anchor": "docutils",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "docutils is a set of Python modules and programs for processing plaintext docs into formats such as HTML, XML, or LaTeX.",
   "download": "https://files.pythonhosted.org/packages/source/d/docutils/docutils-0.23.tar.gz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 443,
-  "group_order": 9
+  "order": 417,
+  "group_order": 176
 }

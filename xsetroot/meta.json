@@ -3,16 +3,16 @@
   "version": "1.1.4",
   "title": "xsetroot-1.1.4",
   "anchor": "xsetroot",
-  "page_type": "compound",
-  "group": "xorg-applications",
+  "page_type": "batch",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
-  "summary": "The Xorg applications provide the expected applications available in previous X Window implementations.",
-  "download": "https://www.x.org/pub/individual/app/",
+  "summary": "xsetroot-1.1.4 is built from the x7app page.",
+  "download": "https://www.x.org/pub/individual/app/xsetroot-1.1.4.tar.xz",
   "archive": "xsetroot-1.1.4.tar.xz",
   "md5": "33c80b7744f9a452bf9e39ea7303650e",
-  "size": "4.9 MB",
-  "disk_space": "48 MB",
-  "build_time": "1.5 SBU (ignoring the time to download)",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
   "dependencies": [
     "libpng",
     "mesa",
@@ -21,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 661,
-  "group_order": 29
+  "order": 630,
+  "group_order": 78
 }

@@ -14,10 +14,10 @@
   "disk_space": "56 MB (Additional 8 MB for EN dictionary)",
   "build_time": "0.4 SBU",
   "dependencies": [
-    "which-and-alternatives"
+    "which"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 56,
-  "group_order": 0
+  "order": 52,
+  "group_order": 3
 }

@@ -14,13 +14,10 @@
   "disk_space": "171 MB (with tests and docs)",
   "build_time": "0.4 SBU (using parallelism=4; with tests and docs)",
   "dependencies": [
-    "cmake",
-    "glib",
-    "libxml2",
-    "vala"
+    "cmake"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 99,
-  "group_order": 0
+  "order": 91,
+  "group_order": 42
 }

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,7 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+sed -i '/cmptest/d' tests/CMakeLists.txt
 sed -i '/cmake_policy(SET CMP0012 NEW)/d' CMakeLists.txt &&
 sed -i 's/PythonInterp/Python3/' CMakeLists.txt          &&
 find . -name CMakeLists.txt | xargs sed -i 's/VERSION 2.8.0 FATAL_ERROR/VERSION 4.0.0/'
@@ -45,6 +49,13 @@ cd    build &&
 cmake -D CMAKE_INSTALL_PREFIX=/usr .. &&
 make
 make install
+install -v -d -m755 /usr/share/doc/graphite2-1.3.14 &&
+
+cp      -v -f    doc/{GTF,manual}.html \
+                    /usr/share/doc/graphite2-1.3.14 &&
+cp      -v -f    doc/{GTF,manual}.pdf \
+                    /usr/share/doc/graphite2-1.3.14
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

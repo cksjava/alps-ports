@@ -3,8 +3,8 @@
   "version": "2.68.0",
   "title": "sentry-sdk-2.68.0",
   "anchor": "sentry-sdk",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The sentry-sdk module is the official Python SDK for Sentry.io.",
   "download": "https://github.com/getsentry/sentry-python/releases/download/2.68.0/sentry_sdk-2.68.0.tar.gz",
@@ -19,6 +19,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 466,
-  "group_order": 32
+  "order": 440,
+  "group_order": 199
 }

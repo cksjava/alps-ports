@@ -3,21 +3,21 @@
   "version": "1.0.4",
   "title": "font-daewoo-misc-1.0.4",
   "anchor": "font-daewoo-misc",
-  "page_type": "compound",
-  "group": "xorg-legacy",
+  "page_type": "batch",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
-  "summary": "Xorg's ancestor (X11R1, in 1987) at first only provided bitmap fonts, with a tool (bdftopcf) to assist in their installation. With the introduction of xorg-server-1.19.0 and libXfont2 many people will not need them. There are still a few old packages which might require, or benefit from, these deprecated fonts and so the following packages are shown here.",
-  "download": "https://www.x.org/pub/individual/",
+  "summary": "font-daewoo-misc-1.0.4 is built from the x7legacy page.",
+  "download": "https://www.x.org/pub/individual/font/font-daewoo-misc-1.0.4.tar.xz",
   "archive": "font-daewoo-misc-1.0.4.tar.xz",
   "md5": "6300bc99a1e45fbbe6075b3de728c27f",
-  "size": "4.2 MB",
-  "disk_space": "30 MB",
-  "build_time": "0.3 SBU",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
   "dependencies": [
-    "xorg-fonts"
+    "x7font"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 694,
-  "group_order": 5
+  "order": 665,
+  "group_order": 113
 }

@@ -13,14 +13,9 @@
   "size": "5.4 MB",
   "disk_space": "49 MB",
   "build_time": "0.2 SBU",
-  "dependencies": [
-    "lynx",
-    "links",
-    "w3m",
-    "elinks"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 573,
-  "group_order": 0
+  "order": 539,
+  "group_order": 2
 }

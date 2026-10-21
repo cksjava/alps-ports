@@ -23,3 +23,4 @@ pathappend /opt/fop
 
 # End /etc/profile.d/fop.sh
 EOF
+

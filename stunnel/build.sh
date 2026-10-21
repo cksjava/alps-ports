@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,12 +39,17 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+groupadd -g 51 stunnel &&
+useradd -c "stunnel Daemon" -d /var/lib/stunnel \
+        -g stunnel -s /bin/false -u 51 stunnel
 ./configure --prefix=/usr        \
             --sysconfdir=/etc    \
             --localstatedir=/var &&
 make
+make docdir=/usr/share/doc/stunnel-5.80 install
 install -v -m644 tools/stunnel.service /usr/lib/systemd/system
 make cert
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

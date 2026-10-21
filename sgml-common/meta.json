@@ -4,9 +4,9 @@
   "title": "sgml-common-0.6.3",
   "anchor": "sgml-common",
   "page_type": "single",
-  "group": "standard-generalized-markup-language",
+  "group": "standard-generalized-markup-language-sgml",
   "chapter": "Chapter 48. Standard Generalized Markup Language (SGML)",
-  "summary": "The SGML Common package contains install-catalog. This is useful for creating and maintaining centralized SGML catalogs.",
+  "summary": "The SGML Common package contains install-catalog . This is useful for creating and maintaining centralized SGML catalogs.",
   "download": "https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz",
   "archive": "sgml-common-0.6.3.tgz",
   "md5": "103c9828f24820df86e55e7862e28974",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1154,
+  "order": 1046,
   "group_order": 0
 }

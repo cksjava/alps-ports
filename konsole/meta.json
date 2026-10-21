@@ -4,7 +4,7 @@
   "title": "Konsole-26.04.3",
   "anchor": "konsole",
   "page_type": "single",
-  "group": "kde-frameworks-based-applications",
+  "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "The Konsole package is a KDE Frameworks-based terminal emulator.",
   "download": "https://download.kde.org/stable/release-service/26.04.3/src/konsole-26.04.3.tar.xz",
@@ -14,10 +14,10 @@
   "disk_space": "78 MB",
   "build_time": "0.7 SBU (using parallelism=4)",
   "dependencies": [
-    "building-kde-frameworks"
+    "frameworks6"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 841,
-  "group_order": 0
+  "order": 798,
+  "group_order": 6
 }

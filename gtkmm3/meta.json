@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
-  "summary": "The Gtkmm package provides a C++ interface to GTK+ 3.",
+  "summary": "The Gtkmm package provides a C++ interface to GTK+ 3 .",
   "download": "https://download.gnome.org/sources/gtkmm/3.24/gtkmm-3.24.11.tar.xz",
   "archive": "gtkmm-3.24.11.tar.xz",
   "md5": "554154811621e1e411285dde09ca8913",
@@ -20,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 715,
-  "group_order": 0
+  "order": 686,
+  "group_order": 16
 }

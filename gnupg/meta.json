@@ -18,12 +18,10 @@
     "libgcrypt",
     "libksba",
     "npth",
-    "openldap",
-    "gnutls",
-    "pinentry"
+    "openldap"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 5,
-  "group_order": 0
+  "order": 6,
+  "group_order": 4
 }

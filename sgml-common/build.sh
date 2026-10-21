@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -40,6 +43,7 @@ patch -Np1 -i ../sgml-common-0.6.3-manpage-1.patch &&
 autoreconf -f -i
 ./configure --prefix=/usr --sysconfdir=/etc &&
 make
+make docdir=/usr/share/doc install &&
 
 install-catalog --add /etc/sgml/sgml-ent.cat \
     /usr/share/sgml/sgml-iso-entities-8879.1986/catalog &&
@@ -54,3 +58,4 @@ install-catalog --remove /etc/sgml/sgml-docbook.cat \
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

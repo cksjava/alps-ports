@@ -16,11 +16,12 @@
   "dependencies": [
     "cmake",
     "extra-cmake-modules",
-    "glib",
-    "qt"
+    "glib2",
+    "qt6",
+    "phonon-backend-vlc"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 762,
+  "order": 717,
   "group_order": 0
 }

@@ -12,5 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-chown -v root:wireshark /usr/bin/tshark &&
-chmod -v 6550 /usr/bin/tshark
+# This package has no post-install commands.
+

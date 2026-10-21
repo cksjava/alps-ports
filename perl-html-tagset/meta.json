@@ -1,0 +1,21 @@
+{
+  "name": "HTML::Tagset",
+  "version": "3.24",
+  "title": "HTML::Tagset-3.24",
+  "anchor": "perl-html-tagset",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "HTML::Tagset provides several data tables useful in parsing HTML.",
+  "download": "https://cpan.metacpan.org/authors/id/P/PE/PETDANCE/HTML-Tagset-3.24.tar.gz",
+  "archive": "HTML-Tagset-3.24.tar.gz",
+  "md5": "f8db8974f5e7fe7df2a58263a7b00552",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 344,
+  "group_order": 103
+}

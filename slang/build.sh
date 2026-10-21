@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -40,6 +43,10 @@ cd "$srcdir"
             --sysconfdir=/etc   \
             --with-readline=gnu &&
 make -j1 RPATH=
+make install_doc_dir=/usr/share/doc/slang-2.3.3   \
+     SLSH_DOC_DIR=/usr/share/doc/slang-2.3.3/slsh \
+     RPATH= install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,8 +39,13 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+./configure $XORG_CONFIG      \
+            --without-doxygen \
+            --docdir='${datadir}'/doc/libxcb-1.17.0 &&
 LC_ALL=en_US.UTF-8 make
 make install
+chown -Rv root:root $XORG_PREFIX/share/doc/libxcb-1.17.0
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

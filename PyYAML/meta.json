@@ -1,0 +1,21 @@
+{
+  "name": "PyYAML",
+  "version": "6.0.3",
+  "title": "PyYAML-6.0.3",
+  "anchor": "PyYAML",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "PyYAML is a Python module that implements the next generation YAML parser and emitter.",
+  "download": "https://files.pythonhosted.org/packages/source/P/PyYAML/pyyaml-6.0.3.tar.gz",
+  "archive": "pyyaml-6.0.3.tar.gz",
+  "md5": "dbc6f815cd75160ccf12e470be1c8d6e",
+  "size": "128 KB",
+  "disk_space": "8.6 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 436,
+  "group_order": 195
+}

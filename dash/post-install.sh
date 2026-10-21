@@ -15,3 +15,4 @@ fi
 cat >> /etc/shells << "EOF"
 /bin/dash
 EOF
+

@@ -1,0 +1,21 @@
+{
+  "name": "install-tl-unx",
+  "version": "",
+  "title": "install-tl-unx",
+  "anchor": "tl-installer",
+  "page_type": "single",
+  "group": "typesetting",
+  "chapter": "Chapter 51. Typesetting",
+  "summary": "The TeX Live package is a comprehensive TeX document production system. It includes TeX, LaTeX2e, LuaLaTeX, Metafont, MetaPost, BibTeX and many other programs; an extensive collection of macros, fonts and documentation; and support for typesetting in many different scripts from around the world.",
+  "download": "https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz",
+  "archive": "install-tl-unx.tar.gz",
+  "md5": "",
+  "size": "5.5 MB",
+  "disk_space": "90 MB for plain TeX, typically 323 MB for latex and later engines, 9.0 GB if everything is included",
+  "build_time": "varies, depending on network speed and traffic",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 1062,
+  "group_order": 0
+}

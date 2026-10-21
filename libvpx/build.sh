@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,8 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+find -type f | xargs touch
+patch -Np1 -i ../libvpx-1.16.0-security_fix-1.patch
 sed -i 's/cp -p/cp/' build/make/Makefile &&
 
 mkdir libvpx-build            &&
@@ -49,3 +54,4 @@ make install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

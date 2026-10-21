@@ -15,11 +15,10 @@
   "build_time": "0.1 SBU",
   "dependencies": [
     "gtk3",
-    "xfconf",
-    "startup-notification"
+    "xfconf"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 979,
-  "group_order": 0
+  "order": 919,
+  "group_order": 2
 }

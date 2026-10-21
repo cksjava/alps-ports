@@ -12,6 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-sed -e '/Categories=/s/=/=System;FileTools;/' \
-    -e '/Name=/s/=.*/=File Manager PCManFM-Qt'/ \
-    -i /usr/share/applications/pcmanfm-qt.desktop
+# This package has no post-install commands.
+

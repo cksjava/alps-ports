@@ -13,11 +13,9 @@
   "size": "3.9 MB",
   "disk_space": "28 MB",
   "build_time": "0.2 SBU",
-  "dependencies": [
-    "lmdb"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 4,
-  "group_order": 0
+  "order": 5,
+  "group_order": 3
 }

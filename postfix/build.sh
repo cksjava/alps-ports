@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,11 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+groupadd -g 32 postfix &&
+groupadd -g 33 postdrop &&
+useradd -c "Postfix Daemon User" -d /var/spool/postfix -g postfix \
+        -s /bin/false -u 32 postfix &&
+chown -v postfix:postfix /var/mail
 if [ -r /usr/lib/libsasl2.so ]; then
   CCARGS="$CCARGS -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl"
   AUXLIBS="$AUXLIBS -lsasl2"
@@ -71,7 +79,12 @@ make makefiles                    \
      default_database_type=lmdb   \
      default_cache_db_type=lmdb   &&
 make
-make install-postfix
+sh postfix-install -non-interactive  \
+   daemon_directory=/usr/lib/postfix \
+   manpage_directory=/usr/share/man  \
+   html_directory=/usr/share/doc/postfix-3.11.6/html \
+   readme_directory=/usr/share/doc/postfix-3.11.6/readme
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

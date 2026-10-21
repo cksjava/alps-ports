@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -39,6 +42,8 @@ cd "$srcdir"
 sed -i -e 's/^\(\s*hardcode_libdir_flag_spec\s*=\).*/\1/' configure
 ./configure --prefix=/usr --enable-mp3rtp --disable-static &&
 make
+make pkghtmldir=/usr/share/doc/lame-3.100 install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

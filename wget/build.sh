@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,12 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+NEW_LINE='#if !defined OPENSSL_NO_SSL3_METHOD '
+NEW_LINE+='&& OPENSSL_VERSION_NUMBER < 0x40000000L'
+
+sed -i "/SSL3/c $NEW_LINE" src/openssl.c
+
+unset NEW_LINE
 ./configure --prefix=/usr      \
             --sysconfdir=/etc  \
             --with-ssl=openssl &&
@@ -44,3 +53,4 @@ make install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

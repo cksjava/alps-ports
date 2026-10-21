@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -45,7 +48,12 @@ patch -Np1 -i ../xine-lib-1.2.13-ffmpeg8.patch
             --with-external-dvdnav \
             --docdir=/usr/share/doc/xine-lib-1.2.13 &&
 make
+doxygen doc/Doxyfile
 make install
+install -v -m755 -d /usr/share/doc/xine-lib-1.2.13/api &&
+install -v -m644    doc/api/* \
+                    /usr/share/doc/xine-lib-1.2.13/api
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

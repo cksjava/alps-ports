@@ -1,0 +1,24 @@
+{
+  "name": "libXpresent",
+  "version": "1.0.2",
+  "title": "libXpresent-1.0.2",
+  "anchor": "libXpresent",
+  "page_type": "batch",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "libXpresent-1.0.2 is built from the x7lib page.",
+  "download": "https://www.x.org/pub/individual/lib/libXpresent-1.0.2.tar.xz",
+  "archive": "libXpresent-1.0.2.tar.xz",
+  "md5": "53b72ce969745f8d3e41175d6549ce0b",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "fontconfig",
+    "libxcb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 589,
+  "group_order": 37
+}

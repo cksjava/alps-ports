@@ -12,7 +12,6 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-rm -v /usr/share/xsessions/icewm.desktop
 echo icewm-session > ~/.xinitrc
 mkdir -pv ~/.icewm                                      &&
 cp -v /usr/share/icewm/keys ~/.icewm/keys               &&
@@ -20,4 +19,4 @@ cp -v /usr/share/icewm/menu ~/.icewm/menu               &&
 cp -v /usr/share/icewm/preferences ~/.icewm/preferences &&
 cp -v /usr/share/icewm/toolbar ~/.icewm/toolbar         &&
 cp -v /usr/share/icewm/winoptions ~/.icewm/winoptions
-icewm-menu-fdo >~/.icewm/menu
+

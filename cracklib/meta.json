@@ -7,8 +7,8 @@
   "group": "security",
   "chapter": "Chapter 4. Security",
   "summary": "The CrackLib package contains a library used to enforce strong passwords by comparing user selected passwords to words in chosen word lists.",
-  "download": "https://github.com/cracklib/cracklib/releases/download/v2.10.3/cracklib-words-2.10.3.xz",
-  "archive": "",
+  "download": "https://github.com/cracklib/cracklib/releases/download/v2.10.3/cracklib-2.10.3.tar.xz",
+  "archive": "cracklib-2.10.3.tar.xz",
   "md5": "f27804022dbf2682a7f7c353317f9a53",
   "size": "4.0 MB",
   "disk_space": "5.0 MB",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 2,
-  "group_order": 0
+  "order": 3,
+  "group_order": 1
 }

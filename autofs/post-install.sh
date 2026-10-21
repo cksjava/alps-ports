@@ -22,3 +22,4 @@ cat > /etc/autofs/auto.master << "EOF"
 # End /etc/autofs/auto.master
 EOF
 systemctl enable autofs
+

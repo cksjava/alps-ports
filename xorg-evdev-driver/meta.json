@@ -3,8 +3,8 @@
   "version": "2.11.0",
   "title": "Xorg Evdev Driver-2.11.0",
   "anchor": "xorg-evdev-driver",
-  "page_type": "nested",
-  "group": "xorg-input-drivers",
+  "page_type": "multi",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The Xorg Evdev Driver package contains a Generic Linux input driver for the Xorg X server. It handles keyboard, mouse, touchpads and wacom devices, though for touchpad and wacom advanced handling, additional drivers are required.",
   "download": "https://www.x.org/pub/individual/driver/xf86-input-evdev-2.11.0.tar.xz",
@@ -20,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 681,
-  "group_order": 2
+  "order": 651,
+  "group_order": 99
 }

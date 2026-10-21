@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "title": "Alabaster-1.0.0",
   "anchor": "alabaster",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Alabaster package is a theme for the sphinx documentation system. Although developed separately, it is the default theme for sphinx.",
   "download": "https://files.pythonhosted.org/packages/source/a/alabaster/alabaster-1.0.0.tar.gz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 470,
-  "group_order": 1
+  "order": 444,
+  "group_order": 203
 }

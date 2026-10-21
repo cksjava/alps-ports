@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,6 +29,15 @@ fi
 
 echo "=== sassc-3.6.2 ==="
 cd "$ARYA_SOURCES"
+tarball="sassc-3.6.2.tar.gz"
+if [[ ! -f "$tarball" ]]; then
+    echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
+    exit 1
+fi
+srcdir=$(tar -tf "$tarball" | awk -F/ 'NR==1 { print $1 }')
+rm -rf "$srcdir"
+tar -xf "$tarball"
+cd "$srcdir"
 
 tar -xf ../libsass-3.6.6.tar.gz &&
 pushd libsass-3.6.6 &&
@@ -41,3 +53,7 @@ autoreconf -fi &&
 ./configure --prefix=/usr &&
 make
 make install
+
+cd "$ARYA_SOURCES"
+rm -rf "$srcdir"
+

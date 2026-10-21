@@ -18,12 +18,12 @@
     "cmake",
     "giflib",
     "highway",
-    "little-cms",
-    "libjpeg-turbo",
+    "lcms2",
+    "libjpeg",
     "libpng"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 179,
-  "group_order": 0
+  "order": 164,
+  "group_order": 22
 }

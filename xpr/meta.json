@@ -3,16 +3,16 @@
   "version": "1.2.0",
   "title": "xpr-1.2.0",
   "anchor": "xpr",
-  "page_type": "compound",
-  "group": "xorg-applications",
+  "page_type": "batch",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
-  "summary": "The Xorg applications provide the expected applications available in previous X Window implementations.",
-  "download": "https://www.x.org/pub/individual/app/",
+  "summary": "xpr-1.2.0 is built from the x7app page.",
+  "download": "https://www.x.org/pub/individual/app/xpr-1.2.0.tar.xz",
   "archive": "xpr-1.2.0.tar.xz",
   "md5": "ab6c9d17eb1940afcfb80a72319270ae",
-  "size": "4.9 MB",
-  "disk_space": "48 MB",
-  "build_time": "1.5 SBU (ignoring the time to download)",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
   "dependencies": [
     "libpng",
     "mesa",
@@ -21,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 655,
-  "group_order": 23
+  "order": 624,
+  "group_order": 72
 }

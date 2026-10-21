@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -55,8 +58,11 @@ make install &&
 install -v -m755    contrib/ssh-copy-id /usr/bin     &&
 
 install -v -m644    contrib/ssh-copy-id.1 \
-                    /usr/share/man/man1
-make install-sshd
+                    /usr/share/man/man1              &&
+install -v -m755 -d /usr/share/doc/openssh-10.5p1    &&
+install -v -m644    INSTALL LICENCE OVERVIEW README* \
+                    /usr/share/doc/openssh-10.5p1
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

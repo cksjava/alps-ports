@@ -137,5 +137,11 @@ account   include     system-account
 
 # End /etc/pam.d/chage
 EOF
-if [ -f /etc/login.access ]; then mv -v /etc/login.access{,.NOUSE}; fi
+for PROGRAM in chfn chgpasswd chsh groupadd groupdel \
+               groupmems groupmod useradd userdel usermod
+do
+    install -v -m644 /etc/pam.d/chage /etc/pam.d/${PROGRAM}
+    sed -i "s/chage/$PROGRAM/" /etc/pam.d/${PROGRAM}
+done
 if [ -f /etc/limits ]; then mv -v /etc/limits{,.NOUSE}; fi
+

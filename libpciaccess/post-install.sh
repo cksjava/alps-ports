@@ -12,5 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-ln -sv $XORG_PREFIX/lib/X11 /usr/lib/X11 &&
-ln -sv $XORG_PREFIX/include/X11 /usr/include/X11
+# This package has no post-install commands.
+

@@ -4,7 +4,7 @@
   "title": "ark-26.04.3",
   "anchor": "ark",
   "page_type": "single",
-  "group": "kde-frameworks-based-applications",
+  "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "The Ark package is a KDE Frameworks-based Archive Manager. It is a graphical front end to tar, 7zip, UnRar, and other similar tools.",
   "download": "https://download.kde.org/stable/release-service/26.04.3/src/ark-26.04.3.tar.xz",
@@ -14,15 +14,11 @@
   "disk_space": "45 MB",
   "build_time": "0.4 SBU (using parallelism=4)",
   "dependencies": [
-    "building-kde-frameworks",
-    "libarchive",
-    "7zip",
-    "cpio",
-    "unrar",
-    "zip"
+    "frameworks6",
+    "libarchive"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 834,
+  "order": 792,
   "group_order": 0
 }

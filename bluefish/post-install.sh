@@ -12,5 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-gtk-update-icon-cache -t -f --include-image-data /usr/share/icons/hicolor &&
-update-desktop-database
+# This package has no post-install commands.
+

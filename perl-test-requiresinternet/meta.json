@@ -1,0 +1,21 @@
+{
+  "name": "Test::RequiresInternet",
+  "version": "0.05",
+  "title": "Test::RequiresInternet-0.05",
+  "anchor": "perl-test-requiresinternet",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Test::RequiresInternet is intended to easily test network connectivity before functional tests begin to connect to non-local Internet resources.",
+  "download": "https://cpan.metacpan.org/authors/id/M/MA/MALLEN/Test-RequiresInternet-0.05.tar.gz",
+  "archive": "Test-RequiresInternet-0.05.tar.gz",
+  "md5": "0ba9f1cff4cf90ed2618c2eddfd525d8",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 388,
+  "group_order": 147
+}

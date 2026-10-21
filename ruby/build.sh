@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -44,10 +47,10 @@ cd "$srcdir"
             ac_cv_func_qsort_r=no \
             --docdir=/usr/share/doc/ruby-4.0.6 &&
 make
-make capi
 XDG_DATA_HOME=/tmp make install
 cd /path/to/web/app
 bundle update rake
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

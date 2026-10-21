@@ -15,8 +15,8 @@
   "build_time": "1.1 SBU (Using parallelism-4)",
   "dependencies": [
     "libadwaita",
-    "gst-plugins-bad",
-    "rustc",
+    "gst10-plugins-bad",
+    "rust",
     "gst-plugins-rs",
     "pipewire",
     "xdg-desktop-portal-gnome",
@@ -24,6 +24,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 976,
-  "group_order": 0
+  "order": 916,
+  "group_order": 13
 }

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,69 +29,28 @@ fi
 
 echo "=== bluedevil-6.7.4 ==="
 cd "$ARYA_SOURCES"
+tarball="bluedevil-6.7.4.tar.xz"
+if [[ ! -f "$tarball" ]]; then
+    echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
+    exit 1
+fi
+srcdir=$(tar -tf "$tarball" | awk -F/ 'NR==1 { print $1 }')
+rm -rf "$srcdir"
+tar -xf "$tarball"
+cd "$srcdir"
 
-as_root()
-{
-  if   [ $EUID = 0 ];        then $*
-  elif [ -x /usr/bin/sudo ]; then sudo $*
-  else                            su -c \\"$*\\"
-  fi
-}
+mkdir build
+cd    build
+cmake -D CMAKE_INSTALL_PREFIX=$KF6_PREFIX \
+-D CMAKE_INSTALL_LIBEXECDIR=libexec \
+-D CMAKE_BUILD_TYPE=Release         \
+-D BUILD_QT5=OFF                    \
+-D BUILD_TESTING=OFF                \
+-W no-author ..  &&
+make
+make install
+/sbin/ldconfig
 
-export -f as_root
-line='572ef1ebb4acd46b0f6b8dcecff97993  bluedevil-6.7.4.tar.xz'
-    # Get the file name, ignoring comments and blank lines
-    if $(echo $line | grep -E -q '^ *$|^#' ); then continue; fi
-    file=$(echo $line | cut -d" " -f2)
+cd "$ARYA_SOURCES"
+rm -rf "$srcdir"
 
-    pkg=$(       echo $file|sed 's|^.*/||')    # Remove directory
-    name=$(      echo $pkg |sed 's|-6.*$||')   # Isolate package name
-    packagedir=$(echo $pkg |sed 's|\.tar.*||') # Source directory
-
-    tar -xf $file
-    pushd $packagedir
-
-       mkdir build
-       cd    build
-
-       cmake -D CMAKE_INSTALL_PREFIX=$KF6_PREFIX \
-             -D CMAKE_INSTALL_LIBEXECDIR=libexec \
-             -D CMAKE_BUILD_TYPE=Release         \
-             -D BUILD_QT5=OFF                    \
-             -D BUILD_TESTING=OFF                \
-             -W no-author ..  &&
-
-        make
-        as_root make install
-    popd
-
-
-    as_root rm -rf $packagedir
-    as_root /sbin/ldconfig
-# Setup xsessions (X11 sessions)
-install -dvm 755 /usr/share/xsessions
-cd /usr/share/xsessions
-
-[ -e plasma.desktop ] ||
-ln -sfv $KF6_PREFIX/share/xsessions/plasmax11.desktop 
-
-# Setup wayland-sessions 
-install -dvm 755 /usr/share/wayland-sessions
-cd /usr/share/wayland-sessions
-
-[ -e plasmawayland.desktop ] ||
-ln -sfv $KF6_PREFIX/share/wayland-sessions/plasma.desktop
-
-# Setup xdg-desktop-portal
-install -dvm 755 /usr/share/xdg-desktop-portal
-cd /usr/share/xdg-desktop-portal 
-
-[ -e kde-portals.conf ] ||
-ln -sfv $KF6_PREFIX/share/xdg-desktop-portal/kde-portals.conf
-
-# Setup kde portal
-install -dvm 755 /usr/share/xdg-desktop-portal/portals
-cd /usr/share/xdg-desktop-portal/portals
-
-[ -e kde.portal ] ||
-ln -sfv $KF6_PREFIX/share/xdg-desktop-portal/portals/kde.portal

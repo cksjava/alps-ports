@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -43,7 +46,10 @@ cd "$srcdir"
             CFLAGS="${CFLAGS:--g -O3} -fPIC" &&
 make
 make install &&
-cp liba52/a52_internal.h /usr/include/a52dec
+cp liba52/a52_internal.h /usr/include/a52dec &&
+install -v -m644 -D doc/liba52.txt \
+    /usr/share/doc/liba52-0.8.0/liba52.txt
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

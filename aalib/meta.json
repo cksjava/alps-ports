@@ -1,6 +1,6 @@
 {
-  "name": "AAlib",
-  "version": "1.4rc5",
+  "name": "AAlib-1.4rc5",
+  "version": "",
   "title": "AAlib-1.4rc5",
   "anchor": "aalib",
   "page_type": "single",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 158,
+  "order": 142,
   "group_order": 0
 }

@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
-  "summary": "The Gtk VNC package contains a VNC viewer widget for GTK+. It is built using coroutines allowing it to be completely asynchronous while remaining single threaded.",
+  "summary": "The Gtk VNC package contains a VNC viewer widget for GTK+ . It is built using coroutines allowing it to be completely asynchronous while remaining single threaded.",
   "download": "https://download.gnome.org/sources/gtk-vnc/1.5/gtk-vnc-1.5.0.tar.xz",
   "archive": "gtk-vnc-1.5.0.tar.xz",
   "md5": "6e9815e7960636e95f626a3f164eb01d",
@@ -16,13 +16,10 @@
   "dependencies": [
     "gnutls",
     "gtk3",
-    "libgcrypt",
-    "glib",
-    "vala",
-    "pulseaudio"
+    "libgcrypt"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 717,
-  "group_order": 0
+  "order": 688,
+  "group_order": 18
 }

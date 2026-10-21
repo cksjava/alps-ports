@@ -12,4 +12,6 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-# This package has no post-install commands.
+ln -svfn python-3.14.7 /usr/share/doc/python-3
+export PYTHONDOCS=/usr/share/doc/python-3/html
+

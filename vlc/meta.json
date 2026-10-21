@@ -13,19 +13,9 @@
   "size": "26 MB",
   "disk_space": "957 MB",
   "build_time": "1.2 SBU (using parallelism=4; with tests)",
-  "dependencies": [
-    "alsa-lib",
-    "desktop-file-utils",
-    "ffmpeg",
-    "liba52",
-    "libgcrypt",
-    "libmad-b",
-    "lua",
-    "qt",
-    "chapter-24-graphical-environments"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1137,
-  "group_order": 0
+  "order": 1033,
+  "group_order": 2
 }

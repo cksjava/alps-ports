@@ -15,10 +15,10 @@
   "build_time": "0.2 SBU (Using parallelism=4)",
   "dependencies": [
     "extra-cmake-modules",
-    "qt"
+    "qt6"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 752,
+  "order": 715,
   "group_order": 0
 }

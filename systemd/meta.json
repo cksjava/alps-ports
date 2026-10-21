@@ -13,12 +13,9 @@
   "size": "18 MB",
   "disk_space": "396 MB (with tests)",
   "build_time": "1.2 SBU (with tests using 4 cores)",
-  "dependencies": [
-    "linux-pam",
-    "polkit"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 254,
-  "group_order": 0
+  "order": 227,
+  "group_order": 22
 }

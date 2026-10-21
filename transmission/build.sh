@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -39,8 +42,17 @@ cd "$srcdir"
 mkdir build &&
 cd    build &&
 
+cmake -D CMAKE_INSTALL_PREFIX=/usr \
+      -D CMAKE_BUILD_TYPE=Release  \
+      -D CMAKE_INSTALL_DOCDIR=/usr/share/doc/transmission-4.1.3 \
+      .. &&
+
 make
 make install
+rsvg-convert                                                   \
+   /usr/share/icons/hicolor/scalable/apps/transmission-gtk.svg \
+   -o /usr/share/pixmaps/transmission.png
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

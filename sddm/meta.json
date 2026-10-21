@@ -16,13 +16,10 @@
   "dependencies": [
     "cmake",
     "extra-cmake-modules",
-    "qt",
-    "docutils",
-    "linux-pam",
-    "upower"
+    "qt6"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 747,
-  "group_order": 0
+  "order": 711,
+  "group_order": 2
 }

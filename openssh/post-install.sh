@@ -12,9 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-echo "PermitRootLogin no" >> /etc/ssh/sshd_config
-echo "PasswordAuthentication no" >> /etc/ssh/sshd_config &&
-echo "KbdInteractiveAuthentication no" >> /etc/ssh/sshd_config
-sed 's@d/login@d/sshd@g' /etc/pam.d/login > /etc/pam.d/sshd &&
-chmod 644 /etc/pam.d/sshd &&
-echo "UsePAM yes" >> /etc/ssh/sshd_config
+make install-sshd
+

@@ -16,11 +16,10 @@
   "dependencies": [
     "gtk3",
     "intltool",
-    "xorg-applications",
-    "glu"
+    "x7app"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1063,
-  "group_order": 0
+  "order": 980,
+  "group_order": 12
 }

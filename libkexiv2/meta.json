@@ -4,7 +4,7 @@
   "title": "libkexiv2-26.04.3",
   "anchor": "libkexiv2",
   "page_type": "single",
-  "group": "kde-frameworks-based-applications",
+  "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "Libkexiv2 is a KDE wrapper around the Exiv2 library for manipulating image metadata.",
   "download": "https://download.kde.org/stable/release-service/26.04.3/src/libkexiv2-26.04.3.tar.xz",
@@ -14,11 +14,11 @@
   "disk_space": "4.1 MB",
   "build_time": "0.2 SBU",
   "dependencies": [
-    "building-kde-frameworks",
+    "frameworks6",
     "exiv2"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 843,
-  "group_order": 0
+  "order": 800,
+  "group_order": 8
 }

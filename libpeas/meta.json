@@ -14,12 +14,11 @@
   "disk_space": "13 MB (with tests)",
   "build_time": "0.1 SBU (with tests)",
   "dependencies": [
-    "glib",
-    "gtk3",
-    "libxml2"
+    "glib2",
+    "gtk3"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 932,
-  "group_order": 0
+  "order": 887,
+  "group_order": 14
 }

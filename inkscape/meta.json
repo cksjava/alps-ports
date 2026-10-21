@@ -21,20 +21,10 @@
     "gtkmm3",
     "libxslt",
     "poppler",
-    "popt",
-    "imagemagick",
-    "little-cms",
-    "libcanberra",
-    "potrace",
-    "cachecontrol",
-    "cssselect",
-    "lxml",
-    "numpy",
-    "pyserial",
-    "scour"
+    "popt"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1056,
-  "group_order": 0
+  "order": 974,
+  "group_order": 6
 }

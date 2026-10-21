@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -44,7 +47,11 @@ cmake -D CMAKE_INSTALL_PREFIX=/usr \
       -D BUILD_STATIC_LIBS=OFF     \
       .. &&
 make
+doxygen doc/Doxyfile
 make install
+install -d -vm755 /usr/share/doc/json-c-0.19 &&
+install -v -m644 doc/html/* /usr/share/doc/json-c-0.19
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

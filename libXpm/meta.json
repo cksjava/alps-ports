@@ -1,0 +1,24 @@
+{
+  "name": "libXpm",
+  "version": "3.5.19",
+  "title": "libXpm-3.5.19",
+  "anchor": "libXpm",
+  "page_type": "batch",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "libXpm-3.5.19 is built from the x7lib page.",
+  "download": "https://www.x.org/pub/individual/lib/libXpm-3.5.19.tar.xz",
+  "archive": "libXpm-3.5.19.tar.xz",
+  "md5": "cdc7a83243dba674b1ea3c365a1deab1",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "fontconfig",
+    "libxcb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 567,
+  "group_order": 15
+}

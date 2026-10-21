@@ -23,3 +23,4 @@ cat > /etc/fuse.conf << "EOF"
 #
 #user_allow_other
 EOF
+

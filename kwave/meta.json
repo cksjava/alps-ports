@@ -17,14 +17,10 @@
     "audiofile",
     "fftw",
     "id3lib",
-    "building-kde-frameworks",
-    "alsa-lib",
-    "flac",
-    "libogg",
-    "pulseaudio"
+    "frameworks6"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1129,
-  "group_order": 0
+  "order": 1026,
+  "group_order": 1
 }

@@ -1,0 +1,21 @@
+{
+  "name": "FreeType",
+  "version": "2.14.3",
+  "title": "FreeType-2.14.3",
+  "anchor": "freetype2",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The FreeType2 package contains a library which allows applications to properly render TrueType fonts.",
+  "download": "https://downloads.sourceforge.net/freetype/freetype-2.14.3.tar.xz",
+  "archive": "freetype-2.14.3.tar.xz",
+  "md5": "a9a92aa403d7c1b4eed6ee452dc23305",
+  "size": "2.1 MB",
+  "disk_space": "51 MB (with additional documentation)",
+  "build_time": "0.2 SBU (with additional documentation)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 145,
+  "group_order": 3
+}

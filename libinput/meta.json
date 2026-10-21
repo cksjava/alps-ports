@@ -3,8 +3,8 @@
   "version": "1.31.3",
   "title": "libinput-1.31.3",
   "anchor": "libinput",
-  "page_type": "nested",
-  "group": "xorg-input-drivers",
+  "page_type": "multi",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libinput is a library that handles input devices for display servers and other applications that need to directly deal with input devices.",
   "download": "https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.31.3/libinput-1.31.3.tar.gz",
@@ -19,6 +19,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 682,
-  "group_order": 3
+  "order": 652,
+  "group_order": 100
 }

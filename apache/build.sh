@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,9 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+groupadd -g 25 apache &&
+useradd -c "Apache Server" -d /srv/www -g apache \
+        -s /bin/false -u 25 apache
 patch -Np1 -i ../httpd-2.4.68-openssl4_fixes-1.patch
 patch -Np1 -i ../httpd-blfs_layout-1.patch             &&
 
@@ -67,7 +73,7 @@ chgrp apache           /usr/lib/httpd/suexec &&
 chmod 4754             /usr/lib/httpd/suexec &&
 
 chown -v -R apache:apache /srv/www
-make install-httpd
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

@@ -17,11 +17,10 @@
     "xmlto",
     "lynx",
     "links",
-    "w3m",
-    "xorg-applications"
+    "x7app"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1062,
-  "group_order": 0
+  "order": 979,
+  "group_order": 11
 }

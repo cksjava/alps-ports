@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,7 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+patch -Np1 -i ../mlt-7.40.0-ffmpeg-9.0.patch
 mkdir build &&
 cd    build &&
 
@@ -52,3 +56,4 @@ make install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

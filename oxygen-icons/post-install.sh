@@ -12,4 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-sed -i '/( oxygen/ s/)/scalable )/' CMakeLists.txt
+# This package has no post-install commands.
+

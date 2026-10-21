@@ -17,12 +17,10 @@
     "gcr",
     "gtk3",
     "iso-codes",
-    "networkmanager",
-    "gtk4",
-    "vala"
+    "networkmanager"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 558,
-  "group_order": 0
+  "order": 525,
+  "group_order": 9
 }

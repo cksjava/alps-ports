@@ -1,0 +1,21 @@
+{
+  "name": "Encode::JIS2K",
+  "version": "0.05",
+  "title": "Encode::JIS2K-0.05",
+  "anchor": "perl-encode-jis2k",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Encode::JIS2K module provides JIS X 0212 (aka JIS 2000) Encodings.",
+  "download": "https://www.cpan.org/authors/id/D/DA/DANKOGAI/Encode-JIS2K-0.05.tar.gz",
+  "archive": "Encode-JIS2K-0.05.tar.gz",
+  "md5": "06acd9e878d41ffc354258e265db2875",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 271,
+  "group_order": 30
+}

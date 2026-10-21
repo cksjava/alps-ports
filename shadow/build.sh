@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -51,12 +54,7 @@ sed -e 's@#ENCRYPT_METHOD DES@ENCRYPT_METHOD YESCRYPT@' \
 make
 make exec_prefix=/usr pamddir= install
 make -C man install-man
-for PROGRAM in chfn chgpasswd chsh groupadd groupdel \
-               groupmems groupmod useradd userdel usermod
-do
-    install -v -m644 /etc/pam.d/chage /etc/pam.d/${PROGRAM}
-    sed -i "s/chage/$PROGRAM/" /etc/pam.d/${PROGRAM}
-done
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

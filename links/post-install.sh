@@ -12,4 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-sed '/*strchr/s/cast_const_char //g' -i ftp.c
+# This package has no post-install commands.
+

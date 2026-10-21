@@ -4,24 +4,24 @@
   "title": "docbook-dsssl-1.79",
   "anchor": "docbook-dsssl",
   "page_type": "single",
-  "group": "standard-generalized-markup-language",
+  "group": "standard-generalized-markup-language-sgml",
   "chapter": "Chapter 48. Standard Generalized Markup Language (SGML)",
   "summary": "The DocBook DSSSL Stylesheets package contains DSSSL stylesheets. These are used by OpenJade or other tools to transform SGML and XML DocBook files.",
-  "download": "https://downloads.sourceforge.net/docbook/docbook-dsssl-doc-1.79.tar.bz2",
-  "archive": "docbook-dsssl-doc-1.79.tar.bz2",
+  "download": "https://downloads.sourceforge.net/docbook/docbook-dsssl-1.79.tar.bz2",
+  "archive": "docbook-dsssl-1.79.tar.bz2",
   "md5": "9a7b809a21ab7d2749bb328334c380f2",
   "size": "142 KB",
   "disk_space": "14 MB",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
     "sgml-common",
-    "sgml-dtd-3",
-    "sgml-dtd",
+    "docbook-3.1-dtd",
+    "docbook-4.5-dtd",
     "opensp",
     "openjade"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1159,
-  "group_order": 0
+  "order": 1051,
+  "group_order": 5
 }

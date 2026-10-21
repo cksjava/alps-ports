@@ -14,16 +14,11 @@
   "disk_space": "254 MB (add 7 MB for tests)",
   "build_time": "1.9 SBU (add 2.6 SBU for tests; both using parallelism=4)",
   "dependencies": [
-    "goffice",
-    "itstool",
-    "adwaita-icon-theme",
-    "oxygen-icons",
-    "gnome-icon-theme",
-    "chapter-24-graphical-environments",
-    "yelp"
+    "goffice010",
+    "itstool"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1044,
+  "order": 962,
   "group_order": 0
 }

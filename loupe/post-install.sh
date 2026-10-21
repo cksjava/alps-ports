@@ -12,4 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-rm -fv /usr/share/applications/org.gnome.eog.desktop
+# This package has no post-install commands.
+

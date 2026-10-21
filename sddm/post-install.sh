@@ -16,6 +16,7 @@ sed -i.orig '/ServerPath/ s|usr|opt/xorg|' /etc/sddm.conf
 sed -i 's/-nolisten tcp//' /etc/sddm.conf
 sed -i '/Numlock/s/none/on/' /etc/sddm.conf
 sed -i 's/qtvirtualkeyboard//' /etc/sddm.conf
+systemctl enable sddm
 cat > /etc/pam.d/sddm << "EOF" &&
 # Begin /etc/pam.d/sddm
 
@@ -66,3 +67,4 @@ session  required       pam_unix.so
 
 # End /etc/pam.d/sddm-greeter
 EOF
+

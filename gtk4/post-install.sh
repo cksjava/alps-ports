@@ -25,3 +25,4 @@ gtk-xft-hintstyle = hintslight
 gtk-xft-rgba = rgb
 gtk-cursor-theme-name = Adwaita
 EOF
+

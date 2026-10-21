@@ -1,0 +1,21 @@
+{
+  "name": "Parse::RecDescent",
+  "version": "1.967015",
+  "title": "Parse::RecDescent-1.967015",
+  "anchor": "perl-parse-recdescent",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Parse::RecDescent incrementally generates top-down recursive-descent text parsers from simple yacc-like grammar specifications.",
+  "download": "https://www.cpan.org/authors/id/J/JT/JTBRAUN/Parse-RecDescent-1.967015.tar.gz",
+  "archive": "Parse-RecDescent-1.967015.tar.gz",
+  "md5": "7a36d45d62a9b68603edcdbd276006cc",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 288,
+  "group_order": 47
+}

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,13 +29,20 @@ fi
 
 echo "=== xev-1.2.7 ==="
 cd "$ARYA_SOURCES"
+tarball="xev-1.2.7.tar.xz"
+if [[ ! -f "$tarball" ]]; then
+    echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
+    exit 1
+fi
+srcdir=$(tar -tf "$tarball" | awk -F/ 'NR==1 { print $1 }')
+rm -rf "$srcdir"
+tar -xf "$tarball"
+cd "$srcdir"
 
-package='xev-1.2.7.tar.xz'
-  packagedir=${package%.tar.?z*}
-  tar -xf $package
-  pushd $packagedir
-     ./configure $XORG_CONFIG
-     make
-     as_root make install
-  popd
-  rm -rf $packagedir
+./configure $XORG_CONFIG
+make
+make install
+
+cd "$ARYA_SOURCES"
+rm -rf "$srcdir"
+

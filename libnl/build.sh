@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,7 +29,7 @@ fi
 
 echo "=== libnl-3.12.0 ==="
 cd "$ARYA_SOURCES"
-tarball="libnl-doc-3.12.0.tar.gz"
+tarball="libnl-3.12.0.tar.gz"
 if [[ ! -f "$tarball" ]]; then
     echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
     exit 1
@@ -44,3 +47,4 @@ make install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

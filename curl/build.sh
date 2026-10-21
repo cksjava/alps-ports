@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -48,7 +51,10 @@ rm -rf docs/examples/.deps &&
 find docs \( -name Makefile\* -o  \
              -name \*.1       -o  \
              -name \*.3       -o  \
-             -name CMakeLists.txt \) -delete
+             -name CMakeLists.txt \) -delete &&
+
+cp -v -R docs -T /usr/share/doc/curl-8.21.0
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

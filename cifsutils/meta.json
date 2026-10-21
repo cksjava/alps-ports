@@ -1,0 +1,23 @@
+{
+  "name": "cifs-utils",
+  "version": "7.7",
+  "title": "cifs-utils-7.7",
+  "anchor": "cifsutils",
+  "page_type": "single",
+  "group": "networking-programs",
+  "chapter": "Chapter 15. Networking Programs",
+  "summary": "The cifs-utils package provides a means for mounting SMB/CIFS shares on a Linux system.",
+  "download": "https://www.samba.org/ftp/linux-cifs/cifs-utils/cifs-utils-7.7.tar.bz2",
+  "archive": "cifs-utils-7.7.tar.bz2",
+  "md5": "d175c5a0cf077963e1ccc46c7100408b",
+  "size": "420 KB",
+  "disk_space": "5.5 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "talloc"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 499,
+  "group_order": 0
+}

@@ -3,16 +3,16 @@
   "version": "1.5.0",
   "title": "xkbcomp-1.5.0",
   "anchor": "xkbcomp",
-  "page_type": "compound",
-  "group": "xorg-applications",
+  "page_type": "batch",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
-  "summary": "The Xorg applications provide the expected applications available in previous X Window implementations.",
-  "download": "https://www.x.org/pub/individual/app/",
+  "summary": "xkbcomp-1.5.0 is built from the x7app page.",
+  "download": "https://www.x.org/pub/individual/app/xkbcomp-1.5.0.tar.xz",
   "archive": "xkbcomp-1.5.0.tar.xz",
   "md5": "b8128ff6816897bd385ca437cd2886ee",
-  "size": "4.9 MB",
-  "disk_space": "48 MB",
-  "build_time": "1.5 SBU (ignoring the time to download)",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
   "dependencies": [
     "libpng",
     "mesa",
@@ -21,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 647,
-  "group_order": 15
+  "order": 616,
+  "group_order": 64
 }

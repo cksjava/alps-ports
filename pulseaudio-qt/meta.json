@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
-  "summary": "This package is a Qt-based wrapper for PulseAudio-17.0. It allows for querying and manipulating various PulseAudio objects, including Sinks, Sources, and Streams. It does not wrap the full feature set of libpulse, but rather only what is needed for KDE.",
+  "summary": "This package is a Qt-based wrapper for PulseAudio-17.0 . It allows for querying and manipulating various PulseAudio objects, including Sinks, Sources, and Streams. It does not wrap the full feature set of libpulse, but rather only what is needed for KDE.",
   "download": "https://download.kde.org/stable/pulseaudio-qt/pulseaudio-qt-1.8.1.tar.xz",
   "archive": "pulseaudio-qt-1.8.1.tar.xz",
   "md5": "fa37fbba12097a6ff276f0a29ddec20f",
@@ -14,11 +14,11 @@
   "disk_space": "8.5 MB",
   "build_time": "0.3 SBU",
   "dependencies": [
-    "building-kde-frameworks",
+    "frameworks6",
     "pulseaudio"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 853,
+  "order": 807,
   "group_order": 0
 }

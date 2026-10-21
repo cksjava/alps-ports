@@ -1,0 +1,24 @@
+{
+  "name": "BIND",
+  "version": "9.20.27",
+  "title": "BIND-9.20.27",
+  "anchor": "bind",
+  "page_type": "single",
+  "group": "major-servers",
+  "chapter": "Chapter 20. Major Servers",
+  "summary": "The BIND package provides a DNS server and client utilities. If you are only interested in the utilities, refer to the BIND Utilities-9.20.27 .",
+  "download": "https://ftp.isc.org/isc/bind9/9.20.27/bind-9.20.27.tar.xz",
+  "archive": "bind-9.20.27.tar.xz",
+  "md5": "0a05c630261429e9da8b012314507b05",
+  "size": "5.6 MB",
+  "disk_space": "157 MB (23 MB installed)",
+  "build_time": "0.4 SBU (with parallelism=4; about 8 minutes somewhat processor independent, to run the complete test suite)",
+  "dependencies": [
+    "liburcu",
+    "libuv"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 542,
+  "group_order": 1
+}

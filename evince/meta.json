@@ -18,17 +18,12 @@
     "gsettings-desktop-schemas",
     "gtk3",
     "itstool",
-    "libhandy",
+    "libhandy1",
     "libxml2",
-    "openjpeg",
-    "gnome-keyring",
-    "glib",
-    "libarchive",
-    "libsecret",
-    "poppler"
+    "openjpeg2"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 958,
-  "group_order": 0
+  "order": 905,
+  "group_order": 2
 }

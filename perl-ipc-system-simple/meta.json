@@ -1,0 +1,21 @@
+{
+  "name": "IPC::System::Simple",
+  "version": "1.30",
+  "title": "IPC::System::Simple-1.30",
+  "anchor": "perl-ipc-system-simple",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "IPC::System::Simple takes the hard work out of calling external commands and producing detailed diagnostics.",
+  "download": "https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/IPC-System-Simple-1.30.tar.gz",
+  "archive": "IPC-System-Simple-1.30.tar.gz",
+  "md5": "e68341fd958fd013b3521d909904f675",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 351,
+  "group_order": 110
+}

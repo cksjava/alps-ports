@@ -4,7 +4,7 @@
   "title": "xmlto-0.0.29",
   "anchor": "xmlto",
   "page_type": "single",
-  "group": "extensible-markup-language",
+  "group": "extensible-markup-language-xml",
   "chapter": "Chapter 49. Extensible Markup Language (XML)",
   "summary": "The xmlto package is a front-end to a XSL toolchain. It chooses an appropriate stylesheet for the conversion you want and applies it using an external XSLT processor. It also performs any necessary post-processing.",
   "download": "https://pagure.io/xmlto/archive/0.0.29/xmlto-0.0.29.tar.gz",
@@ -15,11 +15,11 @@
   "build_time": "less than 0.1 SBU (with tests)",
   "dependencies": [
     "docbook",
-    "docbook-xsl-nons",
+    "docbook-xsl",
     "libxslt"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1166,
-  "group_order": 0
+  "order": 1056,
+  "group_order": 3
 }

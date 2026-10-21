@@ -17,14 +17,10 @@
     "gsettings-desktop-schemas",
     "iso-codes",
     "libseccomp",
-    "xkeyboardconfig",
-    "gtk3",
-    "gtk4",
-    "bubblewrap",
-    "glib"
+    "xkeyboard-config"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 925,
-  "group_order": 0
+  "order": 882,
+  "group_order": 9
 }

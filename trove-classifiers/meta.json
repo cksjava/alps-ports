@@ -3,10 +3,10 @@
   "version": "2026.6.1.19",
   "title": "Trove-Classifiers-2026.6.1.19",
   "anchor": "trove-classifiers",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
-  "summary": "Trove-Classifiers is a Python library to encompass all valid PyPI classifiers used to categorize projects and releases per PEP 301, for example Topic :: System :: Filesystems and Development Status :: 6 - Mature.",
+  "summary": "Trove-Classifiers is a Python library to encompass all valid PyPI classifiers used to categorize projects and releases per PEP 301, for example Topic :: System :: Filesystems and Development Status :: 6 - Mature .",
   "download": "https://files.pythonhosted.org/packages/source/t/trove_classifiers/trove_classifiers-2026.6.1.19.tar.gz",
   "archive": "trove_classifiers-2026.6.1.19.tar.gz",
   "md5": "fb231b2e9492a5d34fb9bec0250f0f55",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 506,
-  "group_order": 37
+  "order": 480,
+  "group_order": 239
 }

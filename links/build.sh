@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,9 +39,14 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+sed '/*strchr/s/cast_const_char //g' -i ftp.c
 ./configure --prefix=/usr --mandir=/usr/share/man &&
 make
-make install
+make install &&
+install -v -d -m755 /usr/share/doc/links-2.30 &&
+install -v -m644 doc/links_cal/* KEYS BRAILLE_HOWTO \
+    /usr/share/doc/links-2.30
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

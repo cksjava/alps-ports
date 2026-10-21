@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,11 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+sed -e '/^CLOBBER/s/false/true/'         \
+    -e 's|TWDB="${prefix}|TWDB="/var|'   \
+    -e '/TWMAN/ s|${prefix}|/usr/share|' \
+    -e '/TWDOCS/s|${prefix}/doc/tripwire|/usr/share/doc/tripwire-2.4.3.7|' \
+    -i installer/install.cfg                               &&
 
 find . -name Makefile.am | xargs                           \
     sed -i 's/^[[:alpha:]_]*_HEADERS.*=/noinst_HEADERS =/' &&
@@ -45,10 +53,10 @@ autoreconf -fi                                             &&
 
 ./configure --prefix=/usr --sysconfdir=/etc/tripwire       &&
 make CPPFLAGS=-std=c++11
-sed -e 's@installer/install.sh@& -n -s <site-password> -l <local-password>@' \
-    -i Makefile
 sed '/-t 0/,+3d' -i installer/install.sh
-make install
+make install &&
+cp -v policy/*.txt /usr/share/doc/tripwire-2.4.3.7
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

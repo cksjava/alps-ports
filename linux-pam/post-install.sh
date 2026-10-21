@@ -47,17 +47,4 @@ password  required    pam_unix.so       yescrypt shadow try_first_pass
 
 # End /etc/pam.d/system-password
 EOF
-cat > /etc/pam.d/other << "EOF"
-# Begin /etc/pam.d/other
 
-auth        required        pam_warn.so
-auth        required        pam_deny.so
-account     required        pam_warn.so
-account     required        pam_deny.so
-password    required        pam_warn.so
-password    required        pam_deny.so
-session     required        pam_warn.so
-session     required        pam_deny.so
-
-# End /etc/pam.d/other
-EOF

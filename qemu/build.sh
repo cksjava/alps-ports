@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -42,7 +45,6 @@ else
    QEMU_ARCH=x86_64-softmmu
 fi
 
-
 mkdir -vp build &&
 cd        build &&
 
@@ -60,9 +62,10 @@ unset QEMU_ARCH &&
 
 make
 make install
+chgrp kvm  /usr/libexec/qemu-bridge-helper &&
+chmod 4750 /usr/libexec/qemu-bridge-helper
 ln -sv qemu-system-`uname -m` /usr/bin/qemu
-install -vdm 755 /etc/qemu &&
-echo allow br0 > /etc/qemu/bridge.conf
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,9 +39,14 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+tar -xf ../nasm-3.02-xdoc.tar.xz --strip-components=1
 ./configure --prefix=/usr &&
 make
 make install
+install -m755 -d         /usr/share/doc/nasm-3.02/html  &&
+cp -v doc/html/*.html    /usr/share/doc/nasm-3.02/html  &&
+cp -v doc/*.{txt,ps,pdf} /usr/share/doc/nasm-3.02
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

@@ -3,8 +3,8 @@
   "version": "0.5.3",
   "title": "Doxyqml-0.5.3",
   "anchor": "doxyqml",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Doxyqml package allows using Doxygen to document QML classes.",
   "download": "https://files.pythonhosted.org/packages/source/d/doxyqml/doxyqml-0.5.3.tar.gz",
@@ -18,6 +18,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 445,
-  "group_order": 11
+  "order": 419,
+  "group_order": 178
 }

@@ -64,3 +64,4 @@ cat > /usr/share/metainfo/org.linuxfromscratch.lfs.xml << EOF
   </releases>
 </component>
 EOF
+

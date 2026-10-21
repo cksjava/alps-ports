@@ -23,21 +23,14 @@
     "polkit",
     "startup-notification",
     "adwaita-icon-theme",
-    "dconf-dconf-editor",
+    "dconf",
     "gdm",
     "libgweather",
     "libnma",
-    "systemd",
-    "desktop-file-utils",
-    "gnome-autoar",
-    "gnome-bluetooth",
-    "gst-plugins-base",
-    "networkmanager",
-    "power-profiles-daemon",
-    "gnome-menus"
+    "systemd"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 950,
-  "group_order": 0
+  "order": 899,
+  "group_order": 26
 }

@@ -16,14 +16,10 @@
   "dependencies": [
     "cairo",
     "cargo-c",
-    "pango",
-    "gdk-pixbuf",
-    "glib"
+    "pango"
   ],
-  "build_before": [
-    "make-ca"
-  ],
+  "build_before": [],
   "build_after": [],
-  "order": 186,
-  "group_order": 0
+  "order": 171,
+  "group_order": 29
 }

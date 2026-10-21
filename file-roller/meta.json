@@ -15,17 +15,10 @@
   "build_time": "0.1 SBU (Using parallelism=4)",
   "dependencies": [
     "gtk4",
-    "itstool",
-    "cpio",
-    "desktop-file-utils",
-    "json-glib",
-    "libarchive",
-    "libadwaita",
-    "libportal",
-    "nautilus"
+    "itstool"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 960,
-  "group_order": 0
+  "order": 907,
+  "group_order": 4
 }

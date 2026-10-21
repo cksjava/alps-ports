@@ -3,16 +3,16 @@
   "version": "1.0.10",
   "title": "xhost-1.0.10",
   "anchor": "xhost",
-  "page_type": "compound",
-  "group": "xorg-applications",
+  "page_type": "batch",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
-  "summary": "The Xorg applications provide the expected applications available in previous X Window implementations.",
-  "download": "https://www.x.org/pub/individual/app/",
+  "summary": "xhost-1.0.10 is built from the x7app page.",
+  "download": "https://www.x.org/pub/individual/app/xhost-1.0.10.tar.xz",
   "archive": "xhost-1.0.10.tar.xz",
   "md5": "45c7e956941194e5f06a9c7307f5f971",
-  "size": "4.9 MB",
-  "disk_space": "48 MB",
-  "build_time": "1.5 SBU (ignoring the time to download)",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
   "dependencies": [
     "libpng",
     "mesa",
@@ -21,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 645,
-  "group_order": 13
+  "order": 614,
+  "group_order": 62
 }

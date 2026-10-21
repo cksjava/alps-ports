@@ -14,10 +14,10 @@
   "disk_space": "2.4 MB",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "glib"
+    "glib2"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 562,
-  "group_order": 0
+  "order": 529,
+  "group_order": 13
 }

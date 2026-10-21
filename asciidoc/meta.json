@@ -3,8 +3,8 @@
   "version": "10.2.1",
   "title": "Asciidoc-10.2.1",
   "anchor": "asciidoc",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Asciidoc package is a text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, and man page.",
   "download": "https://files.pythonhosted.org/packages/source/a/asciidoc/asciidoc-10.2.1.tar.gz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 435,
-  "group_order": 1
+  "order": 409,
+  "group_order": 168
 }

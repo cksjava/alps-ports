@@ -15,12 +15,11 @@
   "build_time": "0.3 SBU (with tests; using parallelism=4)",
   "dependencies": [
     "duktape",
-    "glib",
-    "libxslt",
-    "linux-pam"
+    "glib2",
+    "systemd"
   ],
   "build_before": [],
   "build_after": [],
   "order": 19,
-  "group_order": 0
+  "group_order": 17
 }

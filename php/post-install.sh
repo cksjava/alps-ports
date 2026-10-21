@@ -12,11 +12,11 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-sed -i 's@php/includes"@&\ninclude_path = ".:/usr/lib/php"@' \
-    /etc/php.ini
 sed -i -e '/proxy_module/s/^#//'      \
        -e '/proxy_fcgi_module/s/^#//' \
        /etc/httpd/httpd.conf
 echo \
 'ProxyPassMatch ^/(.*\.php)$ fcgi://127.0.0.1:9000/srv/www/$1' >> \
 /etc/httpd/httpd.conf
+make install-php-fpm
+

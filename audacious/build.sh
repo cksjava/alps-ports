@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,6 +29,15 @@ fi
 
 echo "=== Audacious-4.6.1 ==="
 cd "$ARYA_SOURCES"
+tarball="audacious-4.6.1.tar.bz2"
+if [[ ! -f "$tarball" ]]; then
+    echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
+    exit 1
+fi
+srcdir=$(tar -tf "$tarball" | awk -F/ 'NR==1 { print $1 }')
+rm -rf "$srcdir"
+tar -xf "$tarball"
+cd "$srcdir"
 
 mkdir build &&
 cd    build &&
@@ -54,3 +66,7 @@ meson setup ..            \
       -D wavpack=false    &&
 ninja
 ninja install
+
+cd "$ARYA_SOURCES"
+rm -rf "$srcdir"
+

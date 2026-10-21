@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
-  "summary": "The libgcrypt package contains a general purpose crypto library based on the code used in GnuPG. The library provides a high level interface to cryptographic building blocks using an extendable and flexible API.",
+  "summary": "The libgcrypt package contains a general purpose crypto library based on the code used in GnuPG . The library provides a high level interface to cryptographic building blocks using an extendable and flexible API.",
   "download": "https://www.gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.12.2.tar.bz2",
   "archive": "libgcrypt-1.12.2.tar.bz2",
   "md5": "4e98430cfc16d842a7231026c32418da",
@@ -18,6 +18,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 94,
-  "group_order": 0
+  "order": 86,
+  "group_order": 37
 }

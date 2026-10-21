@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "gnome-applications",
   "chapter": "Chapter 34. GNOME Applications",
-  "summary": "GNOME Maps is a map application for GNOME.",
+  "summary": "GNOME Maps is a map application for GNOME .",
   "download": "https://download.gnome.org/sources/gnome-maps/50/gnome-maps-50.4.tar.xz",
   "archive": "gnome-maps-50.4.tar.xz",
   "md5": "57dc52bcfae11390d364979f7713b58e",
@@ -16,7 +16,7 @@
   "dependencies": [
     "blueprint-compiler",
     "desktop-file-utils",
-    "geoclue",
+    "geoclue2",
     "geocode-glib",
     "gjs",
     "libadwaita",
@@ -27,6 +27,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 966,
-  "group_order": 0
+  "order": 909,
+  "group_order": 6
 }

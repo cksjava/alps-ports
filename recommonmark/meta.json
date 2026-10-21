@@ -3,10 +3,10 @@
   "version": "0.7.1",
   "title": "Recommonmark-0.7.1",
   "anchor": "recommonmark",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
-  "summary": "Recommonmark is a docutils-compatibility bridge to CommonMark. It allows writing CommonMark inside of Docutils and Sphinx projects. Recommonmark is now deprecated in favor of MyST-Parser. Unfortunately, libinput-1.31.3 depends on this module.",
+  "summary": "Recommonmark is a docutils-compatibility bridge to CommonMark. It allows writing CommonMark inside of Docutils and Sphinx projects. Recommonmark is now deprecated in favor of MyST-Parser . Unfortunately, libinput-1.31.3 depends on this module.",
   "download": "https://files.pythonhosted.org/packages/source/r/recommonmark/recommonmark-0.7.1.tar.gz",
   "archive": "recommonmark-0.7.1.tar.gz",
   "md5": "3c550a76eb62006bf007843a9f1805bb",
@@ -19,6 +19,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 463,
-  "group_order": 29
+  "order": 437,
+  "group_order": 196
 }

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -41,12 +44,9 @@ cd    build &&
 
 meson setup --prefix=/usr --buildtype=release .. &&
 ninja
-sed -e "/docdir =/s@\$@/ 'vte-0.84.1'@" \
-    -i ../doc/reference/meson.build     &&
-meson configure -D docs=true            &&
-ninja
 ninja install &&
 rm -v /etc/profile.d/vte.*
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

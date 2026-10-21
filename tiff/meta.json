@@ -13,11 +13,9 @@
   "size": "3.9 MB",
   "disk_space": "56 MB (with tests)",
   "build_time": "0.3 SBU (with tests)",
-  "dependencies": [
-    "cmake"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 199,
-  "group_order": 0
+  "order": 183,
+  "group_order": 41
 }

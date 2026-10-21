@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
-  "summary": "The libassuan package contains an inter process communication library used by some of the other GnuPG related packages. libassuan's primary use is to allow a client to interact with a non-persistent server. libassuan is not, however, limited to use with GnuPG servers and clients. It was designed to be flexible enough to meet the demands of many transaction based environments with non-persistent servers.",
+  "summary": "The libassuan package contains an inter process communication library used by some of the other GnuPG related packages. libassuan 's primary use is to allow a client to interact with a non-persistent server. libassuan is not, however, limited to use with GnuPG servers and clients. It was designed to be flexible enough to meet the demands of many transaction based environments with non-persistent servers.",
   "download": "https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-3.0.2.tar.bz2",
   "archive": "libassuan-3.0.2.tar.bz2",
   "md5": "c6f1bf4bd2aaa79cd1635dcc070ba51a",
@@ -18,6 +18,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 85,
-  "group_order": 0
+  "order": 80,
+  "group_order": 31
 }

@@ -3,8 +3,8 @@
   "version": "1.13.6",
   "title": "libevdev 1.13.6",
   "anchor": "libevdev",
-  "page_type": "nested",
-  "group": "xorg-input-drivers",
+  "page_type": "multi",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The libevdev package contains common functions for Xorg input drivers.",
   "download": "https://www.freedesktop.org/software/libevdev/libevdev-1.13.6.tar.xz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 680,
-  "group_order": 1
+  "order": 650,
+  "group_order": 98
 }

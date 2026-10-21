@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,7 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+patch -Np1 -i ../SDL3-3.4.14-upstream_fixes-1.patch
 mkdir build &&
 cd    build &&
 
@@ -48,19 +52,7 @@ cmake -D CMAKE_INSTALL_PREFIX=/usr \
 
 ninja
 ninja install
-mkdir ../build-tests &&
-cd    ../build-tests &&
-
-cmake -D CMAKE_INSTALL_PREFIX=/usr \
-      -D CMAKE_BUILD_TYPE=Release  \
-      -D SDL_STATIC=OFF            \
-      -D SDL_RPATH=OFF             \
-      -D SDL_TESTS=ON              \
-      -D SDL_INSTALL_TESTS=ON      \
-      -W no-author -G Ninja ..     &&
-
-ninja &&
-DESTDIR=$PWD/TESTS ninja install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

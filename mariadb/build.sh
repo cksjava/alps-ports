@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,8 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+groupadd -g 40 mariadb &&
+useradd -c "MariaDB Server" -d /srv/mariadb -g mariadb -s /bin/false -u 40 mariadb
 patch -Np1 -i ../mariadb-12.3.3-openssl4_fixes-1.patch
 mkdir build &&
 cd    build &&
@@ -65,7 +70,7 @@ cmake -D CMAKE_BUILD_TYPE=Release                       \
       .. &&
 make
 make install
-make install-mariadb
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

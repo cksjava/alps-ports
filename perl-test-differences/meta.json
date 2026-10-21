@@ -1,0 +1,23 @@
+{
+  "name": "Test::Differences",
+  "version": "0.72",
+  "title": "Test::Differences-0.72",
+  "anchor": "perl-test-differences",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Test::Differences tests strings and data structures and shows the differences if they do not match.",
+  "download": "https://www.cpan.org/authors/id/D/DC/DCANTRELL/Test-Differences-0.72.tar.gz",
+  "archive": "Test-Differences-0.72.tar.gz",
+  "md5": "348ac35809a53290ac05cf0f18f673fa",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-text-diff"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 295,
+  "group_order": 54
+}

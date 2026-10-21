@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -43,8 +46,23 @@ cd    build &&
              --localstatedir=/var \
              --sysconfdir=/etc    \
              --docdir=/usr/share/doc/gnupg-2.5.21 &&
-make
-make install
+make &&
+
+makeinfo --html --no-split -I doc -o doc/gnupg_nochunks.html ../doc/gnupg.texi &&
+makeinfo --plaintext       -I doc -o doc/gnupg.txt           ../doc/gnupg.texi &&
+make -C doc html
+make install &&
+
+install -v -m755 -d /usr/share/doc/gnupg-2.5.21/html            &&
+install -v -m644    doc/gnupg_nochunks.html \
+                    /usr/share/doc/gnupg-2.5.21/html/gnupg.html &&
+install -v -m644    ../doc/*.texi doc/gnupg.txt \
+                    /usr/share/doc/gnupg-2.5.21 &&
+install -v -m644    doc/gnupg.html/* \
+                    /usr/share/doc/gnupg-2.5.21/html
+install -v -m644 doc/gnupg.pdf \
+                 /usr/share/doc/gnupg-2.5.21
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

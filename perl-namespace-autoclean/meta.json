@@ -1,0 +1,23 @@
+{
+  "name": "namespace::autoclean",
+  "version": "0.31",
+  "title": "namespace::autoclean-0.31",
+  "anchor": "perl-namespace-autoclean",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "This module is very similar to namespace::clean, except it will clean all imported functions, no matter if you imported them before or after you used the pragma. It will also not touch anything that looks like a method.",
+  "download": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/namespace-autoclean-0.31.tar.gz",
+  "archive": "namespace-autoclean-0.31.tar.gz",
+  "md5": "abd25263af155ab70bf7a039247400d3",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-namespace-clean"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 364,
+  "group_order": 123
+}

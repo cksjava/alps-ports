@@ -1,0 +1,25 @@
+{
+  "name": "DateTime::TimeZone",
+  "version": "2.68",
+  "title": "DateTime::TimeZone-2.68",
+  "anchor": "perl-datetime-timezone",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "This class is the base class for all time zone objects. A time zone is represented internally as a set of observances, each of which describes the offset from GMT for a given time period.",
+  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-TimeZone-2.68.tar.gz",
+  "archive": "DateTime-TimeZone-2.68.tar.gz",
+  "md5": "6594692f63df025c64c12241d3d38901",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-class-singleton",
+    "perl-module-runtime",
+    "perl-params-validationcompiler"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 326,
+  "group_order": 85
+}

@@ -3,8 +3,8 @@
   "version": "1.1",
   "title": "html5lib-1.1",
   "anchor": "html5lib",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "html5lib provides a pure-python library for parsing HTML. It is designed to conform to the WHATWG HTML specification.",
   "download": "https://files.pythonhosted.org/packages/source/h/html5lib/html5lib-1.1.tar.gz",
@@ -19,6 +19,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 447,
-  "group_order": 13
+  "order": 421,
+  "group_order": 180
 }

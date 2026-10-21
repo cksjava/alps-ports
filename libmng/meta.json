@@ -14,11 +14,11 @@
   "disk_space": "15 MB",
   "build_time": "0.1 SBU",
   "dependencies": [
-    "libjpeg-turbo",
-    "little-cms"
+    "libjpeg",
+    "lcms2"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 181,
-  "group_order": 0
+  "order": 166,
+  "group_order": 24
 }

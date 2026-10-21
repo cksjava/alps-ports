@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -37,8 +40,23 @@ tar -xf "$tarball"
 cd "$srcdir"
 
 ./configure --prefix=/usr &&
-make
-make install
+make                      &&
+
+make -C doc html                                                       &&
+makeinfo --html --no-split -o doc/assuan_nochunks.html doc/assuan.texi &&
+makeinfo --plaintext       -o doc/assuan.txt           doc/assuan.texi
+make install &&
+
+install -v -dm755   /usr/share/doc/libassuan-3.0.2/html &&
+install -v -m644 doc/assuan.html/* \
+                    /usr/share/doc/libassuan-3.0.2/html &&
+install -v -m644 doc/assuan_nochunks.html \
+                    /usr/share/doc/libassuan-3.0.2      &&
+install -v -m644 doc/assuan.{txt,texi} \
+                    /usr/share/doc/libassuan-3.0.2
+install -v -m644  doc/assuan.{pdf,ps,dvi} \
+                  /usr/share/doc/libassuan-3.0.2
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

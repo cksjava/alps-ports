@@ -12,6 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-sed -e 's@/desktop/ibus@/org/freedesktop/ibus@g' \
-    -i data/dconf/org.freedesktop.ibus.gschema.xml
 gtk-query-immodules-3.0 --update-cache
+

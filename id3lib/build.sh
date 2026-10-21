@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -46,7 +49,12 @@ automake --add-missing --copy &&
 ./configure --prefix=/usr --disable-static &&
 make
 make install  &&
-cp doc/man/* /usr/share/man/man1
+cp doc/man/* /usr/share/man/man1 &&
+
+install -v -m755 -d /usr/share/doc/id3lib-3.8.3 &&
+install -v -m644 doc/*.{gif,jpg,png,ico,css,txt,php,html} \
+                    /usr/share/doc/id3lib-3.8.3
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

@@ -1,0 +1,26 @@
+{
+  "name": "D-Bus Python",
+  "version": "1.4.0",
+  "title": "D-Bus Python-1.4.0",
+  "anchor": "dbus-python",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "D-Bus Python provides Python bindings to the D-Bus API interface.",
+  "download": "https://dbus.freedesktop.org/releases/dbus-python/dbus-python-1.4.0.tar.xz",
+  "archive": "dbus-python-1.4.0.tar.xz",
+  "md5": "edca335d1c80f338e3255455eb876b72",
+  "size": "168 KB",
+  "disk_space": "1.7 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "dbus",
+    "glib2",
+    "meson_python",
+    "patchelf"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 416,
+  "group_order": 175
+}

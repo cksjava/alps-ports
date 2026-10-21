@@ -13,11 +13,9 @@
   "size": "6.2 MB",
   "disk_space": "108 MB (client and server)",
   "build_time": "0.3 SBU (client), 0.8 SBU (server)",
-  "dependencies": [
-    "cyrus-sasl"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 584,
+  "order": 551,
   "group_order": 0
 }

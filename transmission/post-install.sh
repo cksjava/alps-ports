@@ -12,6 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-rsvg-convert                                                   \
-   /usr/share/icons/hicolor/scalable/apps/transmission-gtk.svg \
-   -o /usr/share/pixmaps/transmission.png
+# This package has no post-install commands.
+

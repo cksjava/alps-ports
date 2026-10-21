@@ -7,8 +7,8 @@
   "group": "networking-libraries",
   "chapter": "Chapter 17. Networking Libraries",
   "summary": "The libnl suite is a collection of libraries providing APIs to netlink protocol based Linux kernel interfaces.",
-  "download": "https://github.com/thom311/libnl/releases/download/libnl3_12_0/libnl-doc-3.12.0.tar.gz",
-  "archive": "libnl-doc-3.12.0.tar.gz",
+  "download": "https://github.com/thom311/libnl/releases/download/libnl3_12_0/libnl-3.12.0.tar.gz",
+  "archive": "libnl-3.12.0.tar.gz",
   "md5": "befe7b001c82640f8e937c603afc7edc",
   "size": "4.3 MB",
   "disk_space": "32 MB (with API documentation)",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 557,
-  "group_order": 0
+  "order": 524,
+  "group_order": 8
 }

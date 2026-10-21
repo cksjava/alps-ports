@@ -1,0 +1,24 @@
+{
+  "name": "libICE",
+  "version": "1.1.2",
+  "title": "libICE-1.1.2",
+  "anchor": "libICE",
+  "page_type": "batch",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "libICE-1.1.2 is built from the x7lib page.",
+  "download": "https://www.x.org/pub/individual/lib/libICE-1.1.2.tar.xz",
+  "archive": "libICE-1.1.2.tar.xz",
+  "md5": "d1ffde0a07709654b20bada3f9abdd16",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "fontconfig",
+    "libxcb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 562,
+  "group_order": 10
+}

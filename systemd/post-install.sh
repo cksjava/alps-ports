@@ -12,8 +12,6 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-sed -i -e 's/GROUP="render"/GROUP="video"/' \
-       -e 's/GROUP="sgx", //' rules.d/50-udev-default.rules.in
 grep 'pam_systemd' /etc/pam.d/system-session ||
 cat >> /etc/pam.d/system-session << "EOF"
 # Begin Systemd addition
@@ -78,3 +76,4 @@ chmod -v 755 /etc/systemd/user-environment-generators/50-profile.sh
 systemctl --user unset-environment \
   $(/etc/systemd/user-environment-generators/50-profile.sh | sed 's/=.*//')
 systemctl --user daemon-reload
+

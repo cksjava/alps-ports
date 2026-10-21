@@ -3,8 +3,8 @@
   "version": "3.3.2",
   "title": "pyparsing-3.3.2",
   "anchor": "pyparsing",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The pyparsing module is an alternative approach to creating and executing simple grammars, vs. the traditional lex/yacc approach, or the use of regular expressions. It provides a library of classes that client code uses to construct the grammar directly in Python code.",
   "download": "https://files.pythonhosted.org/packages/source/p/pyparsing/pyparsing-3.3.2.tar.gz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 458,
-  "group_order": 24
+  "order": 432,
+  "group_order": 191
 }

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,8 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+groupadd -g 31 exim &&
+useradd -d /dev/null -c "Exim Daemon" -g exim -s /bin/false -u 31 exim
 sed -e 's|^BIN_DIR.*$|BIN_DIRECTORY=/usr/sbin|'    \
     -e 's|^CONF.*$|CONFIGURE_FILE=/etc/exim.conf|' \
     -e 's|^EXIM_USER.*$|EXIM_USER=exim|'           \
@@ -47,9 +52,12 @@ make
 make install                                    &&
 install -v -m644 doc/exim.8 /usr/share/man/man8 &&
 
+install -vdm 755    /usr/share/doc/exim-4.100 &&
+cp      -Rv doc/*   /usr/share/doc/exim-4.100 &&
+
 ln -sfv exim /usr/sbin/sendmail                 &&
 install -v -d -m750 -o exim -g exim /var/spool/exim
-make install-exim
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

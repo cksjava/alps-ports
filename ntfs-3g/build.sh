@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -44,8 +47,7 @@ cd "$srcdir"
             --docdir=/usr/share/doc/ntfs-3g-2026.7.7 &&
 make
 make install
-ln -svf ../bin/ntfs-3g /usr/sbin/mount.ntfs &&
-ln -svf ntfs-3g.8 /usr/share/man/man8/mount.ntfs.8
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

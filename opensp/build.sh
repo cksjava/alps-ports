@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -49,6 +52,9 @@ sed -i 's/LITLEN          240 /LITLEN          8092/'    \
             --enable-default-search-path=/usr/share/sgml &&
 
 make pkgdatadir=/usr/share/sgml/OpenSP-1.5.2
+make pkgdatadir=/usr/share/sgml/OpenSP-1.5.2 \
+     docdir=/usr/share/doc/OpenSP-1.5.2      \
+     install &&
 
 ln -v -sf onsgmls   /usr/bin/nsgmls   &&
 ln -v -sf osgmlnorm /usr/bin/sgmlnorm &&
@@ -61,3 +67,4 @@ ln -v -sf libosp.so /usr/lib/libsp.so
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

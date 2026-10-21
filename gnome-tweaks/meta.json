@@ -18,11 +18,11 @@
     "gsettings-desktop-schemas",
     "libadwaita",
     "libgudev",
-    "pygobject",
+    "pygobject3",
     "sound-theme-freedesktop"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 953,
-  "group_order": 0
+  "order": 901,
+  "group_order": 28
 }

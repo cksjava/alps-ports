@@ -12,8 +12,7 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-twadmin --create-polfile --site-keyfile /etc/tripwire/site.key \
-    /etc/tripwire/twpol.txt &&
-tripwire --init
+tripwire --check > /etc/tripwire/report.txt
 twadmin --create-polfile /etc/tripwire/twpol.txt &&
 tripwire --init
+

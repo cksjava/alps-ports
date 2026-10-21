@@ -1,0 +1,21 @@
+{
+  "name": "Text::Glob",
+  "version": "0.11",
+  "title": "Text::Glob-0.11",
+  "anchor": "perl-text-glob",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Text::Glob implements glob(3) style matching that can be used to match against text, rather than fetching names from a filesystem.",
+  "download": "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Text-Glob-0.11.tar.gz",
+  "archive": "Text-Glob-0.11.tar.gz",
+  "md5": "d001559c504a2625dd117bd1558f07f7",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 396,
+  "group_order": 155
+}

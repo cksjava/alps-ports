@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,7 +29,7 @@ fi
 
 echo "=== Linux-PAM-1.7.2 ==="
 cd "$ARYA_SOURCES"
-tarball="Linux-PAM-1.7.2-docs.tar.xz"
+tarball="Linux-PAM-1.7.2.tar.xz"
 if [[ ! -f "$tarball" ]]; then
     echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
     exit 1
@@ -36,8 +39,17 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+sed -e "s/'elinks'/'lynx'/"                       \
+    -e "s/'-no-numbering', '-no-references'/      \
+          '-force-html', '-nonumbers', '-stdin'/" \
+    -i meson.build
 mkdir build &&
 cd    build &&
+
+meson setup ..        \
+  --prefix=/usr       \
+  --buildtype=release \
+  -D docdir=/usr/share/doc/Linux-PAM-1.7.2 &&
 
 ninja
 install -v -m755 -d /etc/pam.d &&
@@ -48,8 +60,11 @@ account  required       pam_deny.so
 password required       pam_deny.so
 session  required       pam_deny.so
 EOF
+rm -fv /etc/pam.d/other
 ninja install &&
 chmod -v 4755 /usr/sbin/unix_chkpwd
+tar -C / -xvf ../../Linux-PAM-1.7.2-docs.tar.xz
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

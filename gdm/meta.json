@@ -15,15 +15,16 @@
   "build_time": "0.2 SBU",
   "dependencies": [
     "accountsservice",
-    "dconf-dconf-editor",
+    "dconf",
     "libcanberra",
     "gtk3",
     "linux-pam",
     "gnome-session",
+    "gnome-shell",
     "systemd"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 745,
+  "order": 709,
   "group_order": 0
 }

@@ -12,7 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-cat >> /etc/sane.d/net.conf << "EOF"
-connect_timeout = 60
-<server_ip>
-EOF
+# This package has no post-install commands.
+

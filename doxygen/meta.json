@@ -15,11 +15,10 @@
   "build_time": "1.2 SBU (with tests; both using parallelism=4)",
   "dependencies": [
     "cmake",
-    "git",
-    "qt"
+    "git"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 272,
-  "group_order": 0
+  "order": 245,
+  "group_order": 4
 }

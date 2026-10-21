@@ -15,21 +15,11 @@
   "build_time": "0.2 SBU (with parallelism=4; add as much as 1.3 SBU for tests, dependent on disk speed)",
   "dependencies": [
     "gexiv2",
-    "gst-plugins-base",
-    "tinysparql",
-    "exempi",
-    "giflib",
-    "ffmpeg",
-    "icu",
-    "libexif",
-    "libgxps",
-    "libseccomp",
-    "libwebp",
-    "poppler",
-    "upower"
+    "gst10-plugins-base",
+    "tinysparql"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 936,
-  "group_order": 0
+  "order": 890,
+  "group_order": 17
 }

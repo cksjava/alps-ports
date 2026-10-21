@@ -19,15 +19,10 @@
     "libass",
     "libplacebo",
     "mesa",
-    "pulseaudio",
-    "libjpeg-turbo",
-    "libva",
-    "luajit",
-    "uchardet",
-    "vulkan-loader"
+    "pulseaudio"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1136,
-  "group_order": 0
+  "order": 1032,
+  "group_order": 1
 }

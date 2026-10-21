@@ -17,18 +17,10 @@
     "at-spi2-core",
     "gdk-pixbuf",
     "libepoxy",
-    "pango",
-    "docbook-xsl-nons",
-    "hicolor-icon-theme",
-    "iso-codes",
-    "libxkbcommon",
-    "libxslt",
-    "wayland",
-    "wayland-protocols",
-    "glib"
+    "pango"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 713,
-  "group_order": 0
+  "order": 684,
+  "group_order": 14
 }

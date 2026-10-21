@@ -12,4 +12,17 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-# This package has no post-install commands.
+make install-postgresql
+systemctl start postgresql
+su - postgres -c '/usr/bin/createdb test' &&
+echo "create table t1 ( name varchar(20), state_province varchar(20) );" \
+    | (su - postgres -c '/usr/bin/psql test ') &&
+echo "insert into t1 values ('Billy', 'NewYork');" \
+    | (su - postgres -c '/usr/bin/psql test ') &&
+echo "insert into t1 values ('Evanidus', 'Quebec');" \
+    | (su - postgres -c '/usr/bin/psql test ') &&
+echo "insert into t1 values ('Jesse', 'Ontario');" \
+    | (su - postgres -c '/usr/bin/psql test ') &&
+echo "select * from t1;" | (su - postgres -c '/usr/bin/psql test')
+systemctl stop postgresql
+

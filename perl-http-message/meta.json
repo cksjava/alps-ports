@@ -1,0 +1,28 @@
+{
+  "name": "HTTP::Message",
+  "version": "7.02",
+  "title": "HTTP::Message-7.02",
+  "anchor": "perl-http-message",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "HTTP::Message provides a base class for HTTP style message objects.",
+  "download": "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Message-7.02.tar.gz",
+  "archive": "HTTP-Message-7.02.tar.gz",
+  "md5": "8ade8ce9c75908640f30007f393fbf88",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-clone",
+    "perl-encode-locale",
+    "perl-http-date",
+    "perl-io-html",
+    "perl-lwp-mediatypes",
+    "perl-uri"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 348,
+  "group_order": 107
+}

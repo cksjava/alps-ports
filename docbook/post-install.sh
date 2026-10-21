@@ -23,9 +23,10 @@ do
     "http://www.oasis-open.org/docbook/xml/$DTDVERSION" \
     "file:///usr/share/xml/docbook/xml-dtd-4.5"         \
     /usr/share/xml/docbook/xml-dtd-4.5/catalog.xml
-  
+
   xmlcatalog --noout --add "rewriteURI"                 \
     "http://www.oasis-open.org/docbook/xml/$DTDVERSION" \
     "file:///usr/share/xml/docbook/xml-dtd-4.5"         \
     /usr/share/xml/docbook/xml-dtd-4.5/catalog.xml
 done
+

@@ -15,11 +15,11 @@
   "build_time": "0.2 SBU",
   "dependencies": [
     "lxqt-globalkeys",
-    "kwindowsystem-for-lxqt",
+    "lxqt-kwindowsystem",
     "muparser"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1024,
-  "group_order": 0
+  "order": 948,
+  "group_order": 16
 }

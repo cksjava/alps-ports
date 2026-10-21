@@ -14,10 +14,10 @@
   "disk_space": "1.9 MB (including tests)",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "chapter-21-mail-server-software"
+    "mail"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 230,
-  "group_order": 0
+  "order": 207,
+  "group_order": 2
 }

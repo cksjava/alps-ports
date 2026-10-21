@@ -12,5 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-mountpoint /sys/firmware/efi/efivars ||
-  mount -v -t efivarfs efivarfs /sys/firmware/efi/efivars
+# This package has no post-install commands.
+

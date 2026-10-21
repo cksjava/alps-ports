@@ -15,11 +15,11 @@
   "build_time": "0.4 SBU",
   "dependencies": [
     "lxqt-build-tools",
-    "kwindowsystem-for-lxqt",
+    "lxqt-kwindowsystem",
     "libqtxdg"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1043,
-  "group_order": 0
+  "order": 961,
+  "group_order": 5
 }

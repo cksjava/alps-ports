@@ -15,11 +15,11 @@
   "build_time": "less than 0.1 SBU",
   "dependencies": [
     "fuse",
-    "glib",
+    "glib2",
     "openssh"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 35,
-  "group_order": 0
+  "order": 34,
+  "group_order": 9
 }

@@ -7,8 +7,8 @@
   "group": "multimedia-libraries-and-drivers",
   "chapter": "Chapter 42. Multimedia Libraries and Drivers",
   "summary": "Speex is an audio compression format designed specifically for speech. It is well-adapted to internet applications and provides useful features that are not present in most other CODECs.",
-  "download": "https://downloads.xiph.org/releases/speex/speexdsp-1.2.1.tar.gz",
-  "archive": "speexdsp-1.2.1.tar.gz",
+  "download": "https://downloads.xiph.org/releases/speex/speex-1.2.1.tar.gz",
+  "archive": "speex-1.2.1.tar.gz",
   "md5": "e6eb5ddef743a362c8018f260b91dca5",
   "size": "904 KB",
   "disk_space": "5.5 MB",
@@ -18,6 +18,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1118,
-  "group_order": 0
+  "order": 1017,
+  "group_order": 36
 }

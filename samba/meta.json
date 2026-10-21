@@ -16,21 +16,11 @@
   "dependencies": [
     "gnutls",
     "libtirpc",
-    "parse-yapp",
-    "rpcsvc-proto",
-    "fuse",
-    "gpgme",
-    "icu",
-    "jansson",
-    "libtasn1",
-    "libxslt",
-    "linux-pam",
-    "lmdb",
-    "mit-kerberos-v5",
-    "openldap"
+    "perl-parse-yapp",
+    "rpcsvc-proto"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 534,
-  "group_order": 0
+  "order": 506,
+  "group_order": 7
 }

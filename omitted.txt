@@ -1,5 +1,0 @@
-Commands that were not written into the BLFS ports.
-Test-suite commands, optional documentation, and the shared-loop
-wrappers (wget of the whole set, checksum lists, bash -e, exit)
-are omitted.
-

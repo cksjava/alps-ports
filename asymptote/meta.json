@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "typesetting",
   "chapter": "Chapter 51. Typesetting",
-  "summary": "Asymptote is a powerful descriptive vector graphics language that provides a natural coordinate-based framework for technical drawing. Labels and equations can be typeset with LaTeX. As well as EPS, PDF, and PNG output, it can produce WebGL 3D HTML rendering and (using dvisvgm) SVG output.",
+  "summary": "Asymptote is a powerful descriptive vector graphics language that provides a natural coordinate-based framework for technical drawing. Labels and equations can be typeset with LaTeX. As well as EPS, PDF, and PNG output, it can produce WebGL 3D HTML rendering and (using dvisvgm ) SVG output.",
   "download": "https://downloads.sourceforge.net/asymptote/asymptote-3.14.src.tgz",
   "archive": "asymptote-3.14.src.tgz",
   "md5": "158921966b8be1049e933b5154774c66",
@@ -14,18 +14,11 @@
   "disk_space": "338 MB (55 MB installed after overwriting files in $TEXLIVE_PREFIX/texmf-dist/, with all the dependencies which are in BLFS)",
   "build_time": "0.9 SBU (using parallelism=4)",
   "dependencies": [
-    "ghostscript",
-    "texlive-source",
-    "curl",
-    "freeglut",
-    "gc",
-    "glew",
-    "glm",
-    "libtirpc",
-    "dvisvgm"
+    "gs",
+    "texlive"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1174,
-  "group_order": 0
+  "order": 1064,
+  "group_order": 2
 }

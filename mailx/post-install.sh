@@ -12,7 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-echo "set PAGER=<more|less>" >> /etc/nail.rc
-echo "set PAGER=<more|less>" >> ~/.mailrc
-echo "set EDITOR=<vim|nano|...>" >> /etc/nail.rc
 echo "set MAILDIR=Maildir" >> /etc/nail.rc
+

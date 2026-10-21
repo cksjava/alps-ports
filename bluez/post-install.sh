@@ -12,5 +12,7 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-cat > /etc/bluetooth/rfcomm.conf << "EOF"
 cat > /etc/bluetooth/uart.conf << "EOF"
+systemctl enable bluetooth
+systemctl enable --global obex
+

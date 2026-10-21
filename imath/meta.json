@@ -14,12 +14,10 @@
   "disk_space": "162 MB (with tests)",
   "build_time": "1.2 SBU (Using parallelism=4; with tests)",
   "dependencies": [
-    "cmake",
-    "boost",
-    "numpy"
+    "cmake"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 171,
-  "group_order": 0
+  "order": 156,
+  "group_order": 14
 }

@@ -12,6 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-rm -vf /usr/lib/libwftouch.a \
-       /usr/lib/libwayfire-{move-drag-interface,workspace-wall}.a
 cp /usr/share/wayfire/wayfire.ini ~/.config
+

@@ -4,7 +4,7 @@
   "title": "OpenSP-1.5.2",
   "anchor": "opensp",
   "page_type": "single",
-  "group": "standard-generalized-markup-language",
+  "group": "standard-generalized-markup-language-sgml",
   "chapter": "Chapter 48. Standard Generalized Markup Language (SGML)",
   "summary": "The OpenSP package contains a C++ library for using SGML/XML files. This is useful for validating, parsing and manipulating SGML and XML documents.",
   "download": "https://downloads.sourceforge.net/openjade/OpenSP-1.5.2.tar.gz",
@@ -18,6 +18,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1157,
-  "group_order": 0
+  "order": 1049,
+  "group_order": 3
 }

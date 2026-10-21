@@ -3,8 +3,8 @@
   "version": "1.4.1",
   "title": "Imagesize-1.4.1",
   "anchor": "imagesize",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The imagesize package analyzes image file headers and returns the image size and DPI. It works with JPEG/JPEG 2000/PNG/GIF/TIFF/SVG/Netpbm/WebP formats.",
   "download": "https://files.pythonhosted.org/packages/source/i/imagesize/imagesize-1.4.1.tar.gz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 480,
-  "group_order": 11
+  "order": 454,
+  "group_order": 213
 }

@@ -3,8 +3,8 @@
   "version": "3.10.2",
   "title": "Markdown-3.10.2",
   "anchor": "markdown",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Markdown is a Python parser for John Gruber's Markdown specification.",
   "download": "https://files.pythonhosted.org/packages/source/M/Markdown/markdown-3.10.2.tar.gz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 483,
-  "group_order": 14
+  "order": 457,
+  "group_order": 216
 }

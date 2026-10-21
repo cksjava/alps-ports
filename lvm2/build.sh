@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -42,8 +45,18 @@ PATH+=:/usr/sbin                \
             --enable-pkgconfig  \
             --enable-udev_sync  &&
 make
+mount -o remount,dev /tmp
+--with-thin-check=    \
+     --with-thin-dump=     \
+     --with-thin-repair=   \
+     --with-thin-restore=  \
+     --with-cache-check=   \
+     --with-cache-dump=    \
+     --with-cache-repair=  \
+     --with-cache-restore= \
 make install
 make install_systemd_units
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

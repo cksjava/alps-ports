@@ -1,0 +1,23 @@
+{
+  "name": "OpenJPEG",
+  "version": "2.5.4",
+  "title": "OpenJPEG-2.5.4",
+  "anchor": "openjpeg2",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "OpenJPEG is an open-source implementation of the JPEG-2000 standard. OpenJPEG fully respects the JPEG-2000 specifications and can compress/decompress lossless 16-bit images.",
+  "download": "https://github.com/uclouvain/openjpeg/archive/v2.5.4/openjpeg-2.5.4.tar.gz",
+  "archive": "openjpeg-2.5.4.tar.gz",
+  "md5": "6160de075bb5191e482bc0f024b375e4",
+  "size": "2.1 MB",
+  "disk_space": "16 MB (add 1.7 GB for tests)",
+  "build_time": "0.2 SBU (add 1.1 SBU for tests)",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 176,
+  "group_order": 34
+}

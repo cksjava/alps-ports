@@ -13,12 +13,9 @@
   "size": "5.0 MB",
   "disk_space": "38 MB (add 27 MB for tests)",
   "build_time": "0.3 SBU (add 0.4 SBU for tests)",
-  "dependencies": [
-    "libpsl",
-    "make-ca"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 535,
-  "group_order": 0
+  "order": 507,
+  "group_order": 8
 }

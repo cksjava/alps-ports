@@ -12,4 +12,10 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-# This package has no post-install commands.
+cat >> /etc/exports << EOF
+/home 192.168.0.0/24(rw,subtree_check,anonuid=99,anongid=99)
+EOF
+make install-nfsv4-server
+make install-nfs-server
+make install-nfs-client
+

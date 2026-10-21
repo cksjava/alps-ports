@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "text-editors",
   "chapter": "Chapter 6. Text Editors",
-  "summary": "JOE (Joe's own editor) is a small text editor capable of emulating WordStar, Pico, and Emacs.",
+  "summary": "JOE (Joe's own editor) is a small text editor capable of emulating WordStar, Pico , and Emacs .",
   "download": "https://downloads.sourceforge.net/joe-editor/joe-4.6.tar.gz",
   "archive": "joe-4.6.tar.gz",
   "md5": "9017484e6116830d846678b625ea5c43",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 42,
-  "group_order": 0
+  "order": 40,
+  "group_order": 2
 }

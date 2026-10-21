@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,9 +39,14 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+sed -i 's/python/&3/' event_rpcgen.py
 ./configure --prefix=/usr --disable-static &&
 make
 make install
+install -v -m755 -d /usr/share/doc/libevent-2.1.13/api &&
+cp      -v -R       html/* \
+                    /usr/share/doc/libevent-2.1.13/api
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

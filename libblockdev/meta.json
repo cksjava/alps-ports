@@ -14,16 +14,10 @@
   "disk_space": "19 MB",
   "build_time": "0.1 SBU",
   "dependencies": [
-    "glib",
-    "cryptsetup",
-    "keyutils",
-    "libatasmart",
-    "libbytesize",
-    "libnvme",
-    "lvm2"
+    "glib2"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 88,
-  "group_order": 0
+  "order": 82,
+  "group_order": 33
 }

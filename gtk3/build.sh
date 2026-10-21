@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -46,6 +49,9 @@ meson setup ..            \
       -D broadway_backend=true &&
 ninja
 ninja install
+gtk-query-immodules-3.0 --update-cache
+glib-compile-schemas /usr/share/glib-2.0/schemas
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

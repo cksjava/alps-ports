@@ -12,9 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-chgrp kvm  /usr/libexec/qemu-bridge-helper &&
-chmod 4750 /usr/libexec/qemu-bridge-helper
-sysctl -w net.ipv4.ip_forward=1
-cat >> /etc/sysctl.d/60-net-forward.conf << EOF
-net.ipv4.ip_forward=1
-EOF
+# This package has no post-install commands.
+

@@ -14,10 +14,10 @@
   "disk_space": "10 MB",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "rustc"
+    "rust"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 857,
-  "group_order": 0
+  "order": 810,
+  "group_order": 3
 }

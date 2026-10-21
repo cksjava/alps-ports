@@ -1,0 +1,21 @@
+{
+  "name": "Eval::Closure",
+  "version": "0.14",
+  "title": "Eval::Closure-0.14",
+  "anchor": "perl-eval-closure",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Eval::Closure safely and cleanly creates closures via string eval.",
+  "download": "https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz",
+  "archive": "Eval-Closure-0.14.tar.gz",
+  "md5": "ceeb1fc579ac9af981fa6b600538c285",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 330,
+  "group_order": 89
+}

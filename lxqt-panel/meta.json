@@ -14,21 +14,16 @@
   "disk_space": "74 MB",
   "build_time": "0.9 SBU (Using parallelism=4)",
   "dependencies": [
-    "layer-shell-qt-for-lxqt",
+    "lxqt-layer-shell-qt",
     "libdbusmenu-lxqt",
     "liblxqt",
     "lxqt-globalkeys",
     "lxqt-menu-data",
-    "solid-for-lxqt",
-    "menu-cache",
-    "pulseaudio",
-    "libstatgrab",
-    "libsysstat",
-    "libxkbcommon",
-    "lm-sensors"
+    "lxqt-solid",
+    "menu-cache"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1021,
-  "group_order": 0
+  "order": 946,
+  "group_order": 14
 }

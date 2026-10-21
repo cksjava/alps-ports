@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -42,7 +45,12 @@ sed -i 's/static const/static/' libmpeg2/idct_mmx.c &&
             --enable-shared  \
             --disable-static &&
 make
-make install
+make install &&
+
+install -v -m755 -d /usr/share/doc/libmpeg2-0.5.1 &&
+install -v -m644 README doc/libmpeg2.txt \
+                    /usr/share/doc/libmpeg2-0.5.1
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

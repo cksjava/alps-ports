@@ -3,23 +3,22 @@
   "version": "0.19",
   "title": "libpciaccess-0.19",
   "anchor": "libpciaccess",
-  "page_type": "compound",
-  "group": "xorg-libraries",
+  "page_type": "batch",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
-  "summary": "The Xorg libraries provide library routines that are used within all X Window applications.",
-  "download": "https://www.x.org/pub/individual/lib/",
+  "summary": "libpciaccess-0.19 is built from the x7lib page.",
+  "download": "https://www.x.org/pub/individual/lib/libpciaccess-0.19.tar.xz",
   "archive": "libpciaccess-0.19.tar.xz",
   "md5": "0c11ea502b531e59563a9aa7979146fc",
-  "size": "12 MB",
-  "disk_space": "274 MB (47 MB installed) - if source directories not deleted",
-  "build_time": "1.8 SBU",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
   "dependencies": [
     "fontconfig",
-    "libxcb",
-    "dbus"
+    "libxcb"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 619,
-  "group_order": 29
+  "order": 586,
+  "group_order": 34
 }

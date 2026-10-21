@@ -1,0 +1,21 @@
+{
+  "name": "Sub::Quote",
+  "version": "2.006009",
+  "title": "Sub::Quote-2.006009",
+  "anchor": "perl-sub-quote",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Sub::Quote provides ways to generate subroutines from strings.",
+  "download": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Sub-Quote-2.006009.tar.gz",
+  "archive": "Sub-Quote-2.006009.tar.gz",
+  "md5": "8f4600b812f6106a1f907ee47a87bd1d",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 377,
+  "group_order": 136
+}

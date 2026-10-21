@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -37,12 +40,10 @@ tar -xf "$tarball"
 cd "$srcdir"
 
 patch -Np1 -i ../jfsutils-1.1.15-gcc10_fix-1.patch
-sed -i "/unistd.h/a#include <sys/types.h>"    fscklog/extract.c &&
-sed -i "/ioctl.h/a#include <sys/sysmacros.h>" libfs/devices.c   &&
-
 ./configure &&
 make
 make install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

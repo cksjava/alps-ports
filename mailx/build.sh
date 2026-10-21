@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -46,7 +49,11 @@ make -j1 LDFLAGS+="-L /usr/lib/openssl/" \
 make PREFIX=/usr UCBINSTALL=/usr/bin/install install &&
 
 ln -v -sf mailx /usr/bin/mail &&
-ln -v -sf mailx /usr/bin/nail
+ln -v -sf mailx /usr/bin/nail &&
+
+install -v -m755 -d     /usr/share/doc/heirloom-mailx-12.5 &&
+install -v -m644 README /usr/share/doc/heirloom-mailx-12.5
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

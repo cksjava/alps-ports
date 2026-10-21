@@ -88,3 +88,5 @@ install -v -m755 -o mariadb -g mariadb -d /run/mariadb &&
 mariadbd-safe --user=mariadb 2>&1 >/dev/null &
 mariadb-admin -u root password
 mariadb-admin -p shutdown
+make install-mariadb
+

@@ -6,22 +6,16 @@
   "page_type": "single",
   "group": "printing",
   "chapter": "Chapter 46. Printing",
-  "summary": "The Gutenprint (formerly Gimp-Print) package contains high quality drivers for many brands and models of printers for use with Cups-2.4.19. See a list of supported printers at https://gimp-print.sourceforge.io/p_Supported_Printers.php.",
+  "summary": "The Gutenprint (formerly Gimp-Print ) package contains high quality drivers for many brands and models of printers for use with Cups-2.4.19 . See a list of supported printers at https://gimp-print.sourceforge.io/p_Supported_Printers.php .",
   "download": "https://downloads.sourceforge.net/gimp-print/gutenprint-5.3.5.tar.xz",
   "archive": "gutenprint-5.3.5.tar.xz",
   "md5": "18968a1376a0fb0155afea4ce832d7fd",
   "size": "5.4 MB",
   "disk_space": "71 MB (without tests)",
   "build_time": "0.3 SBU (without tests)",
-  "dependencies": [
-    "cups",
-    "two-families-of-dyesub-photo-printers-each-require-another-library-at-runtime-unless-you-have-one-of-these-devices-you-will-not-want-these-libraries",
-    "libs6145imagereprocess",
-    "peachy-photos",
-    "libmitsud70imagereprocess"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1149,
-  "group_order": 0
+  "order": 1042,
+  "group_order": 4
 }

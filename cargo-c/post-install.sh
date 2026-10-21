@@ -12,4 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-unset LIB{SSH2,SQLITE3}_SYS_USE_PKG_CONFIG
+# This package has no post-install commands.
+

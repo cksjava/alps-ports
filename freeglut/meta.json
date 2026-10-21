@@ -15,11 +15,10 @@
   "build_time": "less than 0.1 SBU",
   "dependencies": [
     "cmake",
-    "mesa",
-    "glu"
+    "mesa"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 706,
-  "group_order": 0
+  "order": 677,
+  "group_order": 7
 }

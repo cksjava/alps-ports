@@ -12,4 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-glib-compile-schemas /usr/share/glib-2.0/schemas
+# This package has no post-install commands.
+

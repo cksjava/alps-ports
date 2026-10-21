@@ -13,13 +13,9 @@
   "size": "1.3 MB",
   "disk_space": "37 MB",
   "build_time": "0.3 SBU (using parallelism=4)",
-  "dependencies": [
-    "alsa-lib",
-    "glu",
-    "libjpeg-turbo"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1121,
-  "group_order": 0
+  "order": 1020,
+  "group_order": 39
 }

@@ -13,14 +13,9 @@
   "size": "13 MB",
   "disk_space": "2.3 GB (with tests)",
   "build_time": "2.2 SBU (add 4.3 SBU for tests, both using parallelism=4)",
-  "dependencies": [
-    "curl",
-    "libarchive",
-    "libuv",
-    "nghttp2"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 271,
-  "group_order": 0
+  "order": 244,
+  "group_order": 3
 }

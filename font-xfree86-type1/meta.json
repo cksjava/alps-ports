@@ -3,21 +3,21 @@
   "version": "1.0.5",
   "title": "font-xfree86-type1-1.0.5",
   "anchor": "font-xfree86-type1",
-  "page_type": "compound",
-  "group": "xorg-fonts",
+  "page_type": "batch",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
-  "summary": "The Xorg font packages provide some scalable fonts and supporting packages for Xorg applications. Many people will want to install other TTF or OTF fonts in addition to, or instead of, these. Some are listed at the section called “TTF and OTF fonts”.",
-  "download": "https://www.x.org/pub/individual/font/",
+  "summary": "font-xfree86-type1-1.0.5 is built from the x7font page.",
+  "download": "https://www.x.org/pub/individual/font/font-xfree86-type1-1.0.5.tar.xz",
   "archive": "font-xfree86-type1-1.0.5.tar.xz",
   "md5": "3b47fed2c032af3a32aad9acc1d25150",
-  "size": "3.0 MB",
-  "disk_space": "8.8 MB",
-  "build_time": "0.1 SBU",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
   "dependencies": [
     "xcursor-themes"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 676,
-  "group_order": 9
+  "order": 646,
+  "group_order": 94
 }

@@ -12,4 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-rm -f $XORG_PREFIX/lib/pkgconfig/xcb-proto.pc
+# This package has no post-install commands.
+

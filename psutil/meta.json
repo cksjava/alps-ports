@@ -3,8 +3,8 @@
   "version": "7.2.2",
   "title": "psutil-7.2.2",
   "anchor": "psutil",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "psutil (process and system utilities) is a cross-platform library for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors) in Python. It is useful mainly for system monitoring, profiling and limiting process resources and management of running processes. It implements many functionalities offered by classic UNIX command line tools such as ps, top, iotop, lsof, netstat, ifconfig, free and others.",
   "download": "https://files.pythonhosted.org/packages/source/p/psutil/psutil-7.2.2.tar.gz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 451,
-  "group_order": 17
+  "order": 425,
+  "group_order": 184
 }

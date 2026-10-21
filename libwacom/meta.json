@@ -15,11 +15,10 @@
   "build_time": "less than 0.1 SBU (with tests)",
   "dependencies": [
     "libevdev",
-    "libgudev",
-    "libxml2"
+    "libgudev"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 128,
-  "group_order": 0
+  "order": 117,
+  "group_order": 68
 }

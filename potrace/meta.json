@@ -13,11 +13,9 @@
   "size": "644 KB",
   "disk_space": "7.1 MB (including tests)",
   "build_time": "less than 0.1 SBU (including tests)",
-  "dependencies": [
-    "llvm"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 196,
-  "group_order": 0
+  "order": 180,
+  "group_order": 38
 }

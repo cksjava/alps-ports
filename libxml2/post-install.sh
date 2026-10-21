@@ -12,4 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-sed "s/--static/--shared/" -i /usr/bin/xml2-config
+# This package has no post-install commands.
+

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,12 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+rm -fv /etc/xdg/autostart/tracker-miner-fs-3.desktop                           &&
+rm -fv /usr/lib/systemd/user/tracker-miner-fs-3.service                        &&
+rm -fv /usr/lib/systemd/user/tracker-miner-fs-control-3.service                &&
+rm -fv /usr/share/dbus-1/services/org.freedesktop.Tracker3.Miner.Files.service &&
+rm -fv /usr/share/dbus-1/services/org.freedesktop.Tracker3.Writeback.service   &&
+rm -fv /usr/share/dbus-1/services/org.freedesktop.Tracker3.Miner.Files.Control.service
 mkdir build &&
 cd    build &&
 
@@ -49,3 +58,4 @@ ninja install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

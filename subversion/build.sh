@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -42,7 +45,11 @@ patch -Np1 -i ../subversion-1.14.5-upstream_fixes-1.patch
             --with-apache-libexecdir \
             --with-utf8proc=internal &&
 make
-make install
+make install &&
+
+install -v -m755 -d /usr/share/doc/subversion-1.14.5 &&
+cp      -v -R doc/* /usr/share/doc/subversion-1.14.5
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

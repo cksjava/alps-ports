@@ -1,0 +1,23 @@
+{
+  "name": "HTTP::Cookies",
+  "version": "6.11",
+  "title": "HTTP::Cookies-6.11",
+  "anchor": "perl-http-cookies",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "HTTP::Cookies provides a class for objects that represent a \"cookie jar\" -- that is, a database of all the HTTP cookies that a given LWP::UserAgent (from libwww-perl-6.83 ) object knows about.",
+  "download": "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Cookies-6.11.tar.gz",
+  "archive": "HTTP-Cookies-6.11.tar.gz",
+  "md5": "80017e7e56bdc8ba16dea75789748829",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-http-message"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 346,
+  "group_order": 105
+}

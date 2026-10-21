@@ -14,13 +14,10 @@
   "disk_space": "1.4 GB (with tests)",
   "build_time": "0.7 SBU (add 5.2 SBU for tests)",
   "dependencies": [
-    "rustc",
-    "libssh2"
+    "rust"
   ],
-  "build_before": [
-    "make-ca"
-  ],
+  "build_before": [],
   "build_after": [],
-  "order": 268,
+  "order": 241,
   "group_order": 0
 }

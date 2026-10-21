@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -61,12 +64,21 @@ cd "$srcdir"
             --with-readline              &&
 make
 make install                                     &&
-install -v -m644 php.ini-production /etc/php.ini
+install -v -m644 php.ini-production /etc/php.ini &&
+
+install -v -m755 -d /usr/share/doc/php-8.5.9 &&
+install -v -m644    CODING_STANDARDS* EXTENSIONS NEWS README* UPGRADING* \
+                    /usr/share/doc/php-8.5.9
 if [ -f /etc/php-fpm.conf.default ]; then
   mv -v /etc/php-fpm.conf{.default,} &&
   mv -v /etc/php-fpm.d/www.conf{.default,}
 fi
-make install-php-fpm
+install -v -m644 ../php_manual_en.html.gz \
+    /usr/share/doc/php-8.5.9 &&
+gunzip -v /usr/share/doc/php-8.5.9/php_manual_en.html.gz
+tar -xvf ../php_manual_en.tar.gz \
+    -C /usr/share/doc/php-8.5.9 --no-same-owner
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

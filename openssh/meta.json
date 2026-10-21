@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "security",
   "chapter": "Chapter 4. Security",
-  "summary": "The OpenSSH package contains ssh clients and the sshd daemon. This is useful for encrypting authentication and subsequent traffic over a network. The ssh and scp commands are secure implementations of telnet and rcp.",
+  "summary": "The OpenSSH package contains ssh clients and the sshd daemon. This is useful for encrypting authentication and subsequent traffic over a network. The ssh and scp commands are secure implementations of telnet and rcp .",
   "download": "https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-10.5p1.tar.gz",
   "archive": "openssh-10.5p1.tar.gz",
   "md5": "a95119f402dfa0166c9dd1237239085c",
@@ -17,5 +17,5 @@
   "build_before": [],
   "build_after": [],
   "order": 17,
-  "group_order": 0
+  "group_order": 15
 }

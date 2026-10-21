@@ -3,8 +3,8 @@
   "version": "3.18",
   "title": "Idna-3.18",
   "anchor": "idna",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Idna module provides support for the Internationalized Domain Names in Applications (IDNA) protocol as specified in RFC 5891.",
   "download": "https://files.pythonhosted.org/packages/source/i/idna/idna-3.18.tar.gz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 479,
-  "group_order": 10
+  "order": 453,
+  "group_order": 212
 }

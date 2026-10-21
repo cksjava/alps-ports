@@ -3,8 +3,8 @@
   "version": "2.1.0",
   "title": "Typogrify-2.1.0",
   "anchor": "typogrify",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Typogrify provides filters to enhance web typography, including support for Django and Jinja templates.",
   "download": "https://files.pythonhosted.org/packages/source/t/typogrify/typogrify-2.1.0.tar.gz",
@@ -19,6 +19,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 507,
-  "group_order": 38
+  "order": 481,
+  "group_order": 240
 }

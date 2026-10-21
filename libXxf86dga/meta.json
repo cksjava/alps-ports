@@ -1,0 +1,24 @@
+{
+  "name": "libXxf86dga",
+  "version": "1.1.7",
+  "title": "libXxf86dga-1.1.7",
+  "anchor": "libXxf86dga",
+  "page_type": "batch",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "libXxf86dga-1.1.7 is built from the x7lib page.",
+  "download": "https://www.x.org/pub/individual/lib/libXxf86dga-1.1.7.tar.xz",
+  "archive": "libXxf86dga-1.1.7.tar.xz",
+  "md5": "543164f1239fbe92cc0a9128d8da88e9",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "fontconfig",
+    "libxcb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 584,
+  "group_order": 32
+}

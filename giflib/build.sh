@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -37,8 +40,11 @@ tar -xf "$tarball"
 cd "$srcdir"
 
 make
+make PREFIX=/usr \
+     DOCDIR=/usr/share/doc/giflib-6.1.3 install &&
 
 rm -fv /usr/lib/libgif.a
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

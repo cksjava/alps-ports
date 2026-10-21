@@ -29,3 +29,4 @@ EOF
 
 touch ~/fetchmail.log       &&
 chmod -v 0600 ~/.fetchmailrc
+

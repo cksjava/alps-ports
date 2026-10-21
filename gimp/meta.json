@@ -7,8 +7,8 @@
   "group": "other-x-based-programs",
   "chapter": "Chapter 41. Other X-based Programs",
   "summary": "The Gimp package contains the GNU Image Manipulation Program which is useful for photo retouching, image composition and image authoring.",
-  "download": "https://download.gimp.org/pub/gimp/help/gimp-help-3.0.2.tar.bz2",
-  "archive": "gimp-help-3.0.2.tar.bz2",
+  "download": "https://download.gimp.org/gimp/v3.2/gimp-3.2.4.tar.xz",
+  "archive": "gimp-3.2.4.tar.xz",
   "md5": "a9afbeea7d55bb8655f91e2b0ca1d7a8",
   "size": "123 MB",
   "disk_space": "310 MB (74 MB installed)",
@@ -24,18 +24,12 @@
     "librsvg",
     "tiff",
     "libxml2",
-    "little-cms",
+    "lcms2",
     "mypaint-brushes",
-    "poppler",
-    "graphviz",
-    "ghostscript",
-    "iso-codes",
-    "libgudev",
-    "pygobject",
-    "xdg-utils"
+    "poppler"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1054,
-  "group_order": 0
+  "order": 972,
+  "group_order": 4
 }

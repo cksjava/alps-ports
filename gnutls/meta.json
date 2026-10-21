@@ -14,14 +14,10 @@
   "disk_space": "336 MB (with tests)",
   "build_time": "0.6 SBU (add 1.4 SBU for tests; both using parallelism=8)",
   "dependencies": [
-    "nettle",
-    "make-ca",
-    "libunistring",
-    "libtasn1",
-    "p11-kit"
+    "nettle"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 6,
-  "group_order": 0
+  "order": 7,
+  "group_order": 5
 }

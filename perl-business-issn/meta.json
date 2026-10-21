@@ -1,0 +1,21 @@
+{
+  "name": "Business::ISSN",
+  "version": "1.008",
+  "title": "Business::ISSN-1.008",
+  "anchor": "perl-business-issn",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Business::ISSN module provides functions for working with International Standard Serial Numbers.",
+  "download": "https://www.cpan.org/authors/id/B/BR/BRIANDFOY/Business-ISSN-1.008.tar.gz",
+  "archive": "Business-ISSN-1.008.tar.gz",
+  "md5": "967e79eff741c8710d70c64fb593eda1",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 262,
+  "group_order": 21
+}

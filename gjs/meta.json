@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
-  "summary": "Gjs is a set of Javascript bindings for GNOME.",
+  "summary": "Gjs is a set of Javascript bindings for GNOME .",
   "download": "https://download.gnome.org/sources/gjs/1.88/gjs-1.88.1.tar.xz",
   "archive": "gjs-1.88.1.tar.xz",
   "md5": "851963b653cbcf8534dff8b9e719592e",
@@ -16,14 +16,11 @@
   "dependencies": [
     "cairo",
     "dbus",
-    "glib",
-    "spidermonkey-from-firefox",
-    "gtk3",
-    "gtk4",
-    "valgrind"
+    "glib2",
+    "spidermonkey"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 923,
-  "group_order": 0
+  "order": 880,
+  "group_order": 7
 }

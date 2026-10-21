@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -46,10 +49,8 @@ meson setup --prefix=/usr            \
             -D vulkan=enabled        \
             .. &&
 ninja
-sed "s@'doc'@& / 'gtk-4.22.4'@" -i ../docs/reference/meson.build &&
-meson configure -D documentation=true                            &&
-ninja
 ninja install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

@@ -12,8 +12,6 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-chown -v root:messagebus /usr/libexec/dbus-daemon-launch-helper &&
-chmod -v      4750       /usr/libexec/dbus-daemon-launch-helper
 cat > /etc/dbus-1/session-local.conf << "EOF"
 <!DOCTYPE busconfig PUBLIC
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
@@ -25,3 +23,4 @@ cat > /etc/dbus-1/session-local.conf << "EOF"
 
 </busconfig>
 EOF
+

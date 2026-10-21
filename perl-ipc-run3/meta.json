@@ -1,0 +1,21 @@
+{
+  "name": "IPC::Run3",
+  "version": "0.049",
+  "title": "IPC::Run3-0.049",
+  "anchor": "perl-ipc-run3",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "IPC::Run3 is used to run a subprocess with input/output redirection.",
+  "download": "https://www.cpan.org/authors/id/R/RJ/RJBS/IPC-Run3-0.049.tar.gz",
+  "archive": "IPC-Run3-0.049.tar.gz",
+  "md5": "569393ca56dfb78dedd79e93c0439159",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 279,
+  "group_order": 38
+}

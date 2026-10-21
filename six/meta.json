@@ -3,8 +3,8 @@
   "version": "1.17.0",
   "title": "six-1.17.0",
   "anchor": "six",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Six is a Python 2 to 3 compatibility library.",
   "download": "https://files.pythonhosted.org/packages/source/s/six/six-1.17.0.tar.gz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 467,
-  "group_order": 33
+  "order": 441,
+  "group_order": 200
 }

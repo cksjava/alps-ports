@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -41,6 +44,8 @@ patch -Np1 -i ../gpm-1.20.7-gcc15_fixes-1.patch                 &&
 ./autogen.sh                                                    &&
 ./configure --prefix=/usr --sysconfdir=/etc ac_cv_path_emacs=no &&
 make
+make -C doc gpm.{dvi,ps} &&
+dvipdfm doc/gpm.dvi -o doc/gpm.pdf
 make install                                          &&
 
 install-info --dir-file=/usr/share/info/dir           \
@@ -48,8 +53,15 @@ install-info --dir-file=/usr/share/info/dir           \
 
 rm -fv /usr/lib/libgpm.a                              &&
 ln -sfv libgpm.so.2.1.0 /usr/lib/libgpm.so            &&
-install -v -m644 conf/gpm-root.conf /etc
-make install-gpm
+install -v -m644 conf/gpm-root.conf /etc              &&
+
+install -v -m755 -d /usr/share/doc/gpm-1.20.7/support &&
+install -v -m644    doc/support/*                     \
+                    /usr/share/doc/gpm-1.20.7/support &&
+install -v -m644    doc/{FAQ,HACK_GPM,README*}        \
+                    /usr/share/doc/gpm-1.20.7
+install -vm644 doc/gpm.{dvi,ps,pdf} /usr/share/doc/gpm-1.20.7
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

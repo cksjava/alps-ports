@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -44,11 +47,8 @@ meson setup --prefix=/usr       \
             -D gtk_doc=false    \
             ..                  &&
 ninja
-sed -e "/install_dir/s@,\$@ / 'gcr-4.4.0.1'&@" \
-    -i ../docs/*/meson.build                 &&
-meson configure -D gtk_doc=true              &&
-ninja
 ninja install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

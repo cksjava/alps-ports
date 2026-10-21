@@ -3,8 +3,8 @@
   "version": "0.5.0",
   "title": "Hatch_vcs-0.5.0",
   "anchor": "hatch-vcs",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Hatch_vcs is a Hatch plugin for versioning with several Version Control Systems ( VCS ).",
   "download": "https://files.pythonhosted.org/packages/source/h/hatch-vcs/hatch_vcs-0.5.0.tar.gz",
@@ -15,10 +15,10 @@
   "build_time": "less than 0.1 SBU (with tests)",
   "dependencies": [
     "hatchling",
-    "setuptools-scm"
+    "setuptools_scm"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 478,
-  "group_order": 9
+  "order": 452,
+  "group_order": 211
 }

@@ -38,3 +38,5 @@ cert   = /etc/stunnel/stunnel.pem
 ;TIMEOUTclose = 0
 
 EOF
+systemctl enable stunnel
+

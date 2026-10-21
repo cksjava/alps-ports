@@ -3,16 +3,16 @@
   "version": "1.2.7",
   "title": "xev-1.2.7",
   "anchor": "xev",
-  "page_type": "compound",
-  "group": "xorg-applications",
+  "page_type": "batch",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
-  "summary": "The Xorg applications provide the expected applications available in previous X Window implementations.",
-  "download": "https://www.x.org/pub/individual/app/",
+  "summary": "xev-1.2.7 is built from the x7app page.",
+  "download": "https://www.x.org/pub/individual/app/xev-1.2.7.tar.xz",
   "archive": "xev-1.2.7.tar.xz",
   "md5": "6d2309b05267e31923b11ed2b83f33ae",
-  "size": "4.9 MB",
-  "disk_space": "48 MB",
-  "build_time": "1.5 SBU (ignoring the time to download)",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
   "dependencies": [
     "libpng",
     "mesa",
@@ -21,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 643,
-  "group_order": 11
+  "order": 612,
+  "group_order": 60
 }

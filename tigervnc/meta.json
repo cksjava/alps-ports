@@ -18,17 +18,16 @@
     "fltk",
     "gnutls",
     "libgcrypt",
-    "libjpeg-turbo",
+    "libjpeg",
     "pixman",
     "systemd",
     "linux-pam",
-    "xorg-applications",
+    "x7app",
     "xinit",
-    "xorg-legacy",
-    "imagemagick"
+    "x7legacy"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1059,
-  "group_order": 0
+  "order": 976,
+  "group_order": 8
 }

@@ -15,12 +15,11 @@
   "build_time": "0.2 SBU (with tests)",
   "dependencies": [
     "json-glib",
-    "libsoup",
-    "make-ca",
-    "glib"
+    "libsoup3",
+    "make-ca"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 918,
-  "group_order": 0
+  "order": 876,
+  "group_order": 3
 }

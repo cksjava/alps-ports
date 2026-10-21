@@ -3,8 +3,8 @@
   "version": "2.4.1",
   "title": "Poetry-core-2.4.1",
   "anchor": "poetry-core",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Poetry-core is an extensible, standards compliant build backend for python modules.",
   "download": "https://files.pythonhosted.org/packages/source/p/poetry_core/poetry_core-2.4.1.tar.gz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 488,
-  "group_order": 19
+  "order": 462,
+  "group_order": 221
 }

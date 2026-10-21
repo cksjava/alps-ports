@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -43,8 +46,19 @@ sed -e "/^int (\*xstat)/s/()/(const char * restrict,  struct stat * restrict)/" 
 ./configure --prefix=/usr \
             --enable-mt   \
             --with-rmt=/usr/libexec/rmt &&
-make
-make install
+make &&
+makeinfo --html            -o doc/html      doc/cpio.texi &&
+makeinfo --html --no-split -o doc/cpio.html doc/cpio.texi &&
+makeinfo --plaintext       -o doc/cpio.txt  doc/cpio.texi
+make install &&
+install -v -m755 -d /usr/share/doc/cpio-2.15/html &&
+install -v -m644    doc/html/* \
+                    /usr/share/doc/cpio-2.15/html &&
+install -v -m644    doc/cpio.{html,txt} \
+                    /usr/share/doc/cpio-2.15
+install -v -m644 doc/cpio.{pdf,ps,dvi} \
+                 /usr/share/doc/cpio-2.15
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

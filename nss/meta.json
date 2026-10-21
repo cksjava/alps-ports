@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "security",
   "chapter": "Chapter 4. Security",
-  "summary": "The Network Security Services (NSS) package is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v2 and v3, TLS, PKCS #5, PKCS #7, PKCS #11, PKCS #12, S/MIME, X.509 v3 certificates, and other security standards. This is useful for implementing SSL and S/MIME or other Internet security standards into an application.",
+  "summary": "The Network Security Services ( NSS ) package is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v2 and v3, TLS, PKCS #5, PKCS #7, PKCS #11, PKCS #12, S/MIME, X.509 v3 certificates, and other security standards. This is useful for implementing SSL and S/MIME or other Internet security standards into an application.",
   "download": "https://archive.mozilla.org/pub/security/nss/releases/NSS_3_126_RTM/src/nss-3.126.tar.gz",
   "archive": "nss-3.126.tar.gz",
   "md5": "0ca322cec564a53ac5a59ce130d96f46",
@@ -14,11 +14,10 @@
   "disk_space": "406 MB (with tests)",
   "build_time": "0.8 SBU (with parallelism=4, add 8.4 SBU for tests)",
   "dependencies": [
-    "nspr",
-    "p11-kit"
+    "nspr"
   ],
   "build_before": [],
   "build_after": [],
   "order": 16,
-  "group_order": 0
+  "group_order": 14
 }

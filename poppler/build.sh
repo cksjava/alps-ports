@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,6 +29,15 @@ fi
 
 echo "=== Poppler-26.08.0 ==="
 cd "$ARYA_SOURCES"
+tarball="poppler-26.08.0.tar.xz"
+if [[ ! -f "$tarball" ]]; then
+    echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
+    exit 1
+fi
+srcdir=$(tar -tf "$tarball" | awk -F/ 'NR==1 { print $1 }')
+rm -rf "$srcdir"
+tar -xf "$tarball"
+cd "$srcdir"
 
 mkdir build                         &&
 cd    build                         &&
@@ -38,6 +50,12 @@ cmake -D CMAKE_BUILD_TYPE=Release   \
       -G Ninja ..                   &&
 ninja
 ninja install
+install -v -m755 -d           /usr/share/doc/poppler-26.08.0 &&
+cp -vr ../glib/reference/html /usr/share/doc/poppler-26.08.0
 tar -xf ../../poppler-data-0.4.12.tar.gz &&
 cd poppler-data-0.4.12
 make prefix=/usr install
+
+cd "$ARYA_SOURCES"
+rm -rf "$srcdir"
+

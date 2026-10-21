@@ -1,0 +1,24 @@
+{
+  "name": "libXt",
+  "version": "1.3.1",
+  "title": "libXt-1.3.1",
+  "anchor": "libXt",
+  "page_type": "batch",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "libXt-1.3.1 is built from the x7lib page.",
+  "download": "https://www.x.org/pub/individual/lib/libXt-1.3.1.tar.xz",
+  "archive": "libXt-1.3.1.tar.xz",
+  "md5": "9acd189c68750b5028cf120e53c68009",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "fontconfig",
+    "libxcb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 565,
+  "group_order": 13
+}

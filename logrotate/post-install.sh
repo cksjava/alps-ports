@@ -70,6 +70,18 @@ cat > /etc/logrotate.d/sys.log << EOF
 EOF
 
 chmod -v 0644 /etc/logrotate.d/sys.log
+cat > /etc/logrotate.d/example.log << EOF
+file1
+file2
+file3 {
+   ...
+   postrotate
+    ...
+   endscript
+}
+EOF
+
+chmod -v 0644 /etc/logrotate.d/example.log
 cat > /usr/lib/systemd/system/logrotate.service << "EOF" &&
 [Unit]
 Description=Runs the logrotate command
@@ -95,3 +107,4 @@ Persistent=true
 WantedBy=timers.target
 EOF
 systemctl enable logrotate.timer
+

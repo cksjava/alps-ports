@@ -20,21 +20,10 @@
     "gnome-autoar",
     "intltool",
     "shared-mime-info",
-    "webkitgtk",
-    "bogofilter",
-    "enchant",
-    "gnome-desktop",
-    "gspell",
-    "highlight",
-    "itstool",
-    "libcanberra",
-    "libgweather",
-    "libnotify",
-    "openldap",
-    "seahorse"
+    "webkitgtk"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 959,
-  "group_order": 0
+  "order": 906,
+  "group_order": 3
 }

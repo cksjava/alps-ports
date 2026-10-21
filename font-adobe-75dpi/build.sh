@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,23 +29,21 @@ fi
 
 echo "=== font-adobe-75dpi-1.0.4 ==="
 cd "$ARYA_SOURCES"
+tarball="font-adobe-75dpi-1.0.4.tar.xz"
+if [[ ! -f "$tarball" ]]; then
+    echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
+    exit 1
+fi
+srcdir=$(tar -tf "$tarball" | awk -F/ 'NR==1 { print $1 }')
+rm -rf "$srcdir"
+tar -xf "$tarball"
+cd "$srcdir"
 
-as_root()
-{
-  if   [ $EUID = 0 ];        then $*
-  elif [ -x /usr/bin/sudo ]; then sudo $*
-  else                            su -c \\"$*\\"
-  fi
-}
+./configure $XORG_CONFIG
+make
+make install
+/sbin/ldconfig
 
-export -f as_root
-package='font-adobe-75dpi-1.0.4.tar.xz'
-  packagedir=${package%.tar.?z*}
-  tar -xf $package
-  pushd $packagedir
-    ./configure $XORG_CONFIG
-    make
-    as_root make install
-  popd
-  rm -rf $packagedir
-  as_root /sbin/ldconfig
+cd "$ARYA_SOURCES"
+rm -rf "$srcdir"
+

@@ -1,0 +1,21 @@
+{
+  "name": "ExtUtils::Config",
+  "version": "0.010",
+  "title": "ExtUtils::Config-0.010",
+  "anchor": "perl-extutils-config",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "ExtUtils::Config is a wrapper for Perl's configuration system.",
+  "download": "https://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-Config-0.010.tar.gz",
+  "archive": "ExtUtils-Config-0.010.tar.gz",
+  "md5": "f455b5743db7b73c80e88133effa3551",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 333,
+  "group_order": 92
+}

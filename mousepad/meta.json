@@ -15,11 +15,10 @@
   "build_time": "less than 0.1 SBU",
   "dependencies": [
     "gtksourceview4",
-    "libxfce4ui",
-    "gspell"
+    "libxfce4ui"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 44,
-  "group_order": 0
+  "order": 42,
+  "group_order": 4
 }

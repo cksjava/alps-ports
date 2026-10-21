@@ -1,0 +1,24 @@
+{
+  "name": "DateTime",
+  "version": "1.66",
+  "title": "DateTime-1.66",
+  "anchor": "perl-datetime",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "DateTime is a date and time object for perl.",
+  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-1.66.tar.gz",
+  "archive": "DateTime-1.66.tar.gz",
+  "md5": "525b43ebad148a24783c971aa198559c",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-datetime-locale",
+    "perl-datetime-timezone"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 323,
+  "group_order": 82
+}

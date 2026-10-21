@@ -13,13 +13,9 @@
   "size": "5.4 MB",
   "disk_space": "73 MB (add 1.7 GB for tests)",
   "build_time": "0.4 SBU (Using parallelism=4; add approx 11 SBU for tests using parallelism=4, including download time)",
-  "dependencies": [
-    "yasm",
-    "nasm",
-    "which-and-alternatives"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1108,
-  "group_order": 0
+  "order": 1008,
+  "group_order": 27
 }

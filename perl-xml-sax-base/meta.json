@@ -1,0 +1,21 @@
+{
+  "name": "XML::SAX::Base",
+  "version": "1.09",
+  "title": "XML::SAX::Base-1.09",
+  "anchor": "perl-xml-sax-base",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "This module has a very simple task - to be a base class for PerlSAX drivers and filters.",
+  "download": "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.tar.gz",
+  "archive": "XML-SAX-Base-1.09.tar.gz",
+  "md5": "ec347a14065dd7aec7d9fb181b2d7946",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 405,
+  "group_order": 164
+}

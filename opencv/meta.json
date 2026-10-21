@@ -15,23 +15,10 @@
   "build_time": "4.1 SBU (using parallelism=8)",
   "dependencies": [
     "cmake",
-    "libarchive",
-    "ffmpeg",
-    "gst-plugins-base",
-    "gtk3",
-    "jasper",
-    "libavif",
-    "libexif",
-    "libjpeg-turbo",
-    "libpng",
-    "tiff",
-    "libwebp",
-    "openjpeg",
-    "v4l-utils",
-    "xine-lib"
+    "libarchive"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 191,
-  "group_order": 0
+  "order": 175,
+  "group_order": 33
 }

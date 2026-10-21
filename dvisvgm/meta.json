@@ -15,13 +15,12 @@
   "build_time": "1 SBU (add 0.6 SBU for the tests, both using parallelism=4)",
   "dependencies": [
     "brotli",
-    "ghostscript",
+    "gs",
     "potrace",
-    "texlive-source",
-    "woff2"
+    "texlive"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1176,
-  "group_order": 0
+  "order": 1066,
+  "group_order": 4
 }

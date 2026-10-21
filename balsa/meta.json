@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "other-x-based-programs",
   "chapter": "Chapter 41. Other X-based Programs",
-  "summary": "The Balsa package contains a lightweight GTK+-based mail client.",
+  "summary": "The Balsa package contains a lightweight GTK+ -based mail client.",
   "download": "https://gitlab.gnome.org/GNOME/balsa/-/archive/2.6.5/balsa-2.6.5.tar.gz",
   "archive": "balsa-2.6.5.tar.gz",
   "md5": "c1039c22e8c2544c6a357626d71b6220",
@@ -15,16 +15,16 @@
   "build_time": "0.1 SBU (Using parallelism=4)",
   "dependencies": [
     "enchant",
-    "gmime",
+    "gmime3",
     "gpgme",
     "gtk3",
     "libical",
     "libnotify",
     "libsecret",
-    "chapter-21-mail-server-software"
+    "mail"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1050,
+  "order": 968,
   "group_order": 0
 }

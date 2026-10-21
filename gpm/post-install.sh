@@ -12,9 +12,11 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+make install-gpm
 install -v -dm755 /etc/systemd/system/gpm.service.d &&
 cat > /etc/systemd/system/gpm.service.d/99-user.conf << EOF
 [Service]
 ExecStart=
 ExecStart=/usr/sbin/gpm <list of parameters>
 EOF
+

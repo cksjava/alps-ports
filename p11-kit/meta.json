@@ -13,12 +13,9 @@
   "size": "1.1 MB",
   "disk_space": "117 MB (with tests)",
   "build_time": "0.5 SBU (with tests)",
-  "dependencies": [
-    "libtasn1",
-    "make-ca"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
   "order": 18,
-  "group_order": 0
+  "group_order": 16
 }

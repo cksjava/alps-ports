@@ -1,0 +1,23 @@
+{
+  "name": "Node.js",
+  "version": "24.19.0",
+  "title": "Node.js-24.19.0",
+  "anchor": "nodejs",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+  "download": "https://nodejs.org/dist/v24.19.0/node-v24.19.0.tar.xz",
+  "archive": "node-v24.19.0.tar.xz",
+  "md5": "9746bea71fd37c5ec17236b713e0879f",
+  "size": "53 MB",
+  "disk_space": "1.4 GB (with tests)",
+  "build_time": "16 SBU (add 3.5 SBU for tests: both using parallelism=8 and 8 CPUs online, parts of the tests will use all online CPUs)",
+  "dependencies": [
+    "which"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 123,
+  "group_order": 74
+}

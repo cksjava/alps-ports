@@ -3,10 +3,10 @@
   "version": "2.0.2",
   "title": "Smartypants-2.0.2",
   "anchor": "smartypants",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
-  "summary": "Smartypants translates plain ASCII punctuation characters into “smart” typographic punctuation HTML entities.",
+  "summary": "Smartypants translates plain ASCII punctuation characters into “ smart ” typographic punctuation HTML entities.",
   "download": "https://files.pythonhosted.org/packages/source/s/smartypants/smartypants-2.0.2.tar.gz",
   "archive": "smartypants-2.0.2.tar.gz",
   "md5": "3149badecd0771c80ee9db4d09695edd",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 496,
-  "group_order": 27
+  "order": 470,
+  "group_order": 229
 }

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -41,10 +44,8 @@ cd    build &&
 
 meson setup --prefix=/usr --buildtype=release .. &&
 ninja
-sed "s/apiversion/'1.9.3'/" -i ../doc/meson.build &&
-meson configure -D documentation=true             &&
-ninja
 ninja install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

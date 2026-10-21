@@ -1,0 +1,24 @@
+{
+  "name": "libXrandr",
+  "version": "1.5.5",
+  "title": "libXrandr-1.5.5",
+  "anchor": "libXrandr",
+  "page_type": "batch",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "libXrandr-1.5.5 is built from the x7lib page.",
+  "download": "https://www.x.org/pub/individual/lib/libXrandr-1.5.5.tar.xz",
+  "archive": "libXrandr-1.5.5.tar.xz",
+  "md5": "b550dfa388292a821aecdd52acecc94c",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "fontconfig",
+    "libxcb"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 579,
+  "group_order": 27
+}

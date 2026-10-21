@@ -14,11 +14,10 @@
   "disk_space": "1.9 MB",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "libusb",
-    "hwdata"
+    "libusb"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 267,
-  "group_order": 0
+  "order": 240,
+  "group_order": 35
 }

@@ -3,8 +3,8 @@
   "version": "0.14.4",
   "title": "cachecontrol-0.14.4",
   "anchor": "cachecontrol",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "CacheControl is a port of the caching algorithms in httplib2 for use with requests session object. It was written because httplib2's better support for caching is often mitigated by its lack of thread safety. The same is true of requests in terms of caching.",
   "download": "https://github.com/psf/cachecontrol/archive/v0.14.4/cachecontrol-0.14.4.tar.gz",
@@ -16,10 +16,10 @@
   "dependencies": [
     "msgpack",
     "requests",
-    "uv-build"
+    "uv_build"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 438,
-  "group_order": 4
+  "order": 412,
+  "group_order": 171
 }

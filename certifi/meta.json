@@ -3,8 +3,8 @@
   "version": "2026.6.17",
   "title": "certifi-2026.6.17",
   "anchor": "certifi",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The certifi module provides Mozilla’s carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts.",
   "download": "https://files.pythonhosted.org/packages/source/c/certifi/certifi-2026.6.17.tar.gz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 472,
-  "group_order": 3
+  "order": 446,
+  "group_order": 205
 }

@@ -14,12 +14,10 @@
   "disk_space": "9.8 MB",
   "build_time": "0.1 SBU",
   "dependencies": [
-    "gtk3",
-    "glib",
-    "startup-notification"
+    "gtk3"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 982,
-  "group_order": 0
+  "order": 922,
+  "group_order": 5
 }

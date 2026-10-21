@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,8 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+groupadd -g 17 atd                                                  &&
+useradd -d /dev/null -c "atd daemon" -g atd -s /bin/false -u 17 atd
 ./configure --with-daemon_username=atd        \
             --with-daemon_groupname=atd       \
             SENDMAIL=/usr/sbin/sendmail       \
@@ -43,6 +48,9 @@ cd "$srcdir"
             --with-atspool=/var/spool/atspool \
             --with-systemdsystemunitdir=/lib/systemd/system &&
 make -j1
+make install docdir=/usr/share/doc/at-3.2.5 \
+             atdocdir=/usr/share/doc/at-3.2.5
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

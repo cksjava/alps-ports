@@ -13,11 +13,9 @@
   "size": "1.7 MB",
   "disk_space": "26 MB (with tests)",
   "build_time": "0.3 SBU (using parallelism=4; with tests)",
-  "dependencies": [
-    "nasm"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1070,
-  "group_order": 0
+  "order": 983,
+  "group_order": 2
 }

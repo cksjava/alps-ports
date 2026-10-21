@@ -12,7 +12,7 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-groupadd -g 83 ldap &&
-useradd  -c "OpenLDAP Daemon Owner" \
-         -d /var/lib/openldap -u 83 \
-         -g ldap -s /bin/false ldap
+make install-slapd
+systemctl start slapd
+ldapsearch -x -b '' -s base '(objectclass=*)' namingContexts
+

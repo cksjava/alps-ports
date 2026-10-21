@@ -4,7 +4,7 @@
   "title": "kio-extras-26.04.3",
   "anchor": "kio-extras",
   "page_type": "single",
-  "group": "kde-frameworks-based-applications",
+  "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "The kio-extras package contains additional components to increase the functionality of the KDE resource and network access abstractions.",
   "download": "https://download.kde.org/stable/release-service/26.04.3/src/kio-extras-26.04.3.tar.xz",
@@ -14,15 +14,14 @@
   "disk_space": "100 MB",
   "build_time": "0.5 SBU (using parallelism=4)",
   "dependencies": [
-    "building-kde-frameworks",
+    "frameworks6",
     "kdsoap-ws-discovery-client",
     "libproxy",
     "plasma-activities-stats",
-    "qcoro",
-    "libkexiv2"
+    "qcoro"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 846,
-  "group_order": 0
+  "order": 801,
+  "group_order": 9
 }

@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "multimedia-libraries-and-drivers",
   "chapter": "Chapter 42. Multimedia Libraries and Drivers",
-  "summary": "The Quasar DV Codec (libdv) is a software CODEC for DV video, the encoding format used by most digital camcorders. It can be used to copy videos from camcorders using a firewire (IEEE 1394) connection.",
+  "summary": "The Quasar DV Codec ( libdv ) is a software CODEC for DV video, the encoding format used by most digital camcorders. It can be used to copy videos from camcorders using a firewire (IEEE 1394) connection.",
   "download": "https://downloads.sourceforge.net/libdv/libdv-1.0.0.tar.gz",
   "archive": "libdv-1.0.0.tar.gz",
   "md5": "f895162161cfa4bb4a94c070a7caa6c7",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1098,
-  "group_order": 0
+  "order": 1001,
+  "group_order": 20
 }

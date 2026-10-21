@@ -1,0 +1,21 @@
+{
+  "name": "HTTP::Date",
+  "version": "6.08",
+  "title": "HTTP::Date-6.08",
+  "anchor": "perl-http-date",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "HTTP::Date provides functions to deal with the date formats used by the HTTP protocol and also with some other date formats.",
+  "download": "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/HTTP-Date-6.08.tar.gz",
+  "archive": "HTTP-Date-6.08.tar.gz",
+  "md5": "5955c394ed659bf4cd41fbd526c42ec1",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 347,
+  "group_order": 106
+}

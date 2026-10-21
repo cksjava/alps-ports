@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
-  "summary": "This package is known to build and work properly using an LFS 13.1 platform.",
+  "summary": "Xfwm4 is the window manager for Xfce .",
   "download": "https://archive.xfce.org/src/xfce/xfwm4/4.20/xfwm4-4.20.0.tar.bz2",
   "archive": "xfwm4-4.20.0.tar.bz2",
   "md5": "e74cfb30b6e9ebf9cbaac0827dd534e3",
@@ -15,11 +15,10 @@
   "build_time": "0.2 SBU",
   "dependencies": [
     "libwnck",
-    "libxfce4ui",
-    "startup-notification"
+    "libxfce4ui"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 993,
-  "group_order": 0
+  "order": 927,
+  "group_order": 10
 }

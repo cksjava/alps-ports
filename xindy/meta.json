@@ -15,10 +15,10 @@
   "build_time": "less than 0.1 SBU",
   "dependencies": [
     "clisp",
-    "texlive-source"
+    "texlive"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1177,
-  "group_order": 0
+  "order": 1067,
+  "group_order": 5
 }

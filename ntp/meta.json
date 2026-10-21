@@ -14,10 +14,10 @@
   "disk_space": "99 MB (with tests)",
   "build_time": "0.8 SBU (With tests; both using parallelism=4)",
   "dependencies": [
-    "io-socket-ssl"
+    "perl-io-socket-ssl"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 531,
-  "group_order": 0
+  "order": 503,
+  "group_order": 4
 }

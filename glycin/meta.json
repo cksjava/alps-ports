@@ -16,19 +16,13 @@
   "dependencies": [
     "bubblewrap",
     "fontconfig",
-    "glib",
-    "little-cms",
+    "glib2",
+    "lcms2",
     "libseccomp",
-    "rustc",
-    "libheif",
-    "libjxl",
-    "librsvg",
-    "vala"
+    "rust"
   ],
-  "build_before": [
-    "make-ca"
-  ],
+  "build_before": [],
   "build_after": [],
-  "order": 168,
-  "group_order": 0
+  "order": 152,
+  "group_order": 10
 }

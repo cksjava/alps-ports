@@ -16,11 +16,10 @@
   "dependencies": [
     "appstream",
     "gtk4",
-    "sassc",
-    "vala"
+    "sassc"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 725,
-  "group_order": 0
+  "order": 695,
+  "group_order": 25
 }

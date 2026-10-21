@@ -3,10 +3,10 @@
   "version": "0.12.1",
   "title": "Pyproject-Metadata-0.12.1",
   "anchor": "pyproject-metadata",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
-  "summary": "The Pyproject-Metadata module contains a data class for PEP 621 metadata with support for “core metadata” (PEP 643) generation.",
+  "summary": "The Pyproject-Metadata module contains a data class for PEP 621 metadata with support for “ core metadata ” (PEP 643) generation.",
   "download": "https://files.pythonhosted.org/packages/source/p/pyproject-metadata/pyproject_metadata-0.12.1.tar.gz",
   "archive": "pyproject_metadata-0.12.1.tar.gz",
   "md5": "d44c15fd176128acd9497af2512085a0",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 490,
-  "group_order": 21
+  "order": 464,
+  "group_order": 223
 }

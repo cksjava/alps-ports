@@ -13,3 +13,4 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
 fi
 
 systemctl enable cups-browsed
+

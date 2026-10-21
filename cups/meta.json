@@ -15,15 +15,10 @@
   "build_time": "0.4 SBU (Add 1.4 SBU for tests)",
   "dependencies": [
     "gnutls",
-    "cups-filters",
-    "colord",
-    "dbus",
-    "libusb",
-    "linux-pam",
-    "xdg-utils"
+    "cups-filters"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1145,
+  "order": 1038,
   "group_order": 0
 }

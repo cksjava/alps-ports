@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -39,6 +42,12 @@ cd "$srcdir"
 sed -i '/^ir_bpf_enabled/s/=.*/= false/' utils/keytable/meson.build
 mkdir build &&
 cd    build &&
+
+meson setup ..            \
+      --prefix=/usr       \
+      --buildtype=release \
+      -D gconv=disabled   \
+      -D doxygen-doc=disabled &&
 ninja
 ninja install
 for prog in v4l2gl v4l2grab
@@ -48,3 +57,4 @@ done
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

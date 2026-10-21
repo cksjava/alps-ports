@@ -1,0 +1,23 @@
+{
+  "name": "Business::ISMN",
+  "version": "1.205",
+  "title": "Business::ISMN-1.205",
+  "anchor": "perl-business-ismn",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "The Business::ISMN module provides functions for working with International Standard Music Numbers.",
+  "download": "https://www.cpan.org/authors/id/B/BR/BRIANDFOY/Business-ISMN-1.205.tar.gz",
+  "archive": "Business-ISMN-1.205.tar.gz",
+  "md5": "b35f42bdaeb2fd797c51bb0821ffc906",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-tie-cycle"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 261,
+  "group_order": 20
+}

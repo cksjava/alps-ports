@@ -12,9 +12,6 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-sed -i 's/.\x08//g' README_FILES/*
-CCARGS="-DNO_NIS -DNO_DB"
-AUXLIBS=""
 cat >> /etc/aliases << "EOF"
 # Begin /etc/aliases
 
@@ -33,3 +30,5 @@ echo 'smtpd_forbid_bare_newline_exclusions = $mynetworks' >> /etc/postfix/main.c
 /usr/sbin/postfix upgrade-configuration
 /usr/sbin/postfix check &&
 /usr/sbin/postfix start
+make install-postfix
+

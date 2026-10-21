@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -40,7 +43,10 @@ cd "$srcdir"
             --disable-xv     \
             --disable-static &&
 make
-make install
+make install &&
+install -v -m755 -d      /usr/share/doc/libdv-1.0.0 &&
+install -v -m644 README* /usr/share/doc/libdv-1.0.0
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

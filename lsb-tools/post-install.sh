@@ -12,5 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-rm /usr/sbin/lsbinstall
-rm /usr/sbin/{install,remove}_initd
+# This package has no post-install commands.
+

@@ -14,13 +14,10 @@
   "disk_space": "134 MB (with tests)",
   "build_time": "0.4 SBU (Using parallelism=4, with tests)",
   "dependencies": [
-    "cmake",
-    "brotli",
-    "curl",
-    "inih"
+    "cmake"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 160,
-  "group_order": 0
+  "order": 144,
+  "group_order": 2
 }

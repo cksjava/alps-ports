@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -48,6 +51,9 @@ meson setup ..              \
       -D udev-dir=/usr/lib/udev &&
 ninja
 ninja install
+install -v -dm755      /usr/share/doc/libinput-1.31.3/html &&
+cp -rv Documentation/* /usr/share/doc/libinput-1.31.3/html
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

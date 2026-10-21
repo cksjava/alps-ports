@@ -12,6 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-mkdir -pv ~/.config &&
-echo "a4" > ~/.config/papersize
-echo "PAPERSIZE=a4" > /etc/profile.d/libpaper.sh
+# This package has no post-install commands.
+

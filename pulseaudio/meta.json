@@ -14,16 +14,10 @@
   "disk_space": "42 MB (with tests)",
   "build_time": "0.2 SBU (Using parallelism=4; add 0.2 SBU for tests)",
   "dependencies": [
-    "libsndfile",
-    "alsa-lib",
-    "dbus",
-    "glib",
-    "speex",
-    "xml-parser",
-    "xorg-libraries"
+    "libsndfile"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1112,
-  "group_order": 0
+  "order": 1012,
+  "group_order": 31
 }

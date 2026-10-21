@@ -1,0 +1,21 @@
+{
+  "name": "File::ShareDir::Install",
+  "version": "0.14",
+  "title": "File::ShareDir::Install-0.14",
+  "anchor": "perl-file-sharedir-install",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "File::ShareDir::Install allows you to install read-only data files from a distribution.",
+  "download": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-0.14.tar.gz",
+  "archive": "File-ShareDir-Install-0.14.tar.gz",
+  "md5": "bac4d924f3d863b00648ab56ec0dcbdc",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 343,
+  "group_order": 102
+}

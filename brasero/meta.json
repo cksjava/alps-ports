@@ -14,23 +14,14 @@
   "disk_space": "105 MB",
   "build_time": "1.0 SBU",
   "dependencies": [
-    "gst-plugins-base",
+    "gst10-plugins-base",
     "intltool",
     "itstool",
     "libcanberra",
-    "libnotify",
-    "glib",
-    "libburn",
-    "libisoburn-pl02",
-    "libisofs-pl02",
-    "nautilus",
-    "tinysparql",
-    "totem-pl-parser",
-    "dvdplusrw-tools",
-    "gvfs"
+    "libnotify"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 957,
-  "group_order": 0
+  "order": 904,
+  "group_order": 1
 }

@@ -13,16 +13,9 @@
   "size": "19 MB",
   "disk_space": "179 MB (with tests)",
   "build_time": "0.9 SBU (with tests; both using parallelism=4)",
-  "dependencies": [
-    "freetype",
-    "glib",
-    "graphite2",
-    "icu"
-  ],
-  "build_before": [
-    "cairo"
-  ],
+  "dependencies": [],
+  "build_before": [],
   "build_after": [],
-  "order": 170,
-  "group_order": 0
+  "order": 155,
+  "group_order": 13
 }

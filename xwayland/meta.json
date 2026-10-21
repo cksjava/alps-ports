@@ -17,14 +17,11 @@
     "libxcvt",
     "pixman",
     "wayland-protocols",
-    "xorg-applications",
-    "xorg-fonts",
-    "libepoxy",
-    "libtirpc",
-    "mesa"
+    "x7app",
+    "x7font"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 678,
-  "group_order": 0
+  "order": 648,
+  "group_order": 96
 }

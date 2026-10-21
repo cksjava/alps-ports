@@ -1,0 +1,21 @@
+{
+  "name": "GLib",
+  "version": "2.88.3",
+  "title": "GLib-2.88.3",
+  "anchor": "glib2",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The GLib package contains low-level libraries useful for providing data structure handling for C, portability wrappers and interfaces for runtime functionality such as an event loop, threads, dynamic loading and an object system.",
+  "download": "https://download.gnome.org/sources/glib/2.88/glib-2.88.3.tar.xz",
+  "archive": "glib-2.88.3.tar.xz",
+  "md5": "fa0f2ae76868bf35ff725f940d75ec16",
+  "size": "1.1 MB",
+  "disk_space": "430 MB (with tests and documentation)",
+  "build_time": "0.7 SBU (add 0.5 SBU for tests; both using parallelism=4)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 63,
+  "group_order": 14
+}

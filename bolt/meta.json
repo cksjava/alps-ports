@@ -14,11 +14,11 @@
   "disk_space": "9.8 MB (with tests)",
   "build_time": "0.2 SBU (with tests)",
   "dependencies": [
-    "glib",
+    "glib2",
     "polkit"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 856,
-  "group_order": 0
+  "order": 809,
+  "group_order": 2
 }

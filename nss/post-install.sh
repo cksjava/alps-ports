@@ -13,3 +13,4 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
 fi
 
 ln -sfv ./pkcs11/p11-kit-trust.so /usr/lib/libnssckbi.so
+

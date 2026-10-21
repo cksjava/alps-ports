@@ -1,0 +1,24 @@
+{
+  "name": "IO::Socket::SSL",
+  "version": "2.099",
+  "title": "IO::Socket::SSL-2.099",
+  "anchor": "perl-io-socket-ssl",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "IO::Socket::SSL makes using SSL/TLS much easier by wrapping the necessary functionality into the familiar IO::Socket interface and providing secure defaults whenever possible.",
+  "download": "https://www.cpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.099.tar.gz",
+  "archive": "IO-Socket-SSL-2.099.tar.gz",
+  "md5": "3b5e1886ae3204b8f8d354e333a047eb",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "make-ca",
+    "perl-net-ssleay"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 277,
+  "group_order": 36
+}

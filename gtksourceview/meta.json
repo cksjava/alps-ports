@@ -14,11 +14,10 @@
   "disk_space": "80 MB (with tests)",
   "build_time": "0.2 SBU (using parallelism=4; with tests)",
   "dependencies": [
-    "gtk3",
-    "glib"
+    "gtk3"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 718,
-  "group_order": 0
+  "order": 689,
+  "group_order": 19
 }

@@ -15,12 +15,12 @@
   "build_time": "0.4 SBU (Using parallelism=4)",
   "dependencies": [
     "liblxqt",
-    "kconfig-for-lxqt",
-    "libkscreen-for-lxqt",
+    "lxqt-kconfig",
+    "lxqt-libkscreen",
     "xorg-libinput-driver"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1028,
-  "group_order": 0
+  "order": 952,
+  "group_order": 20
 }

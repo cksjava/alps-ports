@@ -1,0 +1,24 @@
+{
+  "name": "Exception::Class",
+  "version": "1.45",
+  "title": "Exception::Class-1.45",
+  "anchor": "perl-exception-class",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Exception::Class allows you to declare real exception classes in Perl .",
+  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Exception-Class-1.45.tar.gz",
+  "archive": "Exception-Class-1.45.tar.gz",
+  "md5": "1e564d20b374a99fdf660ba3f36b0098",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-class-data-inheritable",
+    "perl-devel-stacktrace"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 331,
+  "group_order": 90
+}

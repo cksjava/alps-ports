@@ -14,12 +14,11 @@
   "disk_space": "75 MB (with tests)",
   "build_time": "0.4 SBU (Using parallelism=4; with tests)",
   "dependencies": [
-    "glib",
-    "libgudev",
-    "libmbim"
+    "glib2",
+    "libgudev"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 111,
-  "group_order": 0
+  "order": 102,
+  "group_order": 53
 }

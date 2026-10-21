@@ -14,13 +14,13 @@
   "disk_space": "5.2 MB",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "glib",
+    "glib2",
     "iso-codes",
     "libxml2",
-    "xorg-libraries"
+    "x7lib"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 731,
-  "group_order": 0
+  "order": 701,
+  "group_order": 31
 }

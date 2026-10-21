@@ -1,0 +1,24 @@
+{
+  "name": "Package::Stash",
+  "version": "0.40",
+  "title": "Package::Stash-0.40",
+  "anchor": "perl-package-stash",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Manipulating stashes (Perl's symbol tables) is occasionally necessary, but incredibly messy, and easy to get wrong. This module hides all of that behind a simple API.",
+  "download": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Package-Stash-0.40.tar.gz",
+  "archive": "Package-Stash-0.40.tar.gz",
+  "md5": "7a2922941cc2aad6a52642e4fb13d07b",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-dist-checkconflicts",
+    "perl-module-implementation"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 369,
+  "group_order": 128
+}

@@ -14,12 +14,11 @@
   "disk_space": "13 MB",
   "build_time": "0.1 SBU",
   "dependencies": [
-    "glib",
-    "libxml2",
-    "gdk-pixbuf"
+    "glib2",
+    "libxml2"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 96,
-  "group_order": 0
+  "order": 88,
+  "group_order": 39
 }

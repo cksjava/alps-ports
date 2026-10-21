@@ -14,8 +14,4 @@ fi
 
 ln -s /dev/null /etc/udev/rules.d/61-gdm.rules
 systemctl enable gdm
-su gdm -s /bin/bash                                                \
-       -c "dbus-run-session                                        \
-             gsettings set org.gnome.settings-daemon.plugins.power \
-                           sleep-inactive-ac-type                  \
-                           nothing"
+

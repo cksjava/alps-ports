@@ -1,0 +1,21 @@
+{
+  "name": "Little CMS",
+  "version": "2.19.1",
+  "title": "Little CMS-2.19.1",
+  "anchor": "lcms2",
+  "page_type": "single",
+  "group": "graphics-and-font-libraries",
+  "chapter": "Chapter 10. Graphics and Font Libraries",
+  "summary": "The Little Color Management System is a small-footprint color management engine, with special focus on accuracy and performance. It uses the International Color Consortium standard (ICC), which is the modern standard for color management.",
+  "download": "https://github.com/mm2/Little-CMS/releases/download/lcms2.19.1/lcms2-2.19.1.tar.gz",
+  "archive": "lcms2-2.19.1.tar.gz",
+  "md5": "541978f73749499e9e0277bfe5a3c868",
+  "size": "5.5 MB",
+  "disk_space": "17 MB (with the tests)",
+  "build_time": "0.2 SBU (with the tests)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 158,
+  "group_order": 16
+}

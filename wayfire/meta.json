@@ -15,27 +15,23 @@
   "build_time": "0.6 SBU (with parallelism=4)",
   "dependencies": [
     "glm",
-    "freetype",
+    "freetype2",
     "libdrm",
     "libevdev",
     "libinput",
-    "libjpeg-turbo",
+    "libjpeg",
     "libpng",
     "libxkbcommon",
     "mesa",
-    "json-nlohmann-json",
+    "nlohmann-json",
     "pango",
     "pixman",
     "wayland",
     "wayland-protocols",
-    "wlroots",
-    "xorg-libraries",
-    "yyjson"
+    "wlroots"
   ],
-  "build_before": [
-    "make-ca"
-  ],
+  "build_before": [],
   "build_after": [],
-  "order": 697,
-  "group_order": 0
+  "order": 669,
+  "group_order": 117
 }

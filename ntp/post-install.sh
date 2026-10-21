@@ -31,11 +31,6 @@ server 2.south-america.pool.ntp.org
 driftfile /var/lib/ntp/ntp.drift
 pidfile   /run/ntpd.pid
 EOF
-cat >> /etc/ntp.conf << "EOF"
-# Security session
-restrict    default limited kod nomodify notrap nopeer noquery
-restrict -6 default limited kod nomodify notrap nopeer noquery
+make install-ntpd
+systemctl disable systemd-timesyncd.service
 
-restrict 127.0.0.1
-restrict ::1
-EOF

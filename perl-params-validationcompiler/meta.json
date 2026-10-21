@@ -1,0 +1,24 @@
+{
+  "name": "Params::ValidationCompiler",
+  "version": "0.31",
+  "title": "Params::ValidationCompiler-0.31",
+  "anchor": "perl-params-validationcompiler",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Params::ValidationCompiler builds an optimized subroutine parameter validator.",
+  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-ValidationCompiler-0.31.tar.gz",
+  "archive": "Params-ValidationCompiler-0.31.tar.gz",
+  "md5": "15528055f3f53c8cfebbee1f928dec07",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-exception-class",
+    "perl-specio"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 371,
+  "group_order": 130
+}

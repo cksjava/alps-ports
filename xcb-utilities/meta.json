@@ -1,18 +1,18 @@
 {
-  "name": "xcb-utilities",
+  "name": "XCB Utilities",
   "version": "",
   "title": "XCB Utilities",
   "anchor": "xcb-utilities",
   "page_type": "meta",
-  "group": "xcb-utilities",
+  "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
-  "summary": "Packages from the XCB Utilities page, in the order the book builds them.",
-  "download": "",
+  "summary": "The XCB utilities provide extensions that developers can use when making X Window software. xcb-util-0.4.1 was just installed but these utilities offer even more extensions that X Window software may depend on.",
+  "download": "https://xorg.freedesktop.org/archive/individual/lib/",
   "archive": "",
   "md5": "",
-  "size": "",
-  "disk_space": "",
-  "build_time": "",
+  "size": "1.3 MB",
+  "disk_space": "13.4 MB",
+  "build_time": "0.1 SBU (ignoring the time to download)",
   "dependencies": [
     "xcb-util-image",
     "xcb-util-keysyms",
@@ -23,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 630,
-  "group_order": 0
+  "order": 599,
+  "group_order": 47
 }

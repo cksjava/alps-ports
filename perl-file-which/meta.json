@@ -1,0 +1,21 @@
+{
+  "name": "File::Which",
+  "version": "1.27",
+  "title": "File::Which-1.27",
+  "anchor": "perl-file-which",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "File::Which provides a portable implementation of the 'which' utility.",
+  "download": "https://www.cpan.org/authors/id/P/PL/PLICEASE/File-Which-1.27.tar.gz",
+  "archive": "File-Which-1.27.tar.gz",
+  "md5": "d5c9154262b93398f0750ec364207639",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 274,
+  "group_order": 33
+}

@@ -4,9 +4,9 @@
   "title": "DocBook-utils-0.6.14",
   "anchor": "docbook-utils",
   "page_type": "single",
-  "group": "standard-generalized-markup-language",
+  "group": "standard-generalized-markup-language-sgml",
   "chapter": "Chapter 48. Standard Generalized Markup Language (SGML)",
-  "summary": "The DocBook-utils package is a collection of utility scripts used to convert and analyze SGML documents in general, and DocBook files in particular. The scripts are used to convert from DocBook or other SGML formats into “classical” file formats like HTML, man, info, RTF and many more. There's also a utility to compare two SGML files and only display the differences in markup. This is useful for comparing documents prepared for different languages.",
+  "summary": "The DocBook-utils package is a collection of utility scripts used to convert and analyze SGML documents in general, and DocBook files in particular. The scripts are used to convert from DocBook or other SGML formats into “ classical ” file formats like HTML, man, info, RTF and many more. There's also a utility to compare two SGML files and only display the differences in markup. This is useful for comparing documents prepared for different languages.",
   "download": "https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/docbook-utils-0.6.14.tar.gz",
   "archive": "docbook-utils-0.6.14.tar.gz",
   "md5": "6b41b18c365c01f225bc417cf632d81c",
@@ -16,14 +16,10 @@
   "dependencies": [
     "openjade",
     "docbook-dsssl",
-    "sgml-dtd-3",
-    "sgmlspm",
-    "lynx",
-    "links",
-    "w3m"
+    "docbook-3.1-dtd"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1160,
-  "group_order": 0
+  "order": 1052,
+  "group_order": 6
 }

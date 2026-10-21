@@ -1,0 +1,26 @@
+{
+  "name": "DateTime::Locale",
+  "version": "1.45",
+  "title": "DateTime::Locale-1.45",
+  "anchor": "perl-datetime-locale",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "DateTime::Locale provides localization support for DateTime-1.66 .",
+  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Locale-1.45.tar.gz",
+  "archive": "DateTime-Locale-1.45.tar.gz",
+  "md5": "0ba952412b4e013dd42894625ddb3c20",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-dist-checkconflicts",
+    "perl-file-sharedir",
+    "perl-namespace-autoclean",
+    "perl-params-validationcompiler"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 325,
+  "group_order": 84
+}

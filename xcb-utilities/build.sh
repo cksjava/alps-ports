@@ -1,7 +1,31 @@
 #!/bin/bash
-# AryaLinux meta port
-# xcb-utilities
-# This port installs nothing itself. Install its dependencies in the
-# order listed in meta.json.
+# AryaLinux package build
+# xcb-utilities — XCB Utilities
+# Instructions follow the book. Test-suite commands are omitted.
 set -euo pipefail
-echo "=== xcb-utilities ==="
+
+if [[ -r /etc/aryalinux-build.conf ]]; then
+    # shellcheck disable=SC1091
+    source /etc/aryalinux-build.conf
+elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
+    # shellcheck disable=SC1091
+    source "$ARYA_CONFIG"
+fi
+
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
+: "${ARYA_SOURCES:=/sources}"
+: "${ARYA_ROOT:=/aryalinux-builder}"
+if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
+    ARYA_SOURCES="$LFS/sources"
+fi
+
+_arya_here=$(cd "$(dirname "$0")" && pwd)
+if [[ -r "$_arya_here/../../lib/idempotent.sh" ]]; then
+    # shellcheck disable=SC1091
+    source "$_arya_here/../../lib/idempotent.sh"
+fi
+
+echo "=== XCB Utilities ==="
+echo "Meta port; component packages are dependencies."

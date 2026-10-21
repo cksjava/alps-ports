@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,7 +29,7 @@ fi
 
 echo "=== CrackLib-2.10.3 ==="
 cd "$ARYA_SOURCES"
-tarball="unknown"
+tarball="cracklib-2.10.3.tar.xz"
 if [[ ! -f "$tarball" ]]; then
     echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
     exit 1
@@ -52,3 +55,4 @@ create-cracklib-dict     /usr/share/dict/cracklib-words \
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

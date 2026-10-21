@@ -1,0 +1,26 @@
+{
+  "name": "libsoup",
+  "version": "3.6.6",
+  "title": "libsoup-3.6.6",
+  "anchor": "libsoup3",
+  "page_type": "single",
+  "group": "networking-libraries",
+  "chapter": "Chapter 17. Networking Libraries",
+  "summary": "The libsoup3 is a HTTP client/server library for GNOME . It uses GObject and the GLib main loop to integrate with GNOME applications and it also has an asynchronous API for use in threaded applications.",
+  "download": "https://download.gnome.org/sources/libsoup/3.6/libsoup-3.6.6.tar.xz",
+  "archive": "libsoup-3.6.6.tar.xz",
+  "md5": "9e07742595800ecf301eafb52300dd89",
+  "size": "1.5 MB",
+  "disk_space": "42 MB (with tests)",
+  "build_time": "0.4 SBU (Using parallelism=4; with tests)",
+  "dependencies": [
+    "glib-networking",
+    "libpsl",
+    "libxml2",
+    "nghttp2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 530,
+  "group_order": 14
+}

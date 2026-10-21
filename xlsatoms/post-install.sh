@@ -12,4 +12,5 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-as_root rm -f $XORG_PREFIX/bin/xkeystone
+# This package has no post-install commands.
+

@@ -14,11 +14,11 @@
   "disk_space": "32 MB (with tests)",
   "build_time": "0.3 SBU (with tests)",
   "dependencies": [
-    "glib",
+    "glib2",
     "vala"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 928,
-  "group_order": 0
+  "order": 884,
+  "group_order": 11
 }

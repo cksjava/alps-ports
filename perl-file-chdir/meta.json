@@ -1,0 +1,21 @@
+{
+  "name": "File::chdir",
+  "version": "0.1011",
+  "title": "File::chdir-0.1011",
+  "anchor": "perl-file-chdir",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "File::chdir provides a more sensible way to change directories.",
+  "download": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/File-chdir-0.1011.tar.gz",
+  "archive": "File-chdir-0.1011.tar.gz",
+  "md5": "932090f6c5f602301ae66c259de23ebb",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 338,
+  "group_order": 97
+}

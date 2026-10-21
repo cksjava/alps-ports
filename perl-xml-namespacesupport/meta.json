@@ -1,0 +1,21 @@
+{
+  "name": "XML::NamespaceSupport",
+  "version": "1.12",
+  "title": "XML::NamespaceSupport-1.12",
+  "anchor": "perl-xml-namespacesupport",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "XML::NamespaceSupport offers a simple way to process namespaced XML names from within any application that may need them.",
+  "download": "https://cpan.metacpan.org/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-1.12.tar.gz",
+  "archive": "XML-NamespaceSupport-1.12.tar.gz",
+  "md5": "a8916c6d095bcf073e1108af02e78c97",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 403,
+  "group_order": 162
+}

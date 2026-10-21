@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+install -vdm755 /etc/X11/tigervnc &&
+install -v -m755 ../Xsession /etc/X11/tigervnc
+ME=$(echo :1=$(whoami))
 bash -c "echo $ME >> /etc/tigervnc/vncserver.users"
 install -vdm 755 ~/.config/tigervnc &&
 cat > ~/.config/tigervnc/config << EOF
@@ -24,3 +27,6 @@ geometry=1024x768
 
 # End ~/.config/tigervnc/config
 EOF
+systemctl start vncserver@:1
+systemctl enable vncserver@:1
+

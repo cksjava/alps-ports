@@ -16,10 +16,10 @@
   "dependencies": [
     "cmake",
     "imlib2",
-    "chapter-24-graphical-environments"
+    "installing"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 749,
-  "group_order": 0
+  "order": 713,
+  "group_order": 1
 }

@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
-  "summary": "The lxqt-session package contains the default session manager for LXQt.",
+  "summary": "The lxqt-session package contains the default session manager for LXQt .",
   "download": "https://github.com/lxqt/lxqt-session/releases/download/2.4.0/lxqt-session-2.4.0.tar.xz",
   "archive": "lxqt-session-2.4.0.tar.xz",
   "md5": "42a340dbb742c6afb872cb3bd5a6eeda",
@@ -20,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1032,
-  "group_order": 0
+  "order": 954,
+  "group_order": 22
 }

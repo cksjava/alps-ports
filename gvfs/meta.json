@@ -15,19 +15,13 @@
   "build_time": "0.1 SBU (using parallelism=4)",
   "dependencies": [
     "dbus",
-    "glib",
+    "glib2",
     "gcr4",
     "libusb",
-    "libsecret",
-    "gtk3",
-    "libcdio",
-    "libgudev",
-    "libsoup",
-    "systemd",
-    "udisks"
+    "libsecret"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 941,
-  "group_order": 0
+  "order": 893,
+  "group_order": 20
 }

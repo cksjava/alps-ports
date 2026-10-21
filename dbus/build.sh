@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -45,6 +48,13 @@ meson setup --prefix=/usr          \
             .. &&
 ninja
 ninja install
+chown -v root:messagebus /usr/libexec/dbus-daemon-launch-helper &&
+chmod -v      4750       /usr/libexec/dbus-daemon-launch-helper
+if [ -e /usr/share/doc/dbus ]; then
+  rm -rf /usr/share/doc/dbus-1.16.2    &&
+  mv -v  /usr/share/doc/dbus{,-1.16.2}
+fi
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

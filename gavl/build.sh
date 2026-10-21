@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,8 +39,14 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+LIBS=-lm                         \
+./configure --prefix=/usr        \
+            --without-doxygen    \
+            --with-cpuflags=none \
+            --docdir=/usr/share/doc/gavl-1.4.0 &&
 make
 make install
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

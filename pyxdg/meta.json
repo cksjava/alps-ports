@@ -3,8 +3,8 @@
   "version": "0.28",
   "title": "PyXDG-0.28",
   "anchor": "pyxdg",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "PyXDG is a Python library to access freedesktop.org standards.",
   "download": "https://files.pythonhosted.org/packages/b0/25/7998cd2dec731acbd438fbf91bc619603fc5188de0a9a17699a781840452/pyxdg-0.28.tar.gz",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 461,
-  "group_order": 27
+  "order": 435,
+  "group_order": 194
 }

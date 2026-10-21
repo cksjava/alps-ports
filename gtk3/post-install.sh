@@ -12,8 +12,6 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-gtk-query-immodules-3.0 --update-cache
-glib-compile-schemas /usr/share/glib-2.0/schemas
 mkdir -vp ~/.config/gtk-3.0
 cat > ~/.config/gtk-3.0/settings.ini << "EOF"
 [Settings]
@@ -34,3 +32,4 @@ cat > ~/.config/gtk-3.0/gtk.css << "EOF"
    -GtkScrollbar-has-forward-stepper: 1;
 }
 EOF
+

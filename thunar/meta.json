@@ -15,12 +15,10 @@
   "build_time": "0.2 SBU (Using parallelism=4)",
   "dependencies": [
     "exo",
-    "hicolor-icon-theme",
-    "libgudev",
-    "libnotify"
+    "hicolor-icon-theme"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 986,
-  "group_order": 0
+  "order": 924,
+  "group_order": 7
 }

@@ -14,12 +14,10 @@
   "disk_space": "20 MB (with docs)",
   "build_time": "0.2 SBU (with docs)",
   "dependencies": [
-    "xorg-libraries",
-    "giflib",
-    "librsvg"
+    "x7lib"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 721,
-  "group_order": 0
+  "order": 692,
+  "group_order": 22
 }

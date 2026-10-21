@@ -3,8 +3,8 @@
   "version": "1.32.0",
   "title": "Hatchling-1.32.0",
   "anchor": "hatchling",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Hatchling is an extensible, standards compliant build backend for python modules.",
   "download": "https://files.pythonhosted.org/packages/source/h/hatchling/hatchling-1.32.0.tar.gz",
@@ -21,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 476,
-  "group_order": 7
+  "order": 450,
+  "group_order": 209
 }

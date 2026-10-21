@@ -3,8 +3,8 @@
   "version": "9.1.1",
   "title": "Pytest-9.1.1",
   "anchor": "pytest",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries.",
   "download": "https://files.pythonhosted.org/packages/source/p/pytest/pytest-9.1.1.tar.gz",
@@ -16,11 +16,10 @@
   "dependencies": [
     "iniconfig",
     "pluggy",
-    "pygments",
-    "setuptools-scm"
+    "pygments"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 460,
-  "group_order": 26
+  "order": 434,
+  "group_order": 193
 }

@@ -17,11 +17,10 @@
     "gsettings-desktop-schemas",
     "libadwaita",
     "webkitgtk",
-    "yelp-xsl",
-    "desktop-file-utils"
+    "yelp-xsl"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 955,
-  "group_order": 0
+  "order": 902,
+  "group_order": 29
 }

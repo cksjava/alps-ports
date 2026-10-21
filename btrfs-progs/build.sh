@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -41,7 +44,16 @@ cd "$srcdir"
             --disable-documentation &&
 make
 make fssum
+rm -rf tests/fsck-tests/074-raid56-read
+rm -rf tests/mkfs-tests/010-minimal-size
+rm -rf tests/mkfs-tests/042-rootdir-contents
+rm -rf tests/misc-tests/041-subvolume-delete-during-send
+rm -rf tests/fuzz-tests/010-simple-sb
 make install
+for i in 5 8; do
+   install Documentation/*.$i /usr/share/man/man$i
+done
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

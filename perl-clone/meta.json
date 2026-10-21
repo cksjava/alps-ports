@@ -1,0 +1,21 @@
+{
+  "name": "Clone",
+  "version": "0.50",
+  "title": "Clone-0.50",
+  "anchor": "perl-clone",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Clone recursively copies perl datatypes.",
+  "download": "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/Clone-0.50.tar.gz",
+  "archive": "Clone-0.50.tar.gz",
+  "md5": "792aa8855c32abb22b814cd9182076e5",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 319,
+  "group_order": 78
+}

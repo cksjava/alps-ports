@@ -1,0 +1,24 @@
+{
+  "name": "DateTime::Format::Builder",
+  "version": "0.83",
+  "title": "DateTime::Format::Builder-0.83",
+  "anchor": "perl-datetime-format-builder",
+  "page_type": "dependencies",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "DateTime::Format::Builder creates DateTime parser classes and objects.",
+  "download": "https://www.cpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Builder-0.83.tar.gz",
+  "archive": "DateTime-Format-Builder-0.83.tar.gz",
+  "md5": "aa41917ca9ad69b3898728ce9c2fb477",
+  "size": "",
+  "disk_space": "",
+  "build_time": "",
+  "dependencies": [
+    "perl-datetime-format-strptime",
+    "perl-params-validate"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 268,
+  "group_order": 27
+}

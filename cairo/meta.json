@@ -15,15 +15,10 @@
   "build_time": "0.2 SBU (Using parallelism=4)",
   "dependencies": [
     "libpng",
-    "pixman",
-    "fontconfig",
-    "glib",
-    "xorg-libraries"
+    "pixman"
   ],
   "build_before": [],
-  "build_after": [
-    "harfbuzz"
-  ],
-  "order": 701,
-  "group_order": 0
+  "build_after": [],
+  "order": 672,
+  "group_order": 2
 }

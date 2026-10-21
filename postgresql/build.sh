@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,13 +39,15 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+groupadd -g 41 postgres &&
+useradd -c "PostgreSQL Server" -g postgres -d /srv/pgsql/data \
+        -u 41 postgres
 sed -e '/DEFAULT_PGSOCKET_DIR/s@/tmp@/run/postgresql@' \
     -i src/include/pg_config_manual.h                  &&
 
 ./configure --prefix=/usr \
             --docdir=/usr/share/doc/postgresql-18.6 &&
 make
-make DESTDIR=$(pwd)/DESTDIR install
 install -d -o postgres $(pwd)/DESTDIR/tmp
 pushd $(pwd)/DESTDIR/tmp
 systemctl stop postgresql
@@ -55,12 +60,11 @@ rm -rf /srv/pgsql/data
 mv /srv/pgsql/newdata /srv/pgsql/data
 make install
 make install-docs
-make -C contrib/<SUBDIR-NAME> install
 install -v -dm700 /srv/pgsql/data &&
 install -v -dm755 /run/postgresql &&
 chown -Rv postgres:postgres /srv/pgsql /run/postgresql
 su - postgres -c '/usr/bin/initdb -D /srv/pgsql/data'
-make install-postgresql
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

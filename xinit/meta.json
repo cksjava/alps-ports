@@ -14,13 +14,10 @@
   "disk_space": "1.4 MB",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "xorg-libraries",
-    "twm",
-    "xclock",
-    "xterm"
+    "x7lib"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 689,
-  "group_order": 0
+  "order": 660,
+  "group_order": 108
 }

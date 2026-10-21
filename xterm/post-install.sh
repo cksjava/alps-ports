@@ -19,3 +19,4 @@ cat >> /etc/X11/app-defaults/XTerm << "EOF"
 *backarrowKeyIsErase: true
 *ptyInitialErase: true
 EOF
+

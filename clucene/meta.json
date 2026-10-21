@@ -14,11 +14,10 @@
   "disk_space": "78 MB",
   "build_time": "0.8 SBU",
   "dependencies": [
-    "cmake",
-    "boost"
+    "cmake"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 59,
-  "group_order": 0
+  "order": 55,
+  "group_order": 6
 }

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,7 +39,23 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+patch -Np1 -i ../openldap-2.7.0-consolidated-1.patch &&
+autoconf &&
+
+./configure --prefix=/usr     \
+            --sysconfdir=/etc \
+            --disable-static  \
+            --enable-dynamic  \
+            --disable-debug   \
+            --disable-slapd   &&
+
+make depend &&
+make
 make install
+groupadd -g 83 ldap &&
+useradd  -c "OpenLDAP Daemon Owner" \
+         -d /var/lib/openldap -u 83 \
+         -g ldap -s /bin/false ldap
 patch -Np1 -i ../openldap-2.7.0-consolidated-1.patch &&
 autoconf &&
 
@@ -70,8 +89,12 @@ install -v -dm700 -o ldap -g ldap /var/lib/openldap     &&
 
 install -v -dm700 -o ldap -g ldap /etc/openldap/slapd.d &&
 chmod   -v    640     /etc/openldap/slapd.{conf,ldif}   &&
-chown   -v  root:ldap /etc/openldap/slapd.{conf,ldif}
-make install-slapd
+chown   -v  root:ldap /etc/openldap/slapd.{conf,ldif}   &&
+
+install -v -dm755 /usr/share/doc/openldap-2.7.0 &&
+cp      -vfr      doc/{drafts,rfc,guide} \
+                  /usr/share/doc/openldap-2.7.0
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

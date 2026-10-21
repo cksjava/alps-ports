@@ -4,7 +4,7 @@
   "title": "KDDockWidgets-2.4.0",
   "anchor": "kddockwidgets",
   "page_type": "single",
-  "group": "kde-frameworks-based-applications",
+  "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "The KDDockWidgets package provides Qt dock widgets that are suitable for replacing QDockWidget and implementing advanced functionality that is missing from Qt.",
   "download": "https://github.com/KDAB/KDDockWidgets/releases/download/v2.4.0/KDDockWidgets-2.4.0.tar.gz",
@@ -15,11 +15,11 @@
   "build_time": "0.6 SBU (using parallelism=4)",
   "dependencies": [
     "fmt",
-    "qt",
+    "qt6",
     "vulkan-loader"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 837,
-  "group_order": 0
+  "order": 794,
+  "group_order": 2
 }

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,7 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+export LIBRARY_PATH=$XORG_PREFIX/lib
 patch -Np1 -i ../openbox-3.6.1-py3-1.patch
 autoreconf -fi &&
 ./configure --prefix=/usr     \
@@ -44,6 +48,8 @@ autoreconf -fi &&
             --docdir=/usr/share/doc/openbox-3.6.1 &&
 make
 make install
+rm -v /usr/share/xsessions/openbox-{gnome,kde}.desktop
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

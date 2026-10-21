@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -38,7 +41,11 @@ cd "$srcdir"
 
 ./configure --prefix=/usr --disable-static &&
 make
+make docdir=/usr/share/doc/libdaemon-0.14 install
+install -v -m755 -d /usr/share/doc/libdaemon-0.14/reference/html &&
+install -v -m644 doc/reference/html/* /usr/share/doc/libdaemon-0.14/reference/html &&
 install -v -m644 doc/reference/man/man3/* /usr/share/man/man3
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

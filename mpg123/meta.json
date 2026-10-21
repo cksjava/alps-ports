@@ -13,11 +13,9 @@
   "size": "1.1 MB",
   "disk_space": "20 MB (with tests)",
   "build_time": "0.2 SBU (with tests)",
-  "dependencies": [
-    "alsa-lib"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1131,
-  "group_order": 0
+  "order": 1028,
+  "group_order": 3
 }

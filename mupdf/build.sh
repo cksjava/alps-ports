@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -55,6 +58,10 @@ EOF
 export XCFLAGS=-fPIC                      &&
 make build=release shared=yes verbose=yes &&
 unset XCFLAGS
+make prefix=/usr                         \
+     shared=yes                          \
+     docdir=/usr/share/doc/mupdf-1.26.12 \
+     install                             &&
 
 ln -sfv libmupdf.so.26.12 /usr/lib/libmupdf.so.26 &&
 ln -sfv libmupdf.so.26   /usr/lib/libmupdf.so     &&
@@ -64,3 +71,4 @@ ln -sfv mupdf-x11 /usr/bin/mupdf
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

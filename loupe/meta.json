@@ -15,14 +15,14 @@
   "build_time": "1.4 SBU (with 4 jobs, add 2.6 SBU for tests)",
   "dependencies": [
     "glycin",
-    "little-cms",
+    "lcms2",
     "libadwaita",
     "libgweather",
     "libseccomp",
-    "rustc"
+    "rust"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 973,
-  "group_order": 0
+  "order": 913,
+  "group_order": 10
 }

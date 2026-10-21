@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,6 +29,15 @@ fi
 
 echo "=== libcdio-2.1.0 ==="
 cd "$ARYA_SOURCES"
+tarball="libcdio-2.1.0.tar.bz2"
+if [[ ! -f "$tarball" ]]; then
+    echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
+    exit 1
+fi
+srcdir=$(tar -tf "$tarball" | awk -F/ 'NR==1 { print $1 }')
+rm -rf "$srcdir"
+tar -xf "$tarball"
+cd "$srcdir"
 
 case $(uname -m) in
    i?86)
@@ -41,3 +53,7 @@ cd libcdio-paranoia-10.2+2.0.2 &&
 ./configure --prefix=/usr --disable-static &&
 make
 make install
+
+cd "$ARYA_SOURCES"
+rm -rf "$srcdir"
+

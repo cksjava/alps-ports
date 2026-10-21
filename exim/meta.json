@@ -15,10 +15,10 @@
   "build_time": "0.2 SBU",
   "dependencies": [
     "libnsl",
-    "file-fcntllock"
+    "perl-file-fcntllock"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 579,
-  "group_order": 0
+  "order": 546,
+  "group_order": 1
 }

@@ -18,12 +18,10 @@
     "gsettings-desktop-schemas",
     "gtk3",
     "itstool",
-    "libarchive",
-    "glib",
-    "vala"
+    "libarchive"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 972,
-  "group_order": 0
+  "order": 912,
+  "group_order": 9
 }

@@ -15,13 +15,10 @@
   "build_time": "0.1 SBU (with tests and docs)",
   "dependencies": [
     "json-glib",
-    "libusb",
-    "glib",
-    "hwdata",
-    "vala"
+    "libusb"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 98,
-  "group_order": 0
+  "order": 90,
+  "group_order": 41
 }

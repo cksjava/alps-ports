@@ -14,15 +14,11 @@
   "disk_space": "2.6 GB (499 MB installed)",
   "build_time": "1.5 SBU (add 0.8 SBU for tests, both using parallelism=4)",
   "dependencies": [
-    "glib",
-    "pixman",
-    "alsa-lib",
-    "dtc",
-    "libslirp",
-    "sdl2-compat"
+    "glib2",
+    "pixman"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 50,
+  "order": 48,
   "group_order": 0
 }

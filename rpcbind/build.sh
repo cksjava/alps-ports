@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,12 +39,18 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+groupadd -g 28 rpc &&
+useradd -c "RPC Bind Daemon Owner" -d /dev/null -g rpc \
+        -s /bin/false -u 28 rpc
+sed -i "/servname/s:rpcbind:sunrpc:" src/rpcbind.c
 ./configure --prefix=/usr       \
             --bindir=/usr/sbin  \
             --enable-warmstarts \
             --with-rpcuser=rpc  &&
 make
 make install
+echo 'RPCBIND_OPTIONS=""' > /etc/rpcbind.conf
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

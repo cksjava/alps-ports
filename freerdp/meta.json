@@ -16,18 +16,10 @@
   "dependencies": [
     "ffmpeg",
     "icu",
-    "xorg-libraries",
-    "cairo",
-    "docbook-xsl-nons",
-    "fuse",
-    "json-c",
-    "mit-kerberos-v5",
-    "libusb",
-    "libxkbcommon",
-    "wayland"
+    "x7lib"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1053,
-  "group_order": 0
+  "order": 971,
+  "group_order": 3
 }

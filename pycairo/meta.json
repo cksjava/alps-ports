@@ -3,10 +3,10 @@
   "version": "1.29.1",
   "title": "PyCairo-1.29.1",
   "anchor": "pycairo",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
-  "summary": "PyCairo provides Python bindings to Cairo.",
+  "summary": "PyCairo provides Python bindings to Cairo .",
   "download": "https://github.com/pygobject/pycairo/releases/download/v1.29.1/pycairo-1.29.1.tar.gz",
   "archive": "pycairo-1.29.1.tar.gz",
   "md5": "fc7c3b4104e88df7dea34af4314b9d12",
@@ -18,6 +18,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 454,
-  "group_order": 20
+  "order": 428,
+  "group_order": 187
 }

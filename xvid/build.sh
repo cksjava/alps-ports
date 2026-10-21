@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,7 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+sed -i '/typedef int bool;/d' src/encoder.h
 cd build/generic &&
 sed -i 's/^LN_S=@LN_S@/& -f -v/' platform.inc.in &&
 
@@ -44,7 +48,12 @@ make
 sed -i '/libdir.*STATIC_LIB/ s/^/#/' Makefile &&
 make install &&
 
-chmod -v 755 /usr/lib/libxvidcore.so.4.3
+chmod -v 755 /usr/lib/libxvidcore.so.4.3 &&
+install -v -m755 -d /usr/share/doc/xvidcore-1.3.7/examples &&
+install -v -m644 ../../doc/* /usr/share/doc/xvidcore-1.3.7 &&
+install -v -m644 ../../examples/* \
+    /usr/share/doc/xvidcore-1.3.7/examples
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

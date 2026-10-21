@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -41,7 +44,12 @@ make PREFIX=/usr        \
      MANDIR=/usr/share/man
 make PREFIX=/usr        \
      BUILD_STATIC_LIB=0 \
-     MANDIR=/usr/share/man install
+     MANDIR=/usr/share/man install &&
+
+install -v -m755 -d /usr/share/doc/lm-sensors-3-6-2 &&
+cp -rv              README INSTALL doc/* \
+                    /usr/share/doc/lm-sensors-3-6-2
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

@@ -14,17 +14,12 @@
   "disk_space": "33 MB (with tests)",
   "build_time": "0.2 SBU (with tests; both using parallelism=4)",
   "dependencies": [
-    "glib",
+    "glib2",
     "libgcrypt",
-    "p11-kit",
-    "gnupg",
-    "gtk3",
-    "libsecret",
-    "libxslt",
-    "vala"
+    "p11-kit"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 914,
+  "order": 873,
   "group_order": 0
 }

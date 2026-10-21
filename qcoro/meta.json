@@ -14,10 +14,10 @@
   "disk_space": "31 MB (with tests)",
   "build_time": "0.4 SBU (Using parallelism=4; add 0.6 SBU for tests)",
   "dependencies": [
-    "qt"
+    "qt6"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 142,
-  "group_order": 0
+  "order": 130,
+  "group_order": 81
 }

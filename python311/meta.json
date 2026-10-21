@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "programming",
   "chapter": "Chapter 13. Programming",
-  "summary": "The Python 3.11 package contains an older version of the Python development environment. This is only needed for building seamonkey-2.53.24 because its build system has not been updated to support Python-3.14.7.",
+  "summary": "The Python 3.11 package contains an older version of the Python development environment. This is only needed for building seamonkey-2.53.24 because its build system has not been updated to support Python-3.14.7 .",
   "download": "https://www.python.org/ftp/python/3.11.1/Python-3.11.1.tar.xz",
   "archive": "Python-3.11.1.tar.xz",
   "md5": "4efe92adf28875c77d3b9b2e8d3bc44a",
@@ -16,6 +16,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 434,
-  "group_order": 0
+  "order": 408,
+  "group_order": 167
 }

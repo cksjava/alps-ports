@@ -12,10 +12,6 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-sed -i 's#@CUPS_HTMLVIEW@#firefox#' desktop/cups.desktop.in
-sed -i '/& ipp->prev)/s/prev/& \&\& ipp->prev->next == *attr/' cups/ipp.c
-echo "ServerName /run/cups/cups.sock" > /etc/cups/client.conf
-gtk-update-icon-cache -qtf /usr/share/icons/hicolor
 cat > /etc/pam.d/cups << "EOF"
 # Begin /etc/pam.d/cups
 
@@ -26,3 +22,4 @@ session include system-session
 # End /etc/pam.d/cups
 EOF
 systemctl enable cups
+

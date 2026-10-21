@@ -20,11 +20,10 @@
     "libxml2",
     "libxmlb",
     "libxslt",
-    "wayland",
-    "docbook-xsl-ns"
+    "wayland"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 52,
+  "order": 49,
   "group_order": 0
 }

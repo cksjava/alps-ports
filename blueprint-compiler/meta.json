@@ -3,8 +3,8 @@
   "version": "0.22.2",
   "title": "blueprint-compiler-0.22.2",
   "anchor": "blueprint-compiler",
-  "page_type": "nested",
-  "group": "python-modules",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The blueprint-compiler package contains a compiler for a markup language for GTK user interfaces. This is mostly used with GNOME applications at the moment.",
   "download": "https://download.gnome.org/sources/blueprint-compiler/0.22/blueprint-compiler-0.22.2.tar.xz",
@@ -14,10 +14,10 @@
   "disk_space": "7.4 MB (with tests)",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "pygobject"
+    "pygobject3"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 436,
-  "group_order": 2
+  "order": 410,
+  "group_order": 169
 }

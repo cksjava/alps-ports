@@ -3,8 +3,8 @@
   "version": "25.1.0",
   "title": "Hatch-Fancy-Pypi-Readme-25.1.0",
   "anchor": "hatch-fancy-pypi-readme",
-  "page_type": "nested",
-  "group": "python-dependencies",
+  "page_type": "dependencies",
+  "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Hatch-Fancy-Pypi-Readme is a hatch plugin filling the readme field into the metadata of a Python module from markup language documentation files of the module.",
   "download": "https://files.pythonhosted.org/packages/source/h/hatch-fancy-pypi-readme/hatch_fancy_pypi_readme-25.1.0.tar.gz",
@@ -18,6 +18,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 477,
-  "group_order": 8
+  "order": 451,
+  "group_order": 210
 }

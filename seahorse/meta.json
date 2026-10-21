@@ -18,16 +18,14 @@
     "gnupg",
     "gpgme",
     "itstool",
-    "libhandy",
+    "libhandy1",
     "libpwquality",
     "libsecret",
     "vala",
-    "gnome-keyring",
-    "libsoup",
-    "openssh"
+    "gnome-keyring"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 974,
-  "group_order": 0
+  "order": 914,
+  "group_order": 11
 }

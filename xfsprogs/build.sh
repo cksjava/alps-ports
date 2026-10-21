@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -40,8 +43,11 @@ make DEBUG=-DNDEBUG     \
      INSTALL_USER=root  \
      INSTALL_GROUP=root \
      LOCAL_CONFIGURE_OPTIONS="--localstatedir=/var"
+make PKG_DOC_DIR=/usr/share/doc/xfsprogs-7.1.1 install     &&
+make PKG_DOC_DIR=/usr/share/doc/xfsprogs-7.1.1 install-dev &&
 
 rm -rfv /usr/lib/libhandle.{a,la}
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

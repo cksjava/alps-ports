@@ -16,14 +16,11 @@
   "dependencies": [
     "libxcvt",
     "pixman",
-    "xorg-fonts",
-    "xkeyboardconfig",
-    "libepoxy",
-    "libtirpc",
-    "systemd"
+    "x7font",
+    "xkeyboard-config"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 679,
-  "group_order": 0
+  "order": 649,
+  "group_order": 97
 }

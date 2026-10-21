@@ -6,7 +6,7 @@
   "page_type": "single",
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
-  "summary": "This package has historically had frequent updates that address security vulnerabilities. To determine the latest status check the Linux From Scratch Security Advisories.",
+  "summary": "This package has historically had frequent updates that address security vulnerabilities. To determine the latest status check the Linux From Scratch Security Advisories .",
   "download": "https://download.qt.io/official_releases/qt/6.11/6.11.2/submodules/qtwebengine-everywhere-src-6.11.2.tar.xz",
   "archive": "qtwebengine-everywhere-src-6.11.2.tar.xz",
   "md5": "a33984478c690295f2b7a3d153c5772d",
@@ -16,23 +16,14 @@
   "dependencies": [
     "cups",
     "html5lib",
-    "node-js",
+    "nodejs",
     "nss",
     "pciutils",
-    "qt",
-    "rust-bindgen",
-    "alsa-lib",
-    "pulseaudio",
-    "ffmpeg",
-    "icu",
-    "libwebp",
-    "libxslt",
-    "openjpeg",
-    "opus",
-    "pipewire"
+    "qt6",
+    "rust-bindgen"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 736,
-  "group_order": 0
+  "order": 706,
+  "group_order": 36
 }

@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -26,59 +29,22 @@ fi
 
 echo "=== libfontenc-1.1.9 ==="
 cd "$ARYA_SOURCES"
+tarball="libfontenc-1.1.9.tar.xz"
+if [[ ! -f "$tarball" ]]; then
+    echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
+    exit 1
+fi
+srcdir=$(tar -tf "$tarball" | awk -F/ 'NR==1 { print $1 }')
+rm -rf "$srcdir"
+tar -xf "$tarball"
+cd "$srcdir"
 
-as_root()
-{
-  if   [ $EUID = 0 ];        then $*
-  elif [ -x /usr/bin/sudo ]; then sudo $*
-  else                            su -c \\"$*\\"
-  fi
-}
+docdir="--docdir=$XORG_PREFIX/share/doc/libfontenc-1.1.9"
+./configure $XORG_CONFIG $docdir
+make;
+make install;
+/sbin/ldconfig
 
-export -f as_root
-package='libfontenc-1.1.9.tar.xz'
-  packagedir=${package%.tar.?z*}
-  echo "Building $packagedir"
+cd "$ARYA_SOURCES"
+rm -rf "$srcdir"
 
-  tar -xf $package
-  pushd $packagedir
-  docdir="--docdir=$XORG_PREFIX/share/doc/$packagedir"
-
-  do_build() { make; }
-  do_test() { make check; }
-  do_install() { as_root make install; }
-  
-  case $packagedir in
-    libXfont2-[0-9]* )
-      ./configure $XORG_CONFIG $docdir --disable-devel-docs
-    ;;
-
-    libXt-[0-9]* )
-      ./configure $XORG_CONFIG $docdir \
-                  --with-appdefaultdir=/etc/X11/app-defaults
-    ;;
-
-    libXpm-[0-9]* )
-      ./configure $XORG_CONFIG $docdir --disable-open-zfile
-    ;;
-  
-    libpciaccess* | libxkbfile* )
-      meson setup --prefix=$XORG_PREFIX --buildtype=release build
-      do_build()  { ninja -C build; }
-      do_test() { ninja -C build test; }
-      do_install() { as_root ninja -C build install; }
-    ;;
-
-    * )
-      ./configure $XORG_CONFIG $docdir
-    ;;
-  esac
-
-  do_build
-  #do_test |& tee ../$packagedir-test.log
-  do_install
-  unset do_build do_test do_install
-
-  popd
-  rm -rf $packagedir
-  as_root /sbin/ldconfig

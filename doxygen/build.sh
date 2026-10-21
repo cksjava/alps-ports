@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,7 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+grep -rl '^#!.*python$' | xargs sed -i '1s/python/&3/'
 mkdir -v build &&
 cd       build &&
 
@@ -51,3 +55,4 @@ install -vm644 ../doc/*.1 /usr/share/man/man1
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+

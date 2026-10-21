@@ -16,10 +16,10 @@
   "dependencies": [
     "cmake",
     "lxqt-build-tools",
-    "qt"
+    "qt6"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1011,
-  "group_order": 0
+  "order": 938,
+  "group_order": 6
 }

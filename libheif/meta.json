@@ -13,13 +13,9 @@
   "size": "2.0 MB",
   "disk_space": "49 MB (with tests)",
   "build_time": "0.6 SBU (with tests, parallelism=4)",
-  "dependencies": [
-    "libaom",
-    "libde265",
-    "x265"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 177,
-  "group_order": 0
+  "order": 162,
+  "group_order": 20
 }

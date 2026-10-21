@@ -12,6 +12,9 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
 if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
@@ -36,6 +39,7 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+tar -xf ../jtreg-8.2.1+1.tar.gz
 export MAKEFLAGS_HOLD=$MAKEFLAGS            &&
 unset  JAVA_HOME                            &&
 unset  CLASSPATH                            &&
@@ -64,8 +68,10 @@ for s in 16 24 32 48; do
                   /usr/share/icons/hicolor/${s}x${s}/apps/java.png
 done
 find /opt/jdk-21.0.12.1+1 -name *.debuginfo -delete
+export MAKEFLAGS=$MAKEFLAGS_HOLD &&
+unset  MAKEFLAGS_HOLD
 ln -v -nsf jdk-21.0.12.1+1 /opt/jdk
-ln -sfv /etc/pki/tls/java/cacerts /opt/jdk/lib/security/cacerts
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
+
