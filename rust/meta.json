@@ -20,8 +20,7 @@
     "curl",
     "make-ca",
     "libssh2",
-    "llvm",
-    "profile"
+    "llvm"
   ],
   "build_before": [],
   "build_after": [],
