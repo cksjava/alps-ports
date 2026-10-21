@@ -15,7 +15,7 @@
   "build_time": "0.2 SBU (with parallelism=4)",
   "dependencies": [
     "luit",
-    "TTF-and-OTF-fonts"
+    "ttf-and-otf-fonts"
   ],
   "build_before": [],
   "build_after": [],
