@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The lm-sensors package provides userspace support for the hardware monitoring drivers in the Linux kernel. This is useful for monitoring the temperature of the CPU and adjusting the performance of some hardware (such as cooling fans).",
-  "download": "https://github.com/hramrach/lm-sensors/archive/V3-6-2/lm-sensors-3-6-2.tar.gz",
+  "download": [
+    "https://github.com/hramrach/lm-sensors/archive/V3-6-2/lm-sensors-3-6-2.tar.gz"
+  ],
   "archive": "lm-sensors-3-6-2.tar.gz",
   "md5": "44c733f509cd4a31494fd3e355152b0a",
   "size": "288 KB",

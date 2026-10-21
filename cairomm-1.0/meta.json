@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The libcairomm-1.0 package provides a C++ interface to Cairo .",
-  "download": "https://www.cairographics.org/releases/cairomm-1.14.6.tar.xz",
+  "download": [
+    "https://www.cairographics.org/releases/cairomm-1.14.6.tar.xz"
+  ],
   "archive": "cairomm-1.14.6.tar.xz",
   "md5": "634242bb797fb6e9d7cfae1a83474d11",
   "size": "620 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 711,
+  "order": 712,
   "group_order": 3
 }

@@ -7,7 +7,9 @@
   "group": "graphical-web-browsers",
   "chapter": "Chapter 40. Graphical Web Browsers",
   "summary": "Seamonkey is a browser suite, a descendant of Netscape . It includes the browser, composer, mail and news clients, and an IRC client.",
-  "download": "https://archive.seamonkey-project.org/releases/2.53.24/source/seamonkey-2.53.24.source.tar.xz",
+  "download": [
+    "https://archive.seamonkey-project.org/releases/2.53.24/source/seamonkey-2.53.24.source.tar.xz"
+  ],
   "archive": "seamonkey-2.53.24.source.tar.xz",
   "md5": "1f7bc1087b815cafb85e34ef65505a57",
   "size": "236 MB",
@@ -23,6 +25,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1067,
+  "order": 1068,
   "group_order": 3
 }

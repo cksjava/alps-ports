@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The Umockdev package contains a framework that allows a developer to mock devices for use in unit testing.",
-  "download": "https://github.com/martinpitt/umockdev/releases/download/0.19.8/umockdev-0.19.8.tar.xz",
+  "download": [
+    "https://github.com/martinpitt/umockdev/releases/download/0.19.8/umockdev-0.19.8.tar.xz"
+  ],
   "archive": "umockdev-0.19.8.tar.xz",
   "md5": "7f94b1bc1bcb16165ebe4773a40642d6",
   "size": "488 KB",

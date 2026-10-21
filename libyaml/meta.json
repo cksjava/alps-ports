@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The yaml package contains a C library for parsing and emitting YAML (YAML Ain't Markup Language) code.",
-  "download": "https://github.com/yaml/libyaml/releases/download/0.2.5/yaml-0.2.5.tar.gz",
+  "download": [
+    "https://github.com/yaml/libyaml/releases/download/0.2.5/yaml-0.2.5.tar.gz"
+  ],
   "archive": "yaml-0.2.5.tar.gz",
   "md5": "bb15429d8fb787e7d3f1c83ae129a999",
   "size": "596 KB",

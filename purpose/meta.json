@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "purpose-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/purpose/purpose-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/purpose/purpose-6.29.0.tar.xz"
+  ],
   "archive": "purpose-6.29.0.tar.xz",
   "md5": "c69b4b08b3ef3bffe0feceece70ed5e3",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 837,
+  "order": 838,
   "group_order": 61
 }

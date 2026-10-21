@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xmessage-1.0.7 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xmessage-1.0.7.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xmessage-1.0.7.tar.xz"
+  ],
   "archive": "xmessage-1.0.7.tar.xz",
   "md5": "ba2dd3db3361e374fefe2b1c797c46eb",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 658,
+  "order": 659,
   "group_order": 70
 }

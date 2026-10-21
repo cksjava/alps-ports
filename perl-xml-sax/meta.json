@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "XML::SAX is a SAX parser access API for Perl. It includes classes and APIs required for implementing SAX drivers, along with a factory class for returning any SAX parser installed on the user's system.",
-  "download": "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-1.02.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-1.02.tar.gz"
+  ],
   "archive": "XML-SAX-1.02.tar.gz",
   "md5": "b62e3754523695c7f5bbcafa3676a38d",
   "size": "",

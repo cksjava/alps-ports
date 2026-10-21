@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The kconfig package provides access to configuration files.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kconfig-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kconfig-6.29.0.tar.xz"
+  ],
   "archive": "kconfig-6.29.0.tar.xz",
   "md5": "194b8c40c5c7e143b44ee2f8dadae775",
   "size": "383 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1020,
+  "order": 1021,
   "group_order": 1
 }

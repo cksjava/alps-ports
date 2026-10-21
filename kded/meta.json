@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kded-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kded/kded-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kded/kded-6.29.0.tar.xz"
+  ],
   "archive": "kded-6.29.0.tar.xz",
   "md5": "2a8f180ed2a5ce15f0652c71a0250bbd",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 816,
+  "order": 817,
   "group_order": 40
 }

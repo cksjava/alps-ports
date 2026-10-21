@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Regexp::Common provides commonly requested regular expressions.",
-  "download": "https://www.cpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2024080801.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2024080801.tar.gz"
+  ],
   "archive": "Regexp-Common-2024080801.tar.gz",
   "md5": "73d4b4b2a0690f9ab573d54a69c22aee",
   "size": "",

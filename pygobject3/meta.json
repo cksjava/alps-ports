@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "PyGObject3 provides Python bindings to the GObject class from GLib .",
-  "download": "https://download.gnome.org/sources/pygobject/3.56/pygobject-3.56.3.tar.gz",
+  "download": [
+    "https://download.gnome.org/sources/pygobject/3.56/pygobject-3.56.3.tar.gz"
+  ],
   "archive": "pygobject-3.56.3.tar.gz",
   "md5": "7fe8fa9ff801a010eca0f0c79f59232b",
   "size": "1.4 MB",

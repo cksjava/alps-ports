@@ -7,7 +7,10 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The Xorg Server is the core of the X Window system.",
-  "download": "https://www.x.org/pub/individual/xserver/xorg-server-21.1.24.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/xserver/xorg-server-21.1.24.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/xorg-server-21.1.24-tearfree_backport-1.patch"
+  ],
   "archive": "xorg-server-21.1.24.tar.xz",
   "md5": "19c2d104a6c9ba85b4896ef75b2d1084",
   "size": "4.9 MB",
@@ -21,6 +24,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 686,
+  "order": 687,
   "group_order": 98
 }

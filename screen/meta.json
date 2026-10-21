@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "Screen is a terminal multiplexor that runs several separate processes, typically interactive shells, on a single physical character-based terminal. Each virtual terminal emulates a DEC VT100 plus several ANSI X3.64 and ISO 2022 functions and also provides configurable input and output translation, serial port support, configurable logging, multi-user support, and many character encodings, including UTF-8. Screen sessions can be detached and resumed later on a different terminal.",
-  "download": "https://ftpmirror.gnu.org/screen/screen-5.0.2.tar.gz",
+  "download": [
+    "https://ftpmirror.gnu.org/screen/screen-5.0.2.tar.gz"
+  ],
   "archive": "screen-5.0.2.tar.gz",
   "md5": "76c4f967284c1879f0a1423d318471b3",
   "size": "872 KB",

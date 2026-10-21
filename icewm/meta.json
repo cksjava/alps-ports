@@ -7,7 +7,9 @@
   "group": "window-managers",
   "chapter": "Chapter 27. Window Managers",
   "summary": "IceWM is a window manager with the goals of speed, simplicity, and not getting in the user's way.",
-  "download": "https://github.com/ice-wm/icewm/archive/4.1.0/icewm-4.1.0.tar.gz",
+  "download": [
+    "https://github.com/ice-wm/icewm/archive/4.1.0/icewm-4.1.0.tar.gz"
+  ],
   "archive": "icewm-4.1.0.tar.gz",
   "md5": "0b02f3c3068b9e865a7538c6f476529a",
   "size": "2.6 MB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 758,
+  "order": 759,
   "group_order": 1
 }

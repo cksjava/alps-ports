@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "Cairo is a 2D graphics library with support for multiple output devices. Currently supported output targets include the X Window System, Win32, image buffers, PostScript, PDF and SVG. Experimental backends include OpenGL, Quartz and XCB file output. Cairo is designed to produce consistent output on all output media while taking advantage of display hardware acceleration when available (e.g. through the X Render Extension). The Cairo API provides operations similar to the drawing operators of PostScript and PDF. Operations in Cairo include stroking and filling cubic Bézier splines, transforming and compositing translucent images, and antialiased text rendering. All drawing operations can be transformed by any affine transformation (scale, rotation, shear, etc.)",
-  "download": "https://www.cairographics.org/releases/cairo-1.18.4.tar.xz",
+  "download": [
+    "https://www.cairographics.org/releases/cairo-1.18.4.tar.xz"
+  ],
   "archive": "cairo-1.18.4.tar.xz",
   "md5": "db575fb41bbda127e0147e401f36f8ac",
   "size": "31 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 710,
+  "order": 711,
   "group_order": 2
 }

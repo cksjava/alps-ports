@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The librest package contains a library that is designed to make it easier to access web services that claim to be \"RESTful\". It includes convenience wrappers for libsoup and libxml to make remote usage of the RESTful API easier.",
-  "download": "https://download.gnome.org/sources/librest/0.10/librest-0.10.2.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/librest/0.10/librest-0.10.2.tar.xz"
+  ],
   "archive": "librest-0.10.2.tar.xz",
   "md5": "32b0ecf86932cd45b4e7078690c8306f",
   "size": "72 KB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 936,
+  "order": 937,
   "group_order": 4
 }

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Commonmark Python parser for the CommonMark Markdown specification.",
-  "download": "https://files.pythonhosted.org/packages/source/c/commonmark/commonmark-0.9.2.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/c/commonmark/commonmark-0.9.2.tar.gz"
+  ],
   "archive": "commonmark-0.9.2.tar.gz",
   "md5": "b0231bf53ac7261f0f47d268b77b667f",
   "size": "96 KB",

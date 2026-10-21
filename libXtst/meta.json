@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libXtst-1.2.5 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libXtst-1.2.5.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libXtst-1.2.5.tar.xz"
+  ],
   "archive": "libXtst-1.2.5.tar.xz",
   "md5": "b62dc44d8e63a67bb10230d54c44dcb7",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 617,
+  "order": 618,
   "group_order": 29
 }

@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The GNOME Online Accounts package contains a framework used to access the user's online accounts.",
-  "download": "https://download.gnome.org/sources/gnome-online-accounts/3.58/gnome-online-accounts-3.58.1.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-online-accounts/3.58/gnome-online-accounts-3.58.1.tar.xz"
+  ],
   "archive": "gnome-online-accounts-3.58.1.tar.xz",
   "md5": "9942aa191d657f7c39d3b5ec28b74f61",
   "size": "488 KB",
@@ -22,6 +24,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 945,
+  "order": 946,
   "group_order": 13
 }

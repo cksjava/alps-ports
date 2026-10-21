@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Hatchling is an extensible, standards compliant build backend for python modules.",
-  "download": "https://files.pythonhosted.org/packages/source/h/hatchling/hatchling-1.32.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/h/hatchling/hatchling-1.32.0.tar.gz"
+  ],
   "archive": "hatchling-1.32.0.tar.gz",
   "md5": "e5870c28ce4403c12b3d9a4a4f8866fe",
   "size": "56 KB",

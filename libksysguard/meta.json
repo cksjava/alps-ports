@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "libksysguard-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/libksysguard/libksysguard-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/libksysguard/libksysguard-6.7.4.tar.xz"
+  ],
   "archive": "libksysguard-6.7.4.tar.xz",
   "md5": "190204011ed963eed51d1bde7a2fdf8f",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 876,
+  "order": 877,
   "group_order": 10
 }

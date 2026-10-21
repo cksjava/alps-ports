@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The GNOME Session package contains the GNOME session manager.",
-  "download": "https://download.gnome.org/sources/gnome-session/50/gnome-session-50.1.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-session/50/gnome-session-50.1.tar.xz"
+  ],
   "archive": "gnome-session-50.1.tar.xz",
   "md5": "0c02fd88e93b89b8cf09f80637356ca8",
   "size": "396 KB",
@@ -22,6 +24,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 970,
+  "order": 971,
   "group_order": 38
 }

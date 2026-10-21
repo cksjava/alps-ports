@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "The unixODBC package is an Open Source ODBC (Open DataBase Connectivity) sub-system and an ODBC SDK for Linux, Mac OSX, and UNIX. ODBC is an open specification for providing application developers with a predictable API with which to access data sources. Data sources include optional SQL Servers and any data source with an ODBC Driver. unixODBC contains the following components used to assist with the manipulation of ODBC data sources: a driver manager, an installer library and command line tool, command line tools to help install a driver and work with SQL, drivers and driver setup libraries.",
-  "download": "https://github.com/lurcher/unixODBC/archive/v2.3.14/unixODBC-2.3.14.tar.gz",
+  "download": [
+    "https://github.com/lurcher/unixODBC/archive/v2.3.14/unixODBC-2.3.14.tar.gz"
+  ],
   "archive": "unixODBC-2.3.14.tar.gz",
   "md5": "2de94476f9aa78a8e0f9b6bb4b9acc90",
   "size": "836 KB",

@@ -7,7 +7,10 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "Libssh2 package is a client-side C library implementing the SSH2 protocol.",
-  "download": "https://www.libssh2.org/download/libssh2-1.11.1.tar.gz",
+  "download": [
+    "https://www.libssh2.org/download/libssh2-1.11.1.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/libssh2-1.11.1-security_fixes-1.patch"
+  ],
   "archive": "libssh2-1.11.1.tar.gz",
   "md5": "38857d10b5c5deb198d6989dacace2e6",
   "size": "1.0 MB",

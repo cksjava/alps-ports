@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libproxy package is a library that provides automatic proxy configuration management. This is useful in standardizing a way of dealing with proxy settings across all scenarios.",
-  "download": "https://github.com/libproxy/libproxy/archive/0.5.12/libproxy-0.5.12.tar.gz",
+  "download": [
+    "https://github.com/libproxy/libproxy/archive/0.5.12/libproxy-0.5.12.tar.gz"
+  ],
   "archive": "libproxy-0.5.12.tar.gz",
   "md5": "db615bbae5c20eb209a2cdbfe62e0fa3",
   "size": "60 KB",

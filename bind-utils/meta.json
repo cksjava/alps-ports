@@ -7,7 +7,9 @@
   "group": "networking-utilities",
   "chapter": "Chapter 16. Networking Utilities",
   "summary": "BIND Utilities is not a separate package, it is a collection of the client side programs that are included with BIND-9.20.27 . The BIND package includes the client side programs nslookup , dig and host . If you install BIND server, these programs will be installed automatically. This section is for those users who don't need the complete BIND server, but need these client side applications.",
-  "download": "https://ftp.isc.org/isc/bind9/9.20.27/bind-9.20.27.tar.xz",
+  "download": [
+    "https://ftp.isc.org/isc/bind9/9.20.27/bind-9.20.27.tar.xz"
+  ],
   "archive": "bind-9.20.27.tar.xz",
   "md5": "0a05c630261429e9da8b012314507b05",
   "size": "5.7 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 542,
+  "order": 543,
   "group_order": 1
 }

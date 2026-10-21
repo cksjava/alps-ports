@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Scour is an SVG (Scalable Vector Graphics) optimizer/cleaner that reduces their size by optimizing structure and removing unnecessary data.",
-  "download": "https://github.com/scour-project/scour/archive/v0.38.2/scour-0.38.2.tar.gz",
+  "download": [
+    "https://github.com/scour-project/scour/archive/v0.38.2/scour-0.38.2.tar.gz"
+  ],
   "archive": "scour-0.38.2.tar.gz",
   "md5": "ae30f52602802f8c7df3a32e1f72b325",
   "size": "100 KB",

@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xdpyinfo-1.4.0 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xdpyinfo-1.4.0.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xdpyinfo-1.4.0.tar.xz"
+  ],
   "archive": "xdpyinfo-1.4.0.tar.xz",
   "md5": "700556957773d378fa16a65a4406be0a",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 646,
+  "order": 647,
   "group_order": 58
 }

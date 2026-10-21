@@ -7,7 +7,9 @@
   "group": "gnome-applications",
   "chapter": "Chapter 34. GNOME Applications",
   "summary": "The GNOME Power Manager package contains a tool used to report on power management on the system.",
-  "download": "https://download.gnome.org/sources/gnome-power-manager/50/gnome-power-manager-50.0.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-power-manager/50/gnome-power-manager-50.0.tar.xz"
+  ],
   "archive": "gnome-power-manager-50.0.tar.xz",
   "md5": "541c76d6000fced2a3cc6bcc88f1d860",
   "size": "376 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 986,
+  "order": 987,
   "group_order": 12
 }

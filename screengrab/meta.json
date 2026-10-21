@@ -7,7 +7,9 @@
   "group": "lxqt-applications",
   "chapter": "Chapter 38. LXQt Applications",
   "summary": "The screengrab package is a cross-platform tool for making screenshots quickly.",
-  "download": "https://github.com/lxqt/screengrab/releases/download/3.2.0/screengrab-3.2.0.tar.xz",
+  "download": [
+    "https://github.com/lxqt/screengrab/releases/download/3.2.0/screengrab-3.2.0.tar.xz"
+  ],
   "archive": "screengrab-3.2.0.tar.xz",
   "md5": "642790e122e55167414000a74cd274c6",
   "size": "368 KB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1061,
+  "order": 1062,
   "group_order": 7
 }

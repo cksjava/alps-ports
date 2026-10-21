@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "ocean-sound-theme-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/ocean-sound-theme/ocean-sound-theme-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/ocean-sound-theme/ocean-sound-theme-6.7.4.tar.xz"
+  ],
   "archive": "ocean-sound-theme-6.7.4.tar.xz",
   "md5": "6096363f350019ccb5a269779d3837d5",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 923,
+  "order": 924,
   "group_order": 57
 }

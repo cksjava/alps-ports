@@ -7,7 +7,9 @@
   "group": "printing",
   "chapter": "Chapter 46. Printing",
   "summary": "The cups-browsed daemon is used to browse the network for remote CUPS queues and IPP network printers and automatically create local queues pointing to them.",
-  "download": "https://github.com/OpenPrinting/cups-browsed/releases/download/2.1.1/cups-browsed-2.1.1.tar.xz",
+  "download": [
+    "https://github.com/OpenPrinting/cups-browsed/releases/download/2.1.1/cups-browsed-2.1.1.tar.xz"
+  ],
   "archive": "cups-browsed-2.1.1.tar.xz",
   "md5": "293948973ebfc7ef4d5d8242d5733181",
   "size": "412 KB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1164,
+  "order": 1165,
   "group_order": 1
 }

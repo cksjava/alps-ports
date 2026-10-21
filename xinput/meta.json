@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xinput-1.6.4 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xinput-1.6.4.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xinput-1.6.4.tar.xz"
+  ],
   "archive": "xinput-1.6.4.tar.xz",
   "md5": "8e4d14823b7cbefe1581c398c6ab0035",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 651,
+  "order": 652,
   "group_order": 63
 }

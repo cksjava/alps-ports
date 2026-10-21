@@ -7,7 +7,10 @@
   "group": "file-systems-and-disk-management",
   "chapter": "Chapter 5. File Systems and Disk Management",
   "summary": "The efivar package provides tools and libraries to manipulate EFI variables.",
-  "download": "https://github.com/rhboot/efivar/archive/39/efivar-39.tar.gz",
+  "download": [
+    "https://github.com/rhboot/efivar/archive/39/efivar-39.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/efivar-39-upstream_fixes-1.patch"
+  ],
   "archive": "efivar-39.tar.gz",
   "md5": "a8fc3e79336cd6e738ab44f9bc96a5aa",
   "size": "456 KB",

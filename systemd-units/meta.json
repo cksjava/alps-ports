@@ -7,7 +7,9 @@
   "group": "important-information",
   "chapter": "Chapter 2. Important Information",
   "summary": "The BLFS Systemd Units package contains the systemd unit files that are used throughout the book.",
-  "download": "https://www.linuxfromscratch.org/blfs/downloads/13.1-systemd/blfs-systemd-units-20251204.tar.xz",
+  "download": [
+    "https://www.linuxfromscratch.org/blfs/downloads/13.1-systemd/blfs-systemd-units-20251204.tar.xz"
+  ],
   "archive": "blfs-systemd-units-20251204.tar.xz",
   "md5": "",
   "size": "",

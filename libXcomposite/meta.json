@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libXcomposite-0.4.7 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libXcomposite-0.4.7.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libXcomposite-0.4.7.tar.xz"
+  ],
   "archive": "libXcomposite-0.4.7.tar.xz",
   "md5": "132816d5efccb883bbc2bf45eb905770",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 606,
+  "order": 607,
   "group_order": 18
 }

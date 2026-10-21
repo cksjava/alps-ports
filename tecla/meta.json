@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The Tecla package contains a keyboard layout viewer.",
-  "download": "https://download.gnome.org/sources/tecla/50/tecla-50.0.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/tecla/50/tecla-50.0.tar.xz"
+  ],
   "archive": "tecla-50.0.tar.xz",
   "md5": "cc5ae49bae10abcb02040a20e63ef26b",
   "size": "84 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 965,
+  "order": 966,
   "group_order": 33
 }

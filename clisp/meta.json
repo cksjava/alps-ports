@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "GNU Clisp is a Common Lisp implementation which includes an interpreter, compiler, debugger, and many extensions.",
-  "download": "https://anduin.linuxfromscratch.org/BLFS/clisp/clisp-2.49.95.tar.xz",
+  "download": [
+    "https://anduin.linuxfromscratch.org/BLFS/clisp/clisp-2.49.95.tar.xz"
+  ],
   "archive": "clisp-2.49.95.tar.xz",
   "md5": "e3b3ba6b3432280e4d4a766404f02d6f",
   "size": "7.1 MB",

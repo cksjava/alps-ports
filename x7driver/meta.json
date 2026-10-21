@@ -7,7 +7,7 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The Xorg Input Drivers page contains the instructions for building Xorg input drivers that are necessary in order for Xorg Server to respond user inputs.",
-  "download": "",
+  "download": [],
   "archive": "",
   "md5": "",
   "size": "",
@@ -23,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 693,
+  "order": 694,
   "group_order": 105
 }

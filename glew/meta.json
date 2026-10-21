@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "GLEW is the OpenGL Extension Wrangler Library.",
-  "download": "https://downloads.sourceforge.net/glew/glew-2.3.1.tgz",
+  "download": [
+    "https://downloads.sourceforge.net/glew/glew-2.3.1.tgz"
+  ],
   "archive": "glew-2.3.1.tgz",
   "md5": "923ac4437518cc7cd323adde8a4091ae",
   "size": "848 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 717,
+  "order": 718,
   "group_order": 9
 }

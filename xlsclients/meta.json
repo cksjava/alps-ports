@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xlsclients-1.1.6 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xlsclients-1.1.6.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xlsclients-1.1.6.tar.xz"
+  ],
   "archive": "xlsclients-1.1.6.tar.xz",
   "md5": "cf2fc9e9d298c149253cfc77faaa475e",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 657,
+  "order": 658,
   "group_order": 69
 }

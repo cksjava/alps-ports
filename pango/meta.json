@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "Pango is a library for laying out and rendering text, with an emphasis on internationalization. It can be used anywhere that text layout is needed, though most of the work on Pango so far has been done in the context of the GTK+ widget toolkit.",
-  "download": "https://download.gnome.org/sources/pango/1.58/pango-1.58.2.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/pango/1.58/pango-1.58.2.tar.xz"
+  ],
   "archive": "pango-1.58.2.tar.xz",
   "md5": "7b5640fd9adfa24554a88b2b9a6cd3f3",
   "size": "1.9 MB",
@@ -22,6 +24,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 741,
+  "order": 742,
   "group_order": 33
 }

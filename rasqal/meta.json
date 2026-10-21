@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "Rasqal is a C library that handles Resource Description Framework (RDF) query language syntaxes, query construction, and execution of queries returning results as bindings, boolean, RDF graphs/triples or syntaxes.",
-  "download": "https://download.librdf.org/source/rasqal-0.9.33.tar.gz",
+  "download": [
+    "https://download.librdf.org/source/rasqal-0.9.33.tar.gz"
+  ],
   "archive": "rasqal-0.9.33.tar.gz",
   "md5": "1f5def51ca0026cd192958ef07228b52",
   "size": "1.6 MB",

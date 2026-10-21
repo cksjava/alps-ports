@@ -7,7 +7,9 @@
   "group": "databases",
   "chapter": "Chapter 22. Databases",
   "summary": "The lmdb package is a fast, compact, key-value embedded data store. It uses memory-mapped files, so it has the read performance of a pure in-memory database while still offering the persistence of standard disk-based databases, and is only limited to the size of the virtual address space",
-  "download": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_1.0.1/openldap-LMDB_1.0.1.tar.bz2",
+  "download": [
+    "https://git.openldap.org/openldap/openldap/-/archive/LMDB_1.0.1/openldap-LMDB_1.0.1.tar.bz2"
+  ],
   "archive": "openldap-LMDB_1.0.1.tar.bz2",
   "md5": "f060b9e036cd5d998b7b3ca1498d7715",
   "size": "144 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 584,
+  "order": 585,
   "group_order": 0
 }

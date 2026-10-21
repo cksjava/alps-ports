@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xpr-1.2.0 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xpr-1.2.0.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xpr-1.2.0.tar.xz"
+  ],
   "archive": "xpr-1.2.0.tar.xz",
   "md5": "ab6c9d17eb1940afcfb80a72319270ae",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 660,
+  "order": 661,
   "group_order": 72
 }

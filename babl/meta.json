@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The Babl package is a dynamic, any to any, pixel format translation library.",
-  "download": "https://download.gimp.org/pub/babl/0.1/babl-0.1.128.tar.xz",
+  "download": [
+    "https://download.gimp.org/pub/babl/0.1/babl-0.1.128.tar.xz"
+  ],
   "archive": "babl-0.1.128.tar.xz",
   "md5": "47bc0674961d219710a96e03d9e839ad",
   "size": "328 KB",

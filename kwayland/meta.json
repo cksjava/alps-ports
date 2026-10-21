@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "kwayland-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/kwayland/kwayland-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/kwayland/kwayland-6.7.4.tar.xz"
+  ],
   "archive": "kwayland-6.7.4.tar.xz",
   "md5": "020f2d5ae392678298050babb4e60337",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 883,
+  "order": 884,
   "group_order": 17
 }

@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The GTK 4 package contains libraries used for creating graphical user interfaces for applications.",
-  "download": "https://download.gnome.org/sources/gtk/4.22/gtk-4.22.4.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gtk/4.22/gtk-4.22.4.tar.xz"
+  ],
   "archive": "gtk-4.22.4.tar.xz",
   "md5": "2420b9b289937c1c9f97332470db1889",
   "size": "17 MB",
@@ -26,6 +28,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 723,
+  "order": 724,
   "group_order": 15
 }

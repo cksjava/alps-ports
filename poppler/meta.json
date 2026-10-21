@@ -7,7 +7,10 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The Poppler package contains a PDF rendering library and command line tools used to manipulate PDF files. This is useful for providing PDF rendering functionality as a shared library.",
-  "download": "https://poppler.freedesktop.org/poppler-26.08.0.tar.xz",
+  "download": [
+    "https://poppler.freedesktop.org/poppler-26.08.0.tar.xz",
+    "https://poppler.freedesktop.org/poppler-data-0.4.12.tar.gz"
+  ],
   "archive": "poppler-26.08.0.tar.xz",
   "md5": "67ee4a40aa830b1f6e2560ce5f6471ba",
   "size": "4.3 MB",

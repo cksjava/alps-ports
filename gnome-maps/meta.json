@@ -7,7 +7,9 @@
   "group": "gnome-applications",
   "chapter": "Chapter 34. GNOME Applications",
   "summary": "GNOME Maps is a map application for GNOME .",
-  "download": "https://download.gnome.org/sources/gnome-maps/50/gnome-maps-50.4.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-maps/50/gnome-maps-50.4.tar.xz"
+  ],
   "archive": "gnome-maps-50.4.tar.xz",
   "md5": "57dc52bcfae11390d364979f7713b58e",
   "size": "1.2 MB",
@@ -27,6 +29,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 984,
+  "order": 985,
   "group_order": 10
 }

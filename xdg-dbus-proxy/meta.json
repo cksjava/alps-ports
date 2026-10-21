@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "The xdg-dbus-proxy package contains a filtering proxy for D-Bus connections. This is useful for forwarding data in and out of a sandbox.",
-  "download": "https://github.com/flatpak/xdg-dbus-proxy/releases/download/0.1.8/xdg-dbus-proxy-0.1.8.tar.xz",
+  "download": [
+    "https://github.com/flatpak/xdg-dbus-proxy/releases/download/0.1.8/xdg-dbus-proxy-0.1.8.tar.xz"
+  ],
   "archive": "xdg-dbus-proxy-0.1.8.tar.xz",
   "md5": "1a7b7a5f82653163495e82f7c9da7a36",
   "size": "48 KB",

@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libclc package contains an implementation of the library requirements of the OpenCL C programming language, as specified by the OpenCL 1.1 Specification.",
-  "download": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.8/llvm-project-22.1.8.src.tar.xz",
+  "download": [
+    "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.8/llvm-project-22.1.8.src.tar.xz"
+  ],
   "archive": "llvm-project-22.1.8.src.tar.xz",
   "md5": "69065494ebcb1150b2a329c1b3db7584",
   "size": "160 MB",

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "MIME::Charset provides information about character sets used for MIME messages on the internet, such as their encodings.",
-  "download": "https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/MIME-Charset-1.013.1.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/MIME-Charset-1.013.1.tar.gz"
+  ],
   "archive": "MIME-Charset-1.013.1.tar.gz",
   "md5": "b1932cfc806c8deb1b4a20d6afbfa8ac",
   "size": "",

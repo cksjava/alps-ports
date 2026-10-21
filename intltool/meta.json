@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "The Intltool package provides an internationalization tool used for extracting translatable strings from source files, collecting the extracted strings with messages from traditional source files ( / /po ) and merging the translations into .xml , .desktop and .oaf files.",
-  "download": "http://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz",
+  "download": [
+    "http://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz"
+  ],
   "archive": "intltool-0.51.0.tar.gz",
   "md5": "12e517cac2b57a0121cda351570f1e63",
   "size": "159 KB",

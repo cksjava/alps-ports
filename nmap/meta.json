@@ -7,7 +7,9 @@
   "group": "networking-utilities",
   "chapter": "Chapter 16. Networking Utilities",
   "summary": "Nmap is a utility for network exploration and security auditing. It supports ping scanning, port scanning and TCP/IP fingerprinting.",
-  "download": "https://nmap.org/dist/nmap-7.991.tar.bz2",
+  "download": [
+    "https://nmap.org/dist/nmap-7.991.tar.bz2"
+  ],
   "archive": "nmap-7.991.tar.bz2",
   "md5": "a689503c1b7851be8aba804eae414b27",
   "size": "13 MB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 545,
+  "order": 546,
   "group_order": 4
 }

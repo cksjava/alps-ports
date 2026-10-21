@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Recommonmark is a docutils-compatibility bridge to CommonMark. It allows writing CommonMark inside of Docutils and Sphinx projects. Recommonmark is now deprecated in favor of MyST-Parser . Unfortunately, libinput-1.31.3 depends on this module.",
-  "download": "https://files.pythonhosted.org/packages/source/r/recommonmark/recommonmark-0.7.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/r/recommonmark/recommonmark-0.7.1.tar.gz"
+  ],
   "archive": "recommonmark-0.7.1.tar.gz",
   "md5": "3c550a76eb62006bf007843a9f1805bb",
   "size": "34 KB",

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "D-Bus Python provides Python bindings to the D-Bus API interface.",
-  "download": "https://dbus.freedesktop.org/releases/dbus-python/dbus-python-1.4.0.tar.xz",
+  "download": [
+    "https://dbus.freedesktop.org/releases/dbus-python/dbus-python-1.4.0.tar.xz"
+  ],
   "archive": "dbus-python-1.4.0.tar.xz",
   "md5": "edca335d1c80f338e3255455eb876b72",
   "size": "168 KB",

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "IPC::System::Simple takes the hard work out of calling external commands and producing detailed diagnostics.",
-  "download": "https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/IPC-System-Simple-1.30.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/IPC-System-Simple-1.30.tar.gz"
+  ],
   "archive": "IPC-System-Simple-1.30.tar.gz",
   "md5": "e68341fd958fd013b3521d909904f675",
   "size": "",

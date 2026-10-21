@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xcursorgen-1.0.9 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xcursorgen-1.0.9.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xcursorgen-1.0.9.tar.xz"
+  ],
   "archive": "xcursorgen-1.0.9.tar.xz",
   "md5": "f97e81b2c063f6ae9b18d4b4be7543f6",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 645,
+  "order": 646,
   "group_order": 57
 }

@@ -7,7 +7,10 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "OpenJDK is an open-source implementation of Oracle's Java Standard Edition platform. OpenJDK is useful for developing Java programs, and provides a complete runtime environment to run Java programs.",
-  "download": "https://github.com/openjdk/jdk21u/archive/jdk-21.0.12.1-ga.tar.gz",
+  "download": [
+    "https://github.com/openjdk/jdk21u/archive/jdk-21.0.12.1-ga.tar.gz",
+    "https://anduin.linuxfromscratch.org/BLFS/OpenJDK/OpenJDK-21.0.12.1/jtreg-8.2.1+1.tar.gz"
+  ],
   "archive": "jdk-21.0.12.1-ga.tar.gz",
   "md5": "e5f9bac8e929180a6b1643f498755844",
   "size": "",
@@ -26,6 +29,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 527,
-  "group_order": 257
+  "order": 528,
+  "group_order": 258
 }

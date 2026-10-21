@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The UnRar package contains a RAR extraction utility used for extracting files from RAR archives. RAR archives are usually created with WinRAR , primarily in a Windows environment.",
-  "download": "https://www.rarlab.com/rar/unrarsrc-7.2.4.tar.gz",
+  "download": [
+    "https://www.rarlab.com/rar/unrarsrc-7.2.4.tar.gz"
+  ],
   "archive": "unrarsrc-7.2.4.tar.gz",
   "md5": "4c2c8cae2a8f1dabd8bf150848253248",
   "size": "264 KB",

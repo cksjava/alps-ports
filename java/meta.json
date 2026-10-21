@@ -1,0 +1,30 @@
+{
+  "name": "Java",
+  "version": "21.0.10",
+  "title": "Java-21.0.10",
+  "anchor": "java",
+  "page_type": "single",
+  "group": "programming",
+  "chapter": "Chapter 13. Programming",
+  "summary": "Creating a JVM from source requires a set of circular dependencies. The first thing that's needed is a set of programs called a Java Development Kit (JDK). This set of programs includes java , javac , jar , and several others. It also includes several base jar files.",
+  "download": [
+    "https://anduin.linuxfromscratch.org/BLFS/OpenJDK/OpenJDK-21.0.10/OpenJDK-21.0.10+6-i686-bin.tar.xz",
+    "https://anduin.linuxfromscratch.org/BLFS/OpenJDK/OpenJDK-21.0.10/OpenJDK-21.0.10+6-x86_64-bin.tar.xz"
+  ],
+  "archive": "OpenJDK-21.0.10+6-i686-bin.tar.xz",
+  "md5": "c457d34d4234a3f0d8cf1f79c0513a9c",
+  "size": "",
+  "disk_space": "344 MB",
+  "build_time": "",
+  "dependencies": [
+    "alsa-lib",
+    "cups",
+    "giflib",
+    "lcms2",
+    "x7lib"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 527,
+  "group_order": 257
+}

@@ -7,7 +7,9 @@
   "group": "security",
   "chapter": "Chapter 4. Security",
   "summary": "The gpgmepp package provides a C++ wrapper to gpgme-2.1.2 .",
-  "download": "https://www.gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-2.1.0.tar.xz",
+  "download": [
+    "https://www.gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-2.1.0.tar.xz"
+  ],
   "archive": "gpgmepp-2.1.0.tar.xz",
   "md5": "f3252524ba34c6a42455f30e226de1f5",
   "size": "124 KB",

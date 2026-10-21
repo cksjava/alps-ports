@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Hatch_vcs is a Hatch plugin for versioning with several Version Control Systems ( VCS ).",
-  "download": "https://files.pythonhosted.org/packages/source/h/hatch-vcs/hatch_vcs-0.5.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/h/hatch-vcs/hatch_vcs-0.5.0.tar.gz"
+  ],
   "archive": "hatch_vcs-0.5.0.tar.gz",
   "md5": "9a22a9f7203783e526959d34510a9672",
   "size": "9.9 KB",

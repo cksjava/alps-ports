@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The GTK3 package contains libraries used for creating graphical user interfaces for applications.",
-  "download": "https://download.gnome.org/sources/gtk/3.24/gtk-3.24.52.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gtk/3.24/gtk-3.24.52.tar.xz"
+  ],
   "archive": "gtk-3.24.52.tar.xz",
   "md5": "4dfad1e56bf8ad25dfab58add17e7146",
   "size": "13 MB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 722,
+  "order": 723,
   "group_order": 14
 }

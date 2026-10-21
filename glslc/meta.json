@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "The glslc program is Google's command line compiler for OpenGL Shading Language/High Level Shading Language (GLSL/HLSL) to Standard Portable Intermediate Representation (SPIR-V).",
-  "download": "https://github.com/google/shaderc/archive/v2026.3/shaderc-2026.3.tar.gz",
+  "download": [
+    "https://github.com/google/shaderc/archive/v2026.3/shaderc-2026.3.tar.gz"
+  ],
   "archive": "shaderc-2026.3.tar.gz",
   "md5": "5ce02d42b02a77e6165dbc476d1a334c",
   "size": "228 KB",

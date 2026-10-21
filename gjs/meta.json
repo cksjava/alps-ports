@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "Gjs is a set of Javascript bindings for GNOME .",
-  "download": "https://download.gnome.org/sources/gjs/1.88/gjs-1.88.1.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gjs/1.88/gjs-1.88.1.tar.xz"
+  ],
   "archive": "gjs-1.88.1.tar.xz",
   "md5": "851963b653cbcf8534dff8b9e719592e",
   "size": "788 KB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 941,
+  "order": 942,
   "group_order": 9
 }

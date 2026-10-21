@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libsigc++ package implements a typesafe callback system for standard C++.",
-  "download": "https://download.gnome.org/sources/libsigc++/2.12/libsigc++-2.12.1.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/libsigc++/2.12/libsigc++-2.12.1.tar.xz"
+  ],
   "archive": "libsigc++-2.12.1.tar.xz",
   "md5": "891f1b2dbaebd8007eda8c639bbe1149",
   "size": "4.8 MB",

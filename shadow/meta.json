@@ -7,7 +7,9 @@
   "group": "security",
   "chapter": "Chapter 4. Security",
   "summary": "Shadow was indeed installed in LFS and there is no reason to reinstall it unless you installed Linux-PAM after your LFS system was completed. With Linux-PAM installed, reinstalling Shadow will allow programs such as login and su to utilize PAM.",
-  "download": "https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2.tar.xz",
+  "download": [
+    "https://github.com/shadow-maint/shadow/releases/download/4.20.2/shadow-4.20.2.tar.xz"
+  ],
   "archive": "shadow-4.20.2.tar.xz",
   "md5": "f52e717bd330818c67bd57c897ec5a8e",
   "size": "2.2 MB",

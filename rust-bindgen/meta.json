@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The rust-bindgen package contains a utility that generates Rust bindings from C/C++ headers.",
-  "download": "https://github.com/rust-lang/rust-bindgen/archive/refs/tags/v0.72.1/rust-bindgen-0.72.1.tar.gz",
+  "download": [
+    "https://github.com/rust-lang/rust-bindgen/archive/refs/tags/v0.72.1/rust-bindgen-0.72.1.tar.gz"
+  ],
   "archive": "rust-bindgen-0.72.1.tar.gz",
   "md5": "49be3303557d072ce4c6987b2989be3c",
   "size": "2.2 MB",

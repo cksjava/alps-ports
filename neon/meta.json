@@ -7,7 +7,9 @@
   "group": "networking-libraries",
   "chapter": "Chapter 17. Networking Libraries",
   "summary": "neon is an HTTP and WebDAV client library, with a C interface.",
-  "download": "https://notroj.github.io/neon/neon-0.37.1.tar.gz",
+  "download": [
+    "https://notroj.github.io/neon/neon-0.37.1.tar.gz"
+  ],
   "archive": "neon-0.37.1.tar.gz",
   "md5": "5e661a69b52d26d8baab0e61a783d419",
   "size": "960 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 567,
+  "order": 568,
   "group_order": 18
 }

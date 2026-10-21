@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "The kio-extras package contains additional components to increase the functionality of the KDE resource and network access abstractions.",
-  "download": "https://download.kde.org/stable/release-service/26.04.3/src/kio-extras-26.04.3.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/release-service/26.04.3/src/kio-extras-26.04.3.tar.xz"
+  ],
   "archive": "kio-extras-26.04.3.tar.xz",
   "md5": "eafb6c828a1ec58eff5902ba8cbecd09",
   "size": "5.3 MB",
@@ -22,6 +24,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 860,
+  "order": 861,
   "group_order": 12
 }

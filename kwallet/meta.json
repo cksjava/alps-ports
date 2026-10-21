@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kwallet-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kwallet/kwallet-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kwallet/kwallet-6.29.0.tar.xz"
+  ],
   "archive": "kwallet-6.29.0.tar.xz",
   "md5": "87babe498d81765fe042f334e5af63fe",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 815,
+  "order": 816,
   "group_order": 39
 }

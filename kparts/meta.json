@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kparts-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kparts/kparts-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kparts/kparts-6.29.0.tar.xz"
+  ],
   "archive": "kparts-6.29.0.tar.xz",
   "md5": "10caf984c5962c1f28a733a5e6e88bc5",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 824,
+  "order": 825,
   "group_order": 48
 }

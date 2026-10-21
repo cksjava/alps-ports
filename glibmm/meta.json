@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The GLibmm package is a set of C++ bindings for GLib .",
-  "download": "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.10.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.10.tar.xz"
+  ],
   "archive": "glibmm-2.66.10.tar.xz",
   "md5": "04fab47987ee9df63f808959577d153b",
   "size": "9.4 MB",

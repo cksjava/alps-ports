@@ -7,7 +7,10 @@
   "group": "printing",
   "chapter": "Chapter 46. Printing",
   "summary": "The CUPS Filters package is only needed to adapt libcupsfilters-2.1.1 and libppd-2.1.1 filter functions for cups-2.x. It should not be needed for cups-3.x.",
-  "download": "https://github.com/OpenPrinting/cups-filters/releases/download/2.0.1/cups-filters-2.0.1.tar.xz",
+  "download": [
+    "https://github.com/OpenPrinting/cups-filters/releases/download/2.0.1/cups-filters-2.0.1.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/cups-filters-2.0.1-security_fix-1.patch"
+  ],
   "archive": "cups-filters-2.0.1.tar.xz",
   "md5": "b40d0f135af414666e1c3917983a1bb3",
   "size": "440 KB",
@@ -19,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1165,
+  "order": 1166,
   "group_order": 2
 }

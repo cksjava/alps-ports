@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libxkbfile-1.2.0 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libxkbfile-1.2.0.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libxkbfile-1.2.0.tar.xz"
+  ],
   "archive": "libxkbfile-1.2.0.tar.xz",
   "md5": "fa0faa5b6a8e726186c535d73712ccea",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 623,
+  "order": 624,
   "group_order": 35
 }

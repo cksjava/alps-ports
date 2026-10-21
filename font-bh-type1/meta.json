@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "font-bh-type1-1.0.4 is built from the x7font page.",
-  "download": "https://www.x.org/pub/individual/font/font-bh-type1-1.0.4.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/font/font-bh-type1-1.0.4.tar.xz"
+  ],
   "archive": "font-bh-type1-1.0.4.tar.xz",
   "md5": "51a17c981275439b85e15430a3d711ee",
   "size": "",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 679,
+  "order": 680,
   "group_order": 91
 }

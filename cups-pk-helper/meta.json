@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The cups-pk-helper package contains a PolicyKit helper used to configure Cups with fine-grained privileges.",
-  "download": "https://www.freedesktop.org/software/cups-pk-helper/releases/cups-pk-helper-0.2.7.tar.xz",
+  "download": [
+    "https://www.freedesktop.org/software/cups-pk-helper/releases/cups-pk-helper-0.2.7.tar.xz"
+  ],
   "archive": "cups-pk-helper-0.2.7.tar.xz",
   "md5": "0cdadec9ea8f88b7fc7af8ca206da2bd",
   "size": "56 KB",

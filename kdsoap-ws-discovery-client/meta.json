@@ -7,7 +7,9 @@
   "group": "networking-libraries",
   "chapter": "Chapter 17. Networking Libraries",
   "summary": "The kdsoap-ws-discovery-client package contains a library that provides support for the WS-Discovery protocol, a recent protocol used to discover services available on a local network.",
-  "download": "https://download.kde.org/stable/kdsoap-ws-discovery-client/kdsoap-ws-discovery-client-0.4.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/kdsoap-ws-discovery-client/kdsoap-ws-discovery-client-0.4.0.tar.xz"
+  ],
   "archive": "kdsoap-ws-discovery-client-0.4.0.tar.xz",
   "md5": "6d653d927efac8296662bc92784f2fe5",
   "size": "32 KB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 554,
+  "order": 555,
   "group_order": 5
 }

@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "Raptor is a C library that provides a set of parsers and serializers that generate Resource Description Framework (RDF) triples.",
-  "download": "https://download.librdf.org/source/raptor2-2.0.16.tar.gz",
+  "download": [
+    "https://download.librdf.org/source/raptor2-2.0.16.tar.gz"
+  ],
   "archive": "raptor2-2.0.16.tar.gz",
   "md5": "0a71f13b6eaa0a04bf411083d89d7bc2",
   "size": "1.7 MB",

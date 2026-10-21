@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kiconthemes-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kiconthemes/kiconthemes-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kiconthemes/kiconthemes-6.29.0.tar.xz"
+  ],
   "archive": "kiconthemes-6.29.0.tar.xz",
   "md5": "38c9b27fadd91131092df1ac17484a4b",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 809,
+  "order": 810,
   "group_order": 33
 }

@@ -7,7 +7,9 @@
   "group": "postscript",
   "chapter": "Chapter 50. PostScript",
   "summary": "ePDFView-gtk3 is a fork of the old ePDFView program. Although the github repository https://github.com/Flow-It/epdfview_old.git names it as 'old', it is the gtk3 fork. It is a lightweight replacement for Evince as it does not rely upon GNOME libraries and is more capable than MuPDF .",
-  "download": "https://anduin.linuxfromscratch.org/BLFS/epdfview-gtk3/epdfview-gtk3-20200814.tar.xz",
+  "download": [
+    "https://anduin.linuxfromscratch.org/BLFS/epdfview-gtk3/epdfview-gtk3-20200814.tar.xz"
+  ],
   "archive": "epdfview-gtk3-20200814.tar.xz",
   "md5": "d222a3dc26c2faf6f862018bb478fb36",
   "size": "184 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1186,
+  "order": 1187,
   "group_order": 1
 }

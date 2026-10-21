@@ -7,7 +7,9 @@
   "group": "postscript",
   "chapter": "Chapter 50. PostScript",
   "summary": "MuPDF is a lightweight PDF and XPS viewer.",
-  "download": "https://www.mupdf.com/downloads/archive/mupdf-1.26.12-source.tar.gz",
+  "download": [
+    "https://www.mupdf.com/downloads/archive/mupdf-1.26.12-source.tar.gz"
+  ],
   "archive": "mupdf-1.26.12-source.tar.gz",
   "md5": "d10eb7e1ef0f4a44f5c14a29b9d6f906",
   "size": "62 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1188,
+  "order": 1189,
   "group_order": 3
 }

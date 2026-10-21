@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Test::Exception provides convenience methods for testing exception based code.",
-  "download": "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Exception-0.43.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Exception-0.43.tar.gz"
+  ],
   "archive": "Test-Exception-0.43.tar.gz",
   "md5": "572d355026fb0b87fc2b8c64b83cada0",
   "size": "",

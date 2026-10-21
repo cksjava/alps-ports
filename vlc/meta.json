@@ -7,7 +7,9 @@
   "group": "video-utilities",
   "chapter": "Chapter 44. Video Utilities",
   "summary": "VLC is a media player, streamer, and encoder. It can play from many inputs, such as files, network streams, capture devices, desktops, or DVD, SVCD, VCD, and audio CD. It can use most audio and video codecs (MPEG 1/2/4, H264, VC-1, DivX, WMV, Vorbis, AC3, AAC, etc.), and it can also convert to different formats and/or send streams through the network.",
-  "download": "https://download.videolan.org/vlc/3.0.23/vlc-3.0.23.tar.xz",
+  "download": [
+    "https://download.videolan.org/vlc/3.0.23/vlc-3.0.23.tar.xz"
+  ],
   "archive": "vlc-3.0.23.tar.xz",
   "md5": "ebc3f0d0a94785fd2b2df4087516938e",
   "size": "26 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1155,
+  "order": 1156,
   "group_order": 2
 }

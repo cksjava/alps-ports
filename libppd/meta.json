@@ -7,7 +7,9 @@
   "group": "printing",
   "chapter": "Chapter 46. Printing",
   "summary": "The libppd library contains functions for handling legacy printers using PPD description files.",
-  "download": "https://github.com/OpenPrinting/libppd/releases/download/2.1.1/libppd-2.1.1.tar.xz",
+  "download": [
+    "https://github.com/OpenPrinting/libppd/releases/download/2.1.1/libppd-2.1.1.tar.xz"
+  ],
   "archive": "libppd-2.1.1.tar.xz",
   "md5": "65accc86f9956a1160937b14e0f516a6",
   "size": "576 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1169,
+  "order": 1170,
   "group_order": 6
 }

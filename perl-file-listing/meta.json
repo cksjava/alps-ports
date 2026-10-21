@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "File::Listing parses a directory listing.",
-  "download": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/File-Listing-6.16.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/File-Listing-6.16.tar.gz"
+  ],
   "archive": "File-Listing-6.16.tar.gz",
   "md5": "d4fc8b0c86633d1fa5bf75323720eadc",
   "size": "",

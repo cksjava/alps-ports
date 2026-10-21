@@ -7,7 +7,9 @@
   "group": "icons",
   "chapter": "Chapter 28. Icons",
   "summary": "The Adwaita Icon Theme package contains an icon theme for GTK+ 3 and GTK 4 applications.",
-  "download": "https://download.gnome.org/sources/adwaita-icon-theme/50/adwaita-icon-theme-50.0.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/adwaita-icon-theme/50/adwaita-icon-theme-50.0.tar.xz"
+  ],
   "archive": "adwaita-icon-theme-50.0.tar.xz",
   "md5": "a03d8d68377a88fcf06e090ba6a6ec2f",
   "size": "4.3 MB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 760,
+  "order": 761,
   "group_order": 0
 }

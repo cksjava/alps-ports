@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xvinfo-1.1.6 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xvinfo-1.1.6.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xvinfo-1.1.6.tar.xz"
+  ],
   "archive": "xvinfo-1.1.6.tar.xz",
   "md5": "5076c46fe4f6da29377e462ad25c893d",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 667,
+  "order": 668,
   "group_order": 79
 }

@@ -7,7 +7,9 @@
   "group": "databases",
   "chapter": "Chapter 22. Databases",
   "summary": "PostgreSQL is an advanced object-relational database management system (ORDBMS), derived from the Berkeley Postgres database management system.",
-  "download": "https://ftp.postgresql.org/pub/source/v18.6/postgresql-18.6.tar.bz2",
+  "download": [
+    "https://ftp.postgresql.org/pub/source/v18.6/postgresql-18.6.tar.bz2"
+  ],
   "archive": "postgresql-18.6.tar.bz2",
   "md5": "6143c18ab91bdfcaa056a61861814cde",
   "size": "22 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 586,
+  "order": 587,
   "group_order": 2
 }

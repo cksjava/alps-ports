@@ -7,7 +7,9 @@
   "group": "extensible-markup-language-xml",
   "chapter": "Chapter 49. Extensible Markup Language (XML)",
   "summary": "The xmlto package is a front-end to a XSL toolchain. It chooses an appropriate stylesheet for the conversion you want and applies it using an external XSLT processor. It also performs any necessary post-processing.",
-  "download": "https://pagure.io/xmlto/archive/0.0.29/xmlto-0.0.29.tar.gz",
+  "download": [
+    "https://pagure.io/xmlto/archive/0.0.29/xmlto-0.0.29.tar.gz"
+  ],
   "archive": "xmlto-0.0.29.tar.gz",
   "md5": "556f2642cdcd005749bd4c08bc621c37",
   "size": "64 KB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1184,
+  "order": 1185,
   "group_order": 5
 }

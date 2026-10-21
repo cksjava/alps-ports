@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The libmypaint package, a.k.a. \"brushlib\", is a library for making brushstrokes which is used by MyPaint and other projects.",
-  "download": "https://github.com/mypaint/libmypaint/releases/download/v1.6.1/libmypaint-1.6.1.tar.xz",
+  "download": [
+    "https://github.com/mypaint/libmypaint/releases/download/v1.6.1/libmypaint-1.6.1.tar.xz"
+  ],
   "archive": "libmypaint-1.6.1.tar.xz",
   "md5": "7f1dab2d30ce8a3f494354c7c77a2977",
   "size": "508 KB",

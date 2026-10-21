@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The setuptools_rust module provides a plugin to setuptools allowing for the compilation of Python extensions in Rust.",
-  "download": "https://files.pythonhosted.org/packages/source/s/setuptools_rust/setuptools_rust-1.12.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/s/setuptools_rust/setuptools_rust-1.12.1.tar.gz"
+  ],
   "archive": "setuptools_rust-1.12.1.tar.gz",
   "md5": "90ce501aabce2a859e19a213985288ea",
   "size": "304 KB",

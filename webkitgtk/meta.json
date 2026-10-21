@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The WebKitGTK package is a port of the portable web rendering engine WebKit to the GTK-3 and GTK-4 platforms.",
-  "download": "https://webkitgtk.org/releases/webkitgtk-2.52.5.tar.xz",
+  "download": [
+    "https://webkitgtk.org/releases/webkitgtk-2.52.5.tar.xz"
+  ],
   "archive": "webkitgtk-2.52.5.tar.xz",
   "md5": "84bddd5381f3a518c7caac66ad98646e",
   "size": "66 MB",
@@ -35,6 +37,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 749,
+  "order": 750,
   "group_order": 41
 }

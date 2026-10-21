@@ -7,7 +7,10 @@
   "group": "cd-dvd-writing-utilities",
   "chapter": "Chapter 45. CD/DVD-Writing Utilities",
   "summary": "The dvd+rw-tools package contains several utilities to master the DVD media, both +RW/+R and -R[W]. The principle tool is growisofs which provides a way to both lay down and grow an ISO9660 file system on (as well as to burn an arbitrary pre-mastered image to) all supported DVD media. This is useful for creating a new DVD or adding to an existing image on a partially burned DVD.",
-  "download": "https://anduin.linuxfromscratch.org/BLFS/dvd+rw-tools/dvd+rw-tools-7.1.tar.gz",
+  "download": [
+    "https://anduin.linuxfromscratch.org/BLFS/dvd+rw-tools/dvd+rw-tools-7.1.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/dvd+rw-tools-7.1-consolidated_fixes-2.patch"
+  ],
   "archive": "dvd+rw-tools-7.1.tar.gz",
   "md5": "8acb3c885c87f6838704a0025e435871",
   "size": "138 KB",
@@ -16,6 +19,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1159,
+  "order": 1160,
   "group_order": 2
 }

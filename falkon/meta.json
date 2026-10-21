@@ -7,7 +7,9 @@
   "group": "graphical-web-browsers",
   "chapter": "Chapter 40. Graphical Web Browsers",
   "summary": "Falkon is a KDE web browser using the QtWebEngine rendering engine. It was previously known as QupZilla . It aims to be a lightweight web browser available through all major platforms.",
-  "download": "https://download.kde.org/stable/release-service/26.04.3/src/falkon-26.04.3.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/release-service/26.04.3/src/falkon-26.04.3.tar.xz"
+  ],
   "archive": "falkon-26.04.3.tar.xz",
   "md5": "a5e8b39bb071747f12a22b90a1a98fff",
   "size": "2.6 MB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1065,
+  "order": 1066,
   "group_order": 1
 }

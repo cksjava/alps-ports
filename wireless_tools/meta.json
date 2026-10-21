@@ -7,7 +7,10 @@
   "group": "networking-programs",
   "chapter": "Chapter 15. Networking Programs",
   "summary": "The Wireless Extension (WE) is a generic API in the Linux kernel allowing a driver to expose configuration and statistics specific to common Wireless LANs to userspace. A single set of tools can support all the variations of Wireless LANs, regardless of their type, as long as the driver supports Wireless Extensions. WE parameters may also be changed on the fly without restarting the driver (or Linux).",
-  "download": "https://hewlettpackard.github.io/wireless-tools/wireless_tools.29.tar.gz",
+  "download": [
+    "https://hewlettpackard.github.io/wireless-tools/wireless_tools.29.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/wireless_tools-29-fix_iwlist_scanning-1.patch"
+  ],
   "archive": "wireless_tools.29.tar.gz",
   "md5": "e06c222e186f7cc013fd272d023710cb",
   "size": "288 KB",
@@ -16,6 +19,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 539,
+  "order": 540,
   "group_order": 10
 }

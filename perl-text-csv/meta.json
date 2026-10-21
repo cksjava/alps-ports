@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Text::CSV is a comma-separated values manipulator, using XS (eXternal Subroutine - for subroutines written in C or C++) or pure perl.",
-  "download": "https://www.cpan.org/authors/id/I/IS/ISHIGAKI/Text-CSV-2.06.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/I/IS/ISHIGAKI/Text-CSV-2.06.tar.gz"
+  ],
   "archive": "Text-CSV-2.06.tar.gz",
   "md5": "620284340dfd1787c89666d22adfd463",
   "size": "",

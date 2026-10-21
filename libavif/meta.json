@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The libavif package contains a library used for encoding and decoding AVIF files.",
-  "download": "https://github.com/AOMediaCodec/libavif/archive/v1.4.2/libavif-1.4.2.tar.gz",
+  "download": [
+    "https://github.com/AOMediaCodec/libavif/archive/v1.4.2/libavif-1.4.2.tar.gz"
+  ],
   "archive": "libavif-1.4.2.tar.gz",
   "md5": "10007cf6a4d1cb7304146161e5ebf4da",
   "size": "14 MB",

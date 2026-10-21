@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The Qpdf package contains command-line programs and a library that does structural, content-preserving transformations on PDF files.",
-  "download": "https://github.com/qpdf/qpdf/releases/download/v12.4.0/qpdf-12.4.0.tar.gz",
+  "download": [
+    "https://github.com/qpdf/qpdf/releases/download/v12.4.0/qpdf-12.4.0.tar.gz"
+  ],
   "archive": "qpdf-12.4.0.tar.gz",
   "md5": "d3156920305cafe5b554dcf36cf3cfe7",
   "size": "19 MB",

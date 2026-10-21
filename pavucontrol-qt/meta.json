@@ -7,7 +7,9 @@
   "group": "lxqt-applications",
   "chapter": "Chapter 38. LXQt Applications",
   "summary": "pavucontrol-qt is the Qt port of the volume control utility pavucontrol, which is used to adjust audio levels in Pulseaudio. It is desktop environment agnostic.",
-  "download": "https://github.com/lxqt/pavucontrol-qt/releases/download/2.4.0/pavucontrol-qt-2.4.0.tar.xz",
+  "download": [
+    "https://github.com/lxqt/pavucontrol-qt/releases/download/2.4.0/pavucontrol-qt-2.4.0.tar.xz"
+  ],
   "archive": "pavucontrol-qt-2.4.0.tar.xz",
   "md5": "79ec4eb4247001df14eca73c437a446c",
   "size": "124 KB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1057,
+  "order": 1058,
   "group_order": 3
 }

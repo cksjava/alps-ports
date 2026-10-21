@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The \"mro\" namespace provides several utilities for dealing with method resolution order and method caching in general in Perl 5.9.5 and higher. This module provides those interfaces for earlier versions of Perl.",
-  "download": "https://cpan.metacpan.org/authors/id/H/HA/HAARG/MRO-Compat-0.15.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/H/HA/HAARG/MRO-Compat-0.15.tar.gz"
+  ],
   "archive": "MRO-Compat-0.15.tar.gz",
   "md5": "f644dafe901214cedfa7ed8b43b56df1",
   "size": "",

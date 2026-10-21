@@ -7,7 +7,10 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "Mesa contains several libraries and drivers for multiple APIs like OpenGL and Vulkan.",
-  "download": "https://mesa.freedesktop.org/archive/mesa-26.1.7.tar.xz",
+  "download": [
+    "https://mesa.freedesktop.org/archive/mesa-26.1.7.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/mesa-add_xdemos-5.patch"
+  ],
   "archive": "mesa-26.1.7.tar.xz",
   "md5": "1a3ea044abc823e2db8c6041e5adcc4f",
   "size": "75 MB",
@@ -21,6 +24,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 636,
+  "order": 637,
   "group_order": 48
 }

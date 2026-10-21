@@ -7,7 +7,9 @@
   "group": "gnome-applications",
   "chapter": "Chapter 34. GNOME Applications",
   "summary": "The GNOME System Monitor package contains GNOME 's replacement for gtop .",
-  "download": "https://download.gnome.org/sources/gnome-system-monitor/50/gnome-system-monitor-50.0.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-system-monitor/50/gnome-system-monitor-50.0.tar.xz"
+  ],
   "archive": "gnome-system-monitor-50.0.tar.xz",
   "md5": "24c73cd65f22e53bc82bef32a79a3ce3",
   "size": "1.1 MB",
@@ -23,6 +25,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 987,
+  "order": 988,
   "group_order": 13
 }

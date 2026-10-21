@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "XML::LibXML is a perl binding for libxml2-2.15.3 .",
-  "download": "https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-LibXML-2.0213.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-LibXML-2.0213.tar.gz"
+  ],
   "archive": "XML-LibXML-2.0213.tar.gz",
   "md5": "7135bdef80f72a278ca65eb8e2dc13b6",
   "size": "",

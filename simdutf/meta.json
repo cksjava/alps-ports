@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The simdutf package contains a library used for processing Unicode characters with SIMD optimizations. This includes the SSE2 and AVX2 instruction sets and more.",
-  "download": "https://github.com/simdutf/simdutf/archive/v9.0.0/simdutf-9.0.0.tar.gz",
+  "download": [
+    "https://github.com/simdutf/simdutf/archive/v9.0.0/simdutf-9.0.0.tar.gz"
+  ],
   "archive": "simdutf-9.0.0.tar.gz",
   "md5": "a20af35e2a7c9737d97b7beae96e7146",
   "size": "2.4 MB",

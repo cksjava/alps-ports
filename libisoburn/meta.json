@@ -7,7 +7,9 @@
   "group": "cd-dvd-writing-utilities",
   "chapter": "Chapter 45. CD/DVD-Writing Utilities",
   "summary": "libisoburn is a frontend for the libburn and libisofs libraries, which enables creation and expansion of ISO-9660 filesystems on all CD/DVD/BD media supported by libburn . This includes media like DVD+RW, which do not support multi-session management on the media level, and even plain disk files or block devices.",
-  "download": "https://files.libburnia-project.org/releases/libisoburn-1.5.8.pl02.tar.gz",
+  "download": [
+    "https://files.libburnia-project.org/releases/libisoburn-1.5.8.pl02.tar.gz"
+  ],
   "archive": "libisoburn-1.5.8.pl02.tar.gz",
   "md5": "008b9adc9ab3545e167495220b453413",
   "size": "1.7 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1161,
+  "order": 1162,
   "group_order": 4
 }

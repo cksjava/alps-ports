@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The SPIRV-Tools package contains libraries and utilities for processing SPIR-V modules.",
-  "download": "https://github.com/KhronosGroup/SPIRV-Tools/archive/vulkan-sdk-1.4.357.0/SPIRV-Tools-vulkan-sdk-1.4.357.0.tar.gz",
+  "download": [
+    "https://github.com/KhronosGroup/SPIRV-Tools/archive/vulkan-sdk-1.4.357.0/SPIRV-Tools-vulkan-sdk-1.4.357.0.tar.gz"
+  ],
   "archive": "SPIRV-Tools-vulkan-sdk-1.4.357.0.tar.gz",
   "md5": "c357eec1e33bc95e650aa4c8efdd3b13",
   "size": "3.4 MB",

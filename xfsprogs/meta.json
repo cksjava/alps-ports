@@ -7,7 +7,9 @@
   "group": "file-systems-and-disk-management",
   "chapter": "Chapter 5. File Systems and Disk Management",
   "summary": "The xfsprogs package contains administration and debugging tools for the XFS file system.",
-  "download": "https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/xfsprogs-7.1.1.tar.xz",
+  "download": [
+    "https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/xfsprogs-7.1.1.tar.xz"
+  ],
   "archive": "xfsprogs-7.1.1.tar.xz",
   "md5": "befa97b62b635a1817db666806d40411",
   "size": "1.5 MB",

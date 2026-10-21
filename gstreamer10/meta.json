@@ -7,7 +7,9 @@
   "group": "multimedia-libraries-and-drivers",
   "chapter": "Chapter 42. Multimedia Libraries and Drivers",
   "summary": "gstreamer is a streaming media framework that enables applications to share a common set of plugins for tasks such as video encoding and decoding, audio encoding and decoding, audio and video filters, audio visualisation, web streaming and anything else that streams in real-time or otherwise. This package only provides base functionality and libraries. You may need at least gst-plugins-base-1.28.6 and one of Good, Bad, Ugly or Libav plugins.",
-  "download": "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.28.6.tar.xz",
+  "download": [
+    "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.28.6.tar.xz"
+  ],
   "archive": "gstreamer-1.28.6.tar.xz",
   "md5": "3d16d7912727ea85ab90b9e5f3bc6e8a",
   "size": "1.9 MB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1095,
+  "order": 1096,
   "group_order": 13
 }

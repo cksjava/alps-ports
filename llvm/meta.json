@@ -7,7 +7,10 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The LLVM package contains a collection of modular and reusable compiler and toolchain technologies. The Low Level Virtual Machine (LLVM) Core libraries provide a modern source and target-independent optimizer, along with code generation support for many popular CPUs (as well as some less common ones!). These libraries are built around a well specified code representation known as the LLVM intermediate representation (\"LLVM IR\").",
-  "download": "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.8/llvm-project-22.1.8.src.tar.xz",
+  "download": [
+    "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.8/llvm-project-22.1.8.src.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/llvm-22.1.8-upstream_fix-1.patch"
+  ],
   "archive": "llvm-project-22.1.8.src.tar.xz",
   "md5": "69065494ebcb1150b2a329c1b3db7584",
   "size": "160 MB",

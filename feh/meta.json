@@ -7,7 +7,9 @@
   "group": "other-x-based-programs",
   "chapter": "Chapter 41. Other X-based Programs",
   "summary": "feh is a fast, lightweight image viewer which uses Imlib2. It is commandline-driven and supports multiple images through slideshows, thumbnail browsing or multiple windows, and montages or index prints (using TrueType fonts to display file info). Advanced features include fast dynamic zooming, progressive loading, loading via HTTP (with reload support for watching webcams), recursive file opening (slideshow of a directory hierarchy), and mouse wheel/keyboard control.",
-  "download": "https://feh.finalrewind.org/feh-3.12.4.tar.bz2",
+  "download": [
+    "https://feh.finalrewind.org/feh-3.12.4.tar.bz2"
+  ],
   "archive": "feh-3.12.4.tar.bz2",
   "md5": "c19274935dd8b4d194fce0ddf6d4f812",
   "size": "2.0 MB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1069,
+  "order": 1070,
   "group_order": 1
 }

@@ -7,7 +7,9 @@
   "group": "introduction-to-kde",
   "chapter": "Chapter 29. Introduction to KDE",
   "summary": "This package provides a custom set of Wayland protocol definitions for KDE.",
-  "download": "https://download.kde.org/stable/plasma-wayland-protocols/plasma-wayland-protocols-1.21.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma-wayland-protocols/plasma-wayland-protocols-1.21.0.tar.xz"
+  ],
   "archive": "plasma-wayland-protocols-1.21.0.tar.xz",
   "md5": "9a2f58d154a6cb514f60c59311e14559",
   "size": "52 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 774,
+  "order": 775,
   "group_order": 4
 }

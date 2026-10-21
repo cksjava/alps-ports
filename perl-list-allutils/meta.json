@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The List::Allutils module combines List::Util and List::MoreUtils in one bite-sized package.",
-  "download": "https://www.cpan.org/authors/id/D/DR/DROLSKY/List-AllUtils-0.19.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/D/DR/DROLSKY/List-AllUtils-0.19.tar.gz"
+  ],
   "archive": "List-AllUtils-0.19.tar.gz",
   "md5": "86469b1f6819ba181a8471eb932965f2",
   "size": "",

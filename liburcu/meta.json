@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The userspace-rcu package provides a set of userspace RCU (read-copy-update) libraries. These data synchronization libraries provide read-side access which scales linearly with the number of cores. It does so by allowing multiples copies of a given data structure to live at the same time, and by monitoring the data structure accesses to detect grace periods after which memory reclamation is possible.",
-  "download": "https://lttng.org/files/urcu/userspace-rcu-0.15.6.tar.bz2",
+  "download": [
+    "https://lttng.org/files/urcu/userspace-rcu-0.15.6.tar.bz2"
+  ],
   "archive": "userspace-rcu-0.15.6.tar.bz2",
   "md5": "08ad35d135f3797d572bc2aa9129abf5",
   "size": "672 KB",

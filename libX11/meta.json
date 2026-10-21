@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libX11-1.8.13 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libX11-1.8.13.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libX11-1.8.13.tar.xz"
+  ],
   "archive": "libX11-1.8.13.tar.xz",
   "md5": "b617a053d2003cc81309f4e13d01379c",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 595,
+  "order": 596,
   "group_order": 7
 }

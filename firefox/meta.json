@@ -7,7 +7,9 @@
   "group": "graphical-web-browsers",
   "chapter": "Chapter 40. Graphical Web Browsers",
   "summary": "Firefox is a stand-alone browser based on the Mozilla codebase.",
-  "download": "https://archive.mozilla.org/pub/firefox/releases/153.2.0esr/source/firefox-153.2.0esr.source.tar.xz",
+  "download": [
+    "https://archive.mozilla.org/pub/firefox/releases/153.2.0esr/source/firefox-153.2.0esr.source.tar.xz"
+  ],
   "archive": "firefox-153.2.0esr.source.tar.xz",
   "md5": "127f9c7fe72cf8cc9a47f35a051303f0",
   "size": "771 MB",
@@ -26,6 +28,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1066,
+  "order": 1067,
   "group_order": 2
 }

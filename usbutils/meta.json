@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The USB Utils package contains utilities used to display information about USB buses in the system and the devices connected to them.",
-  "download": "https://kernel.org/pub/linux/utils/usb/usbutils/usbutils-019.tar.xz",
+  "download": [
+    "https://kernel.org/pub/linux/utils/usb/usbutils/usbutils-019.tar.xz"
+  ],
   "archive": "usbutils-019.tar.xz",
   "md5": "67a8eb4782540058d0648f83ecabdf6c",
   "size": "120 KB",

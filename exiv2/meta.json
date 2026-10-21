@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "Exiv2 contains a C++ library and a command line utility for managing image and video metadata.",
-  "download": "https://github.com/Exiv2/exiv2/archive/v0.28.8/exiv2-0.28.8.tar.gz",
+  "download": [
+    "https://github.com/Exiv2/exiv2/archive/v0.28.8/exiv2-0.28.8.tar.gz"
+  ],
   "archive": "exiv2-0.28.8.tar.gz",
   "md5": "3f3b2d9c3e73880ea8e6bd78c67ea56a",
   "size": "45 MB",

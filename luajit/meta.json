@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The luajit package contains a Just-In-Time compiler for Lua. It is often used as scripting middleware, and it is high performance while also having a low memory footprint.",
-  "download": "https://anduin.linuxfromscratch.org/BLFS/luajit/luajit-20260213.tar.xz",
+  "download": [
+    "https://anduin.linuxfromscratch.org/BLFS/luajit/luajit-20260213.tar.xz"
+  ],
   "archive": "luajit-20260213.tar.xz",
   "md5": "6459b2696188b74edf950926cb3bacd1",
   "size": "736 KB",

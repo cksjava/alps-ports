@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kuserfeedback-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kuserfeedback/kuserfeedback-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kuserfeedback/kuserfeedback-6.29.0.tar.xz"
+  ],
   "archive": "kuserfeedback-6.29.0.tar.xz",
   "md5": "182e7df4d6a35c2e0dd0cf9f50d99b85",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 845,
+  "order": 846,
   "group_order": 69
 }

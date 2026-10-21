@@ -7,7 +7,9 @@
   "group": "typesetting",
   "chapter": "Chapter 51. Typesetting",
   "summary": "Asymptote is a powerful descriptive vector graphics language that provides a natural coordinate-based framework for technical drawing. Labels and equations can be typeset with LaTeX. As well as EPS, PDF, and PNG output, it can produce WebGL 3D HTML rendering and (using dvisvgm ) SVG output.",
-  "download": "https://downloads.sourceforge.net/asymptote/asymptote-3.14.src.tgz",
+  "download": [
+    "https://downloads.sourceforge.net/asymptote/asymptote-3.14.src.tgz"
+  ],
   "archive": "asymptote-3.14.src.tgz",
   "md5": "158921966b8be1049e933b5154774c66",
   "size": "27 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1192,
+  "order": 1193,
   "group_order": 2
 }

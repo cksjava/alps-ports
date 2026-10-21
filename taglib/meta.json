@@ -7,7 +7,9 @@
   "group": "multimedia-libraries-and-drivers",
   "chapter": "Chapter 42. Multimedia Libraries and Drivers",
   "summary": "Taglib is a library used for reading, writing and manipulating audio file tags and is used by applications such as VLC .",
-  "download": "https://taglib.org/releases/taglib-2.3.1.tar.gz",
+  "download": [
+    "https://taglib.org/releases/taglib-2.3.1.tar.gz"
+  ],
   "archive": "taglib-2.3.1.tar.gz",
   "md5": "b189dcfcf284179c04b97a89887e0ce6",
   "size": "1.6 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1138,
+  "order": 1139,
   "group_order": 56
 }

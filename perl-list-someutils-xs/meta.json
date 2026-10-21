@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "List::SomeUtils::XS is a (faster) XS (eXternal Subroutine) implementation for List::SomeUtils.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-XS-0.59.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-XS-0.59.tar.gz"
+  ],
   "archive": "List-SomeUtils-XS-0.59.tar.gz",
   "md5": "34aed288f13771855a16dbd3d544c4f1",
   "size": "",

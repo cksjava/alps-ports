@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The cargo-c package creates a cargo subcommand to build and install C-ABI compatible dynamic and static libraries.",
-  "download": "https://github.com/lu-zero/cargo-c/archive/v0.10.24/cargo-c-0.10.24.tar.gz",
+  "download": [
+    "https://github.com/lu-zero/cargo-c/archive/v0.10.24/cargo-c-0.10.24.tar.gz"
+  ],
   "archive": "cargo-c-0.10.24.tar.gz",
   "md5": "b6247bf8f5eac962f001ee8a37f1c25f",
   "size": "38 KB",

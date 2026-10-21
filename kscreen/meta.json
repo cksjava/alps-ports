@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "kscreen-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/kscreen/kscreen-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/kscreen/kscreen-6.7.4.tar.xz"
+  ],
   "archive": "kscreen-6.7.4.tar.xz",
   "md5": "4ac0f5f96942c954bb1e2c5d9022775e",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 896,
+  "order": 897,
   "group_order": 30
 }

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Lingua::Translit and its translit program transliterate text between writing systems.",
-  "download": "https://www.cpan.org/authors/id/A/AL/ALINKE/Lingua-Translit-0.29.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/A/AL/ALINKE/Lingua-Translit-0.29.tar.gz"
+  ],
   "archive": "Lingua-Translit-0.29.tar.gz",
   "md5": "605a82f06b05fef4fc18bf069b1be511",
   "size": "",

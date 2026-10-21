@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "karchive-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/karchive/karchive-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/karchive/karchive-6.29.0.tar.xz"
+  ],
   "archive": "karchive-6.29.0.tar.xz",
   "md5": "e897f5323b32c6bdd477369a61972b2e",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 778,
+  "order": 779,
   "group_order": 2
 }

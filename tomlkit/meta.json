@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Tomlkit is an extensible, standards compliant build backend for python modules.",
-  "download": "https://files.pythonhosted.org/packages/source/t/tomlkit/tomlkit-0.15.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/t/tomlkit/tomlkit-0.15.1.tar.gz"
+  ],
   "archive": "tomlkit-0.15.1.tar.gz",
   "md5": "8e5245fd4099c9a6f99774b24a4591ae",
   "size": "176 KB",

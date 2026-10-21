@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xwininfo-1.1.7 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xwininfo-1.1.7.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xwininfo-1.1.7.tar.xz"
+  ],
   "archive": "xwininfo-1.1.7.tar.xz",
   "md5": "e24406c671ab09a7ab0e13a7d1ef2752",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 669,
+  "order": 670,
   "group_order": 81
 }

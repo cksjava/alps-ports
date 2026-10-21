@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xauth-1.1.5 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xauth-1.1.5.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xauth-1.1.5.tar.xz"
+  ],
   "archive": "xauth-1.1.5.tar.xz",
   "md5": "9cfdec89ad7bd86bcdfda150ae995955",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 643,
+  "order": 644,
   "group_order": 55
 }

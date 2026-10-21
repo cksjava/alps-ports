@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "knighttime-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/knighttime/knighttime-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/knighttime/knighttime-6.7.4.tar.xz"
+  ],
   "archive": "knighttime-6.7.4.tar.xz",
   "md5": "b035d3a464916c60a21b8a57d0698612",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 885,
+  "order": 886,
   "group_order": 19
 }

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Mercurial is a distributed source control management tool similar to Git and Bazaar . Mercurial is written in Python and is used by projects such as Mozilla for Firefox and Thunderbird.",
-  "download": "https://www.mercurial-scm.org/release/mercurial-7.2.4.tar.gz",
+  "download": [
+    "https://www.mercurial-scm.org/release/mercurial-7.2.4.tar.gz"
+  ],
   "archive": "mercurial-7.2.4.tar.gz",
   "md5": "625110ea71d1b872f1e3c59227842db5",
   "size": "8.9 MB",

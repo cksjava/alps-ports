@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The GCC package contains the GNU Compiler Collection. This page describes the installation of compilers for the following languages: C, C++, Fortran, Objective C, Objective C++, Go, and Modula2. Since C and C++ are installed in LFS, this page is either for upgrading C and C++, or for installing additional compilers.",
-  "download": "https://ftpmirror.gnu.org/gcc/gcc-16.2.0/gcc-16.2.0.tar.xz",
+  "download": [
+    "https://ftpmirror.gnu.org/gcc/gcc-16.2.0/gcc-16.2.0.tar.xz"
+  ],
   "archive": "gcc-16.2.0.tar.xz",
   "md5": "19b777fb19ea4982731392481306f0d3",
   "size": "102 MB",

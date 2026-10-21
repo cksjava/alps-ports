@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "libtasn1 is a highly portable C library that encodes and decodes DER/BER data following an ASN.1 schema.",
-  "download": "https://ftpmirror.gnu.org/libtasn1/libtasn1-4.21.0.tar.gz",
+  "download": [
+    "https://ftpmirror.gnu.org/libtasn1/libtasn1-4.21.0.tar.gz"
+  ],
   "archive": "libtasn1-4.21.0.tar.gz",
   "md5": "2ee1d9f3aa66f1e308c46a283aa9a8c2",
   "size": "1.7 MB",

@@ -7,7 +7,10 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Requests package is an elegant and simple HTTP library for Python, built for human beings. It allows sending HTTP/1.1 requests extremely easily.",
-  "download": "https://files.pythonhosted.org/packages/source/r/requests/requests-2.34.2.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/r/requests/requests-2.34.2.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/requests-use_system_certs-2.patch"
+  ],
   "archive": "requests-2.34.2.tar.gz",
   "md5": "611e438d0803e962500225f9807a475e",
   "size": "140 KB",

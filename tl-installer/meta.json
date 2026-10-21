@@ -7,7 +7,9 @@
   "group": "typesetting",
   "chapter": "Chapter 51. Typesetting",
   "summary": "The TeX Live package is a comprehensive TeX document production system. It includes TeX, LaTeX2e, LuaLaTeX, Metafont, MetaPost, BibTeX and many other programs; an extensive collection of macros, fonts and documentation; and support for typesetting in many different scripts from around the world.",
-  "download": "https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz",
+  "download": [
+    "https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz"
+  ],
   "archive": "install-tl-unx.tar.gz",
   "md5": "",
   "size": "5.5 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1190,
+  "order": 1191,
   "group_order": 0
 }

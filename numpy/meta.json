@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "NumPy is the fundamental package for scientific computing with Python.",
-  "download": "https://files.pythonhosted.org/packages/source/n/numpy/numpy-2.5.2.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/n/numpy/numpy-2.5.2.tar.gz"
+  ],
   "archive": "numpy-2.5.2.tar.gz",
   "md5": "85f9db626b908f4d2211d98b4bf8a83d",
   "size": "20 MB",

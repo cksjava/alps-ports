@@ -7,7 +7,10 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Net::SSLeay is a Perl extension for using OpenSSL.",
-  "download": "https://cpan.metacpan.org/authors/id/C/CH/CHRISN/Net-SSLeay-1.96.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/C/CH/CHRISN/Net-SSLeay-1.96.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/Net-SSLeay-1.96-openssl4_fixes-2.patch"
+  ],
   "archive": "Net-SSLeay-1.96.tar.gz",
   "md5": "63772ad94b874b5f0f025c2a4285f82f",
   "size": "",

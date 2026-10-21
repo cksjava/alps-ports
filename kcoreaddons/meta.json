@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kcoreaddons-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kcoreaddons/kcoreaddons-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kcoreaddons/kcoreaddons-6.29.0.tar.xz"
+  ],
   "archive": "kcoreaddons-6.29.0.tar.xz",
   "md5": "9513021c1335227ec38b7cc7b92152f2",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 781,
+  "order": 782,
   "group_order": 5
 }

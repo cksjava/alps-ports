@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "krunner-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/krunner/krunner-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/krunner/krunner-6.29.0.tar.xz"
+  ],
   "archive": "krunner-6.29.0.tar.xz",
   "md5": "1ac31cccd071ea20a3a01fbc5c328ffc",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 833,
+  "order": 834,
   "group_order": 57
 }

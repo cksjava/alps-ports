@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The gsound package contains a small library for playing system sounds.",
-  "download": "https://download.gnome.org/sources/gsound/1.0/gsound-1.0.3.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gsound/1.0/gsound-1.0.3.tar.xz"
+  ],
   "archive": "gsound-1.0.3.tar.xz",
   "md5": "7338c295034432a6e782fd20b3d04b68",
   "size": "24 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 955,
+  "order": 956,
   "group_order": 23
 }

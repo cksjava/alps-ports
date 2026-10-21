@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Tk package contains a TCL GUI Toolkit.",
-  "download": "https://downloads.sourceforge.net/tcl/tk8.6.18-src.tar.gz",
+  "download": [
+    "https://downloads.sourceforge.net/tcl/tk8.6.18-src.tar.gz"
+  ],
   "archive": "tk8.6.18-src.tar.gz",
   "md5": "63a13111a136118ec72faee1228143e6",
   "size": "4.4 MB",

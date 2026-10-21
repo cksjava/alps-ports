@@ -7,7 +7,9 @@
   "group": "multimedia-libraries-and-drivers",
   "chapter": "Chapter 42. Multimedia Libraries and Drivers",
   "summary": "x264 package provides a library for encoding video streams into the H.264/MPEG-4 AVC format.",
-  "download": "https://anduin.linuxfromscratch.org/BLFS/x264/x264-20250815.tar.xz",
+  "download": [
+    "https://anduin.linuxfromscratch.org/BLFS/x264/x264-20250815.tar.xz"
+  ],
   "archive": "x264-20250815.tar.xz",
   "md5": "a4adb6f7d2644043765885e54abc3955",
   "size": "732 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1141,
+  "order": 1142,
   "group_order": 59
 }

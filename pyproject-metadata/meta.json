@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Pyproject-Metadata module contains a data class for PEP 621 metadata with support for “ core metadata ” (PEP 643) generation.",
-  "download": "https://files.pythonhosted.org/packages/source/p/pyproject-metadata/pyproject_metadata-0.12.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/p/pyproject-metadata/pyproject_metadata-0.12.1.tar.gz"
+  ],
   "archive": "pyproject_metadata-0.12.1.tar.gz",
   "md5": "d44c15fd176128acd9497af2512085a0",
   "size": "44 KB",

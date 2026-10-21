@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Net::HTTP class is a low level HTTP client. An instance of the class represents a connection to an HTTP server.",
-  "download": "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.24.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/Net-HTTP-6.24.tar.gz"
+  ],
   "archive": "Net-HTTP-6.24.tar.gz",
   "md5": "3728289552dc5031700596e0cf4092b4",
   "size": "",

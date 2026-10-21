@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Sphinxcontrib-jquery package is a Sphinx extension which includes jQuery on newer Sphinx releases.",
-  "download": "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-jquery/sphinxcontrib-jquery-4.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-jquery/sphinxcontrib-jquery-4.1.tar.gz"
+  ],
   "archive": "sphinxcontrib-jquery-4.1.tar.gz",
   "md5": "46ea52845b17343ed6c61e6963fb265d",
   "size": "120 KB",

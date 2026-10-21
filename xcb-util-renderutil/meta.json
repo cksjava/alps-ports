@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xcb-util-renderutil-0.3.10 is built from the xcb-utilities page.",
-  "download": "https://xorg.freedesktop.org/archive/individual/lib/xcb-util-renderutil-0.3.10.tar.xz",
+  "download": [
+    "https://xorg.freedesktop.org/archive/individual/lib/xcb-util-renderutil-0.3.10.tar.xz"
+  ],
   "archive": "xcb-util-renderutil-0.3.10.tar.xz",
   "md5": "193b890e2a89a53c31e2ece3afcbd55f",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 631,
+  "order": 632,
   "group_order": 43
 }

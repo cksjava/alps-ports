@@ -7,7 +7,9 @@
   "group": "typesetting",
   "chapter": "Chapter 51. Typesetting",
   "summary": "Biber is a BibTeX replacement for users of biblatex, written in Perl , with full Unicode support.",
-  "download": "https://github.com/plk/biber/archive/refs/tags/v2.22/biber-2.22.tar.gz",
+  "download": [
+    "https://github.com/plk/biber/archive/refs/tags/v2.22/biber-2.22.tar.gz"
+  ],
   "archive": "biber-2.22.tar.gz",
   "md5": "a14ce888c04ab4047ff46490f8e00faf",
   "size": "1.6 MB",
@@ -52,6 +54,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1193,
+  "order": 1194,
   "group_order": 3
 }

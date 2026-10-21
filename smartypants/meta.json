@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Smartypants translates plain ASCII punctuation characters into “ smart ” typographic punctuation HTML entities.",
-  "download": "https://files.pythonhosted.org/packages/source/s/smartypants/smartypants-2.0.2.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/s/smartypants/smartypants-2.0.2.tar.gz"
+  ],
   "archive": "smartypants-2.0.2.tar.gz",
   "md5": "3149badecd0771c80ee9db4d09695edd",
   "size": "17 KB",

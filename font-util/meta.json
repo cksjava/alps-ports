@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "font-util-1.4.2 is built from the x7font page.",
-  "download": "https://www.x.org/pub/individual/font/font-util-1.4.2.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/font/font-util-1.4.2.tar.xz"
+  ],
   "archive": "font-util-1.4.2.tar.xz",
   "md5": "42ea8cc91549e43e9251ccbd664e7864",
   "size": "",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 674,
+  "order": 675,
   "group_order": 86
 }

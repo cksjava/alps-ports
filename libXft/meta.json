@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libXft-2.3.9 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libXft-2.3.9.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libXft-2.3.9.tar.xz"
+  ],
   "archive": "libXft-2.3.9.tar.xz",
   "md5": "d378be0fcbd1f689f9a132e0d642bc4b",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 612,
+  "order": 613,
   "group_order": 24
 }

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Poetry-core is an extensible, standards compliant build backend for python modules.",
-  "download": "https://files.pythonhosted.org/packages/source/p/poetry_core/poetry_core-2.4.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/p/poetry_core/poetry_core-2.4.1.tar.gz"
+  ],
   "archive": "poetry_core-2.4.1.tar.gz",
   "md5": "6c4fb726467b1e270892f51c54c392ba",
   "size": "404 KB",

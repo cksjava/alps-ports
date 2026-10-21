@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "bluez-qt-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/bluez-qt/bluez-qt-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/bluez-qt/bluez-qt-6.29.0.tar.xz"
+  ],
   "archive": "bluez-qt-6.29.0.tar.xz",
   "md5": "c0ee97a3f6b78782eb378ca05a89a653",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 830,
+  "order": 831,
   "group_order": 54
 }

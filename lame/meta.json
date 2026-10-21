@@ -7,7 +7,9 @@
   "group": "audio-utilities",
   "chapter": "Chapter 43. Audio Utilities",
   "summary": "The LAME package contains an MP3 encoder and optionally, an MP3 frame analyzer. This is useful for creating and analyzing compressed audio files.",
-  "download": "https://downloads.sourceforge.net/lame/lame-3.100.tar.gz",
+  "download": [
+    "https://downloads.sourceforge.net/lame/lame-3.100.tar.gz"
+  ],
   "archive": "lame-3.100.tar.gz",
   "md5": "83e260acbe4389b54fe08e0bdbf7cddb",
   "size": "1.5 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1148,
+  "order": 1149,
   "group_order": 3
 }

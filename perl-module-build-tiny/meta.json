@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Module::Build::Tiny is a simplified version of Module-Build-0.4234 .",
-  "download": "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-Tiny-0.053.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-Tiny-0.053.tar.gz"
+  ],
   "archive": "Module-Build-Tiny-0.053.tar.gz",
   "md5": "606d1f830f0475b6de53b82aa3e5d36a",
   "size": "",

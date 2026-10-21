@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The Vulkan-Headers package contains a set of header files necessary to build and link applications against the Vulkan API.",
-  "download": "https://github.com/KhronosGroup/Vulkan-Headers/archive/vulkan-sdk-1.4.357.0/Vulkan-Headers-vulkan-sdk-1.4.357.0.tar.gz",
+  "download": [
+    "https://github.com/KhronosGroup/Vulkan-Headers/archive/vulkan-sdk-1.4.357.0/Vulkan-Headers-vulkan-sdk-1.4.357.0.tar.gz"
+  ],
   "archive": "Vulkan-Headers-vulkan-sdk-1.4.357.0.tar.gz",
   "md5": "64a23bb12e95a2017004d72569132929",
   "size": "3.3 MB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 747,
+  "order": 748,
   "group_order": 39
 }

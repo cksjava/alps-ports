@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The UPower package provides an interface for enumerating power devices, listening to device events, and querying history and statistics. Any application or service on the system can access the org.freedesktop.UPower service via the system message bus.",
-  "download": "https://gitlab.freedesktop.org/upower/upower/-/archive/v1.91.3/upower-v1.91.3.tar.bz2",
+  "download": [
+    "https://gitlab.freedesktop.org/upower/upower/-/archive/v1.91.3/upower-v1.91.3.tar.bz2"
+  ],
   "archive": "upower-v1.91.3.tar.bz2",
   "md5": "bf09da2eb695224e249e38077460414c",
   "size": "168 KB",

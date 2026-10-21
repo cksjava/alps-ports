@@ -7,7 +7,9 @@
   "group": "security",
   "chapter": "Chapter 4. Security",
   "summary": "The Nettle package contains a low-level cryptographic library that is designed to fit easily in many contexts.",
-  "download": "https://ftpmirror.gnu.org/nettle/nettle-4.0.tar.gz",
+  "download": [
+    "https://ftpmirror.gnu.org/nettle/nettle-4.0.tar.gz"
+  ],
   "archive": "nettle-4.0.tar.gz",
   "md5": "144401453f9f35e53938bcacfc59800e",
   "size": "2.5 MB",

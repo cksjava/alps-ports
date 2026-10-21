@@ -7,7 +7,10 @@
   "group": "standard-generalized-markup-language-sgml",
   "chapter": "Chapter 48. Standard Generalized Markup Language (SGML)",
   "summary": "The SGML Common package contains install-catalog . This is useful for creating and maintaining centralized SGML catalogs.",
-  "download": "https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz",
+  "download": [
+    "https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/sgml-common-0.6.3-manpage-1.patch"
+  ],
   "archive": "sgml-common-0.6.3.tgz",
   "md5": "103c9828f24820df86e55e7862e28974",
   "size": "75 KB",
@@ -16,6 +19,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1172,
+  "order": 1173,
   "group_order": 0
 }

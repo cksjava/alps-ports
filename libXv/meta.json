@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libXv-1.0.13 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libXv-1.0.13.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libXv-1.0.13.tar.xz"
+  ],
   "archive": "libXv-1.0.13.tar.xz",
   "md5": "8a26503185afcb1bbd2c65e43f775a67",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 618,
+  "order": 619,
   "group_order": 30
 }

@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "Netscape Portable Runtime (NSPR) provides a platform-neutral API for system level and libc like functions.",
-  "download": "https://archive.mozilla.org/pub/nspr/releases/v4.40/src/nspr-4.40.tar.gz",
+  "download": [
+    "https://archive.mozilla.org/pub/nspr/releases/v4.40/src/nspr-4.40.tar.gz"
+  ],
   "archive": "nspr-4.40.tar.gz",
   "md5": "0c3c871158cc9af694f1f7d2b799ffd8",
   "size": "988 KB",

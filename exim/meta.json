@@ -7,7 +7,9 @@
   "group": "mail-server-software",
   "chapter": "Chapter 21. Mail Server Software",
   "summary": "The Exim package contains a Mail Transport Agent written by the University of Cambridge, released under the GNU Public License.",
-  "download": "https://downloads.exim.org/exim4/exim-4.100.tar.xz",
+  "download": [
+    "https://downloads.exim.org/exim4/exim-4.100.tar.xz"
+  ],
   "archive": "exim-4.100.tar.xz",
   "md5": "0fa646b6f2a40e6b86604926b4a8bcfc",
   "size": "1.9 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 582,
+  "order": 583,
   "group_order": 1
 }

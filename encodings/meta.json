@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "encodings-1.1.0 is built from the x7font page.",
-  "download": "https://www.x.org/pub/individual/font/encodings-1.1.0.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/font/encodings-1.1.0.tar.xz"
+  ],
   "archive": "encodings-1.1.0.tar.xz",
   "md5": "a56b1a7f2c14173f71f010225fa131f1",
   "size": "",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 675,
+  "order": 676,
   "group_order": 87
 }

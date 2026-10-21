@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Idna module provides support for the Internationalized Domain Names in Applications (IDNA) protocol as specified in RFC 5891.",
-  "download": "https://files.pythonhosted.org/packages/source/i/idna/idna-3.18.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/i/idna/idna-3.18.tar.gz"
+  ],
   "archive": "idna-3.18.tar.gz",
   "md5": "64359467ec86d86e398b1ae614e5718c",
   "size": "196 KB",

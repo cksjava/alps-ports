@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "This package allows you to keep imports and functions out of your namespace.",
-  "download": "https://cpan.metacpan.org/authors/id/R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz"
+  ],
   "archive": "namespace-clean-0.27.tar.gz",
   "md5": "cba97f39ef7e594bd8489b4fdcddb662",
   "size": "",

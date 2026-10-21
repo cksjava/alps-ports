@@ -7,7 +7,9 @@
   "group": "networking-libraries",
   "chapter": "Chapter 17. Networking Libraries",
   "summary": "GeoClue is a modular geoinformation service built on top of the D-Bus messaging system. The goal of the GeoClue project is to make creating location-aware applications as simple as possible.",
-  "download": "https://gitlab.freedesktop.org/geoclue/geoclue/-/archive/2.8.2/geoclue-2.8.2.tar.bz2",
+  "download": [
+    "https://gitlab.freedesktop.org/geoclue/geoclue/-/archive/2.8.2/geoclue-2.8.2.tar.bz2"
+  ],
   "archive": "geoclue-2.8.2.tar.bz2",
   "md5": "b40de9b467b79d0d4fad7b40dea21e04",
   "size": "116 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 551,
+  "order": 552,
   "group_order": 2
 }

@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "Even though D-Bus was built in LFS, there are some features provided by the package that other BLFS packages need, but their dependencies didn't fit into LFS.",
-  "download": "https://dbus.freedesktop.org/releases/dbus/dbus-1.16.2.tar.xz",
+  "download": [
+    "https://dbus.freedesktop.org/releases/dbus/dbus-1.16.2.tar.xz"
+  ],
   "archive": "dbus-1.16.2.tar.xz",
   "md5": "97832e6f0a260936d28536e5349c22e5",
   "size": "1.1 MB",

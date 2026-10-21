@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The wv package contains tools for reading information from an MS Word document.",
-  "download": "https://anduin.linuxfromscratch.org/BLFS/wv/wv-1.2.9.tar.gz",
+  "download": [
+    "https://anduin.linuxfromscratch.org/BLFS/wv/wv-1.2.9.tar.gz"
+  ],
   "archive": "wv-1.2.9.tar.gz",
   "md5": "dbccf2e9f747e50c913b7e3d126b73f7",
   "size": "608 KB",

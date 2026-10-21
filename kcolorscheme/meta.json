@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kcolorscheme-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kcolorscheme/kcolorscheme-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kcolorscheme/kcolorscheme-6.29.0.tar.xz"
+  ],
   "archive": "kcolorscheme-6.29.0.tar.xz",
   "md5": "f316ed426e1df0616143a9f4bc43554a",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 803,
+  "order": 804,
   "group_order": 27
 }

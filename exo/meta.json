@@ -7,7 +7,9 @@
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
   "summary": "Exo is a support library used in the Xfce desktop. It also has some helper applications that are used throughout Xfce .",
-  "download": "https://archive.xfce.org/src/xfce/exo/4.20/exo-4.20.0.tar.bz2",
+  "download": [
+    "https://archive.xfce.org/src/xfce/exo/4.20/exo-4.20.0.tar.bz2"
+  ],
   "archive": "exo-4.20.0.tar.bz2",
   "md5": "f059ec3d8686d4b322c42d19ebec0366",
   "size": "1.1 MB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 998,
+  "order": 999,
   "group_order": 3
 }

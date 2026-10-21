@@ -7,7 +7,12 @@
   "group": "office-programs",
   "chapter": "Chapter 39. Office Programs",
   "summary": "LibreOffice is a full-featured office suite. It is largely compatible with Microsoft Office and is descended from OpenOffice.org .",
-  "download": "https://download.documentfoundation.org/libreoffice/src/26.2.5/libreoffice-26.2.5.2.tar.xz",
+  "download": [
+    "https://download.documentfoundation.org/libreoffice/src/26.2.5/libreoffice-26.2.5.2.tar.xz",
+    "https://download.documentfoundation.org/libreoffice/src/26.2.5/libreoffice-dictionaries-26.2.5.2.tar.xz",
+    "https://download.documentfoundation.org/libreoffice/src/26.2.5/libreoffice-help-26.2.5.2.tar.xz",
+    "https://download.documentfoundation.org/libreoffice/src/26.2.5/libreoffice-translations-26.2.5.2.tar.xz"
+  ],
   "archive": "libreoffice-26.2.5.2.tar.xz",
   "md5": "",
   "size": "",
@@ -22,6 +27,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1063,
+  "order": 1064,
   "group_order": 1
 }

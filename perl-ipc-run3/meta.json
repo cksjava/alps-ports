@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "IPC::Run3 is used to run a subprocess with input/output redirection.",
-  "download": "https://www.cpan.org/authors/id/R/RJ/RJBS/IPC-Run3-0.049.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/R/RJ/RJBS/IPC-Run3-0.049.tar.gz"
+  ],
   "archive": "IPC-Run3-0.049.tar.gz",
   "md5": "569393ca56dfb78dedd79e93c0439159",
   "size": "",

@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xkbevd-1.1.6 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xkbevd-1.1.6.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xkbevd-1.1.6.tar.xz"
+  ],
   "archive": "xkbevd-1.1.6.tar.xz",
   "md5": "543c0535367ca30e0b0dbcfa90fefdf9",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 653,
+  "order": 654,
   "group_order": 65
 }

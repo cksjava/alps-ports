@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libqalculate package contains a library that provides functions for a multi-purpose calculator.",
-  "download": "https://github.com/Qalculate/libqalculate/releases/download/v5.12.0/libqalculate-5.12.0.tar.gz",
+  "download": [
+    "https://github.com/Qalculate/libqalculate/releases/download/v5.12.0/libqalculate-5.12.0.tar.gz"
+  ],
   "archive": "libqalculate-5.12.0.tar.gz",
   "md5": "46f93f638b6ce747f17dba955f95c9cf",
   "size": "3.5 MB",

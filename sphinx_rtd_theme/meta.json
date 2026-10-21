@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The sphinx_rtd_theme module is a Sphinx theme designed to provide a great reader experience for documentation users on both desktop and mobile devices. This theme is used primarily on Read the Docs but can work with any Sphinx project.",
-  "download": "https://files.pythonhosted.org/packages/source/s/sphinx_rtd_theme/sphinx_rtd_theme-3.1.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/s/sphinx_rtd_theme/sphinx_rtd_theme-3.1.0.tar.gz"
+  ],
   "archive": "sphinx_rtd_theme-3.1.0.tar.gz",
   "md5": "ac4255e53e5bed61a6b48e70ca80607c",
   "size": "7.3 MB",

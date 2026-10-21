@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "iceauth-1.0.11 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/iceauth-1.0.11.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/iceauth-1.0.11.tar.xz"
+  ],
   "archive": "iceauth-1.0.11.tar.xz",
   "md5": "36936e5bcf04b982ea87b4556d082061",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 638,
+  "order": 639,
   "group_order": 50
 }

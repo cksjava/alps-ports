@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The Jansson package contains a library used to encode, decode, and manipulate JSON data.",
-  "download": "https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.bz2",
+  "download": [
+    "https://github.com/akheron/jansson/releases/download/v2.15.1/jansson-2.15.1.tar.bz2"
+  ],
   "archive": "jansson-2.15.1.tar.bz2",
   "md5": "d78dc70210ed2052fe1f97cf3fd3ed72",
   "size": "480 KB",

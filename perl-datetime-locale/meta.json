@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "DateTime::Locale provides localization support for DateTime-1.66 .",
-  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Locale-1.45.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Locale-1.45.tar.gz"
+  ],
   "archive": "DateTime-Locale-1.45.tar.gz",
   "md5": "0ba952412b4e013dd42894625ddb3c20",
   "size": "",

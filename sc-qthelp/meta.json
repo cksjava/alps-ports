@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Sphinxcontrib-qthelp package is a Sphinx extension which outputs QtHelp documents.",
-  "download": "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-qthelp/sphinxcontrib_qthelp-2.0.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-qthelp/sphinxcontrib_qthelp-2.0.0.tar.gz"
+  ],
   "archive": "sphinxcontrib_qthelp-2.0.0.tar.gz",
   "md5": "ed4f32003b71a54ac3d68aa651cb6573",
   "size": "20 KB",

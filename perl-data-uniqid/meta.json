@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Data::Uniqid provides three simple routines for generating unique IDs.",
-  "download": "https://www.cpan.org/authors/id/M/MW/MWX/Data-Uniqid-0.12.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/M/MW/MWX/Data-Uniqid-0.12.tar.gz"
+  ],
   "archive": "Data-Uniqid-0.12.tar.gz",
   "md5": "6bab3b5da09fedfdf60ce2629a7367db",
   "size": "",

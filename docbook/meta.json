@@ -7,7 +7,9 @@
   "group": "extensible-markup-language-xml",
   "chapter": "Chapter 49. Extensible Markup Language (XML)",
   "summary": "The DocBook-4.5 XML DTD -4.5 package contains document type definitions for verification of XML data files against the DocBook rule set. These are useful for structuring books and software documentation to a standard allowing you to utilize transformations already written for that standard.",
-  "download": "https://archive.docbook.org/xml/4.5/docbook-xml-4.5.zip",
+  "download": [
+    "https://archive.docbook.org/xml/4.5/docbook-xml-4.5.zip"
+  ],
   "archive": "docbook-xml-4.5.zip",
   "md5": "03083e288e87a7e829e437358da7ef9e",
   "size": "96 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1179,
+  "order": 1180,
   "group_order": 0
 }

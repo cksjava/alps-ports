@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Sort::Key provides a set of functions to sort lists of values by some calculated key value.",
-  "download": "https://www.cpan.org/authors/id/S/SA/SALVA/Sort-Key-1.33.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/S/SA/SALVA/Sort-Key-1.33.tar.gz"
+  ],
   "archive": "Sort-Key-1.33.tar.gz",
   "md5": "a37ab0da0cfdc26e57b4c79e39f6d98f",
   "size": "",

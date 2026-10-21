@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kcmutils-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kcmutils/kcmutils-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kcmutils/kcmutils-6.29.0.tar.xz"
+  ],
   "archive": "kcmutils-6.29.0.tar.xz",
   "md5": "47eb021fa35e71e4f73bff439748f0cc",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 820,
+  "order": 821,
   "group_order": 44
 }

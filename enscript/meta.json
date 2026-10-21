@@ -7,7 +7,9 @@
   "group": "postscript",
   "chapter": "Chapter 50. PostScript",
   "summary": "Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes.",
-  "download": "https://ftpmirror.gnu.org/enscript/enscript-1.6.6.tar.gz",
+  "download": [
+    "https://ftpmirror.gnu.org/enscript/enscript-1.6.6.tar.gz"
+  ],
   "archive": "enscript-1.6.6.tar.gz",
   "md5": "3acc242b829adacabcaf28533f049afd",
   "size": "1.3 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1185,
+  "order": 1186,
   "group_order": 0
 }

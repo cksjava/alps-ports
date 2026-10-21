@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The Xorg applications provide the expected applications available in previous X Window implementations.",
-  "download": "https://www.x.org/pub/individual/app/",
+  "download": [
+    "https://www.x.org/pub/individual/app/"
+  ],
   "archive": "",
   "md5": "",
   "size": "4.9 MB",
@@ -50,6 +52,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 671,
+  "order": 672,
   "group_order": 83
 }

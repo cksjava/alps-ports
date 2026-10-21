@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The unifdef package contains a utility that is useful for removing preprocessor conditionals from code.",
-  "download": "https://dotat.at/prog/unifdef/unifdef-2.12.tar.gz",
+  "download": [
+    "https://dotat.at/prog/unifdef/unifdef-2.12.tar.gz"
+  ],
   "archive": "unifdef-2.12.tar.gz",
   "md5": "b225312c110cd2600ca7166bd0419751",
   "size": "88 KB",

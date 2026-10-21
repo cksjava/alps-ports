@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Sphinxcontrib-serializinghtml package is a Sphinx extension which outputs “ serialized ” HTML files (json and pickle).",
-  "download": "https://files.pythonhosted.org/packages/source/s/sphinxcontrib_serializinghtml/sphinxcontrib_serializinghtml-2.0.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/s/sphinxcontrib_serializinghtml/sphinxcontrib_serializinghtml-2.0.0.tar.gz"
+  ],
   "archive": "sphinxcontrib_serializinghtml-2.0.0.tar.gz",
   "md5": "b536ce248d5ca134a30018692a17c6ca",
   "size": "16 KB",

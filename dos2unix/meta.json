@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "The dos2unix package contains an any-to-any text format converter.",
-  "download": "https://downloads.sourceforge.net/dos2unix/dos2unix-7.5.7.tar.gz",
+  "download": [
+    "https://downloads.sourceforge.net/dos2unix/dos2unix-7.5.7.tar.gz"
+  ],
   "archive": "dos2unix-7.5.7.tar.gz",
   "md5": "72877deeaea114ea152b76c08b0f2e78",
   "size": "980 KB",

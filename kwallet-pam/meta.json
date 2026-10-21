@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "kwallet-pam-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/kwallet-pam/kwallet-pam-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/kwallet-pam/kwallet-pam-6.7.4.tar.xz"
+  ],
   "archive": "kwallet-pam-6.7.4.tar.xz",
   "md5": "e6073ba97e05a06c0ee3d6141e2cf387",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 897,
+  "order": 898,
   "group_order": 31
 }

@@ -7,7 +7,10 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "html5lib provides a pure-python library for parsing HTML. It is designed to conform to the WHATWG HTML specification.",
-  "download": "https://files.pythonhosted.org/packages/source/h/html5lib/html5lib-1.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/h/html5lib/html5lib-1.1.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/html5lib-1.1-python_3.14_buildfix-1.patch"
+  ],
   "archive": "html5lib-1.1.tar.gz",
   "md5": "6748742e2ec4cb99287a6bc82bcfe2b0",
   "size": "268 KB",

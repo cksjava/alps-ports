@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "This package provides a Qt API to store passwords and other secret data securely.",
-  "download": "https://github.com/frankosterfeld/qtkeychain/archive/0.16.0/qtkeychain-0.16.0.tar.gz",
+  "download": [
+    "https://github.com/frankosterfeld/qtkeychain/archive/0.16.0/qtkeychain-0.16.0.tar.gz"
+  ],
   "archive": "qtkeychain-0.16.0.tar.gz",
   "md5": "f97ec6ec37a465abdea63c2def01f280",
   "size": "64 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 868,
+  "order": 869,
   "group_order": 2
 }

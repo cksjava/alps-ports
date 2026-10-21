@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "Libdrm provides a userspace library for accessing the direct rendering manager (DRM) on operating systems that support the ioctl interface. Libdrm is a low-level library, typically used by graphics drivers such as the Mesa DRI drivers, the X drivers, libva and similar projects.",
-  "download": "https://dri.freedesktop.org/libdrm/libdrm-2.4.134.tar.xz",
+  "download": [
+    "https://dri.freedesktop.org/libdrm/libdrm-2.4.134.tar.xz"
+  ],
   "archive": "libdrm-2.4.134.tar.xz",
   "md5": "0e70607bb5c2f7ecbc411e6a2fab8b22",
   "size": "428 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 737,
+  "order": 738,
   "group_order": 29
 }

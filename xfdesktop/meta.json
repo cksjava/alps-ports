@@ -7,7 +7,9 @@
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
   "summary": "Xfdesktop is a desktop manager for the Xfce Desktop Environment. Xfdesktop sets the background image / color, creates the right click menu and window list and displays the file icons on the desktop using Thunar libraries.",
-  "download": "https://archive.xfce.org/src/xfce/xfdesktop/4.20/xfdesktop-4.20.2.tar.bz2",
+  "download": [
+    "https://archive.xfce.org/src/xfce/xfdesktop/4.20/xfdesktop-4.20.2.tar.bz2"
+  ],
   "archive": "xfdesktop-4.20.2.tar.bz2",
   "md5": "8789870145b82f5ba4f35c8a6522db2e",
   "size": "2.5 MB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1010,
+  "order": 1011,
   "group_order": 15
 }

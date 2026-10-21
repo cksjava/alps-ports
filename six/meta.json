@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Six is a Python 2 to 3 compatibility library.",
-  "download": "https://files.pythonhosted.org/packages/source/s/six/six-1.17.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/s/six/six-1.17.0.tar.gz"
+  ],
   "archive": "six-1.17.0.tar.gz",
   "md5": "a0387fe15662c71057b4fb2b7aa9056a",
   "size": "36 KB",

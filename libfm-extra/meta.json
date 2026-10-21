@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The libfm-extra package contains a library and other files required by the menu-cache-gen program in /usr/bin/libexec installed by menu-cache-1.1.1 .",
-  "download": "https://downloads.sourceforge.net/pcmanfm/libfm-1.3.2.tar.xz",
+  "download": [
+    "https://downloads.sourceforge.net/pcmanfm/libfm-1.3.2.tar.xz"
+  ],
   "archive": "libfm-1.3.2.tar.xz",
   "md5": "c87a0ff41ae77825079b2f785ec0741e",
   "size": "924 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1034,
+  "order": 1035,
   "group_order": 15
 }

@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "This package is a simple .INI file parser written in C.",
-  "download": "https://github.com/benhoyt/inih/archive/r62/inih-r62.tar.gz",
+  "download": [
+    "https://github.com/benhoyt/inih/archive/r62/inih-r62.tar.gz"
+  ],
   "archive": "inih-r62.tar.gz",
   "md5": "c0c6982525958a0376a3cb5bfbee14a0",
   "size": "24 KB",

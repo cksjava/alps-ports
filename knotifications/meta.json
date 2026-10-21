@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "knotifications-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/knotifications/knotifications-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/knotifications/knotifications-6.29.0.tar.xz"
+  ],
   "archive": "knotifications-6.29.0.tar.xz",
   "md5": "95a52444c959d82e83d8506756b1498d",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 810,
+  "order": 811,
   "group_order": 34
 }

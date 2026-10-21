@@ -7,7 +7,9 @@
   "group": "networking-utilities",
   "chapter": "Chapter 16. Networking Utilities",
   "summary": "The Wireshark package contains a network protocol analyzer, also known as a “ sniffer. ” This is useful for analyzing data captured “ off the wire ” from a live network connection, or data read from a capture file.",
-  "download": "https://www.wireshark.org/download/src/all-versions/wireshark-4.6.8.tar.xz",
+  "download": [
+    "https://www.wireshark.org/download/src/all-versions/wireshark-4.6.8.tar.xz"
+  ],
   "archive": "wireshark-4.6.8.tar.xz",
   "md5": "6f14969d008712771c5d3feca305b6e3",
   "size": "54 MB",
@@ -23,6 +25,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 548,
+  "order": 549,
   "group_order": 7
 }

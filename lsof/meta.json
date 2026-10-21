@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "The lsof package is useful to LiSt Open Files for a given running application or process.",
-  "download": "https://github.com/lsof-org/lsof/releases/download/4.99.7/lsof-4.99.7.tar.gz",
+  "download": [
+    "https://github.com/lsof-org/lsof/releases/download/4.99.7/lsof-4.99.7.tar.gz"
+  ],
   "archive": "lsof-4.99.7.tar.gz",
   "md5": "46647a774bb8ba630eb738c3aa1b5275",
   "size": "1.2 MB",

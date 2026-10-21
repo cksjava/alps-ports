@@ -7,7 +7,9 @@
   "group": "audio-utilities",
   "chapter": "Chapter 43. Audio Utilities",
   "summary": "The Vorbis Tools package contains command-line tools useful for encoding, playing or editing files using the Ogg codec.",
-  "download": "https://downloads.xiph.org/releases/vorbis/vorbis-tools-1.4.3.tar.gz",
+  "download": [
+    "https://downloads.xiph.org/releases/vorbis/vorbis-tools-1.4.3.tar.gz"
+  ],
   "archive": "vorbis-tools-1.4.3.tar.gz",
   "md5": "2057a2f8778d4913ceb169268abf23d4",
   "size": "1.7 MB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1152,
+  "order": 1153,
   "group_order": 7
 }

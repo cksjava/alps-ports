@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kdbusaddons-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kdbusaddons/kdbusaddons-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kdbusaddons/kdbusaddons-6.29.0.tar.xz"
+  ],
   "archive": "kdbusaddons-6.29.0.tar.xz",
   "md5": "a566661bbfde2500f39c3bfe6fd700e2",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 782,
+  "order": 783,
   "group_order": 6
 }

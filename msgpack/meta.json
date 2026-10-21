@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Msgpack is an efficient binary serialization format. It lets you exchange data among multiple languages like JSON. But it's faster and smaller. This package provides CPython bindings for reading and writing Msgpack data.",
-  "download": "https://files.pythonhosted.org/packages/source/m/msgpack/msgpack-1.2.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/m/msgpack/msgpack-1.2.1.tar.gz"
+  ],
   "archive": "msgpack-1.2.1.tar.gz",
   "md5": "e0a9c82423574f99314ccd1ed77b8c67",
   "size": "180 KB",

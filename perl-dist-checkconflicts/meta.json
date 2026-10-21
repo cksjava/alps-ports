@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Dist::CheckConflicts declares version conflicts for a distribution, to support post-install updates of dependent distributions.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DO/DOY/Dist-CheckConflicts-0.11.tar.gz"
+  ],
   "archive": "Dist-CheckConflicts-0.11.tar.gz",
   "md5": "c8725a92b9169708b0f63036812070f2",
   "size": "",

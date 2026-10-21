@@ -7,7 +7,10 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The OpenTimelineIO package contains an interchange format and API for editorial cut information.",
-  "download": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/archive/v0.18.1/OpenTimelineIO-0.18.1.tar.gz",
+  "download": [
+    "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/archive/v0.18.1/OpenTimelineIO-0.18.1.tar.gz",
+    "https://anduin.linuxfromscratch.org/BLFS/OpenTimelineIO/OpenTimelineIO-rapidjson-20260513.tar.xz"
+  ],
   "archive": "OpenTimelineIO-0.18.1.tar.gz",
   "md5": "620458ffa66419cdff9bf656a344ed57",
   "size": "1.6 MB",

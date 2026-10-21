@@ -7,7 +7,9 @@
   "group": "gnome-applications",
   "chapter": "Chapter 34. GNOME Applications",
   "summary": "Evince is a document viewer for multiple document formats. It supports PDF, Postscript, DjVu, TIFF and DVI. It is useful for viewing documents of various types using one simple application instead of the multiple document viewers that once existed on the GNOME Desktop.",
-  "download": "https://download.gnome.org/sources/evince/48/evince-48.4.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/evince/48/evince-48.4.tar.xz"
+  ],
   "archive": "evince-48.4.tar.xz",
   "md5": "5df36228e83ac93a5860f013af50c5c8",
   "size": "2.9 MB",
@@ -24,6 +26,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 976,
+  "order": 977,
   "group_order": 2
 }

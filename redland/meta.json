@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "Redland is a set of free software C libraries that provide support for the Resource Description Framework (RDF).",
-  "download": "https://download.librdf.org/source/redland-1.0.17.tar.gz",
+  "download": [
+    "https://download.librdf.org/source/redland-1.0.17.tar.gz"
+  ],
   "archive": "redland-1.0.17.tar.gz",
   "md5": "e5be03eda13ef68aabab6e42aa67715e",
   "size": "1.6 MB",

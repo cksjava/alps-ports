@@ -7,7 +7,9 @@
   "group": "networking-programs",
   "chapter": "Chapter 15. Networking Programs",
   "summary": "The NcFTP package contains a powerful and flexible interface to the Internet standard File Transfer Protocol. It is intended to replace or supplement the stock ftp program.",
-  "download": "https://www.ncftp.com/public_ftp/ncftp/ncftp-3.3.0-src.tar.gz",
+  "download": [
+    "https://www.ncftp.com/public_ftp/ncftp/ncftp-3.3.0-src.tar.gz"
+  ],
   "archive": "ncftp-3.3.0-src.tar.gz",
   "md5": "43056719c50cae2ed6b614e20c86d37e",
   "size": "628 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 530,
+  "order": 531,
   "group_order": 1
 }

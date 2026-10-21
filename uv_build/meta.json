@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The uv_build module provides the PEP 517 build backend from the 'uv' Python package management system.",
-  "download": "https://files.pythonhosted.org/packages/source/u/uv_build/uv_build-0.11.24.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/u/uv_build/uv_build-0.11.24.tar.gz"
+  ],
   "archive": "uv_build-0.11.24.tar.gz",
   "md5": "f537ded461369ed76aec64e5d2e0269d",
   "size": "392 KB",

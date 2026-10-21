@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The gspell package provides a flexible API to add spell checking to a GTK+ application.",
-  "download": "https://download.gnome.org/sources/gspell/1.14/gspell-1.14.4.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gspell/1.14/gspell-1.14.4.tar.xz"
+  ],
   "archive": "gspell-1.14.4.tar.xz",
   "md5": "f2baf4a418c57e0dc044d50ffc0dcf62",
   "size": "120 KB",

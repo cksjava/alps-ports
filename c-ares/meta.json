@@ -7,7 +7,9 @@
   "group": "networking-libraries",
   "chapter": "Chapter 17. Networking Libraries",
   "summary": "c-ares is a C library for asynchronous DNS requests.",
-  "download": "https://github.com/c-ares/c-ares/releases/download/v1.34.8/c-ares-1.34.8.tar.gz",
+  "download": [
+    "https://github.com/c-ares/c-ares/releases/download/v1.34.8/c-ares-1.34.8.tar.gz"
+  ],
   "archive": "c-ares-1.34.8.tar.gz",
   "md5": "a0568780ffe1476160a6bbb4b6737261",
   "size": "1.0 MB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 549,
+  "order": 550,
   "group_order": 0
 }

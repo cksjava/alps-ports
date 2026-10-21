@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The lxqt-config package provides the LXQt Configuration Center.",
-  "download": "https://github.com/lxqt/lxqt-config/releases/download/2.4.0/lxqt-config-2.4.0.tar.xz",
+  "download": [
+    "https://github.com/lxqt/lxqt-config/releases/download/2.4.0/lxqt-config-2.4.0.tar.xz"
+  ],
   "archive": "lxqt-config-2.4.0.tar.xz",
   "md5": "7bb4cc66ce5fc8cd5bc53127643888a1",
   "size": "408 KB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1046,
+  "order": 1047,
   "group_order": 27
 }

@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The Yelp package contains a help browser used for viewing help files.",
-  "download": "https://download.gnome.org/sources/yelp/49/yelp-49.2.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/yelp/49/yelp-49.2.tar.xz"
+  ],
   "archive": "yelp-49.2.tar.xz",
   "md5": "c6a34efa877d8b37a3dbc3cde60b9dd5",
   "size": "1.2 MB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 973,
+  "order": 974,
   "group_order": 41
 }

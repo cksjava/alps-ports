@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The Sysstat package contains utilities to monitor system performance and usage activity. Sysstat contains the sar utility, common to many commercial Unixes, and tools you can schedule via cron to collect and historize performance and activity data.",
-  "download": "https://sysstat.github.io/sysstat-packages/sysstat-12.7.9.tar.xz",
+  "download": [
+    "https://sysstat.github.io/sysstat-packages/sysstat-12.7.9.tar.xz"
+  ],
   "archive": "sysstat-12.7.9.tar.xz",
   "md5": "feded3c0171774a19c1efdb2dc43b68d",
   "size": "916 KB",

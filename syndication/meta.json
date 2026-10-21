@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "syndication-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/syndication/syndication-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/syndication/syndication-6.29.0.tar.xz"
+  ],
   "archive": "syndication-6.29.0.tar.xz",
   "md5": "b3d793178f7c51b5b5cec6ef5c47c186",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 821,
+  "order": 822,
   "group_order": 45
 }

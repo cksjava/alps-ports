@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The lxqt-build-tools package provides several tools needed to build LXQt itself as well as other components maintained by the LXQt project.",
-  "download": "https://github.com/lxqt/lxqt-build-tools/releases/download/2.4.0/lxqt-build-tools-2.4.0.tar.xz",
+  "download": [
+    "https://github.com/lxqt/lxqt-build-tools/releases/download/2.4.0/lxqt-build-tools-2.4.0.tar.xz"
+  ],
   "archive": "lxqt-build-tools-2.4.0.tar.xz",
   "md5": "a480ab7ffadf032340d7b0a705585101",
   "size": "28 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1027,
+  "order": 1028,
   "group_order": 8
 }

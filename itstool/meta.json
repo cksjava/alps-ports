@@ -7,7 +7,10 @@
   "group": "extensible-markup-language-xml",
   "chapter": "Chapter 49. Extensible Markup Language (XML)",
   "summary": "Itstool extracts messages from XML files and outputs PO template files, then merges translations from MO files to create translated XML files. It determines what to translate and how to chunk it into messages using the W3C Internationalization Tag Set (ITS).",
-  "download": "https://github.com/itstool/itstool/archive/2.0.7/itstool-2.0.7.tar.gz",
+  "download": [
+    "https://github.com/itstool/itstool/archive/2.0.7/itstool-2.0.7.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/itstool-2.0.7-lxml-1.patch"
+  ],
   "archive": "itstool-2.0.7.tar.gz",
   "md5": "e759b258617a912acce630de3fa43957",
   "size": "79 KB",
@@ -19,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1183,
+  "order": 1184,
   "group_order": 4
 }

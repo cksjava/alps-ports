@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xwd-1.0.10 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xwd-1.0.10.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xwd-1.0.10.tar.xz"
+  ],
   "archive": "xwd-1.0.10.tar.xz",
   "md5": "ee94a7722c8b9e37a28f1ac0fc371454",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 668,
+  "order": 669,
   "group_order": 80
 }

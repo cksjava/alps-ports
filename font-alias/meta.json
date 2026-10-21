@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "font-alias-1.0.6 is built from the x7font page.",
-  "download": "https://www.x.org/pub/individual/font/font-alias-1.0.6.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/font/font-alias-1.0.6.tar.xz"
+  ],
   "archive": "font-alias-1.0.6.tar.xz",
   "md5": "dd1a744b97eb6d388d4e78b17011193e",
   "size": "",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 676,
+  "order": 677,
   "group_order": 88
 }

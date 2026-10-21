@@ -7,7 +7,9 @@
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
   "summary": "Xfce4 Appfinder is a tool to find and launch installed applications by searching the .desktop files installed on your system.",
-  "download": "https://archive.xfce.org/src/xfce/xfce4-appfinder/4.20/xfce4-appfinder-4.20.0.tar.bz2",
+  "download": [
+    "https://archive.xfce.org/src/xfce/xfce4-appfinder/4.20/xfce4-appfinder-4.20.0.tar.bz2"
+  ],
   "archive": "xfce4-appfinder-4.20.0.tar.bz2",
   "md5": "e60f6c2521a985c6cfe09057d4fb2d69",
   "size": "716 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1007,
+  "order": 1008,
   "group_order": 12
 }

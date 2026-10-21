@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "Highlight is a utility that converts source code to formatted text with syntax highlighting.",
-  "download": "http://www.andre-simon.de/zip/highlight-4.21.tar.bz2",
+  "download": [
+    "http://www.andre-simon.de/zip/highlight-4.21.tar.bz2"
+  ],
   "archive": "highlight-4.21.tar.bz2",
   "md5": "7012cb264294e0895909b7a6a00601ef",
   "size": "1.5 MB",

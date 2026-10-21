@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The libqtxdg package contains a Qt implementation of the freedesktop.org XDG specifications.",
-  "download": "https://github.com/lxqt/libqtxdg/releases/download/4.4.0/libqtxdg-4.4.0.tar.xz",
+  "download": [
+    "https://github.com/lxqt/libqtxdg/releases/download/4.4.0/libqtxdg-4.4.0.tar.xz"
+  ],
   "archive": "libqtxdg-4.4.0.tar.xz",
   "md5": "ea81dc21611085a6601defb3fe6cce89",
   "size": "76 KB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1029,
+  "order": 1030,
   "group_order": 10
 }

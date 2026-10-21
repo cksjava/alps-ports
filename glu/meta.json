@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "This package provides the Mesa OpenGL Utility library.",
-  "download": "https://archive.mesa3d.org/glu/glu-9.0.3.tar.xz",
+  "download": [
+    "https://archive.mesa3d.org/glu/glu-9.0.3.tar.xz"
+  ],
   "archive": "glu-9.0.3.tar.xz",
   "md5": "06a4fff9179a98ea32ef41b6d83f6b19",
   "size": "216 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 719,
+  "order": 720,
   "group_order": 11
 }

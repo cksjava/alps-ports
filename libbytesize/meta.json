@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libbytesize package is a library which facilitates the common operations with sizes in bytes.",
-  "download": "https://github.com/storaged-project/libbytesize/releases/download/2.12/libbytesize-2.12.tar.gz",
+  "download": [
+    "https://github.com/storaged-project/libbytesize/releases/download/2.12/libbytesize-2.12.tar.gz"
+  ],
   "archive": "libbytesize-2.12.tar.gz",
   "md5": "5314b773b20d1f3acdf3b2bf0c92549f",
   "size": "464 KB",

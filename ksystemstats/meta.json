@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "ksystemstats-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/ksystemstats/ksystemstats-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/ksystemstats/ksystemstats-6.7.4.tar.xz"
+  ],
   "archive": "ksystemstats-6.7.4.tar.xz",
   "md5": "cc47c85067e1db3b084c94e07e650398",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 919,
+  "order": 920,
   "group_order": 53
 }

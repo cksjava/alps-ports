@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xsetroot-1.1.4 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xsetroot-1.1.4.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xsetroot-1.1.4.tar.xz"
+  ],
   "archive": "xsetroot-1.1.4.tar.xz",
   "md5": "33c80b7744f9a452bf9e39ea7303650e",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 666,
+  "order": 667,
   "group_order": 78
 }

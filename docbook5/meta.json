@@ -7,7 +7,9 @@
   "group": "extensible-markup-language-xml",
   "chapter": "Chapter 49. Extensible Markup Language (XML)",
   "summary": "The DocBook XML DTD and Schemas -5.0 package contains document type definitions and schemas for verification of XML data files against the DocBook rule set. These are useful for structuring books and software documentation to a standard allowing you to utilize transformations already written for that standard. In addition to providing a DTD, version 5 introduced the RelaxNG schema and Schematron rules, and is incompatible with previous versions of DocBook XML.",
-  "download": "https://archive.docbook.org/xml/5.0/docbook-5.0.zip",
+  "download": [
+    "https://archive.docbook.org/xml/5.0/docbook-5.0.zip"
+  ],
   "archive": "docbook-5.0.zip",
   "md5": "2411c19ed4fb141f3fa3d389fae40736",
   "size": "820 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1180,
+  "order": 1181,
   "group_order": 1
 }

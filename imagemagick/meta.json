@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "ImageMagick is a collection of tools and libraries to read, write, and manipulate an image in various image formats. Image processing operations are available from the command line. Bindings for Perl and C++ are also available.",
-  "download": "https://www.imagemagick.org/archive/releases/ImageMagick-7.1.2-13.tar.xz",
+  "download": [
+    "https://www.imagemagick.org/archive/releases/ImageMagick-7.1.2-13.tar.xz"
+  ],
   "archive": "ImageMagick-7.1.2-13.tar.xz",
   "md5": "a28a5d65a58fce9c24e8cf4b47cb5c5c",
   "size": "10 MB",

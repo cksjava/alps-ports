@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "The K3b package contains a KDE Frameworks-based graphical interface to the Cdrtools and dvd+rw-tools CD/DVD manipulation tools. It also combines the capabilities of many other multimedia packages into one central interface to provide a simple-to-operate application that can be used to handle many of your CD/DVD recording and formatting requirements. It is used for creating audio, data, video and mixed-mode CDs as well as copying, ripping and burning CDs and DVDs.",
-  "download": "https://download.kde.org/stable/release-service/26.04.3/src/k3b-26.04.3.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/release-service/26.04.3/src/k3b-26.04.3.tar.xz"
+  ],
   "archive": "k3b-26.04.3.tar.xz",
   "md5": "afa3d9e93cd0b92d2dea20c105511c0e",
   "size": "10 MB",
@@ -22,6 +24,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 865,
+  "order": 866,
   "group_order": 17
 }

@@ -7,7 +7,9 @@
   "group": "security",
   "chapter": "Chapter 4. Security",
   "summary": "The GnuTLS package contains libraries and userspace tools which provide a secure layer over a reliable transport layer. Currently the GnuTLS library implements the proposed standards by the IETF's TLS working group. Quoting from the TLS 1.3 protocol specification :",
-  "download": "https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.13.tar.xz",
+  "download": [
+    "https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.13.tar.xz"
+  ],
   "archive": "gnutls-3.8.13.tar.xz",
   "md5": "a97671c1839340c6b43c23ccb3237180",
   "size": "7.0 MB",

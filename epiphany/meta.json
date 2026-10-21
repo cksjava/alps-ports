@@ -7,7 +7,9 @@
   "group": "graphical-web-browsers",
   "chapter": "Chapter 40. Graphical Web Browsers",
   "summary": "Epiphany is a simple yet powerful GNOME web browser targeted at non-technical users. Its principles are simplicity and standards compliance.",
-  "download": "https://download.gnome.org/sources/epiphany/50/epiphany-50.6.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/epiphany/50/epiphany-50.6.tar.xz"
+  ],
   "archive": "epiphany-50.6.tar.xz",
   "md5": "3cc2a3fd39b00b27010b781d02afd8c0",
   "size": "4.4 MB",
@@ -26,6 +28,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1064,
+  "order": 1065,
   "group_order": 0
 }

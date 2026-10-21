@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "libplasma-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/libplasma/libplasma-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/libplasma/libplasma-6.7.4.tar.xz"
+  ],
   "archive": "libplasma-6.7.4.tar.xz",
   "md5": "d968787e8579337c7749bcabb860e5e9",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 880,
+  "order": 881,
   "group_order": 14
 }

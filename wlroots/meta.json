@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "wlroots is a Wayland compositor library, the backbone of most Wayland compositors. Compositors that use a different base may have used this package in the beginning of the compositor's history for providing most of the work.",
-  "download": "https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/0.20.2/wlroots-0.20.2.tar.bz2",
+  "download": [
+    "https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/0.20.2/wlroots-0.20.2.tar.bz2"
+  ],
   "archive": "wlroots-0.20.2.tar.bz2",
   "md5": "03634ea5be3d116490630c955355610c",
   "size": "516 KB",
@@ -22,6 +24,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 750,
+  "order": 751,
   "group_order": 42
 }

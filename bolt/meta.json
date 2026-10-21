@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "The bolt package is a system daemon to enable security levels for Thunderbolt.",
-  "download": "https://gitlab.freedesktop.org/bolt/bolt/-/archive/0.9.11/bolt-0.9.11.tar.gz",
+  "download": [
+    "https://gitlab.freedesktop.org/bolt/bolt/-/archive/0.9.11/bolt-0.9.11.tar.gz"
+  ],
   "archive": "bolt-0.9.11.tar.gz",
   "md5": "6fade22d3875b3ff480e26058571b534",
   "size": "252 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 870,
+  "order": 871,
   "group_order": 4
 }

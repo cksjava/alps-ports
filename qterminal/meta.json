@@ -7,7 +7,9 @@
   "group": "lxqt-applications",
   "chapter": "Chapter 38. LXQt Applications",
   "summary": "The qterminal package contains a Qt widget based terminal emulator for Qt with support for multiple tabs.",
-  "download": "https://github.com/lxqt/qterminal/releases/download/2.4.0/qterminal-2.4.0.tar.xz",
+  "download": [
+    "https://github.com/lxqt/qterminal/releases/download/2.4.0/qterminal-2.4.0.tar.xz"
+  ],
   "archive": "qterminal-2.4.0.tar.xz",
   "md5": "d381d0aad8d9eb44368c5ddcd22dade5",
   "size": "412 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1060,
+  "order": 1061,
   "group_order": 6
 }

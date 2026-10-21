@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Class::Accessor generates accessors/mutators for your class.",
-  "download": "https://www.cpan.org/authors/id/K/KA/KASEI/Class-Accessor-0.51.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/K/KA/KASEI/Class-Accessor-0.51.tar.gz"
+  ],
   "archive": "Class-Accessor-0.51.tar.gz",
   "md5": "1f1e5990f87cad7659b292fed7dc0407",
   "size": "",

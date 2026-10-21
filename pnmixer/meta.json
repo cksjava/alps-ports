@@ -7,7 +7,9 @@
   "group": "audio-utilities",
   "chapter": "Chapter 43. Audio Utilities",
   "summary": "The Pnmixer package provides a lightweight volume control with a tray icon.",
-  "download": "https://github.com/nicklan/pnmixer/releases/download/v0.7.2/pnmixer-v0.7.2.tar.gz",
+  "download": [
+    "https://github.com/nicklan/pnmixer/releases/download/v0.7.2/pnmixer-v0.7.2.tar.gz"
+  ],
   "archive": "pnmixer-v0.7.2.tar.gz",
   "md5": "e9f17f56c50de39393030a96e343427b",
   "size": "236 KB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1151,
+  "order": 1152,
   "group_order": 6
 }

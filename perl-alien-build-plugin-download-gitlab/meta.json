@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Alien::Build::Plugin::Download::GitLab allows Alien::Build to download from GitLab (in practice, this does not download if the required library is already installed on the system).",
-  "download": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-Plugin-Download-GitLab-0.01.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-Plugin-Download-GitLab-0.01.tar.gz"
+  ],
   "archive": "Alien-Build-Plugin-Download-GitLab-0.01.tar.gz",
   "md5": "ad1d815262ad7dd98b0a9b35ba2f05ef",
   "size": "",

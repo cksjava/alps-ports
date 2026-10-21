@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The Xorg font packages provide some scalable fonts and supporting packages for Xorg applications. Many people will want to install other TTF or OTF fonts in addition to, or instead of, these. Some are listed at the section called “TTF and OTF fonts” .",
-  "download": "https://www.x.org/pub/individual/font/",
+  "download": [
+    "https://www.x.org/pub/individual/font/"
+  ],
   "archive": "",
   "md5": "",
   "size": "3.0 MB",
@@ -26,6 +28,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 683,
+  "order": 684,
   "group_order": 95
 }

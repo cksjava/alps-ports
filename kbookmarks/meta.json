@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kbookmarks-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kbookmarks/kbookmarks-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kbookmarks/kbookmarks-6.29.0.tar.xz"
+  ],
   "archive": "kbookmarks-6.29.0.tar.xz",
   "md5": "ab9726b47279b62fba2b02d1be1e7f8e",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 814,
+  "order": 815,
   "group_order": 38
 }

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The CMake package contains a modern toolset used for generating Makefiles. It is a successor of the auto-generated configure script and aims to be platform- and compiler-independent. A significant user of CMake is KDE since version 4.",
-  "download": "https://cmake.org/files/v4.4/cmake-4.4.2.tar.gz",
+  "download": [
+    "https://cmake.org/files/v4.4/cmake-4.4.2.tar.gz"
+  ],
   "archive": "cmake-4.4.2.tar.gz",
   "md5": "6911f0379d901db23619413f092b99ef",
   "size": "13 MB",

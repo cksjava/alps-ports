@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kcalendarcore-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kcalendarcore/kcalendarcore-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kcalendarcore/kcalendarcore-6.29.0.tar.xz"
+  ],
   "archive": "kcalendarcore-6.29.0.tar.xz",
   "md5": "de97d121b2f24c03e9bce05edb7a6294",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 838,
+  "order": 839,
   "group_order": 62
 }

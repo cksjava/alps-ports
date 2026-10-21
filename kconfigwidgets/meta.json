@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kconfigwidgets-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kconfigwidgets/kconfigwidgets-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kconfigwidgets/kconfigwidgets-6.29.0.tar.xz"
+  ],
   "archive": "kconfigwidgets-6.29.0.tar.xz",
   "md5": "21d71db72c242423c2758c84e8d2ebfd",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 804,
+  "order": 805,
   "group_order": 28
 }

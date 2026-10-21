@@ -7,7 +7,10 @@
   "group": "databases",
   "chapter": "Chapter 22. Databases",
   "summary": "MariaDB is a community-developed fork and a drop-in replacement for the MySQL relational database management system.",
-  "download": "https://downloads.mariadb.org/interstitial/mariadb-12.3.3/source/mariadb-12.3.3.tar.gz",
+  "download": [
+    "https://downloads.mariadb.org/interstitial/mariadb-12.3.3/source/mariadb-12.3.3.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/mariadb-12.3.3-openssl4_fixes-1.patch"
+  ],
   "archive": "mariadb-12.3.3.tar.gz",
   "md5": "83d962d0f5917a0445786cc31337b118",
   "size": "213 MB",
@@ -18,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 585,
+  "order": 586,
   "group_order": 1
 }

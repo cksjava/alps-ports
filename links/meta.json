@@ -7,7 +7,9 @@
   "group": "text-web-browsers",
   "chapter": "Chapter 18. Text Web Browsers",
   "summary": "Links is a text and graphics mode WWW browser. It includes support for rendering tables and frames, features background downloads, can display colors and has many other features.",
-  "download": "http://links.twibright.com/download/links-2.30.tar.bz2",
+  "download": [
+    "http://links.twibright.com/download/links-2.30.tar.bz2"
+  ],
   "archive": "links-2.30.tar.bz2",
   "md5": "dc56041551980c74dd354cd7c2882539",
   "size": "6.3 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 571,
+  "order": 572,
   "group_order": 0
 }

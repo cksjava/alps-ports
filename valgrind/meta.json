@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Valgrind is an instrumentation framework for building dynamic analysis tools. There are Valgrind tools that can automatically detect many memory management and threading bugs, and profile programs in detail. Valgrind can also be used to build new tools.",
-  "download": "https://sourceware.org/pub/valgrind/valgrind-3.27.1.tar.bz2",
+  "download": [
+    "https://sourceware.org/pub/valgrind/valgrind-3.27.1.tar.bz2"
+  ],
   "archive": "valgrind-3.27.1.tar.bz2",
   "md5": "9b819b1aa88fc5936373fc624aa75723",
   "size": "17 MB",

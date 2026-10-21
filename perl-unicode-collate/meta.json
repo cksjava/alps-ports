@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Unicode::Collate provides a Unicode collation algorithm.",
-  "download": "https://www.cpan.org/authors/id/S/SA/SADAHIRO/Unicode-Collate-1.31.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/S/SA/SADAHIRO/Unicode-Collate-1.31.tar.gz"
+  ],
   "archive": "Unicode-Collate-1.31.tar.gz",
   "md5": "ee4d960d057c5e5b02ebb49d0286db8f",
   "size": "",

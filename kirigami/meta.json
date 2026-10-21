@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kirigami-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kirigami/kirigami-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kirigami/kirigami-6.29.0.tar.xz"
+  ],
   "archive": "kirigami-6.29.0.tar.xz",
   "md5": "e3ea9add856c983ae55a5e88675f5cd9",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 819,
+  "order": 820,
   "group_order": 43
 }

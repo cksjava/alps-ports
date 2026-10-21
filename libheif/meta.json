@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The libheif package is an HEIF and AVIF file format decoder and encoder.",
-  "download": "https://github.com/strukturag/libheif/releases/download/v1.23.1/libheif-1.23.1.tar.gz",
+  "download": [
+    "https://github.com/strukturag/libheif/releases/download/v1.23.1/libheif-1.23.1.tar.gz"
+  ],
   "archive": "libheif-1.23.1.tar.gz",
   "md5": "26fd31d0591ab927ef1a638de64cb2da",
   "size": "2.0 MB",

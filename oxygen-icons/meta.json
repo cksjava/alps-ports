@@ -7,7 +7,9 @@
   "group": "icons",
   "chapter": "Chapter 28. Icons",
   "summary": "The oxygen icons theme is a photo-realistic icon style, with a high standard of graphics quality.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/oxygen-icons-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/oxygen-icons-6.29.0.tar.xz"
+  ],
   "archive": "oxygen-icons-6.29.0.tar.xz",
   "md5": "cd2fc88992a0da5b7b9bd16288e2f36f",
   "size": "253 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 769,
+  "order": 770,
   "group_order": 9
 }

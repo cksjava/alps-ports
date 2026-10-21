@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The pySerial module encapsulates access to the serial port.",
-  "download": "https://files.pythonhosted.org/packages/source/p/pyserial/pyserial-3.5.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/p/pyserial/pyserial-3.5.tar.gz"
+  ],
   "archive": "pyserial-3.5.tar.gz",
   "md5": "1cf25a76da59b530dbfc2cf99392dc83",
   "size": "156 KB",

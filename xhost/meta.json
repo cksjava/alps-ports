@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xhost-1.0.10 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xhost-1.0.10.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xhost-1.0.10.tar.xz"
+  ],
   "archive": "xhost-1.0.10.tar.xz",
   "md5": "45c7e956941194e5f06a9c7307f5f971",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 650,
+  "order": 651,
   "group_order": 62
 }

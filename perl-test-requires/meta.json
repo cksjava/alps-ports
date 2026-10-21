@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Test::Requires module checks if another (optional) module can be loaded, and if not it skips all the current tests.",
-  "download": "https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Test-Requires-0.11.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Test-Requires-0.11.tar.gz"
+  ],
   "archive": "Test-Requires-0.11.tar.gz",
   "md5": "999d6c4e46ea7baae7a5113292e02ed8",
   "size": "",

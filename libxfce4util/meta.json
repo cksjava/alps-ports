@@ -7,7 +7,9 @@
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
   "summary": "The libxfce4util package is a basic utility library for the Xfce desktop environment.",
-  "download": "https://archive.xfce.org/src/xfce/libxfce4util/4.20/libxfce4util-4.20.1.tar.bz2",
+  "download": [
+    "https://archive.xfce.org/src/xfce/libxfce4util/4.20/libxfce4util-4.20.1.tar.bz2"
+  ],
   "archive": "libxfce4util-4.20.1.tar.bz2",
   "md5": "8e30b7735333f74d80c379e15d9da145",
   "size": "624 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 995,
+  "order": 996,
   "group_order": 0
 }

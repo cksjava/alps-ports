@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "Potrace™ is a tool for transforming a bitmap (PBM, PGM, PPM, or BMP format) into one of several vector file formats.",
-  "download": "https://downloads.sourceforge.net/potrace/potrace-1.16.tar.gz",
+  "download": [
+    "https://downloads.sourceforge.net/potrace/potrace-1.16.tar.gz"
+  ],
   "archive": "potrace-1.16.tar.gz",
   "md5": "5f0bd87ddd9a620b0c4e65652ef93d69",
   "size": "644 KB",

@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "font-adobe-100dpi-1.0.4 is built from the x7legacy page.",
-  "download": "https://www.x.org/pub/individual/font/font-adobe-100dpi-1.0.4.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/font/font-adobe-100dpi-1.0.4.tar.xz"
+  ],
   "archive": "font-adobe-100dpi-1.0.4.tar.xz",
   "md5": "20239f6f99ac586f10360b0759f73361",
   "size": "",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 699,
+  "order": 700,
   "group_order": 111
 }

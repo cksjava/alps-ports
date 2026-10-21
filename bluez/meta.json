@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The BlueZ package contains the Bluetooth protocol stack for Linux.",
-  "download": "https://www.kernel.org/pub/linux/bluetooth/bluez-5.87.tar.xz",
+  "download": [
+    "https://www.kernel.org/pub/linux/bluetooth/bluez-5.87.tar.xz"
+  ],
   "archive": "bluez-5.87.tar.xz",
   "md5": "6c6f8445ec3d2fa3cc570a671ccea9fa",
   "size": "2.3 MB",

@@ -7,7 +7,10 @@
   "group": "mail-news-clients",
   "chapter": "Chapter 19. Mail/News Clients",
   "summary": "The Procmail package contains an autonomous mail processor. This is useful for filtering and sorting incoming mail.",
-  "download": "https://github.com/BuGlessRB/procmail/archive/v3.24/procmail-3.24.tar.gz",
+  "download": [
+    "https://github.com/BuGlessRB/procmail/archive/v3.24/procmail-3.24.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/procmail-3.24-consolidated_fixes-1.patch"
+  ],
   "archive": "procmail-3.24.tar.gz",
   "md5": "e38b8739e5c6400e3586c5fd9810c1e0",
   "size": "296 KB",
@@ -16,6 +19,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 576,
+  "order": 577,
   "group_order": 3
 }

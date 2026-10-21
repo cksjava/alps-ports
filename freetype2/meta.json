@@ -7,7 +7,10 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The FreeType2 package contains a library which allows applications to properly render TrueType fonts.",
-  "download": "https://downloads.sourceforge.net/freetype/freetype-2.14.3.tar.xz",
+  "download": [
+    "https://downloads.sourceforge.net/freetype/freetype-2.14.3.tar.xz",
+    "https://downloads.sourceforge.net/freetype/freetype-doc-2.14.3.tar.xz"
+  ],
   "archive": "freetype-2.14.3.tar.xz",
   "md5": "a9a92aa403d7c1b4eed6ee452dc23305",
   "size": "2.1 MB",

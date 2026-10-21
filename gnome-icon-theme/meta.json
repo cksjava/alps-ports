@@ -7,7 +7,9 @@
   "group": "icons",
   "chapter": "Chapter 28. Icons",
   "summary": "The GNOME Icon Theme package contains an assortment of non-scalable icons of different sizes and themes.",
-  "download": "https://download.gnome.org/sources/gnome-icon-theme/3.12/gnome-icon-theme-3.12.0.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-icon-theme/3.12/gnome-icon-theme-3.12.0.tar.xz"
+  ],
   "archive": "gnome-icon-theme-3.12.0.tar.xz",
   "md5": "f14bed7f804e843189ffa7021141addd",
   "size": "17 MB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 762,
+  "order": 763,
   "group_order": 2
 }

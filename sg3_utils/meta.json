@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The sg3_utils package contains low level utilities for devices that use a SCSI command set. Apart from SCSI parallel interface (SPI) devices, the SCSI command set is used by ATAPI devices (CD/DVDs and tapes), USB mass storage devices, Fibre Channel disks, IEEE 1394 storage devices (that use the \"SBP\" protocol), SAS, iSCSI and FCoE devices (amongst others).",
-  "download": "https://sg.danny.cz/sg/p/sg3_utils-1.49.tar.gz",
+  "download": [
+    "https://sg.danny.cz/sg/p/sg3_utils-1.49.tar.gz"
+  ],
   "archive": "sg3_utils-1.49.tar.gz",
   "md5": "a829e4bcce2ffcde7827b63019fb0329",
   "size": "1.5 MB",

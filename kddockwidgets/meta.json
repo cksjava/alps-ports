@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "The KDDockWidgets package provides Qt dock widgets that are suitable for replacing QDockWidget and implementing advanced functionality that is missing from Qt.",
-  "download": "https://github.com/KDAB/KDDockWidgets/releases/download/v2.4.0/KDDockWidgets-2.4.0.tar.gz",
+  "download": [
+    "https://github.com/KDAB/KDDockWidgets/releases/download/v2.4.0/KDDockWidgets-2.4.0.tar.gz"
+  ],
   "archive": "KDDockWidgets-2.4.0.tar.gz",
   "md5": "6ad73ca8501c207d99116210054814aa",
   "size": "5.4 MB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 851,
+  "order": 852,
   "group_order": 3
 }

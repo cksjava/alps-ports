@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Encode::EUCJPASCII provides an eucJP-open (Extended Unix Code, Japanese) mapping.",
-  "download": "https://www.cpan.org/authors/id/N/NE/NEZUMI/Encode-EUCJPASCII-0.03.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/N/NE/NEZUMI/Encode-EUCJPASCII-0.03.tar.gz"
+  ],
   "archive": "Encode-EUCJPASCII-0.03.tar.gz",
   "md5": "5daa65f55b7c2050bb0713d9e95f239d",
   "size": "",

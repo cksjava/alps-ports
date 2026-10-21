@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The maturin module provides a build system for rust binaries and crates generated from Python packages.",
-  "download": "https://github.com/PyO3/maturin/archive/v1.14.1/maturin-1.14.1.tar.gz",
+  "download": [
+    "https://github.com/PyO3/maturin/archive/v1.14.1/maturin-1.14.1.tar.gz"
+  ],
   "archive": "maturin-1.14.1.tar.gz",
   "md5": "ed60ce01916c36311fa8752b7af00b67",
   "size": "759 KB",

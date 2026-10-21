@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The utfcpp package contains a set of include files to provide UTF-8 with C++ in a Portable Way.",
-  "download": "https://github.com/nemtrif/utfcpp/archive/v4.1.1/utfcpp-4.1.1.tar.gz",
+  "download": [
+    "https://github.com/nemtrif/utfcpp/archive/v4.1.1/utfcpp-4.1.1.tar.gz"
+  ],
   "archive": "utfcpp-4.1.1.tar.gz",
   "md5": "2b439bf8f222cd85bac0d2603265a246",
   "size": "36 KB",

@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The zxing-cpp package provides an open-source, multi-format linear/matrix barcode image processing library.",
-  "download": "https://github.com/zxing-cpp/zxing-cpp/releases/download/v3.1.1/zxing-cpp-3.1.1.tar.gz",
+  "download": [
+    "https://github.com/zxing-cpp/zxing-cpp/releases/download/v3.1.1/zxing-cpp-3.1.1.tar.gz"
+  ],
   "archive": "zxing-cpp-3.1.1.tar.gz",
   "md5": "40092c87b4a87b2f46a54d1371866966",
   "size": "1.6 MB",

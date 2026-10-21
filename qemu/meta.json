@@ -7,7 +7,9 @@
   "group": "virtualization",
   "chapter": "Chapter 8. Virtualization",
   "summary": "qemu is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V).",
-  "download": "https://download.qemu.org/qemu-11.1.1.tar.xz",
+  "download": [
+    "https://download.qemu.org/qemu-11.1.1.tar.xz"
+  ],
   "archive": "qemu-11.1.1.tar.xz",
   "md5": "184466ea9d0a59e0da2c9a728e91aac1",
   "size": "135 MB",

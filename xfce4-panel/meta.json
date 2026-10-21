@@ -7,7 +7,9 @@
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
   "summary": "The Xfce4 Panel package contains the Xfce4 Panel.",
-  "download": "https://archive.xfce.org/src/xfce/xfce4-panel/4.20/xfce4-panel-4.20.8.tar.bz2",
+  "download": [
+    "https://archive.xfce.org/src/xfce/xfce4-panel/4.20/xfce4-panel-4.20.8.tar.bz2"
+  ],
   "archive": "xfce4-panel-4.20.8.tar.bz2",
   "md5": "c4c7919a07c2c48cffea7a608ea86803",
   "size": "2.3 MB",
@@ -22,6 +24,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1003,
+  "order": 1004,
   "group_order": 8
 }

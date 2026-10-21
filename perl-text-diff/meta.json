@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Text::Diff performs diffs on files and record sets.",
-  "download": "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Text-Diff-1.45.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Text-Diff-1.45.tar.gz"
+  ],
   "archive": "Text-Diff-1.45.tar.gz",
   "md5": "edf57b6189f7651a6be454062a4e6d9c",
   "size": "",

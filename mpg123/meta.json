@@ -7,7 +7,9 @@
   "group": "audio-utilities",
   "chapter": "Chapter 43. Audio Utilities",
   "summary": "The mpg123 package contains a console-based MP3 player. It claims to be the fastest MP3 decoder for Unix.",
-  "download": "https://downloads.sourceforge.net/mpg123/mpg123-1.33.7.tar.bz2",
+  "download": [
+    "https://downloads.sourceforge.net/mpg123/mpg123-1.33.7.tar.bz2"
+  ],
   "archive": "mpg123-1.33.7.tar.bz2",
   "md5": "46ceab9bfb0f04e739f010b88de5943d",
   "size": "1.1 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1149,
+  "order": 1150,
   "group_order": 4
 }

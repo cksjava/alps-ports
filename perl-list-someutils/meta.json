@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "List::SomeUtils provides the stuff missing in List::Util.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-0.59.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/List-SomeUtils-0.59.tar.gz"
+  ],
   "archive": "List-SomeUtils-0.59.tar.gz",
   "md5": "333b4adb2907deff2be8da5899881453",
   "size": "",

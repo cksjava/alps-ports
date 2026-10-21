@@ -7,7 +7,9 @@
   "group": "other-x-based-programs",
   "chapter": "Chapter 41. Other X-based Programs",
   "summary": "The FontForge package contains an outline font editor that lets you create your own postscript, truetype, opentype, cid-keyed, multi-master, cff, svg and bitmap (bdf, FON, NFNT) fonts, or edit existing ones.",
-  "download": "https://github.com/fontforge/fontforge/releases/download/20251009/fontforge-20251009.tar.xz",
+  "download": [
+    "https://github.com/fontforge/fontforge/releases/download/20251009/fontforge-20251009.tar.xz"
+  ],
   "archive": "fontforge-20251009.tar.xz",
   "md5": "9407db5126f937618f1f5f1f9ee8aab2",
   "size": "13 MB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1070,
+  "order": 1071,
   "group_order": 2
 }

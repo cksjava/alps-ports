@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Text::Roman allows conversion between Roman and Arabic algorisms (number systems, e.g. MCMXLV and 1945).",
-  "download": "https://www.cpan.org/authors/id/S/SY/SYP/Text-Roman-3.5.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/S/SY/SYP/Text-Roman-3.5.tar.gz"
+  ],
   "archive": "Text-Roman-3.5.tar.gz",
   "md5": "1f6b09c0cc1f4425b565ff787a39fd83",
   "size": "",

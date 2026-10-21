@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The Wayland-Protocols package contains additional Wayland protocols that add functionality outside of protocols already in the Wayland core.",
-  "download": "https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/1.49/downloads/wayland-protocols-1.49.tar.xz",
+  "download": [
+    "https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/1.49/downloads/wayland-protocols-1.49.tar.xz"
+  ],
   "archive": "wayland-protocols-1.49.tar.xz",
   "md5": "5685f769a227f2d4143d983ad07edaba",
   "size": "148 KB",

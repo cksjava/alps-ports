@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Eval::Closure safely and cleanly creates closures via string eval.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DO/DOY/Eval-Closure-0.14.tar.gz"
+  ],
   "archive": "Eval-Closure-0.14.tar.gz",
   "md5": "ceeb1fc579ac9af981fa6b600538c285",
   "size": "",

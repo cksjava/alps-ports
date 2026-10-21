@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xset-1.2.6 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xset-1.2.6.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xset-1.2.6.tar.xz"
+  ],
   "archive": "xset-1.2.6.tar.xz",
   "md5": "95fcb2ae70ee7e7ef7fe70b096b3d254",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 665,
+  "order": 666,
   "group_order": 77
 }

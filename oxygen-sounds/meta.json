@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "oxygen-sounds-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/oxygen-sounds/oxygen-sounds-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/oxygen-sounds/oxygen-sounds-6.7.4.tar.xz"
+  ],
   "archive": "oxygen-sounds-6.7.4.tar.xz",
   "md5": "a3673682283357c8f04e89606af11d93",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 920,
+  "order": 921,
   "group_order": 54
 }

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "lxml provides Python bindings for libxslt-1.1.45 and libxml2-2.15.3 .",
-  "download": "https://files.pythonhosted.org/packages/source/l/lxml/lxml-6.1.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/l/lxml/lxml-6.1.1.tar.gz"
+  ],
   "archive": "lxml-6.1.1.tar.gz",
   "md5": "6bbd3674ecba1340b08c9180afef1829",
   "size": "4.1 MB",

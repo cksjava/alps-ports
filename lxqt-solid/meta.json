@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "Solid is a device integration framework. It provides a way of querying and interacting with hardware independently of the underlying operating system.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/solid-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/solid-6.29.0.tar.xz"
+  ],
   "archive": "solid-6.29.0.tar.xz",
   "md5": "7098fdaa4c55a369813a70a2c952a7cc",
   "size": "311 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1021,
+  "order": 1022,
   "group_order": 2
 }

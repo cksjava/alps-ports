@@ -7,7 +7,9 @@
   "group": "printing",
   "chapter": "Chapter 46. Printing",
   "summary": "The libcupsfilters library contains filter functions for the data format conversion tasks needed in Printer Applications. It also contains several API functions for developing printer drivers/Printer Applications.",
-  "download": "https://github.com/OpenPrinting/libcupsfilters/releases/download/2.1.1/libcupsfilters-2.1.1.tar.xz",
+  "download": [
+    "https://github.com/OpenPrinting/libcupsfilters/releases/download/2.1.1/libcupsfilters-2.1.1.tar.xz"
+  ],
   "archive": "libcupsfilters-2.1.1.tar.xz",
   "md5": "1e3144c242e7ddcee112d41c79266885",
   "size": "1.4 MB",
@@ -25,6 +27,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1168,
+  "order": 1169,
   "group_order": 5
 }

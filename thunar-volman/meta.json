@@ -7,7 +7,9 @@
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
   "summary": "The Thunar Volume Manager is an extension for the Thunar file manager, which enables automatic management of removable drives and media.",
-  "download": "https://archive.xfce.org/src/xfce/thunar-volman/4.20/thunar-volman-4.20.0.tar.bz2",
+  "download": [
+    "https://archive.xfce.org/src/xfce/thunar-volman/4.20/thunar-volman-4.20.0.tar.bz2"
+  ],
   "archive": "thunar-volman-4.20.0.tar.bz2",
   "md5": "34c8e0af77ea3894db7e3d164998f9bf",
   "size": "624 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1005,
+  "order": 1006,
   "group_order": 10
 }

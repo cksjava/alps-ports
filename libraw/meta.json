@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "Libraw is a library for reading RAW files obtained from digital cameras (CRW/CR2, NEF, RAF, DNG, and others).",
-  "download": "https://www.libraw.org/data/LibRaw-0.22.2.tar.gz",
+  "download": [
+    "https://www.libraw.org/data/LibRaw-0.22.2.tar.gz"
+  ],
   "archive": "LibRaw-0.22.2.tar.gz",
   "md5": "18b348b6c461d92fac7fd991c816b50a",
   "size": "1.7 MB",

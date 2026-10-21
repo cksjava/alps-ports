@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Setuptools_scm package is used to extract Python package versions from git or hg metadata instead of declaring them.",
-  "download": "https://files.pythonhosted.org/packages/source/s/setuptools_scm/setuptools_scm-10.1.2.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/s/setuptools_scm/setuptools_scm-10.1.2.tar.gz"
+  ],
   "archive": "setuptools_scm-10.1.2.tar.gz",
   "md5": "fc7dfeae0b61636e3705547acc9f3276",
   "size": "68 KB",

@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "The ISO Codes package contains a list of country, language and currency names and it is used as a central database for accessing this data.",
-  "download": "https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v4.20.1/iso-codes-v4.20.1.tar.gz",
+  "download": [
+    "https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v4.20.1/iso-codes-v4.20.1.tar.gz"
+  ],
   "archive": "iso-codes-v4.20.1.tar.gz",
   "md5": "a8f16a62662ec13e55ca255a7c036ee3",
   "size": "16 MB",

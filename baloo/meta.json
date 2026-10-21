@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "baloo-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/baloo/baloo-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/baloo/baloo-6.29.0.tar.xz"
+  ],
   "archive": "baloo-6.29.0.tar.xz",
   "md5": "5b6c49bc217f4450dfee982188621f90",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 832,
+  "order": 833,
   "group_order": 56
 }

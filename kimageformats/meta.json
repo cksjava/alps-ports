@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kimageformats-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kimageformats/kimageformats-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kimageformats/kimageformats-6.29.0.tar.xz"
+  ],
   "archive": "kimageformats-6.29.0.tar.xz",
   "md5": "791f33fe494e4295e411b3ecd5920015",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 787,
+  "order": 788,
   "group_order": 11
 }

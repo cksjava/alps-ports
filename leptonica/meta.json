@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "The leptonica package provides software that is broadly useful for image processing and image analysis applications.",
-  "download": "https://github.com/DanBloomberg/leptonica/releases/download/1.87.0/leptonica-1.87.0.tar.gz",
+  "download": [
+    "https://github.com/DanBloomberg/leptonica/releases/download/1.87.0/leptonica-1.87.0.tar.gz"
+  ],
   "archive": "leptonica-1.87.0.tar.gz",
   "md5": "d523d2c883b71850a46af2517d8915bf",
   "size": "14 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 872,
+  "order": 873,
   "group_order": 6
 }

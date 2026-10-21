@@ -7,7 +7,10 @@
   "group": "other-server-software",
   "chapter": "Chapter 23. Other Server Software",
   "summary": "The OpenLDAP package provides an open source implementation of the Lightweight Directory Access Protocol.",
-  "download": "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.7.0.tgz",
+  "download": [
+    "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.7.0.tgz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/openldap-2.7.0-consolidated-1.patch"
+  ],
   "archive": "openldap-2.7.0.tgz",
   "md5": "fcb40191baba83c1f237d79f85835283",
   "size": "6.2 MB",
@@ -16,6 +19,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 587,
+  "order": 588,
   "group_order": 0
 }

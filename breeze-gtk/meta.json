@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "breeze-gtk-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/breeze-gtk/breeze-gtk-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/breeze-gtk/breeze-gtk-6.7.4.tar.xz"
+  ],
   "archive": "breeze-gtk-6.7.4.tar.xz",
   "md5": "a6501aa2fbd1b520e3cdb3122e7f3a60",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 878,
+  "order": 879,
   "group_order": 12
 }

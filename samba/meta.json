@@ -7,7 +7,9 @@
   "group": "networking-programs",
   "chapter": "Chapter 15. Networking Programs",
   "summary": "The Samba package provides file and print services to SMB/CIFS clients and Windows networking to Linux clients. Samba can also be configured as a Windows Domain Controller replacement, a file/print server acting as a member of a Windows Active Directory domain and a NetBIOS (RFC1001/1002) nameserver (which among other things provides LAN browsing support).",
-  "download": "https://download.samba.org/pub/samba/stable/samba-4.24.6.tar.gz",
+  "download": [
+    "https://download.samba.org/pub/samba/stable/samba-4.24.6.tar.gz"
+  ],
   "archive": "samba-4.24.6.tar.gz",
   "md5": "7b5ede4bc9fe86378e7fb6975f1f1469",
   "size": "41 MB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 536,
+  "order": 537,
   "group_order": 7
 }

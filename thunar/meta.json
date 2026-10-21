@@ -7,7 +7,9 @@
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
   "summary": "Thunar is the Xfce file manager, a GTK+ 3 GUI to organise the files on your computer.",
-  "download": "https://archive.xfce.org/src/xfce/thunar/4.20/thunar-4.20.9.tar.bz2",
+  "download": [
+    "https://archive.xfce.org/src/xfce/thunar/4.20/thunar-4.20.9.tar.bz2"
+  ],
   "archive": "thunar-4.20.9.tar.bz2",
   "md5": "7d6daadb0c241ebfaed2684950a67f74",
   "size": "4.5 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1004,
+  "order": 1005,
   "group_order": 9
 }

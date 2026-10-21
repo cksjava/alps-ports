@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "The corrosion package is a tool for integrating rustc into an existing CMake project.",
-  "download": "https://github.com/corrosion-rs/corrosion/archive/v0.6.1/corrosion-0.6.1.tar.gz",
+  "download": [
+    "https://github.com/corrosion-rs/corrosion/archive/v0.6.1/corrosion-0.6.1.tar.gz"
+  ],
   "archive": "corrosion-0.6.1.tar.gz",
   "md5": "060ee79a6bf7c5a2e4e810370fbb7b61",
   "size": "104 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 871,
+  "order": 872,
   "group_order": 5
 }

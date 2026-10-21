@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The VTE package contains a virtual terminal widget for GTK applications.",
-  "download": "https://gitlab.gnome.org/GNOME/vte/-/archive/0.84.1/vte-0.84.1.tar.gz",
+  "download": [
+    "https://gitlab.gnome.org/GNOME/vte/-/archive/0.84.1/vte-0.84.1.tar.gz"
+  ],
   "archive": "vte-0.84.1.tar.gz",
   "md5": "9733f0218f72051999e42725fe5fbaa8",
   "size": "856 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 938,
+  "order": 939,
   "group_order": 6
 }

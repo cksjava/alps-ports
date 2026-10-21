@@ -7,7 +7,9 @@
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
   "summary": "The libxfce4ui package contains GTK+ 3 widgets that are used by other Xfce applications.",
-  "download": "https://archive.xfce.org/src/xfce/libxfce4ui/4.20/libxfce4ui-4.20.2.tar.bz2",
+  "download": [
+    "https://archive.xfce.org/src/xfce/libxfce4ui/4.20/libxfce4ui-4.20.2.tar.bz2"
+  ],
   "archive": "libxfce4ui-4.20.2.tar.bz2",
   "md5": "ce54074a9ed7964b4a3274e8ac74d949",
   "size": "1.1 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 997,
+  "order": 998,
   "group_order": 2
 }

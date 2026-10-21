@@ -7,7 +7,9 @@
   "group": "cd-dvd-writing-utilities",
   "chapter": "Chapter 45. CD/DVD-Writing Utilities",
   "summary": "libburn is a library for writing preformatted data onto optical media: CD, DVD and BD (Blu-Ray).",
-  "download": "https://files.libburnia-project.org/releases/libburn-1.5.8.tar.gz",
+  "download": [
+    "https://files.libburnia-project.org/releases/libburn-1.5.8.tar.gz"
+  ],
   "archive": "libburn-1.5.8.tar.gz",
   "md5": "4c8c786e88eb3e9f7c1d0ddc4d4a39e7",
   "size": "984 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1160,
+  "order": 1161,
   "group_order": 3
 }

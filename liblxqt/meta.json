@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The liblxqt is the core utility library for all LXQt components.",
-  "download": "https://github.com/lxqt/liblxqt/releases/download/2.4.0/liblxqt-2.4.0.tar.xz",
+  "download": [
+    "https://github.com/lxqt/liblxqt/releases/download/2.4.0/liblxqt-2.4.0.tar.xz"
+  ],
   "archive": "liblxqt-2.4.0.tar.xz",
   "md5": "daa81b9deda0ac4c37ab3ec914bae82b",
   "size": "92 KB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1031,
+  "order": 1032,
   "group_order": 12
 }

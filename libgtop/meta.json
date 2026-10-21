@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The libgtop package contains a library for accessing system performance data.",
-  "download": "https://download.gnome.org/sources/libgtop/2.41/libgtop-2.41.3.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/libgtop/2.41/libgtop-2.41.3.tar.xz"
+  ],
   "archive": "libgtop-2.41.3.tar.xz",
   "md5": "465db9f4f695c298d9c48dcf7f32a9c0",
   "size": "740 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 947,
+  "order": 948,
   "group_order": 15
 }

@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libpciaccess-0.19 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libpciaccess-0.19.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libpciaccess-0.19.tar.xz"
+  ],
   "archive": "libpciaccess-0.19.tar.xz",
   "md5": "0c11ea502b531e59563a9aa7979146fc",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 622,
+  "order": 623,
   "group_order": 34
 }

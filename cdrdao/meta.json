@@ -7,7 +7,9 @@
   "group": "cd-dvd-writing-utilities",
   "chapter": "Chapter 45. CD/DVD-Writing Utilities",
   "summary": "The Cdrdao package contains CD recording utilities. These are useful for burning a CD in disk-at-once mode.",
-  "download": "https://downloads.sourceforge.net/cdrdao/cdrdao-1.2.6.tar.bz2",
+  "download": [
+    "https://downloads.sourceforge.net/cdrdao/cdrdao-1.2.6.tar.bz2"
+  ],
   "archive": "cdrdao-1.2.6.tar.bz2",
   "md5": "f59689d847d56647187d4de487e3487d",
   "size": "832 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1157,
+  "order": 1158,
   "group_order": 0
 }

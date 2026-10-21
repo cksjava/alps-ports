@@ -7,7 +7,9 @@
   "group": "cd-dvd-writing-utilities",
   "chapter": "Chapter 45. CD/DVD-Writing Utilities",
   "summary": "libisofs is a library to create an ISO-9660 filesystem with extensions like RockRidge or Joliet.",
-  "download": "https://files.libburnia-project.org/releases/libisofs-1.5.8.pl02.tar.gz",
+  "download": [
+    "https://files.libburnia-project.org/releases/libisofs-1.5.8.pl02.tar.gz"
+  ],
   "archive": "libisofs-1.5.8.pl02.tar.gz",
   "md5": "48150014510f8e65de66cb687ff63957",
   "size": "884 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1162,
+  "order": 1163,
   "group_order": 5
 }

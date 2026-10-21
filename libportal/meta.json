@@ -7,7 +7,10 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libportal package provides a library that contains GIO-style async APIs for most Flatpak portals.",
-  "download": "https://github.com/flatpak/libportal/releases/download/0.9.1/libportal-0.9.1.tar.xz",
+  "download": [
+    "https://github.com/flatpak/libportal/releases/download/0.9.1/libportal-0.9.1.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/libportal-0.9.1-qt6.9_fixes-1.patch"
+  ],
   "archive": "libportal-0.9.1.tar.xz",
   "md5": "0c63ee25d2e2986ce4df544fe8149046",
   "size": "108 KB",

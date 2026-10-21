@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The GNOME Control Center package contains the GNOME settings manager.",
-  "download": "https://download.gnome.org/sources/gnome-control-center/50/gnome-control-center-50.4.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-control-center/50/gnome-control-center-50.4.tar.xz"
+  ],
   "archive": "gnome-control-center-50.4.tar.xz",
   "md5": "47918b0fd914e9d90b34f1e3ab783962",
   "size": "6.8 MB",
@@ -35,6 +37,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 966,
+  "order": 967,
   "group_order": 34
 }

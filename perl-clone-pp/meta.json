@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Clone:PP recursively copies Perl datatypes, allowing for a deep copy of a given Perl data structure.",
-  "download": "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Clone-PP-1.08.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/N/NE/NEILB/Clone-PP-1.08.tar.gz"
+  ],
   "archive": "Clone-PP-1.08.tar.gz",
   "md5": "62f9547aec61768af85b00bd2c3e5547",
   "size": "",

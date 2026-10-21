@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "DateTime::Format::Strptime implements most of strptime(3) , i.e. it takes a string and a pattern and returns a DateTime object.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Strptime-1.80.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Strptime-1.80.tar.gz"
+  ],
   "archive": "DateTime-Format-Strptime-1.80.tar.gz",
   "md5": "574119fab01ef37082c002d237140009",
   "size": "",

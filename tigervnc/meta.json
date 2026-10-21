@@ -7,7 +7,11 @@
   "group": "other-x-based-programs",
   "chapter": "Chapter 41. Other X-based Programs",
   "summary": "Tigervnc is an advanced VNC (Virtual Network Computing) implementation. It allows creation of an Xorg server not tied to a physical console and also provides a client for viewing of the remote graphical desktop.",
-  "download": "https://github.com/TigerVNC/tigervnc/archive/v1.16.2/tigervnc-1.16.2.tar.gz",
+  "download": [
+    "https://github.com/TigerVNC/tigervnc/archive/v1.16.2/tigervnc-1.16.2.tar.gz",
+    "https://www.x.org/pub/individual/xserver/xorg-server-21.1.24.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/tigervnc-1.16.2-configuration_fixes-1.patch"
+  ],
   "archive": "tigervnc-1.16.2.tar.gz",
   "md5": "61c6b4af2bc925c7ef4110b8a52d3d2f",
   "size": "2.1 MB",
@@ -28,6 +32,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1077,
+  "order": 1078,
   "group_order": 9
 }

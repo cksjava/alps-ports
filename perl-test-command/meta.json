@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Test::Command tests the exit status, STDOUT, or STDERR, of an external command.",
-  "download": "https://www.cpan.org/authors/id/D/DA/DANBOO/Test-Command-0.11.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/D/DA/DANBOO/Test-Command-0.11.tar.gz"
+  ],
   "archive": "Test-Command-0.11.tar.gz",
   "md5": "9ab83c4695961dbe92cd86efe08f0634",
   "size": "",

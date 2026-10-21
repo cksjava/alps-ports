@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "The Bogofilter application is a mail filter that classifies mail as spam or ham (non-spam) by a statistical analysis of the message's header and content (body).",
-  "download": "https://downloads.sourceforge.net/bogofilter/bogofilter-1.2.5.tar.xz",
+  "download": [
+    "https://downloads.sourceforge.net/bogofilter/bogofilter-1.2.5.tar.xz"
+  ],
   "archive": "bogofilter-1.2.5.tar.xz",
   "md5": "8763f87adfff7b802ced177d8c654539",
   "size": "784 KB",

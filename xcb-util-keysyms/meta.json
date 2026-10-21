@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xcb-util-keysyms-0.4.1 is built from the xcb-utilities page.",
-  "download": "https://xorg.freedesktop.org/archive/individual/lib/xcb-util-keysyms-0.4.1.tar.xz",
+  "download": [
+    "https://xorg.freedesktop.org/archive/individual/lib/xcb-util-keysyms-0.4.1.tar.xz"
+  ],
   "archive": "xcb-util-keysyms-0.4.1.tar.xz",
   "md5": "fbdc05f86f72f287ed71b162f1a9725a",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 630,
+  "order": 631,
   "group_order": 42
 }

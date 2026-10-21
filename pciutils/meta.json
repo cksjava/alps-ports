@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The PCI Utils package contains a set of programs for listing PCI devices, inspecting their status and setting their configuration registers.",
-  "download": "https://mj.ucw.cz/download/linux/pci/pciutils-3.15.0.tar.gz",
+  "download": [
+    "https://mj.ucw.cz/download/linux/pci/pciutils-3.15.0.tar.gz"
+  ],
   "archive": "pciutils-3.15.0.tar.gz",
   "md5": "20b8e936cce9784444961088c8801f68",
   "size": "724 KB",

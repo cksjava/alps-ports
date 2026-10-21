@@ -7,7 +7,9 @@
   "group": "networking-programs",
   "chapter": "Chapter 15. Networking Programs",
   "summary": "WPA Supplicant is a Wi-Fi Protected Access (WPA) client and IEEE 802.1X supplicant. It implements WPA key negotiation with a WPA Authenticator and Extensible Authentication Protocol (EAP) authentication with an Authentication Server. In addition, it controls the roaming and IEEE 802.11 authentication/association of the wireless LAN driver. This is useful for connecting to a password protected wireless access point.",
-  "download": "https://w1.fi/releases/wpa_supplicant-2.12.tar.gz",
+  "download": [
+    "https://w1.fi/releases/wpa_supplicant-2.12.tar.gz"
+  ],
   "archive": "wpa_supplicant-2.12.tar.gz",
   "md5": "3f1af56655ebca941d2035358331bbc9",
   "size": "4.1 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 540,
+  "order": 541,
   "group_order": 11
 }

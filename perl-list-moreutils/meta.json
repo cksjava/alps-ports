@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "List::MoreUtils provides the stuff missing in List::Util.",
-  "download": "https://www.cpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-0.430.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-0.430.tar.gz"
+  ],
   "archive": "List-MoreUtils-0.430.tar.gz",
   "md5": "daccd6310021231b827dcc943ff1c6b7",
   "size": "",

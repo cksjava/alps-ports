@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The libmng libraries are used by programs wanting to read and write Multiple-image Network Graphics (MNG) files which are the animation equivalents to PNG files.",
-  "download": "https://downloads.sourceforge.net/libmng/libmng-2.0.3.tar.xz",
+  "download": [
+    "https://downloads.sourceforge.net/libmng/libmng-2.0.3.tar.xz"
+  ],
   "archive": "libmng-2.0.3.tar.xz",
   "md5": "e9e899adb1b681b17f14d91e261878c5",
   "size": "932 KB",

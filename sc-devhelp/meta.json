@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Sphinxcontrib-devhelp package is a Sphinx extension which outputs Devhelp documents.",
-  "download": "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-devhelp/sphinxcontrib_devhelp-2.0.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-devhelp/sphinxcontrib_devhelp-2.0.0.tar.gz"
+  ],
   "archive": "sphinxcontrib_devhelp-2.0.0.tar.gz",
   "md5": "79ef5937b8397f724f4fb065073cd24c",
   "size": "16 KB",

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Asciidoc package is a text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, and man page.",
-  "download": "https://files.pythonhosted.org/packages/source/a/asciidoc/asciidoc-10.2.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/a/asciidoc/asciidoc-10.2.1.tar.gz"
+  ],
   "archive": "asciidoc-10.2.1.tar.gz",
   "md5": "460824075b51381a4b5f478c60a18165",
   "size": "228 KB",

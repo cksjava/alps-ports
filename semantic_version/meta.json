@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The semantic_version module brings a small library to handle the standard for Semantic Versioning in Python.",
-  "download": "https://files.pythonhosted.org/packages/source/s/semantic_version/semantic_version-2.10.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/s/semantic_version/semantic_version-2.10.0.tar.gz"
+  ],
   "archive": "semantic_version-2.10.0.tar.gz",
   "md5": "e48abef93ba69abcd4eaf4640edfc38b",
   "size": "52 KB",

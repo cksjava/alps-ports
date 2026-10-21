@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Typogrify provides filters to enhance web typography, including support for Django and Jinja templates.",
-  "download": "https://files.pythonhosted.org/packages/source/t/typogrify/typogrify-2.1.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/t/typogrify/typogrify-2.1.0.tar.gz"
+  ],
   "archive": "typogrify-2.1.0.tar.gz",
   "md5": "7cc9a0a1de988329add3982519dc7971",
   "size": "13 KB",

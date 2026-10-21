@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The certifi module provides Mozilla’s carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts.",
-  "download": "https://files.pythonhosted.org/packages/source/c/certifi/certifi-2026.6.17.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/c/certifi/certifi-2026.6.17.tar.gz"
+  ],
   "archive": "certifi-2026.6.17.tar.gz",
   "md5": "1af47cd1635599db1f2e598ae6c4d751",
   "size": "132 KB",

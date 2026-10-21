@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Module::Build allows perl modules to be built without a make command being present.",
-  "download": "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-0.4234.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-0.4234.tar.gz"
+  ],
   "archive": "Module-Build-0.4234.tar.gz",
   "md5": "0032d0c0bc36a3b68ef41c947829d5e3",
   "size": "",

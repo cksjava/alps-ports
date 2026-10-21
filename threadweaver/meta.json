@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "threadweaver-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/threadweaver/threadweaver-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/threadweaver/threadweaver-6.29.0.tar.xz"
+  ],
   "archive": "threadweaver-6.29.0.tar.xz",
   "md5": "3e14a2b5cb689cc9583f4d9838e2c1e2",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 796,
+  "order": 797,
   "group_order": 20
 }

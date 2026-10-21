@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Path::Tiny provides a small fast utility for working with file paths.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.150.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Path-Tiny-0.150.tar.gz"
+  ],
   "archive": "Path-Tiny-0.150.tar.gz",
   "md5": "7126ad3d5c14a32a5f4bde0054f57449",
   "size": "",

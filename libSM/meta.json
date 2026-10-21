@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libSM-1.2.6 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libSM-1.2.6.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libSM-1.2.6.tar.xz"
+  ],
   "archive": "libSM-1.2.6.tar.xz",
   "md5": "3aeeea05091db1c69e6f768e0950a431",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 599,
+  "order": 600,
   "group_order": 11
 }

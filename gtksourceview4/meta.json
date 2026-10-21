@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The GtkSourceView package contains libraries used for extending the GTK+ text functions to include syntax highlighting.",
-  "download": "https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz"
+  ],
   "archive": "gtksourceview-4.8.4.tar.xz",
   "md5": "2bf056caaae27654ec3a5930dd5597d3",
   "size": "1.1 MB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 728,
+  "order": 729,
   "group_order": 20
 }

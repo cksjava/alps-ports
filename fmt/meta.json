@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The fmt package is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.",
-  "download": "https://github.com/fmtlib/fmt/archive/12.2.0/fmt-12.2.0.tar.gz",
+  "download": [
+    "https://github.com/fmtlib/fmt/archive/12.2.0/fmt-12.2.0.tar.gz"
+  ],
   "archive": "fmt-12.2.0.tar.gz",
   "md5": "7be257d8bfad55bc9eabb1288ad895be",
   "size": "724 KB",

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Specio provides classes for representing type constraints and coercion, along with syntax sugar for declaring them.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Specio-0.53.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Specio-0.53.tar.gz"
+  ],
   "archive": "Specio-0.53.tar.gz",
   "md5": "2665608c5ca3d502146bfe9207831838",
   "size": "",

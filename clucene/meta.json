@@ -7,7 +7,10 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "CLucene is a C++ version of Lucene, a high performance text search engine.",
-  "download": "https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz",
+  "download": [
+    "https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/clucene-2.3.3.4-contribs_lib-1.patch"
+  ],
   "archive": "clucene-core-2.3.3.4.tar.gz",
   "md5": "48d647fbd8ef8889e5a7f422c1bfda94",
   "size": "2.2 MB",

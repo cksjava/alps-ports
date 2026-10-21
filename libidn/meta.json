@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "libidn is a package designed for internationalized string handling based on the Stringprep , Punycode and IDNA specifications defined by the Internet Engineering Task Force (IETF) Internationalized Domain Names (IDN) working group, used for internationalized domain names. This is useful for converting data from the system's native representation into UTF-8, transforming Unicode strings into ASCII strings, allowing applications to use certain ASCII name labels (beginning with a special prefix) to represent non-ASCII name labels, and converting entire domain names to and from the ASCII Compatible Encoding (ACE) form.",
-  "download": "https://ftpmirror.gnu.org/libidn/libidn-1.44.tar.gz",
+  "download": [
+    "https://ftpmirror.gnu.org/libidn/libidn-1.44.tar.gz"
+  ],
   "archive": "libidn-1.44.tar.gz",
   "md5": "4ee07cf7f960679b2872d5c15c0a5ed5",
   "size": "2.5 MB",

@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The GtkSourceView package contains libraries used for extending the GTK+ text functions to include syntax highlighting.",
-  "download": "https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.11.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.11.tar.xz"
+  ],
   "archive": "gtksourceview-3.24.11.tar.xz",
   "md5": "b748da426a7d64e1304f0c532b0f2a67",
   "size": "1.4 MB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 727,
+  "order": 728,
   "group_order": 19
 }

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Data::Compare module compares two perl data structures.",
-  "download": "https://www.cpan.org/authors/id/D/DC/DCANTRELL/Data-Compare-1.29.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/D/DC/DCANTRELL/Data-Compare-1.29.tar.gz"
+  ],
   "archive": "Data-Compare-1.29.tar.gz",
   "md5": "ce9cb42ba6af634f5ab51f13f37e2ddb",
   "size": "",

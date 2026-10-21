@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "libkscreen-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/libkscreen/libkscreen-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/libkscreen/libkscreen-6.7.4.tar.xz"
+  ],
   "archive": "libkscreen-6.7.4.tar.xz",
   "md5": "227422d0896d13924d99a74707b3e05c",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 875,
+  "order": 876,
   "group_order": 9
 }

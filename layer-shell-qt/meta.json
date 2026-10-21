@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "layer-shell-qt-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/layer-shell-qt/layer-shell-qt-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/layer-shell-qt/layer-shell-qt-6.7.4.tar.xz"
+  ],
   "archive": "layer-shell-qt-6.7.4.tar.xz",
   "md5": "34f89e74bc586c7e280ac512f8474691",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 879,
+  "order": 880,
   "group_order": 13
 }

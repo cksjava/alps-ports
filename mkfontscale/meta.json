@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "mkfontscale-1.2.4 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/mkfontscale-1.2.4.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/mkfontscale-1.2.4.tar.xz"
+  ],
   "archive": "mkfontscale-1.2.4.tar.xz",
   "md5": "83d943bbb0e3ab868cb0a7438e135544",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 639,
+  "order": 640,
   "group_order": 51
 }

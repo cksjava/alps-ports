@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "breeze-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/breeze/breeze-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/breeze/breeze-6.7.4.tar.xz"
+  ],
   "archive": "breeze-6.7.4.tar.xz",
   "md5": "b5684af3d9c5f65056ce4b64e0c59a3c",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 877,
+  "order": 878,
   "group_order": 11
 }

@@ -7,7 +7,9 @@
   "group": "major-servers",
   "chapter": "Chapter 20. Major Servers",
   "summary": "The ISC Kea package contains the server programs for DHCP. This is the successor of the old ISC DHCP server which went out of support in December 2022.",
-  "download": "https://downloads.isc.org/isc/kea/3.0.2/kea-3.0.2.tar.xz",
+  "download": [
+    "https://downloads.isc.org/isc/kea/3.0.2/kea-3.0.2.tar.xz"
+  ],
   "archive": "kea-3.0.2.tar.xz",
   "md5": "a673e95637b708b3b1926c696cdf168b",
   "size": "6.3 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 579,
+  "order": 580,
   "group_order": 2
 }

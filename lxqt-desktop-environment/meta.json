@@ -7,7 +7,7 @@
   "group": "meta",
   "chapter": "",
   "summary": "The LXQt desktop, in the order the book builds them.",
-  "download": "",
+  "download": [],
   "archive": "",
   "md5": "",
   "size": "",
@@ -52,6 +52,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1200,
+  "order": 1201,
   "group_order": 4
 }

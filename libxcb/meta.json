@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The libxcb package provides an interface to the X Window System protocol, which replaces the current Xlib interface. Xlib can also use XCB as a transport layer, allowing software to make requests and receive responses with both.",
-  "download": "https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.17.0.tar.xz",
+  "download": [
+    "https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.17.0.tar.xz"
+  ],
   "archive": "libxcb-1.17.0.tar.xz",
   "md5": "96565523e9f9b701fcb35d31f1d4086e",
   "size": "448 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 593,
+  "order": 594,
   "group_order": 5
 }

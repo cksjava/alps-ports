@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The lxqt-menu-data package contains compliant menu files for LXQt.",
-  "download": "https://github.com/lxqt/lxqt-menu-data/releases/download/2.4.0/lxqt-menu-data-2.4.0.tar.xz",
+  "download": [
+    "https://github.com/lxqt/lxqt-menu-data/releases/download/2.4.0/lxqt-menu-data-2.4.0.tar.xz"
+  ],
   "archive": "lxqt-menu-data-2.4.0.tar.xz",
   "md5": "bfb146f255c3c670f2b2c56c2515ce3c",
   "size": "56 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1030,
+  "order": 1031,
   "group_order": 11
 }

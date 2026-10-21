@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "PyCairo provides Python bindings to Cairo .",
-  "download": "https://github.com/pygobject/pycairo/releases/download/v1.29.1/pycairo-1.29.1.tar.gz",
+  "download": [
+    "https://github.com/pygobject/pycairo/releases/download/v1.29.1/pycairo-1.29.1.tar.gz"
+  ],
   "archive": "pycairo-1.29.1.tar.gz",
   "md5": "fc7c3b4104e88df7dea34af4314b9d12",
   "size": "652 KB",

@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libXxf86vm-1.1.7 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libXxf86vm-1.1.7.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libXxf86vm-1.1.7.tar.xz"
+  ],
   "archive": "libXxf86vm-1.1.7.tar.xz",
   "md5": "bea9e3707fae6c3275769e771006fa0f",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 621,
+  "order": 622,
   "group_order": 33
 }

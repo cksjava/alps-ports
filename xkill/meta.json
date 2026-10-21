@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xkill-1.0.7 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xkill-1.0.7.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xkill-1.0.7.tar.xz"
+  ],
   "archive": "xkill-1.0.7.tar.xz",
   "md5": "294db9393a9d8e6613e1e3dd4fe0273f",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 655,
+  "order": 656,
   "group_order": 67
 }

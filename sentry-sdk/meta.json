@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The sentry-sdk module is the official Python SDK for Sentry.io.",
-  "download": "https://github.com/getsentry/sentry-python/releases/download/2.68.0/sentry_sdk-2.68.0.tar.gz",
+  "download": [
+    "https://github.com/getsentry/sentry-python/releases/download/2.68.0/sentry_sdk-2.68.0.tar.gz"
+  ],
   "archive": "sentry_sdk-2.68.0.tar.gz",
   "md5": "98ab55219624150d1ab5d30ff90d20cb",
   "size": "988 KB",

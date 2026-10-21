@@ -7,7 +7,9 @@
   "group": "other-x-based-programs",
   "chapter": "Chapter 41. Other X-based Programs",
   "summary": "xdg-utils is a set of command line tools that assist applications with a variety of desktop integration tasks. It is required for Linux Standards Base (LSB) conformance.",
-  "download": "https://gitlab.freedesktop.org/xdg/xdg-utils/-/archive/v1.2.1/xdg-utils-v1.2.1.tar.gz",
+  "download": [
+    "https://gitlab.freedesktop.org/xdg/xdg-utils/-/archive/v1.2.1/xdg-utils-v1.2.1.tar.gz"
+  ],
   "archive": "xdg-utils-v1.2.1.tar.gz",
   "md5": "4c72585a98ba8f775cb9e72b066cc0df",
   "size": "304 KB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1080,
+  "order": 1081,
   "group_order": 12
 }

@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "The plasma-activities-stats package provides access to the usage data collected by the KDE Activities system. It is normally built with Plasma-6.7.4 , but it is included here because it is needed for kio-extras-26.04.3 .",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/plasma-activities-stats-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/plasma-activities-stats-6.7.4.tar.xz"
+  ],
   "archive": "plasma-activities-stats-6.7.4.tar.xz",
   "md5": "bc863afab26218d4105eff8d39ecadca",
   "size": "84 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 859,
+  "order": 860,
   "group_order": 11
 }

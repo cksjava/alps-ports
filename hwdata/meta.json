@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The hwdata package contains current PCI and vendor id data.",
-  "download": "https://github.com/vcrhonek/hwdata/archive/v0.410/hwdata-0.410.tar.gz",
+  "download": [
+    "https://github.com/vcrhonek/hwdata/archive/v0.410/hwdata-0.410.tar.gz"
+  ],
   "archive": "hwdata-0.410.tar.gz",
   "md5": "07f1de937ff5b830280f6157221164eb",
   "size": "2.6 MB",

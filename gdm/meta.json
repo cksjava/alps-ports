@@ -7,7 +7,9 @@
   "group": "display-managers",
   "chapter": "Chapter 26. Display Managers",
   "summary": "GDM is a system service that is responsible for providing graphical logins and managing local and remote displays.",
-  "download": "https://download.gnome.org/sources/gdm/50/gdm-50.2.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gdm/50/gdm-50.2.tar.xz"
+  ],
   "archive": "gdm-50.2.tar.xz",
   "md5": "b6cc3ad55bf918bc3c32e647ce35a531",
   "size": "984 KB",
@@ -25,6 +27,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 754,
+  "order": 755,
   "group_order": 0
 }

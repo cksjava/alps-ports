@@ -7,7 +7,9 @@
   "group": "security",
   "chapter": "Chapter 4. Security",
   "summary": "cryptsetup is used to set up transparent encryption of block devices using the kernel crypto API.",
-  "download": "https://www.kernel.org/pub/linux/utils/cryptsetup/v2.8/cryptsetup-2.8.7.tar.xz",
+  "download": [
+    "https://www.kernel.org/pub/linux/utils/cryptsetup/v2.8/cryptsetup-2.8.7.tar.xz"
+  ],
   "archive": "cryptsetup-2.8.7.tar.xz",
   "md5": "a9a19068e4db32f77c0ab95c378ab290",
   "size": "11 MB",

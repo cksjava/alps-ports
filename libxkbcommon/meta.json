@@ -7,7 +7,10 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "libxkbcommon is a keymap compiler and support library which processes a reduced subset of keymaps as defined by the XKB specification.",
-  "download": "https://github.com/lfs-book/libxkbcommon/archive/v1.13.2/libxkbcommon-1.13.2.tar.gz",
+  "download": [
+    "https://github.com/lfs-book/libxkbcommon/archive/v1.13.2/libxkbcommon-1.13.2.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/libxkbcommon-1.13.2-upstream_fix-1.patch"
+  ],
   "archive": "libxkbcommon-1.13.2.tar.gz",
   "md5": "07f838f575d62c267cfc53eaf5ee739b",
   "size": "1.2 MB",

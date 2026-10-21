@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kcontacts-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kcontacts/kcontacts-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kcontacts/kcontacts-6.29.0.tar.xz"
+  ],
   "archive": "kcontacts-6.29.0.tar.xz",
   "md5": "0adc3ad17ebdf1aae35c4c8af2c94fc1",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 828,
+  "order": 829,
   "group_order": 52
 }

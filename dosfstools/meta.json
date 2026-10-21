@@ -7,7 +7,9 @@
   "group": "file-systems-and-disk-management",
   "chapter": "Chapter 5. File Systems and Disk Management",
   "summary": "The dosfstools package contains various utilities for use with the FAT family of file systems.",
-  "download": "https://github.com/dosfstools/dosfstools/releases/download/v4.2/dosfstools-4.2.tar.gz",
+  "download": [
+    "https://github.com/dosfstools/dosfstools/releases/download/v4.2/dosfstools-4.2.tar.gz"
+  ],
   "archive": "dosfstools-4.2.tar.gz",
   "md5": "49c8e457327dc61efab5b115a27b087a",
   "size": "314 KB",

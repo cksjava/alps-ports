@@ -7,7 +7,9 @@
   "group": "networking-libraries",
   "chapter": "Chapter 17. Networking Libraries",
   "summary": "The GLib Networking package contains Network related gio modules for GLib .",
-  "download": "https://download.gnome.org/sources/glib-networking/2.80/glib-networking-2.80.1.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/glib-networking/2.80/glib-networking-2.80.1.tar.xz"
+  ],
   "archive": "glib-networking-2.80.1.tar.xz",
   "md5": "405e6c058723217a1307ba8415615f9d",
   "size": "288 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 552,
+  "order": 553,
   "group_order": 3
 }

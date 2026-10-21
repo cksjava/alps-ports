@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The GNOME Keyring package contains a daemon that keeps passwords and other secrets for users.",
-  "download": "https://download.gnome.org/sources/gnome-keyring/50/gnome-keyring-50.0.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-keyring/50/gnome-keyring-50.0.tar.xz"
+  ],
   "archive": "gnome-keyring-50.0.tar.xz",
   "md5": "406fb764c664de580a091527af059750",
   "size": "752 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 963,
+  "order": 964,
   "group_order": 31
 }

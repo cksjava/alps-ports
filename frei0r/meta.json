@@ -7,7 +7,9 @@
   "group": "multimedia-libraries-and-drivers",
   "chapter": "Chapter 42. Multimedia Libraries and Drivers",
   "summary": "Frei0r is a minimalistic plugin API for video effects. Note that the 0 in the name is a zero, not a capital letter o.",
-  "download": "https://github.com/dyne/frei0r/archive/v3.4.0/frei0r-3.4.0.tar.gz",
+  "download": [
+    "https://github.com/dyne/frei0r/archive/v3.4.0/frei0r-3.4.0.tar.gz"
+  ],
   "archive": "frei0r-3.4.0.tar.gz",
   "md5": "2f88c0e4b5da87ca5d2c81967294d605",
   "size": "4.0 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1093,
+  "order": 1094,
   "group_order": 11
 }

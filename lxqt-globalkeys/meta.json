@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The lxqt-globalkeys package contains a daemon used to register global keyboard shortcuts as well as an editor for keyboard shortcuts.",
-  "download": "https://github.com/lxqt/lxqt-globalkeys/releases/download/2.4.0/lxqt-globalkeys-2.4.0.tar.xz",
+  "download": [
+    "https://github.com/lxqt/lxqt-globalkeys/releases/download/2.4.0/lxqt-globalkeys-2.4.0.tar.xz"
+  ],
   "archive": "lxqt-globalkeys-2.4.0.tar.xz",
   "md5": "bc6d90bfaed073da2fa9c8aa976e7f79",
   "size": "80 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1037,
+  "order": 1038,
   "group_order": 18
 }

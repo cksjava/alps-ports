@@ -7,7 +7,9 @@
   "group": "other-x-based-programs",
   "chapter": "Chapter 41. Other X-based Programs",
   "summary": "rxvt-unicode is a clone of the terminal emulator rxvt , an X Window System terminal emulator which includes support for XFT and Unicode.",
-  "download": "http://dist.schmorp.de/rxvt-unicode/Attic/rxvt-unicode-9.31.tar.bz2",
+  "download": [
+    "http://dist.schmorp.de/rxvt-unicode/Attic/rxvt-unicode-9.31.tar.bz2"
+  ],
   "archive": "rxvt-unicode-9.31.tar.bz2",
   "md5": "3d0ec83705c9b9ff301a4b9965b3cd9f",
   "size": "860 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1075,
+  "order": 1076,
   "group_order": 7
 }

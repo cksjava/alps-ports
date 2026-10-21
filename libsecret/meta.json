@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The libsecret package contains a GObject based library for accessing the Secret Service API.",
-  "download": "https://download.gnome.org/sources/libsecret/0.21/libsecret-0.21.7.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/libsecret/0.21/libsecret-0.21.7.tar.xz"
+  ],
   "archive": "libsecret-0.21.7.tar.xz",
   "md5": "7a938a802a3c17df441fbd0358866e99",
   "size": "204 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 935,
+  "order": 936,
   "group_order": 3
 }

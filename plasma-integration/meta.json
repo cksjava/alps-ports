@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "plasma-integration-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/plasma-integration/plasma-integration-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/plasma-integration/plasma-integration-6.7.4.tar.xz"
+  ],
   "archive": "plasma-integration-6.7.4.tar.xz",
   "md5": "270a34cd1483afba2295c18ee09c5da7",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 910,
+  "order": 911,
   "group_order": 44
 }

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Test::File provides a collection of test utilities for file attributes.",
-  "download": "https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/Test-File-1.995.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/Test-File-1.995.tar.gz"
+  ],
   "archive": "Test-File-1.995.tar.gz",
   "md5": "865b7e00fa68431596e1933d523506ab",
   "size": "",

@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libXScrnSaver-1.2.5 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libXScrnSaver-1.2.5.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libXScrnSaver-1.2.5.tar.xz"
+  ],
   "archive": "libXScrnSaver-1.2.5.tar.xz",
   "md5": "ec09c90a1cfd2c0630321d366a5e7203",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 600,
+  "order": 601,
   "group_order": 12
 }

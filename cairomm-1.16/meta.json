@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The libcairomm-1.16 package provides a C++ interface to Cairo . This version of the API is needed to support gtkmm-4.",
-  "download": "https://www.cairographics.org/releases/cairomm-1.18.1.tar.xz",
+  "download": [
+    "https://www.cairographics.org/releases/cairomm-1.18.1.tar.xz"
+  ],
   "archive": "cairomm-1.18.1.tar.xz",
   "md5": "268bf55498b1c61441936adde03ba824",
   "size": "600 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 712,
+  "order": 713,
   "group_order": 4
 }

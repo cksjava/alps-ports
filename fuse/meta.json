@@ -7,7 +7,9 @@
   "group": "file-systems-and-disk-management",
   "chapter": "Chapter 5. File Systems and Disk Management",
   "summary": "FUSE (Filesystem in Userspace) is a simple interface for userspace programs to export a virtual filesystem to the Linux kernel. Fuse also aims to provide a secure method for non privileged users to create and mount their own filesystem implementations.",
-  "download": "https://github.com/libfuse/libfuse/releases/download/fuse-3.18.2/fuse-3.18.2.tar.gz",
+  "download": [
+    "https://github.com/libfuse/libfuse/releases/download/fuse-3.18.2/fuse-3.18.2.tar.gz"
+  ],
   "archive": "fuse-3.18.2.tar.gz",
   "md5": "43c6f6cd2c1368d916f6fb080eb39cbb",
   "size": "4.8 MB",

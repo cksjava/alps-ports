@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "KDE Frameworks is a collection of libraries based on top of Qt6 and QML derived from the previous KDE libraries. They can be used independent of the KDE Display Environment (Plasma 6).",
-  "download": "https://download.kde.org/stable/frameworks/6.29",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29"
+  ],
   "archive": "",
   "md5": "",
   "size": "364 MB",
@@ -88,6 +90,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 847,
+  "order": 848,
   "group_order": 71
 }

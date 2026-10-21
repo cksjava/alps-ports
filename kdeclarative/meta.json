@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kdeclarative-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kdeclarative/kdeclarative-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kdeclarative/kdeclarative-6.29.0.tar.xz"
+  ],
   "archive": "kdeclarative-6.29.0.tar.xz",
   "md5": "eb444e38b4fd327c22d34486f21b42b6",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 818,
+  "order": 819,
   "group_order": 42
 }

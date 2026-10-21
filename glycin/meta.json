@@ -7,7 +7,10 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The glycin package contains a sandboxed and extendable image loading framework.",
-  "download": "https://download.gnome.org/sources/glycin/2.1/glycin-2.1.5.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/glycin/2.1/glycin-2.1.5.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/glycin-2.1.5-xorg_prefix-1.patch"
+  ],
   "archive": "glycin-2.1.5.tar.xz",
   "md5": "d9224a846ad1ed964d07e1ebb48d4458",
   "size": "6.8 MB",

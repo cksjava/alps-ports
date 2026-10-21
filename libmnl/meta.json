@@ -7,7 +7,9 @@
   "group": "networking-libraries",
   "chapter": "Chapter 17. Networking Libraries",
   "summary": "The libmnl library provides a minimalistic userspace library oriented to Netlink developers. There are a lot of common tasks in the parsing, validating, and constructing of both the Netlink header and TLVs that are repetitive and easy to get wrong. This library aims to provide simple helpers that allow you to re-use code and to avoid re-inventing the wheel.",
-  "download": "https://netfilter.org/projects/libmnl/files/libmnl-1.0.5.tar.bz2",
+  "download": [
+    "https://netfilter.org/projects/libmnl/files/libmnl-1.0.5.tar.bz2"
+  ],
   "archive": "libmnl-1.0.5.tar.bz2",
   "md5": "0bbb70573119ec5d49435114583e7a49",
   "size": "308 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 557,
+  "order": 558,
   "group_order": 8
 }

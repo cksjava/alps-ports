@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "Xdg-user-dirs is a tool to help manage “ well known ” user directories like the desktop folder and the music folder. It also handles localization (i.e. translation) of the filenames.",
-  "download": "https://gitlab.freedesktop.org/xdg/xdg-user-dirs/-/archive/v0.20/xdg-user-dirs-v0.20.tar.gz",
+  "download": [
+    "https://gitlab.freedesktop.org/xdg/xdg-user-dirs/-/archive/v0.20/xdg-user-dirs-v0.20.tar.gz"
+  ],
   "archive": "xdg-user-dirs-v0.20.tar.gz",
   "md5": "a80c6f2cc9fd3d9870fcda76d73ce3e6",
   "size": "68 KB",

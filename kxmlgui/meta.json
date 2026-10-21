@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kxmlgui-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kxmlgui/kxmlgui-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kxmlgui/kxmlgui-6.29.0.tar.xz"
+  ],
   "archive": "kxmlgui-6.29.0.tar.xz",
   "md5": "43aec19a04194118ade54d584691fe3c",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 813,
+  "order": 814,
   "group_order": 37
 }

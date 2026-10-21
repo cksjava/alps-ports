@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Iniconfig is a small and simple INI-file parser module.",
-  "download": "https://files.pythonhosted.org/packages/source/i/iniconfig/iniconfig-2.3.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/i/iniconfig/iniconfig-2.3.0.tar.gz"
+  ],
   "archive": "iniconfig-2.3.0.tar.gz",
   "md5": "5c1d9c21275feb3da71400bf716edd72",
   "size": "24 KB",

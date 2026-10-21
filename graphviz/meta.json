@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "The Graphviz package contains graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. Graphviz has several main graph layout programs. It also has web and interactive graphical interfaces, auxiliary tools, libraries, and language bindings.",
-  "download": "https://gitlab.com/graphviz/graphviz/-/archive/15.1.1/graphviz-15.1.1.tar.bz2",
+  "download": [
+    "https://gitlab.com/graphviz/graphviz/-/archive/15.1.1/graphviz-15.1.1.tar.bz2"
+  ],
   "archive": "graphviz-15.1.1.tar.bz2",
   "md5": "ec7f236467bcaeb57b69601d4913c5b7",
   "size": "35 MB",

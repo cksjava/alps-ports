@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The Colord GTK package contains GTK+ bindings for Colord .",
-  "download": "https://www.freedesktop.org/software/colord/releases/colord-gtk-0.3.1.tar.xz",
+  "download": [
+    "https://www.freedesktop.org/software/colord/releases/colord-gtk-0.3.1.tar.xz"
+  ],
   "archive": "colord-gtk-0.3.1.tar.xz",
   "md5": "d436740c06e42af421384f16b2a9a0a7",
   "size": "24 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 713,
+  "order": 714,
   "group_order": 5
 }

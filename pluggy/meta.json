@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Pluggy package gives users the ability to extend or modify the behaviour of a host program by installing a plugin for that program. The plugin code will run as part of normal program execution, changing or enhancing certain aspects of it. In essence, pluggy enables function hooking so a user can build “ pluggable ” systems.",
-  "download": "https://files.pythonhosted.org/packages/source/p/pluggy/pluggy-1.6.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/p/pluggy/pluggy-1.6.0.tar.gz"
+  ],
   "archive": "pluggy-1.6.0.tar.gz",
   "md5": "54391218af778acb006c2d915085d469",
   "size": "68 KB",

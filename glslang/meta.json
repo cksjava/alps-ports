@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The Glslang package contains an frontend and validator for OpenGL, OpenGL ES, and Vulkan shaders.",
-  "download": "https://github.com/KhronosGroup/glslang/archive/16.5.0/glslang-16.5.0.tar.gz",
+  "download": [
+    "https://github.com/KhronosGroup/glslang/archive/16.5.0/glslang-16.5.0.tar.gz"
+  ],
   "archive": "glslang-16.5.0.tar.gz",
   "md5": "79e949d6d50cc167e7d5307afb04c41a",
   "size": "4.4 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 718,
+  "order": 719,
   "group_order": 10
 }

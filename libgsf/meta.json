@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libgsf package contains a library used for providing an extensible input/output abstraction layer for structured file formats.",
-  "download": "https://download.gnome.org/sources/libgsf/1.14/libgsf-1.14.58.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/libgsf/1.14/libgsf-1.14.58.tar.xz"
+  ],
   "archive": "libgsf-1.14.58.tar.xz",
   "md5": "60a36d77615596178b857ed7b9bd6838",
   "size": "704 KB",

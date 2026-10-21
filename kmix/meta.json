@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "The KMix package contains a KDE Frameworks-based Sound Mixer that integrates nicely with Plasma .",
-  "download": "https://download.kde.org/stable/release-service/26.04.3/src/kmix-26.04.3.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/release-service/26.04.3/src/kmix-26.04.3.tar.xz"
+  ],
   "archive": "kmix-26.04.3.tar.xz",
   "md5": "926f4efced16041ff3da03bbd008b676",
   "size": "1.1 MB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 853,
+  "order": 854,
   "group_order": 5
 }

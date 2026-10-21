@@ -7,7 +7,9 @@
   "group": "networking-programs",
   "chapter": "Chapter 15. Networking Programs",
   "summary": "The rpcbind program is a replacement for portmap . It is required for import or export of Network File System (NFS) shared directories.",
-  "download": "https://downloads.sourceforge.net/rpcbind/rpcbind-1.2.9.tar.bz2",
+  "download": [
+    "https://downloads.sourceforge.net/rpcbind/rpcbind-1.2.9.tar.bz2"
+  ],
   "archive": "rpcbind-1.2.9.tar.bz2",
   "md5": "f4c2d1f279aadee20871c9d7c0fc9fc5",
   "size": "128 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 534,
+  "order": 535,
   "group_order": 5
 }

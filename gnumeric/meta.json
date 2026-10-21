@@ -7,7 +7,9 @@
   "group": "office-programs",
   "chapter": "Chapter 39. Office Programs",
   "summary": "The Gnumeric package contains a spreadsheet program which is useful for mathematical analysis.",
-  "download": "https://download.gnome.org/sources/gnumeric/1.12/gnumeric-1.12.61.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnumeric/1.12/gnumeric-1.12.61.tar.xz"
+  ],
   "archive": "gnumeric-1.12.61.tar.xz",
   "md5": "8c6cbffb41eb2a8ffb97708e21482d7f",
   "size": "17 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1062,
+  "order": 1063,
   "group_order": 0
 }

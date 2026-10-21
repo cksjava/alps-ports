@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The GNOME User Docs package contains documentation for GNOME .",
-  "download": "https://download.gnome.org/sources/gnome-user-docs/50/gnome-user-docs-50.4.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-user-docs/50/gnome-user-docs-50.4.tar.xz"
+  ],
   "archive": "gnome-user-docs-50.4.tar.xz",
   "md5": "d629c3a0542d3a7403259e6a695cc477",
   "size": "16 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 972,
+  "order": 973,
   "group_order": 40
 }

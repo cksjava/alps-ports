@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "Mutter is the window manager for GNOME . It is not invoked directly, but from GNOME Session (on a machine with a hardware accelerated video driver).",
-  "download": "https://download.gnome.org/sources/mutter/50/mutter-50.4.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/mutter/50/mutter-50.4.tar.xz"
+  ],
   "archive": "mutter-50.4.tar.xz",
   "md5": "16e91f37bb05f67c684f3582380f86a1",
   "size": "8.1 MB",
@@ -26,6 +28,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 967,
+  "order": 968,
   "group_order": 35
 }

@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xrdb-1.2.3 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xrdb-1.2.3.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xrdb-1.2.3.tar.xz"
+  ],
   "archive": "xrdb-1.2.3.tar.xz",
   "md5": "44894ebd60a40c54ccc44c67ad3b7de8",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 663,
+  "order": 664,
   "group_order": 75
 }

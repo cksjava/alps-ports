@@ -7,7 +7,9 @@
   "group": "security",
   "chapter": "Chapter 4. Security",
   "summary": "The gpgme package is a C library that allows cryptography support to be added to a program. It is designed to make access to public key crypto engines like GnuPG or GpgSM easier for applications. gpgme provides a high-level crypto API for encryption, decryption, signing, signature verification and key management.",
-  "download": "https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-2.1.2.tar.bz2",
+  "download": [
+    "https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-2.1.2.tar.bz2"
+  ],
   "archive": "gpgme-2.1.2.tar.bz2",
   "md5": "58448073da13a22e878adfb22a988d4d",
   "size": "1.4 MB",

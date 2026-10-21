@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "SWIG (Simplified Wrapper and Interface Generator) is a compiler that integrates C and C++ with languages including Perl , Python , Tcl , Ruby , PHP , Java , JavaScript , C# , D , Go , Lua , Octave , R , Racket , Scilab , Scheme , and Ocaml . SWIG can also export its parse tree into Lisp s-expressions and XML .",
-  "download": "https://downloads.sourceforge.net/swig/swig-4.5.0.tar.gz",
+  "download": [
+    "https://downloads.sourceforge.net/swig/swig-4.5.0.tar.gz"
+  ],
   "archive": "swig-4.5.0.tar.gz",
   "md5": "d117bf4445779a9d3e6397938e52e23c",
   "size": "8.8 MB",

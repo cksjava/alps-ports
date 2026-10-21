@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "This package provides a set of tools to make use of C++20 coroutines with Qt.",
-  "download": "https://github.com/danvratil/qcoro/archive/v0.13.0/qcoro-0.13.0.tar.gz",
+  "download": [
+    "https://github.com/danvratil/qcoro/archive/v0.13.0/qcoro-0.13.0.tar.gz"
+  ],
   "archive": "qcoro-0.13.0.tar.gz",
   "md5": "1cc2b522b90d8d0842523f751e75c99b",
   "size": "160 KB",

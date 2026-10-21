@@ -7,7 +7,9 @@
   "group": "xfce-applications",
   "chapter": "Chapter 36. Xfce Applications",
   "summary": "Xfce4 Terminal is a GTK+3 terminal emulator. This is useful for running commands or programs in the comfort of an Xorg window; you can drag and drop files into the Xfce4 Terminal or copy and paste text with your mouse.",
-  "download": "https://archive.xfce.org/src/apps/xfce4-terminal/1.2/xfce4-terminal-1.2.0.tar.xz",
+  "download": [
+    "https://archive.xfce.org/src/apps/xfce4-terminal/1.2/xfce4-terminal-1.2.0.tar.xz"
+  ],
   "archive": "xfce4-terminal-1.2.0.tar.xz",
   "md5": "1662d52f7ffdcfde7c4ef76fd2358947",
   "size": "444 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1014,
+  "order": 1015,
   "group_order": 1
 }

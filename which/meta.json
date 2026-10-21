@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The first option is to install the actual GNU which package.",
-  "download": "https://ftpmirror.gnu.org/which/which-2.25.tar.gz",
+  "download": [
+    "https://ftpmirror.gnu.org/which/which-2.25.tar.gz"
+  ],
   "archive": "which-2.25.tar.gz",
   "md5": "60140cb2637634e4f4e68c2e98c6a07b",
   "size": "200 KB",

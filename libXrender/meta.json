@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libXrender-0.9.12 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libXrender-0.9.12.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libXrender-0.9.12.tar.xz"
+  ],
   "archive": "libXrender-0.9.12.tar.xz",
   "md5": "4c54dce455d96e3bdee90823b0869f89",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 607,
+  "order": 608,
   "group_order": 19
 }

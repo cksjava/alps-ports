@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "vcs_versioning provides essential functionality for setuptools_scm that allows that module to properly set version control metadata.",
-  "download": "https://files.pythonhosted.org/packages/source/v/vcs_versioning/vcs_versioning-2.2.4.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/v/vcs_versioning/vcs_versioning-2.2.4.tar.gz"
+  ],
   "archive": "vcs_versioning-2.2.4.tar.gz",
   "md5": "4379f311792d41c845f9b86975b1be18",
   "size": "132 KB",

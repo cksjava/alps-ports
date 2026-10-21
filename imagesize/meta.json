@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The imagesize package analyzes image file headers and returns the image size and DPI. It works with JPEG/JPEG 2000/PNG/GIF/TIFF/SVG/Netpbm/WebP formats.",
-  "download": "https://files.pythonhosted.org/packages/source/i/imagesize/imagesize-1.4.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/i/imagesize/imagesize-1.4.1.tar.gz"
+  ],
   "archive": "imagesize-1.4.1.tar.gz",
   "md5": "5a40586a25c07e1a8f16f6267252c321",
   "size": "1.2 MB",

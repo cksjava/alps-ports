@@ -7,7 +7,9 @@
   "group": "other-x-based-programs",
   "chapter": "Chapter 41. Other X-based Programs",
   "summary": "XArchiver is a GTK+ archive manager with support for tar, xz, bzip2, gzip, zip, 7z, rar, lzo and many other archive formats.",
-  "download": "https://github.com/ib/xarchiver/archive/0.5.4.27/xarchiver-0.5.4.27.tar.gz",
+  "download": [
+    "https://github.com/ib/xarchiver/archive/0.5.4.27/xarchiver-0.5.4.27.tar.gz"
+  ],
   "archive": "xarchiver-0.5.4.27.tar.gz",
   "md5": "8a6fb3ab5c0161e3fa05ec6a1faf2c12",
   "size": "1.1 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1079,
+  "order": 1080,
   "group_order": 11
 }

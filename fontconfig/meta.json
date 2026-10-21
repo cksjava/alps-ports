@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The Fontconfig package contains a library and support programs used for configuring and customizing font access.",
-  "download": "https://gitlab.freedesktop.org/api/v4/projects/890/packages/generic/fontconfig/2.18.3/fontconfig-2.18.3.tar.xz",
+  "download": [
+    "https://gitlab.freedesktop.org/api/v4/projects/890/packages/generic/fontconfig/2.18.3/fontconfig-2.18.3.tar.xz"
+  ],
   "archive": "fontconfig-2.18.3.tar.xz",
   "md5": "ce819e229ca6fb7d1be47a192d6681a3",
   "size": "1.2 MB",

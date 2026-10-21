@@ -7,7 +7,9 @@
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
   "summary": "The libxfce4windowing package contains a windowing concept abstraction library for X11 and Wayland.",
-  "download": "https://archive.xfce.org/src/xfce/libxfce4windowing/4.20/libxfce4windowing-4.20.7.tar.bz2",
+  "download": [
+    "https://archive.xfce.org/src/xfce/libxfce4windowing/4.20/libxfce4windowing-4.20.7.tar.bz2"
+  ],
   "archive": "libxfce4windowing-4.20.7.tar.bz2",
   "md5": "7f409dec4961e9340a29b273029453d2",
   "size": "604 KB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1002,
+  "order": 1003,
   "group_order": 7
 }

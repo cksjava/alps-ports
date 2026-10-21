@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xmodmap-1.0.12 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xmodmap-1.0.12.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xmodmap-1.0.12.tar.xz"
+  ],
   "archive": "xmodmap-1.0.12.tar.xz",
   "md5": "4e6b8655260cca88252e86f5431041c0",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 659,
+  "order": 660,
   "group_order": 71
 }

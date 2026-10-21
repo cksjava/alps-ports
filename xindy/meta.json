@@ -7,7 +7,10 @@
   "group": "typesetting",
   "chapter": "Chapter 51. Typesetting",
   "summary": "Xindy is an index processor that can be used to generate book-like indexes for arbitrary document-preparation systems. This includes systems such as TeX and LaTeX, the roff-family, and SGML/XML-based systems (e.g., HTML) that process some kind of text and generate indexing information.",
-  "download": "https://ctan.org/indexing/xindy-2.5.1.tar.gz",
+  "download": [
+    "https://ctan.org/indexing/xindy-2.5.1.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/xindy-2.5.1-upstream_fixes-2.patch"
+  ],
   "archive": "xindy-2.5.1.tar.gz",
   "md5": "221acfeeb0f6f8388f89a59c56491041",
   "size": "506 KB",
@@ -19,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1195,
+  "order": 1196,
   "group_order": 5
 }

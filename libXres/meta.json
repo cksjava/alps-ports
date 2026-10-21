@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libXres-1.2.3 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libXres-1.2.3.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libXres-1.2.3.tar.xz"
+  ],
   "archive": "libXres-1.2.3.tar.xz",
   "md5": "5014282a08b54ec0edfa73c5cf9ae2c1",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 616,
+  "order": 617,
   "group_order": 28
 }

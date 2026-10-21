@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Class::Tiny offers a minimalist class construction kit.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Class-Tiny-1.008.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Class-Tiny-1.008.tar.gz"
+  ],
   "archive": "Class-Tiny-1.008.tar.gz",
   "md5": "e3ccfae5f64d443e7e1110be964d7202",
   "size": "",

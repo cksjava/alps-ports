@@ -7,7 +7,10 @@
   "group": "networking-utilities",
   "chapter": "Chapter 16. Networking Utilities",
   "summary": "The Avahi package is a system which facilitates service discovery on a local network.",
-  "download": "https://github.com/lathiat/avahi/archive/v0.9-rc5/avahi-0.9-rc5.tar.gz",
+  "download": [
+    "https://github.com/lathiat/avahi/archive/v0.9-rc5/avahi-0.9-rc5.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/avahi-0.9-rc5-ipv6_race_condition_fix-1.patch"
+  ],
   "archive": "avahi-0.9-rc5.tar.gz",
   "md5": "d2b4bd13a4dba40a7b56c3da8bf50fd2",
   "size": "1.1 MB",
@@ -18,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 541,
+  "order": 542,
   "group_order": 0
 }

@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "Atkmm is the official C++ interface for the ATK accessibility toolkit library.",
-  "download": "https://download.gnome.org/sources/atkmm/2.28/atkmm-2.28.5.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/atkmm/2.28/atkmm-2.28.5.tar.xz"
+  ],
   "archive": "atkmm-2.28.5.tar.xz",
   "md5": "c9bdc196eed368c274177b0c1caf140c",
   "size": "596 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 708,
+  "order": 709,
   "group_order": 0
 }

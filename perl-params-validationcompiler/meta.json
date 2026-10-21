@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Params::ValidationCompiler builds an optimized subroutine parameter validator.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-ValidationCompiler-0.31.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-ValidationCompiler-0.31.tar.gz"
+  ],
   "archive": "Params-ValidationCompiler-0.31.tar.gz",
   "md5": "15528055f3f53c8cfebbee1f928dec07",
   "size": "",

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Alabaster package is a theme for the sphinx documentation system. Although developed separately, it is the default theme for sphinx.",
-  "download": "https://files.pythonhosted.org/packages/source/a/alabaster/alabaster-1.0.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/a/alabaster/alabaster-1.0.0.tar.gz"
+  ],
   "archive": "alabaster-1.0.0.tar.gz",
   "md5": "c6c2173e5565fb12f08bef410ea50f72",
   "size": "24 KB",

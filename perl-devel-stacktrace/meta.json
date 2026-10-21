@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Devel::StackTrace provides an object representing a stack trace.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Devel-StackTrace-2.05.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Devel-StackTrace-2.05.tar.gz"
+  ],
   "archive": "Devel-StackTrace-2.05.tar.gz",
   "md5": "b8ca19bb4c76e98a04373618db9c7c3c",
   "size": "",

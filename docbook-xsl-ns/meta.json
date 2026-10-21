@@ -7,7 +7,10 @@
   "group": "extensible-markup-language-xml",
   "chapter": "Chapter 49. Extensible Markup Language (XML)",
   "summary": "The DocBook XSL Stylesheets (Namespaced) package contains XSL stylesheets. These are useful for performing transformations on XML DocBook 5.0 files.",
-  "download": "https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-1.79.2.tar.bz2",
+  "download": [
+    "https://github.com/docbook/xslt10-stylesheets/releases/download/release/1.79.2/docbook-xsl-1.79.2.tar.bz2",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/docbook-xsl-1.79.2-stack_fix-1.patch"
+  ],
   "archive": "docbook-xsl-1.79.2.tar.bz2",
   "md5": "4a400f0264a19329c7f95f69e098744a",
   "size": "23 MB",
@@ -16,6 +19,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1182,
+  "order": 1183,
   "group_order": 3
 }

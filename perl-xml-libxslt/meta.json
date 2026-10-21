@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "XML-LibXSLT provides an interface to libxslt-1.1.45",
-  "download": "https://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXSLT-2.003000.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXSLT-2.003000.tar.gz"
+  ],
   "archive": "XML-LibXSLT-2.003000.tar.gz",
   "md5": "632dce587b3c405edd4e622364750191",
   "size": "",

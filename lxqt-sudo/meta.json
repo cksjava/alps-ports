@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The lxqt-sudo package is a graphical front end to sudo and su respectively.",
-  "download": "https://github.com/lxqt/lxqt-sudo/releases/download/2.4.0/lxqt-sudo-2.4.0.tar.xz",
+  "download": [
+    "https://github.com/lxqt/lxqt-sudo/releases/download/2.4.0/lxqt-sudo-2.4.0.tar.xz"
+  ],
   "archive": "lxqt-sudo-2.4.0.tar.xz",
   "md5": "03a9150184475ed85fe41124a81a0223",
   "size": "44 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1048,
+  "order": 1049,
   "group_order": 29
 }

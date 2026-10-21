@@ -7,7 +7,9 @@
   "group": "icons",
   "chapter": "Chapter 28. Icons",
   "summary": "The GNOME Icon Theme Symbolic package contains symbolic icons for the default GNOME icon theme.",
-  "download": "https://download.gnome.org/sources/gnome-icon-theme-symbolic/3.12/gnome-icon-theme-symbolic-3.12.0.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-icon-theme-symbolic/3.12/gnome-icon-theme-symbolic-3.12.0.tar.xz"
+  ],
   "archive": "gnome-icon-theme-symbolic-3.12.0.tar.xz",
   "md5": "3c9c0e6b9fa04b3cbbb84da825a26fd9",
   "size": "228 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 764,
+  "order": 765,
   "group_order": 4
 }

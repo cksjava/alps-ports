@@ -7,7 +7,9 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "The EditorConfig project maintains a file format and plugins for various text editors which allow this file format to be read and used by those editors.",
-  "download": "https://github.com/editorconfig/editorconfig-core-c/archive/v0.12.11/editorconfig-core-c-0.12.11.tar.gz",
+  "download": [
+    "https://github.com/editorconfig/editorconfig-core-c/archive/v0.12.11/editorconfig-core-c-0.12.11.tar.gz"
+  ],
   "archive": "editorconfig-core-c-0.12.11.tar.gz",
   "md5": "a0a6b43efe67635dad20e2d66a569a7b",
   "size": "76 KB",

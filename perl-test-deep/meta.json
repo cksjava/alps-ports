@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Test::Deep gives you very flexible ways to check that the result you got is the result you were expecting.",
-  "download": "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.205.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.205.tar.gz"
+  ],
   "archive": "Test-Deep-1.205.tar.gz",
   "md5": "02a83480ffeaf93e7498c4dbd5b507b1",
   "size": "",

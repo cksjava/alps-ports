@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Exporter::Tiny is an exporter with the features of Sub::Exporter but only core dependencies.",
-  "download": "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.006003.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.006003.tar.gz"
+  ],
   "archive": "Exporter-Tiny-1.006003.tar.gz",
   "md5": "a70bdc039b12f90191e7c5669b2b55f9",
   "size": "",

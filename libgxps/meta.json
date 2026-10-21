@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The libgxps package provides an interface to manipulate XPS documents.",
-  "download": "https://download.gnome.org/sources/libgxps/0.3/libgxps-0.3.2.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/libgxps/0.3/libgxps-0.3.2.tar.xz"
+  ],
   "archive": "libgxps-0.3.2.tar.xz",
   "md5": "0527ac7c8c405445e96a5baa6019a0c3",
   "size": "80 KB",

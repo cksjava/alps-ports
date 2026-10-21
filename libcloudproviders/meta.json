@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libcloudproviders package contains a library which provides a DBus API that allows cloud storage sync clients to expose their services.",
-  "download": "https://download.gnome.org/sources/libcloudproviders/0.3/libcloudproviders-0.3.6.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/libcloudproviders/0.3/libcloudproviders-0.3.6.tar.xz"
+  ],
   "archive": "libcloudproviders-0.3.6.tar.xz",
   "md5": "f0f994bdc36fdfe9b31e3655b8071599",
   "size": "24 KB",

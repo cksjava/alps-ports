@@ -7,7 +7,9 @@
   "group": "video-utilities",
   "chapter": "Chapter 44. Video Utilities",
   "summary": "mpv is a free media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.",
-  "download": "https://github.com/mpv-player/mpv/archive/v0.41.0/mpv-0.41.0.tar.gz",
+  "download": [
+    "https://github.com/mpv-player/mpv/archive/v0.41.0/mpv-0.41.0.tar.gz"
+  ],
   "archive": "mpv-0.41.0.tar.gz",
   "md5": "fa40a0fedeaf0a77127e238a39b9d4c4",
   "size": "6.9 MB",
@@ -23,6 +25,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1154,
+  "order": 1155,
   "group_order": 1
 }

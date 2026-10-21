@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The nlohmann-json package provides a header-only in-memory JSON and interface library for C++. The package is simply called “ json ” , but most refer to it as “ nlohmann json ” to reduce ambiguity, and is done so here.",
-  "download": "https://github.com/nlohmann/json/archive/v3.12.0/json-3.12.0.tar.gz",
+  "download": [
+    "https://github.com/nlohmann/json/archive/v3.12.0/json-3.12.0.tar.gz"
+  ],
   "archive": "json-3.12.0.tar.gz",
   "md5": "c2528c3e04faccaaee44f1f8f3d30d99",
   "size": "9.3 MB",

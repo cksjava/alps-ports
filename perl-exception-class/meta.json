@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Exception::Class allows you to declare real exception classes in Perl .",
-  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Exception-Class-1.45.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Exception-Class-1.45.tar.gz"
+  ],
   "archive": "Exception-Class-1.45.tar.gz",
   "md5": "1e564d20b374a99fdf660ba3f36b0098",
   "size": "",

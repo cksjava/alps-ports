@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The Gcr package contains libraries used for displaying certificates and accessing key stores. It also provides the viewer for crypto files on the GNOME Desktop.",
-  "download": "https://download.gnome.org/sources/gcr/4.4/gcr-4.4.0.1.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gcr/4.4/gcr-4.4.0.1.tar.xz"
+  ],
   "archive": "gcr-4.4.0.1.tar.xz",
   "md5": "01da4445b5b16801c6dcc7d8945b4cc4",
   "size": "728 KB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 933,
+  "order": 934,
   "group_order": 1
 }

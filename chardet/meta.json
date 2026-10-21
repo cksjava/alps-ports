@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Chardet is a universal character encoding detector.",
-  "download": "https://files.pythonhosted.org/packages/source/c/chardet/chardet-5.2.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/c/chardet/chardet-5.2.0.tar.gz"
+  ],
   "archive": "chardet-5.2.0.tar.gz",
   "md5": "cc2d8cc9a751641463b4f7cfecad2ffa",
   "size": "768 KB",

@@ -7,7 +7,9 @@
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
   "summary": "The Xfce4 Development Tools are a collection of tools and macros for building some Xfce applications.",
-  "download": "http://archive.xfce.org/src/xfce/xfce4-dev-tools/4.20/xfce4-dev-tools-4.20.0.tar.bz2",
+  "download": [
+    "http://archive.xfce.org/src/xfce/xfce4-dev-tools/4.20/xfce4-dev-tools-4.20.0.tar.bz2"
+  ],
   "archive": "xfce4-dev-tools-4.20.0.tar.bz2",
   "md5": "bea58046e67b4274c022fcff893fa350",
   "size": "372 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1001,
+  "order": 1002,
   "group_order": 6
 }

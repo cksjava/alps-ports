@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libxmlb package contains a library and a tool which help create and query binary XML blobs.",
-  "download": "https://github.com/hughsie/libxmlb/releases/download/0.3.29/libxmlb-0.3.29.tar.xz",
+  "download": [
+    "https://github.com/hughsie/libxmlb/releases/download/0.3.29/libxmlb-0.3.29.tar.xz"
+  ],
   "archive": "libxmlb-0.3.29.tar.xz",
   "md5": "83f87e2ce1fd6b34b25e7f5e1443293c",
   "size": "108 KB",

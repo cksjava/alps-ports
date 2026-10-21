@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Pathspec is a utility library for pattern matching of file paths.",
-  "download": "https://files.pythonhosted.org/packages/source/p/pathspec/pathspec-1.1.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/p/pathspec/pathspec-1.1.1.tar.gz"
+  ],
   "archive": "pathspec-1.1.1.tar.gz",
   "md5": "c762d0a00d6cfc9de003e02d5072b26a",
   "size": "136 KB",

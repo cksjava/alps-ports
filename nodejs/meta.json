@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
-  "download": "https://nodejs.org/dist/v24.19.0/node-v24.19.0.tar.xz",
+  "download": [
+    "https://nodejs.org/dist/v24.19.0/node-v24.19.0.tar.xz"
+  ],
   "archive": "node-v24.19.0.tar.xz",
   "md5": "9746bea71fd37c5ec17236b713e0879f",
   "size": "53 MB",

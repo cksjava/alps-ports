@@ -7,7 +7,10 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The Protobuf-c package contains an implementation of the Google Protocol Buffers data serialization format in C.",
-  "download": "https://github.com/protobuf-c/protobuf-c/releases/download/v1.5.2/protobuf-c-1.5.2.tar.gz",
+  "download": [
+    "https://github.com/protobuf-c/protobuf-c/releases/download/v1.5.2/protobuf-c-1.5.2.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/protobuf-c-1.5.2-protobuf34_fix-1.patch"
+  ],
   "archive": "protobuf-c-1.5.2.tar.gz",
   "md5": "0612ee47cccaaf4ad1c4f0c8bdc13abf",
   "size": "520 KB",

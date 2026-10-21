@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libwacom package contains a library used to identify graphics tablets from Wacom or various other vendors and their model-specific features.",
-  "download": "https://github.com/linuxwacom/libwacom/releases/download/libwacom-2.19.1/libwacom-2.19.1.tar.xz",
+  "download": [
+    "https://github.com/linuxwacom/libwacom/releases/download/libwacom-2.19.1/libwacom-2.19.1.tar.xz"
+  ],
   "archive": "libwacom-2.19.1.tar.xz",
   "md5": "83baa1eb388d506b670d13a8a18ff224",
   "size": "184 KB",

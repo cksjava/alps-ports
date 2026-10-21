@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "KDE Plasma is a collection of packages based on top of KDE Frameworks and QML. They implement the KDE Display Environment (Plasma).",
-  "download": "https://download.kde.org/stable/plasma/6.7.4",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4"
+  ],
   "archive": "",
   "md5": "",
   "size": "343 MB",
@@ -76,6 +78,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 931,
+  "order": 932,
   "group_order": 65
 }

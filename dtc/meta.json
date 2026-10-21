@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The dtc package contains the Device Tree Compiler for working with device tree source and binary files and also libfdt, a utility library for reading and manipulating device trees in the binary format.",
-  "download": "https://kernel.org/pub/software/utils/dtc/dtc-1.8.1.tar.xz",
+  "download": [
+    "https://kernel.org/pub/software/utils/dtc/dtc-1.8.1.tar.xz"
+  ],
   "archive": "dtc-1.8.1.tar.xz",
   "md5": "9753bdbf18763efef1f5ae8c0cecb5f6",
   "size": "176 KB",

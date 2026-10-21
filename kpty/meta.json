@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kpty-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kpty/kpty-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kpty/kpty-6.29.0.tar.xz"
+  ],
   "archive": "kpty-6.29.0.tar.xz",
   "md5": "64f0223b5b3d8d0c87d5951787a844cf",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 801,
+  "order": 802,
   "group_order": 25
 }

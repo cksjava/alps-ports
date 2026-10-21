@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "kwrited-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/kwrited/kwrited-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/kwrited/kwrited-6.7.4.tar.xz"
+  ],
   "archive": "kwrited-6.7.4.tar.xz",
   "md5": "3f7e64d7ad382a5c4fc9a4cc83d6c0a4",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 898,
+  "order": 899,
   "group_order": 32
 }

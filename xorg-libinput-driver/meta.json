@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The X.Org Libinput Driver is a thin wrapper around libinput and allows for libinput to be used for input devices in X. This driver can be used as drop-in replacement for evdev and synaptics.",
-  "download": "https://www.x.org/pub/individual/driver/xf86-input-libinput-1.5.0.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/driver/xf86-input-libinput-1.5.0.tar.xz"
+  ],
   "archive": "xf86-input-libinput-1.5.0.tar.xz",
   "md5": "f8d0fb6987d843e688d597c2b66ec824",
   "size": "324 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 690,
+  "order": 691,
   "group_order": 102
 }

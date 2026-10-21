@@ -7,7 +7,9 @@
   "group": "networking-programs",
   "chapter": "Chapter 15. Networking Programs",
   "summary": "The NFS Utilities package contains the userspace server and client tools necessary to use the kernel's NFS abilities. NFS is a protocol that allows sharing file systems over the network.",
-  "download": "https://www.kernel.org/pub/linux/utils/nfs-utils/2.9.2/nfs-utils-2.9.2.tar.xz",
+  "download": [
+    "https://www.kernel.org/pub/linux/utils/nfs-utils/2.9.2/nfs-utils-2.9.2.tar.xz"
+  ],
   "archive": "nfs-utils-2.9.2.tar.xz",
   "md5": "c398aeaa53ee5bc9ded8bc11752347e9",
   "size": "748 KB",
@@ -23,6 +25,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 532,
+  "order": 533,
   "group_order": 3
 }

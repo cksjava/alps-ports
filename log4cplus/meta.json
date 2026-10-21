@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "log4cplus is an easy to use C++20 logging API providing thread-safe, flexible, and arbitrarily granular control over log management and configuration. It is modeled after the Java log4j API.",
-  "download": "https://github.com/log4cplus/log4cplus/releases/download/REL_2_2_0_1/log4cplus-2.2.0.1.tar.xz",
+  "download": [
+    "https://github.com/log4cplus/log4cplus/releases/download/REL_2_2_0_1/log4cplus-2.2.0.1.tar.xz"
+  ],
   "archive": "log4cplus-2.2.0.1.tar.xz",
   "md5": "5fde60414fc15ccdaee58021e346ecb7",
   "size": "952 KB",

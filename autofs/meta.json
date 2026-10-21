@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "Autofs controls the operation of the automount daemons. The automount daemons automatically mount filesystems when they are accessed and unmount them after a period of inactivity. This is done based on a set of pre-configured maps.",
-  "download": "https://www.kernel.org/pub/linux/daemons/autofs/v5/autofs-5.1.9.tar.xz",
+  "download": [
+    "https://www.kernel.org/pub/linux/daemons/autofs/v5/autofs-5.1.9.tar.xz"
+  ],
   "archive": "autofs-5.1.9.tar.xz",
   "md5": "06fb59a03c82364a0d788435b6853d70",
   "size": "328 KB",

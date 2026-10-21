@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The UDisks package provides a daemon, tools and libraries to access and manipulate disks and storage devices.",
-  "download": "https://github.com/storaged-project/udisks/releases/download/udisks-2.11.2/udisks-2.11.2.tar.bz2",
+  "download": [
+    "https://github.com/storaged-project/udisks/releases/download/udisks-2.11.2/udisks-2.11.2.tar.bz2"
+  ],
   "archive": "udisks-2.11.2.tar.bz2",
   "md5": "9e8e8c7f43257bc501b4896f43db9eb8",
   "size": "1.9 MB",

@@ -7,7 +7,9 @@
   "group": "cd-dvd-writing-utilities",
   "chapter": "Chapter 45. CD/DVD-Writing Utilities",
   "summary": "The Cdrtools package contains CD recording utilities. These are useful for reading, creating or writing (burning) CDs, DVDs, and Blu-ray discs.",
-  "download": "https://downloads.sourceforge.net/cdrtools/cdrtools-3.02a09.tar.bz2",
+  "download": [
+    "https://downloads.sourceforge.net/cdrtools/cdrtools-3.02a09.tar.bz2"
+  ],
   "archive": "cdrtools-3.02a09.tar.bz2",
   "md5": "1e224a6adbbe4ad40047b9fddbb0e60c",
   "size": "2.1 MB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1158,
+  "order": 1159,
   "group_order": 1
 }

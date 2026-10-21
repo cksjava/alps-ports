@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "File::ShareDir::Install allows you to install read-only data files from a distribution.",
-  "download": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-0.14.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/E/ET/ETHER/File-ShareDir-Install-0.14.tar.gz"
+  ],
   "archive": "File-ShareDir-Install-0.14.tar.gz",
   "md5": "bac4d924f3d863b00648ab56ec0dcbdc",
   "size": "",

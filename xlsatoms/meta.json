@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xlsatoms-1.1.5 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xlsatoms-1.1.5.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xlsatoms-1.1.5.tar.xz"
+  ],
   "archive": "xlsatoms-1.1.5.tar.xz",
   "md5": "a98d83568d19cc606b114b133d6ed8be",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 656,
+  "order": 657,
   "group_order": 68
 }

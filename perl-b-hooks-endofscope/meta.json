@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "B::Hooks::EndOfScope allows you to execute code when Perl finishes compiling the surrounding scope.",
-  "download": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/B-Hooks-EndOfScope-0.28.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/E/ET/ETHER/B-Hooks-EndOfScope-0.28.tar.gz"
+  ],
   "archive": "B-Hooks-EndOfScope-0.28.tar.gz",
   "md5": "d738ba65539d4acd601d47cc3e2cbb3a",
   "size": "",

@@ -7,7 +7,9 @@
   "group": "printing",
   "chapter": "Chapter 46. Printing",
   "summary": "The Gutenprint (formerly Gimp-Print ) package contains high quality drivers for many brands and models of printers for use with Cups-2.4.19 . See a list of supported printers at https://gimp-print.sourceforge.io/p_Supported_Printers.php .",
-  "download": "https://downloads.sourceforge.net/gimp-print/gutenprint-5.3.5.tar.xz",
+  "download": [
+    "https://downloads.sourceforge.net/gimp-print/gutenprint-5.3.5.tar.xz"
+  ],
   "archive": "gutenprint-5.3.5.tar.xz",
   "md5": "18968a1376a0fb0155afea4ce832d7fd",
   "size": "5.4 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1167,
+  "order": 1168,
   "group_order": 4
 }

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "IO::String - Emulate file interface for in-core strings.",
-  "download": "https://www.cpan.org/authors/id/G/GA/GAAS/IO-String-1.08.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/G/GA/GAAS/IO-String-1.08.tar.gz"
+  ],
   "archive": "IO-String-1.08.tar.gz",
   "md5": "250e5424f290299fc3d6b5d1e9da3835",
   "size": "",

@@ -7,7 +7,9 @@
   "group": "file-systems-and-disk-management",
   "chapter": "Chapter 5. File Systems and Disk Management",
   "summary": "The Parted package is a disk partitioning and partition resizing tool.",
-  "download": "https://ftpmirror.gnu.org/parted/parted-3.7.tar.xz",
+  "download": [
+    "https://ftpmirror.gnu.org/parted/parted-3.7.tar.xz"
+  ],
   "archive": "parted-3.7.tar.xz",
   "md5": "b56ec0cf7bc89d61da1585f88fc8ef5e",
   "size": "1.9 MB",

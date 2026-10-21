@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Test::Differences tests strings and data structures and shows the differences if they do not match.",
-  "download": "https://www.cpan.org/authors/id/D/DC/DCANTRELL/Test-Differences-0.72.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/D/DC/DCANTRELL/Test-Differences-0.72.tar.gz"
+  ],
   "archive": "Test-Differences-0.72.tar.gz",
   "md5": "348ac35809a53290ac05cf0f18f673fa",
   "size": "",

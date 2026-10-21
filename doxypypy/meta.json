@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Doxypypy package is a doxygen filter for python.",
-  "download": "https://files.pythonhosted.org/packages/source/d/doxypypy/doxypypy-0.8.8.7.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/d/doxypypy/doxypypy-0.8.8.7.tar.gz"
+  ],
   "archive": "doxypypy-0.8.8.7.tar.gz",
   "md5": "5773d0a7882df900cbda8ee5107e1ced",
   "size": "45 KB",

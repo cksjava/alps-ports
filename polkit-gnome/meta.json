@@ -7,7 +7,10 @@
   "group": "security",
   "chapter": "Chapter 4. Security",
   "summary": "The Polkit GNOME package provides an Authentication Agent for Polkit that integrates well with the GNOME Desktop environment.",
-  "download": "https://download.gnome.org/sources/polkit-gnome/0.105/polkit-gnome-0.105.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/polkit-gnome/0.105/polkit-gnome-0.105.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/polkit-gnome-0.105-consolidated_fixes-1.patch"
+  ],
   "archive": "polkit-gnome-0.105.tar.xz",
   "md5": "50ecad37c8342fb4a52f590db7530621",
   "size": "305 KB",

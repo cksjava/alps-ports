@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Alien::Build provides tools for building external (non-CPAN) dependencies for CPAN.",
-  "download": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.84.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-2.84.tar.gz"
+  ],
   "archive": "Alien-Build-2.84.tar.gz",
   "md5": "531c4d1ea1274e2fafd7e61df60f9099",
   "size": "",

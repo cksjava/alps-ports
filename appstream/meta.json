@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The AppStream package contains a library and tool that is useful for retrieving software metadata and making it easily accessible to programs which need it.",
-  "download": "https://www.freedesktop.org/software/appstream/releases/AppStream-1.1.6.tar.xz",
+  "download": [
+    "https://www.freedesktop.org/software/appstream/releases/AppStream-1.1.6.tar.xz"
+  ],
   "archive": "AppStream-1.1.6.tar.xz",
   "md5": "cc07d222289ec963be208c3757bde6a9",
   "size": "2.8 MB",

@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kapidox-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kapidox/kapidox-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kapidox/kapidox-6.29.0.tar.xz"
+  ],
   "archive": "kapidox-6.29.0.tar.xz",
   "md5": "c1888280d30447724d491e688e03cf45",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 777,
+  "order": 778,
   "group_order": 1
 }

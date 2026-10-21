@@ -7,7 +7,7 @@
   "group": "meta",
   "chapter": "",
   "summary": "The GNOME libraries and desktop, in the order the book builds them.",
-  "download": "",
+  "download": [],
   "archive": "",
   "md5": "",
   "size": "",
@@ -59,6 +59,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1197,
+  "order": 1198,
   "group_order": 1
 }

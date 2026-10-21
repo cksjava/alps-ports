@@ -7,7 +7,7 @@
   "group": "meta",
   "chapter": "",
   "summary": "KDE Frameworks 6 and the Plasma desktop, in the order the book builds them.",
-  "download": "",
+  "download": [],
   "archive": "",
   "md5": "",
   "size": "",
@@ -159,6 +159,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1198,
+  "order": 1199,
   "group_order": 2
 }

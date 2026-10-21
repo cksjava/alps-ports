@@ -7,7 +7,9 @@
   "group": "networking-libraries",
   "chapter": "Chapter 17. Networking Libraries",
   "summary": "libpcap provides functions for user-level packet capture, used in low-level network monitoring.",
-  "download": "https://www.tcpdump.org/release/libpcap-1.10.6.tar.gz",
+  "download": [
+    "https://www.tcpdump.org/release/libpcap-1.10.6.tar.gz"
+  ],
   "archive": "libpcap-1.10.6.tar.gz",
   "md5": "f49b1c1877dcbb3b7f5147429aa047f9",
   "size": "968 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 562,
+  "order": 563,
   "group_order": 13
 }

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "File::ShareDir allows you to access data files which have been installed by File::ShareDir::Install.",
-  "download": "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-ShareDir-1.118.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-ShareDir-1.118.tar.gz"
+  ],
   "archive": "File-ShareDir-1.118.tar.gz",
   "md5": "0084f730f4e3d4d89703d92b3ea82f54",
   "size": "",

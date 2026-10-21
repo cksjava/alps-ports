@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The lxqt-qtplugin package provides an LXQt Qt platform integration plugin.",
-  "download": "https://github.com/lxqt/lxqt-qtplugin/releases/download/2.4.0/lxqt-qtplugin-2.4.0.tar.xz",
+  "download": [
+    "https://github.com/lxqt/lxqt-qtplugin/releases/download/2.4.0/lxqt-qtplugin-2.4.0.tar.xz"
+  ],
   "archive": "lxqt-qtplugin-2.4.0.tar.xz",
   "md5": "679a8472698a88556622c3a4d3c1a524",
   "size": "28 KB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1038,
+  "order": 1039,
   "group_order": 19
 }

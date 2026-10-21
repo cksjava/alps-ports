@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Business-ISBN-Data is a data pack for Business::ISBN.",
-  "download": "https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/Business-ISBN-Data-20260617.001.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/Business-ISBN-Data-20260617.001.tar.gz"
+  ],
   "archive": "Business-ISBN-Data-20260617.001.tar.gz",
   "md5": "ca9abcb30fd58840fd07fbb5e7dd6dd4",
   "size": "",

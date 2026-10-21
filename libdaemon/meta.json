@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libdaemon package is a lightweight C library that eases the writing of UNIX daemons.",
-  "download": "https://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz",
+  "download": [
+    "https://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz"
+  ],
   "archive": "libdaemon-0.14.tar.gz",
   "md5": "509dc27107c21bcd9fbf2f95f5669563",
   "size": "332 KB",

@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The xorgproto package provides the header files required to build the X Window system, and to allow other applications to build against the installed X Window system.",
-  "download": "https://xorg.freedesktop.org/archive/individual/proto/xorgproto-2025.1.tar.xz",
+  "download": [
+    "https://xorg.freedesktop.org/archive/individual/proto/xorgproto-2025.1.tar.xz"
+  ],
   "archive": "xorgproto-2025.1.tar.xz",
   "md5": "15534fa6fb13a6a70afe7561c1424f3c",
   "size": "752 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 589,
+  "order": 590,
   "group_order": 1
 }

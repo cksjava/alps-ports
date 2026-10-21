@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The Nautilus package contains the GNOME file manager.",
-  "download": "https://download.gnome.org/sources/nautilus/50/nautilus-50.2.2.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/nautilus/50/nautilus-50.2.2.tar.xz"
+  ],
   "archive": "nautilus-50.2.2.tar.xz",
   "md5": "b8a2330c5ac165178b4775e70435a473",
   "size": "3.2 MB",
@@ -26,6 +28,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 961,
+  "order": 962,
   "group_order": 29
 }

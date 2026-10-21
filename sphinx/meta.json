@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Sphinx package is a set of tools for translating some structured text formats into pretty documentation in various formats.",
-  "download": "https://files.pythonhosted.org/packages/source/s/sphinx/sphinx-9.1.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/s/sphinx/sphinx-9.1.0.tar.gz"
+  ],
   "archive": "sphinx-9.1.0.tar.gz",
   "md5": "0f552d70cc8cee4d473ec4aec90b7d2c",
   "size": "8.3 MB",

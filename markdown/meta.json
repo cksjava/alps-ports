@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Markdown is a Python parser for John Gruber's Markdown specification.",
-  "download": "https://files.pythonhosted.org/packages/source/M/Markdown/markdown-3.10.2.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/M/Markdown/markdown-3.10.2.tar.gz"
+  ],
   "archive": "markdown-3.10.2.tar.gz",
   "md5": "ec7bae2cc261dcb2c9a27271b60d40d4",
   "size": "364 KB",

@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "imlib2 is a graphics library for fast file loading, saving, rendering and manipulation.",
-  "download": "https://downloads.sourceforge.net/enlightenment/imlib2-1.12.6.tar.xz",
+  "download": [
+    "https://downloads.sourceforge.net/enlightenment/imlib2-1.12.6.tar.xz"
+  ],
   "archive": "imlib2-1.12.6.tar.xz",
   "md5": "8c66b4dabc52225562324be5a994accf",
   "size": "828 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 730,
+  "order": 731,
   "group_order": 22
 }

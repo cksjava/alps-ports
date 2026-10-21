@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The json glib package is a library providing serialization and deserialization support for the JavaScript Object Notation (JSON) format described by RFC 4627.",
-  "download": "https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.8.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.8.tar.xz"
+  ],
   "archive": "json-glib-1.10.8.tar.xz",
   "md5": "95c3d5dd56d4ada808480739889b75bc",
   "size": "1.2 MB",

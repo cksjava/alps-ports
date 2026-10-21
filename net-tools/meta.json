@@ -7,7 +7,9 @@
   "group": "networking-programs",
   "chapter": "Chapter 15. Networking Programs",
   "summary": "The Net-tools package is a collection of programs for controlling the network subsystem of the Linux kernel.",
-  "download": "https://downloads.sourceforge.net/project/net-tools/net-tools-2.10.tar.xz",
+  "download": [
+    "https://downloads.sourceforge.net/project/net-tools/net-tools-2.10.tar.xz"
+  ],
   "archive": "net-tools-2.10.tar.xz",
   "md5": "78aae762c95e2d731faf88d482e4cde5",
   "size": "228 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 531,
+  "order": 532,
   "group_order": 2
 }

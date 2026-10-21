@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "libunistring is a library that provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.",
-  "download": "https://ftpmirror.gnu.org/libunistring/libunistring-1.4.2.tar.xz",
+  "download": [
+    "https://ftpmirror.gnu.org/libunistring/libunistring-1.4.2.tar.xz"
+  ],
   "archive": "libunistring-1.4.2.tar.xz",
   "md5": "e033195d90d0803063f3fecc77148124",
   "size": "2.7 MB",

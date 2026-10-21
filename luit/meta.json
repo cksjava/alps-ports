@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The luit package is a filter that can be run between an arbitrary application and a UTF-8 terminal emulator. It will convert application output from the locale’s encoding into UTF‐8, and convert terminal input from UTF‐8 into the locale’s encoding.",
-  "download": "https://invisible-mirror.net/archives/luit/luit-20250912.tgz",
+  "download": [
+    "https://invisible-mirror.net/archives/luit/luit-20250912.tgz"
+  ],
   "archive": "luit-20250912.tgz",
   "md5": "d03e636d2f919bb21e77aec16a53247d",
   "size": "212 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 672,
+  "order": 673,
   "group_order": 84
 }

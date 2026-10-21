@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Text::CSV_XS provides facilities for the composition and decomposition of comma-separated values.",
-  "download": "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.62.tgz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/H/HM/HMBRAND/Text-CSV_XS-1.62.tgz"
+  ],
   "archive": "Text-CSV_XS-1.62.tgz",
   "md5": "d7a3748a5dca671e3ee3f874456993ae",
   "size": "",

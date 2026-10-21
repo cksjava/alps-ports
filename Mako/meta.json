@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Mako is a Python module that implements hyperfast and lightweight templating for the Python platform.",
-  "download": "https://files.pythonhosted.org/packages/source/M/Mako/mako-1.4.1.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/M/Mako/mako-1.4.1.tar.gz"
+  ],
   "archive": "mako-1.4.1.tar.gz",
   "md5": "9c09a897c23a34df7ba614ec2d7229e1",
   "size": "404 KB",

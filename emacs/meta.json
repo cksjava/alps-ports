@@ -7,7 +7,9 @@
   "group": "text-editors",
   "chapter": "Chapter 6. Text Editors",
   "summary": "The Emacs package contains an extensible, customizable, self-documenting real-time display editor.",
-  "download": "https://ftpmirror.gnu.org/emacs/emacs-31.1.tar.xz",
+  "download": [
+    "https://ftpmirror.gnu.org/emacs/emacs-31.1.tar.xz"
+  ],
   "archive": "emacs-31.1.tar.xz",
   "md5": "8ea039d695b91c5c0778f8eb2f1b18fa",
   "size": "55 MB",

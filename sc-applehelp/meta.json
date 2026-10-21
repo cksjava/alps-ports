@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Sphinxcontrib-applehelp package is a Sphinx extension which outputs Apple help books.",
-  "download": "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-applehelp/sphinxcontrib_applehelp-2.0.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/s/sphinxcontrib-applehelp/sphinxcontrib_applehelp-2.0.0.tar.gz"
+  ],
   "archive": "sphinxcontrib_applehelp-2.0.0.tar.gz",
   "md5": "e16bb1d6199f686d411c180e64a8e831",
   "size": "20 KB",

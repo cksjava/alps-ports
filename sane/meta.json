@@ -7,7 +7,9 @@
   "group": "scanning",
   "chapter": "Chapter 47. Scanning",
   "summary": "SANE is short for Scanner Access Now Easy. Scanner access, however, is far from easy, since every vendor has their own protocols. The only known protocol that should bring some unity into this chaos is the TWAIN interface, but this is too imprecise to allow a stable scanning framework. Therefore, SANE comes with its own protocol, and the vendor drivers can't be used.",
-  "download": "https://anduin.linuxfromscratch.org/BLFS/sane/sane-backends-1.4.0.tar.gz",
+  "download": [
+    "https://anduin.linuxfromscratch.org/BLFS/sane/sane-backends-1.4.0.tar.gz"
+  ],
   "archive": "sane-backends-1.4.0.tar.gz",
   "md5": "fddb8b164ff1b1ffb576c9ba4173610d",
   "size": "7.2 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1170,
+  "order": 1171,
   "group_order": 0
 }

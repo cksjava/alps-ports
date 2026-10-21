@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "Libkdcraw is a KDE wrapper around the libraw-0.22.2 library for manipulating image metadata.",
-  "download": "https://download.kde.org/stable/release-service/26.04.3/src/libkdcraw-26.04.3.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/release-service/26.04.3/src/libkdcraw-26.04.3.tar.xz"
+  ],
   "archive": "libkdcraw-26.04.3.tar.xz",
   "md5": "42d21bd4a6f133c2753dd59c434d5bd1",
   "size": "40 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 862,
+  "order": 863,
   "group_order": 14
 }

@@ -7,7 +7,11 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The opencv package contains graphics libraries mainly aimed at real-time computer vision.",
-  "download": "https://github.com/opencv/opencv/archive/4.13.0/opencv-4.13.0.tar.gz",
+  "download": [
+    "https://github.com/opencv/opencv/archive/4.13.0/opencv-4.13.0.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/opencv-4.13.0-ffmpeg-9.0.patch",
+    "https://github.com/opencv/opencv_contrib/archive/4.13.0/opencv_contrib-4.13.0.tar.gz"
+  ],
   "archive": "opencv-4.13.0.tar.gz",
   "md5": "f33c0ace3add57aba7b9d3fe3c41feb4",
   "size": "91 MB",

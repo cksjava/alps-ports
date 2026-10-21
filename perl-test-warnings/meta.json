@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Test::Warnings tests for warnings and the lack of them.",
-  "download": "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.038.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.038.tar.gz"
+  ],
   "archive": "Test-Warnings-0.038.tar.gz",
   "md5": "53f8c543cf362f49f822bdfe31797712",
   "size": "",

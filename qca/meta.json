@@ -7,7 +7,10 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "Qca aims to provide a straightforward and cross-platform crypto API, using Qt datatypes and conventions. Qca separates the API from the implementation, using plugins known as Providers.",
-  "download": "https://download.kde.org/stable/qca/2.3.10/qca-2.3.10.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/qca/2.3.10/qca-2.3.10.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/qca-2.3.10-openssl4_fixes-1.patch"
+  ],
   "archive": "qca-2.3.10.tar.xz",
   "md5": "c3ed3262c83c43bdeb610836769b1534",
   "size": "748 KB",

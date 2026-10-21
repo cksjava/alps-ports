@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "WWW::RobotRules parses robots.txt files, creating a WWW::RobotRules object with methods to check if access to a given URL is prohibited.",
-  "download": "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/WWW-RobotRules-6.03.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/O/OA/OALDERS/WWW-RobotRules-6.03.tar.gz"
+  ],
   "archive": "WWW-RobotRules-6.03.tar.gz",
   "md5": "9c821b8f6eb0f5ddb86f1d338b493879",
   "size": "",

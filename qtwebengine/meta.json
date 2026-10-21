@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "This package has historically had frequent updates that address security vulnerabilities. To determine the latest status check the Linux From Scratch Security Advisories .",
-  "download": "https://download.qt.io/official_releases/qt/6.11/6.11.2/submodules/qtwebengine-everywhere-src-6.11.2.tar.xz",
+  "download": [
+    "https://download.qt.io/official_releases/qt/6.11/6.11.2/submodules/qtwebengine-everywhere-src-6.11.2.tar.xz"
+  ],
   "archive": "qtwebengine-everywhere-src-6.11.2.tar.xz",
   "md5": "a33984478c690295f2b7a3d153c5772d",
   "size": "553 MB",
@@ -24,6 +26,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 745,
+  "order": 746,
   "group_order": 37
 }

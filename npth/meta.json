@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The NPth package contains a very portable POSIX/ANSI-C based library for Unix platforms which provides non-preemptive priority-based scheduling for multiple threads of execution (multithreading) inside event-driven applications. All threads run in the same address space of the server application, but each thread has its own individual program-counter, run-time stack, signal mask and errno variable.",
-  "download": "https://www.gnupg.org/ftp/gcrypt/npth/npth-1.8.tar.bz2",
+  "download": [
+    "https://www.gnupg.org/ftp/gcrypt/npth/npth-1.8.tar.bz2"
+  ],
   "archive": "npth-1.8.tar.bz2",
   "md5": "cb4fc0402be5ba67544e499cb2c1a74d",
   "size": "312 KB",

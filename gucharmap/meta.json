@@ -7,7 +7,11 @@
   "group": "gnome-applications",
   "chapter": "Chapter 34. GNOME Applications",
   "summary": "Gucharmap is a Unicode character map and font viewer. It allows you to browse through all the available Unicode characters and categories for the installed fonts, and to examine their detailed properties. It is an easy way to find the character you might only know by its Unicode name or code point.",
-  "download": "https://gitlab.gnome.org/GNOME/gucharmap/-/archive/17.0.2/gucharmap-17.0.2.tar.bz2",
+  "download": [
+    "https://gitlab.gnome.org/GNOME/gucharmap/-/archive/17.0.2/gucharmap-17.0.2.tar.bz2",
+    "https://www.unicode.org/Public/17.0.0/ucd/UCD.zip",
+    "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip"
+  ],
   "archive": "gucharmap-17.0.2.tar.bz2",
   "md5": "eb7a254cebe0650f41281a270846afb5",
   "size": "1.4 MB",
@@ -22,6 +26,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 990,
+  "order": 991,
   "group_order": 16
 }

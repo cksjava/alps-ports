@@ -7,7 +7,9 @@
   "group": "file-systems-and-disk-management",
   "chapter": "Chapter 5. File Systems and Disk Management",
   "summary": "The smartmontools package contains utility programs (smartctl, smartd) to control/monitor storage systems using the Self-Monitoring, Analysis and Reporting Technology System (S.M.A.R.T.) built into most modern ATA and SCSI disks.",
-  "download": "https://downloads.sourceforge.net/smartmontools/smartmontools-7.5.tar.gz",
+  "download": [
+    "https://downloads.sourceforge.net/smartmontools/smartmontools-7.5.tar.gz"
+  ],
   "archive": "smartmontools-7.5.tar.gz",
   "md5": "38c38b0b82db7fc4906cdd50d15a7931",
   "size": "1.1 MB",

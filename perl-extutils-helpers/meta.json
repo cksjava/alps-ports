@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "ExtUtils::Helpers contains various portability utilities for module builders.",
-  "download": "https://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-Helpers-0.028.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-Helpers-0.028.tar.gz"
+  ],
   "archive": "ExtUtils-Helpers-0.028.tar.gz",
   "md5": "0687f20ac896a7d01219646908ccdf89",
   "size": "",

@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "xdg-desktop-portal-gtk is a backend for xdg-desktop-portal , that is using GTK and various pieces of GNOME infrastructure.",
-  "download": "https://github.com/flatpak/xdg-desktop-portal-gtk/releases/download/1.15.3/xdg-desktop-portal-gtk-1.15.3.tar.xz",
+  "download": [
+    "https://github.com/flatpak/xdg-desktop-portal-gtk/releases/download/1.15.3/xdg-desktop-portal-gtk-1.15.3.tar.xz"
+  ],
   "archive": "xdg-desktop-portal-gtk-1.15.3.tar.xz",
   "md5": "2d6e2ad2953c386a1db11618fa3803b0",
   "size": "96 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 752,
+  "order": 753,
   "group_order": 44
 }

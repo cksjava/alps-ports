@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libXi-1.8.3 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libXi-1.8.3.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libXi-1.8.3.tar.xz"
+  ],
   "archive": "libXi-1.8.3.tar.xz",
   "md5": "2b1cde310bc361464df43276fb969adf",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 613,
+  "order": 614,
   "group_order": 25
 }

@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The XCB utilities provide extensions that developers can use when making X Window software. xcb-util-0.4.1 was just installed but these utilities offer even more extensions that X Window software may depend on.",
-  "download": "https://xorg.freedesktop.org/archive/individual/lib/",
+  "download": [
+    "https://xorg.freedesktop.org/archive/individual/lib/"
+  ],
   "archive": "",
   "md5": "",
   "size": "1.3 MB",
@@ -23,6 +25,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 635,
+  "order": 636,
   "group_order": 47
 }

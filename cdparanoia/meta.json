@@ -7,7 +7,10 @@
   "group": "audio-utilities",
   "chapter": "Chapter 43. Audio Utilities",
   "summary": "The CDParanoia package contains a CD audio extraction tool. This is useful for extracting .wav files from audio CDs. A CDDA capable CDROM drive is needed. Practically all drives supported by Linux can be used.",
-  "download": "https://downloads.xiph.org/releases/cdparanoia/cdparanoia-III-10.2.src.tgz",
+  "download": [
+    "https://downloads.xiph.org/releases/cdparanoia/cdparanoia-III-10.2.src.tgz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/cdparanoia-III-10.2-gcc_fixes-1.patch"
+  ],
   "archive": "cdparanoia-III-10.2.src.tgz",
   "md5": "b304bbe8ab63373924a744eac9ebc652",
   "size": "179 KB",
@@ -16,6 +19,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 1146,
+  "order": 1147,
   "group_order": 1
 }

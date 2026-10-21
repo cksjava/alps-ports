@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The obconf-qt package is a Qt-based configuration tool for Openbox .",
-  "download": "https://github.com/lxqt/obconf-qt/releases/download/0.16.6/obconf-qt-0.16.6.tar.xz",
+  "download": [
+    "https://github.com/lxqt/obconf-qt/releases/download/0.16.6/obconf-qt-0.16.6.tar.xz"
+  ],
   "archive": "obconf-qt-0.16.6.tar.xz",
   "md5": "24eb56d0aac8099cbceeff412d82c4c9",
   "size": "128 KB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1053,
+  "order": 1054,
   "group_order": 34
 }

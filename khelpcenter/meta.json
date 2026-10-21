@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "Khelpcenter is an application that shows documentation for KDE Applications as well as displays manual and info pages.",
-  "download": "https://download.kde.org/stable/release-service/26.04.3/src/khelpcenter-26.04.3.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/release-service/26.04.3/src/khelpcenter-26.04.3.tar.xz"
+  ],
   "archive": "khelpcenter-26.04.3.tar.xz",
   "md5": "42e7b8a6ff100b242e7d5668a471c8c9",
   "size": "4.1 MB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 854,
+  "order": 855,
   "group_order": 6
 }

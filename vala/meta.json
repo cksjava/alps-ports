@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Vala is a new programming language that aims to bring modern programming language features to GNOME developers without imposing any additional runtime requirements and without using a different ABI compared to applications and libraries written in C.",
-  "download": "https://download.gnome.org/sources/vala/0.56/vala-0.56.19.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/vala/0.56/vala-0.56.19.tar.xz"
+  ],
   "archive": "vala-0.56.19.tar.xz",
   "md5": "a2dc825de503fad703584cfb0ed50302",
   "size": "3.8 MB",

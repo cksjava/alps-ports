@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "ksshaskpass-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/ksshaskpass/ksshaskpass-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/ksshaskpass/ksshaskpass-6.7.4.tar.xz"
+  ],
   "archive": "ksshaskpass-6.7.4.tar.xz",
   "md5": "b1788bd5285df58b80f74f8430b1e43a",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 907,
+  "order": 908,
   "group_order": 41
 }

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The PyAtSpi2 package contains Python bindings for the core components of the GNOME Accessibility.",
-  "download": "https://download.gnome.org/sources/pyatspi/2.58/pyatspi-2.58.2.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/pyatspi/2.58/pyatspi-2.58.2.tar.xz"
+  ],
   "archive": "pyatspi-2.58.2.tar.xz",
   "md5": "f7e9e8434159258031661ef9b86cc081",
   "size": "84 KB",

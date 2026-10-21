@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Meson_python module contains a Python build backend (PEP 517) for Meson projects.",
-  "download": "https://files.pythonhosted.org/packages/source/m/meson_python/meson_python-0.20.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/m/meson_python/meson_python-0.20.0.tar.gz"
+  ],
   "archive": "meson_python-0.20.0.tar.gz",
   "md5": "032ed60b1d86c448331fc0a2ba81f499",
   "size": "104 KB",

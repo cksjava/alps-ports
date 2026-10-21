@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The Xorg libraries provide library routines that are used within all X Window applications.",
-  "download": "https://www.x.org/pub/individual/lib/",
+  "download": [
+    "https://www.x.org/pub/individual/lib/"
+  ],
   "archive": "",
   "md5": "",
   "size": "12 MB",
@@ -49,6 +51,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 626,
+  "order": 627,
   "group_order": 38
 }

@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libusb package contains a library used by some applications for USB device access.",
-  "download": "https://github.com/libusb/libusb/releases/download/v1.0.30/libusb-1.0.30.tar.bz2",
+  "download": [
+    "https://github.com/libusb/libusb/releases/download/v1.0.30/libusb-1.0.30.tar.bz2"
+  ],
   "archive": "libusb-1.0.30.tar.bz2",
   "md5": "b0b0bacc2c6919515db8e863f0517db8",
   "size": "644 KB",

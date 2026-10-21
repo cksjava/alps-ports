@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The GNOME Settings Daemon is responsible for setting various parameters of a GNOME Session and the applications that run under it.",
-  "download": "https://download.gnome.org/sources/gnome-settings-daemon/50/gnome-settings-daemon-50.1.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-settings-daemon/50/gnome-settings-daemon-50.1.tar.xz"
+  ],
   "archive": "gnome-settings-daemon-50.1.tar.xz",
   "md5": "76c9f7b0a9ef25a3ade1afc77b32e04b",
   "size": "1.4 MB",
@@ -29,6 +31,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 964,
+  "order": 965,
   "group_order": 32
 }

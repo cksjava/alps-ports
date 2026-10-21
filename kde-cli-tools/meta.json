@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "kde-cli-tools-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/kde-cli-tools/kde-cli-tools-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/kde-cli-tools/kde-cli-tools-6.7.4.tar.xz"
+  ],
   "archive": "kde-cli-tools-6.7.4.tar.xz",
   "md5": "2c6f6683c45669f1a7a3bb297f6a16b6",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 914,
+  "order": 915,
   "group_order": 48
 }

@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "sessreg-1.1.4 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/sessreg-1.1.4.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/sessreg-1.1.4.tar.xz"
+  ],
   "archive": "sessreg-1.1.4.tar.xz",
   "md5": "b9efe1d21615c474b22439d41981beef",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 640,
+  "order": 641,
   "group_order": 52
 }

@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xcb-util-image-0.4.1 is built from the xcb-utilities page.",
-  "download": "https://xorg.freedesktop.org/archive/individual/lib/xcb-util-image-0.4.1.tar.xz",
+  "download": [
+    "https://xorg.freedesktop.org/archive/individual/lib/xcb-util-image-0.4.1.tar.xz"
+  ],
   "archive": "xcb-util-image-0.4.1.tar.xz",
   "md5": "a67bfac2eff696170259ef1f5ce1b611",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 629,
+  "order": 630,
   "group_order": 41
 }

@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The tiff package contains the TIFF libraries and associated utilities. The libraries are used by many programs for reading and writing TIFF files and the utilities are used for general work with TIFF files.",
-  "download": "https://download.osgeo.org/libtiff/tiff-4.7.2.tar.gz",
+  "download": [
+    "https://download.osgeo.org/libtiff/tiff-4.7.2.tar.gz"
+  ],
   "archive": "tiff-4.7.2.tar.gz",
   "md5": "a2a65ea450b8f469c667128848ffebfc",
   "size": "3.9 MB",

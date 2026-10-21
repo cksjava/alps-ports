@@ -7,7 +7,9 @@
   "group": "text-editors",
   "chapter": "Chapter 6. Text Editors",
   "summary": "The Nano package contains a small, simple text editor which aims to replace Pico , the default editor in the Pine package.",
-  "download": "https://www.nano-editor.org/dist/v9/nano-9.2.tar.xz",
+  "download": [
+    "https://www.nano-editor.org/dist/v9/nano-9.2.tar.xz"
+  ],
   "archive": "nano-9.2.tar.xz",
   "md5": "9bb0f37945afa964d16bffd9e4da3106",
   "size": "1.7 MB",

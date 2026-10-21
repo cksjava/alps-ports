@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "kwayland is a Qt-style API to interact with the wayland-client and wayland-server API.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/kwayland-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/kwayland-6.7.4.tar.xz"
+  ],
   "archive": "kwayland-6.7.4.tar.xz",
   "md5": "020f2d5ae392678298050babb4e60337",
   "size": "131 KB",
@@ -22,6 +24,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1023,
+  "order": 1024,
   "group_order": 4
 }

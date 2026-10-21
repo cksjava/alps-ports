@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "CSSSelect provides CSS selectors for Python.",
-  "download": "https://files.pythonhosted.org/packages/source/c/cssselect/cssselect-1.5.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/c/cssselect/cssselect-1.5.0.tar.gz"
+  ],
   "archive": "cssselect-1.5.0.tar.gz",
   "md5": "465a7b6af9ea95fdefe5357301589b9c",
   "size": "48 KB",

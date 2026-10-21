@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "This package provides a library for learning linear classifiers for large scale applications. It supports Support Vector Machines (SVM) with L2 and L1 loss, logistic regression, multi class classification and also Linear Programming Machines (L1-regularized SVMs). Its computational complexity scales linearly with the number of training examples making it one of the fastest SVM solvers around.",
-  "download": "https://github.com/cjlin1/liblinear/archive/v250/liblinear-250.tar.gz",
+  "download": [
+    "https://github.com/cjlin1/liblinear/archive/v250/liblinear-250.tar.gz"
+  ],
   "archive": "liblinear-250.tar.gz",
   "md5": "53ffb394295c7f766adc200a603d6e0d",
   "size": "76 KB",

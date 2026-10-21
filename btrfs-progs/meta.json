@@ -7,7 +7,9 @@
   "group": "file-systems-and-disk-management",
   "chapter": "Chapter 5. File Systems and Disk Management",
   "summary": "The btrfs-progs package contains administration and debugging tools for the B-tree file system (btrfs).",
-  "download": "https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v7.1.tar.xz",
+  "download": [
+    "https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v7.1.tar.xz"
+  ],
   "archive": "btrfs-progs-v7.1.tar.xz",
   "md5": "5dbaaf17567022405d6fc9d0d185e812",
   "size": "4.8 MB",

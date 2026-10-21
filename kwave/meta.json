@@ -7,7 +7,9 @@
   "group": "audio-utilities",
   "chapter": "Chapter 43. Audio Utilities",
   "summary": "The KWave package contains a KDE Frameworks-based Sound Editor application.",
-  "download": "https://download.kde.org/stable/release-service/26.04.3/src/kwave-26.04.3.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/release-service/26.04.3/src/kwave-26.04.3.tar.xz"
+  ],
   "archive": "kwave-26.04.3.tar.xz",
   "md5": "bf609e03e3614291315da20891ab6dc9",
   "size": "6.3 MB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1147,
+  "order": 1148,
   "group_order": 2
 }

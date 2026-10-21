@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "The xbitmaps package contains bitmap images used by multiple applications built in Xorg chapter.",
-  "download": "https://www.x.org/pub/individual/data/xbitmaps-1.1.4.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/data/xbitmaps-1.1.4.tar.xz"
+  ],
   "archive": "xbitmaps-1.1.4.tar.xz",
   "md5": "793992635c45250028eaec226af416fc",
   "size": "112 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 637,
+  "order": 638,
   "group_order": 49
 }

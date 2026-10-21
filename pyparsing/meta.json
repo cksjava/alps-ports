@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The pyparsing module is an alternative approach to creating and executing simple grammars, vs. the traditional lex/yacc approach, or the use of regular expressions. It provides a library of classes that client code uses to construct the grammar directly in Python code.",
-  "download": "https://files.pythonhosted.org/packages/source/p/pyparsing/pyparsing-3.3.2.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/p/pyparsing/pyparsing-3.3.2.tar.gz"
+  ],
   "archive": "pyparsing-3.3.2.tar.gz",
   "md5": "ca3bea68cd1a84584b68cd7bed679464",
   "size": "6.6 MB",

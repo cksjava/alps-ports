@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "ExtUtils::LibBuilder is a tool to build C libraries.",
-  "download": "https://cpan.metacpan.org/authors/id/A/AM/AMBS/ExtUtils-LibBuilder-0.09.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/A/AM/AMBS/ExtUtils-LibBuilder-0.09.tar.gz"
+  ],
   "archive": "ExtUtils-LibBuilder-0.09.tar.gz",
   "md5": "16115f941df504f65b0f94b7f29e8fbc",
   "size": "",

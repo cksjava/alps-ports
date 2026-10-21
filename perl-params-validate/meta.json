@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Params::Validate allows you to validate method or function call parameters to an arbitrary level of specificity.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-Validate-1.31.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Params-Validate-1.31.tar.gz"
+  ],
   "archive": "Params-Validate-1.31.tar.gz",
   "md5": "ef5f57387c2c9032b59fb23023cf5b25",
   "size": "",

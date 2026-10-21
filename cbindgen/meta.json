@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Cbindgen can be used to generate C bindings for Rust code.",
-  "download": "https://github.com/mozilla/cbindgen/archive/v0.29.4/cbindgen-0.29.4.tar.gz",
+  "download": [
+    "https://github.com/mozilla/cbindgen/archive/v0.29.4/cbindgen-0.29.4.tar.gz"
+  ],
   "archive": "cbindgen-0.29.4.tar.gz",
   "md5": "7e790e024bc678ad1b4431b0350679e9",
   "size": "248 KB",

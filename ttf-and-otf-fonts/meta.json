@@ -7,7 +7,7 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "TrueType and OpenType fonts for the desktop. Downloads a set of Google Fonts plus the families described on the TTF and OTF fonts page, and installs them under /usr/share/fonts.",
-  "download": "",
+  "download": [],
   "archive": "",
   "md5": "",
   "size": "",

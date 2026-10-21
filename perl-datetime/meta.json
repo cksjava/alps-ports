@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "DateTime is a date and time object for perl.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-1.66.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-1.66.tar.gz"
+  ],
   "archive": "DateTime-1.66.tar.gz",
   "md5": "525b43ebad148a24783c971aa198559c",
   "size": "",

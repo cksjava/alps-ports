@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Data::Dump provides pretty printing of data structures.",
-  "download": "https://www.cpan.org/authors/id/G/GA/GARU/Data-Dump-1.25.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/G/GA/GARU/Data-Dump-1.25.tar.gz"
+  ],
   "archive": "Data-Dump-1.25.tar.gz",
   "md5": "9bd7131ef0441e1e0e001bf85e9fae31",
   "size": "",

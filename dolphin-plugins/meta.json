@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6-based-applications",
   "chapter": "Chapter 31. KDE Frameworks 6 Based Applications",
   "summary": "The dolphin-plugins package provides extra plugins for the dolphin file manager.",
-  "download": "https://download.kde.org/stable/release-service/26.04.3/src/dolphin-plugins-26.04.3.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/release-service/26.04.3/src/dolphin-plugins-26.04.3.tar.xz"
+  ],
   "archive": "dolphin-plugins-26.04.3.tar.xz",
   "md5": "1f843c20b046f53cc238506d62c50640",
   "size": "332 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 850,
+  "order": 851,
   "group_order": 2
 }

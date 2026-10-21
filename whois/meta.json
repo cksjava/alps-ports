@@ -7,7 +7,9 @@
   "group": "networking-utilities",
   "chapter": "Chapter 16. Networking Utilities",
   "summary": "Whois is a client-side application which queries the whois directory service for information pertaining to a particular domain name. This package will install two programs by default: whois and mkpasswd . The mkpasswd command is also installed by the expect package in LFS.",
-  "download": "https://github.com/rfc1036/whois/archive/v5.6.6/whois-5.6.6.tar.gz",
+  "download": [
+    "https://github.com/rfc1036/whois/archive/v5.6.6/whois-5.6.6.tar.gz"
+  ],
   "archive": "whois-5.6.6.tar.gz",
   "md5": "a2a62d1184603d4f32e9934c7642b0ad",
   "size": "108 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 547,
+  "order": 548,
   "group_order": 6
 }

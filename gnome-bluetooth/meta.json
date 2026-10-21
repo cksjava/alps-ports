@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The GNOME Bluetooth package contains tools for managing and manipulating Bluetooth devices using the GNOME Desktop.",
-  "download": "https://download.gnome.org/sources/gnome-bluetooth/47/gnome-bluetooth-47.2.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-bluetooth/47/gnome-bluetooth-47.2.tar.xz"
+  ],
   "archive": "gnome-bluetooth-47.2.tar.xz",
   "md5": "8b4677d6693a6619f28d97a895f1b3be",
   "size": "292 KB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 962,
+  "order": 963,
   "group_order": 30
 }

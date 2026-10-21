@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kjobwidgets-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kjobwidgets/kjobwidgets-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kjobwidgets/kjobwidgets-6.29.0.tar.xz"
+  ],
   "archive": "kjobwidgets-6.29.0.tar.xz",
   "md5": "d6434be49817654e9d878fa3f8862539",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 811,
+  "order": 812,
   "group_order": 35
 }

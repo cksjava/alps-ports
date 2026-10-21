@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The Apache Portable Runtime Utility Library provides a predictable and consistent interface to underlying client library interfaces. This application programming interface assures predictable if not identical behavior regardless of which libraries are available on a given platform.",
-  "download": "https://archive.apache.org/dist/apr/apr-util-1.6.5.tar.bz2",
+  "download": [
+    "https://archive.apache.org/dist/apr/apr-util-1.6.5.tar.bz2"
+  ],
   "archive": "apr-util-1.6.5.tar.bz2",
   "md5": "3897a2f32d365a8281fbb90d1c2794ac",
   "size": "432 KB",

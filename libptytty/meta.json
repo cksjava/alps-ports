@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libptytty package provides a library that allows for OS independent and secure pty/tty and utmp/wtmp/lastlog handling.",
-  "download": "http://dist.schmorp.de/libptytty/libptytty-2.0.tar.gz",
+  "download": [
+    "http://dist.schmorp.de/libptytty/libptytty-2.0.tar.gz"
+  ],
   "archive": "libptytty-2.0.tar.gz",
   "md5": "2a7f3f3c0d3ef71902da745dc7959529",
   "size": "48 KB",

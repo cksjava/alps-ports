@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The seatd package provides a universal seat management library. It is what a lot of Wayland compositors use to manage seats, a session for a user in which applications can interact with. It can optionally provide its own seat manager as an alternative to a logind variant, but the instructions provided will use it as a shim, which logind from Systemd-261.2 will be the underlying seat manager.",
-  "download": "https://github.com/kennylevinsen/seatd/archive/0.9.3/seatd-0.9.3.tar.gz",
+  "download": [
+    "https://github.com/kennylevinsen/seatd/archive/0.9.3/seatd-0.9.3.tar.gz"
+  ],
   "archive": "seatd-0.9.3.tar.gz",
   "md5": "c1cc200188d31214b88af015b1f19f7b",
   "size": "44 KB",

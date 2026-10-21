@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libatasmart package is a disk reporting library. It only supports a subset of the ATA S.M.A.R.T. functionality.",
-  "download": "https://0pointer.de/public/libatasmart-0.19.tar.xz",
+  "download": [
+    "https://0pointer.de/public/libatasmart-0.19.tar.xz"
+  ],
   "archive": "libatasmart-0.19.tar.xz",
   "md5": "53afe2b155c36f658e121fe6def33e77",
   "size": "248 KB",

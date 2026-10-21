@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The libnotify library is used to send desktop notifications to a notification daemon, as defined in the Desktop Notifications spec. These notifications can be used to inform the user about an event or display some form of information without getting in the user's way.",
-  "download": "https://download.gnome.org/sources/libnotify/0.8/libnotify-0.8.8.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/libnotify/0.8/libnotify-0.8.8.tar.xz"
+  ],
   "archive": "libnotify-0.8.8.tar.xz",
   "md5": "35bef24dc1e9a336394556d09345e078",
   "size": "116 KB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 739,
+  "order": 740,
   "group_order": 31
 }

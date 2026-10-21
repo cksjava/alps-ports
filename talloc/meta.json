@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "Talloc provides a hierarchical, reference counted memory pool system with destructors. It is the core memory allocator used in Samba .",
-  "download": "https://www.samba.org/ftp/talloc/talloc-2.5.0.tar.gz",
+  "download": [
+    "https://www.samba.org/ftp/talloc/talloc-2.5.0.tar.gz"
+  ],
   "archive": "talloc-2.5.0.tar.gz",
   "md5": "d56f69f6059b37aa26013a66904f6340",
   "size": "676 KB",

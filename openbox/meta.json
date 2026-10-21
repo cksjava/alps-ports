@@ -7,7 +7,10 @@
   "group": "window-managers",
   "chapter": "Chapter 27. Window Managers",
   "summary": "Openbox is a highly configurable desktop window manager with extensive standards support. It allows you to control almost every aspect of how you interact with your desktop.",
-  "download": "http://openbox.org/dist/openbox/openbox-3.6.1.tar.gz",
+  "download": [
+    "http://openbox.org/dist/openbox/openbox-3.6.1.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/openbox-3.6.1-py3-1.patch"
+  ],
   "archive": "openbox-3.6.1.tar.gz",
   "md5": "b72794996c6a3ad94634727b95f9d204",
   "size": "944 KB",
@@ -19,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 759,
+  "order": 760,
   "group_order": 2
 }

@@ -7,7 +7,9 @@
   "group": "gnome-applications",
   "chapter": "Chapter 34. GNOME Applications",
   "summary": "The GNOME Logs package contains a log viewer for the systemd journal.",
-  "download": "https://download.gnome.org/sources/gnome-logs/45/gnome-logs-45.0.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-logs/45/gnome-logs-45.0.tar.xz"
+  ],
   "archive": "gnome-logs-45.0.tar.xz",
   "md5": "5b9396cf24528ae72eb4c48934f60df2",
   "size": "624 KB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 983,
+  "order": 984,
   "group_order": 9
 }

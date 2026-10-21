@@ -7,7 +7,11 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Python 3 package contains the Python development environment. This is useful for object-oriented programming, writing scripts, prototyping large programs or developing entire applications.",
-  "download": "https://www.python.org/ftp/python/3.14.7/Python-3.14.7.tar.xz",
+  "download": [
+    "https://www.python.org/ftp/python/3.14.7/Python-3.14.7.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/Python-3.14.7-openssl_4-1.patch",
+    "https://www.python.org/ftp/python/doc/3.14.7/python-3.14.7-docs-html.tar.bz2"
+  ],
   "archive": "Python-3.14.7.tar.xz",
   "md5": "bdf55dddc02a76961d61730f06d18849",
   "size": "23 MB",

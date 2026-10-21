@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The GNOME Shell is the core user interface of the GNOME Desktop environment.",
-  "download": "https://download.gnome.org/sources/gnome-shell/50/gnome-shell-50.4.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-shell/50/gnome-shell-50.4.tar.xz"
+  ],
   "archive": "gnome-shell-50.4.tar.xz",
   "md5": "4ab5141867b8639e793aa66fb38dc066",
   "size": "2.2 MB",
@@ -31,6 +33,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 968,
+  "order": 969,
   "group_order": 36
 }

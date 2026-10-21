@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Test2::Plugin::NoWarnings causes tests to fail if there are any warnings while they run.",
-  "download": "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Test2-Plugin-NoWarnings-0.10.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Test2-Plugin-NoWarnings-0.10.tar.gz"
+  ],
   "archive": "Test2-Plugin-NoWarnings-0.10.tar.gz",
   "md5": "d50e21a76f1fef09004092a73b1c065b",
   "size": "",

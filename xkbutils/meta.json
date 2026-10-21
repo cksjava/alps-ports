@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xkbutils-1.0.7 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xkbutils-1.0.7.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xkbutils-1.0.7.tar.xz"
+  ],
   "archive": "xkbutils-1.0.7.tar.xz",
   "md5": "c572508053297094995f1fc4bc681624",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 654,
+  "order": 655,
   "group_order": 66
 }

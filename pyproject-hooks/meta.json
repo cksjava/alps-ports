@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Pyproject_Hooks is a low-level library for calling build-backends in pyproject.toml -based projects.",
-  "download": "https://files.pythonhosted.org/packages/source/p/pyproject-hooks/pyproject_hooks-1.2.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/p/pyproject-hooks/pyproject_hooks-1.2.0.tar.gz"
+  ],
   "archive": "pyproject_hooks-1.2.0.tar.gz",
   "md5": "ed3dd1b984339e83e35f676d7169c192",
   "size": "19 KB",

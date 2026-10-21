@@ -7,7 +7,9 @@
   "group": "gnome-applications",
   "chapter": "Chapter 34. GNOME Applications",
   "summary": "The GNOME Terminal package contains the terminal emulator for GNOME Desktop.",
-  "download": "https://gitlab.gnome.org/GNOME/gnome-terminal/-/archive/3.60.0/gnome-terminal-3.60.0.tar.gz",
+  "download": [
+    "https://gitlab.gnome.org/GNOME/gnome-terminal/-/archive/3.60.0/gnome-terminal-3.60.0.tar.gz"
+  ],
   "archive": "gnome-terminal-3.60.0.tar.gz",
   "md5": "fed6d01626aa09f320e806d4347d4fe6",
   "size": "2.9 MB",
@@ -23,6 +25,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 988,
+  "order": 989,
   "group_order": 14
 }

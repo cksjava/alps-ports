@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Alien::Libxml2 is designed to allow modules to install the C libxml2 library on your system. In BLFS, it uses pkg-config to find how to link to the installed libxml2-2.15.3 .",
-  "download": "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Libxml2-0.20.tar.gz",
+  "download": [
+    "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Libxml2-0.20.tar.gz"
+  ],
   "archive": "Alien-Libxml2-0.20.tar.gz",
   "md5": "c19b4fdf1e4670f035a0971413a56424",
   "size": "",

@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "GNOME Tweaks is a simple program used to tweak advanced GNOME settings.",
-  "download": "https://download.gnome.org/sources/gnome-tweaks/49/gnome-tweaks-49.0.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/gnome-tweaks/49/gnome-tweaks-49.0.tar.xz"
+  ],
   "archive": "gnome-tweaks-49.0.tar.xz",
   "md5": "6c8dbfcefcc5dbab6605cc6f0df1ba62",
   "size": "680 KB",
@@ -23,6 +25,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 971,
+  "order": 972,
   "group_order": 39
 }

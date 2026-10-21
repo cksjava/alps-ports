@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kdoctools-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kdoctools/kdoctools-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kdoctools/kdoctools-6.29.0.tar.xz"
+  ],
   "archive": "kdoctools-6.29.0.tar.xz",
   "md5": "af09e18cebf69e98630e4d06440b5707",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 800,
+  "order": 801,
   "group_order": 24
 }

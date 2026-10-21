@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "attica-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/attica/attica-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/attica/attica-6.29.0.tar.xz"
+  ],
   "archive": "attica-6.29.0.tar.xz",
   "md5": "04136d69a5f340514fad6352629adb28",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 776,
+  "order": 777,
   "group_order": 0
 }

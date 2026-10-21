@@ -7,7 +7,10 @@
   "group": "display-managers",
   "chapter": "Chapter 26. Display Managers",
   "summary": "The lightdm package contains a lightweight display manager based upon GTK.",
-  "download": "https://github.com/ubuntu/lightdm/archive/1.33.1/lightdm-1.33.1.tar.gz",
+  "download": [
+    "https://github.com/ubuntu/lightdm/archive/1.33.1/lightdm-1.33.1.tar.gz",
+    "https://github.com/Xubuntu/lightdm-gtk-greeter/releases/download/lightdm-gtk-greeter-2.0.9/lightdm-gtk-greeter-2.0.9.tar.gz"
+  ],
   "archive": "lightdm-1.33.1.tar.gz",
   "md5": "35752d730f39293c2bbe884ef6963830",
   "size": "592 KB",
@@ -23,6 +26,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 755,
+  "order": 756,
   "group_order": 1
 }

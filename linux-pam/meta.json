@@ -7,7 +7,10 @@
   "group": "security",
   "chapter": "Chapter 4. Security",
   "summary": "The Linux PAM package contains Pluggable Authentication Modules used by the local system administrator to control how application programs authenticate users.",
-  "download": "https://github.com/linux-pam/linux-pam/releases/download/v1.7.2/Linux-PAM-1.7.2.tar.xz",
+  "download": [
+    "https://github.com/linux-pam/linux-pam/releases/download/v1.7.2/Linux-PAM-1.7.2.tar.xz",
+    "https://anduin.linuxfromscratch.org/BLFS/Linux-PAM/Linux-PAM-1.7.2-docs.tar.xz"
+  ],
   "archive": "Linux-PAM-1.7.2.tar.xz",
   "md5": "8b0c69931e4805ee5c297192c46d0e28",
   "size": "500 KB",

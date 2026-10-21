@@ -7,7 +7,11 @@
   "group": "postscript",
   "chapter": "Chapter 50. PostScript",
   "summary": "The FOP (Formatting Objects Processor) package contains a print formatter driven by XSL formatting objects (XSL-FO). It is a Java application that reads a formatting object tree and renders the resulting pages to a specified output. Output formats currently supported include PDF, PCL, PostScript, SVG, XML (area tree representation), print, AWT, MIF and ASCII text. The primary output target is PDF.",
-  "download": "https://archive.apache.org/dist/xmlgraphics/fop/source/fop-2.11-src.tar.gz",
+  "download": [
+    "https://archive.apache.org/dist/xmlgraphics/fop/source/fop-2.11-src.tar.gz",
+    "https://archive.apache.org/dist/maven/maven-3/3.9.12/binaries/apache-maven-3.9.12-bin.tar.gz",
+    "https://downloads.sourceforge.net/offo/2.2/offo-hyphenation.zip"
+  ],
   "archive": "fop-2.11-src.tar.gz",
   "md5": "b202dcd7c6dcaf3ec5d14bb193d7bf01",
   "size": "21 MB",
@@ -18,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1187,
+  "order": 1188,
   "group_order": 2
 }

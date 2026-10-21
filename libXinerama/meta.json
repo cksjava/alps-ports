@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libXinerama-1.1.6 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libXinerama-1.1.6.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libXinerama-1.1.6.tar.xz"
+  ],
   "archive": "libXinerama-1.1.6.tar.xz",
   "md5": "5f3f5754a40730d1518233a60ba5c48e",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 614,
+  "order": 615,
   "group_order": 26
 }

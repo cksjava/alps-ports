@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "S-Lang (slang) is an interpreted language that may be embedded into an application to make the application extensible. It provides facilities required by interactive applications such as display/screen management, keyboard input and keymaps.",
-  "download": "https://www.jedsoft.org/releases/slang/slang-2.3.3.tar.bz2",
+  "download": [
+    "https://www.jedsoft.org/releases/slang/slang-2.3.3.tar.bz2"
+  ],
   "archive": "slang-2.3.3.tar.bz2",
   "md5": "69015c8300088373eb65ffcc6ed4db8c",
   "size": "1.6 MB",

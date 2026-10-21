@@ -7,7 +7,9 @@
   "group": "gnome-applications",
   "chapter": "Chapter 34. GNOME Applications",
   "summary": "The Evolution package contains an integrated mail, calendar and address book suite designed for the GNOME environment.",
-  "download": "https://download.gnome.org/sources/evolution/3.60/evolution-3.60.2.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/evolution/3.60/evolution-3.60.2.tar.xz"
+  ],
   "archive": "evolution-3.60.2.tar.xz",
   "md5": "4ec00dcb2c280798f61642746fcbdf49",
   "size": "13 MB",
@@ -24,6 +26,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 977,
+  "order": 978,
   "group_order": 3
 }

@@ -7,7 +7,9 @@
   "group": "other-x-based-programs",
   "chapter": "Chapter 41. Other X-based Programs",
   "summary": "The FreeRDP package contains libraries and utilities for utilizing the Remote Desktop Protocol. This includes tools to run an RDP server as well as to connect to a computer using RDP. This is primarily used for connecting to Microsoft Windows computers, but can also be used on Linux and macOS.",
-  "download": "https://github.com/freerdp/freerdp/archive/3.31.0/FreeRDP-3.31.0.tar.gz",
+  "download": [
+    "https://github.com/freerdp/freerdp/archive/3.31.0/FreeRDP-3.31.0.tar.gz"
+  ],
   "archive": "FreeRDP-3.31.0.tar.gz",
   "md5": "1ac70e7d5ba0a94e4921af67af5907af",
   "size": "11 MB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1071,
+  "order": 1072,
   "group_order": 3
 }

@@ -7,7 +7,9 @@
   "group": "icons",
   "chapter": "Chapter 28. Icons",
   "summary": "The Breeze Icons package contains the default icons for KDE Plasma applications, but it can be used for other window environments.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/breeze-icons-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/breeze-icons-6.29.0.tar.xz"
+  ],
   "archive": "breeze-icons-6.29.0.tar.xz",
   "md5": "04a8c3e8651fdf4dead94221a3451f93",
   "size": "2.0 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 761,
+  "order": 762,
   "group_order": 1
 }

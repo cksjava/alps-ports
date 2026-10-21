@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The keybinder-3.0 package contains a utility library registering global X keyboard shortcuts for GTK+-3 .",
-  "download": "https://github.com/kupferlauncher/keybinder/releases/download/keybinder-3.0-v0.3.2/keybinder-3.0-0.3.2.tar.gz",
+  "download": [
+    "https://github.com/kupferlauncher/keybinder/releases/download/keybinder-3.0-v0.3.2/keybinder-3.0-0.3.2.tar.gz"
+  ],
   "archive": "keybinder-3.0-0.3.2.tar.gz",
   "md5": "97260321fda721fce799174ea6ba10cf",
   "size": "370 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 733,
+  "order": 734,
   "group_order": 25
 }

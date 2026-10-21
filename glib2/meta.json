@@ -7,7 +7,11 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The GLib package contains low-level libraries useful for providing data structure handling for C, portability wrappers and interfaces for runtime functionality such as an event loop, threads, dynamic loading and an object system.",
-  "download": "https://download.gnome.org/sources/glib/2.88/glib-2.88.3.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/glib/2.88/glib-2.88.3.tar.xz",
+    "https://download.gnome.org/sources/gobject-introspection/1.86/gobject-introspection-1.86.0.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/glib-skip_warnings-1.patch"
+  ],
   "archive": "glib-2.88.3.tar.xz",
   "md5": "fa0f2ae76868bf35ff725f940d75ec16",
   "size": "1.1 MB",

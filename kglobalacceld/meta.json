@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "kglobalacceld-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/kglobalacceld/kglobalacceld-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/kglobalacceld/kglobalacceld-6.7.4.tar.xz"
+  ],
   "archive": "kglobalacceld-6.7.4.tar.xz",
   "md5": "60664e1402c27654632456362613fa12",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 882,
+  "order": 883,
   "group_order": 16
 }

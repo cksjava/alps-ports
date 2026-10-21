@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The lxqt-panel package contains a lightweight X11 desktop panel.",
-  "download": "https://github.com/lxqt/lxqt-panel/releases/download/2.4.1/lxqt-panel-2.4.1.tar.xz",
+  "download": [
+    "https://github.com/lxqt/lxqt-panel/releases/download/2.4.1/lxqt-panel-2.4.1.tar.xz"
+  ],
   "archive": "lxqt-panel-2.4.1.tar.xz",
   "md5": "bd2273c99d752fe36a013993cd68d060",
   "size": "816 KB",
@@ -24,6 +26,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1039,
+  "order": 1040,
   "group_order": 20
 }

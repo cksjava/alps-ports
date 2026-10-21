@@ -7,7 +7,9 @@
   "group": "multimedia-libraries-and-drivers",
   "chapter": "Chapter 42. Multimedia Libraries and Drivers",
   "summary": "The intel-vaapi-driver package contains a VA API driver for Intel GPUs that are provided with Haswell CPUs and earlier.",
-  "download": "https://github.com/intel/intel-vaapi-driver/releases/download/2.4.1/intel-vaapi-driver-2.4.1.tar.bz2",
+  "download": [
+    "https://github.com/intel/intel-vaapi-driver/releases/download/2.4.1/intel-vaapi-driver-2.4.1.tar.bz2"
+  ],
   "archive": "intel-vaapi-driver-2.4.1.tar.bz2",
   "md5": "073fce0f409559109ad2dd0a6531055d",
   "size": "2.8 MB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1104,
+  "order": 1105,
   "group_order": 22
 }

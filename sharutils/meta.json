@@ -7,7 +7,10 @@
   "group": "general-utilities",
   "chapter": "Chapter 11. General Utilities",
   "summary": "The Sharutils package contains utilities that can create 'shell' archives.",
-  "download": "https://ftpmirror.gnu.org/sharutils/sharutils-4.15.2.tar.xz",
+  "download": [
+    "https://ftpmirror.gnu.org/sharutils/sharutils-4.15.2.tar.xz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/sharutils-4.15.2-consolidated-1.patch"
+  ],
   "archive": "sharutils-4.15.2.tar.xz",
   "md5": "5975ce21da36491d7aa6dc2b0d9788e0",
   "size": "1.1 MB",

@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libXcursor-1.2.3 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libXcursor-1.2.3.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libXcursor-1.2.3.tar.xz"
+  ],
   "archive": "libXcursor-1.2.3.tar.xz",
   "md5": "5ce55e952ec2d84d9817169d5fdb7865",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 608,
+  "order": 609,
   "group_order": 20
 }

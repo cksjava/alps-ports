@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "Colord is a system service that makes it easy to manage, install, and generate color profiles. It is used mainly by GNOME Color Manager for system integration and use when no users are logged in.",
-  "download": "https://www.freedesktop.org/software/colord/releases/colord-1.4.8.tar.xz",
+  "download": [
+    "https://www.freedesktop.org/software/colord/releases/colord-1.4.8.tar.xz"
+  ],
   "archive": "colord-1.4.8.tar.xz",
   "md5": "4d17dea7fe5460c2ea16aee64dca2ecb",
   "size": "1.8 MB",

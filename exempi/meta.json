@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "Exempi is an implementation of XMP (Adobe's Extensible Metadata Platform).",
-  "download": "https://libopenraw.freedesktop.org/download/exempi-2.6.6.tar.xz",
+  "download": [
+    "https://libopenraw.freedesktop.org/download/exempi-2.6.6.tar.xz"
+  ],
   "archive": "exempi-2.6.6.tar.xz",
   "md5": "f955e63dbd7b91c016f802c678e0e773",
   "size": "2.7 MB",

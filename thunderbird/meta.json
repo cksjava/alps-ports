@@ -7,7 +7,9 @@
   "group": "other-x-based-programs",
   "chapter": "Chapter 41. Other X-based Programs",
   "summary": "Thunderbird is a stand-alone mail/news client based on the Mozilla codebase. It uses the Gecko rendering engine to enable it to display and compose HTML emails.",
-  "download": "https://archive.mozilla.org/pub/thunderbird/releases/153.2.0esr/source/thunderbird-153.2.0esr.source.tar.xz",
+  "download": [
+    "https://archive.mozilla.org/pub/thunderbird/releases/153.2.0esr/source/thunderbird-153.2.0esr.source.tar.xz"
+  ],
   "archive": "thunderbird-153.2.0esr.source.tar.xz",
   "md5": "23978c142934d5be8ee3c699b4991e56",
   "size": "896 MB",
@@ -25,6 +27,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1076,
+  "order": 1077,
   "group_order": 8
 }

@@ -7,7 +7,9 @@
   "group": "kde-frameworks-6",
   "chapter": "Chapter 30. KDE Frameworks 6",
   "summary": "kservice-6.29.0 is built from the frameworks6 page.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/kservice/kservice-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/kservice/kservice-6.29.0.tar.xz"
+  ],
   "archive": "kservice-6.29.0.tar.xz",
   "md5": "52d2f3b7108240e1a745a6dd2058eb72",
   "size": "",
@@ -36,6 +38,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 805,
+  "order": 806,
   "group_order": 29
 }

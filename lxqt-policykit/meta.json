@@ -7,7 +7,9 @@
   "group": "lxqt-desktop",
   "chapter": "Chapter 37. LXQt Desktop",
   "summary": "The lxqt-policykit package is the LXQt PolicyKit agent.",
-  "download": "https://github.com/lxqt/lxqt-policykit/releases/download/2.4.0/lxqt-policykit-2.4.0.tar.xz",
+  "download": [
+    "https://github.com/lxqt/lxqt-policykit/releases/download/2.4.0/lxqt-policykit-2.4.0.tar.xz"
+  ],
   "archive": "lxqt-policykit-2.4.0.tar.xz",
   "md5": "407421121bd60292723424e7827fc45e",
   "size": "44 KB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1047,
+  "order": 1048,
   "group_order": 28
 }

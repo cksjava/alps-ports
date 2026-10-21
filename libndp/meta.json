@@ -7,7 +7,9 @@
   "group": "networking-libraries",
   "chapter": "Chapter 17. Networking Libraries",
   "summary": "The libndp package provides a wrapper for IPv6 Neighbor Discovery Protocol. It also provides a tool named ndptool for sending and receiving NDP messages.",
-  "download": "http://libndp.org/files/libndp-1.9.tar.gz",
+  "download": [
+    "http://libndp.org/files/libndp-1.9.tar.gz"
+  ],
   "archive": "libndp-1.9.tar.gz",
   "md5": "9d486750569e7025e5d0afdcc509b93c",
   "size": "368 KB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 558,
+  "order": 559,
   "group_order": 9
 }

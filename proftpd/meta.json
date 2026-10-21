@@ -7,7 +7,9 @@
   "group": "major-servers",
   "chapter": "Chapter 20. Major Servers",
   "summary": "The ProFTPD package contains a secure and highly configurable FTP daemon. This is useful for serving large file archives over a network.",
-  "download": "https://github.com/proftpd/proftpd/archive/v1.3.9b/proftpd-1.3.9b.tar.gz",
+  "download": [
+    "https://github.com/proftpd/proftpd/archive/v1.3.9b/proftpd-1.3.9b.tar.gz"
+  ],
   "archive": "proftpd-1.3.9b.tar.gz",
   "md5": "d856fe322fa3677ee7adf9fe52bd5b53",
   "size": "19 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 580,
+  "order": 581,
   "group_order": 3
 }

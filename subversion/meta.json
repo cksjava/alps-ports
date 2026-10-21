@@ -7,7 +7,10 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "Subversion is a version control system that is designed to be a compelling replacement for CVS in the open source community. It extends and enhances CVS ' feature set, while maintaining a similar interface for those already familiar with CVS . These instructions install the client and server software used to manipulate a Subversion repository. Creation of a repository is covered at Running a Subversion Server .",
-  "download": "https://archive.apache.org/dist/subversion/subversion-1.14.5.tar.bz2",
+  "download": [
+    "https://archive.apache.org/dist/subversion/subversion-1.14.5.tar.bz2",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/subversion-1.14.5-upstream_fixes-1.patch"
+  ],
   "archive": "subversion-1.14.5.tar.bz2",
   "md5": "af6001dc7af2f1242a4f72e8a5c565d2",
   "size": "8.3 MB",

@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The libgpg-error package contains a library that defines common error values for all GnuPG components.",
-  "download": "https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.61.tar.bz2",
+  "download": [
+    "https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.61.tar.bz2"
+  ],
   "archive": "libgpg-error-1.61.tar.bz2",
   "md5": "c89a8c6825cb64c527d5c1c0fb36f245",
   "size": "1.1 MB",

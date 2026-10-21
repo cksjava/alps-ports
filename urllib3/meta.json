@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Urllib3 module is a powerful, user-friendly HTTP client for Python. It brings many critical features that are missing from the Python standard libraries.",
-  "download": "https://files.pythonhosted.org/packages/source/u/urllib3/urllib3-2.7.0.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/source/u/urllib3/urllib3-2.7.0.tar.gz"
+  ],
   "archive": "urllib3-2.7.0.tar.gz",
   "md5": "e79707b798a66c8165c9c441440f4e80",
   "size": "424 KB",

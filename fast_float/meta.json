@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "Fast_float provides a set of C++ header files for efficient string to float operations.",
-  "download": "https://github.com/fastfloat/fast_float/archive/v8.2.10/fast_float-8.2.10.tar.gz",
+  "download": [
+    "https://github.com/fastfloat/fast_float/archive/v8.2.10/fast_float-8.2.10.tar.gz"
+  ],
   "archive": "fast_float-8.2.10.tar.gz",
   "md5": "ddcf64ffe15f1e1ed964a355db7a04f3",
   "size": "140 KB",

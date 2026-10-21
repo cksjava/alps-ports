@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The LSB-Tools package includes tools for Linux Standards Base (LSB) conformance.",
-  "download": "https://github.com/lfs-book/LSB-Tools/releases/download/v0.12/LSB-Tools-0.12.tar.gz",
+  "download": [
+    "https://github.com/lfs-book/LSB-Tools/releases/download/v0.12/LSB-Tools-0.12.tar.gz"
+  ],
   "archive": "LSB-Tools-0.12.tar.gz",
   "md5": "1e6ef8cdfddb55035a6c36757e6313f9",
   "size": "20 KB",

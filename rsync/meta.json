@@ -7,7 +7,9 @@
   "group": "networking-programs",
   "chapter": "Chapter 15. Networking Programs",
   "summary": "The rsync package contains the rsync utility. This is useful for synchronizing large file archives over a network.",
-  "download": "https://www.samba.org/ftp/rsync/src/rsync-3.5.0.tar.gz",
+  "download": [
+    "https://www.samba.org/ftp/rsync/src/rsync-3.5.0.tar.gz"
+  ],
   "archive": "rsync-3.5.0.tar.gz",
   "md5": "418db7651d1acf55364b0834234dbbfb",
   "size": "1.9 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 535,
+  "order": 536,
   "group_order": 6
 }

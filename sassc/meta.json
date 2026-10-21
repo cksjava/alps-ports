@@ -7,7 +7,10 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "SassC is a wrapper around libsass, a CSS pre-processor language.",
-  "download": "https://github.com/sass/sassc/archive/3.6.2/sassc-3.6.2.tar.gz",
+  "download": [
+    "https://github.com/sass/sassc/archive/3.6.2/sassc-3.6.2.tar.gz",
+    "https://github.com/sass/libsass/archive/3.6.6/libsass-3.6.6.tar.gz"
+  ],
   "archive": "sassc-3.6.2.tar.gz",
   "md5": "afda97284d75a030cabadf5b9f998a3b",
   "size": "336 KB",

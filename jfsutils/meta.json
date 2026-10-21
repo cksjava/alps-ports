@@ -7,7 +7,10 @@
   "group": "file-systems-and-disk-management",
   "chapter": "Chapter 5. File Systems and Disk Management",
   "summary": "The jfsutils package contains administration and debugging tools for the jfs file system.",
-  "download": "https://jfs.sourceforge.net/project/pub/jfsutils-1.1.15.tar.gz",
+  "download": [
+    "https://jfs.sourceforge.net/project/pub/jfsutils-1.1.15.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/jfsutils-1.1.15-gcc10_fix-1.patch"
+  ],
   "archive": "jfsutils-1.1.15.tar.gz",
   "md5": "8809465cd48a202895bc2a12e1923b5d",
   "size": "532 KB",

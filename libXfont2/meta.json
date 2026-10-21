@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "libXfont2-2.0.9 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/libXfont2-2.0.9.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/libXfont2-2.0.9.tar.xz"
+  ],
   "archive": "libXfont2-2.0.9.tar.xz",
   "md5": "134b3f673f6ecd3e67c0e892dd1a89e8",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 611,
+  "order": 612,
   "group_order": 23
 }

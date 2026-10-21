@@ -7,7 +7,9 @@
   "group": "graphics-and-font-libraries",
   "chapter": "Chapter 10. Graphics and Font Libraries",
   "summary": "The jasper Project is an open-source initiative to provide a free software-based reference implementation of the JPEG-2000 codec.",
-  "download": "https://github.com/jasper-software/jasper/archive/version-4.2.9/jasper-version-4.2.9.tar.gz",
+  "download": [
+    "https://github.com/jasper-software/jasper/archive/version-4.2.9/jasper-version-4.2.9.tar.gz"
+  ],
   "archive": "jasper-version-4.2.9.tar.gz",
   "md5": "5c84b0c41b6b3363124f8bc7f8881f53",
   "size": "1.9 MB",

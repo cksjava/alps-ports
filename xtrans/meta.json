@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xtrans-1.6.0 is built from the x7lib page.",
-  "download": "https://www.x.org/pub/individual/lib/xtrans-1.6.0.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/lib/xtrans-1.6.0.tar.xz"
+  ],
   "archive": "xtrans-1.6.0.tar.xz",
   "md5": "6ad67d4858814ac24e618b8072900664",
   "size": "",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 594,
+  "order": 595,
   "group_order": 6
 }

@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "SCons is a tool for building software (and other files) implemented in Python .",
-  "download": "https://downloads.sourceforge.net/scons/SCons-4.11.0.tar.gz",
+  "download": [
+    "https://downloads.sourceforge.net/scons/SCons-4.11.0.tar.gz"
+  ],
   "archive": "SCons-4.11.0.tar.gz",
   "md5": "79b7933616d960a1dd4d79019d536116",
   "size": "3.2 MB",

@@ -7,7 +7,9 @@
   "group": "gnome-libraries-and-desktop",
   "chapter": "Chapter 33. GNOME Libraries and Desktop",
   "summary": "The libgweather package is a library used to access weather information from online services for numerous locations.",
-  "download": "https://download.gnome.org/sources/libgweather/4.6/libgweather-4.6.0.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/libgweather/4.6/libgweather-4.6.0.tar.xz"
+  ],
   "archive": "libgweather-4.6.0.tar.xz",
   "md5": "c52f40f2e6d6708763f15eb17ce45b97",
   "size": "340 KB",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 949,
+  "order": 950,
   "group_order": 17
 }

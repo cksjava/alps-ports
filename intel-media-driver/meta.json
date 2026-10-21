@@ -7,7 +7,9 @@
   "group": "multimedia-libraries-and-drivers",
   "chapter": "Chapter 42. Multimedia Libraries and Drivers",
   "summary": "The intel-media-driver package provides a VA API driver for Intel GPUs that are provided with Broadwell CPUs and higher as well as the Intel Arc family of GPUs, like the B-Series. This includes support for a variety of codecs.",
-  "download": "https://github.com/lfs-book/intel-media-driver/archive/v26.2.4/intel-media-driver-26.2.4.tar.gz",
+  "download": [
+    "https://github.com/lfs-book/intel-media-driver/archive/v26.2.4/intel-media-driver-26.2.4.tar.gz"
+  ],
   "archive": "intel-media-driver-26.2.4.tar.gz",
   "md5": "507c81a204cbb38da19ac915ec16a618",
   "size": "28 MB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1103,
+  "order": 1104,
   "group_order": 21
 }

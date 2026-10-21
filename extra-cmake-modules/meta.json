@@ -7,7 +7,9 @@
   "group": "introduction-to-kde",
   "chapter": "Chapter 29. Introduction to KDE",
   "summary": "The Extra CMake Modules package contains extra CMake modules used by KDE Frameworks and other packages.",
-  "download": "https://download.kde.org/stable/frameworks/6.29/extra-cmake-modules-6.29.0.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/frameworks/6.29/extra-cmake-modules-6.29.0.tar.xz"
+  ],
   "archive": "extra-cmake-modules-6.29.0.tar.xz",
   "md5": "b3795f9b843a58746ca5461713c088d8",
   "size": "332 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 770,
+  "order": 771,
   "group_order": 0
 }

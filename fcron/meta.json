@@ -7,7 +7,9 @@
   "group": "system-utilities",
   "chapter": "Chapter 12. System Utilities",
   "summary": "The Fcron package contains a periodical command scheduler which aims at replacing Vixie Cron .",
-  "download": "http://fcron.free.fr/archives/fcron-3.4.1.src.tar.gz",
+  "download": [
+    "http://fcron.free.fr/archives/fcron-3.4.1.src.tar.gz"
+  ],
   "archive": "fcron-3.4.1.src.tar.gz",
   "md5": "8a5f4845f9f40165336e53cc16433b19",
   "size": "612 KB",

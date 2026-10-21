@@ -7,7 +7,9 @@
   "group": "graphical-environment-libraries",
   "chapter": "Chapter 25. Graphical Environment Libraries",
   "summary": "The libadwaita package provides additional GTK4 UI widgets for use in developing user interfaces. It is used primarily for GNOME applications.",
-  "download": "https://download.gnome.org/sources/libadwaita/1.9/libadwaita-1.9.3.tar.xz",
+  "download": [
+    "https://download.gnome.org/sources/libadwaita/1.9/libadwaita-1.9.3.tar.xz"
+  ],
   "archive": "libadwaita-1.9.3.tar.xz",
   "md5": "a7e9c57bec541b5032ae02f969d19fe5",
   "size": "2.8 MB",
@@ -20,6 +22,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 734,
+  "order": 735,
   "group_order": 26
 }

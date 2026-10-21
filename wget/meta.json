@@ -7,7 +7,9 @@
   "group": "networking-programs",
   "chapter": "Chapter 15. Networking Programs",
   "summary": "The Wget package contains a utility useful for non-interactive downloading of files from the Web.",
-  "download": "https://ftpmirror.gnu.org/wget/wget-1.25.0.tar.gz",
+  "download": [
+    "https://ftpmirror.gnu.org/wget/wget-1.25.0.tar.gz"
+  ],
   "archive": "wget-1.25.0.tar.gz",
   "md5": "c70ba58b36f944e8ba1d655ace552881",
   "size": "5.0 MB",
@@ -16,6 +18,6 @@
   "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 537,
+  "order": 538,
   "group_order": 8
 }

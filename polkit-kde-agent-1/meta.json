@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "polkit-kde-agent-1-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/polkit-kde-agent-1/polkit-kde-agent-1-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/polkit-kde-agent-1/polkit-kde-agent-1-6.7.4.tar.xz"
+  ],
   "archive": "polkit-kde-agent-1-6.7.4.tar.xz",
   "md5": "318152d6ed611fc6ad5d4b865736f91f",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 903,
+  "order": 904,
   "group_order": 37
 }

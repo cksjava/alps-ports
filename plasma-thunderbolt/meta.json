@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "plasma-thunderbolt-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/plasma-thunderbolt/plasma-thunderbolt-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/plasma-thunderbolt/plasma-thunderbolt-6.7.4.tar.xz"
+  ],
   "archive": "plasma-thunderbolt-6.7.4.tar.xz",
   "md5": "b9129e3342abb80f4b43d160d26dcb15",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 930,
+  "order": 931,
   "group_order": 64
 }

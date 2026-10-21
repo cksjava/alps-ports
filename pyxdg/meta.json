@@ -7,7 +7,10 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "PyXDG is a Python library to access freedesktop.org standards.",
-  "download": "https://files.pythonhosted.org/packages/b0/25/7998cd2dec731acbd438fbf91bc619603fc5188de0a9a17699a781840452/pyxdg-0.28.tar.gz",
+  "download": [
+    "https://files.pythonhosted.org/packages/b0/25/7998cd2dec731acbd438fbf91bc619603fc5188de0a9a17699a781840452/pyxdg-0.28.tar.gz",
+    "https://www.linuxfromscratch.org/patches/blfs/13.1/pyxdg-0.28-python3_14-fixes-1.patch"
+  ],
   "archive": "pyxdg-0.28.tar.gz",
   "md5": "d9a1d04fe60c956f5e3b9de3b4ef4722",
   "size": "76 KB",

@@ -7,7 +7,9 @@
   "group": "kde-plasma",
   "chapter": "Chapter 32. KDE Plasma",
   "summary": "qqc2-breeze-style-6.7.4 is built from the plasma-all page.",
-  "download": "https://download.kde.org/stable/plasma/6.7.4/qqc2-breeze-style/qqc2-breeze-style-6.7.4.tar.xz",
+  "download": [
+    "https://download.kde.org/stable/plasma/6.7.4/qqc2-breeze-style/qqc2-breeze-style-6.7.4.tar.xz"
+  ],
   "archive": "qqc2-breeze-style-6.7.4.tar.xz",
   "md5": "97bd995296967e15827b872e7d8d2466",
   "size": "",
@@ -44,6 +46,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 918,
+  "order": 919,
   "group_order": 52
 }

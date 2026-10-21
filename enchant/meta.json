@@ -7,7 +7,9 @@
   "group": "general-libraries",
   "chapter": "Chapter 9. General Libraries",
   "summary": "The enchant package provides a generic interface into various existing spell checking libraries.",
-  "download": "https://github.com/rrthomas/enchant/releases/download/v2.8.19/enchant-2.8.19.tar.gz",
+  "download": [
+    "https://github.com/rrthomas/enchant/releases/download/v2.8.19/enchant-2.8.19.tar.gz"
+  ],
   "archive": "enchant-2.8.19.tar.gz",
   "md5": "b06fe4ea79687202ec58ce58bd4f5867",
   "size": "1.3 MB",

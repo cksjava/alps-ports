@@ -7,7 +7,9 @@
   "group": "graphical-environments",
   "chapter": "Chapter 24. Graphical Environments",
   "summary": "xcmsdb-1.0.7 is built from the x7app page.",
-  "download": "https://www.x.org/pub/individual/app/xcmsdb-1.0.7.tar.xz",
+  "download": [
+    "https://www.x.org/pub/individual/app/xcmsdb-1.0.7.tar.xz"
+  ],
   "archive": "xcmsdb-1.0.7.tar.xz",
   "md5": "37063ccf902fe3d55a90f387ed62fe1f",
   "size": "",
@@ -21,6 +23,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 644,
+  "order": 645,
   "group_order": 56
 }

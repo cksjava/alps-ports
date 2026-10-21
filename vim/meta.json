@@ -7,7 +7,9 @@
   "group": "text-editors",
   "chapter": "Chapter 6. Text Editors",
   "summary": "The Vim package, which is an abbreviation for VI IMproved, contains a vi clone with extra features as compared to the original vi .",
-  "download": "https://github.com/vim/vim/archive/v9.2.1025/vim-9.2.1025.tar.gz",
+  "download": [
+    "https://github.com/vim/vim/archive/v9.2.1025/vim-9.2.1025.tar.gz"
+  ],
   "archive": "vim-9.2.1025.tar.gz",
   "md5": "060c9c0d7e2bdb5e5d80daad596cae02",
   "size": "19 MB",

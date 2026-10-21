@@ -7,7 +7,9 @@
   "group": "icons",
   "chapter": "Chapter 28. Icons",
   "summary": "The icon-naming-utils package contains a Perl script used for maintaining backwards compatibility with current desktop icon themes, while migrating to the names specified in the Icon Naming Specification .",
-  "download": "https://tango.freedesktop.org/releases/icon-naming-utils-0.8.90.tar.bz2",
+  "download": [
+    "https://tango.freedesktop.org/releases/icon-naming-utils-0.8.90.tar.bz2"
+  ],
   "archive": "icon-naming-utils-0.8.90.tar.bz2",
   "md5": "dd8108b56130b9eedc4042df634efa66",
   "size": "57 KB",
@@ -18,6 +20,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 767,
+  "order": 768,
   "group_order": 7
 }

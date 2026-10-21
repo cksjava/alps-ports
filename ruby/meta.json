@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Ruby package contains the Ruby development environment. This is useful for object-oriented scripting.",
-  "download": "https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.6.tar.xz",
+  "download": [
+    "https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.6.tar.xz"
+  ],
   "archive": "ruby-4.0.6.tar.xz",
   "md5": "8f4fd877f03cef92dce10c5e16867f2f",
   "size": "18 MB",

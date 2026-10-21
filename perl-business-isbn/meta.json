@@ -7,7 +7,9 @@
   "group": "programming",
   "chapter": "Chapter 13. Programming",
   "summary": "The Business::ISBN module provides functions for working with International Standard Book Numbers.",
-  "download": "https://www.cpan.org/authors/id/B/BR/BRIANDFOY/Business-ISBN-3.014.tar.gz",
+  "download": [
+    "https://www.cpan.org/authors/id/B/BR/BRIANDFOY/Business-ISBN-3.014.tar.gz"
+  ],
   "archive": "Business-ISBN-3.014.tar.gz",
   "md5": "d20dedcc798a253223bcfcba2058689e",
   "size": "",

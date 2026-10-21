@@ -7,7 +7,9 @@
   "group": "xfce-desktop",
   "chapter": "Chapter 35. Xfce Desktop",
   "summary": "Xfwm4 is the window manager for Xfce .",
-  "download": "https://archive.xfce.org/src/xfce/xfwm4/4.20/xfwm4-4.20.0.tar.bz2",
+  "download": [
+    "https://archive.xfce.org/src/xfce/xfwm4/4.20/xfwm4-4.20.0.tar.bz2"
+  ],
   "archive": "xfwm4-4.20.0.tar.bz2",
   "md5": "e74cfb30b6e9ebf9cbaac0827dd534e3",
   "size": "1.4 MB",
@@ -19,6 +21,6 @@
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1011,
+  "order": 1012,
   "group_order": 16
 }
