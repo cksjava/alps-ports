@@ -1,0 +1,26 @@
+{
+  "name": "xfce4-session",
+  "version": "4.20.4",
+  "title": "xfce4-session-4.20.4",
+  "anchor": "xfce4-session",
+  "page_type": "single",
+  "group": "xfce-desktop",
+  "chapter": "Chapter 35. Xfce Desktop",
+  "summary": "Xfce4 Session is a session manager for Xfce . Its task is to save the state of your desktop (opened applications and their location) and restore it during a next startup. You can create several different sessions and choose one of them on startup.",
+  "download": "https://archive.xfce.org/src/xfce/xfce4-session/4.20/xfce4-session-4.20.4.tar.bz2",
+  "archive": "xfce4-session-4.20.4.tar.bz2",
+  "md5": "048a3f838449dd75d358779b528b0a63",
+  "size": "1.2 MB",
+  "disk_space": "20 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "libwnck",
+    "libxfce4windowing",
+    "libxfce4ui",
+    "xfdesktop"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1012,
+  "group_order": 17
+}

@@ -1,0 +1,26 @@
+{
+  "name": "lxqt-powermanagement",
+  "version": "2.4.0",
+  "title": "lxqt-powermanagement-2.4.0",
+  "anchor": "lxqt-powermanagement",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "The lxqt-powermanagement package provides the power management module for LXQt .",
+  "download": "https://github.com/lxqt/lxqt-powermanagement/releases/download/2.4.0/lxqt-powermanagement-2.4.0.tar.xz",
+  "archive": "lxqt-powermanagement-2.4.0.tar.xz",
+  "md5": "3a2ed6c122e16e9c16b92009395ac397",
+  "size": "116 KB",
+  "disk_space": "9.8 MB",
+  "build_time": "0.5 SBU",
+  "dependencies": [
+    "liblxqt",
+    "lxqt-kidletime",
+    "lxqt-solid",
+    "upower"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1041,
+  "group_order": 22
+}

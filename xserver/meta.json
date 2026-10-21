@@ -106,6 +106,7 @@
     "font-ibm-type1",
     "font-misc-ethiopic",
     "font-xfree86-type1",
+    "xkeyboard-config",
     "xwayland",
     "xorg-server",
     "libevdev",
@@ -117,10 +118,11 @@
     "twm",
     "xterm",
     "xclock",
-    "xinit"
+    "xinit",
+    "wayfire-plugins-extra"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1068,
+  "order": 1196,
   "group_order": 0
 }

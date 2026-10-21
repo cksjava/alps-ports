@@ -1,0 +1,26 @@
+{
+  "name": "polkit-gnome",
+  "version": "0.105",
+  "title": "polkit-gnome-0.105",
+  "anchor": "polkit-gnome",
+  "page_type": "single",
+  "group": "security",
+  "chapter": "Chapter 4. Security",
+  "summary": "The Polkit GNOME package provides an Authentication Agent for Polkit that integrates well with the GNOME Desktop environment.",
+  "download": "https://download.gnome.org/sources/polkit-gnome/0.105/polkit-gnome-0.105.tar.xz",
+  "archive": "polkit-gnome-0.105.tar.xz",
+  "md5": "50ecad37c8342fb4a52f590db7530621",
+  "size": "305 KB",
+  "disk_space": "5.0 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "accountsservice",
+    "gtk3",
+    "intltool",
+    "polkit"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 21,
+  "group_order": 19
+}

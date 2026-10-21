@@ -1,0 +1,23 @@
+{
+  "name": "libxkbcommon",
+  "version": "1.13.2",
+  "title": "libxkbcommon-1.13.2",
+  "anchor": "libxkbcommon",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "libxkbcommon is a keymap compiler and support library which processes a reduced subset of keymaps as defined by the XKB specification.",
+  "download": "https://github.com/lfs-book/libxkbcommon/archive/v1.13.2/libxkbcommon-1.13.2.tar.gz",
+  "archive": "libxkbcommon-1.13.2.tar.gz",
+  "md5": "07f838f575d62c267cfc53eaf5ee739b",
+  "size": "1.2 MB",
+  "disk_space": "45 MB (with tests)",
+  "build_time": "0.4 SBU (with tests)",
+  "dependencies": [
+    "xkeyboard-config"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 125,
+  "group_order": 73
+}

@@ -1,0 +1,29 @@
+{
+  "name": "gnome-disk-utility",
+  "version": "46.1",
+  "title": "gnome-disk-utility-46.1",
+  "anchor": "gnome-disk-utility",
+  "page_type": "single",
+  "group": "gnome-applications",
+  "chapter": "Chapter 34. GNOME Applications",
+  "summary": "The GNOME Disk Utility package provides applications used for dealing with storage devices.",
+  "download": "https://download.gnome.org/sources/gnome-disk-utility/46/gnome-disk-utility-46.1.tar.xz",
+  "archive": "gnome-disk-utility-46.1.tar.xz",
+  "md5": "bfc4d0cfbf186ba5bd487f3fddbf07d2",
+  "size": "1.5 MB",
+  "disk_space": "29 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "gnome-settings-daemon",
+    "itstool",
+    "libdvdread",
+    "libhandy1",
+    "libpwquality",
+    "libsecret",
+    "udisks2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 982,
+  "group_order": 8
+}

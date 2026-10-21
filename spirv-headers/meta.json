@@ -1,0 +1,23 @@
+{
+  "name": "SPIRV-Headers",
+  "version": "1.4.357.0",
+  "title": "SPIRV-Headers-1.4.357.0",
+  "anchor": "spirv-headers",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The SPIRV-Headers package contains headers that allow for applications to use the SPIR-V language and instruction set with Vulkan. SPIR-V is a binary intermediate language for representing graphical shader stages and compute kernels for multiple Khronos APIs, including OpenGL and Vulkan.",
+  "download": "https://github.com/KhronosGroup/SPIRV-Headers/archive/vulkan-sdk-1.4.357.0/SPIRV-Headers-vulkan-sdk-1.4.357.0.tar.gz",
+  "archive": "SPIRV-Headers-vulkan-sdk-1.4.357.0.tar.gz",
+  "md5": "085dd07d487c165c0ca7713d726eb6de",
+  "size": "560 KB",
+  "disk_space": "8.5 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 147,
+  "group_order": 95
+}

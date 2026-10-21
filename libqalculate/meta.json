@@ -1,0 +1,25 @@
+{
+  "name": "libqalculate",
+  "version": "5.12.0",
+  "title": "libqalculate-5.12.0",
+  "anchor": "libqalculate",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The libqalculate package contains a library that provides functions for a multi-purpose calculator.",
+  "download": "https://github.com/Qalculate/libqalculate/releases/download/v5.12.0/libqalculate-5.12.0.tar.gz",
+  "archive": "libqalculate-5.12.0.tar.gz",
+  "md5": "46f93f638b6ce747f17dba955f95c9cf",
+  "size": "3.5 MB",
+  "disk_space": "240 MB (with tests)",
+  "build_time": "0.6 SBU (With tests; both using parallelism=8)",
+  "dependencies": [
+    "curl",
+    "icu",
+    "libxml2"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 111,
+  "group_order": 59
+}

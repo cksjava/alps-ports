@@ -1,0 +1,28 @@
+{
+  "name": "appstream-glib",
+  "version": "0.8.4",
+  "title": "appstream-glib-0.8.4",
+  "anchor": "appstream-glib",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The appstream-glib provides GObjects and helper methods to make it easy to read and write AppStream metadata. It also provides a simple DOM (Document Object Model) implementation that makes it easy to edit nodes and convert to and from the standardized XML representation.",
+  "download": "http://people.freedesktop.org/~hughsient/appstream-glib/releases/appstream-glib-0.8.4.tar.xz",
+  "archive": "appstream-glib-0.8.4.tar.xz",
+  "md5": "e13816aed749622edc5abe1ca2cdd3ed",
+  "size": "2.4 MB",
+  "disk_space": "16 MB (with tests)",
+  "build_time": "0.1 SBU (with tests)",
+  "dependencies": [
+    "curl",
+    "gdk-pixbuf",
+    "gtk3",
+    "json-glib",
+    "libarchive",
+    "libyaml"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 54,
+  "group_order": 2
+}

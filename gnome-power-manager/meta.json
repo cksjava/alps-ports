@@ -1,0 +1,24 @@
+{
+  "name": "gnome-power-manager",
+  "version": "50.0",
+  "title": "gnome-power-manager-50.0",
+  "anchor": "gnome-power-manager",
+  "page_type": "single",
+  "group": "gnome-applications",
+  "chapter": "Chapter 34. GNOME Applications",
+  "summary": "The GNOME Power Manager package contains a tool used to report on power management on the system.",
+  "download": "https://download.gnome.org/sources/gnome-power-manager/50/gnome-power-manager-50.0.tar.xz",
+  "archive": "gnome-power-manager-50.0.tar.xz",
+  "md5": "541c76d6000fced2a3cc6bcc88f1d860",
+  "size": "376 KB",
+  "disk_space": "5.2 MB",
+  "build_time": "less than 0.1 SBU (with tests)",
+  "dependencies": [
+    "gtk3",
+    "upower"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 986,
+  "group_order": 12
+}

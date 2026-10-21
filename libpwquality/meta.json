@@ -1,0 +1,23 @@
+{
+  "name": "libpwquality",
+  "version": "1.4.5",
+  "title": "libpwquality-1.4.5",
+  "anchor": "libpwquality",
+  "page_type": "single",
+  "group": "security",
+  "chapter": "Chapter 4. Security",
+  "summary": "The libpwquality package provides common functions for password quality checking and also scoring them based on their apparent randomness. The library also provides a function for generating random passwords with good pronounceability.",
+  "download": "https://github.com/libpwquality/libpwquality/releases/download/libpwquality-1.4.5/libpwquality-1.4.5.tar.bz2",
+  "archive": "libpwquality-1.4.5.tar.bz2",
+  "md5": "6b70e355269aef0b9ddb2b9d17936f21",
+  "size": "424 KB",
+  "disk_space": "5.4 MB",
+  "build_time": "0.1 SBU",
+  "dependencies": [
+    "cracklib"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 14,
+  "group_order": 12
+}

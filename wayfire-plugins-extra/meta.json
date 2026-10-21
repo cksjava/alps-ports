@@ -1,0 +1,27 @@
+{
+  "name": "wayfire-plugins-extra",
+  "version": "0.11.2",
+  "title": "wayfire-plugins-extra-0.11.2",
+  "anchor": "wayfire-plugins-extra",
+  "page_type": "single",
+  "group": "graphical-environments",
+  "chapter": "Chapter 24. Graphical Environments",
+  "summary": "The wayfire-plugins-extra package provides more plugins for wayfire-0.11.0 that you may want or need. For example, for focus follows mouse, you will need the follow-focus plugin from this package.",
+  "download": "https://github.com/WayfireWM/wayfire-plugins-extra/releases/download/v0.11.2/wayfire-plugins-extra-0.11.2.tar.xz",
+  "archive": "wayfire-plugins-extra-0.11.2.tar.xz",
+  "md5": "7cfee99a510fe890276fe92e2bd41f07",
+  "size": "64 KB",
+  "disk_space": "15 MB",
+  "build_time": "0.1 SBU (with parallelism=4)",
+  "dependencies": [
+    "cairo",
+    "libevdev",
+    "wayfire",
+    "wayland",
+    "wayland-protocols"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 707,
+  "group_order": 119
+}

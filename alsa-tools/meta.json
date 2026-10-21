@@ -1,0 +1,23 @@
+{
+  "name": "alsa-tools",
+  "version": "1.2.15",
+  "title": "alsa-tools-1.2.15",
+  "anchor": "alsa-tools",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "The ALSA Tools package contains advanced tools for certain sound cards.",
+  "download": "https://www.alsa-project.org/files/pub/tools/alsa-tools-1.2.15.tar.bz2",
+  "archive": "alsa-tools-1.2.15.tar.bz2",
+  "md5": "8c5306b6c31e9dcaa70ac7d5ce244579",
+  "size": "1.9 MB",
+  "disk_space": "25 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "alsa-lib"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1085,
+  "group_order": 3
+}

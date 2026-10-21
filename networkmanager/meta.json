@@ -1,0 +1,23 @@
+{
+  "name": "NetworkManager",
+  "version": "1.58.1",
+  "title": "NetworkManager-1.58.1",
+  "anchor": "NetworkManager",
+  "page_type": "single",
+  "group": "networking-utilities",
+  "chapter": "Chapter 16. Networking Utilities",
+  "summary": "NetworkManager is a set of co-operative tools that make networking simple and straightforward. Whether you use WiFi, wired, 3G, or Bluetooth, NetworkManager allows you to quickly move from one network to another: Once a network has been configured and joined once, it can be detected and re-joined automatically the next time it's available.",
+  "download": "https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/releases/1.58.1/downloads/NetworkManager-1.58.1.tar.xz",
+  "archive": "NetworkManager-1.58.1.tar.xz",
+  "md5": "7b06b1dd7b56adffc1dbbf3d04bedf8e",
+  "size": "6.2 MB",
+  "disk_space": "327 MB (with tests and documentation)",
+  "build_time": "0.7 SBU (with tests, using parallelism=4)",
+  "dependencies": [
+    "libndp"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 543,
+  "group_order": 2
+}

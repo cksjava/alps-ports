@@ -1,0 +1,26 @@
+{
+  "name": "network-manager-applet",
+  "version": "1.34.0",
+  "title": "network-manager-applet-1.34.0",
+  "anchor": "network-manager-applet",
+  "page_type": "single",
+  "group": "networking-utilities",
+  "chapter": "Chapter 16. Networking Utilities",
+  "summary": "The NetworkManager Applet provides a tool and a panel applet used to configure wired and wireless network connections through GUI. It's designed for use with any desktop environment that uses GTK+ , such as Xfce and LXDE .",
+  "download": "https://download.gnome.org/sources/network-manager-applet/1.34/network-manager-applet-1.34.0.tar.xz",
+  "archive": "network-manager-applet-1.34.0.tar.xz",
+  "md5": "83ff059aff3a691766d5f0079209e5af",
+  "size": "1.9 MB",
+  "disk_space": "46 MB (with tests)",
+  "build_time": "0.4 SBU (with tests)",
+  "dependencies": [
+    "gtk3",
+    "libnma",
+    "libsecret",
+    "polkit"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 544,
+  "group_order": 3
+}

@@ -1,0 +1,26 @@
+{
+  "name": "xfce4-settings",
+  "version": "4.20.5",
+  "title": "xfce4-settings-4.20.5",
+  "anchor": "xfce4-settings",
+  "page_type": "single",
+  "group": "xfce-desktop",
+  "chapter": "Chapter 35. Xfce Desktop",
+  "summary": "The Xfce4 Settings package contains a collection of programs that are useful for adjusting your Xfce preferences.",
+  "download": "https://archive.xfce.org/src/xfce/xfce4-settings/4.20/xfce4-settings-4.20.5.tar.bz2",
+  "archive": "xfce4-settings-4.20.5.tar.bz2",
+  "md5": "681c73af0e2db6f0e13ff61db265556c",
+  "size": "2.5 MB",
+  "disk_space": "47 MB",
+  "build_time": "0.3 SBU",
+  "dependencies": [
+    "exo",
+    "garcon",
+    "gnome-icon-theme",
+    "lxde-icon-theme"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1009,
+  "group_order": 14
+}

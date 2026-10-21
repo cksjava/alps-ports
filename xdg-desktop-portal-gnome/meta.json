@@ -1,0 +1,27 @@
+{
+  "name": "xdg-desktop-portal-gnome",
+  "version": "50.0",
+  "title": "xdg-desktop-portal-gnome-50.0",
+  "anchor": "xdg-desktop-portal-gnome",
+  "page_type": "single",
+  "group": "gnome-libraries-and-desktop",
+  "chapter": "Chapter 33. GNOME Libraries and Desktop",
+  "summary": "xdg-desktop-portal-gnome is a backend for xdg-desktop-portal which uses GTK and various pieces of GNOME infrastructure.",
+  "download": "https://download.gnome.org/sources/xdg-desktop-portal-gnome/50/xdg-desktop-portal-gnome-50.0.tar.xz",
+  "archive": "xdg-desktop-portal-gnome-50.0.tar.xz",
+  "md5": "6ef350f31272babbb536cc745746adad",
+  "size": "196 KB",
+  "disk_space": "11 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "gnome-desktop",
+    "gtk4",
+    "libadwaita",
+    "xdg-desktop-portal",
+    "xdg-desktop-portal-gtk"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 956,
+  "group_order": 24
+}

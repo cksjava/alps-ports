@@ -1,0 +1,24 @@
+{
+  "name": "libcloudproviders",
+  "version": "0.3.6",
+  "title": "libcloudproviders-0.3.6",
+  "anchor": "libcloudproviders",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The libcloudproviders package contains a library which provides a DBus API that allows cloud storage sync clients to expose their services.",
+  "download": "https://download.gnome.org/sources/libcloudproviders/0.3/libcloudproviders-0.3.6.tar.xz",
+  "archive": "libcloudproviders-0.3.6.tar.xz",
+  "md5": "f0f994bdc36fdfe9b31e3655b8071599",
+  "size": "24 KB",
+  "disk_space": "1.4 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "glib2",
+    "vala"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 92,
+  "group_order": 40
+}

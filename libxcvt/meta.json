@@ -13,11 +13,9 @@
   "size": "12 KB",
   "disk_space": "440 KB",
   "build_time": "less than 0.1 SBU",
-  "dependencies": [
-    "xorg7"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
-  "order": 591,
+  "order": 627,
   "group_order": 39
 }

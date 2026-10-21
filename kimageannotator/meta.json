@@ -1,0 +1,23 @@
+{
+  "name": "kImageAnnotator",
+  "version": "0.7.2",
+  "title": "kImageAnnotator-0.7.2",
+  "anchor": "kimageannotator",
+  "page_type": "single",
+  "group": "graphical-environment-libraries",
+  "chapter": "Chapter 25. Graphical Environment Libraries",
+  "summary": "kImageAnnotator is a tool for annotating images.",
+  "download": "https://github.com/ksnip/kImageAnnotator/archive/v0.7.2/kImageAnnotator-0.7.2.tar.gz",
+  "archive": "kImageAnnotator-0.7.2.tar.gz",
+  "md5": "12811a2611613152b8dccc266a8f4804",
+  "size": "268 KB",
+  "disk_space": "32 MB",
+  "build_time": "0.5 SBU (Using parallelism=4)",
+  "dependencies": [
+    "kcolorpicker"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 732,
+  "group_order": 24
+}

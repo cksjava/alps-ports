@@ -1,0 +1,24 @@
+{
+  "name": "layer-shell-qt-6.7.4 for lxqt",
+  "version": "",
+  "title": "layer-shell-qt-6.7.4 for lxqt",
+  "anchor": "lxqt-layer-shell-qt",
+  "page_type": "single",
+  "group": "lxqt-desktop",
+  "chapter": "Chapter 37. LXQt Desktop",
+  "summary": "This component is meant for applications to be able to easily use clients based on a \"wlr-layer-shell\" protocol. Clients can use this interface to assign the surface_layer role to wl_surfaces. Such surfaces are assigned to a \"layer\" of the output and rendered with a defined z-depth respective to each other.",
+  "download": "https://download.kde.org/stable/plasma/6.7.4/layer-shell-qt-6.7.4.tar.xz",
+  "archive": "layer-shell-qt-6.7.4.tar.xz",
+  "md5": "34f89e74bc586c7e280ac512f8474691",
+  "size": "36 KB",
+  "disk_space": "5.2 MB",
+  "build_time": "0.2 SBU",
+  "dependencies": [
+    "extra-cmake-modules",
+    "qt6"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1025,
+  "group_order": 6
+}

@@ -1,0 +1,24 @@
+{
+  "name": "OpenTimelineIO",
+  "version": "0.18.1",
+  "title": "OpenTimelineIO-0.18.1",
+  "anchor": "opentimelineio",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The OpenTimelineIO package contains an interchange format and API for editorial cut information.",
+  "download": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/archive/v0.18.1/OpenTimelineIO-0.18.1.tar.gz",
+  "archive": "OpenTimelineIO-0.18.1.tar.gz",
+  "md5": "620458ffa66419cdff9bf656a344ed57",
+  "size": "1.6 MB",
+  "disk_space": "62 MB",
+  "build_time": "0.1 SBU (using parallelism=4",
+  "dependencies": [
+    "cmake",
+    "imath"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 138,
+  "group_order": 86
+}

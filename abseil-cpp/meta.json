@@ -1,0 +1,23 @@
+{
+  "name": "Abseil-cpp",
+  "version": "20260526.0",
+  "title": "Abseil-cpp-20260526.0",
+  "anchor": "abseil-cpp",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The Abseil-cpp package contains a series of libraries designed to augment the C++ standard library.",
+  "download": "https://github.com/abseil/abseil-cpp/releases/download/20260526.0/abseil-cpp-20260526.0.tar.gz",
+  "archive": "abseil-cpp-20260526.0.tar.gz",
+  "md5": "a8a8a3de136df18dbe87b47c174e7c16",
+  "size": "2.3 MB",
+  "disk_space": "35 MB",
+  "build_time": "0.2 SBU (Using parallelism=4)",
+  "dependencies": [
+    "cmake"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 52,
+  "group_order": 0
+}

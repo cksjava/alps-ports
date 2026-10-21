@@ -1,0 +1,23 @@
+{
+  "name": "libdisplay-info",
+  "version": "0.4.0",
+  "title": "libdisplay-info-0.4.0",
+  "anchor": "libdisplay-info",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "The libdisplay-info package provides a set of high-level and low-level functions to access detailed Extended Display Identification Data (EDID) information.",
+  "download": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/releases/0.4.0/downloads/libdisplay-info-0.4.0.tar.xz",
+  "archive": "libdisplay-info-0.4.0.tar.xz",
+  "md5": "af9f07493bd5ff560a98b95ea4c5c129",
+  "size": "116 KB",
+  "disk_space": "3.8 MB",
+  "build_time": "less than 0.1 SBU",
+  "dependencies": [
+    "hwdata"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 94,
+  "group_order": 42
+}

@@ -20,14 +20,21 @@
     "exo",
     "garcon",
     "libwnck",
+    "xfce4-dev-tools",
+    "libxfce4windowing",
     "xfce4-panel",
     "thunar",
+    "thunar-volman",
     "tumbler",
+    "xfce4-appfinder",
+    "xfce4-power-manager",
+    "xfce4-settings",
     "xfdesktop",
-    "xfwm4"
+    "xfwm4",
+    "xfce4-session"
   ],
   "build_before": [],
   "build_after": [],
-  "order": 1071,
+  "order": 1199,
   "group_order": 3
 }

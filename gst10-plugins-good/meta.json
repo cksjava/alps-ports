@@ -1,0 +1,23 @@
+{
+  "name": "gst-plugins-good",
+  "version": "1.28.6",
+  "title": "gst-plugins-good-1.28.6",
+  "anchor": "gst10-plugins-good",
+  "page_type": "single",
+  "group": "multimedia-libraries-and-drivers",
+  "chapter": "Chapter 42. Multimedia Libraries and Drivers",
+  "summary": "The GStreamer Good Plug-ins is a set of plug-ins considered by the GStreamer developers to have good quality code, correct functionality, and the preferred license (LGPL for the plug-in code, LGPL or LGPL-compatible for the supporting library). A wide range of video and audio decoders, encoders, and filters are included.",
+  "download": "https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.28.6.tar.xz",
+  "archive": "gst-plugins-good-1.28.6.tar.xz",
+  "md5": "d84c17388909e98e7f7d81bb2717327c",
+  "size": "5.8 MB",
+  "disk_space": "130 MB (with tests)",
+  "build_time": "0.6 SBU (Using parallelism=4; with tests)",
+  "dependencies": [
+    "gst10-plugins-base"
+  ],
+  "build_before": [],
+  "build_after": [],
+  "order": 1097,
+  "group_order": 15
+}

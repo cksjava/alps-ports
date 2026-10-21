@@ -39,17 +39,15 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
-mkdir build
-cd    build
+mkdir build &&
+cd    build &&
+
 cmake -D CMAKE_INSTALL_PREFIX=$KF6_PREFIX \
--D CMAKE_INSTALL_LIBEXECDIR=libexec \
--D CMAKE_BUILD_TYPE=Release         \
--D BUILD_QT5=OFF                    \
--D BUILD_TESTING=OFF                \
--W no-author ..  &&
+      -D CMAKE_BUILD_TYPE=Release         \
+      -D BUILD_TESTING=OFF                \
+      -W no-author .. &&
 make
 make install
-/sbin/ldconfig
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"

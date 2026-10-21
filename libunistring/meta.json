@@ -1,0 +1,21 @@
+{
+  "name": "libunistring",
+  "version": "1.4.2",
+  "title": "libunistring-1.4.2",
+  "anchor": "libunistring",
+  "page_type": "single",
+  "group": "general-libraries",
+  "chapter": "Chapter 9. General Libraries",
+  "summary": "libunistring is a library that provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.",
+  "download": "https://ftpmirror.gnu.org/libunistring/libunistring-1.4.2.tar.xz",
+  "archive": "libunistring-1.4.2.tar.xz",
+  "md5": "e033195d90d0803063f3fecc77148124",
+  "size": "2.7 MB",
+  "disk_space": "58 MB (add 46 MB for tests)",
+  "build_time": "0.6 SBU (add 0.3 SBU for tests; both using parallelism=4)",
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [],
+  "order": 120,
+  "group_order": 68
+}
