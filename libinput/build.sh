@@ -53,8 +53,6 @@ meson setup ..              \
       -D udev-dir=/usr/lib/udev &&
 ninja
 ninja install
-install -v -dm755      /usr/share/doc/libinput-1.31.3/html &&
-cp -rv Documentation/* /usr/share/doc/libinput-1.31.3/html
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
