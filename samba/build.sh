@@ -39,6 +39,8 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+python3 -m venv --system-site-packages pyvenv         &&
+./pyvenv/bin/pip3 install cryptography pyasn1 iso8601
 PYTHON=$PWD/pyvenv/bin/python3             \
 ./configure                                \
     --prefix=/usr                          \
@@ -54,6 +56,8 @@ PYTHON=$PWD/pyvenv/bin/python3             \
     --disable-rpath-install                \
     --systemd-install-services             &&
 make
+sed '1s@^.*$@#!/usr/bin/python3@' \
+    -i ./bin/default/source4/scripting/bin/*.inst
 rm -rf /usr/lib/python3.14/site-packages/samba
 make install &&
 

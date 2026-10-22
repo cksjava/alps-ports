@@ -54,6 +54,7 @@ MOZBUILD_STATE_PATH=${PWD}/mozbuild          \
                     --with-system-icu        \
                     --with-system-zlib       &&
 make
+rm -fv /usr/lib/libmozjs-140.so
 make install &&
 rm -v /usr/lib/libjs_static.ajs &&
 sed -i '/@NSPR_CFLAGS@/d' /usr/bin/js140-config

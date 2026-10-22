@@ -49,6 +49,8 @@ meson setup ..            \
       -D history=enabled  \
       -D icu=enabled      &&
 ninja
+tar xf ../../xmlts20130923.tar.gz -C ..
+systemctl stop httpd.service
 ninja install
 sed "s/--static/--shared/" -i /usr/bin/xml2-config
 

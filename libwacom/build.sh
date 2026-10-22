@@ -47,6 +47,7 @@ meson setup ..            \
       --buildtype=release \
       -D tests=disabled   &&
 ninja
+rm -rf /usr/share/libwacom
 ninja install
 
 cd "$ARYA_SOURCES"

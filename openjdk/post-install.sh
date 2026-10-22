@@ -12,6 +12,7 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+ln -sfv /etc/pki/tls/java/cacerts /opt/jdk/lib/security/cacerts
 cd /opt/jdk
 bin/keytool -list -cacerts
 

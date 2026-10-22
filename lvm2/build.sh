@@ -45,6 +45,9 @@ PATH+=:/usr/sbin                \
             --enable-pkgconfig  \
             --enable-udev_sync  &&
 make
+make -C tools install_tools_dynamic &&
+make -C udev  install               &&
+make -C libdm install
 mount -o remount,dev /tmp
 --with-thin-check=    \
      --with-thin-dump=     \

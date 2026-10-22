@@ -48,6 +48,7 @@ meson setup ..                 \
       --default-library=shared &&
 
 ninja
+./frontend/faac -o Front_Left.mp4 /usr/share/sounds/alsa/Front_Left.wav
 faad Front_Left.mp4
 aplay Front_Left.wav
 ninja install

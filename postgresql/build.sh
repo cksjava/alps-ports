@@ -48,6 +48,7 @@ sed -e '/DEFAULT_PGSOCKET_DIR/s@/tmp@/run/postgresql@' \
 ./configure --prefix=/usr \
             --docdir=/usr/share/doc/postgresql-18.6 &&
 make
+make DESTDIR=$(pwd)/DESTDIR install
 install -d -o postgres $(pwd)/DESTDIR/tmp
 pushd $(pwd)/DESTDIR/tmp
 systemctl stop postgresql

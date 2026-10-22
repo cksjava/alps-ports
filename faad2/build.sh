@@ -47,6 +47,7 @@ cmake -D CMAKE_INSTALL_PREFIX=/usr \
       -D BUILD_SHARED_LIBS=ON      \
       .. &&
 make
+./faad -o sample.wav ../../sample.aac
 aplay sample.wav
 make install
 

@@ -41,6 +41,7 @@ cd "$srcdir"
 
 patch -Np1 -i ../llvm-22.1.8-upstream_fix-1.patch
 grep -rl '#!.*python$' | xargs sed -i '1s/python$/python3/'
+sed 's/utility/tool/' -i llvm/utils/FileCheck/CMakeLists.txt
 mkdir -pv /etc/clang &&
 for i in clang clang++; do
   echo -fstack-protector-strong > /etc/clang/$i.cfg

@@ -143,5 +143,6 @@ do
     install -v -m644 /etc/pam.d/chage /etc/pam.d/${PROGRAM}
     sed -i "s/chage/$PROGRAM/" /etc/pam.d/${PROGRAM}
 done
+if [ -f /etc/login.access ]; then mv -v /etc/login.access{,.NOUSE}; fi
 if [ -f /etc/limits ]; then mv -v /etc/limits{,.NOUSE}; fi
 

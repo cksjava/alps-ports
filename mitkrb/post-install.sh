@@ -38,6 +38,10 @@ cat > /etc/krb5.conf << "EOF"
 EOF
 kadmin.local
 kadmin.local: add_policy dict-only
+/usr/sbin/krb5kdc
 klist
+ktutil
+ktutil: rkt /etc/krb5.keytab
+ktutil: l
 touch /var/lib/krb5kdc/kadm5.acl
 

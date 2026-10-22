@@ -41,6 +41,7 @@ cd "$srcdir"
 
 sed -i "15,23 s/^/#/" setup.py
 make PREFIX=/usr install
+sed -i "177,181 s/^/#/" Makefile
 pushd tests  &&
   ./run-tests.py --with-hg /usr/bin/hg --retest
 popd

@@ -40,6 +40,9 @@ tar -xf "$tarball"
 cd "$srcdir"
 
 make WITHOUT_RPATH_FIX=1
+cd t
+make all-headless
+cd ..
 make PREFIX=/usr INSTALLMAN=/usr/share/man install
 
 cd "$ARYA_SOURCES"

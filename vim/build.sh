@@ -39,6 +39,14 @@ rm -rf "$srcdir"
 tar -xf "$tarball"
 cd "$srcdir"
 
+echo '#define SYS_VIMRC_FILE  "/etc/vimrc"' >>  src/feature.h &&
+echo '#define SYS_GVIMRC_FILE "/etc/gvimrc"' >> src/feature.h &&
+
+./configure --prefix=/usr        \
+            --with-features=huge \
+            --enable-gui=gtk3    \
+            --with-tlib=ncursesw &&
+make
 make install
 ln -snfv ../vim/vim92/doc /usr/share/doc/vim-9.2.1025
 make -C src installruntime &&
