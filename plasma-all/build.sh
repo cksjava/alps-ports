@@ -14,6 +14,8 @@ fi
 
 # shellcheck disable=SC1091
 source /var/lib/alps/env.sh
+# shellcheck disable=SC1091
+source /var/lib/alps/alpslib.sh
 
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"

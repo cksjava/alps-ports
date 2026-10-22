@@ -14,6 +14,8 @@ fi
 
 # shellcheck disable=SC1091
 source /var/lib/alps/env.sh
+# shellcheck disable=SC1091
+source /var/lib/alps/alpslib.sh
 
 : "${ARYA_SOURCES:=/sources}"
 : "${ARYA_ROOT:=/aryalinux-builder}"
@@ -34,9 +36,9 @@ if [[ ! -f "$tarball" ]]; then
     echo "Missing source archive: $ARYA_SOURCES/$tarball" >&2
     exit 1
 fi
-srcdir=$(tar -tf "$tarball" | awk -F/ 'NR==1 { print $1 }')
+srcdir=$(get_srcdir "$tarball")
 rm -rf "$srcdir"
-tar -xf "$tarball"
+extract_archive "$tarball"
 cd "$srcdir"
 
 sed -i "/SHIMLIB.*asydir/d" Makefile.in
