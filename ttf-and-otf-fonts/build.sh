@@ -159,30 +159,31 @@ archive_font liberation \
 archive_font hack \
     "https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip" \
     "Hack-v3.003-ttf.zip"
+# Lohit upstream publishes FontForge sources. The Debian packages contain the built TTF.
 archive_font lohit-deva \
-    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-deva/fonts-lohit-deva_2.95.4.orig.tar.gz" \
-    "fonts-lohit-deva_2.95.4.orig.tar.gz"
+    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-deva/fonts-lohit-deva_2.95.4-7_all.deb" \
+    "fonts-lohit-deva_2.95.4-7_all.deb"
 archive_font lohit-gujr \
-    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-gujr/fonts-lohit-gujr_2.92.4.orig.tar.gz" \
-    "fonts-lohit-gujr_2.92.4.orig.tar.gz"
+    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-gujr/fonts-lohit-gujr_2.92.4-6_all.deb" \
+    "fonts-lohit-gujr_2.92.4-6_all.deb"
 archive_font lohit-guru \
-    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-guru/fonts-lohit-guru_2.91.2.orig.tar.gz" \
-    "fonts-lohit-guru_2.91.2.orig.tar.gz"
+    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-guru/fonts-lohit-guru_2.91.2-4_all.deb" \
+    "fonts-lohit-guru_2.91.2-4_all.deb"
 archive_font lohit-knda \
-    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-knda/fonts-lohit-knda_2.5.4.orig.tar.gz" \
-    "fonts-lohit-knda_2.5.4.orig.tar.gz"
+    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-knda/fonts-lohit-knda_2.5.4-4_all.deb" \
+    "fonts-lohit-knda_2.5.4-4_all.deb"
 archive_font lohit-mlym \
-    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-mlym/fonts-lohit-mlym_2.92.2.orig.tar.gz" \
-    "fonts-lohit-mlym_2.92.2.orig.tar.gz"
+    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-mlym/fonts-lohit-mlym_2.92.2-3_all.deb" \
+    "fonts-lohit-mlym_2.92.2-3_all.deb"
 archive_font lohit-orya \
-    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-orya/fonts-lohit-orya_2.91.2.orig.tar.gz" \
-    "fonts-lohit-orya_2.91.2.orig.tar.gz"
+    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-orya/fonts-lohit-orya_2.91.2-3_all.deb" \
+    "fonts-lohit-orya_2.91.2-3_all.deb"
 archive_font lohit-taml \
-    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-taml/fonts-lohit-taml_2.91.3.orig.tar.gz" \
-    "fonts-lohit-taml_2.91.3.orig.tar.gz"
+    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-taml/fonts-lohit-taml_2.91.3-3_all.deb" \
+    "fonts-lohit-taml_2.91.3-3_all.deb"
 archive_font lohit-telu \
-    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-telu/fonts-lohit-telu_2.5.5.orig.tar.gz" \
-    "fonts-lohit-telu_2.5.5.orig.tar.gz"
+    "https://deb.debian.org/debian/pool/main/f/fonts-lohit-telu/fonts-lohit-telu_2.5.5-3_all.deb" \
+    "fonts-lohit-telu_2.5.5-3_all.deb"
 archive_font wqy-zenhei \
     "https://deb.debian.org/debian/pool/main/f/fonts-wqy-zenhei/fonts-wqy-zenhei_0.9.45.orig.tar.gz" \
     "wqy-zenhei-0.9.45.orig.tar.gz"
