@@ -52,6 +52,10 @@ tar -xf ../xorg-server-21.1.24.tar.xz \
 
 pushd unix/xserver                             &&
   patch -Np1 -i ../xserver21.patch             &&
+  sed -e '/sha.h/s/sha/sha1/'                  \
+      -e '/sha1/a #include <nettle/version.h>' \
+      -e 's/ctx, 20/ctx/'                      \
+      -i os/xsha1.c                            &&
 popd                                           &&
 
 # Build viewer

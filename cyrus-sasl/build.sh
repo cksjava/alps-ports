@@ -43,6 +43,8 @@ cd "$srcdir"
 
 patch -Np1 -i ../cyrus-sasl-2.1.28-gcc15_fixes-1.patch &&
 autoreconf -fiv
+sed '/saslint/a #include <time.h>'       -i lib/saslutil.c &&
+sed '/plugin_common/a #include <time.h>' -i plugins/cram.c
 ./configure --prefix=/usr                       \
             --sysconfdir=/etc                   \
             --enable-auth-sasldb                \

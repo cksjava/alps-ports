@@ -41,6 +41,7 @@ rm -rf "$srcdir"
 extract_archive "$tarball"
 cd "$srcdir"
 
+sed -i '/limits.h/a #include <time.h>' src/plugins/pulse/ao_pulse.c
 ./configure --prefix=/usr &&
 make
 make install &&

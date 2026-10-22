@@ -52,6 +52,9 @@ meson setup --prefix=/usr       \
             -D man=false        \
             ..                  &&
 ninja
+sed '/class="manual"/i \
+     <refmiscinfo class="source">colord-gtk</refmiscinfo>' \
+    -i ../man/*.xml &&
 meson configure -D man=true &&
 ninja
 ninja install

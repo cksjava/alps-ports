@@ -46,6 +46,12 @@ sed -e 's/8x13bold/-*-luxi mono-bold-r-normal--13-120-*-*-m-*-*-*/' \
     -i src/aax.c
 sed 's/stdscr->_max\([xy]\) + 1/getmax\1(stdscr)/' \
     -i src/aacurses.c
+sed -i '1i#include <stdlib.h>'                            \
+    src/aa{fire,info,lib,linuxkbd,savefont,test,regist}.c &&
+sed -i '1i#include <string.h>'                            \
+    src/aa{kbdreg,moureg,test,regist}.c                   &&
+sed -i '/X11_KBDDRIVER/a#include <X11/Xutil.h>'           \
+    src/aaxkbd.c                                          &&
 sed -i '/rawmode_init/,/^}/s/return;/return 0;/'          \
     src/aalinuxkbd.c                                      &&
 autoconf

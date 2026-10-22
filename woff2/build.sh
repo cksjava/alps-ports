@@ -41,6 +41,7 @@ rm -rf "$srcdir"
 extract_archive "$tarball"
 cd "$srcdir"
 
+sed -i '/output.h/i #include <cstdint>' src/woff2_out.cc
 mkdir out                                 &&
 cd    out                                 &&
 

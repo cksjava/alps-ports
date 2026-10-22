@@ -41,6 +41,13 @@ rm -rf "$srcdir"
 extract_archive "$tarball"
 cd "$srcdir"
 
+sed -e "/asio_wrapper/a#include <boost/asio/deadline_timer.hpp>" \
+    -i src/lib/asiolink/interval_timer.cc                        \
+       src/lib/asiodns/io_fetch.cc                               \
+       src/lib/asiodns/tests/io_fetch_unittest.cc                &&
+sed -e "/lexical_cast.hpp/a #include <boost/static_assert.hpp>"  \
+    -i src/lib/log/logger_level_impl.cc                          \
+       src/lib/dns/rdataclass.cc
 sed -e 's/^[ ]*\(::X509_NAME\)/const \1/' \
     -i src/lib/asiolink/openssl_tls.h
 mkdir build &&

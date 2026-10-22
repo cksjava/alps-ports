@@ -42,6 +42,9 @@ extract_archive "$tarball"
 cd "$srcdir"
 
 autoreconf
+sed -e '/compface.h/a #include <unistd.h>' \
+    -i cmain.c                             \
+    -i uncmain.c
 ./configure --prefix=/usr --mandir=/usr/share/man &&
 make
 make install &&

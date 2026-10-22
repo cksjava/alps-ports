@@ -41,6 +41,7 @@ rm -rf "$srcdir"
 extract_archive "$tarball"
 cd "$srcdir"
 
+sed -i "/stdio/a #include <string.h>" src/fill_test.c
 LIBS=-lm                         \
 ./configure --prefix=/usr        \
             --without-doxygen    \

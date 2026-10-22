@@ -45,6 +45,11 @@ python3 -m zipfile -e ../offo-hyphenation.zip . &&
 cp offo-hyphenation/hyph/* fop/hyph &&
 rm -rf offo-hyphenation
 tar -xf ../apache-maven-3.9.12-bin.tar.gz -C /tmp
+sed -i '\@</javad@i\
+<arg value="-Xdoclint:none"/>\
+<arg value="--allow-script-in-comments"/>\
+<arg value="--ignore-source-errors"/>' \
+    fop/build.xml
 cd fop &&
 
 LC_ALL=en_US.UTF-8                      \

@@ -43,6 +43,8 @@ cd "$srcdir"
 
 patch -Np1 -i ../clucene-2.3.3.4-contribs_lib-1.patch &&
 
+sed -i '/Misc.h/a #include <ctime>' src/core/CLucene/document/DateTools.cpp &&
+
 mkdir build &&
 cd    build &&
 
