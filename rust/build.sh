@@ -96,9 +96,6 @@ EOF
 export LIBSSH2_SYS_USE_PKG_CONFIG=1
 export LIBSQLITE3_SYS_USE_PKG_CONFIG=1
 ./x.py build
-mkdir fake-git && ln -sv /usr/bin/false fake-git/git
-grep '^test result:' rustc-testlog |
- awk '{sum1 += $4; sum2 += $6} END { print sum1 " passed; " sum2 " failed" }'
 ./x.py install
 rm -fv /opt/rustc-1.97.1/share/doc/rustc-1.97.1/*.old   &&
 install -vm644 README.md                                \
