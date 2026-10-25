@@ -54,8 +54,6 @@ cmake -D CMAKE_INSTALL_PREFIX=/usr  \
       .. &&
 make -j1
 make install
-install -vdm755 /usr/share/doc/libical-4.0.5/html &&
-cp -vr apidocs/html/* /usr/share/doc/libical-4.0.5/html
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
