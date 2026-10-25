@@ -12,8 +12,8 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-mkdir -vp ~/.config/gtk-3.0
-cat > ~/.config/gtk-3.0/settings.ini << "EOF"
+mkdir -vp /etc/gtk-3.0
+cat > /etc/gtk-3.0/settings.ini << "EOF"
 [Settings]
 gtk-theme-name = Adwaita
 gtk-icon-theme-name = oxygen
@@ -26,7 +26,7 @@ gtk-xft-hintstyle = hintslight
 gtk-xft-rgba = rgb
 gtk-cursor-theme-name = Adwaita
 EOF
-cat > ~/.config/gtk-3.0/gtk.css << "EOF"
+cat > /etc/gtk-3.0/gtk.css << "EOF"
 *  {
    -GtkScrollbar-has-backward-stepper: 1;
    -GtkScrollbar-has-forward-stepper: 1;
