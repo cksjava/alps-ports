@@ -12,6 +12,36 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+# shellcheck disable=SC1091
+source /var/lib/alps/env.sh
+# shellcheck disable=SC1091
+source /var/lib/alps/alpslib.sh
+
+: "${ARYA_SOURCES:=/sources}"
+if [[ ! -d "$ARYA_SOURCES" && -n "${LFS:-}" && -d "$LFS/sources" ]]; then
+    ARYA_SOURCES="$LFS/sources"
+fi
+
+_arya_install_systemd_unit() {
+    local tarball="blfs-systemd-units-20251204.tar.xz"
+    local url="https://www.linuxfromscratch.org/blfs/downloads/13.1-systemd/blfs-systemd-units-20251204.tar.xz"
+    local srcdir caller=$PWD
+    cd "$ARYA_SOURCES"
+    if [[ ! -f "$tarball" ]]; then
+        wget -O "${tarball}.partial" "$url"
+        mv "${tarball}.partial" "$tarball"
+    fi
+    srcdir=$(get_srcdir "$tarball")
+    if [[ ! -d "$srcdir" ]]; then
+        extract_archive "$tarball"
+    fi
+    (
+        cd "$srcdir"
+        make "$@"
+    )
+    cd "$caller"
+}
+
 groupadd -g 20 named &&
 useradd -c "BIND Owner" -g named -s /bin/false -u 20 named
 install -d -m770 -o named -g named /srv/named &&
@@ -133,7 +163,7 @@ search <yourdomain.com>
 nameserver 127.0.0.1
 EOF
 chown -R named:named /srv/named
-make install-named
+_arya_install_systemd_unit named
 systemctl start named
 dig -x 127.0.0.1
 dig www.linuxfromscratch.org &&
