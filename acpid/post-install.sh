@@ -56,5 +56,5 @@ chmod +x /etc/acpi/lid.sh
 
 mkdir -pv /etc/systemd/logind.conf.d
 echo HandleLidSwitch=ignore > /etc/systemd/logind.conf.d/acpi.conf
-_arya_install_systemd_unit acpid
+_arya_install_systemd_unit install-acpid
 

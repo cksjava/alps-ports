@@ -42,7 +42,7 @@ _arya_install_systemd_unit() {
     cd "$caller"
 }
 
-_arya_install_systemd_unit postgresql
+_arya_install_systemd_unit install-postgresql
 systemctl start postgresql
 su - postgres -c '/usr/bin/createdb test' &&
 echo "create table t1 ( name varchar(20), state_province varchar(20) );" \

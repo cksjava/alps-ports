@@ -42,5 +42,5 @@ _arya_install_systemd_unit() {
     cd "$caller"
 }
 
-_arya_install_systemd_unit saslauthd
+_arya_install_systemd_unit install-saslauthd
 

@@ -60,5 +60,5 @@ echo 'smtpd_forbid_bare_newline_exclusions = $mynetworks' >> /etc/postfix/main.c
 /usr/sbin/postfix upgrade-configuration
 /usr/sbin/postfix check &&
 /usr/sbin/postfix start
-_arya_install_systemd_unit postfix
+_arya_install_systemd_unit install-postfix
 

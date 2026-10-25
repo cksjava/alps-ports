@@ -42,5 +42,5 @@ _arya_install_systemd_unit() {
     cd "$caller"
 }
 
-_arya_install_systemd_unit lightdm
+_arya_install_systemd_unit install-lightdm
 

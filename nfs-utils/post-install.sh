@@ -45,7 +45,7 @@ _arya_install_systemd_unit() {
 cat >> /etc/exports << EOF
 /home 192.168.0.0/24(rw,subtree_check,anonuid=99,anongid=99)
 EOF
-_arya_install_systemd_unit nfsv4-server
-_arya_install_systemd_unit nfs-server
-_arya_install_systemd_unit nfs-client
+_arya_install_systemd_unit install-nfsv4-server
+_arya_install_systemd_unit install-nfs-server
+_arya_install_systemd_unit install-nfs-client
 

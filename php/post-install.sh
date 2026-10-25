@@ -48,5 +48,5 @@ sed -i -e '/proxy_module/s/^#//'      \
 echo \
 'ProxyPassMatch ^/(.*\.php)$ fcgi://127.0.0.1:9000/srv/www/$1' >> \
 /etc/httpd/httpd.conf
-_arya_install_systemd_unit php-fpm
+_arya_install_systemd_unit install-php-fpm
 

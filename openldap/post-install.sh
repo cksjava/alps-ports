@@ -42,7 +42,7 @@ _arya_install_systemd_unit() {
     cd "$caller"
 }
 
-_arya_install_systemd_unit slapd
+_arya_install_systemd_unit install-slapd
 systemctl start slapd
 ldapsearch -x -b '' -s base '(objectclass=*)' namingContexts
 

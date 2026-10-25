@@ -56,5 +56,5 @@ session include system-session
 
 # End /etc/pam.d/exim
 EOF
-_arya_install_systemd_unit exim
+_arya_install_systemd_unit install-exim
 

@@ -98,5 +98,5 @@ Group                           proftpd
   </Limit>
 </Anonymous>
 EOF
-_arya_install_systemd_unit proftpd
+_arya_install_systemd_unit install-proftpd
 

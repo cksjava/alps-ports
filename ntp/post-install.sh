@@ -61,6 +61,6 @@ server 2.south-america.pool.ntp.org
 driftfile /var/lib/ntp/ntp.drift
 pidfile   /run/ntpd.pid
 EOF
-_arya_install_systemd_unit ntpd
+_arya_install_systemd_unit install-ntpd
 systemctl disable systemd-timesyncd.service
 

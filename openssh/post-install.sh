@@ -42,5 +42,5 @@ _arya_install_systemd_unit() {
     cd "$caller"
 }
 
-_arya_install_systemd_unit sshd
+_arya_install_systemd_unit install-sshd
 

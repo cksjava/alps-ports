@@ -42,7 +42,7 @@ _arya_install_systemd_unit() {
     cd "$caller"
 }
 
-_arya_install_systemd_unit gpm
+_arya_install_systemd_unit install-gpm
 install -v -dm755 /etc/systemd/system/gpm.service.d &&
 cat > /etc/systemd/system/gpm.service.d/99-user.conf << EOF
 [Service]

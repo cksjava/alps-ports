@@ -163,7 +163,7 @@ search <yourdomain.com>
 nameserver 127.0.0.1
 EOF
 chown -R named:named /srv/named
-_arya_install_systemd_unit named
+_arya_install_systemd_unit install-named
 systemctl start named
 dig -x 127.0.0.1
 dig www.linuxfromscratch.org &&
