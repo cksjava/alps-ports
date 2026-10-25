@@ -47,6 +47,7 @@ cd    build &&
 meson setup ..        \
   --prefix=/usr       \
   --buildtype=release \
+  -D docs=disabled    \
   -D docdir=/usr/share/doc/Linux-PAM-1.7.2 &&
 
 ninja
