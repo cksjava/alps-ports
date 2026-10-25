@@ -15,9 +15,7 @@
   "size": "1.1 MB",
   "disk_space": "25 MB (add 6 MB for tests)",
   "build_time": "0.3 SBU (add 0.4 SBU for tests)",
-  "dependencies": [
-    "x7lib"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
   "order": 239,

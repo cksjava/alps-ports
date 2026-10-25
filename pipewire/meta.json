@@ -21,11 +21,12 @@
     "gst10-plugins-base",
     "pulseaudio",
     "sbc",
-    "v4l-utils",
-    "wireplumber"
+    "v4l-utils"
   ],
   "build_before": [],
-  "build_after": [],
+  "build_after": [
+    "wireplumber"
+  ],
   "order": 1130,
   "group_order": 47
 }

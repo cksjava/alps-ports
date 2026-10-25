@@ -19,12 +19,13 @@
   "build_time": "0.7 SBU (add 0.5 SBU for tests; both using parallelism=4)",
   "dependencies": [
     "docutils",
-    "libxslt",
+    "libxslt"
+  ],
+  "build_before": [],
+  "build_after": [
     "shared-mime-info",
     "desktop-file-utils"
   ],
-  "build_before": [],
-  "build_after": [],
   "order": 69,
   "group_order": 17
 }

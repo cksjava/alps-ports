@@ -23,11 +23,12 @@
     "xkeyboard-config",
     "libepoxy",
     "libtirpc",
-    "systemd",
-    "xorg-libinput-driver"
+    "systemd"
   ],
   "build_before": [],
-  "build_after": [],
+  "build_after": [
+    "xorg-libinput-driver"
+  ],
   "order": 687,
   "group_order": 98
 }

@@ -15,11 +15,11 @@
   "size": "",
   "disk_space": "",
   "build_time": "",
-  "dependencies": [
+  "dependencies": [],
+  "build_before": [],
+  "build_after": [
     "perl-libwww-perl"
   ],
-  "build_before": [],
-  "build_after": [],
   "order": 430,
   "group_order": 160
 }

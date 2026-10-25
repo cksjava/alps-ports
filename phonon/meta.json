@@ -19,11 +19,12 @@
     "cmake",
     "extra-cmake-modules",
     "glib2",
-    "qt6",
-    "phonon-backend-vlc"
+    "qt6"
   ],
   "build_before": [],
-  "build_after": [],
+  "build_after": [
+    "phonon-backend-vlc"
+  ],
   "order": 772,
   "group_order": 1
 }

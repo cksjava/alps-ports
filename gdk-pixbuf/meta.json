@@ -18,11 +18,12 @@
   "dependencies": [
     "glib2",
     "shared-mime-info",
-    "docutils",
-    "glycin"
+    "docutils"
   ],
   "build_before": [],
-  "build_after": [],
+  "build_after": [
+    "glycin"
+  ],
   "order": 717,
   "group_order": 8
 }

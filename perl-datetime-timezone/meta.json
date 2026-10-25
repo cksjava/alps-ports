@@ -20,8 +20,7 @@
     "perl-module-runtime",
     "perl-params-validationcompiler",
     "perl-test-fatal",
-    "perl-test-requires",
-    "perl-datetime"
+    "perl-test-requires"
   ],
   "build_before": [],
   "build_after": [],

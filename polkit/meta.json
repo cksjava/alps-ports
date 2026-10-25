@@ -23,7 +23,9 @@
     "systemd"
   ],
   "build_before": [],
-  "build_after": [],
+  "build_after": [
+    "systemd"
+  ],
   "order": 20,
   "group_order": 18
 }

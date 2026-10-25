@@ -19,11 +19,7 @@
   "dependencies": [
     "glib2",
     "gtk3",
-    "gtk4",
-    "xdg-desktop-portal",
-    "xdg-desktop-portal-gtk",
-    "xdg-desktop-portal-gnome",
-    "xdg-desktop-portal-lxqt"
+    "gtk4"
   ],
   "build_before": [],
   "build_after": [],

@@ -34,7 +34,9 @@
     "cmake"
   ],
   "build_before": [],
-  "build_after": [],
+  "build_after": [
+    "libva"
+  ],
   "order": 637,
   "group_order": 48
 }

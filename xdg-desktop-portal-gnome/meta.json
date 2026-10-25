@@ -20,8 +20,7 @@
     "gtk4",
     "libadwaita",
     "xdg-desktop-portal",
-    "xdg-desktop-portal-gtk",
-    "nautilus"
+    "xdg-desktop-portal-gtk"
   ],
   "build_before": [],
   "build_after": [],

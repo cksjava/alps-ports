@@ -21,8 +21,7 @@
     "cairo",
     "x7lib",
     "fontconfig",
-    "libpng",
-    "gegl"
+    "libpng"
   ],
   "build_before": [],
   "build_after": [],

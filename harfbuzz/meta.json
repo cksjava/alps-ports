@@ -22,7 +22,9 @@
     "icu"
   ],
   "build_before": [],
-  "build_after": [],
+  "build_after": [
+    "freetype2"
+  ],
   "order": 172,
   "group_order": 13
 }

@@ -17,10 +17,7 @@
   "build_time": "less than 0.1 SBU",
   "dependencies": [
     "gdk-pixbuf",
-    "gtk4",
-    "notification-daemon",
-    "xfce4-notifyd",
-    "lxqt-notificationd"
+    "gtk4"
   ],
   "build_before": [],
   "build_after": [],

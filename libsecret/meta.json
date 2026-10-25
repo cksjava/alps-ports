@@ -18,11 +18,12 @@
   "dependencies": [
     "glib2",
     "libgcrypt",
-    "vala",
-    "gnome-keyring"
+    "vala"
   ],
   "build_before": [],
-  "build_after": [],
+  "build_after": [
+    "gnome-keyring"
+  ],
   "order": 936,
   "group_order": 3
 }

@@ -15,9 +15,7 @@
   "size": "",
   "disk_space": "",
   "build_time": "",
-  "dependencies": [
-    "perl-test-simple"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
   "order": 408,

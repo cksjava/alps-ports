@@ -32,14 +32,15 @@
     "power-profiles-daemon",
     "adwaita-icon-theme",
     "dconf",
-    "gdm",
     "libgweather",
     "libnma",
     "systemd",
     "gnome-menus"
   ],
   "build_before": [],
-  "build_after": [],
+  "build_after": [
+    "gdm"
+  ],
   "order": 969,
   "group_order": 36
 }

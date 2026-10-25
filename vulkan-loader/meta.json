@@ -19,8 +19,7 @@
     "cmake",
     "vulkan-headers",
     "x7lib",
-    "wayland",
-    "mesa"
+    "wayland"
   ],
   "build_before": [],
   "build_after": [],

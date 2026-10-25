@@ -16,10 +16,7 @@
   "disk_space": "4.6 MB",
   "build_time": "less than 0.1 SBU",
   "dependencies": [
-    "libdrm",
-    "mesa",
-    "intel-vaapi-driver",
-    "intel-media-driver"
+    "libdrm"
   ],
   "build_before": [],
   "build_after": [],
