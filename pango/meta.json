@@ -20,7 +20,8 @@
     "fribidi",
     "glib2",
     "cairo",
-    "x7lib"
+    "x7lib",
+    "harfbuzz"
   ],
   "build_before": [],
   "build_after": [],
