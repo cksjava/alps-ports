@@ -62,8 +62,6 @@ install -v -m644    ../doc/*.texi doc/gnupg.txt \
                     /usr/share/doc/gnupg-2.5.21 &&
 install -v -m644    doc/gnupg.html/* \
                     /usr/share/doc/gnupg-2.5.21/html
-install -v -m644 doc/gnupg.pdf \
-                 /usr/share/doc/gnupg-2.5.21
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"

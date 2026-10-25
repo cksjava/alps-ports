@@ -73,8 +73,6 @@ make install &&
 install -v -m755    tools/qt-faststart /usr/bin &&
 install -v -m755 -d           /usr/share/doc/ffmpeg-9.0.1 &&
 install -v -m644    doc/*.txt /usr/share/doc/ffmpeg-9.0.1
-install -v -m644 doc/*.pdf /usr/share/doc/ffmpeg-9.0.1 &&
-install -v -m644 doc/*.ps  /usr/share/doc/ffmpeg-9.0.1
 install -v -m755 -d /usr/share/doc/ffmpeg-9.0.1/api                     &&
 cp -vr doc/doxy/html/* /usr/share/doc/ffmpeg-9.0.1/api                  &&
 find /usr/share/doc/ffmpeg-9.0.1/api -type f -exec chmod -c 0644 \{} \; &&

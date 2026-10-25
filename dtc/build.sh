@@ -52,8 +52,6 @@ meson setup ..                 \
 ninja
 ninja install
 pushd ../Documentation
-  latexmk -bibtex --pdf dtc-paper &&
-  latexmk -bibtex --pdf dtc-paper -c
 popd
 cp -R ../Documentation -T /usr/share/doc/dtc-1.8.1
 pip3 wheel -w dist --no-build-isolation --no-deps --no-cache-dir ..

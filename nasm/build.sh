@@ -46,8 +46,7 @@ tar -xf ../nasm-3.02-xdoc.tar.xz --strip-components=1
 make
 make install
 install -m755 -d         /usr/share/doc/nasm-3.02/html  &&
-cp -v doc/html/*.html    /usr/share/doc/nasm-3.02/html  &&
-cp -v doc/*.{txt,ps,pdf} /usr/share/doc/nasm-3.02
+cp -v doc/html/*.html    /usr/share/doc/nasm-3.02/html
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"

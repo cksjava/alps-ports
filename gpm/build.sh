@@ -46,8 +46,6 @@ patch -Np1 -i ../gpm-1.20.7-gcc15_fixes-1.patch                 &&
 ./autogen.sh                                                    &&
 ./configure --prefix=/usr --sysconfdir=/etc ac_cv_path_emacs=no &&
 make
-make -C doc gpm.{dvi,ps} &&
-dvipdfm doc/gpm.dvi -o doc/gpm.pdf
 make install                                          &&
 
 install-info --dir-file=/usr/share/info/dir           \
@@ -62,7 +60,6 @@ install -v -m644    doc/support/*                     \
                     /usr/share/doc/gpm-1.20.7/support &&
 install -v -m644    doc/{FAQ,HACK_GPM,README*}        \
                     /usr/share/doc/gpm-1.20.7
-install -vm644 doc/gpm.{dvi,ps,pdf} /usr/share/doc/gpm-1.20.7
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"

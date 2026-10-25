@@ -53,8 +53,6 @@ install -v -m644    doc/html/* \
                     /usr/share/doc/parted-3.7/html &&
 install -v -m644    doc/{FAT,API.md,parted.{txt,html}} \
                     /usr/share/doc/parted-3.7
-install -v -m644 doc/FAT doc/API doc/parted.{pdf,ps,dvi} \
-                    /usr/share/doc/parted-3.7
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"

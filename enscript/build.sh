@@ -50,14 +50,11 @@ make CC="gcc -std=gnu17"               &&
 pushd docs &&
   makeinfo --plaintext -o enscript.txt enscript.texi &&
 popd
-make -j1 -C docs ps pdf
 make install &&
 
 install -v -m755 -d /usr/share/doc/enscript-1.6.6 &&
 install -v -m644    README* *.txt docs/*.txt \
                     /usr/share/doc/enscript-1.6.6
-install -v -m644 docs/*.{dvi,pdf,ps} \
-                 /usr/share/doc/enscript-1.6.6
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"

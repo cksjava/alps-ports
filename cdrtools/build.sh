@@ -60,9 +60,7 @@ make INS_BASE=/usr    \
      MANSUFF_LIB=3cdr \
      install          &&
 
-install -v -m755 -d /usr/share/doc/cdrtools-3.02a09 &&
-install -v -m644 README.* READMEs/* ABOUT doc/*.ps  \
-                    /usr/share/doc/cdrtools-3.02a09
+install -v -m755 -d /usr/share/doc/cdrtools-3.02a09
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"

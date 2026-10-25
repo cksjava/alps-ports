@@ -54,12 +54,10 @@ make                                 &&
 makeinfo  Doc/zsh.texi --html      -o Doc/html &&
 makeinfo  Doc/zsh.texi --plaintext -o zsh.txt  &&
 makeinfo  Doc/zsh.texi --html --no-split --no-headers -o zsh.html
-texi2pdf  Doc/zsh.texi -o Doc/zsh.pdf
 make install                                                    &&
 make infodir=/usr/share/info install.info                       &&
 make htmldir=/usr/share/doc/zsh-5.9.2/html install.html         &&
 install -v -m644 zsh.{html,txt} Etc/FAQ /usr/share/doc/zsh-5.9.2
-install -v -m644 Doc/zsh.pdf /usr/share/doc/zsh-5.9.2
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
