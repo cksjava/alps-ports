@@ -16,7 +16,6 @@
   "disk_space": "158 MB (add 83 MB for tests)",
   "build_time": "0.3 SBU (with parallelism=4; add 2.7 SBU for tests)",
   "dependencies": [
-    "installing",
     "gtk3"
   ],
   "build_before": [],

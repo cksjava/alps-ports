@@ -23,8 +23,7 @@
     "libgcrypt",
     "libmad",
     "lua",
-    "qt6",
-    "installing"
+    "qt6"
   ],
   "build_before": [],
   "build_after": [],

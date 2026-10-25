@@ -18,7 +18,6 @@
   "disk_space": "10.3 GB including the additional downloads and the tests, 9.2 GB installed",
   "build_time": "4.0 SBU including the additional downloads and the tests, building with parallelism=4",
   "dependencies": [
-    "installing",
     "cairo",
     "fontconfig",
     "freetype2",

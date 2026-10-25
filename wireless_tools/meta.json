@@ -16,9 +16,7 @@
   "size": "288 KB",
   "disk_space": "2.0 MB",
   "build_time": "less than 0.1 SBU",
-  "dependencies": [
-    "wireless-kernel"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
   "order": 540,

@@ -21,7 +21,6 @@
     "adwaita-icon-theme",
     "oxygen-icons",
     "gnome-icon-theme",
-    "installing",
     "yelp"
   ],
   "build_before": [],

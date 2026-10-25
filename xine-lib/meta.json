@@ -19,7 +19,6 @@
   "disk_space": "98 MB (with API documentation)",
   "build_time": "0.5 SBU (Using parallelism=4; with API documentation)",
   "dependencies": [
-    "installing",
     "ffmpeg",
     "alsa-lib",
     "pulseaudio",

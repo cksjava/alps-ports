@@ -15,9 +15,7 @@
   "size": "772 KB",
   "disk_space": "101 MB",
   "build_time": "0.9 SBU",
-  "dependencies": [
-    "installing"
-  ],
+  "dependencies": [],
   "build_before": [],
   "build_after": [],
   "order": 758,

@@ -22,8 +22,7 @@
     "harfbuzz",
     "libjpeg",
     "openjpeg2",
-    "curl",
-    "installing"
+    "curl"
   ],
   "build_before": [],
   "build_after": [],

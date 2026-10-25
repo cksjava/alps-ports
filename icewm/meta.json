@@ -17,8 +17,7 @@
   "build_time": "0.2 SBU (Using parallelism=4)",
   "dependencies": [
     "cmake",
-    "imlib2",
-    "installing"
+    "imlib2"
   ],
   "build_before": [],
   "build_after": [],

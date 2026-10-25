@@ -18,8 +18,7 @@
   "dependencies": [
     "gtk3",
     "sudo",
-    "x7lib",
-    "installing"
+    "x7lib"
   ],
   "build_before": [],
   "build_after": [],

@@ -16,8 +16,7 @@
   "disk_space": "22 MB",
   "build_time": "0.2 SBU",
   "dependencies": [
-    "libptytty",
-    "installing"
+    "libptytty"
   ],
   "build_before": [],
   "build_after": [],
