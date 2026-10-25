@@ -12,5 +12,6 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-cp /usr/share/wayfire/wayfire.ini ~/.config
+mkdir -pv /etc/skel/.config
+cp -v /usr/share/wayfire/wayfire.ini /etc/skel/.config/wayfire.ini
 

@@ -28,8 +28,7 @@
     "libpng",
     "tiff",
     "nss",
-    "openjpeg2",
-    "qt6"
+    "openjpeg2"
   ],
   "build_before": [],
   "build_after": [],

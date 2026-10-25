@@ -42,7 +42,9 @@
     "xcb-utilities"
   ],
   "build_before": [],
-  "build_after": [],
+  "build_after": [
+    "poppler"
+  ],
   "order": 745,
   "group_order": 36
 }

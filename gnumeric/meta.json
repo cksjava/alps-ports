@@ -19,8 +19,6 @@
     "goffice010",
     "itstool",
     "adwaita-icon-theme",
-    "oxygen-icons",
-    "gnome-icon-theme",
     "yelp"
   ],
   "build_before": [],

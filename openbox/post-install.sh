@@ -12,7 +12,8 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-cp -rf /etc/xdg/openbox ~/.config
+mkdir -pv /etc/skel/.config
+cp -rf /etc/xdg/openbox /etc/skel/.config
 ls -d /usr/share/themes/*/openbox-3 | sed 's#.*es/##;s#/o.*##'
 echo openbox > ~/.xinitrc
 cat > ~/.xinitrc << "EOF"

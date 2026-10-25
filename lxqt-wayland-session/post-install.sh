@@ -12,8 +12,6 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-mkdir -pv ~/.config/lxqt &&
-cp -v /usr/share/lxqt/session.conf ~/.config/lxqt &&
 sed -i '/\[Environment\]/a compositor=wayfire' \
-       ~/.config/lxqt/session.conf
+    /usr/share/lxqt/session.conf
 

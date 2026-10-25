@@ -12,8 +12,8 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-mkdir -pv ~/.config/gtk-4.0
-cat > ~/.config/gtk-4.0/settings.ini << "EOF"
+mkdir -pv /usr/share/gtk-4.0
+cat > /usr/share/gtk-4.0/settings.ini << "EOF"
 [Settings]
 gtk-theme-name = Adwaita
 gtk-icon-theme-name = oxygen

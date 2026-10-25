@@ -25,16 +25,16 @@ install -vdm755 /etc/X11/tigervnc &&
 install -v -m755 ../Xsession /etc/X11/tigervnc
 ME=$(echo :1=$(whoami))
 bash -c "echo $ME >> /etc/tigervnc/vncserver.users"
-install -vdm 755 ~/.config/tigervnc &&
-cat > ~/.config/tigervnc/config << EOF
-# Begin ~/.config/tigervnc/config
+install -vdm 755 /etc/tigervnc &&
+cat > /etc/tigervnc/vncserver-config-defaults << EOF
+# Begin /etc/tigervnc/vncserver-config-defaults
 # The session must match one listed in /usr/share/xsessions.
 # Ensure that there are no spaces at the end of the lines.
 
 session=lxqt
 geometry=1024x768
 
-# End ~/.config/tigervnc/config
+# End /etc/tigervnc/vncserver-config-defaults
 EOF
 if _arya_in_chroot; then
     echo "Skipping commands that need a running service; this is a chroot."
