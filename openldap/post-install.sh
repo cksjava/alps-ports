@@ -12,6 +12,15 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+_arya_in_chroot() {
+    if command -v systemd-detect-virt >/dev/null 2>&1; then
+        systemd-detect-virt --chroot >/dev/null 2>&1
+        return
+    fi
+    [[ -r /proc/1/root/. ]] || return 1
+    [[ "$(stat -c %d:%i /)" != "$(stat -c %d:%i /proc/1/root/.)" ]]
+}
+
 # shellcheck disable=SC1091
 source /var/lib/alps/env.sh
 # shellcheck disable=SC1091
@@ -43,6 +52,14 @@ _arya_install_systemd_unit() {
 }
 
 _arya_install_systemd_unit install-slapd
-systemctl start slapd
-ldapsearch -x -b '' -s base '(objectclass=*)' namingContexts
+if _arya_in_chroot; then
+    echo "Skipping commands that need a running service; this is a chroot."
+else
+    systemctl start slapd
+fi
+if _arya_in_chroot; then
+    echo "Skipping commands that need a running service; this is a chroot."
+else
+    ldapsearch -x -b '' -s base '(objectclass=*)' namingContexts
+fi
 

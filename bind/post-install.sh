@@ -12,6 +12,15 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
+_arya_in_chroot() {
+    if command -v systemd-detect-virt >/dev/null 2>&1; then
+        systemd-detect-virt --chroot >/dev/null 2>&1
+        return
+    fi
+    [[ -r /proc/1/root/. ]] || return 1
+    [[ "$(stat -c %d:%i /)" != "$(stat -c %d:%i /proc/1/root/.)" ]]
+}
+
 # shellcheck disable=SC1091
 source /var/lib/alps/env.sh
 # shellcheck disable=SC1091
@@ -164,8 +173,20 @@ nameserver 127.0.0.1
 EOF
 chown -R named:named /srv/named
 _arya_install_systemd_unit install-named
-systemctl start named
-dig -x 127.0.0.1
-dig www.linuxfromscratch.org &&
-dig www.linuxfromscratch.org
+if _arya_in_chroot; then
+    echo "Skipping commands that need a running service; this is a chroot."
+else
+    systemctl start named
+fi
+if _arya_in_chroot; then
+    echo "Skipping commands that need a running service; this is a chroot."
+else
+    dig -x 127.0.0.1
+fi
+if _arya_in_chroot; then
+    echo "Skipping commands that need a running service; this is a chroot."
+else
+    dig www.linuxfromscratch.org &&
+    dig www.linuxfromscratch.org
+fi
 
