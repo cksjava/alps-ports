@@ -56,8 +56,6 @@ install -v -m644 doc/assuan_nochunks.html \
                     /usr/share/doc/libassuan-3.0.2      &&
 install -v -m644 doc/assuan.{txt,texi} \
                     /usr/share/doc/libassuan-3.0.2
-install -v -m644  doc/assuan.{pdf,ps,dvi} \
-                  /usr/share/doc/libassuan-3.0.2
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
