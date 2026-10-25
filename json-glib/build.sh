@@ -46,11 +46,7 @@ cd    build &&
 
 meson setup --prefix=/usr --buildtype=release .. &&
 ninja
-meson configure -D man=true &&
-ninja
-sed "/json_docdir =/s|$| / 'json-glib-1.10.8'|" -i ../doc/meson.build &&
-meson configure -D documentation=enabled &&
-ninja
+
 ninja install
 
 cd "$ARYA_SOURCES"
