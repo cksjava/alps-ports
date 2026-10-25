@@ -41,7 +41,11 @@ rm -rf "$srcdir"
 extract_archive "$tarball"
 cd "$srcdir"
 
-./configure --prefix=/usr &&
+if pkg-config --exists 'libgvc >= 2.16'; then
+  ./configure --prefix=/usr
+else
+  ./configure --prefix=/usr --disable-valadoc
+fi &&
 make
 make install
 

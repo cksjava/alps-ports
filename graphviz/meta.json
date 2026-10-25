@@ -24,7 +24,9 @@
     "libpng"
   ],
   "build_before": [],
-  "build_after": [],
+  "build_after": [
+    "vala"
+  ],
   "order": 211,
   "group_order": 7
 }
