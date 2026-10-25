@@ -41,10 +41,6 @@ rm -rf "$srcdir"
 extract_archive "$tarball"
 cd "$srcdir"
 
-sed -e "s/'elinks'/'lynx'/"                       \
-    -e "s/'-no-numbering', '-no-references'/      \
-          '-force-html', '-nonumbers', '-stdin'/" \
-    -i meson.build
 mkdir build &&
 cd    build &&
 
