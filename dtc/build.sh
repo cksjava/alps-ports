@@ -54,6 +54,10 @@ ninja install
 pushd ../Documentation
 popd
 cp -R ../Documentation -T /usr/share/doc/dtc-1.8.1
+sed -e 's/PyString_FromString/PyUnicode_FromString/' \
+    -e 's/PyString_AsString/PyBytes_AsString/'       \
+    -e 's/PyInt_AsLong/PyLong_AsLong/'               \
+    -i ../pylibfdt/libfdt.i
 pip3 wheel -w dist --no-build-isolation --no-deps --no-cache-dir ..
 pip3 install --no-index --find-links dist --no-user libfdt
 

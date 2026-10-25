@@ -46,6 +46,8 @@ groupadd -g 33 postdrop &&
 useradd -c "Postfix Daemon User" -d /var/spool/postfix -g postfix \
         -s /bin/false -u 32 postfix &&
 chown -v postfix:postfix /var/mail
+CCARGS="-DNO_NIS -DNO_DB"
+AUXLIBS=""
 if [ -r /usr/lib/libsasl2.so ]; then
   CCARGS="$CCARGS -DUSE_SASL_AUTH -DUSE_CYRUS_SASL -I/usr/include/sasl"
   AUXLIBS="$AUXLIBS -lsasl2"
