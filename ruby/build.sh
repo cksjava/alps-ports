@@ -50,8 +50,6 @@ cd "$srcdir"
             --docdir=/usr/share/doc/ruby-4.0.6 &&
 make
 XDG_DATA_HOME=/tmp make install
-cd /path/to/web/app
-bundle update rake
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
