@@ -12,7 +12,7 @@ elif [[ -n "${ARYA_CONFIG:-}" && -r "$ARYA_CONFIG" ]]; then
     source "$ARYA_CONFIG"
 fi
 
-tar xf ../aspell6-en-2020.12.07-0.tar.bz2 &&
+tar xf aspell6-en-2020.12.07-0.tar.bz2 &&
 cd aspell6-en-2020.12.07-0                &&
 
 ./configure &&
