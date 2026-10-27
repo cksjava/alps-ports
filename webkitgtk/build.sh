@@ -61,7 +61,7 @@ cmake -D CMAKE_BUILD_TYPE=Release     \
       -D USE_SYSPROF_CAPTURE=NO       \
       -D ENABLE_SPEECH_SYNTHESIS=OFF  \
       -W no-author -G Ninja ..        &&
-ninja
+ninja -j$(($(nproc) / 4))
 ninja install
 rm -rf * .[^.]* &&
 
@@ -81,7 +81,7 @@ cmake -D CMAKE_BUILD_TYPE=Release         \
       -D USE_SYSPROF_CAPTURE=NO           \
       -D ENABLE_SPEECH_SYNTHESIS=OFF      \
       -W no-author -G Ninja ..            &&
-ninja
+ninja -j$(($(nproc) / 4))
 ninja install
 install -vdm755 /usr/share/gtk-doc/html &&
 cp -rv ../Documentation/* /usr/share/gtk-doc/html
