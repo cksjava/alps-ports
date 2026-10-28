@@ -73,15 +73,6 @@ make install &&
 install -v -m755    tools/qt-faststart /usr/bin &&
 install -v -m755 -d           /usr/share/doc/ffmpeg-9.0.1 &&
 install -v -m644    doc/*.txt /usr/share/doc/ffmpeg-9.0.1
-install -v -m755 -d /usr/share/doc/ffmpeg-9.0.1/api                     &&
-cp -vr doc/doxy/html/* /usr/share/doc/ffmpeg-9.0.1/api                  &&
-find /usr/share/doc/ffmpeg-9.0.1/api -type f -exec chmod -c 0644 \{} \; &&
-find /usr/share/doc/ffmpeg-9.0.1/api -type d -exec chmod -c 0755 \{} \;
-make fate-rsync SAMPLES=fate-suite/
-rsync -vrltLW  --delete --timeout=60 --contimeout=60 \
-      rsync://fate-suite.ffmpeg.org/fate-suite/ fate-suite/
-make fate THREADS=N SAMPLES=fate-suite/ | tee ../fate.log &&
-grep ^TEST ../fate.log | wc -l
 
 cd "$ARYA_SOURCES"
 rm -rf "$srcdir"
