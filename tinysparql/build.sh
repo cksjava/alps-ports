@@ -54,7 +54,7 @@ meson setup --prefix=/usr       \
             -D tests=false      \
             ..                  &&
 ninja
-meson configure -D man=true && ninja
+
 ninja install
 
 cd "$ARYA_SOURCES"
